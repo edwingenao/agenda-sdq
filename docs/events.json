@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-07T01:22:21+00:00",
+  "generated_at": "2026-10-07T03:41:03+00:00",
   "today": "2026-10-07",
-  "count": 23,
+  "count": 36,
   "events": [
     {
       "id": "cb8f6618f2535e0b",
@@ -296,6 +296,35 @@
       ]
     },
     {
+      "id": "109938a7fcbfd36c",
+      "source": "recurring",
+      "date": "2026-10-11",
+      "end": null,
+      "sessions": null,
+      "title": "Domingos de Bonyé",
+      "venue": "Ruinas de San Francisco, calle Hostos, Zona Colonial",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [
+        "cultura",
+        "serie"
+      ],
+      "description": "Música en vivo al aire libre con el grupo Bonyé: tambora, son, salsa y merengue.",
+      "ticketUrl": "",
+      "srcName": "SalsaVida",
+      "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-10-11",
+      "sources": [
+        {
+          "srcName": "SalsaVida",
+          "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-10-11"
+        }
+      ]
+    },
+    {
       "id": "80dad4549df0897c",
       "source": "cce",
       "date": "2026-10-14",
@@ -406,6 +435,35 @@
       ]
     },
     {
+      "id": "634a4aea6b021810",
+      "source": "recurring",
+      "date": "2026-10-18",
+      "end": null,
+      "sessions": null,
+      "title": "Domingos de Bonyé",
+      "venue": "Ruinas de San Francisco, calle Hostos, Zona Colonial",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [
+        "cultura",
+        "serie"
+      ],
+      "description": "Música en vivo al aire libre con el grupo Bonyé: tambora, son, salsa y merengue.",
+      "ticketUrl": "",
+      "srcName": "SalsaVida",
+      "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-10-18",
+      "sources": [
+        {
+          "srcName": "SalsaVida",
+          "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-10-18"
+        }
+      ]
+    },
+    {
       "id": "c847ea28e470239c",
       "source": "teatro_nacional",
       "date": "2026-10-24",
@@ -428,6 +486,260 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/david-bisbal-tour-eternos-2026/"
+        }
+      ]
+    },
+    {
+      "id": "c0d2806841447cd8",
+      "source": "recurring",
+      "date": "2026-10-25",
+      "end": null,
+      "sessions": null,
+      "title": "Domingos de Bonyé",
+      "venue": "Ruinas de San Francisco, calle Hostos, Zona Colonial",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [
+        "cultura",
+        "serie"
+      ],
+      "description": "Música en vivo al aire libre con el grupo Bonyé: tambora, son, salsa y merengue.",
+      "ticketUrl": "",
+      "srcName": "SalsaVida",
+      "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-10-25",
+      "sources": [
+        {
+          "srcName": "SalsaVida",
+          "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-10-25"
+        }
+      ]
+    },
+    {
+      "id": "fa9c28d643ffa80e",
+      "source": "recurring",
+      "date": "2026-10-26",
+      "end": null,
+      "sessions": null,
+      "title": "EUROCINE 2026",
+      "venue": "Caribbean Cinemas, Galería 360",
+      "zone": "",
+      "cat": "Cine",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [
+        "serie"
+      ],
+      "description": "Festival de cine europeo contemporáneo: 15 películas de distintos países de Europa.",
+      "ticketUrl": "",
+      "srcName": "DGCINE",
+      "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-26",
+      "sources": [
+        {
+          "srcName": "DGCINE",
+          "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "e17232004dcd4fb8",
+      "source": "recurring",
+      "date": "2026-10-27",
+      "end": null,
+      "sessions": null,
+      "title": "EUROCINE 2026",
+      "venue": "Caribbean Cinemas, Galería 360",
+      "zone": "",
+      "cat": "Cine",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [
+        "serie"
+      ],
+      "description": "Festival de cine europeo contemporáneo: 15 películas de distintos países de Europa.",
+      "ticketUrl": "",
+      "srcName": "DGCINE",
+      "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-27",
+      "sources": [
+        {
+          "srcName": "DGCINE",
+          "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "d8634cbbf684a2f0",
+      "source": "recurring",
+      "date": "2026-10-28",
+      "end": null,
+      "sessions": null,
+      "title": "EUROCINE 2026",
+      "venue": "Caribbean Cinemas, Galería 360",
+      "zone": "",
+      "cat": "Cine",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [
+        "serie"
+      ],
+      "description": "Festival de cine europeo contemporáneo: 15 películas de distintos países de Europa.",
+      "ticketUrl": "",
+      "srcName": "DGCINE",
+      "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-28",
+      "sources": [
+        {
+          "srcName": "DGCINE",
+          "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-28"
+        }
+      ]
+    },
+    {
+      "id": "d4d8ad5b327f7f48",
+      "source": "recurring",
+      "date": "2026-10-29",
+      "end": null,
+      "sessions": null,
+      "title": "EUROCINE 2026",
+      "venue": "Caribbean Cinemas, Galería 360",
+      "zone": "",
+      "cat": "Cine",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [
+        "serie"
+      ],
+      "description": "Festival de cine europeo contemporáneo: 15 películas de distintos países de Europa.",
+      "ticketUrl": "",
+      "srcName": "DGCINE",
+      "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-29",
+      "sources": [
+        {
+          "srcName": "DGCINE",
+          "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-29"
+        }
+      ]
+    },
+    {
+      "id": "613a46717ba81310",
+      "source": "recurring",
+      "date": "2026-10-30",
+      "end": null,
+      "sessions": null,
+      "title": "EUROCINE 2026",
+      "venue": "Caribbean Cinemas, Galería 360",
+      "zone": "",
+      "cat": "Cine",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [
+        "serie"
+      ],
+      "description": "Festival de cine europeo contemporáneo: 15 películas de distintos países de Europa.",
+      "ticketUrl": "",
+      "srcName": "DGCINE",
+      "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-30",
+      "sources": [
+        {
+          "srcName": "DGCINE",
+          "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "cb222b458fee4a84",
+      "source": "recurring",
+      "date": "2026-10-31",
+      "end": null,
+      "sessions": null,
+      "title": "EUROCINE 2026",
+      "venue": "Caribbean Cinemas, Galería 360",
+      "zone": "",
+      "cat": "Cine",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [
+        "serie"
+      ],
+      "description": "Festival de cine europeo contemporáneo: 15 películas de distintos países de Europa.",
+      "ticketUrl": "",
+      "srcName": "DGCINE",
+      "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-31",
+      "sources": [
+        {
+          "srcName": "DGCINE",
+          "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "18336acd3e5b3af4",
+      "source": "recurring",
+      "date": "2026-11-01",
+      "end": null,
+      "sessions": null,
+      "title": "EUROCINE 2026",
+      "venue": "Caribbean Cinemas, Galería 360",
+      "zone": "",
+      "cat": "Cine",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [
+        "serie"
+      ],
+      "description": "Festival de cine europeo contemporáneo: 15 películas de distintos países de Europa.",
+      "ticketUrl": "",
+      "srcName": "DGCINE",
+      "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-11-01",
+      "sources": [
+        {
+          "srcName": "DGCINE",
+          "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-11-01"
+        }
+      ]
+    },
+    {
+      "id": "39095ce0901af3b4",
+      "source": "recurring",
+      "date": "2026-11-01",
+      "end": null,
+      "sessions": null,
+      "title": "Domingos de Bonyé",
+      "venue": "Ruinas de San Francisco, calle Hostos, Zona Colonial",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [
+        "cultura",
+        "serie"
+      ],
+      "description": "Música en vivo al aire libre con el grupo Bonyé: tambora, son, salsa y merengue.",
+      "ticketUrl": "",
+      "srcName": "SalsaVida",
+      "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-11-01",
+      "sources": [
+        {
+          "srcName": "SalsaVida",
+          "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-11-01"
         }
       ]
     },
@@ -506,6 +818,64 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/la-ciguapa/"
+        }
+      ]
+    },
+    {
+      "id": "0fe6fe9a71205df0",
+      "source": "recurring",
+      "date": "2026-11-14",
+      "end": null,
+      "sessions": null,
+      "title": "809 Mercado",
+      "venue": "Jardín Botánico Nacional Dr. Rafael María Moscoso",
+      "zone": "",
+      "cat": "Gastronomía",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [
+        "cultura",
+        "serie"
+      ],
+      "description": "Mercado con más de 100 marcas: artesanía y gastronomía local, con música en vivo.",
+      "ticketUrl": "",
+      "srcName": "Hostelworld Events",
+      "srcUrl": "https://www.hostelworld.com/events/e/6a9b8740514fd3e727f8222f/809-mercado/#809-mercado-2026-11-2026-11-14",
+      "sources": [
+        {
+          "srcName": "Hostelworld Events",
+          "srcUrl": "https://www.hostelworld.com/events/e/6a9b8740514fd3e727f8222f/809-mercado/#809-mercado-2026-11-2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "d0b1b7f4141950bb",
+      "source": "recurring",
+      "date": "2026-11-15",
+      "end": null,
+      "sessions": null,
+      "title": "809 Mercado",
+      "venue": "Jardín Botánico Nacional Dr. Rafael María Moscoso",
+      "zone": "",
+      "cat": "Gastronomía",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [
+        "cultura",
+        "serie"
+      ],
+      "description": "Mercado con más de 100 marcas: artesanía y gastronomía local, con música en vivo.",
+      "ticketUrl": "",
+      "srcName": "Hostelworld Events",
+      "srcUrl": "https://www.hostelworld.com/events/e/6a9b8740514fd3e727f8222f/809-mercado/#809-mercado-2026-11-2026-11-15",
+      "sources": [
+        {
+          "srcName": "Hostelworld Events",
+          "srcUrl": "https://www.hostelworld.com/events/e/6a9b8740514fd3e727f8222f/809-mercado/#809-mercado-2026-11-2026-11-15"
         }
       ]
     },

@@ -32,6 +32,7 @@ SOURCE_PRIORITY = [
     "teatro_nacional",
     "casa_de_teatro",
     "sic",
+    "centro_leon",
     "zona_colonial",
     "cce",
     "jazz_en_dominicana",

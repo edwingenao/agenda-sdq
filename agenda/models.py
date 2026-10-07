@@ -32,6 +32,7 @@ _KIDS = re.compile(r"\b(ni[ñn]os?|ni[ñn]as?|infantil(?:es)?|familia(?:r|res|s)
 # (fragmento en minúsculas, zona)
 ZONES = [
     ("casa de teatro", "Ciudad Colonial"),
+    ("las damas", "Ciudad Colonial"),
     ("plaza de españa", "Ciudad Colonial"),
     ("centro cultural de españa", "Ciudad Colonial"),
     ("quinta dominica", "Ciudad Colonial"),

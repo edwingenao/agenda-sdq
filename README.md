@@ -38,6 +38,15 @@ como texto, no el HTML en bruto. Los selectores del código se apoyan en esos te
    de lo esperado: los archivos de `inspect/` son lo que hay que mirar para ajustar esa función.
 3. Revisa la lista de "necesitan revisión" al final de la corrida.
 
+## Repetidos entre fuentes
+
+La base guarda cada fuente por separado. Al exportar, `agenda/dedupe.py` une los eventos que son la misma
+función vista en varias fuentes (mismo día, sede compatible, título parecido y hora a menos de 90 min si ambas
+la traen). Los datos salen de la fuente más confiable (`SOURCE_PRIORITY`); la hora y el precio, de la mejor
+fuente que los informe. Cada evento de `events.json` lleva `sources` con todas sus fuentes, y la corrida lista
+los eventos unidos y los conflictos de hora o precio para revisarlos. Las variantes de nombres de sedes se
+agregan en `VENUE_ALIASES`.
+
 ## Reglas de cortesía (ya implementadas en `agenda/http.py`)
 
 - Lee y respeta `robots.txt`, incluidos los comodines (`*p_p_id=`). Si no puede leerlo (5xx), omite el sitio.

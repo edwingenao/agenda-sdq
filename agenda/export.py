@@ -7,11 +7,27 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 
 from agenda.db import DB
+from agenda.dedupe import dedupe
 from agenda.models import Event
 
 
-def export_json(db: DB, path: str | Path, today: date) -> int:
-    events = [Event(**p).to_public() for p in db.upcoming(today)]
+def export_json(db: DB, path: str | Path, today: date, log=None) -> int:
+    """Escribe los eventos próximos, con los repetidos entre fuentes ya unidos. Devuelve cuántos."""
+    raw = [Event(**p) for p in db.upcoming(today)]
+    merged = dedupe(raw)
+    events = []
+    for m in merged:
+        pub = m.event.to_public()
+        pub["sources"] = [{"srcName": s["name"], "srcUrl": s["url"]} for s in m.sources]
+        events.append(pub)
+    if log:
+        joined = [m for m in merged if len(m.sources) > 1]
+        if joined:
+            log(f"{len(raw) - len(merged)} repetido(s) unidos en {len(joined)} evento(s):")
+            for m in joined:
+                log(f"   - {m.event.title}  ({', '.join(s['id'] for s in m.sources)})")
+                for c in m.conflicts:
+                    log(f"       ! {c}")
     out = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "today": today.isoformat(),

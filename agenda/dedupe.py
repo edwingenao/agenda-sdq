@@ -1,50 +1,39 @@
-"""Deduplicación de eventos para la Agenda Cultural de Santo Domingo.
+"""Deduplicación de eventos entre fuentes.
 
-Cada adaptador produce Event. dedupe(events) devuelve una lista donde los
-eventos que son la misma ocurrencia, vistos en varias fuentes, quedan
-fusionados en uno solo con la mejor información de cada fuente.
+dedupe(events) recibe los Event de agenda.models (uno por fuente) y devuelve una
+lista de Merged: los eventos que son la misma ocurrencia, vistos en varias
+fuentes, quedan fusionados en uno solo con la mejor información de cada fuente.
 
+Se aplica al exportar; la base sigue guardando cada fuente por separado.
 Solo usa la biblioteca estándar.
 """
 from __future__ import annotations
 
 import re
 import unicodedata
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 from datetime import datetime, timedelta
 from difflib import SequenceMatcher
 from typing import Optional
 
-# --------------------------------------------------------------------------
-# Modelo mínimo. Si ya tienes tu propio Event, basta con que tenga estos campos.
-# --------------------------------------------------------------------------
+from agenda.models import DEFAULT_CATEGORY, Event
 
 
 @dataclass
-class Event:
-    title: str
-    start: datetime                      # fecha (y hora si has_time)
-    source: str                          # id del adaptador, p. ej. "teatro_nacional"
-    venue: Optional[str] = None
-    has_time: bool = True                # False si la fuente solo trae la fecha
-    url: Optional[str] = None
-    category: Optional[str] = None
-    description: Optional[str] = None
-    is_free: Optional[bool] = None       # None = desconocido
-    price_min: Optional[int] = None      # RD$
-    price_max: Optional[int] = None
-    sources: list = field(default_factory=list)    # [(source, url), ...] tras fusionar
+class Merged:
+    event: Event                                   # evento fusionado (datos de la mejor fuente)
+    sources: list = field(default_factory=list)    # [{"id", "name", "url"}, ...] por prioridad
     conflicts: list = field(default_factory=list)  # avisos para revisión manual
 
 
-# Fuentes más confiables primero. Estructuradas (API / JSON-LD) por encima de
-# HTML, y HTML por encima de blogs y agregadores.
+# Fuentes más confiables primero (ids de agenda/sources). Estructuradas
+# (API / JSON-LD) por encima de HTML, y HTML por encima de blogs y agregadores.
 SOURCE_PRIORITY = [
     "teatro_nacional",
-    "casa_teatro",
-    "zonacolonial",
+    "casa_de_teatro",
+    "zona_colonial",
     "cce",
-    "jazz_dominicana",
+    "jazz_en_dominicana",
 ]
 
 
@@ -142,13 +131,17 @@ def venues_compatible(a: Optional[str], b: Optional[str]) -> tuple:
     return False, False
 
 
+def _start_dt(e: Event) -> datetime:
+    return datetime.fromisoformat(f"{e.start}T{e.start_time or '00:00'}")
+
+
 def times_compatible(a: Event, b: Event, tolerance_min: int = 90) -> tuple:
     """(compatible, confirmado). Mismo día obligatorio; hora solo si ambos la traen."""
-    if a.start.date() != b.start.date():
+    if a.start != b.start:
         return False, False
-    if not (a.has_time and b.has_time):
+    if not (a.start_time and b.start_time):
         return True, False
-    diff = abs(a.start - b.start)
+    diff = abs(_start_dt(a) - _start_dt(b))
     return diff <= timedelta(minutes=tolerance_min), True
 
 
@@ -184,10 +177,10 @@ def _group(events: list) -> list:
             i = parent[i]
         return i
 
-    # Bloqueo por fecha: solo se comparan eventos del mismo día.
+    # Bloqueo por fecha de inicio: solo se comparan eventos del mismo día.
     by_day = {}
     for i, e in enumerate(events):
-        by_day.setdefault(e.start.date(), []).append(i)
+        by_day.setdefault(e.start, []).append(i)
 
     for idxs in by_day.values():
         for x in range(len(idxs)):
@@ -212,52 +205,55 @@ def _first(values):
     return None
 
 
-def merge_group(group: list) -> Event:
+def _source_ref(e: Event) -> dict:
+    return {"id": e.source, "name": e.source_name, "url": e.url}
+
+
+def merge_group(group: list) -> Merged:
     if len(group) == 1:
-        e = group[0]
-        e.sources = e.sources or [(e.source, e.url)]
-        return e
+        return Merged(group[0], [_source_ref(group[0])])
 
     g = sorted(group, key=lambda e: _rank(e.source))
     best = g[0]
-    merged = Event(
-        title=best.title,
-        start=best.start,
-        source=best.source,
-        venue=_first(e.venue for e in g),
-        has_time=best.has_time,
-        url=_first(e.url for e in g),
-        category=_first(e.category for e in g),
+    conflicts = []
+    # Parte de la mejor fuente (conserva source, url y por tanto el id público).
+    merged = replace(
+        best,
+        venue=_first(e.venue for e in g) or "",
+        zone=_first(e.zone for e in g) or "",
+        # La categoría específica gana a la genérica "Cultura".
+        category=_first(e.category for e in g if e.category != DEFAULT_CATEGORY) or best.category,
         # La descripción más larga suele ser la más útil.
-        description=max((e.description or "" for e in g), key=len) or None,
+        description=max((e.description for e in g), key=len),
+        ticket_url=_first(e.ticket_url for e in g) or "",
+        kids=any(e.kids for e in g),
+        tags=list(dict.fromkeys(t for e in g for t in e.tags)),
+        needs_review=any(e.needs_review for e in g),
     )
 
     # Hora: la de la fuente de mayor prioridad que la tenga.
-    with_time = [e for e in g if e.has_time]
+    with_time = [e for e in g if e.start_time]
     if with_time:
-        merged.start, merged.has_time = with_time[0].start, True
-        times = {e.start.strftime("%H:%M") for e in with_time}
+        merged.start_time = with_time[0].start_time
+        times = {e.start_time for e in with_time}
         if len(times) > 1:
-            merged.conflicts.append(f"hora distinta entre fuentes: {sorted(times)}")
+            conflicts.append(f"hora distinta entre fuentes: {sorted(times)}")
 
     # Precio: solo de fuentes que lo informan; prioridad por fuente.
     priced = [e for e in g if e.is_free is not None or e.price_min is not None]
     if priced:
         p = priced[0]
-        merged.is_free, merged.price_min, merged.price_max = (
-            p.is_free, p.price_min, p.price_max,
-        )
+        merged.is_free, merged.price_min, merged.price_max = p.is_free, p.price_min, p.price_max
         distinct = {(e.is_free, e.price_min, e.price_max) for e in priced}
         if len(distinct) > 1:
-            merged.conflicts.append(
+            conflicts.append(
                 "precio distinto entre fuentes: "
                 + "; ".join(f"{e.source}={e.price_min}-{e.price_max} gratis={e.is_free}" for e in priced)
             )
 
-    merged.sources = [(e.source, e.url) for e in g]
-    return merged
+    return Merged(merged, [_source_ref(e) for e in g], conflicts)
 
 
 def dedupe(events: list) -> list:
     merged = [merge_group(grp) for grp in _group(events)]
-    return sorted(merged, key=lambda e: (e.start, norm_text(e.title)))
+    return sorted(merged, key=lambda m: (_start_dt(m.event), norm_text(m.event.title)))

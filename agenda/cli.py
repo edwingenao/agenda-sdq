@@ -52,7 +52,8 @@ def cmd_run(args) -> int:
                   f"{counts['same']} sin cambios")
     finally:
         fetcher.close()
-    n = export_json(db, args.out, today)
+    print()
+    n = export_json(db, args.out, today, log=print)
     review = db.review_queue(today)
     print(f"\nExportados {n} eventos próximos a {args.out}")
     if review:
@@ -85,7 +86,7 @@ def cmd_inspect(args) -> int:
 
 
 def cmd_export(args) -> int:
-    n = export_json(DB(args.db), args.out, _today(args))
+    n = export_json(DB(args.db), args.out, _today(args), log=print)
     print(f"Exportados {n} eventos a {args.out}")
     return 0
 

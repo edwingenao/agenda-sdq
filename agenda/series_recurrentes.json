@@ -1,0 +1,197 @@
+{
+  "_comentario": "Series recurrentes y eventos puntuales curados a mano. Los lee recurring.py y los convierte en eventos con fecha. Para agregar uno: copia un bloque de 'series', cambia el id (único), llena 'sources' con la página donde lo viste y pon 'last_confirmed' con la fecha de hoy. Una serie de temporada queda con \"active\": false hasta que anuncien las fechas de la próxima edición: entonces actualiza 'valid_from' y 'valid_until' y pon \"active\": true. Después corre las pruebas: una entrada mal escrita se salta y se reporta, no se publica.",
+  "_campos": {
+    "pattern.freq": "weekly (todas las semanas) | monthly_nth (el n-ésimo día del mes: nth 1, 2, 3, 4 o -1 para el último) | dates (fechas sueltas, para eventos puntuales)",
+    "pattern.weekday": "lunes, martes, miércoles, jueves, viernes, sábado, domingo (uno o una lista)",
+    "price.status": "free | paid (con min y max si se conocen) | unconfirmed. Si no hay evidencia, unconfirmed: nunca se asume gratis",
+    "confidence": "oficial (página del organizador o del Estado) | listado (guía o prensa) | sin_verificar",
+    "start_time": "HH:MM. Si no se conoce, null: no se inventa la hora",
+    "stale_after_days": "días sin reconfirmar antes de mostrar 'confirma antes de ir'"
+  },
+  "series": [
+    {
+      "id": "bonye-domingos",
+      "title": "Domingos de Bonyé",
+      "active": true,
+      "pattern": { "freq": "weekly", "weekday": "domingo" },
+      "start_time": "18:00",
+      "end_time": "22:00",
+      "valid_from": null,
+      "valid_until": null,
+      "exceptions": [],
+      "venue": "Ruinas de San Francisco, calle Hostos, Zona Colonial",
+      "category": ["Música", "Cultura"],
+      "price": { "status": "free" },
+      "description": "Música en vivo al aire libre con el grupo Bonyé: tambora, son, salsa y merengue.",
+      "url": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/",
+      "sources": [
+        {
+          "name": "SalsaVida",
+          "url": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/",
+          "seen": "2026-10-06",
+          "says": "Todos los domingos, 6:00 a 10:00 pm, gratis; próximo el 11 de octubre de 2026"
+        },
+        {
+          "name": "Marriott Traveler",
+          "url": "https://traveler.marriott.com/dominican-republic/santo-domingo-live-music/",
+          "seen": "2026-10-06",
+          "says": "Domingos por la noche, Ruinas de San Francisco, gratis; sin fecha de la página"
+        },
+        {
+          "name": "Presidencia (nota del 14 de noviembre de 2021)",
+          "url": "https://presidencia.gob.do/noticias/primera-dama-asiste-al-reinicio-de-los-domingos-de-bonye",
+          "seen": "2026-10-06",
+          "says": "Reinicio tras la pandemia; horario histórico de 6:00 a 10:00 pm; 12 años tocando sin interrupción"
+        },
+        {
+          "name": "Diario Libre (Turizoneando 2026)",
+          "url": "https://www.diariolibre.com/revista/cultura/2026/06/22/actividades-de-turizoneando-2026-en-la-ciudad-colonial/3575770",
+          "seen": "2026-10-06",
+          "says": "Bonyé los domingos en las Ruinas de San Francisco durante Turizoneando (20 jun al 30 ago de 2026)"
+        }
+      ],
+      "confidence": "listado",
+      "last_confirmed": "2026-10-06",
+      "stale_after_days": 60,
+      "notes": "Sin confirmación oficial de 2026. Un listado de Acento de enero de 2026 lo ubicó en las Ruinas de San Nicolás de Bari: confirmar el lugar."
+    },
+    {
+      "id": "809-mercado-2026-11",
+      "title": "809 Mercado",
+      "active": true,
+      "pattern": { "freq": "dates", "dates": ["2026-11-14", "2026-11-15"] },
+      "start_time": null,
+      "end_time": null,
+      "exceptions": [],
+      "venue": "Jardín Botánico Nacional Dr. Rafael María Moscoso",
+      "category": ["Gastronomía", "Cultura"],
+      "price": { "status": "unconfirmed" },
+      "description": "Mercado con más de 100 marcas: artesanía y gastronomía local, con música en vivo.",
+      "url": "https://www.hostelworld.com/events/e/6a9b8740514fd3e727f8222f/809-mercado/",
+      "sources": [
+        {
+          "name": "Hostelworld Events",
+          "url": "https://www.hostelworld.com/events/e/6a9b8740514fd3e727f8222f/809-mercado/",
+          "seen": "2026-10-06",
+          "says": "14 y 15 de noviembre de 2026, Jardín Botánico; sin precio ni horario en la página"
+        }
+      ],
+      "confidence": "listado",
+      "last_confirmed": "2026-10-06",
+      "stale_after_days": 30,
+      "notes": "Evento puntual. Falta horario y precio de entrada; buscar la página del organizador."
+    },
+    {
+      "id": "cine-dominicano-banreservas",
+      "title": "Ciclo de Cine Dominicano (Centro Cultural Banreservas)",
+      "active": false,
+      "pattern": { "freq": "weekly", "weekday": "jueves" },
+      "start_time": "19:00",
+      "end_time": null,
+      "valid_from": "2026-05-07",
+      "valid_until": "2026-07-30",
+      "exceptions": [],
+      "venue": "Centro Cultural Banreservas, Ciudad Colonial",
+      "category": ["Cultura"],
+      "price": { "status": "free" },
+      "description": "Proyecciones de cine dominicano, entrada libre hasta completar aforo.",
+      "url": "https://acento.com.do/cultura/banreservas-inaugura-v-ciclo-de-cine-dominicano-2026-9675192.html",
+      "sources": [
+        {
+          "name": "Acento (9 de mayo de 2026)",
+          "url": "https://acento.com.do/cultura/banreservas-inaugura-v-ciclo-de-cine-dominicano-2026-9675192.html",
+          "seen": "2026-10-06",
+          "says": "V ciclo: todos los jueves del 7 de mayo al 30 de julio, 7:00 pm; gratis hasta completar aforo"
+        }
+      ],
+      "confidence": "listado",
+      "last_confirmed": "2026-10-06",
+      "stale_after_days": 60,
+      "notes": "Terminó. Quinta edición: esperar el anuncio de la sexta (probablemente por mayo de 2027) y entonces actualizar fechas y activar."
+    },
+    {
+      "id": "cine-dominicano-casa-de-teatro",
+      "title": "Ciclo de cine dominicano (Casa de Teatro)",
+      "active": false,
+      "pattern": { "freq": "weekly", "weekday": "martes" },
+      "start_time": null,
+      "end_time": null,
+      "valid_from": "2026-03-03",
+      "valid_until": "2026-07-28",
+      "exceptions": [],
+      "venue": "Casa de Teatro, Zona Colonial",
+      "category": ["Cultura"],
+      "price": { "status": "paid" },
+      "description": "Ciclo de 20 películas dominicanas, con tres estrenos nacionales.",
+      "url": "https://acento.com.do/cine/casa-de-teatro-presenta-ciclo-2026-con-20-peliculas-dominicanas-y-tres-estrenos-nacionales-9629534.html",
+      "sources": [
+        {
+          "name": "Acento (25 de febrero de 2026)",
+          "url": "https://acento.com.do/cine/casa-de-teatro-presenta-ciclo-2026-con-20-peliculas-dominicanas-y-tres-estrenos-nacionales-9629534.html",
+          "seen": "2026-10-06",
+          "says": "Martes del 3 de marzo al 28 de julio; entradas por tix.do; la nota no da hora ni precio"
+        }
+      ],
+      "confidence": "listado",
+      "last_confirmed": "2026-10-06",
+      "stale_after_days": 60,
+      "notes": "Terminó. De pago: la nota no publica el precio."
+    },
+    {
+      "id": "turizoneando-folclor-sabados",
+      "title": "Música folclórica en el Parque Pellerano Castro (Turizoneando)",
+      "active": false,
+      "pattern": { "freq": "weekly", "weekday": "sábado" },
+      "start_time": null,
+      "end_time": null,
+      "valid_from": "2026-06-20",
+      "valid_until": "2026-08-30",
+      "exceptions": [],
+      "venue": "Parque Pellerano Castro, Zona Colonial",
+      "category": ["Música", "Cultura"],
+      "price": { "status": "free" },
+      "description": "Música folclórica gratuita dentro del programa Turizoneando.",
+      "url": "https://www.diariolibre.com/revista/cultura/2026/06/22/actividades-de-turizoneando-2026-en-la-ciudad-colonial/3575770",
+      "sources": [
+        {
+          "name": "Diario Libre (22 de junio de 2026)",
+          "url": "https://www.diariolibre.com/revista/cultura/2026/06/22/actividades-de-turizoneando-2026-en-la-ciudad-colonial/3575770",
+          "seen": "2026-10-06",
+          "says": "Sábados: música folclórica en el Parque Pellerano Castro; programa del 20 de junio al 30 de agosto"
+        }
+      ],
+      "confidence": "listado",
+      "last_confirmed": "2026-10-06",
+      "stale_after_days": 60,
+      "notes": "Terminó con la edición de verano. Vigilar el anuncio de la próxima edición de Turizoneando."
+    },
+    {
+      "id": "plaza-de-la-cultura-fines-de-semana",
+      "title": "Cartelera de fines de semana en la Plaza de la Cultura",
+      "active": false,
+      "pattern": { "freq": "weekly", "weekday": ["sábado", "domingo"] },
+      "start_time": "09:00",
+      "end_time": "17:00",
+      "valid_from": null,
+      "valid_until": null,
+      "exceptions": [],
+      "venue": "Plaza de la Cultura Juan Pablo Duarte",
+      "category": ["Cultura"],
+      "price": { "status": "free" },
+      "description": "Actividades educativas y recreativas para toda la familia del Ministerio de Cultura.",
+      "url": "https://presidencia.gob.do/noticias/ministerio-de-cultura-ofrece-cartelera-educativa-y-recreativa-para-toda-la-familia-en-la",
+      "sources": [
+        {
+          "name": "Presidencia (3 de mayo de 2023)",
+          "url": "https://presidencia.gob.do/noticias/ministerio-de-cultura-ofrece-cartelera-educativa-y-recreativa-para-toda-la-familia-en-la",
+          "seen": "2026-10-06",
+          "says": "Todos los fines de semana, 9:00 am a 5:00 pm, gratis; empezó el 29 de abril de 2023"
+        }
+      ],
+      "confidence": "sin_verificar",
+      "last_confirmed": null,
+      "stale_after_days": 60,
+      "notes": "Solo hay una nota de 2023. No activar hasta confirmar con el Ministerio de Cultura que sigue vigente en 2026."
+    }
+  ]
+}

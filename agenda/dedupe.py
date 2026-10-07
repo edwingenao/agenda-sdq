@@ -36,6 +36,7 @@ SOURCE_PRIORITY = [
     "zona_colonial",
     "cce",
     "jazz_en_dominicana",
+    "recurring",  # listados curados a mano: si una fuente publica el mismo evento, gana esa
 ]
 
 

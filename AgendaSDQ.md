@@ -48,6 +48,7 @@ Si un documento y el código no coinciden, manda el código; actualiza el docume
 | `zona_colonial` | zonacolonial.do | **En pausa**: responde 403 a los servidores de GitHub. Desde una PC funciona |
 | `cce` | Centro Cultural de España | Activa. Solo la página 1 del buscador (robots.txt), 30 s entre peticiones |
 | `jazz_en_dominicana` | Jazz en Dominicana (feed Atom) | Activa. Solo Santo Domingo |
+| `recurring` | Series curadas a mano (`agenda/series_recurrentes.json`) | Activa: Domingos de Bonyé y 809 Mercado. Para agregar o reconfirmar una serie se edita ese archivo (instrucciones dentro) |
 
 El orden de confianza para unir repetidos está en `SOURCE_PRIORITY` (`agenda/dedupe.py`).
 
@@ -71,7 +72,7 @@ El orden de confianza para unir repetidos está en `SOURCE_PRIORITY` (`agenda/de
 - El sitio muestra los chips **Música, Teatro y danza, Arte, Gastronomía y Cultura**. Teatro y Danza se juntan; Cine y
   Literatura van dentro de Cultura.
 - Pendiente: el documento "Campos de cada evento" permite hasta **2** categorías, pero el modelo guarda solo una.
-- Gastronomía todavía no tiene ninguna fuente.
+- Gastronomía solo tiene, por ahora, eventos de las series curadas (809 Mercado).
 
 ## Cómo trabajar
 
@@ -101,5 +102,6 @@ El orden de confianza para unir repetidos está en `SOURCE_PRIORITY` (`agenda/de
 - Fuentes sin integrar: Quinta Dominica (solo boletín por correo; hace falta un correo del proyecto), PDF "Mi Cultura"
   del Ministerio, Museos RD, Cinemateca (programas fijos, carga manual), Centro Cultural Banreservas (página vacía),
   galerías, ticketeras y medios.
-- Fuentes de Gastronomía.
+- Fuentes de Gastronomía que publiquen con regularidad.
+- Reconfirmar las series curadas antes de que venzan (60 días sin confirmar las marca para revisión) y activar las de temporada cuando anuncien fechas.
 - La hora de los eventos del Teatro Nacional (su página no la publica).

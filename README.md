@@ -4,6 +4,18 @@ Lee fuentes de eventos, los normaliza a un esquema único, los guarda en SQLite 
 `docs/events.json` para el sitio (misma forma que el prototipo: `date`, `end`, `title`, `venue`, `zone`,
 `cat`, `price`, `time`, `kids`, `srcName`, `srcUrl`...).
 
+## Sitio
+
+`docs/index.html` es la app (Hoy, Calendario, Guardados y detalle). Lee `docs/events.json`, que el workflow
+diario actualiza, y se publica con GitHub Pages (rama `main`, carpeta `/docs`). Para verla en local:
+
+```bash
+python -m http.server 8765 --directory docs   # y abre http://localhost:8765
+```
+
+Los eventos con rango de fechas sin sesiones (p. ej. una obra del 9 al 18) salen una sola vez con "Hasta",
+porque la fuente no dice qué días hay función dentro del rango.
+
 ## Uso
 
 ```bash

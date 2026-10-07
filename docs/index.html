@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Agenda SDQ</title>
+<meta name="description" content="Agenda cultural de Santo Domingo: música, cultura y planes gratis, actualizada cada día.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500;700&display=swap">
+<style>
+/* Diseño de las 8 pantallas: lista Hoy con selector de rango y chips de color; detalle con cabecera de círculos. */
+:root{--bg:#FFFFFF;--ink:#10222E;--muted:#4A5A64;--line:#DCE3E1;--soft:#F2F5F4;--teal:#0B7A75;--teal-ink:#086660;--red:#D43F2A;--yellow:#FFB62E;--gold:#FFD166;--sel-bg:#10222E;--sel-fg:#FFFFFF;--free-bg:#10222E;--free-fg:#FFD166;
+--c-musica-bg:#FBE3DE;--c-musica-fg:#B3301D;--c-gastro-bg:#FFF0CC;--c-gastro-fg:#7A4F00;--c-cultura-bg:#D6EFEC;--c-cultura-fg:#086660;
+--display:"Bricolage Grotesque","Trebuchet MS",sans-serif;--body:"DM Sans",system-ui,sans-serif;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0D1A23;--ink:#EEF3F2;--muted:#9FB0B8;--line:#26383F;--soft:#16262F;--teal-ink:#4FC3BC;--sel-bg:#EEF3F2;--sel-fg:#10222E;--free-bg:#FFD166;--free-fg:#10222E;--c-musica-bg:#4A1F18;--c-musica-fg:#FFB4A6;--c-gastro-bg:#4A3500;--c-gastro-fg:#FFD98A;--c-cultura-bg:#0F3A37;--c-cultura-fg:#8DE0D9;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0D1A23;--ink:#EEF3F2;--muted:#9FB0B8;--line:#26383F;--soft:#16262F;--teal-ink:#4FC3BC;--sel-bg:#EEF3F2;--sel-fg:#10222E;--free-bg:#FFD166;--free-fg:#10222E;--c-musica-bg:#4A1F18;--c-musica-fg:#FFB4A6;--c-gastro-bg:#4A3500;--c-gastro-fg:#FFD98A;--c-cultura-bg:#0F3A37;--c-cultura-fg:#8DE0D9;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+img{max-width:100%}
+[hidden]{display:none!important}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.4 var(--body);padding-inline:16px;padding-block:calc(18px + env(safe-area-inset-top,0px)) 104px}
+.wrap{max-width:520px;margin-inline:auto}
+button,a{font-family:inherit}
+button:focus-visible,a:focus-visible{outline:2px solid var(--teal-ink);outline-offset:2px}
+.top{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+.top b{font:800 18px var(--display);letter-spacing:-.01em}
+.logo{border-radius:9px;background:#10222E;flex:none}
+.fecha{font-size:13px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+h1{margin:2px 0 0;font:800 clamp(28px,8vw,34px)/1.05 var(--display);letter-spacing:-.02em}
+.resumen{margin:6px 0 0;color:var(--muted)}
+.rango{display:flex;gap:4px;padding:4px;border-radius:26px;background:var(--soft);margin-top:14px}
+.rango button{flex:1 1 0;min-width:0;min-height:44px;border-radius:22px;border:0;background:transparent;color:var(--ink);font-size:14.5px;font-weight:700;cursor:pointer}
+.rango button[aria-pressed="true"]{background:var(--sel-bg);color:var(--sel-fg)}
+.chips{display:flex;gap:8px;margin-top:12px;overflow-x:auto;padding-bottom:4px}
+.chip{flex:none;min-height:44px;padding:0 14px;border-radius:22px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:700;cursor:pointer;white-space:nowrap}
+.chip i{width:10px;height:10px;border-radius:5px;border:1px solid rgba(128,128,128,.5)}
+.chip[aria-pressed="true"]{background:var(--sel-bg);color:var(--sel-fg);border-color:var(--sel-bg)}
+.lista{display:flex;flex-direction:column;gap:12px;margin-top:12px}
+.dia{font:700 13px var(--body);color:var(--teal-ink);text-transform:uppercase;letter-spacing:.08em;margin:10px 0 -2px}
+.card{display:flex;gap:14px;padding:14px;border:1px solid var(--line);border-radius:18px;background:var(--bg);color:inherit;text-align:left;width:100%;cursor:pointer;font-size:inherit}
+.card .t{width:56px;flex:0 0 56px}
+.card .h{font:800 22px/1 var(--display);font-variant-numeric:tabular-nums}
+.card .h.sin{font:700 13px/1.15 var(--body);color:var(--muted)}
+.card .ap{font-size:12px;font-weight:700;color:var(--muted)}
+.card .c{flex:1;min-width:0;display:flex;flex-direction:column;gap:6px;align-items:flex-start}
+.cat{font-size:12px;font-weight:700;padding:3px 10px;border-radius:12px}
+.cat.musica{background:var(--c-musica-bg);color:var(--c-musica-fg)}.cat.gastronomia{background:var(--c-gastro-bg);color:var(--c-gastro-fg)}.cat.cultura{background:var(--c-cultura-bg);color:var(--c-cultura-fg)}
+.card h3{margin:0;font:700 18px/1.15 var(--display);text-wrap:balance}
+.lugar{display:flex;align-items:center;gap:6px;font-size:14px;color:var(--muted)}
+.hasta{font-size:12.5px;font-weight:700;color:var(--teal-ink)}
+.gratis{background:var(--free-bg);color:var(--free-fg);font-size:12.5px;font-weight:700;padding:4px 12px;border-radius:14px}
+.pago{border:1.5px solid var(--ink);font-size:12.5px;font-weight:700;padding:2.5px 11px;border-radius:14px}
+.pago.nd{border-color:var(--line);color:var(--muted);font-weight:500}
+.vacio{margin-top:24px;padding:28px 20px;border:1.5px dashed var(--line);border-radius:18px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:10px}
+.vacio b{font:700 20px var(--display)}.vacio span{color:var(--muted)}
+.vacio button{min-height:44px;padding:0 20px;border-radius:22px;border:0;background:var(--sel-bg);color:var(--sel-fg);font-size:14px;font-weight:700;cursor:pointer}
+.pie{margin-top:28px;color:var(--muted);font-size:13px}
+.cargando{margin-top:40px;color:var(--muted);text-align:center}
+/* navegación, calendario, guardados */
+.nav{position:fixed;left:0;right:0;bottom:0;background:var(--bg);border-top:1px solid var(--line);display:flex;padding-bottom:env(safe-area-inset-bottom,0px);z-index:5}
+.nav button{flex:1;min-height:68px;border:0;background:transparent;color:var(--muted);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;font-size:12px;font-weight:700;cursor:pointer;border-top:3px solid transparent;margin-top:-1px}
+.nav button[aria-current="page"]{color:var(--ink);border-top-color:var(--red)}
+.cw{position:relative}
+.cw .card{padding-right:62px}
+.gu{position:absolute;right:8px;top:8px;width:44px;height:44px;border-radius:22px;border:0;background:transparent;color:var(--ink);display:flex;align-items:center;justify-content:center;cursor:pointer}
+.gu[aria-pressed="true"] svg{fill:var(--red);stroke:var(--red)}
+.mes{display:flex;align-items:center;justify-content:space-between;margin-top:14px}
+.mes h2{margin:0;font:800 20px var(--display);text-transform:capitalize}
+.mes button{width:44px;height:44px;border-radius:22px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer;display:flex;align-items:center;justify-content:center}
+.mes button:disabled{opacity:.35;cursor:default}
+.sem,.rej{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px;margin-top:8px}
+.sem span{text-align:center;font-size:12px;font-weight:700;color:var(--muted)}
+.rej button{aspect-ratio:1/1.05;min-height:44px;border-radius:12px;border:1.5px solid transparent;background:var(--soft);color:var(--ink);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;font:700 15px var(--body);cursor:pointer;padding:0}
+.rej button.off{background:transparent;color:var(--muted);font-weight:500}
+.rej button.hoy{border-color:var(--teal-ink)}
+.rej button[aria-pressed="true"]{background:var(--sel-bg);color:var(--sel-fg)}
+.rej .pts{display:flex;gap:3px;height:6px}.rej .pts i{width:6px;height:6px;border-radius:3px}
+.rej .vac{visibility:hidden}
+/* detalle */
+.hero{position:relative;height:200px;margin:calc(-18px - env(safe-area-inset-top,0px)) -16px 0;overflow:hidden;background:var(--hero)}
+.hero svg{position:absolute;inset:0;width:100%;height:100%}
+.volver{position:absolute;left:16px;top:calc(18px + env(safe-area-inset-top,0px));width:44px;height:44px;border-radius:22px;border:0;background:#fff;color:#10222E;display:flex;align-items:center;justify-content:center;cursor:pointer}
+.hero .gu{position:absolute;right:16px;top:calc(18px + env(safe-area-inset-top,0px));background:#fff;color:#10222E}.hero .cat{position:absolute;left:16px;bottom:14px;font-size:13px;padding:5px 12px;border-radius:14px}
+.det h1{font-size:clamp(28px,8vw,34px);margin:18px 0 10px}
+.filas{display:flex;flex-direction:column;gap:14px;margin:18px 0}
+.fila{display:flex;gap:14px;align-items:center}
+.fila .ic{width:44px;height:44px;flex:none;border-radius:14px;background:var(--soft);display:flex;align-items:center;justify-content:center}
+.fila small{display:block;font-size:12.5px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.fila div{min-width:0}.fila strong{font-size:16px}
+.desc{font-size:15.5px;line-height:1.5;color:var(--muted);white-space:pre-line;max-width:65ch}
+.aviso{margin:0 0 14px;padding:10px 14px;border-radius:14px;background:var(--c-gastro-bg);color:var(--c-gastro-fg);font-size:14px}
+.acciones{display:flex;gap:10px;margin-top:22px;flex-wrap:wrap}
+.acciones a{flex:1 1 150px;min-height:52px;border-radius:26px;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-size:15px;font-weight:700;border:1.5px solid var(--ink);color:var(--ink)}
+.acciones a.p{background:var(--sel-bg);color:var(--sel-fg)}
+.tambien{margin-top:14px;font-size:14px;color:var(--muted)}
+.tambien a{color:var(--teal-ink);font-weight:700}
+</style>
+</head>
+<body>
+<div class="wrap" id="app"><p class="cargando">Cargando la agenda…</p></div>
+<script>
+// Los datos salen de events.json, que el scraper publica cada día (python -m agenda run).
+const MESES=["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
+const DIAS=["domingo","lunes","martes","miércoles","jueves","viernes","sábado"];
+const CAT={musica:"Música",gastronomia:"Gastronomía",cultura:"Cultura"};
+const SUB={teatro:"Teatro",cine:"Cine",danza:"Danza",arte:"Arte",literatura:"Literatura",charlas:"Charlas",talleres:"Talleres"};
+// Categoría del scraper -> [categoría principal, subcategoría] de la app
+const MAPCAT={"Música":["musica",null],"Gastronomía":["gastronomia",null],"Teatro":["cultura","teatro"],"Danza":["cultura","danza"],"Cine":["cultura","cine"],"Arte":["cultura","arte"],"Literatura":["cultura","literatura"],"Cultura":["cultura",null]};
+const etq=e=>CAT[e.categorias[0]]+(e.subcategoria?" · "+SUB[e.subcategoria]:"");
+const PUNTO={musica:"#D43F2A",gastronomia:"#FFB62E",cultura:"#0B7A75"};
+const HERO={musica:["#D43F2A","#B3301D","#FFB62E","#FBE3DE"],gastronomia:["#FFB62E","#E39A10","#D43F2A","#FFF0CC"],cultura:["#0B7A75","#086660","#FFB62E","#D6EFEC"]};
+const ZONA="America/Santo_Domingo";
+const fmt=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+const parse=s=>{const[y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d)};
+const suma=(s,n)=>{const d=parse(s);d.setDate(d.getDate()+n);return fmt(d)};
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+// Convierte un evento de events.json en una o varias ocurrencias con la forma que usan las pantallas.
+function expandir(lista,hoy){
+  const out=[];
+  for(const e of lista){
+    const[cat,sub]=MAPCAT[e.cat]||["cultura",null];
+    const precio=e.price===0?{estado:"gratis",min:0,max:null}
+      :e.price>0?{estado:"con_precio",min:e.price,max:e.price_max&&e.price_max!==e.price?e.price_max:null}
+      :{estado:"por_confirmar",min:null,max:null};
+    const base={titulo:e.title,descripcion:e.description||null,categorias:[cat],subcategoria:sub,
+      hora_inicio:e.time||null,horario:e.time?"hora":"por_confirmar",
+      lugar:{nombre:e.venue||"Lugar por confirmar",sector:e.zone||null},
+      precio,enlace:e.srcUrl,enlace_boletos:e.ticketUrl||null,
+      fuentes:(e.sources&&e.sources.length?e.sources:[{srcName:e.srcName,srcUrl:e.srcUrl}])};
+    // Sesiones sueltas: una ocurrencia por sesión. Rango (fecha y fin): la fuente no dice qué días
+    // hay función dentro del rango, así que sale una sola vez con "Hasta"; si ya empezó, hoy.
+    let fechas=[e.date],cierre=null;
+    if(e.sessions&&e.sessions.length)fechas=e.sessions;
+    else if(e.end&&e.end>e.date){fechas=[e.date<hoy&&e.end>=hoy?hoy:e.date];cierre=e.end}
+    for(const f of fechas)out.push({...base,id:e.id+":"+f,fecha:f,fecha_cierre:cierre});
+  }
+  const orden=e=>e.fecha+(e.horario==="hora"?"0"+e.hora_inicio:"1");
+  return out.sort((a,b)=>orden(a)<orden(b)?-1:orden(a)>orden(b)?1:0)}
+
+let DATOS,EV=[],hoy,muestra=false,st;
+const CLAVE="agenda-sdq-guardados";
+let guardados=new Set();
+try{guardados=new Set(JSON.parse(localStorage.getItem(CLAVE)||"[]"))}catch(_){}
+const persistir=()=>{try{localStorage.setItem(CLAVE,JSON.stringify([...guardados]))}catch(_){}};
+function ventana(){
+  const dow=parse(hoy).getDay();
+  if(st.rango==="hoy")return[hoy,hoy];
+  if(st.rango==="manana")return[suma(hoy,1),suma(hoy,1)];
+  if(st.rango==="finde"){const sab=suma(hoy,(6-dow+7)%7);return dow===0?[hoy,hoy]:dow===6?[hoy,suma(hoy,1)]:[sab,suma(sab,1)]}
+  return[hoy,"9999-12-31"]}
+const nombreDia=f=>{const d=parse(f);return DIAS[d.getDay()][0].toUpperCase()+DIAS[d.getDay()].slice(1)+" "+d.getDate()+" de "+MESES[d.getMonth()]};
+const corto=f=>{const d=parse(f);return DIAS[d.getDay()].slice(0,3)+" "+d.getDate()};
+const cortoMes=f=>{const d=parse(f);return d.getDate()+" "+MESES[d.getMonth()].slice(0,3)};
+const pesos=n=>"RD$ "+n.toLocaleString("es-DO");
+function hora(e){if(e.horario!=="hora")return null;const[h,m]=e.hora_inicio.split(":").map(Number);return{t:`${((h+11)%12)+1}:${String(m).padStart(2,"0")}`,ap:h<12?"AM":"PM"}}
+function etiquetaPrecio(p){
+  if(p.estado==="gratis")return`<span class="gratis">Gratis</span>`;
+  if(p.estado==="con_precio")return`<span class="pago">${p.max?pesos(p.min)+" – "+pesos(p.max):"Desde "+pesos(p.min)}</span>`;
+  return`<span class="pago nd">Precio por confirmar</span>`}
+const PIN='<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>';
+const LOGO='<svg class="logo" width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><circle cx="30" cy="30" r="24" fill="#0B7A75"/><circle cx="30" cy="30" r="17" fill="#D43F2A"/><circle cx="30" cy="30" r="10" fill="#FFB62E"/></svg>';
+const MARCA='<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg>';
+const botonGuardar=e=>`<button class="gu" data-s="${esc(e.id)}" aria-pressed="${guardados.has(e.id)}" aria-label="${guardados.has(e.id)?"Quitar de guardados":"Guardar evento"}">${MARCA}</button>`;
+function tarjeta(e,i){
+  const h=hora(e),c=e.categorias[0];
+  const sin=e.horario==="todo_el_dia"?"Todo el día":"Hora por confirmar";
+  return`<div class="cw"><button class="card" data-i="${i}"><div class="t">${h?`<div class="h">${h.t}</div><div class="ap">${h.ap}</div>`:`<div class="h sin">${sin}</div>`}</div>
+  <div class="c"><span class="cat ${c}">${etq(e)}</span><h3>${esc(e.titulo)}</h3><div class="lugar">${PIN}${esc(e.lugar.nombre)}</div>${e.fecha_cierre?`<span class="hasta">Hasta ${cortoMes(e.fecha_cierre)}</span>`:""}${etiquetaPrecio(e.precio)}</div></button>${botonGuardar(e)}</div>`}
+function actualizado(){
+  try{return new Date(DATOS.generated_at).toLocaleString("es-DO",{timeZone:ZONA,day:"numeric",month:"short",hour:"2-digit",minute:"2-digit",hourCycle:"h23"})}
+  catch(_){return DATOS.generated_at.slice(0,10)}}
+function nombresFuentes(){return[...new Set(DATOS.events.flatMap(e=>(e.sources||[{srcName:e.srcName}]).map(s=>s.srcName)))].join(", ")}
+function lista(){
+  const[a,b]=ventana();
+  const evs=EV.map((e,i)=>({e,i})).filter(({e})=>e.fecha>=hoy&&e.fecha>=a&&e.fecha<=b&&(!st.gratis||e.precio.estado==="gratis")&&(!st.cat||(st.cat==="teatro"?e.subcategoria==="teatro":e.categorias.includes(st.cat))));
+  const nG=evs.filter(({e})=>e.precio.estado==="gratis").length;
+  const titulo=st.rango==="hoy"?"Hoy":st.rango==="manana"?"Mañana":st.rango==="finde"?"Este fin de semana":"Próximos días";
+  const sub=st.rango==="todo"?"Desde el "+nombreDia(hoy).toLowerCase():a===b?nombreDia(a):corto(a)+" y "+corto(b);
+  let cuerpo="",ult="";
+  evs.forEach(({e,i})=>{if(a!==b&&e.fecha!==ult){cuerpo+=`<div class="dia">${esc(nombreDia(e.fecha))}</div>`;ult=e.fecha}cuerpo+=tarjeta(e,i)});
+  const rangos=[["hoy","Hoy"],["manana","Mañana"],["finde","Este finde"],["todo","Todo"]];
+  const chip=(t,p,on,at)=>`<button class="chip" ${at} aria-pressed="${on}"><i style="background:${p}"></i>${t}</button>`;
+  return`<div class="top">${LOGO}<b>Agenda SDQ</b></div>
+  <div class="fecha">${esc(sub)} · Santo Domingo</div><h1>${titulo}</h1>
+  <p class="resumen">${evs.length} ${evs.length===1?"evento":"eventos"} · ${nG} gratis</p>
+  <div class="rango" role="group" aria-label="Rango de fechas">${rangos.map(([k,t])=>`<button data-r="${k}" aria-pressed="${st.rango===k}">${t}</button>`).join("")}</div>
+  <div class="chips" role="group" aria-label="Filtros">${chip("Gratis","#FFD166",st.gratis,'data-g="1"')}${Object.keys(CAT).map(k=>chip(CAT[k],PUNTO[k],st.cat===k,`data-c="${k}"`)).join("")}${chip("Teatro","#10222E",st.cat==="teatro",'data-c="teatro"')}</div>
+  <div class="lista">${cuerpo||`<div class="vacio"><b>Nada con estos filtros</b><span>Prueba otro día o quita algún filtro.</span><button data-x="1">Ver todos los próximos</button></div>`}</div>
+  <p class="pie">Fuentes: ${esc(nombresFuentes())} · actualizado el ${esc(actualizado())}${muestra?" (muestra: esas fechas ya pasaron)":""}. Confirma en la fuente original antes de ir.</p>`}
+const svgI=p=>`<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${p}</svg>`;
+function detalle(e){
+  const c=e.categorias[0],H=HERO[c],h=hora(e);
+  const cuando=nombreDia(e.fecha)+" · "+(h?`${h.t} ${h.ap}`:e.horario==="todo_el_dia"?"Todo el día":"Hora por confirmar")+(e.fecha_cierre?` · hasta el ${parse(e.fecha_cierre).getDate()} de ${MESES[parse(e.fecha_cierre).getMonth()]}`:"");
+  const otros=EV.map((x,i)=>({x,i})).filter(({x})=>x.fecha===e.fecha&&x!==e).slice(0,3);
+  const extra=e.fuentes.filter(f=>f.srcUrl!==e.enlace);
+  return`<div class="det"><div class="hero" style="--hero:${H[0]}"><svg viewBox="0 0 390 200" preserveAspectRatio="xMaxYMax slice" aria-hidden="true"><circle cx="390" cy="200" r="230" fill="${H[1]}"/><circle cx="390" cy="200" r="165" fill="${H[2]}"/><circle cx="390" cy="200" r="100" fill="${H[3]}"/><circle cx="390" cy="200" r="40" fill="#10222E"/></svg>
+  <button class="volver" data-v="1" aria-label="Volver a la lista">${svgI('<path d="M15 6l-6 6 6 6"/>')}</button>${botonGuardar(e)}<span class="cat ${c}">${etq(e)}</span></div>
+  <h1>${esc(e.titulo)}</h1>
+  <div>${etiquetaPrecio(e.precio)}</div>
+  <div class="filas">
+   <div class="fila"><span class="ic">${svgI('<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>')}</span><div><small>Cuándo</small><strong>${esc(cuando)}</strong></div></div>
+   <div class="fila"><span class="ic">${svgI('<path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/>')}</span><div><small>Dónde</small><strong>${esc(e.lugar.nombre)}</strong>${e.lugar.sector?`<div style="color:var(--muted);font-size:14px">${esc(e.lugar.sector)}</div>`:""}</div></div>
+  </div>
+  ${e.horario==="por_confirmar"?`<p class="aviso">La fuente no publica la hora. Revísala en la página original antes de ir.</p>`:""}
+  ${e.descripcion?`<p class="desc">${esc(e.descripcion)}</p>`:""}
+  <div class="acciones">${e.enlace_boletos?`<a class="p" href="${esc(e.enlace_boletos)}" target="_blank" rel="noopener">Comprar boletos</a>`:""}<a class="${e.enlace_boletos?"":"p"}" href="${esc(e.enlace)}" target="_blank" rel="noopener">Ver fuente original</a></div>
+  ${extra.length?`<p class="tambien">También publicado en ${extra.map(f=>`<a href="${esc(f.srcUrl)}" target="_blank" rel="noopener">${esc(f.srcName)}</a>`).join(", ")}.</p>`:""}
+  ${otros.length?`<h2 style="font:700 18px var(--display);margin:26px 0 8px">También ese día</h2><div class="lista" style="margin-top:0">${otros.map(({x,i})=>tarjeta(x,i)).join("")}</div>`:""}</div>`}
+const ICON={hoy:'<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',cal:'<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>',gua:'<path d="M6 3h12v18l-6-4-6 4z"/>'};
+const nav=()=>`<nav class="nav" aria-label="Navegación principal">${[["hoy","Hoy"],["cal","Calendario"],["gua","Guardados"]].map(([k,t])=>`<button data-n="${k}" ${st.vista===k?'aria-current="page"':""}>${svgI(ICON[k])}${t}</button>`).join("")}</nav>`;
+const indices=f=>EV.map((e,i)=>({e,i})).filter(({e})=>f(e));
+function calendario(){
+  const[y,m]=st.mes.split("-").map(Number);
+  const primero=new Date(y,m-1,1),dias=new Date(y,m,0).getDate(),lead=(primero.getDay()+6)%7;
+  const porDia={};EV.forEach(e=>{if(e.fecha>=hoy)(porDia[e.fecha]??=[]).push(e)});
+  let cel="";for(let k=0;k<lead;k++)cel+=`<button class="vac" tabindex="-1" aria-hidden="true"></button>`;
+  for(let d=1;d<=dias;d++){
+    const f=`${y}-${String(m).padStart(2,"0")}-${String(d).padStart(2,"0")}`,ev=porDia[f]||[];
+    const cats=[...new Set(ev.flatMap(e=>e.categorias))].slice(0,3);
+    cel+=`<button data-d="${f}" class="${f<hoy?"off":""}${f===hoy?" hoy":""}" aria-pressed="${st.dia===f}" aria-label="${nombreDia(f)}, ${ev.length} eventos">${d}<span class="pts">${cats.map(c=>`<i style="background:${PUNTO[c]}"></i>`).join("")}</span></button>`}
+  const mesHoy=hoy.slice(0,7),ultimo=EV.reduce((a,e)=>e.fecha>a?e.fecha:a,hoy).slice(0,7);
+  const delDia=indices(e=>e.fecha===st.dia&&e.fecha>=hoy);
+  return`<div class="top">${LOGO}<b>Agenda SDQ</b></div>
+  <div class="fecha">Elige un día</div><h1>Calendario</h1>
+  <div class="mes"><button data-mm="-1" aria-label="Mes anterior" ${st.mes<=mesHoy?"disabled":""}>${svgI('<path d="M15 6l-6 6 6 6"/>')}</button><h2>${MESES[m-1]} ${y}</h2><button data-mm="1" aria-label="Mes siguiente" ${st.mes>=ultimo?"disabled":""}>${svgI('<path d="M9 6l6 6-6 6"/>')}</button></div>
+  <div class="sem" aria-hidden="true">${"LMMJVSD".split("").map(x=>`<span>${x}</span>`).join("")}</div><div class="rej">${cel}</div>
+  <div class="dia" style="margin-top:18px">${esc(nombreDia(st.dia))}</div>
+  <div class="lista">${delDia.length?delDia.map(({e,i})=>tarjeta(e,i)).join(""):`<div class="vacio"><b>Sin eventos este día</b><span>Los días con punto de color sí tienen.</span></div>`}</div>`}
+function guardadosVista(){
+  const g=indices(e=>guardados.has(e.id)&&e.fecha>=hoy);
+  let cuerpo="",ult="";g.forEach(({e,i})=>{if(e.fecha!==ult){cuerpo+=`<div class="dia">${esc(nombreDia(e.fecha))}</div>`;ult=e.fecha}cuerpo+=tarjeta(e,i)});
+  return`<div class="top">${LOGO}<b>Agenda SDQ</b></div>
+  <div class="fecha">Tu lista</div><h1>Guardados</h1><p class="resumen">${g.length} ${g.length===1?"evento":"eventos"} por venir</p>
+  <div class="lista">${cuerpo||`<div class="vacio"><b>Aún no guardas nada</b><span>Toca el marcador de un evento para verlo aquí. Se guarda solo en este dispositivo.</span><button data-n="hoy">Ver eventos de hoy</button></div>`}</div>`}
+let mantener=false;
+function pintar(){
+  const app=document.getElementById("app");
+  app.innerHTML=(st.abierto===null?(st.vista==="cal"?calendario():st.vista==="gua"?guardadosVista():lista()):detalle(EV[st.abierto]))+(st.abierto===null?nav():"");
+  if(!mantener)window.scrollTo(0,0);mantener=false}
+document.addEventListener("click",ev=>{
+  if(!st)return;
+  const b=ev.target.closest("button");if(!b)return;
+  if(b.dataset.s){const id=b.dataset.s;guardados.has(id)?guardados.delete(id):guardados.add(id);persistir();mantener=true}
+  else if(b.dataset.n)st.vista=b.dataset.n,st.abierto=null;
+  else if(b.dataset.d)st.dia=b.dataset.d,mantener=true;
+  else if(b.dataset.mm){const[y,m]=st.mes.split("-").map(Number),d=new Date(y,m-1+ +b.dataset.mm,1);st.mes=fmt(d).slice(0,7);mantener=true}
+  else if(b.dataset.i!==undefined)st.abierto=+b.dataset.i;
+  else if(b.dataset.v)st.abierto=null;
+  else if(b.dataset.r)st.rango=b.dataset.r;
+  else if(b.dataset.g)st.gratis=!st.gratis;
+  else if(b.dataset.c)st.cat=st.cat===b.dataset.c?null:b.dataset.c;
+  else if(b.dataset.x){st.gratis=false;st.cat=null;st.rango="todo"}
+  else return;
+  pintar()});
+async function iniciar(){
+  const app=document.getElementById("app");
+  try{
+    const r=await fetch("events.json",{cache:"no-cache"});
+    if(!r.ok)throw new Error("HTTP "+r.status);
+    DATOS=await r.json();
+  }catch(err){
+    app.innerHTML=`<div class="top">${LOGO}<b>Agenda SDQ</b></div><div class="vacio"><b>No pude cargar la agenda</b><span>${esc(err.message)}. Intenta de nuevo en un momento.</span><button onclick="location.reload()">Reintentar</button></div>`;
+    return}
+  hoy=new Intl.DateTimeFormat("en-CA",{timeZone:ZONA}).format(new Date());
+  EV=expandir(DATOS.events||[],hoy);
+  if(EV.length&&!EV.some(e=>e.fecha>=hoy)){hoy=EV[0].fecha;muestra=true}
+  st={vista:"hoy",rango:"hoy",gratis:false,cat:null,abierto:null,mes:hoy.slice(0,7),dia:hoy};
+  // Si hoy no hay nada, abre en "Todo" para no recibir con la lista vacía.
+  if(!EV.some(e=>e.fecha===hoy))st.rango="todo";
+  pintar()}
+iniciar();
+</script>
+</body>
+</html>

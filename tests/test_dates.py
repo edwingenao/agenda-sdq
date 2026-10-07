@@ -103,6 +103,8 @@ def test_parse_price(text, expected):
         ("Comedia musical", "Teatro"),
         ("Noche musical en el malecón", "Música"),
         ("Monólogo", "Teatro"),
+        ("Festival de murales", "Arte"),
+        ("Recorrido nocturno por la Muralla", "Cultura"),
         ("Conferencia / Charla", "Cultura"),
         ("Formación", "Cultura"),
     ],

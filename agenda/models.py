@@ -22,7 +22,7 @@ CATEGORY_RULES = [
         r"\b(arte|exposici[oó]n|galer[ií]a|pintura|escultura|fotograf|visuales|performance"
         r"|video\s?mapping|instalaci[oó]n\s+(art[ií]stica|sonora|inmersiva)"
         r"|muestra\s+(colectiva|individual|de\s+(arte|pintura|fotograf|escultura))"
-        r"|vernissage|curadur|mural)",
+        r"|vernissage|curadur|murales?\b)",  # no confundir "mural" con "Muralla"
     ),
 ]
 DEFAULT_CATEGORY = "Cultura"

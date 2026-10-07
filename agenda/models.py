@@ -33,6 +33,7 @@ ZONES = [
     ("centro cultural banreservas", "Ciudad Colonial"),
     ("teatro nacional", "Plaza de la Cultura"),
     ("museo de arte moderno", "Plaza de la Cultura"),
+    ("museo nacional de historia natural", "Plaza de la Cultura"),
     ("cinemateca", "Plaza de la Cultura"),
     ("the green room", "Piantini"),
     ("dominican fiesta", "Mirador Sur"),

@@ -31,6 +31,7 @@ class Merged:
 SOURCE_PRIORITY = [
     "teatro_nacional",
     "casa_de_teatro",
+    "sic",
     "zona_colonial",
     "cce",
     "jazz_en_dominicana",
@@ -65,6 +66,7 @@ VENUE_ALIASES = {
     "casa de teatro": "casa de teatro",
     "alianza francesa": "alianza francesa",
     "centro cultural banreservas": "banreservas",
+    "museo de arte moderno": "museo de arte moderno",
 }
 
 

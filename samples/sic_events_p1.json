@@ -1,0 +1,612 @@
+{
+ "current_page": 1,
+ "data": [
+  {
+   "id": 30,
+   "user_id": 562,
+   "name": "Maratón de Lectura - Círculo Literario EscribasRD",
+   "event_type_id": 5,
+   "event_category_id": 1,
+   "date": "2026-10-04T00:00:00.000000Z",
+   "time": "10:00:00",
+   "modality": "presencial",
+   "place": "Teatro Nacional - Sala Aída Bonelly de Díaz",
+   "municipality_id": 244,
+   "url": null,
+   "cover_photo_path": "SIC/events/covers/pVN4RM5NIxoAGKI5ifCNffan2ylq7SxVtFtK1B1D.jpg",
+   "cost": "0.00",
+   "access_type": "abierto",
+   "created_at": "2026-10-02T22:48:06.000000Z",
+   "updated_at": "2026-10-02T22:48:06.000000Z",
+   "cover_photo_url": null,
+   "type": {
+    "id": 5,
+    "name": "Feria del libro",
+    "created_at": "2026-02-20T18:57:00.000000Z",
+    "updated_at": "2026-02-20T18:57:00.000000Z"
+   },
+   "category": {
+    "id": 1,
+    "name": "General",
+    "created_at": "2026-01-24T01:00:15.000000Z",
+    "updated_at": "2026-01-24T01:00:15.000000Z"
+   },
+   "municipality": {
+    "id": 244,
+    "province_id": 31,
+    "nombre": "Distrito Nacional",
+    "activo": true,
+    "created_at": "2026-01-30T15:28:36.000000Z",
+    "updated_at": "2026-01-30T15:28:36.000000Z",
+    "deleted_at": null,
+    "province": {
+     "id": 31,
+     "nombre": "Santo Domingo",
+     "codigo": "32",
+     "activo": true,
+     "created_at": "2026-01-30T15:04:25.000000Z",
+     "updated_at": "2026-01-30T15:04:25.000000Z",
+     "deleted_at": null
+    }
+   }
+  },
+  {
+   "id": 29,
+   "user_id": 562,
+   "name": "Literatura, ciudad y cesencanto: el Santo Domingo contemporáneo en la novela Lukio, de Luis R. Santos",
+   "event_type_id": 8,
+   "event_category_id": 1,
+   "date": "2026-10-01T00:00:00.000000Z",
+   "time": "19:00:00",
+   "modality": "presencial",
+   "place": "Museo de Arte Moderno - Pabellón Identidad y Ciudadanía",
+   "municipality_id": 244,
+   "url": null,
+   "cover_photo_path": "SIC/events/covers/UESszzlNzWQO2T57VPRONPdYiNt519lOQO1vUSEH.jpg",
+   "cost": "0.00",
+   "access_type": "abierto",
+   "created_at": "2026-10-02T22:45:44.000000Z",
+   "updated_at": "2026-10-02T22:45:44.000000Z",
+   "cover_photo_url": null,
+   "type": {
+    "id": 8,
+    "name": "Conversatorio",
+    "created_at": "2026-07-06T18:57:50.000000Z",
+    "updated_at": "2026-07-06T18:57:50.000000Z"
+   },
+   "category": {
+    "id": 1,
+    "name": "General",
+    "created_at": "2026-01-24T01:00:15.000000Z",
+    "updated_at": "2026-01-24T01:00:15.000000Z"
+   },
+   "municipality": {
+    "id": 244,
+    "province_id": 31,
+    "nombre": "Distrito Nacional",
+    "activo": true,
+    "created_at": "2026-01-30T15:28:36.000000Z",
+    "updated_at": "2026-01-30T15:28:36.000000Z",
+    "deleted_at": null,
+    "province": {
+     "id": 31,
+     "nombre": "Santo Domingo",
+     "codigo": "32",
+     "activo": true,
+     "created_at": "2026-01-30T15:04:25.000000Z",
+     "updated_at": "2026-01-30T15:04:25.000000Z",
+     "deleted_at": null
+    }
+   }
+  },
+  {
+   "id": 27,
+   "user_id": 18,
+   "name": "Conferencia \"Literatura, ciudad y desencanto: el Santo Domingo contemporáneo en la novela Lukio\"",
+   "event_type_id": 11,
+   "event_category_id": 1,
+   "date": "2026-10-01T00:00:00.000000Z",
+   "time": "19:00:00",
+   "modality": "presencial",
+   "place": "Auditorio Museo de Arte Moderno, Pabellón de Identidad y Ciudadanía, Plaza de la Cultura",
+   "municipality_id": 243,
+   "url": null,
+   "cover_photo_path": "SIC/events/covers/757gIFYiWDZsHvrd8yFwargFSdmzE78l93wUrFoi.jpg",
+   "cost": "0.00",
+   "access_type": "abierto",
+   "created_at": "2026-09-28T18:18:46.000000Z",
+   "updated_at": "2026-09-28T18:18:46.000000Z",
+   "cover_photo_url": null,
+   "type": {
+    "id": 11,
+    "name": "Conferencia",
+    "created_at": "2026-09-28T17:59:59.000000Z",
+    "updated_at": "2026-09-28T17:59:59.000000Z"
+   },
+   "category": {
+    "id": 1,
+    "name": "General",
+    "created_at": "2026-01-24T01:00:15.000000Z",
+    "updated_at": "2026-01-24T01:00:15.000000Z"
+   },
+   "municipality": {
+    "id": 243,
+    "province_id": 32,
+    "nombre": "D.N",
+    "activo": true,
+    "created_at": "2026-01-30T15:28:36.000000Z",
+    "updated_at": "2026-01-30T15:28:36.000000Z",
+    "deleted_at": null,
+    "province": {
+     "id": 32,
+     "nombre": "Distrito Nacional",
+     "codigo": "1",
+     "activo": true,
+     "created_at": "2026-01-30T15:04:25.000000Z",
+     "updated_at": "2026-01-30T15:04:25.000000Z",
+     "deleted_at": null
+    }
+   }
+  },
+  {
+   "id": 28,
+   "user_id": 18,
+   "name": "Puesta en circulación libro \"Aportes de la comunidad japonesa en Dajabón\"",
+   "event_type_id": 6,
+   "event_category_id": 1,
+   "date": "2026-09-30T00:00:00.000000Z",
+   "time": "18:00:00",
+   "modality": "presencial",
+   "place": "Pabellón de Identidad y Ciudadanía. Auditorio del Museo de Arte Moderno, Plaza de la Cultura. Feria Internacional del Libro Santo Domingo 2026 (FILSD)",
+   "municipality_id": 243,
+   "url": null,
+   "cover_photo_path": "SIC/events/covers/glXCKIdIjWusts4O3hw6rznD4CqW53hDvfB7s6J3.jpg",
+   "cost": "0.00",
+   "access_type": "abierto",
+   "created_at": "2026-09-29T15:11:39.000000Z",
+   "updated_at": "2026-09-29T15:11:39.000000Z",
+   "cover_photo_url": null,
+   "type": {
+    "id": 6,
+    "name": "Lanzamiento de libro",
+    "created_at": "2026-03-02T13:27:06.000000Z",
+    "updated_at": "2026-03-02T13:27:06.000000Z"
+   },
+   "category": {
+    "id": 1,
+    "name": "General",
+    "created_at": "2026-01-24T01:00:15.000000Z",
+    "updated_at": "2026-01-24T01:00:15.000000Z"
+   },
+   "municipality": {
+    "id": 243,
+    "province_id": 32,
+    "nombre": "D.N",
+    "activo": true,
+    "created_at": "2026-01-30T15:28:36.000000Z",
+    "updated_at": "2026-01-30T15:28:36.000000Z",
+    "deleted_at": null,
+    "province": {
+     "id": 32,
+     "nombre": "Distrito Nacional",
+     "codigo": "1",
+     "activo": true,
+     "created_at": "2026-01-30T15:04:25.000000Z",
+     "updated_at": "2026-01-30T15:04:25.000000Z",
+     "deleted_at": null
+    }
+   }
+  },
+  {
+   "id": 25,
+   "user_id": 18,
+   "name": "Conferencia \"proceso creativo en la novela Lukio\" en Museo de Arte Moderno",
+   "event_type_id": 11,
+   "event_category_id": 1,
+   "date": "2026-09-29T00:00:00.000000Z",
+   "time": "18:00:00",
+   "modality": "presencial",
+   "place": "Auditorio del Museo de Arte Moderno",
+   "municipality_id": 243,
+   "url": null,
+   "cover_photo_path": "SIC/events/covers/hUvgfM1Cck09WE1KsYe3pZ5Go6q1EP49fMn57Ilw.jpg",
+   "cost": "0.00",
+   "access_type": "abierto",
+   "created_at": "2026-09-28T18:01:36.000000Z",
+   "updated_at": "2026-09-28T18:01:36.000000Z",
+   "cover_photo_url": null,
+   "type": {
+    "id": 11,
+    "name": "Conferencia",
+    "created_at": "2026-09-28T17:59:59.000000Z",
+    "updated_at": "2026-09-28T17:59:59.000000Z"
+   },
+   "category": {
+    "id": 1,
+    "name": "General",
+    "created_at": "2026-01-24T01:00:15.000000Z",
+    "updated_at": "2026-01-24T01:00:15.000000Z"
+   },
+   "municipality": {
+    "id": 243,
+    "province_id": 32,
+    "nombre": "D.N",
+    "activo": true,
+    "created_at": "2026-01-30T15:28:36.000000Z",
+    "updated_at": "2026-01-30T15:28:36.000000Z",
+    "deleted_at": null,
+    "province": {
+     "id": 32,
+     "nombre": "Distrito Nacional",
+     "codigo": "1",
+     "activo": true,
+     "created_at": "2026-01-30T15:04:25.000000Z",
+     "updated_at": "2026-01-30T15:04:25.000000Z",
+     "deleted_at": null
+    }
+   }
+  },
+  {
+   "id": 26,
+   "user_id": 18,
+   "name": "Taller \"Formación de jóvenes investigadores\" en el Teatro Nacional",
+   "event_type_id": 3,
+   "event_category_id": 1,
+   "date": "2026-09-29T00:00:00.000000Z",
+   "time": "15:00:00",
+   "modality": "presencial",
+   "place": "Sala Aída Bonnelly del Teatro Nacional",
+   "municipality_id": 243,
+   "url": null,
+   "cover_photo_path": "SIC/events/covers/zILWe5vc98v336y11jMCrLjZ6rGswFFdxzwjyBCM.jpg",
+   "cost": "0.00",
+   "access_type": "abierto",
+   "created_at": "2026-09-28T18:09:37.000000Z",
+   "updated_at": "2026-09-28T18:09:37.000000Z",
+   "cover_photo_url": null,
+   "type": {
+    "id": 3,
+    "name": "Taller",
+    "created_at": "2026-01-24T01:00:50.000000Z",
+    "updated_at": "2026-01-24T01:00:50.000000Z"
+   },
+   "category": {
+    "id": 1,
+    "name": "General",
+    "created_at": "2026-01-24T01:00:15.000000Z",
+    "updated_at": "2026-01-24T01:00:15.000000Z"
+   },
+   "municipality": {
+    "id": 243,
+    "province_id": 32,
+    "nombre": "D.N",
+    "activo": true,
+    "created_at": "2026-01-30T15:28:36.000000Z",
+    "updated_at": "2026-01-30T15:28:36.000000Z",
+    "deleted_at": null,
+    "province": {
+     "id": 32,
+     "nombre": "Distrito Nacional",
+     "codigo": "1",
+     "activo": true,
+     "created_at": "2026-01-30T15:04:25.000000Z",
+     "updated_at": "2026-01-30T15:04:25.000000Z",
+     "deleted_at": null
+    }
+   }
+  },
+  {
+   "id": 24,
+   "user_id": 18,
+   "name": "Taller sobre promoción de los derechos culturales en Museo Nacional de Historia Natural",
+   "event_type_id": 3,
+   "event_category_id": 1,
+   "date": "2026-09-29T00:00:00.000000Z",
+   "time": "09:00:00",
+   "modality": "presencial",
+   "place": "Auditorio del Museo Nacional de Historia Natural",
+   "municipality_id": 243,
+   "url": null,
+   "cover_photo_path": "SIC/events/covers/TvqKRvRCUQQ4Lj5EKqscxPOc66whRAe51AbNcbn7.jpg",
+   "cost": "0.00",
+   "access_type": "abierto",
+   "created_at": "2026-09-28T17:51:18.000000Z",
+   "updated_at": "2026-09-28T17:51:18.000000Z",
+   "cover_photo_url": null,
+   "type": {
+    "id": 3,
+    "name": "Taller",
+    "created_at": "2026-01-24T01:00:50.000000Z",
+    "updated_at": "2026-01-24T01:00:50.000000Z"
+   },
+   "category": {
+    "id": 1,
+    "name": "General",
+    "created_at": "2026-01-24T01:00:15.000000Z",
+    "updated_at": "2026-01-24T01:00:15.000000Z"
+   },
+   "municipality": {
+    "id": 243,
+    "province_id": 32,
+    "nombre": "D.N",
+    "activo": true,
+    "created_at": "2026-01-30T15:28:36.000000Z",
+    "updated_at": "2026-01-30T15:28:36.000000Z",
+    "deleted_at": null,
+    "province": {
+     "id": 32,
+     "nombre": "Distrito Nacional",
+     "codigo": "1",
+     "activo": true,
+     "created_at": "2026-01-30T15:04:25.000000Z",
+     "updated_at": "2026-01-30T15:04:25.000000Z",
+     "deleted_at": null
+    }
+   }
+  },
+  {
+   "id": 31,
+   "user_id": 562,
+   "name": "Conversatorio de la novela: Y después nosotros de Olga Díaz",
+   "event_type_id": 8,
+   "event_category_id": 1,
+   "date": "2026-09-27T00:00:00.000000Z",
+   "time": "10:00:00",
+   "modality": "presencial",
+   "place": "Teatro Nacional - Sala Aída Bonelly de Díaz",
+   "municipality_id": 244,
+   "url": null,
+   "cover_photo_path": "SIC/events/covers/V4fMWxI6BsLHPQ3u6DVgQQwUksduyPRToYEIecBQ.jpg",
+   "cost": "0.00",
+   "access_type": "abierto",
+   "created_at": "2026-10-02T22:50:35.000000Z",
+   "updated_at": "2026-10-02T22:50:35.000000Z",
+   "cover_photo_url": null,
+   "type": {
+    "id": 8,
+    "name": "Conversatorio",
+    "created_at": "2026-07-06T18:57:50.000000Z",
+    "updated_at": "2026-07-06T18:57:50.000000Z"
+   },
+   "category": {
+    "id": 1,
+    "name": "General",
+    "created_at": "2026-01-24T01:00:15.000000Z",
+    "updated_at": "2026-01-24T01:00:15.000000Z"
+   },
+   "municipality": {
+    "id": 244,
+    "province_id": 31,
+    "nombre": "Distrito Nacional",
+    "activo": true,
+    "created_at": "2026-01-30T15:28:36.000000Z",
+    "updated_at": "2026-01-30T15:28:36.000000Z",
+    "deleted_at": null,
+    "province": {
+     "id": 31,
+     "nombre": "Santo Domingo",
+     "codigo": "32",
+     "activo": true,
+     "created_at": "2026-01-30T15:04:25.000000Z",
+     "updated_at": "2026-01-30T15:04:25.000000Z",
+     "deleted_at": null
+    }
+   }
+  },
+  {
+   "id": 23,
+   "user_id": 18,
+   "name": "Festival del Este",
+   "event_type_id": 10,
+   "event_category_id": 1,
+   "date": "2026-08-28T00:00:00.000000Z",
+   "time": "18:00:00",
+   "modality": "presencial",
+   "place": "Recinto UASD Higüey",
+   "municipality_id": 206,
+   "url": null,
+   "cover_photo_path": "SIC/events/covers/oRfSsanNM7TIDhkOPuuNr6U3h3a8EHsSRNcNy7lm.jpg",
+   "cost": "0.00",
+   "access_type": "abierto",
+   "created_at": "2026-08-27T17:42:36.000000Z",
+   "updated_at": "2026-08-27T17:42:36.000000Z",
+   "cover_photo_url": null,
+   "type": {
+    "id": 10,
+    "name": "Festival",
+    "created_at": "2026-08-27T17:39:28.000000Z",
+    "updated_at": "2026-08-27T17:39:28.000000Z"
+   },
+   "category": {
+    "id": 1,
+    "name": "General",
+    "created_at": "2026-01-24T01:00:15.000000Z",
+    "updated_at": "2026-01-24T01:00:15.000000Z"
+   },
+   "municipality": {
+    "id": 206,
+    "province_id": 26,
+    "nombre": "Higüey",
+    "activo": true,
+    "created_at": "2026-01-30T15:28:36.000000Z",
+    "updated_at": "2026-01-30T15:28:36.000000Z",
+    "deleted_at": null,
+    "province": {
+     "id": 26,
+     "nombre": "La Altagracia",
+     "codigo": "11",
+     "activo": true,
+     "created_at": "2026-01-30T15:04:25.000000Z",
+     "updated_at": "2026-01-30T15:04:25.000000Z",
+     "deleted_at": null
+    }
+   }
+  },
+  {
+   "id": 17,
+   "user_id": 18,
+   "name": "Foro Juventud, Cultura y Pensamiento en UNICARIBE",
+   "event_type_id": 9,
+   "event_category_id": 1,
+   "date": "2026-07-29T00:00:00.000000Z",
+   "time": "09:00:00",
+   "modality": "presencial",
+   "place": "Salón Multiusos, 4ta planta campus UNICARIBE",
+   "municipality_id": 243,
+   "url": null,
+   "cover_photo_path": "SIC/events/covers/ciw9i3eJVoQFvLVywOBivf7E3BFAf2ROHjq5weQV.jpg",
+   "cost": "0.00",
+   "access_type": "abierto",
+   "created_at": "2026-07-06T19:01:46.000000Z",
+   "updated_at": "2026-07-06T19:01:46.000000Z",
+   "cover_photo_url": null,
+   "type": {
+    "id": 9,
+    "name": "Foro",
+    "created_at": "2026-07-06T18:59:35.000000Z",
+    "updated_at": "2026-07-06T18:59:35.000000Z"
+   },
+   "category": {
+    "id": 1,
+    "name": "General",
+    "created_at": "2026-01-24T01:00:15.000000Z",
+    "updated_at": "2026-01-24T01:00:15.000000Z"
+   },
+   "municipality": {
+    "id": 243,
+    "province_id": 32,
+    "nombre": "D.N",
+    "activo": true,
+    "created_at": "2026-01-30T15:28:36.000000Z",
+    "updated_at": "2026-01-30T15:28:36.000000Z",
+    "deleted_at": null,
+    "province": {
+     "id": 32,
+     "nombre": "Distrito Nacional",
+     "codigo": "1",
+     "activo": true,
+     "created_at": "2026-01-30T15:04:25.000000Z",
+     "updated_at": "2026-01-30T15:04:25.000000Z",
+     "deleted_at": null
+    }
+   }
+  },
+  {
+   "id": 14,
+   "user_id": 18,
+   "name": "Video mapping y escena digital",
+   "event_type_id": 3,
+   "event_category_id": 1,
+   "date": "2026-07-03T00:00:00.000000Z",
+   "time": "10:00:00",
+   "modality": "presencial",
+   "place": "Galería Ramón Oviedo",
+   "municipality_id": null,
+   "url": null,
+   "cover_photo_path": "SIC/events/covers/QyXrs7z1MMMcSSoHcDVaDFCAQMiqgIhnTJlMi5hm.jpg",
+   "cost": "0.00",
+   "access_type": "abierto",
+   "created_at": "2026-07-06T18:52:55.000000Z",
+   "updated_at": "2026-07-06T18:52:55.000000Z",
+   "cover_photo_url": null,
+   "type": {
+    "id": 3,
+    "name": "Taller",
+    "created_at": "2026-01-24T01:00:50.000000Z",
+    "updated_at": "2026-01-24T01:00:50.000000Z"
+   },
+   "category": {
+    "id": 1,
+    "name": "General",
+    "created_at": "2026-01-24T01:00:15.000000Z",
+    "updated_at": "2026-01-24T01:00:15.000000Z"
+   },
+   "municipality": null
+  },
+  {
+   "id": 18,
+   "user_id": 18,
+   "name": "Foro Juventud, Cultura y Pensamiento en UCSD",
+   "event_type_id": 9,
+   "event_category_id": 1,
+   "date": "2026-07-01T00:00:00.000000Z",
+   "time": "18:00:00",
+   "modality": "presencial",
+   "place": "Salón Oval de la Biblioteca, campus UCSD",
+   "municipality_id": 243,
+   "url": null,
+   "cover_photo_path": "SIC/events/covers/tXQ7cdKC8kjXTirHYJyetfyvlzyLljWE6PhImEDV.jpg",
+   "cost": "0.00",
+   "access_type": "abierto",
+   "created_at": "2026-07-06T19:03:49.000000Z",
+   "updated_at": "2026-07-06T19:03:49.000000Z",
+   "cover_photo_url": null,
+   "type": {
+    "id": 9,
+    "name": "Foro",
+    "created_at": "2026-07-06T18:59:35.000000Z",
+    "updated_at": "2026-07-06T18:59:35.000000Z"
+   },
+   "category": {
+    "id": 1,
+    "name": "General",
+    "created_at": "2026-01-24T01:00:15.000000Z",
+    "updated_at": "2026-01-24T01:00:15.000000Z"
+   },
+   "municipality": {
+    "id": 243,
+    "province_id": 32,
+    "nombre": "D.N",
+    "activo": true,
+    "created_at": "2026-01-30T15:28:36.000000Z",
+    "updated_at": "2026-01-30T15:28:36.000000Z",
+    "deleted_at": null,
+    "province": {
+     "id": 32,
+     "nombre": "Distrito Nacional",
+     "codigo": "1",
+     "activo": true,
+     "created_at": "2026-01-30T15:04:25.000000Z",
+     "updated_at": "2026-01-30T15:04:25.000000Z",
+     "deleted_at": null
+    }
+   }
+  }
+ ],
+ "first_page_url": "http://apisic.cultura.gob.do/api/public/v1/events?page=1",
+ "from": 1,
+ "last_page": 2,
+ "last_page_url": "http://apisic.cultura.gob.do/api/public/v1/events?page=2",
+ "links": [
+  {
+   "url": null,
+   "label": "&laquo; Previous",
+   "page": null,
+   "active": false
+  },
+  {
+   "url": "http://apisic.cultura.gob.do/api/public/v1/events?page=1",
+   "label": "1",
+   "page": 1,
+   "active": true
+  },
+  {
+   "url": "http://apisic.cultura.gob.do/api/public/v1/events?page=2",
+   "label": "2",
+   "page": 2,
+   "active": false
+  },
+  {
+   "url": "http://apisic.cultura.gob.do/api/public/v1/events?page=2",
+   "label": "Next &raquo;",
+   "page": 2,
+   "active": false
+  }
+ ],
+ "next_page_url": "http://apisic.cultura.gob.do/api/public/v1/events?page=2",
+ "path": "http://apisic.cultura.gob.do/api/public/v1/events",
+ "per_page": 12,
+ "prev_page_url": null,
+ "to": 12,
+ "total": 20
+}

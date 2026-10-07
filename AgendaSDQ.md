@@ -106,3 +106,13 @@ El orden de confianza para unir repetidos está en `SOURCE_PRIORITY` (`agenda/de
 - Fuentes de Gastronomía que publiquen con regularidad.
 - Reconfirmar las series curadas antes de que venzan (60 días sin confirmar las marca para revisión) y activar las de temporada cuando anuncien fechas.
 - La hora de los eventos del Teatro Nacional (su página no la publica).
+
+## Fuentes revisadas que no se integran todavía
+
+Revisadas desde la PC el 6 de octubre de 2026. Antes de volver a probarlas, lee la nota.
+
+| Fuente | Qué se encontró | Qué hacer |
+|---|---|---|
+| Teatro Guloya (teatroguloya.com) | App de Base44 con API pública sin autenticación en su mismo dominio: `/api/apps/6aab0bddff1e87a2bfb25e50/entities/Show?q={"status":"cartelera"}` (obras) y `/entities/Function?q={"status":"activa"}` (funciones: `starts_at` en UTC, `ticket_types` con precio, `capacity`). No tiene robots.txt. Los datos son de prueba: una obra con descripción de relleno, precio RD$1 y una función ya pasada (20 sep); las noticias citan montajes que no están en la cartelera | Volver a mirar cuando carguen la temporada real. El adaptador sería corto: unir `Function` con su `Show` por `show_id` |
+| Feed de DGCINE (dgcine.gob.do/feed/) | Feed RSS con unas 10 notas; casi todas son institucionales (convenios, convocatorias, festivales fuera). Ese día solo 2 eran eventos: EUROCINE 2026 (26 oct al 1 nov, Caribbean Cinemas Galería 360, 15 películas, sin precio) y una exposición de la Cinemateca | Muy poco volumen para un adaptador. Cargar EUROCINE a mano en las series curadas, o leerlo junto con las agendas de prensa cuando haya extracción con IA |
+| Biblioteca Nacional (bnphu.gob.do, eventos.bnphu.gob.do) | `eventos.bnphu.gob.do` prohíbe todo en robots.txt (`Disallow: /`). `bnphu.gob.do` responde con la verificación anti-bots de Cloudflare ("Just a moment…"), también en su API de WordPress | No se lee de forma automática ni se esquiva el bloqueo. Pedirles la programación o cargarla a mano |

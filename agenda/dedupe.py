@@ -31,6 +31,7 @@ class Merged:
 SOURCE_PRIORITY = [
     "teatro_nacional",
     "casa_de_teatro",
+    "teatro_las_mascaras",  # sitio oficial del teatro
     "sic",
     "centro_leon",
     "zona_colonial",

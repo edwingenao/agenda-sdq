@@ -1,0 +1,35 @@
+name: scrape
+
+on:
+  schedule:
+    - cron: "17 10 * * *" # 06:17 en Santo Domingo (UTC-4)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Restaurar caché de páginas (evita reprocesar lo que no cambió)
+        uses: actions/cache@v4
+        with:
+          path: data/agenda.db
+          key: agenda-db-${{ github.run_id }}
+          restore-keys: agenda-db-
+      - run: python -m agenda run
+        env:
+          AGENDA_CONTACT: ${{ vars.AGENDA_CONTACT }}
+      - name: Publicar events.json
+        run: |
+          git config user.name "agenda-bot"
+          git config user.email "agenda-bot@users.noreply.github.com"
+          git add docs/events.json
+          git diff --staged --quiet || (git commit -m "Actualizar eventos" && git push)

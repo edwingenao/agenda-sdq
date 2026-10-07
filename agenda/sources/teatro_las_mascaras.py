@@ -12,8 +12,10 @@ Qué se verificó (6 oct 2026, con la herramienta de lectura web, no con el HTML
         botón "OBTEN TU BOLETA AQUI" -> https://tix.do/event/<slug>
   - Los montajes no tienen página propia: el enlace del evento es la portada con un ancla (#slug-del-titulo).
   - La página no trae dirección. Dice "la sala más acogedora de la Zona Colonial".
-Qué NO se verificó: el HTML real. Los selectores salen del texto de la página, no del marcado, así que se trabaja
-sobre las líneas de texto visible (como `jazz_en_dominicana`). Si cambia el formato, `python -m agenda inspect`.
+HTML real verificado desde la PC el 6 oct 2026 (samples/teatrolasmascaras.html): cada montaje es un <h2> seguido de
+párrafos hermanos dentro de .entry-content. La línea de fechas viene con asteriscos literales ("**Del 2 al 18 ...**")
+y "Boletas:" va en <strong> dentro del mismo párrafo que el monto, así que se lee párrafo por párrafo (no por líneas
+de texto, que parten el párrafo en cada etiqueta). El enlace de compra se toma del bloque de cada montaje.
 
 Decisiones:
   - Las funciones son viernes y sábado a las 8:30 p. m. y domingo a las 6:30 p. m.: la hora no es una sola, así que
@@ -29,7 +31,7 @@ import unicodedata
 from datetime import date
 
 from agenda.dates import find_dates, parse_price, parse_time
-from agenda.htmlutil import parse, text_lines
+from agenda.htmlutil import parse
 from agenda.models import Event, guess_kids
 from agenda.sources.base import Source
 
@@ -42,7 +44,6 @@ _TICKET_LINE = re.compile(r"\b(boletas?|entradas?|precio|costo)\b", re.I)
 _PARKING = re.compile(r"parqueo|estacionamiento|parking", re.I)
 _SCHEDULE = re.compile(r"^\W*(funciones?|horarios?)\s*:", re.I)
 _TIME_PM = re.compile(r"\d{1,2}(?::\d{2})?\s*[ap]\.?\s*m", re.I)
-_TICKET_TEXT = re.compile(r"boleta|entrada|tickets?", re.I)
 
 
 class TeatroLasMascaras(Source):
@@ -69,18 +70,33 @@ def _slug(text: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", t).strip("-")
 
 
-def _blocks(lines: list[str], today: date) -> list[tuple[str, list[date], list[str]]]:
-    """(título, fechas, líneas del bloque) por cada par 'título + línea de fechas'."""
-    heads: list[tuple[int, str, list[date]]] = []
-    for i in range(len(lines) - 1):
-        if _DATE_LINE.match(lines[i + 1]) and not _DATE_LINE.match(lines[i]):
-            dates = find_dates(lines[i + 1], today)
-            if dates:
-                heads.append((i, lines[i], dates))
+def _para_text(node) -> str:
+    text = node.text(deep=True, separator=" ")
+    return re.sub(r"\s+", " ", text).strip().strip("*_ ").strip()
+
+
+def _blocks(tree, today: date) -> list[tuple[str, list[date], list[str], list[str]]]:
+    """(título, fechas, párrafos, enlaces) por cada <h2> cuyo primer párrafo es la línea de fechas."""
     out = []
-    for n, (i, title, dates) in enumerate(heads):
-        end = heads[n + 1][0] if n + 1 < len(heads) else len(lines)
-        out.append((title, dates, lines[i + 2 : end]))
+    for h2 in tree.css("h2"):
+        title = re.sub(r"\s+", " ", h2.text(deep=True, separator=" ")).strip()
+        paras: list[str] = []
+        links: list[str] = []
+        node = h2.next
+        while node is not None and node.tag != "h2":
+            if node.tag not in ("-text", "-comment"):
+                text = _para_text(node)
+                if text:
+                    paras.append(text)
+                links += [(a.attributes.get("href") or "").strip() for a in node.css("a[href]")]
+                if node.tag == "a":
+                    links.append((node.attributes.get("href") or "").strip())
+            node = node.next
+        if not title or not paras or not _DATE_LINE.match(paras[0]):
+            continue
+        dates = find_dates(paras[0], today)
+        if dates:
+            out.append((title, dates, paras[1:], links))
     return out
 
 
@@ -113,28 +129,14 @@ def _blurb(body: list[str]) -> str:
     return ""
 
 
-def _ticket_links(tree) -> list[str]:
-    links = []
-    for a in tree.css("a[href]"):
-        href = (a.attributes.get("href") or "").strip()
-        if "tix.do" in href and _TICKET_TEXT.search(a.text(strip=True)):
-            links.append(href)
-    return links
-
-
 def _specific(url: str) -> bool:
     """Un enlace a la portada de la ticketera (tix.do/) no sirve como enlace de compra."""
     return bool(re.sub(r"^https?://[^/]+/?", "", url).strip("/"))
 
 
 def parse_page(html: str, base_url: str, today: date) -> list[Event]:
-    tree = parse(html)
-    lines = text_lines(tree)
-    blocks = _blocks(lines, today)
-    links = _ticket_links(tree)
-    use_links = len(links) == len(blocks)  # si no cuadran, mejor sin enlace que uno cruzado
     out: list[Event] = []
-    for n, (title, dates, body) in enumerate(blocks):
+    for title, dates, body, links in _blocks(parse(html), today):
         if dates[-1] < today:
             continue
         is_free, pmin, pmax = _price(body)
@@ -142,7 +144,7 @@ def parse_page(html: str, base_url: str, today: date) -> list[Event]:
         desc = " ".join(p for p in (schedule, _blurb(body)) if p)
         if len(desc) > MAX_DESCRIPTION:
             desc = desc[: MAX_DESCRIPTION - 1].rstrip() + "…"
-        link = links[n] if use_links and _specific(links[n]) else ""
+        link = next((u for u in links if "tix.do" in u and _specific(u)), "")
         out.append(
             Event(
                 source=TeatroLasMascaras.id,

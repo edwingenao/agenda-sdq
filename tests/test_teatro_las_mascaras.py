@@ -1,7 +1,8 @@
-"""Pruebas de Teatro Las Máscaras con HTML SINTÉTICO armado a partir del texto que mostró la página real (6 oct 2026).
-Prueban la lógica; no garantizan que el marcado real coincida (para eso está `python -m agenda inspect`)."""
+"""Pruebas de Teatro Las Máscaras: HTML sintético para la lógica y la portada real guardada el 6 oct 2026
+(samples/teatrolasmascaras.html, solo la cartelera)."""
 
 from datetime import date
+from pathlib import Path
 
 from agenda.sources import SOURCES
 from agenda.sources.teatro_las_mascaras import TeatroLasMascaras, parse_page
@@ -80,10 +81,37 @@ def test_ticket_links_and_generic_tix_home_is_dropped():
     assert evs[2].ticket_url == ""  # "https://tix.do/" no lleva a la función
 
 
-def test_mismatched_ticket_links_are_not_crossed():
+def test_ticket_links_come_from_each_block_and_never_cross():
     html = page(block("Obra A", "Del 9 al 11 de octubre, 2026", href=None),
                 block("Obra B", "Del 16 al 18 de octubre, 2026", href="https://tix.do/event/B-1"))
-    assert [e.ticket_url for e in parse_page(html, BASE, TODAY)] == ["", ""]
+    assert [e.ticket_url for e in parse_page(html, BASE, TODAY)] == ["", "https://tix.do/event/B-1"]
+
+
+def test_real_markup_quirks():
+    """Como la portada real: fechas entre asteriscos y "Boletas:" en <strong> con el monto en el mismo párrafo."""
+    html = (
+        '<div class="entry-content"><h2>Obra real</h2><p>**Del 9 al 11 de octubre, 2026**</p>'
+        '<figure><img src="x.jpg"></figure><p>Funciones: Viernes 8:30 p.m.</p>'
+        '<p>🎟️ <strong>Boletas:</strong> RD$600 p/p<br>Disponibles en <a href="https://tix.do/event/Real-1">Tix.do</a></p>'
+        '<p>🚗 <strong>Parqueo:</strong><br>2 primeras horas: RD$50</p></div>'
+    )
+    e = parse_page(html, BASE, TODAY)[0]
+    assert e.dates == ["2026-10-09", "2026-10-11"] and e.price_min == 600 and e.start_time == "20:30"
+    assert e.ticket_url == "https://tix.do/event/Real-1"
+
+
+REAL = Path(__file__).resolve().parent.parent / "samples" / "teatrolasmascaras.html"
+
+
+def test_real_page():
+    evs = parse_page(REAL.read_text(encoding="utf-8"), BASE, TODAY)
+    assert [e.title for e in evs] == ["Festival Teatro Joven", "Vamos Hacerlo Parados", "Las Locuras de Papi y Mami"]
+    assert [e.dates for e in evs] == [["2026-10-02", "2026-10-18"], ["2026-10-23", "2026-11-01"], ["2026-11-13", "2026-11-29"]]
+    assert all((e.is_free, e.price_min) == (False, 875) for e in evs)  # nunca el parqueo (RD$50 / RD$100)
+    assert all(e.start_time is None and "Domingos 6:30 p.m." in e.description for e in evs)
+    assert [e.ticket_url for e in evs] == [
+        "https://tix.do/event/FestivaldeTeatroJoven-1", "https://tix.do/event/VamosaHacerloParados-1", ""]
+    assert evs[0].description.startswith("Funciones:") and len(evs[0].description) <= 280
 
 
 def test_category_venue_zone_and_kids():

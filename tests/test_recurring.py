@@ -335,6 +335,13 @@ def test_shipped_809_mercado_is_loaded_without_inventing_time_or_price():
     assert mercado[0].category == "Gastronomía" and "cultura" in mercado[0].tags
 
 
+def test_shipped_eurocine_is_a_week_of_cinema_without_invented_time_or_price():
+    eurocine = of(recurring.collect(**SHIPPED), "eurocine-2026")
+    assert [e.start for e in eurocine] == [f"2026-10-{d}" for d in range(26, 32)] + ["2026-11-01"]
+    assert all(e.category == "Cine" and e.start_time is None and e.is_free is None for e in eurocine)
+    assert eurocine[0].source_name == "DGCINE" and not eurocine[0].needs_review
+
+
 def test_shipped_seasonal_and_unverified_series_stay_off():
     res = recurring.collect(**SHIPPED)
     off = {
@@ -363,12 +370,12 @@ def test_source_run_and_export(tmp_path):
     db = DB(":memory:")
     logs = []
     evs = recurring.SeriesRecurrentes(None, db, TODAY, "2026-10-06T12:00:00+00:00", log=logs.append).run()
-    assert len(evs) == 6  # 4 domingos de Bonyé en 28 días + los 2 días de 809 Mercado
-    assert any("6 series" in line for line in logs)
+    assert len(evs) == 13  # 4 domingos de Bonyé en 28 días + 7 días de EUROCINE + 2 de 809 Mercado
+    assert any("7 series" in line for line in logs)
     for e in evs:
         assert db.upsert_event(e, "2026-10-06T12:00:00+00:00") == "new"
     out = tmp_path / "events.json"
-    assert export_json(db, out, TODAY) == 6
+    assert export_json(db, out, TODAY) == 13
     pub = json.loads(out.read_text(encoding="utf-8"))["events"]
     assert pub[0]["title"] == "Domingos de Bonyé" and pub[0]["time"] == "18:00" and pub[0]["price"] == 0
     assert pub[0]["srcName"] == "SalsaVida" and pub[0]["zone"] == "Ciudad Colonial"

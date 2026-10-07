@@ -82,6 +82,32 @@
       "notes": "Evento puntual. Falta horario y precio de entrada; buscar la página del organizador."
     },
     {
+      "id": "eurocine-2026",
+      "title": "EUROCINE 2026",
+      "active": true,
+      "pattern": { "freq": "dates", "dates": ["2026-10-26", "2026-10-27", "2026-10-28", "2026-10-29", "2026-10-30", "2026-10-31", "2026-11-01"] },
+      "start_time": null,
+      "end_time": null,
+      "exceptions": [],
+      "venue": "Caribbean Cinemas, Galería 360",
+      "category": ["Cine"],
+      "price": { "status": "unconfirmed" },
+      "description": "Festival de cine europeo contemporáneo: 15 películas de distintos países de Europa.",
+      "url": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/",
+      "sources": [
+        {
+          "name": "DGCINE",
+          "url": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/",
+          "seen": "2026-10-06",
+          "says": "Del 26 de octubre al 1 de noviembre, 15 películas europeas en Caribbean Cinemas de Galería 360; nota del 30 de septiembre de 2026, sin precio ni horarios"
+        }
+      ],
+      "confidence": "oficial",
+      "last_confirmed": "2026-10-06",
+      "stale_after_days": 30,
+      "notes": "Evento puntual. Falta la programación por día (horarios y películas) y el precio; buscarla en Caribbean Cinemas o en las redes de EUROCINE."
+    },
+    {
       "id": "cine-dominicano-banreservas",
       "title": "Ciclo de Cine Dominicano (Centro Cultural Banreservas)",
       "active": false,

@@ -1,0 +1,643 @@
+{
+  "generated_at": "2026-10-07T01:22:21+00:00",
+  "today": "2026-10-07",
+  "count": 23,
+  "events": [
+    {
+      "id": "cb8f6618f2535e0b",
+      "source": "cce",
+      "date": "2026-10-06",
+      "end": "2026-10-09",
+      "sessions": [
+        "2026-10-06",
+        "2026-10-08",
+        "2026-10-09"
+      ],
+      "title": "Galería de personajes",
+      "venue": "Centro Comunitario",
+      "zone": "Ciudad Colonial",
+      "cat": "Arte",
+      "price": null,
+      "price_max": null,
+      "time": "17:00",
+      "kids": false,
+      "tags": [
+        "formacion"
+      ],
+      "description": "Imparten Nathalie Santos Martínez y Dilianny Julissa Tamariz EnisCONVOCATORIA CERRADA",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/galer%C3%ADa-de-personajes",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/galer%C3%ADa-de-personajes"
+        }
+      ]
+    },
+    {
+      "id": "f426f72dcdfe3f57",
+      "source": "cce",
+      "date": "2026-10-06",
+      "end": "2026-10-29",
+      "sessions": [
+        "2026-10-06",
+        "2026-10-08",
+        "2026-10-13",
+        "2026-10-16",
+        "2026-10-20",
+        "2026-10-22",
+        "2026-10-27",
+        "2026-10-29"
+      ],
+      "title": "Pensar y recrear la mujer en la imagen",
+      "venue": "Centro Cultural de España",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "21:00",
+      "kids": false,
+      "tags": [],
+      "description": "Inscripción antes del 1 de octubrerellenando este formulario con tus datosProyecto Formación del Sector Cultural",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/pensar-y-recrear-la-mujer-en-la-imagen",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/pensar-y-recrear-la-mujer-en-la-imagen"
+        }
+      ]
+    },
+    {
+      "id": "3367acce857d94e1",
+      "source": "teatro_nacional",
+      "date": "2026-10-07",
+      "end": null,
+      "sessions": null,
+      "title": "Wagner / Molina",
+      "venue": "Sala Carlos Piantini, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Música",
+      "price": 610,
+      "price_max": 2290,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "El Ministerio de Cultura, la Dirección General de Bellas Artes, Fundación Sinfonía y la Orquesta Sinfónica Nacional, dentro del marco de su 85 aniversario presentan la tan esperada Temporada Sinfónica.  Cada año, la Orquesta Sinfónica Nacional presenta al pueblo dominicano una te",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/wagner-molina/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/wagner-molina/"
+        }
+      ]
+    },
+    {
+      "id": "b9dcbcf89fa21ff0",
+      "source": "cce",
+      "date": "2026-10-07",
+      "end": "2026-10-14",
+      "sessions": [
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-14"
+      ],
+      "title": "Lo trágico-psicológico en la cuentística de Virgilio Díaz Grullón",
+      "venue": "Centro Cultural de España",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "21:00",
+      "kids": false,
+      "tags": [
+        "formacion"
+      ],
+      "description": "Inscríbete antes del viernes 2 de octubrerellenando este formulario con tus datosEn este taller, se explorarán la dimensión trágica, la representación psicológica y las tipologías de la muerte a través del análisis de la narrativa breve del escritor dominicano Virgilio Díaz Grull",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/lo-tr%C3%A1gico-psicol%C3%B3gico-en-la-cuent%C3%ADstica-de-virgilio-d%C3%ADaz-grull%C3%B3n",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/lo-tr%C3%A1gico-psicol%C3%B3gico-en-la-cuent%C3%ADstica-de-virgilio-d%C3%ADaz-grull%C3%B3n"
+        }
+      ]
+    },
+    {
+      "id": "c12c63810a782cf2",
+      "source": "jazz_en_dominicana",
+      "date": "2026-10-08",
+      "end": null,
+      "sessions": null,
+      "title": "Sandy Gabriel Jazz Residence",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Música",
+      "price": 1500,
+      "price_max": 2000,
+      "time": "21:30",
+      "kids": false,
+      "tags": [
+        "jazz"
+      ],
+      "description": "El jazz vuelve a encender aThe Green Room. Este jueves 8 se dan inicio a los Sandy Gabriel Jazz Residence. Comenta Sandy: “Más que una serie de conciertos, ha sido concebida como una experiencia musical dinámica, elegante y variada, donde cada noche tendrá una propuesta diferente",
+      "ticketUrl": "",
+      "srcName": "Jazz en Dominicana",
+      "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-4-al-10-de.html#2026-10-08-sandy-gabriel-jazz-residence",
+      "sources": [
+        {
+          "srcName": "Jazz en Dominicana",
+          "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-4-al-10-de.html#2026-10-08-sandy-gabriel-jazz-residence"
+        }
+      ]
+    },
+    {
+      "id": "f01fcad4623a4f3b",
+      "source": "teatro_nacional",
+      "date": "2026-10-09",
+      "end": null,
+      "sessions": null,
+      "title": "3 x Todas las canciones",
+      "venue": "Café Teatro Juan Lockward, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Música",
+      "price": 1100,
+      "price_max": 1100,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Los cantautores José Antonio Rodríguez, Raúl Torres y Manuel Jiménez compartirán escenario para una velada dedicada a la canción de autor. Reunirá a tres reconocidos compositores e intérpretes en un formato acústico y cercano. El público podrá disfrutar de un repertorio que recog",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/3-x-todas-las-canciones/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/3-x-todas-las-canciones/"
+        }
+      ]
+    },
+    {
+      "id": "9b2be05dad4c1a80",
+      "source": "teatro_nacional",
+      "date": "2026-10-09",
+      "end": "2026-10-18",
+      "sessions": null,
+      "title": "Rojo",
+      "venue": "Sala José de Jesus Ravelo, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Teatro",
+      "price": 2000,
+      "price_max": 2000,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Dos artistas.Un lienzo en blanco.Y una batalla feroz entre el arte, el ego, el tiempo y la trascendencia.",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/rojo/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/rojo/"
+        }
+      ]
+    },
+    {
+      "id": "0f1839bf90b0130f",
+      "source": "jazz_en_dominicana",
+      "date": "2026-10-09",
+      "end": null,
+      "sessions": null,
+      "title": "Fiesta Sunset Jazz presenta - The Maggie Rodríguez Project - sus favoritas!",
+      "venue": "Dominican Fiesta Hotel & Casino",
+      "zone": "Mirador Sur",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [
+        "jazz"
+      ],
+      "description": "El pasado 6 de marzo se dio inicio a un mes de presentaciones para celebrar de una manera muy especial dl Día Internacional de la Mujer. Esa noche el Fiesta Sunset Jazz, a casa llena, presentó al proyecto de la vocalista Maggie Rodríguez, acompañada del pianista Oscar Micheli, Mi",
+      "ticketUrl": "",
+      "srcName": "Jazz en Dominicana",
+      "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-4-al-10-de.html#2026-10-09-fiesta-sunset-jazz-presenta-the-maggie-rodri-guez-",
+      "sources": [
+        {
+          "srcName": "Jazz en Dominicana",
+          "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-4-al-10-de.html#2026-10-09-fiesta-sunset-jazz-presenta-the-maggie-rodri-guez-"
+        }
+      ]
+    },
+    {
+      "id": "19df404c9a5dd5ca",
+      "source": "teatro_nacional",
+      "date": "2026-10-10",
+      "end": null,
+      "sessions": null,
+      "title": "Retro Jazz 15 años, Gala del cancionero dominicano",
+      "venue": "Sala Carlos Piantini, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Música",
+      "price": 2290,
+      "price_max": 4525,
+      "time": "20:30",
+      "kids": false,
+      "tags": [
+        "jazz"
+      ],
+      "description": "La agrupación dominicana Retro Jazz anunció que ya están a la venta las boletas para su concierto Retro Jazz 15 Años: Gala del Cancionero Dominicano, el cual tendrá lugar en la Sala Carlos Piantini del Teatro Nacional Eduardo Brito el sábado 10 de octubre. Bajo el lema «15 años j",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/retro-jazz-15-anos-gala-del-cancionero-dominicano/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/retro-jazz-15-anos-gala-del-cancionero-dominicano/"
+        },
+        {
+          "srcName": "Jazz en Dominicana",
+          "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-4-al-10-de.html#2026-10-10-retro-jazz-15-años-gala-del-cancionero-dominicano"
+        }
+      ]
+    },
+    {
+      "id": "0cb16b48fb7973ad",
+      "source": "teatro_nacional",
+      "date": "2026-10-11",
+      "end": null,
+      "sessions": null,
+      "title": "Luli Pampin",
+      "venue": "Sala Carlos Piantini, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Música",
+      "price": 3425,
+      "price_max": 6610,
+      "time": "",
+      "kids": true,
+      "tags": [],
+      "description": "Luli Pampín llega a República Dominicana con “Bienvenidos, Juntos Otra Vez”, una experiencia llena de magia, canciones y diversión para disfrutar en familia con los pequeños.",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/luli-pampin/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/luli-pampin/"
+        }
+      ]
+    },
+    {
+      "id": "80dad4549df0897c",
+      "source": "cce",
+      "date": "2026-10-14",
+      "end": null,
+      "sessions": null,
+      "title": "La construcción narrativa de la novela: El narrador, el narratario y los personajes",
+      "venue": "Centro Cultural de España",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Un taller práctico a partir de El montero, de Pedro Francisco BonóImparte Pedro Antonio ValdezDirigido a todo públicoInscríbete antes del viernes 14 de octubrerellenando este formulario con tus datosEntrada libre hasta completar aforoIntroducir a los participantes en conceptos fu",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/la-construcci%C3%B3n-narrativa-de-la-novela-el-narrador-el-narratario-y-los-personajes",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/la-construcci%C3%B3n-narrativa-de-la-novela-el-narrador-el-narratario-y-los-personajes"
+        }
+      ]
+    },
+    {
+      "id": "2b15948fe41c11fa",
+      "source": "cce",
+      "date": "2026-10-14",
+      "end": "2026-11-04",
+      "sessions": [
+        "2026-10-14",
+        "2026-10-17",
+        "2026-10-21",
+        "2026-10-28",
+        "2026-11-04"
+      ],
+      "title": "Hablar con el paisaje: La (video) poesía como forma de atención",
+      "venue": "Centro Cultural de España",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "21:00",
+      "kids": false,
+      "tags": [],
+      "description": "14, 21 y 28 de octubre 6.30 – 9 pm17 de octubre: Visita al Jardín Botánico, 9 – 11 am4 de noviembre, de 6:30 pm a 9:00 pm",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/hablar-con-el-paisaje-la-video-poes%C3%ADa-como-forma-de-atenci%C3%B3n",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/hablar-con-el-paisaje-la-video-poes%C3%ADa-como-forma-de-atenci%C3%B3n"
+        }
+      ]
+    },
+    {
+      "id": "102f8f5ee8e9ac7a",
+      "source": "teatro_nacional",
+      "date": "2026-10-16",
+      "end": null,
+      "sessions": null,
+      "title": "Despecho El Concierto",
+      "venue": "Café Teatro Juan Lockward, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Música",
+      "price": 2000,
+      "price_max": 3500,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "DESPECHO EL CONCIERTO regresa a Santo Domingo en una edición especial y, por primera vez, llega al prestigioso Café Teatro del Teatro Nacional Eduardo Brito.",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/despecho-el-concierto/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/despecho-el-concierto/"
+        }
+      ]
+    },
+    {
+      "id": "06fbb3677135fe00",
+      "source": "teatro_nacional",
+      "date": "2026-10-17",
+      "end": null,
+      "sessions": null,
+      "title": "Rosario, Universo de Ley Tour",
+      "venue": "Sala Carlos Piantini, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Música",
+      "price": 5645,
+      "price_max": 11290,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/rosario-universo-de-ley-tour/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/rosario-universo-de-ley-tour/"
+        }
+      ]
+    },
+    {
+      "id": "c847ea28e470239c",
+      "source": "teatro_nacional",
+      "date": "2026-10-24",
+      "end": null,
+      "sessions": null,
+      "title": "David Bisbal Tour Eternos 2026",
+      "venue": "Sala Carlos Piantini, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Música",
+      "price": 9500,
+      "price_max": 12000,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "David Bisbal, uno de los artistas hispanos más reconocidos y queridos a nivel internacional, regresa con más fuerza que nunca con “Tour Eternos 2026”, una gira que marca un nuevo rumbo en su carrera, con un espectáculo renovado, cargado de emoción, en el que presentará en directo",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/david-bisbal-tour-eternos-2026/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/david-bisbal-tour-eternos-2026/"
+        }
+      ]
+    },
+    {
+      "id": "6eff35ff9fb23914",
+      "source": "teatro_nacional",
+      "date": "2026-11-04",
+      "end": null,
+      "sessions": null,
+      "title": "Mahler Resurreción",
+      "venue": "Sala Carlos Piantini, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Música",
+      "price": 2290,
+      "price_max": 5640,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Gala de Aniversarios: «RESURRECCIÓN» de Gustav Mahler, una de las obras más MONUMENTALES del repertorio sinfónico universal.",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/mahler-resurrecion/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/mahler-resurrecion/"
+        }
+      ]
+    },
+    {
+      "id": "9703073b29cd73a5",
+      "source": "teatro_nacional",
+      "date": "2026-11-08",
+      "end": null,
+      "sessions": null,
+      "title": "World of Dance 2026",
+      "venue": "Sala Carlos Piantini, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Danza",
+      "price": 1500,
+      "price_max": 2000,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "World of Dance es mucho más que una competencia: es la comunidad de baile más grande y prestigiosa del mundo. Fundada en 2008 en Los Ángeles, esta plataforma ha transformado la cultura urbana y del performance al reunir a miles de bailarines de todos los rincones del planeta en u",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/world-of-dance-2026/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/world-of-dance-2026/"
+        }
+      ]
+    },
+    {
+      "id": "a801800daf37f28b",
+      "source": "teatro_nacional",
+      "date": "2026-11-13",
+      "end": "2026-11-15",
+      "sessions": null,
+      "title": "La Ciguapa",
+      "venue": "Sala Carlos Piantini, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Danza",
+      "price": 2500,
+      "price_max": 3000,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "40 años de historia nos trajeron hasta aquí. Y para celebrarlos, una leyenda dominicana está a punto de cobrar vida sobre el escenario. Por primera vez, Alina Abreu presenta: LA CIGUAPA.",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/la-ciguapa/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/la-ciguapa/"
+        }
+      ]
+    },
+    {
+      "id": "036552aa045b929b",
+      "source": "teatro_nacional",
+      "date": "2026-12-19",
+      "end": null,
+      "sessions": null,
+      "title": "Recital de Fin de Año",
+      "venue": "Sala Aida Bonnelly de Díaz, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Música",
+      "price": 2000,
+      "price_max": 2500,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/recital-de-fin-de-ano/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/recital-de-fin-de-ano/"
+        }
+      ]
+    },
+    {
+      "id": "5fa51b21920761db",
+      "source": "teatro_nacional",
+      "date": "2026-12-19",
+      "end": null,
+      "sessions": null,
+      "title": "Vicente García Sinfónico",
+      "venue": "Sala Carlos Piantini, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Música",
+      "price": 3405,
+      "price_max": 6760,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Un concierto sinfónico con el artista Vicente García y la Orquesta Filarmónica de Santo Domingo, bajo la producción y dirección de Amaury Sánchez.",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/vicente-garcia-sinfonico/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/vicente-garcia-sinfonico/"
+        }
+      ]
+    },
+    {
+      "id": "0884ce0254451012",
+      "source": "teatro_nacional",
+      "date": "2027-01-30",
+      "end": null,
+      "sessions": null,
+      "title": "Gian Marco, Bajo La Manga Tour",
+      "venue": "Sala Carlos Piantini, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Música",
+      "price": 5100,
+      "price_max": 10200,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Por primera vez en el Teatro Nacional el cantautor peruano mas reconocido internacionalmente, Gian Marco. Ganador de 3 Latin Grammy y autor de grandes éxitos interpretados por artistas como Marc Anthony, Gloria Estefan, Alejandro Fernández, Emmanuel, Mijares, entre otros.",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/gian-marco-bajo-la-manga-tour/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/gian-marco-bajo-la-manga-tour/"
+        }
+      ]
+    },
+    {
+      "id": "3f2ee6ab2c9344d4",
+      "source": "teatro_nacional",
+      "date": "2027-02-14",
+      "end": "2027-02-15",
+      "sessions": null,
+      "title": "Jorge Drexler \"Gira Taracá\"",
+      "venue": "Sala Carlos Piantini, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Música",
+      "price": 6200,
+      "price_max": 11800,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "En febrero de 2027, Santo Domingo recibirá dos funciones del nuevo concierto en vivo de Jorge Drexler, una de las voces más influyentes de la música iberoamericana contemporánea.",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/jorge-drexler-gira-taraca/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/jorge-drexler-gira-taraca/"
+        }
+      ]
+    },
+    {
+      "id": "e526aa31f7b2dd23",
+      "source": "teatro_nacional",
+      "date": "2027-02-18",
+      "end": "2027-02-21",
+      "sessions": null,
+      "title": "Medea",
+      "venue": "Sala José de Jesus Ravelo, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Teatro",
+      "price": 1575,
+      "price_max": 1575,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Esta adaptación que parte de la tragedia original de Eurípides nos presenta una Medea contemporánea y caribeña, en un contexto donde la búsqueda de identidad, la traición y los límites de la condición humana se combinan en un poderoso texto para confirmar que son temas todavía vi",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/medea/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/medea/"
+        }
+      ]
+    }
+  ]
+}

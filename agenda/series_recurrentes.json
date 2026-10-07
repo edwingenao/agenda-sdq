@@ -218,6 +218,32 @@
       "last_confirmed": null,
       "stale_after_days": 60,
       "notes": "Solo hay una nota de 2023. No activar hasta confirmar con el Ministerio de Cultura que sigue vigente en 2026."
+    },
+    {
+      "id": "gerard-ellis-dominican-dream-inauguracion",
+      "title": "Gerard Ellis: The Dominican Dream (inauguración)",
+      "active": true,
+      "pattern": { "freq": "dates", "dates": ["2026-10-15"] },
+      "start_time": "19:00",
+      "end_time": null,
+      "exceptions": [],
+      "venue": "Lyle O. Reitzel Arte Contemporáneo, Torre Piantini",
+      "category": ["Arte"],
+      "price": { "status": "unconfirmed" },
+      "description": "Inauguración del nuevo solo show de Gerard Ellis, desde las 7:00 p. m. El flyer no indica hasta cuándo estará la exposición.",
+      "url": "https://www.instagram.com/lorgallery/",
+      "sources": [
+        {
+          "name": "Flyer de la galería en Instagram (@lorgallery), visto en una historia",
+          "url": "https://www.instagram.com/lorgallery/",
+          "seen": "2026-10-07",
+          "says": "Jueves 15 de octubre desde las 7:00 p. m., Torre Piantini; sin precio ni fecha de cierre"
+        }
+      ],
+      "confidence": "oficial",
+      "last_confirmed": "2026-10-07",
+      "stale_after_days": 30,
+      "notes": "Evento puntual. Falta la fecha de cierre de la muestra y confirmar si la entrada es libre: preguntar a la galería. La página de exposiciones de lyleoreitzel.com no la tenía el 7 de octubre."
     }
   ]
 }

@@ -370,13 +370,20 @@ def test_source_run_and_export(tmp_path):
     db = DB(":memory:")
     logs = []
     evs = recurring.SeriesRecurrentes(None, db, TODAY, "2026-10-06T12:00:00+00:00", log=logs.append).run()
-    assert len(evs) == 13  # 4 domingos de Bonyé en 28 días + 7 días de EUROCINE + 2 de 809 Mercado
-    assert any("7 series" in line for line in logs)
+    assert len(evs) == 14  # 4 domingos de Bonyé en 28 días + 7 días de EUROCINE + 2 de 809 Mercado + la inauguración de Gerard Ellis
+    assert any("8 series" in line for line in logs)
     for e in evs:
         assert db.upsert_event(e, "2026-10-06T12:00:00+00:00") == "new"
     out = tmp_path / "events.json"
-    assert export_json(db, out, TODAY) == 13
+    assert export_json(db, out, TODAY) == 14
     pub = json.loads(out.read_text(encoding="utf-8"))["events"]
     assert pub[0]["title"] == "Domingos de Bonyé" and pub[0]["time"] == "18:00" and pub[0]["price"] == 0
     assert pub[0]["srcName"] == "SalsaVida" and pub[0]["zone"] == "Ciudad Colonial"
     assert [p["cat"] for p in pub if p["title"] == "809 Mercado"] == ["Gastronomía", "Gastronomía"]
+
+
+def test_shipped_gerard_ellis_inauguration():
+    ev = next(e for e in recurring.events(today=TODAY, horizon_days=14) if e.title.startswith("Gerard Ellis"))
+    assert ev.dates == ["2026-10-15"] and ev.start_time == "19:00"
+    assert ev.category == "Arte" and ev.zone == "Piantini"
+    assert ev.is_free is None  # el flyer no dice el precio: por confirmar, no gratis

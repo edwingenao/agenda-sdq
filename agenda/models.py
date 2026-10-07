@@ -33,6 +33,11 @@ _KIDS = re.compile(r"\b(ni[ñn]os?|ni[ñn]as?|infantil(?:es)?|familia(?:r|res|s)
 ZONES = [
     ("casa de teatro", "Ciudad Colonial"),
     ("las damas", "Ciudad Colonial"),
+    ("zona colonial", "Ciudad Colonial"),
+    ("ciudad colonial", "Ciudad Colonial"),
+    ("ruinas de san francisco", "Ciudad Colonial"),
+    ("parque pellerano castro", "Ciudad Colonial"),
+    ("plaza de la cultura", "Plaza de la Cultura"),
     ("plaza de españa", "Ciudad Colonial"),
     ("centro cultural de españa", "Ciudad Colonial"),
     ("quinta dominica", "Ciudad Colonial"),

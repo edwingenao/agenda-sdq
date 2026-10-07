@@ -9,22 +9,21 @@ eventos con fecha para las próximas semanas.
 Reglas de producto que respeta:
   * Precio: si la serie no dice que es gratis o de pago, ``is_free`` es ``None``
     ("precio no confirmado"). Nunca se asume gratis.
-  * Hora: si la serie no trae hora, no se inventa (``has_time = False``).
-  * Una serie sin reconfirmar hace tiempo se sigue mostrando, pero con
-    ``needs_confirmation = True`` para que la web diga "confirma antes de ir".
+  * Hora: si la serie no trae hora, no se inventa (``start_time = None``).
+  * Una serie sin reconfirmar a tiempo, o sin verificar, se sigue mostrando, pero
+    queda marcada ``needs_review`` (aparece en la lista de revisión de la corrida)
+    y con la etiqueta ``confirmar``.
   * Las series de temporada (ciclos, programas de verano) quedan con
     ``"active": false`` hasta que se anuncien las fechas de la próxima edición.
   * Toda serie lleva al menos una fuente: sin evidencia no entra.
-  * Hasta 2 categorías, de Música, Gastronomía y Cultura.
+  * Hasta 2 categorías en el archivo. El modelo guarda una: la primera es la
+    categoría del evento y la segunda va a ``tags`` hasta que el modelo admita dos.
 
 Una entrada mal escrita no detiene la corrida: se salta y queda en
 ``RecurringResult.skipped_invalid`` para que el pipeline la registre. Un archivo
 ilegible o con estructura equivocada sí lanza ``ValueError``.
 
-Este módulo usa un ``Event`` provisional con los mismos campos que ``sic_rd.py`` y
-``dedupe.py``; hay que reemplazarlo por el modelo real de ``agenda-sdq``.
-
-Uso rápido:  python -m agenda.recurring [días]   (por defecto 28)
+Uso rápido:  python -m agenda.sources.recurring [días]   (por defecto 28)
 """
 
 from __future__ import annotations
@@ -33,17 +32,21 @@ import calendar
 import json
 import unicodedata
 from dataclasses import dataclass, field
-from datetime import date, datetime, time, timedelta
+from datetime import date, time, timedelta
 from decimal import Decimal, InvalidOperation
 from pathlib import Path
 from typing import Optional, Union
 
+from agenda.models import Event, guess_kids, zone_for
+from agenda.sources.base import Source
+
 SOURCE_ID = "recurring"
-DEFAULT_PATH = Path(__file__).with_name("series_recurrentes.json")
+DEFAULT_PATH = Path(__file__).resolve().parent.parent / "series_recurrentes.json"
 DEFAULT_HORIZON_DAYS = 28
 DEFAULT_STALE_AFTER_DAYS = 60
 
-CATEGORIES = ("Música", "Gastronomía", "Cultura")
+# Las del scraper (agenda/models.py) más Gastronomía, que el sitio ya muestra como chip propio.
+CATEGORIES = ("Música", "Teatro", "Danza", "Arte", "Cine", "Gastronomía", "Cultura")
 MAX_CATEGORIES = 2
 CONFIDENCE_LEVELS = ("oficial", "listado", "sin_verificar")
 PRICE_STATUSES = ("free", "paid", "unconfirmed")
@@ -53,32 +56,6 @@ WEEKDAYS = {
     "lunes": 0, "martes": 1, "miercoles": 2, "jueves": 3,
     "viernes": 4, "sabado": 5, "domingo": 6,
 }
-
-
-@dataclass
-class Event:
-    """Modelo provisional; campos alineados con sic_rd.py y dedupe.py."""
-
-    title: str
-    start: datetime
-    source: str
-    venue: Optional[str] = None
-    has_time: bool = False
-    url: Optional[str] = None
-    category: list[str] = field(default_factory=list)
-    description: Optional[str] = None
-    is_free: Optional[bool] = None  # None = precio no confirmado
-    price_min: Optional[Decimal] = None
-    price_max: Optional[Decimal] = None
-    sources: list[str] = field(default_factory=list)
-    conflicts: list[str] = field(default_factory=list)
-    # Extras propios de las series
-    source_event_id: Optional[str] = None
-    series_id: Optional[str] = None
-    end: Optional[datetime] = None
-    confidence: str = "sin_verificar"
-    needs_confirmation: bool = False
-    last_confirmed: Optional[date] = None
 
 
 @dataclass
@@ -342,36 +319,36 @@ def is_stale(series: Series, today: date) -> bool:
     return (today - series.last_confirmed).days > series.stale_after_days
 
 
+def _int(amount: Optional[Decimal]) -> Optional[int]:
+    return None if amount is None else int(round(amount))
+
+
 def to_events(series: Series, days: list[date], today: date) -> list[Event]:
     needs = is_stale(series, today) or series.confidence == "sin_verificar"
     is_free = {"free": True, "paid": False}.get(series.price_status)
+    pmin, pmax = _int(series.price_min), _int(series.price_max)
+    tags = [c.lower() for c in series.categories[1:]] + ["serie"] + (["confirmar"] if needs else [])
+    source_name = next((s.get("name") for s in series.sources if s.get("name")), "Serie curada")
     out = []
     for day in days:
-        start = datetime.combine(day, series.start_time or time(0, 0))
-        end = None
-        if series.end_time is not None:
-            end = datetime.combine(day, series.end_time)
-            if end <= start:  # termina pasada la medianoche
-                end += timedelta(days=1)
         out.append(Event(
-            title=series.title,
-            start=start,
             source=SOURCE_ID,
-            venue=series.venue,
-            has_time=series.start_time is not None,
-            url=series.url,
-            category=list(series.categories),
-            description=series.description,
+            source_name=source_name,
+            # Una URL por fecha: la base identifica cada evento por fuente + URL.
+            url=f"{series.url}#{series.id}-{day.isoformat()}",
+            title=series.title,
+            dates=[day.isoformat()],
+            start_time=series.start_time.strftime("%H:%M") if series.start_time else None,
+            venue=series.venue or "",
+            zone=zone_for(series.venue or ""),
+            category=series.categories[0],
             is_free=is_free,
-            price_min=series.price_min,
-            price_max=series.price_max,
-            sources=[f"{SOURCE_ID}:{series.id}"],
-            source_event_id=f"{series.id}:{day.isoformat()}",
-            series_id=series.id,
-            end=end,
-            confidence=series.confidence,
-            needs_confirmation=needs,
-            last_confirmed=series.last_confirmed,
+            price_min=pmin,
+            price_max=pmax if pmax is not None and pmax != pmin else None,
+            kids=guess_kids(series.title, series.description or ""),
+            tags=list(tags),
+            description=series.description or "",
+            needs_review=needs,
         ))
     return out
 
@@ -415,7 +392,10 @@ def collect(
         if not series.active and not include_inactive:
             result.skipped_inactive.append(series.id)
             continue
-        days = occurrences(series, today, window_end)
+        # La ventana evita llenar la agenda de repeticiones; un evento de fechas sueltas
+        # (809 Mercado) se publica completo apenas se conoce.
+        end = max(window_end, series.dates[-1]) if series.freq == "dates" else window_end
+        days = occurrences(series, today, end)
         if not days:
             result.empty.append(series.id)
             continue
@@ -423,12 +403,32 @@ def collect(
             result.stale.append(series.id)
         result.events.extend(to_events(series, days, today))
 
-    result.events.sort(key=lambda e: (e.start, e.source_event_id or ""))
+    result.events.sort(key=lambda e: (e.start, e.start_time or "", e.url))
     return result
 
 
 def events(**kwargs) -> list[Event]:
     return collect(**kwargs).events
+
+
+class SeriesRecurrentes(Source):
+    """Lee el archivo curado: no hace peticiones a ningún sitio."""
+
+    id = SOURCE_ID
+    name = "Series curadas"
+
+    def run(self) -> list[Event]:
+        res = collect(DEFAULT_PATH, today=self.today)
+        self.log(f"[{self.id}] {res.loaded} series, {len(res.events)} fechas en {DEFAULT_HORIZON_DAYS} días; "
+                 f"inactivas: {len(res.skipped_inactive)}")
+        for label, ids in (
+            ("sin fechas en la ventana (¿terminó la temporada?)", res.empty),
+            ("sin reconfirmar a tiempo", res.stale),
+            ("INVÁLIDAS (corregir series_recurrentes.json)", res.skipped_invalid),
+        ):
+            if ids:
+                self.log(f"[{self.id}] {label}: {', '.join(ids)}")
+        return res.events
 
 
 if __name__ == "__main__":
@@ -437,10 +437,9 @@ if __name__ == "__main__":
     horizon = int(sys.argv[1]) if len(sys.argv) > 1 else DEFAULT_HORIZON_DAYS
     res = collect(horizon_days=horizon)
     for ev in res.events:
-        when = ev.start.strftime("%a %d %b %Y" + (" %H:%M" if ev.has_time else ""))
         price = {True: "gratis", False: "de pago", None: "precio no confirmado"}[ev.is_free]
-        flag = "  [confirmar antes de ir]" if ev.needs_confirmation else ""
-        print(f"{when}  {ev.title}  ({ev.venue}; {price}){flag}")
+        flag = "  [confirmar antes de ir]" if ev.needs_review else ""
+        print(f"{ev.start} {ev.start_time or '--:--'}  {ev.title}  ({ev.venue}; {price}){flag}")
     print(f"\n{len(res.events)} eventos en {horizon} días; {res.loaded} series cargadas")
     for label, ids in (
         ("inactivas", res.skipped_inactive),

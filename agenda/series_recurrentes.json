@@ -225,19 +225,19 @@
       "active": true,
       "pattern": { "freq": "dates", "dates": ["2026-10-15"] },
       "start_time": "19:00",
-      "end_time": null,
+      "end_time": "22:00",
       "exceptions": [],
       "venue": "Lyle O. Reitzel Arte Contemporáneo, Torre Piantini",
       "category": ["Arte"],
       "price": { "status": "free" },
-      "description": "Inauguración del nuevo solo show de Gerard Ellis, desde las 7:00 p. m. El flyer no indica hasta cuándo estará la exposición.",
+      "description": "Inauguración de 7:00 a 10:00 p. m. del nuevo solo show de Gerard Ellis, que parte del béisbol y de los peloteros dominicanos. La galería no ha publicado hasta cuándo estará la exposición.",
       "url": "https://www.instagram.com/lorgallery/",
       "sources": [
         {
           "name": "Flyer de la galería en Instagram (@lorgallery), visto en una historia",
           "url": "https://www.instagram.com/lorgallery/",
           "seen": "2026-10-07",
-          "says": "Jueves 15 de octubre desde las 7:00 p. m., Torre Piantini; sin precio ni fecha de cierre"
+          "says": "Jueves 15 de octubre, de 7 a 10 p. m. (flyer: desde las 7:00 p. m.; pie de la publicación: Opening 15 Oct, 7/10 pm), Torre Piantini; sin precio ni fecha de cierre"
         },
         {
           "name": "Confirmación de Edwin Genao (el flyer no trae precio)",

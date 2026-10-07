@@ -10,10 +10,10 @@
 <style>
 /* Diseño de las 8 pantallas: lista Hoy con selector de rango y chips de color; detalle con cabecera de círculos. */
 :root{--bg:#FFFFFF;--ink:#10222E;--muted:#4A5A64;--line:#DCE3E1;--soft:#F2F5F4;--teal:#0B7A75;--teal-ink:#086660;--red:#D43F2A;--yellow:#FFB62E;--gold:#FFD166;--sel-bg:#10222E;--sel-fg:#FFFFFF;--free-bg:#10222E;--free-fg:#FFD166;
---c-musica-bg:#FBE3DE;--c-musica-fg:#B3301D;--c-gastro-bg:#FFF0CC;--c-gastro-fg:#7A4F00;--c-cultura-bg:#D6EFEC;--c-cultura-fg:#086660;
+--c-musica-bg:#FBE3DE;--c-musica-fg:#B3301D;--c-gastro-bg:#FFF0CC;--c-gastro-fg:#7A4F00;--c-cultura-bg:#D6EFEC;--c-cultura-fg:#086660;--c-teatro-bg:#DDE8F8;--c-teatro-fg:#1F4E8C;--c-arte-bg:#E9E1F7;--c-arte-fg:#4B2A8A;
 --display:"Bricolage Grotesque","Trebuchet MS",sans-serif;--body:"DM Sans",system-ui,sans-serif;color-scheme:light}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0D1A23;--ink:#EEF3F2;--muted:#9FB0B8;--line:#26383F;--soft:#16262F;--teal-ink:#4FC3BC;--sel-bg:#EEF3F2;--sel-fg:#10222E;--free-bg:#FFD166;--free-fg:#10222E;--c-musica-bg:#4A1F18;--c-musica-fg:#FFB4A6;--c-gastro-bg:#4A3500;--c-gastro-fg:#FFD98A;--c-cultura-bg:#0F3A37;--c-cultura-fg:#8DE0D9;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#0D1A23;--ink:#EEF3F2;--muted:#9FB0B8;--line:#26383F;--soft:#16262F;--teal-ink:#4FC3BC;--sel-bg:#EEF3F2;--sel-fg:#10222E;--free-bg:#FFD166;--free-fg:#10222E;--c-musica-bg:#4A1F18;--c-musica-fg:#FFB4A6;--c-gastro-bg:#4A3500;--c-gastro-fg:#FFD98A;--c-cultura-bg:#0F3A37;--c-cultura-fg:#8DE0D9;color-scheme:dark}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0D1A23;--ink:#EEF3F2;--muted:#9FB0B8;--line:#26383F;--soft:#16262F;--teal-ink:#4FC3BC;--sel-bg:#EEF3F2;--sel-fg:#10222E;--free-bg:#FFD166;--free-fg:#10222E;--c-musica-bg:#4A1F18;--c-musica-fg:#FFB4A6;--c-gastro-bg:#4A3500;--c-gastro-fg:#FFD98A;--c-cultura-bg:#0F3A37;--c-cultura-fg:#8DE0D9;--c-teatro-bg:#1B2E4D;--c-teatro-fg:#A9C8FF;--c-arte-bg:#2F2150;--c-arte-fg:#CDB8FF;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0D1A23;--ink:#EEF3F2;--muted:#9FB0B8;--line:#26383F;--soft:#16262F;--teal-ink:#4FC3BC;--sel-bg:#EEF3F2;--sel-fg:#10222E;--free-bg:#FFD166;--free-fg:#10222E;--c-musica-bg:#4A1F18;--c-musica-fg:#FFB4A6;--c-gastro-bg:#4A3500;--c-gastro-fg:#FFD98A;--c-cultura-bg:#0F3A37;--c-cultura-fg:#8DE0D9;--c-teatro-bg:#1B2E4D;--c-teatro-fg:#A9C8FF;--c-arte-bg:#2F2150;--c-arte-fg:#CDB8FF;color-scheme:dark}
 *,*::before,*::after{box-sizing:border-box}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 img{max-width:100%}
@@ -44,7 +44,7 @@ h1{margin:2px 0 0;font:800 clamp(28px,8vw,34px)/1.05 var(--display);letter-spaci
 .card .ap{font-size:12px;font-weight:700;color:var(--muted)}
 .card .c{flex:1;min-width:0;display:flex;flex-direction:column;gap:6px;align-items:flex-start}
 .cat{font-size:12px;font-weight:700;padding:3px 10px;border-radius:12px}
-.cat.musica{background:var(--c-musica-bg);color:var(--c-musica-fg)}.cat.gastronomia{background:var(--c-gastro-bg);color:var(--c-gastro-fg)}.cat.cultura{background:var(--c-cultura-bg);color:var(--c-cultura-fg)}
+.cat.musica{background:var(--c-musica-bg);color:var(--c-musica-fg)}.cat.gastronomia{background:var(--c-gastro-bg);color:var(--c-gastro-fg)}.cat.cultura{background:var(--c-cultura-bg);color:var(--c-cultura-fg)}.cat.teatro{background:var(--c-teatro-bg);color:var(--c-teatro-fg)}.cat.arte{background:var(--c-arte-bg);color:var(--c-arte-fg)}
 .card h3{margin:0;font:700 18px/1.15 var(--display);text-wrap:balance}
 .lugar{display:flex;align-items:center;gap:6px;font-size:14px;color:var(--muted)}
 .hasta{font-size:12.5px;font-weight:700;color:var(--teal-ink)}
@@ -102,13 +102,14 @@ h1{margin:2px 0 0;font:800 clamp(28px,8vw,34px)/1.05 var(--display);letter-spaci
 // Los datos salen de events.json, que el scraper publica cada día (python -m agenda run).
 const MESES=["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
 const DIAS=["domingo","lunes","martes","miércoles","jueves","viernes","sábado"];
-const CAT={musica:"Música",gastronomia:"Gastronomía",cultura:"Cultura"};
-const SUB={teatro:"Teatro",cine:"Cine",danza:"Danza",arte:"Arte",literatura:"Literatura",charlas:"Charlas",talleres:"Talleres"};
+// El orden de CAT es el de los chips de filtro. Teatro y danza van juntos; Arte son exposiciones, performances, etc.
+const CAT={musica:"Música",teatro:"Teatro y danza",arte:"Arte",gastronomia:"Gastronomía",cultura:"Cultura"};
+const SUB={cine:"Cine",literatura:"Literatura",charlas:"Charlas",talleres:"Talleres"};
 // Categoría del scraper -> [categoría principal, subcategoría] de la app
-const MAPCAT={"Música":["musica",null],"Gastronomía":["gastronomia",null],"Teatro":["cultura","teatro"],"Danza":["cultura","danza"],"Cine":["cultura","cine"],"Arte":["cultura","arte"],"Literatura":["cultura","literatura"],"Cultura":["cultura",null]};
+const MAPCAT={"Música":["musica",null],"Gastronomía":["gastronomia",null],"Teatro":["teatro",null],"Danza":["teatro",null],"Arte":["arte",null],"Cine":["cultura","cine"],"Literatura":["cultura","literatura"],"Cultura":["cultura",null]};
 const etq=e=>CAT[e.categorias[0]]+(e.subcategoria?" · "+SUB[e.subcategoria]:"");
-const PUNTO={musica:"#D43F2A",gastronomia:"#FFB62E",cultura:"#0B7A75"};
-const HERO={musica:["#D43F2A","#B3301D","#FFB62E","#FBE3DE"],gastronomia:["#FFB62E","#E39A10","#D43F2A","#FFF0CC"],cultura:["#0B7A75","#086660","#FFB62E","#D6EFEC"]};
+const PUNTO={musica:"#D43F2A",teatro:"#3A7BD5",arte:"#7C5CD6",gastronomia:"#FFB62E",cultura:"#0B7A75"};
+const HERO={musica:["#D43F2A","#B3301D","#FFB62E","#FBE3DE"],teatro:["#3A7BD5","#1F4E8C","#FFB62E","#DDE8F8"],arte:["#7C5CD6","#4B2A8A","#FFB62E","#E9E1F7"],gastronomia:["#FFB62E","#E39A10","#D43F2A","#FFF0CC"],cultura:["#0B7A75","#086660","#FFB62E","#D6EFEC"]};
 const ZONA="America/Santo_Domingo";
 const fmt=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
 const parse=s=>{const[y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d)};
@@ -173,7 +174,7 @@ function actualizado(){
 function nombresFuentes(){return[...new Set(DATOS.events.flatMap(e=>(e.sources||[{srcName:e.srcName}]).map(s=>s.srcName)))].join(", ")}
 function lista(){
   const[a,b]=ventana();
-  const evs=EV.map((e,i)=>({e,i})).filter(({e})=>e.fecha>=hoy&&e.fecha>=a&&e.fecha<=b&&(!st.gratis||e.precio.estado==="gratis")&&(!st.cat||(st.cat==="teatro"?e.subcategoria==="teatro":e.categorias.includes(st.cat))));
+  const evs=EV.map((e,i)=>({e,i})).filter(({e})=>e.fecha>=hoy&&e.fecha>=a&&e.fecha<=b&&(!st.gratis||e.precio.estado==="gratis")&&(!st.cat||e.categorias.includes(st.cat)));
   const nG=evs.filter(({e})=>e.precio.estado==="gratis").length;
   const titulo=st.rango==="hoy"?"Hoy":st.rango==="manana"?"Mañana":st.rango==="finde"?"Este fin de semana":"Próximos días";
   const sub=st.rango==="todo"?"Desde el "+nombreDia(hoy).toLowerCase():a===b?nombreDia(a):corto(a)+" y "+corto(b);
@@ -185,7 +186,7 @@ function lista(){
   <div class="fecha">${esc(sub)} · Santo Domingo</div><h1>${titulo}</h1>
   <p class="resumen">${evs.length} ${evs.length===1?"evento":"eventos"} · ${nG} gratis</p>
   <div class="rango" role="group" aria-label="Rango de fechas">${rangos.map(([k,t])=>`<button data-r="${k}" aria-pressed="${st.rango===k}">${t}</button>`).join("")}</div>
-  <div class="chips" role="group" aria-label="Filtros">${chip("Gratis","#FFD166",st.gratis,'data-g="1"')}${Object.keys(CAT).map(k=>chip(CAT[k],PUNTO[k],st.cat===k,`data-c="${k}"`)).join("")}${chip("Teatro","#10222E",st.cat==="teatro",'data-c="teatro"')}</div>
+  <div class="chips" role="group" aria-label="Filtros">${chip("Gratis","#FFD166",st.gratis,'data-g="1"')}${Object.keys(CAT).map(k=>chip(CAT[k],PUNTO[k],st.cat===k,`data-c="${k}"`)).join("")}</div>
   <div class="lista">${cuerpo||`<div class="vacio"><b>Nada con estos filtros</b><span>Prueba otro día o quita algún filtro.</span><button data-x="1">Ver todos los próximos</button></div>`}</div>
   <p class="pie">Fuentes: ${esc(nombresFuentes())} · actualizado el ${esc(actualizado())}${muestra?" (muestra: esas fechas ya pasaron)":""}. Confirma en la fuente original antes de ir.</p>`}
 const svgI=p=>`<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${p}</svg>`;
@@ -217,7 +218,7 @@ function calendario(){
   let cel="";for(let k=0;k<lead;k++)cel+=`<button class="vac" tabindex="-1" aria-hidden="true"></button>`;
   for(let d=1;d<=dias;d++){
     const f=`${y}-${String(m).padStart(2,"0")}-${String(d).padStart(2,"0")}`,ev=porDia[f]||[];
-    const cats=[...new Set(ev.flatMap(e=>e.categorias))].slice(0,3);
+    const cats=[...new Set(ev.flatMap(e=>e.categorias))];
     cel+=`<button data-d="${f}" class="${f<hoy?"off":""}${f===hoy?" hoy":""}" aria-pressed="${st.dia===f}" aria-label="${nombreDia(f)}, ${ev.length} eventos">${d}<span class="pts">${cats.map(c=>`<i style="background:${PUNTO[c]}"></i>`).join("")}</span></button>`}
   const mesHoy=hoy.slice(0,7),ultimo=EV.reduce((a,e)=>e.fecha>a?e.fecha:a,hoy).slice(0,7);
   const delDia=indices(e=>e.fecha===st.dia&&e.fecha>=hoy);

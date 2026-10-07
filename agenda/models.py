@@ -10,12 +10,20 @@ from dataclasses import asdict, dataclass, field
 CATEGORY_RULES = [
     ("Danza", r"\b(danza|ballet|baile)"),
     ("Cine", r"\b(cine|audiovisual|pel[ií]cula|proyecci[oó]n|cortometraje|documental|filmoteca)"),
+    # El teatro musical es teatro: va antes de Música, que si no se lo queda por "musical".
+    ("Teatro", r"\b(teatro|comedia|obra)\s+musical"),
     (
         "Música",
         r"\b(m[uú]sica|musical|concierto|jazz|sinf[oó]n|recital|sonido|orquesta|banda|canto|coral|[oó]pera|l[ií]rica)",
     ),
     ("Teatro", r"\b(teatro|obra|esc[eé]nic|comedia|stand\s?up|mon[oó]logo)"),
-    ("Arte", r"\b(arte|exposici[oó]n|galer[ií]a|pintura|escultura|fotograf|visuales)"),
+    (
+        "Arte",
+        r"\b(arte|exposici[oó]n|galer[ií]a|pintura|escultura|fotograf|visuales|performance"
+        r"|video\s?mapping|instalaci[oó]n\s+(art[ií]stica|sonora|inmersiva)"
+        r"|muestra\s+(colectiva|individual|de\s+(arte|pintura|fotograf|escultura))"
+        r"|vernissage|curadur|mural)",
+    ),
 ]
 DEFAULT_CATEGORY = "Cultura"
 

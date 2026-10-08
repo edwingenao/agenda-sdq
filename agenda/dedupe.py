@@ -33,6 +33,7 @@ SOURCE_PRIORITY = [
     "casa_de_teatro",
     "teatro_las_mascaras",  # sitio oficial del teatro
     "sic",
+    "ticketmax",  # ticketera: datos estructurados, pero el sitio de la sala manda
     "centro_leon",
     "zona_colonial",
     "cce",

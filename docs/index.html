@@ -22,7 +22,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.4 var(--body);pa
 .wrap{max-width:520px;margin-inline:auto}
 button,a{font-family:inherit}
 button:focus-visible,a:focus-visible{outline:2px solid var(--teal-ink);outline-offset:2px}
-.top{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+.top{display:flex;align-items:center;gap:8px;margin-bottom:10px;background:none;border:0;padding:0;color:inherit;cursor:pointer;min-height:44px}
 .top b{font:800 18px var(--display);letter-spacing:-.01em}
 .logo{border-radius:9px;background:#10222E;flex:none}
 .fecha{font-size:13px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
@@ -54,8 +54,25 @@ h1{margin:2px 0 0;font:800 clamp(28px,8vw,34px)/1.05 var(--display);letter-spaci
 .vacio{margin-top:24px;padding:28px 20px;border:1.5px dashed var(--line);border-radius:18px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:10px}
 .vacio b{font:700 20px var(--display)}.vacio span{color:var(--muted)}
 .vacio button{min-height:44px;padding:0 20px;border-radius:22px;border:0;background:var(--sel-bg);color:var(--sel-fg);font-size:14px;font-weight:700;cursor:pointer}
+.pill-c{border:1.5px solid var(--ink);font-size:12.5px;font-weight:700;padding:2.5px 11px;border-radius:14px}
 .pie{margin-top:28px;color:var(--muted);font-size:13px}
 .cargando{margin-top:40px;color:var(--muted);text-align:center}
+/* bienvenida */
+body.sin-nav{padding-block:calc(18px + env(safe-area-inset-top,0px)) calc(24px + env(safe-area-inset-bottom,0px))}
+.bienvenida{min-height:calc(100svh - 42px - env(safe-area-inset-top,0px) - env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:18px}
+.bienvenida .arte{position:relative;flex:1 1 150px;min-height:150px;max-height:300px;margin-inline:-16px;overflow:hidden;border-radius:0 0 36px 36px;background:var(--soft)}
+.bienvenida .arte svg{position:absolute;inset:0;width:100%;height:100%}
+.bienvenida .kicker{font-size:13px;font-weight:700;color:var(--teal-ink);text-transform:uppercase;letter-spacing:.08em}
+.bienvenida h1{margin:6px 0 0;font:800 clamp(40px,12.5vw,60px)/.98 var(--display);letter-spacing:-.03em;text-wrap:balance}
+.bienvenida .sub{margin:12px 0 0;font-size:17px;line-height:1.4;color:var(--muted);max-width:34ch}
+.bienvenida .cifras{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.cta{width:100%;min-height:72px;border:0;border-radius:36px;background:var(--red);color:#fff;font:800 clamp(21px,6vw,26px) var(--display);letter-spacing:-.01em;display:flex;align-items:center;justify-content:center;gap:12px;cursor:pointer;box-shadow:0 6px 0 var(--sel-bg);transition:transform .12s,box-shadow .12s}
+.cta:hover{transform:translateY(2px);box-shadow:0 4px 0 var(--sel-bg)}
+.cta:active{transform:translateY(6px);box-shadow:0 0 0 var(--sel-bg)}
+.cta:focus-visible{outline:3px solid var(--ink);outline-offset:4px}
+.rapidos{display:flex;flex-wrap:wrap;justify-content:center;gap:8px}
+.bienvenida .nota{margin:0;text-align:center;color:var(--muted);font-size:13px}
+@media (prefers-reduced-motion:reduce){.cta{transition:none}}
 /* navegación, calendario, guardados */
 .nav{position:fixed;left:0;right:0;bottom:0;background:var(--bg);border-top:1px solid var(--line);display:flex;padding-bottom:env(safe-area-inset-bottom,0px);z-index:5}
 .nav button{flex:1;min-height:68px;border:0;background:transparent;color:var(--muted);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;font-size:12px;font-weight:700;cursor:pointer;border-top:3px solid transparent;margin-top:-1px}
@@ -182,7 +199,7 @@ function lista(){
   evs.forEach(({e,i})=>{if(a!==b&&e.fecha!==ult){cuerpo+=`<div class="dia">${esc(nombreDia(e.fecha))}</div>`;ult=e.fecha}cuerpo+=tarjeta(e,i)});
   const rangos=[["hoy","Hoy"],["manana","Mañana"],["finde","Este finde"],["todo","Todo"]];
   const chip=(t,p,on,at)=>`<button class="chip" ${at} aria-pressed="${on}"><i style="background:${p}"></i>${t}</button>`;
-  return`<div class="top">${LOGO}<b>Agenda SDQ</b></div>
+  return`<button class="top" data-n="inicio" aria-label="Ir al inicio">${LOGO}<b>Agenda SDQ</b></button>
   <div class="fecha">${esc(sub)} · Santo Domingo</div><h1>${titulo}</h1>
   <p class="resumen">${evs.length} ${evs.length===1?"evento":"eventos"} · ${nG} gratis</p>
   <div class="rango" role="group" aria-label="Rango de fechas">${rangos.map(([k,t])=>`<button data-r="${k}" aria-pressed="${st.rango===k}">${t}</button>`).join("")}</div>
@@ -210,6 +227,22 @@ function detalle(e){
   ${otros.length?`<h2 style="font:700 18px var(--display);margin:26px 0 8px">También ese día</h2><div class="lista" style="margin-top:0">${otros.map(({x,i})=>tarjeta(x,i)).join("")}</div>`:""}</div>`}
 const ICON={hoy:'<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',cal:'<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>',gua:'<path d="M6 3h12v18l-6-4-6 4z"/>'};
 const nav=()=>`<nav class="nav" aria-label="Navegación principal">${[["hoy","Hoy"],["cal","Calendario"],["gua","Guardados"]].map(([k,t])=>`<button data-n="${k}" ${st.vista===k?'aria-current="page"':""}>${svgI(ICON[k])}${t}</button>`).join("")}</nav>`;
+const FLECHA='<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
+function inicio(){
+  const prox=EV.filter(e=>e.fecha>=hoy);
+  const unicos=new Set(prox.map(e=>e.titulo+"|"+e.lugar.nombre));
+  const gratis=new Set(prox.filter(e=>e.precio.estado==="gratis").map(e=>e.titulo+"|"+e.lugar.nombre));
+  const hayHoy=EV.some(e=>e.fecha===hoy);
+  const rapido=(q,t,punto)=>`<button class="chip" data-q="${q}"><i style="background:${punto}"></i>${t}</button>`;
+  return`<div class="bienvenida">
+  <div class="arte" aria-hidden="true"><svg viewBox="0 0 390 300" preserveAspectRatio="xMaxYMid slice"><circle cx="330" cy="150" r="300" fill="#0B7A75"/><circle cx="330" cy="150" r="226" fill="#D43F2A"/><circle cx="330" cy="150" r="152" fill="#FFB62E"/><circle cx="330" cy="150" r="78" fill="#10222E"/></svg></div>
+  <div><div class="kicker">Santo Domingo · actualizada cada día</div>
+  <h1>Qué hacer hoy en la ciudad.</h1>
+  <p class="sub">Música, teatro, arte y planes gratis, en un solo lugar.</p>
+  ${unicos.size?`<div class="cifras"><span class="pill-c">${unicos.size} planes próximos</span>${gratis.size?`<span class="gratis">${gratis.size} gratis</span>`:""}</div>`:""}</div>
+  <button class="cta" data-n="hoy">${hayHoy?"Ver qué hay hoy":"Ver la agenda"}${FLECHA}</button>
+  <div class="rapidos" role="group" aria-label="Atajos">${rapido("gratis","Solo gratis","#FFD166")}${rapido("musica","Música",PUNTO.musica)}${rapido("teatro","Teatro y danza",PUNTO.teatro)}${rapido("arte","Arte",PUNTO.arte)}</div>
+  <p class="nota">Revisa siempre la fuente original antes de ir.</p></div>`}
 const indices=f=>EV.map((e,i)=>({e,i})).filter(({e})=>f(e));
 function calendario(){
   const[y,m]=st.mes.split("-").map(Number);
@@ -222,7 +255,7 @@ function calendario(){
     cel+=`<button data-d="${f}" class="${f<hoy?"off":""}${f===hoy?" hoy":""}" aria-pressed="${st.dia===f}" aria-label="${nombreDia(f)}, ${ev.length} eventos">${d}<span class="pts">${cats.map(c=>`<i style="background:${PUNTO[c]}"></i>`).join("")}</span></button>`}
   const mesHoy=hoy.slice(0,7),ultimo=EV.reduce((a,e)=>e.fecha>a?e.fecha:a,hoy).slice(0,7);
   const delDia=indices(e=>e.fecha===st.dia&&e.fecha>=hoy);
-  return`<div class="top">${LOGO}<b>Agenda SDQ</b></div>
+  return`<button class="top" data-n="inicio" aria-label="Ir al inicio">${LOGO}<b>Agenda SDQ</b></button>
   <div class="fecha">Elige un día</div><h1>Calendario</h1>
   <div class="mes"><button data-mm="-1" aria-label="Mes anterior" ${st.mes<=mesHoy?"disabled":""}>${svgI('<path d="M15 6l-6 6 6 6"/>')}</button><h2>${MESES[m-1]} ${y}</h2><button data-mm="1" aria-label="Mes siguiente" ${st.mes>=ultimo?"disabled":""}>${svgI('<path d="M9 6l6 6-6 6"/>')}</button></div>
   <div class="sem" aria-hidden="true">${"LMMJVSD".split("").map(x=>`<span>${x}</span>`).join("")}</div><div class="rej">${cel}</div>
@@ -231,18 +264,21 @@ function calendario(){
 function guardadosVista(){
   const g=indices(e=>guardados.has(e.id)&&e.fecha>=hoy);
   let cuerpo="",ult="";g.forEach(({e,i})=>{if(e.fecha!==ult){cuerpo+=`<div class="dia">${esc(nombreDia(e.fecha))}</div>`;ult=e.fecha}cuerpo+=tarjeta(e,i)});
-  return`<div class="top">${LOGO}<b>Agenda SDQ</b></div>
+  return`<button class="top" data-n="inicio" aria-label="Ir al inicio">${LOGO}<b>Agenda SDQ</b></button>
   <div class="fecha">Tu lista</div><h1>Guardados</h1><p class="resumen">${g.length} ${g.length===1?"evento":"eventos"} por venir</p>
   <div class="lista">${cuerpo||`<div class="vacio"><b>Aún no guardas nada</b><span>Toca el marcador de un evento para verlo aquí. Se guarda solo en este dispositivo.</span><button data-n="hoy">Ver eventos de hoy</button></div>`}</div>`}
 let mantener=false;
 function pintar(){
   const app=document.getElementById("app");
-  app.innerHTML=(st.abierto===null?(st.vista==="cal"?calendario():st.vista==="gua"?guardadosVista():lista()):detalle(EV[st.abierto]))+(st.abierto===null?nav():"");
+  const enInicio=st.abierto===null&&st.vista==="inicio";
+  document.body.classList.toggle("sin-nav",enInicio);
+  app.innerHTML=enInicio?inicio():(st.abierto===null?(st.vista==="cal"?calendario():st.vista==="gua"?guardadosVista():lista()):detalle(EV[st.abierto]))+(st.abierto===null?nav():"");
   if(!mantener)window.scrollTo(0,0);mantener=false}
 document.addEventListener("click",ev=>{
   if(!st)return;
   const b=ev.target.closest("button");if(!b)return;
   if(b.dataset.s){const id=b.dataset.s;guardados.has(id)?guardados.delete(id):guardados.add(id);persistir();mantener=true}
+  else if(b.dataset.q){const q=b.dataset.q;st.vista="hoy";st.abierto=null;st.rango="todo";st.gratis=q==="gratis";st.cat=q==="gratis"?null:q}
   else if(b.dataset.n)st.vista=b.dataset.n,st.abierto=null;
   else if(b.dataset.d)st.dia=b.dataset.d,mantener=true;
   else if(b.dataset.mm){const[y,m]=st.mes.split("-").map(Number),d=new Date(y,m-1+ +b.dataset.mm,1);st.mes=fmt(d).slice(0,7);mantener=true}
@@ -261,12 +297,12 @@ async function iniciar(){
     if(!r.ok)throw new Error("HTTP "+r.status);
     DATOS=await r.json();
   }catch(err){
-    app.innerHTML=`<div class="top">${LOGO}<b>Agenda SDQ</b></div><div class="vacio"><b>No pude cargar la agenda</b><span>${esc(err.message)}. Intenta de nuevo en un momento.</span><button onclick="location.reload()">Reintentar</button></div>`;
+    app.innerHTML=`<button class="top" data-n="inicio" aria-label="Ir al inicio">${LOGO}<b>Agenda SDQ</b></button><div class="vacio"><b>No pude cargar la agenda</b><span>${esc(err.message)}. Intenta de nuevo en un momento.</span><button onclick="location.reload()">Reintentar</button></div>`;
     return}
   hoy=new Intl.DateTimeFormat("en-CA",{timeZone:ZONA}).format(new Date());
   EV=expandir(DATOS.events||[],hoy);
   if(EV.length&&!EV.some(e=>e.fecha>=hoy)){hoy=EV[0].fecha;muestra=true}
-  st={vista:"hoy",rango:"hoy",gratis:false,cat:null,abierto:null,mes:hoy.slice(0,7),dia:hoy};
+  st={vista:"inicio",rango:"hoy",gratis:false,cat:null,abierto:null,mes:hoy.slice(0,7),dia:hoy};
   // Si hoy no hay nada, abre en "Todo" para no recibir con la lista vacía.
   if(!EV.some(e=>e.fecha===hoy))st.rango="todo";
   pintar()}

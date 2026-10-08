@@ -164,3 +164,11 @@ WordPress con feed RSS 2.0 (`/feed/`), `wp-sitemap.xml` y un robots.txt que solo
 solo trae noticias, una página de Cultura que describe la Ciudad Colonial y secciones institucionales. Las 10 notas más recientes (19 sep al 7 oct) son
 sobre obras, operativos de limpieza y actos de la alcaldesa; ninguna anuncia un evento con fecha futura. No se integra. Sirve como confirmación
 a mano si una actividad municipal aparece en otra fuente.
+
+### TIX (tix.do), revisado el 7 de octubre de 2026
+
+Ticketera dominicana ("Buy moments not things"): vende las boletas de Las Máscaras y de Sandy Gabriel Jazz Residence. Desde la nube solo se ve el cascarón
+de la página (título y metadatos): parece una app de JavaScript que carga los eventos después, y `/robots.txt` y `/sitemap.xml` devuelven ese mismo
+cascarón, así que no se pudo leer ni su robots.txt ni un listado de eventos. El shell de la nube no llega al sitio (403 del proxy). Falta revisar desde la PC:
+abrirlo en el navegador, mirar la pestaña Network para encontrar la API que lista eventos (con fecha, hora, lugar y precio), y leer sus términos de uso antes de
+escribir un adaptador. Si la API es pública y permitida, sería una fuente muy buena: trae hora y precio, que los flyers no traen.

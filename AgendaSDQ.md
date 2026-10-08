@@ -138,3 +138,10 @@ virtuales y las convocatorias (concursos con fecha límite): no son eventos para
 Quedan por confirmar: la hora y el precio de casi todos los eventos cargados de esta guía (la columna "confirmar" del sitio
 los marca), y que Velvet Room, Hard Rock Cafe y el Auditorio Patrick N. Hughson estén en Santo Domingo.
 
+### Artsy, muestras de Santo Domingo (artsy.net/shows/santo-domingo-dominican-republic), revisada el 7 de octubre de 2026
+
+Solo lista dos galerías: Lyle O. Reitzel y ASR Galería (esta es la "ARS" que se había supuesto). Trae título, galería y fechas,
+sin año, dirección, horario ni precio; las cerradas salen sin fechas. robots.txt no prohíbe `/shows/` y publica `sitemap-shows.xml`;
+no se revisaron sus términos de uso. Con unas 3 muestras al mes no justifica un adaptador: se cargan como series curadas con `range`
+(Interconexión y ARQUIONIRIAS, de ASR Galería, quedaron cargadas). Volver a mirar la página cuando abra una muestra nueva.
+

@@ -39,6 +39,7 @@ SOURCE_PRIORITY = [
     "zona_colonial",
     "cce",
     "jazz_en_dominicana",
+    "tix",  # ticketera: buena hora, sin precio ni ciudad; manda la sala
     "recurring",  # listados curados a mano: si una fuente publica el mismo evento, gana esa
 ]
 

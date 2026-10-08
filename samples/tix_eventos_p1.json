@@ -1,0 +1,2012 @@
+{
+ "data": [
+  {
+   "id": 5400,
+   "attributes": {
+    "name": "Pavel Núñez: Tú en mi vida Sessions",
+    "slug": "Pavel-19",
+    "start_at": "2026-10-07T19:10:51.338Z",
+    "end_at": "2026-12-24T03:30:51.000Z",
+    "free": false,
+    "place": "Casa de Teatro",
+    "description": "COMO TODO EMPEZÓ…25 AÑOS”. Acústicos como en los viejos tiempos, en la eterna Casa de Teatro, será una residencia en dicha casa con el fin de re-conectar en el Pavel de los inicios. Les contará la razón que se esconde tras cada canción, sus desvelos y aciertos, su guitarra en mano y ustedes al frente. Sé parte de eso que los unió por años en la Casa de Teatro.",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5361,
+   "attributes": {
+    "name": "SOLTAR • MIÉRCOLES 7 OCT",
+    "slug": "SOLTARMIERCOLES7OCT-1",
+    "start_at": "2026-10-07T23:00:40.000Z",
+    "end_at": "2026-10-08T00:00:40.000Z",
+    "free": false,
+    "place": "https://maps.app.goo.gl/TDCQWxLsQj9oLzRm7?g_st=ic",
+    "description": "SOLTAR • Espacio de liberación emocional\n\nUn encuentro para darle espacio a lo que sentimos,\nsoltar lo que pesa\ny dejar que el cuerpo nos hable.\n\nRespirar • sentir • liberar • volver a ti\n\nMiércoles 7 • 7 PM\nFacilita • @laelopez\nEn • jardinsecretord\n\nValor • $1,500\n\n*No requiere experiencia previa*\n\nReservas @tix + [teléfono]",
+    "event_category": {
+     "data": {
+      "id": 9,
+      "attributes": {
+       "name": "✨ Wellness"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5332,
+   "attributes": {
+    "name": "THE EVOLUTION OF HOOD!!!",
+    "slug": "LAEVOLUCIONOFHOOD-1",
+    "start_at": "2026-10-07T23:00:56.000Z",
+    "end_at": "2026-10-08T03:55:56.000Z",
+    "free": false,
+    "place": "C. Don Ramon 24",
+    "description": "HUSTLE MEN SRL PRESENTA\n\nUNA NOCHE. UN ESCENARIO. UNA EXPERIENCIA INOLVIDABLE.\n\nLa ciudad se prepara para vivir una experiencia musical fuera de lo común.\n\nHustle Men SRL llega con un evento donde la música, la energía y el talento se encuentran en un mismo escenario.\n\nUna noche encabezada por grandes artistas como:\n\nHUSTLE\nOG PABLO\nMYKE JR\nTRUENMA\n\nY esto es solo el comienzo…\n\n🔥 Un sinnúmero de artistas sorpresa estarán formando parte de esta experiencia, convirtiendo la noche en un espectáculo lleno de momentos inesperados.\n\nNo será simplemente otro evento.\n\nSerá una noche para disfrutar, cantar, compartir y vivir la música como nunca antes.\n\nHUSTLE MEN SRL\n\nDonde comienza la experiencia.\n\nPRÓXIMAMENTE — MÁS INFORMACIÓN Y SORPRESAS.",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5300,
+   "attributes": {
+    "name": "EL DEGALILLE - DISNEY & NICK EDITION",
+    "slug": "ELDEGALILLEDISNEYandNICKEDITION-1",
+    "start_at": "2026-10-07T23:30:39.000Z",
+    "end_at": "2026-10-08T04:00:39.000Z",
+    "free": false,
+    "place": "Velvet Room SDQ",
+    "description": "El Degalille es un karaoke para cantar malo, pero con sentimiento. \nEl miércoles 28 tenemos la edición musicales, una noche para cantar, actuar y dramatizar todas las canciones de tus musicales favoritos 🎭✨\n\nY claro que sí: puedes venir vestido o caracterizado de tu musical o personaje favorito 🤩",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5124,
+   "attributes": {
+    "name": "Unlisted by Backline / Omar Quezada",
+    "slug": "UnlistedbyBacklineOmarQuezada-1",
+    "start_at": "2026-10-08T01:00:14.000Z",
+    "end_at": "2026-10-08T03:00:14.000Z",
+    "free": false,
+    "place": "The Green Room",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5329,
+   "attributes": {
+    "name": "YABRA & AMIGOS",
+    "slug": "YABRAandAMIGOS-1",
+    "start_at": "2026-10-08T01:00:41.000Z",
+    "end_at": "2026-10-08T02:00:41.000Z",
+    "free": false,
+    "place": "Local 3",
+    "description": "Yabra y sus amigos hacen standup ",
+    "event_category": {
+     "data": {
+      "id": 1,
+      "attributes": {
+       "name": "🎤 Comedia"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5082,
+   "attributes": {
+    "name": "SANDY GABRIEL'S JAZZ RESIDENCE AT THE GREEN ROOM",
+    "slug": "SANDYGABRIELSJAZZRESIDENCEATTHEGREENROOM-1",
+    "start_at": "2026-10-09T01:30:50.000Z",
+    "end_at": "2026-10-09T03:30:50.000Z",
+    "free": false,
+    "place": "The Green Room",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5040,
+   "attributes": {
+    "name": "Mi lado mas intimo",
+    "slug": "Miladomasintimo-1",
+    "start_at": "2026-10-09T23:45:58.000Z",
+    "end_at": "2026-10-10T03:45:58.000Z",
+    "free": false,
+    "place": "Bar Moisés Zouain",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5260,
+   "attributes": {
+    "name": "Concierto Aniversario",
+    "slug": "ConciertoAniversario-3",
+    "start_at": "2026-10-10T00:00:52.000Z",
+    "end_at": "2026-10-10T02:00:52.000Z",
+    "free": false,
+    "place": "Auditorio Horacio Alvarez Saviñon",
+    "description": "🎻 Para esta ocasión tendremos como solista invitado al destacado violinista dominicano Antonio Rincón, quien vendrá especialmente para compartir escenario con nuestra Filarmónica.\n\n🎼 Disfrutaremos de un hermoso repertorio con obras de grandes compositores como Ludwig van Beethoven, Antonín Dvořák y Nikolái Rimski-Kórsakov, entre otras, bajo la dirección artística del maestro Alberto Rincón.",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5315,
+   "attributes": {
+    "name": "Festival de Teatro Joven",
+    "slug": "FestivaldeTeatroJoven-2",
+    "start_at": "2026-10-10T00:30:14.000Z",
+    "end_at": "2026-10-12T03:55:14.000Z",
+    "free": false,
+    "place": "Teatro Las Máscaras",
+    "description": "Llega a la sala más acogedora de la Zona Colonial el ciclo Noches de Teatro Joven, un espacio vibrante presentado por el grupo Teatro Testarudo bajo la dirección de la talentosa actriz y comediante Aleja Johnson.\n\nDurante todo el mes de octubre, Teatro Las Máscaras abre sus tablas al talento emergente y a la innovación escénica con un formato dinámico de doble función por noche: dos obras cortas (microteatro) en una sola velada donde el público podrá transitar por una montaña rusa de emociones que van desde el drama más conmovedor hasta la comedia más corrosiva y el stand-up.\n\nUna velada balanceada entre la profundidad de la sanación familiar y el humor cotidiano de las conversaciones secretas.\n\nTiempo de partir (Comedia): Dos hombres totalmente desconocidos y en etapas opuestas de sus vidas se ven obligados por el destino a compartir un mismo apartamento. Sin escapatoria fácil, deberán aprender a adaptarse a las manías del otro para encontrar una solución que los favorezca a ambos.\n\nUna Greca Estrambótica (Comedia): Dos hermanas irrumpen en una casa abandonada buscando objetos olvidados. Lo que parecía una simple búsqueda se transforma en una aventura hilarante e inesperada al encontrar una extraña greca que esconde un secreto mucho más grande de lo que imaginaban.",
+    "event_category": {
+     "data": {
+      "id": 4,
+      "attributes": {
+       "name": "🎭 Teatro"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5383,
+   "attributes": {
+    "name": "DINASTIA LATINA - THE GREEN ROOM",
+    "slug": "DINASTIALATINATHEGREENROOM-10",
+    "start_at": "2026-10-10T01:00:28.000Z",
+    "end_at": "2026-10-10T06:00:28.000Z",
+    "free": false,
+    "place": "The Green Room",
+    "description": "CONSUMO MÍNIMO EN EL LOCAL DE 1,000 PESOS\n\n🔞 Evento exclusivo para mayores de 18 años.",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5395,
+   "attributes": {
+    "name": "OPEN HOUSE 10.10.10",
+    "slug": "OPENHOUSEESPACIOHUMANOS101010-1",
+    "start_at": "2026-10-10T14:00:46.000Z",
+    "end_at": "2026-10-10T17:00:46.000Z",
+    "free": false,
+    "place": "ESPACIO HUMANOS",
+    "description": "ESPACIO HUMANOS abre sus puertas este 10.10.10 de 10:00am- 1:00pm\n\nPor primera vez abrimos todo ESPACIO HUMANOS para que puedas conocer nuestra casa, recorrerla y descubrir lo que sucede dentro de ella.\n\nDurante nuestro OPEN HOUSE, el espacio estará abierto a todo público y la entrada será libre de costo. Podrás venir, conocer nuestras áreas, acercarte a nuestra comunidad, conversar con nuestros terapeutas y colaboradores, observar las experiencias que estaremos desarrollando a puertas abiertas y, si eres terapeuta o facilitador, conocer los espacios disponibles para realizar tus propias actividades.\n\nPero si además de mirar quieres vivir HUMANOS, tendremos nuestro:\n\nALL-IN  LIVED EXPERIENCE · RD$1,010\n\nUn solo pase para participar durante toda la jornada en todas las experiencias, charlas y actividades de nuestra programación. No solo vienes a conocer lo que hacemos: te involucras, experimentas las herramientas y eres parte de nuestra primera experiencia colectiva utilizando todo ESPACIO HUMANOS.",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5288,
+   "attributes": {
+    "name": "De lo pequeño a lo grande : La Experiencia by Dewi Peña",
+    "slug": "DelopequenoalograndeLaExperiencia-1",
+    "start_at": "2026-10-10T19:00:58.000Z",
+    "end_at": "2026-10-10T22:00:58.000Z",
+    "free": false,
+    "place": "The Box Working Space",
+    "description": "Una experiencia presencial creada para reunir a mujeres que desean crecer, conectar y adquirir herramientas que les permitan llevar sus ideas, proyectos y negocios a un próximo nivel.\n\nDurante tres horas tendremos una agenda diseñada alrededor de negocios, marca personal, comunicación, autoestima, imagen y liderazgo, que incluirá mi conferencia principal, una conferencia especial sobre marca personal, un panel junto a mujeres líderes, dinámicas en vivo y un espacio de networking e integración.\n\n",
+    "event_category": {
+     "data": {
+      "id": 13,
+      "attributes": {
+       "name": "🪁 Crecimiento Personal"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5381,
+   "attributes": {
+    "name": "BARRO MOJITOS • SÁB 10 OCT",
+    "slug": "BARROMOJITOSSAB10OCT-1",
+    "start_at": "2026-10-10T20:00:08.000Z",
+    "end_at": "2026-10-10T22:00:08.000Z",
+    "free": false,
+    "place": "https://maps.app.goo.gl/MqZUACoKsEBV3u1v5?g_st=ic",
+    "description": "BARRO & MOJITOS \n\nUna tarde perfecta para relajarte, crear y brindar.\n\nManos en el barro, mojito en mano\ny cero prisa.\n\nSáb 10 oct • 4 PM\nRD$2,500\nJardín Secreto",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4729,
+   "attributes": {
+    "name": "Puras Cosas Maravillosas - 10 Octubre Función 4:00P.M.",
+    "slug": "PurasCosasMaravillosas-7",
+    "start_at": "2026-10-10T20:00:52.000Z",
+    "end_at": "2026-10-10T21:00:52.000Z",
+    "free": false,
+    "place": "Galeria 360 - Cosas Maravillosas",
+    "description": "“Puras cosas maravillosas” es una obra que cuenta la historia de una niña de siete años que comienza una lista de cosas para regalársela a su mamá para demostrarle que la vida vale la pena vivirla.\nPuras Cosas Maravillosas logra de una forma interactiva el delicado equilibrio entre la pérdida aleccionadora y la risa catártica, haciendo que el público se una a ella en su viaje a través de la infancia, la adolescencia y la adultez, celebrando las alegrías y dificultades que hacen que la vida sea realmente maravillosa.\nErika De la Vega te lleva por un viaje extraordinario de emociones entre el humor y la reflexión que te inspirará a enfocarte en las cosas simples de la vida que nos generan felicidad.\n“Puras cosas maravillosas” es la versión en español de la obra de Duncan McMillan llamada “Every Brilliant Thing”. Esta obra es dirigida por Michel Hausmann y protagonizada por Erika de la Vega.",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5393,
+   "attributes": {
+    "name": "ROMO + DOMINÓ = ROMINÓ - THE GREEN ROOM",
+    "slug": "ROMINO-2",
+    "start_at": "2026-10-10T21:00:55.000Z",
+    "end_at": "2026-10-11T06:00:55.000Z",
+    "free": false,
+    "place": "The Green Room",
+    "description": "CONSUMO MÍNIMO EN EL LOCAL DE 1,000 PESOS\n\n🔞 Evento exclusivo para mayores de 18 años.",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5051,
+   "attributes": {
+    "name": "What The Fuck Kiki Ball",
+    "slug": "WhatTheFuckKikiBall-1",
+    "start_at": "2026-10-10T23:50:14.000Z",
+    "end_at": "2026-10-11T05:50:14.000Z",
+    "free": false,
+    "place": "Calife bar",
+    "description": "WHAT THE FUCK KIKI BALL\nHuella de Orgullo presenta What The Fuck Kiki Ball, una experiencia de ballroom donde lo inesperado, la improvisación y el caos también forman parte del juego.\nCrees saber a qué vienes, pero realmente no sabes lo que puede pasar.\nesta noche vamos a encontrarnos como comunidad, celebrar el ballroom y poner a prueba la creatividad y la capacidad de resolver, con competencias, batallas y dinámicas que pueden cambiar cuando menos lo esperes.\nPuedes venir a competir, apoyar, disfrutar o simplemente ser parte del WTF.\nLas categorías, y requisitos para competir serán anunciados a través de la cuenta oficial de Instagram @huelladeorgullo.\n\nSOBRE LAS BOLETAS\nHasta comprar tu boleta será parte del WTF. 😂\nEl precio de la entrada general irá cambiando dependiendo del día en que la compres. Cada precio tendrá una cantidad limitada de boletas disponibles, así que si ves uno que te gusta, probablemente no deberías pensarlo demasiado.\nLo único que sí sabemos es que el día del evento la entrada general en puerta tendrá un costo de RD$1,000, sujeta a disponibilidad.\nLas boletas VIP tendrán un costo fijo y estarán disponibles exclusivamente de manera anticipada, online o mediante transferencia bancaria.\nLa experiencia VIP incluye:\nAsiento reservado + trago de bienvenida + llavero oficial del WTF Kiki Ball.\n\nEL CUPO PARA ESTE EVENTO ES LIMITADO.\n\nSabemos cómo empieza. Después… que el universo ballroom resuelva.\nWHAT THE FUCK KIKI BALL\nExpect the unexpected.\n",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4973,
+   "attributes": {
+    "name": "Puras cosas Maravillosas - 10 Octubre Función 8:00P.M.",
+    "slug": "PurascosasMaravillosas10OctubreFuncion800PM-2",
+    "start_at": "2026-10-11T00:00:05.000Z",
+    "end_at": "2026-10-11T03:00:05.000Z",
+    "free": false,
+    "place": "Galeria 360 - Cosas Maravillosas",
+    "description": "“Puras cosas maravillosas” es una obra que cuenta la historia de una niña de siete años que comienza una lista de cosas para regalársela a su mamá para demostrarle que la vida vale la pena vivirla.\nPuras Cosas Maravillosas logra de una forma interactiva el delicado equilibrio entre la pérdida aleccionadora y la risa catártica, haciendo que el público se una a ella en su viaje a través de la infancia, la adolescencia y la adultez, celebrando las alegrías y dificultades que hacen que la vida sea realmente maravillosa.\nErika De la Vega te lleva por un viaje extraordinario de emociones entre el humor y la reflexión que te inspirará a enfocarte en las cosas simples de la vida que nos generan felicidad.\n“Puras cosas maravillosas” es la versión en español de la obra de Duncan McMillan llamada “Every Brilliant Thing”. Esta obra es dirigida por Michel Hausmann y protagonizada por Erika de la Vega.",
+    "event_category": {
+     "data": {
+      "id": 1,
+      "attributes": {
+       "name": "🎤 Comedia"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5377,
+   "attributes": {
+    "name": "Master Class Ron / @Dominicania - Punta Cana",
+    "slug": "MasterClassRonDominicaniaPuntaCana-1",
+    "start_at": "2026-10-11T00:00:22.000Z",
+    "end_at": "2026-10-11T03:00:22.000Z",
+    "free": false,
+    "place": "Dominicania - Immersive Cultural Experience",
+    "description": "🥃 Taller de Ron en Dominicania / Ron Oliver\n\nDescubre el mundo del ron dominicano de la mano de un Maestro Ronero, quien nos llevará a conocer más sobre su historia, elaboración y características. Contaremos con una cata especial de dos Rones super premium tan exclusivos que no se encuentran en el mercado de Republica Dominicana\n\nAdemás, aprenderemos a preparar tres cócteles a base de ron, combinando sabores y técnicas para disfrutar de esta bebida de una manera diferente.\n\nUna experiencia para aprender, degustar y celebrar una de las grandes tradiciones de nuestra cultura dominicana. 🇩🇴",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4824,
+   "attributes": {
+    "name": "SANTIAGO COMEDY FEST VOL 2 JOCHY SANTOS Y BORUGA",
+    "slug": "SANTIAGOCOMEDYFESTVOL2JOCHYSANTOSYBORUGA-1",
+    "start_at": "2026-10-11T00:00:43.000Z",
+    "end_at": "2026-10-11T03:00:43.000Z",
+    "free": false,
+    "place": "Centro Cultural Eduardo León Jimenes",
+    "description": "***APROVECHA EL DESCUENTO CON EL CODIGO: MONTUNO  ***\nSantiago Comedy Fest llega por primera vez a la Ciudad Corazón con una noche inolvidable de risas y entretenimiento\n\nDisfruta de un espectáculo de stand-up comedy con dos de los mejores comediantes de República Dominicana, encabezado por el legendario **FELIPE POLANCO \"BORUGA**, y **JOCHY SANTOS** en lo que promete ser una noche histórica y un cierre espectacular.\n\n 🎟️ Opciones de Boletas\n\n⭐ VIP Front Row Experience — RD$3,500 (Solo 19 asientos disponibles)\nVive la experiencia más exclusiva del Santiago Comedy Fest:\n\n• Asientos en la primera fila (mejor experiencia del show)\n• Brindis de bienvenida exclusivo\n• Entrada VIP sin larga fila\n• Interacción más cercana con los comediantes\n• Experiencia VIP limitada y exclusiva\n\n---\n\n🎭 Preferencial — RD$2,500\nExcelente visibilidad y comodidad para disfrutar del espectáculo:\n\n• Ubicación privilegiada\n• Mejor ángulo visual del escenario\n• Acceso anticipado al teatro\n\n---\n\n🎫 General — RD$1,500\nDisfruta de una gran noche de comedia en un ambiente íntimo y exclusivo.\n\nCentro León, Santiago\n📅 **Fecha:** Sábado 10 de octubre 2026\n🕗 **Hora:** 8:00 PM\n\nCupos limitados — Solo 200 asientos disponibles\nNo te quedes fuera de este evento único en Santiago.\n",
+    "event_category": {
+     "data": {
+      "id": 1,
+      "attributes": {
+       "name": "🎤 Comedia"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5340,
+   "attributes": {
+    "name": "Angels and Demons",
+    "slug": "AngelsandDemons-2",
+    "start_at": "2026-10-11T02:00:10.000Z",
+    "end_at": "2026-10-11T07:00:10.000Z",
+    "free": false,
+    "place": "Lucia SDQ",
+    "description": "Some nights bring out a different side of you.\nAngels & Demons — choose yours. 🖤\n\nSaturday, Oct 10th.\nVodka Open Bar all night.\nTickets available — link in bio..",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4866,
+   "attributes": {
+    "name": "TRIBU AIRE",
+    "slug": "TRIBUAIRE-1",
+    "start_at": "2026-10-11T12:00:59.000Z",
+    "end_at": "2026-10-12T23:00:59.000Z",
+    "free": false,
+    "place": "Rancho Isaac ",
+    "description": "🌬️✨ TRIBU AIRE ✨🌬️\nLlegó la hora de la libertad.\n\nEsta vez nos convertiremos en DIOSAS GRIEGAS 🏛️⚡🌿\n\nUna experiencia para conectar con tu fuerza, tu belleza, tu libertad y esa mujer poderosa que vive dentro de ti.\n\n🌬️ Respiración consciente\n🧘‍♀️ Meditación\n💃 Danza de la libertad\n🪶 Dinámicas para soltar y liberar\n🎶 Música y vibración\n✨ Círculo de mujeres\n👑 Y mucho más…\n\nVen a soltar lo que pesa, despertar tu poder y recordar quién eres.\n\nPorque esta vez…\nno venimos a buscar nuestra libertad.\nVenimos a reclamarla. 👑🌬️\n\n🏛️ TRIBU AIRE\n📅 11 de octubre\n📍 Rancho Isaac\n\n¿Estás lista para despertar a la Diosa que llevas dentro?\n\n📲 Reserva tu lugar.\nCupos limitados.",
+    "event_category": {
+     "data": {
+      "id": 9,
+      "attributes": {
+       "name": "✨ Wellness"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5376,
+   "attributes": {
+    "name": "REIKI SESSIONS 1.1 • DOM 11 OCT",
+    "slug": "REIKISESSIONS11DOM11OCT-1",
+    "start_at": "2026-10-11T13:00:27.000Z",
+    "end_at": "2026-10-12T18:00:27.000Z",
+    "free": false,
+    "place": "https://maps.app.goo.gl/TWzn8nwi7MjX7m9k7?g_st=ic",
+    "description": "REIKI SESSIONS 1:1  • Slow Sunday\n\nDomingo 11 de octubre · 9 AM–2 PM\n\nUn encuentro individual para hacer una pausa, bajar el ruido y regalarte un momento de descanso y presencia.\n\nA través de la imposición de manos y el trabajo energético, Reiki acompaña un espacio de relajación, calma y equilibrio.\n\nUna pausa solo para ti.\n\nSesión 1:1 · RD$2,200\nCupos limitados por horario.\n\nUna vez realizado el pago, escríbenos al [teléfono] para agendar la hora de tu sesión. 🌿\n\n📍 Jardín Secreto",
+    "event_category": {
+     "data": {
+      "id": 9,
+      "attributes": {
+       "name": "✨ Wellness"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5387,
+   "attributes": {
+    "name": "Divertido con Jochy | Público En Vivo",
+    "slug": "DivertidoconJochyorPublicoEnVivo-2",
+    "start_at": "2026-10-11T14:30:18.000Z",
+    "end_at": "2026-10-11T18:30:18.000Z",
+    "free": false,
+    "place": "Color Vision Canal 9",
+    "description": "¡Vive Divertido con Jochy en vivo!\n\nEsta es tu oportunidad de ser parte del público de Divertido con Jochy. Reclama tu ticket y acompáñanos en una transmisión en vivo, llena de música, invitados especiales, humor y mucha diversión.\n\nEvento para mayores de 18 años. \n\nInformación Importante: \n1. Por favor asegurarse de llevar cédula de identificación para entrar.\n2. Hora de llegada: 10:30 AM\n3. Ubicación: Color Visión, entrada por la Calle Emilio A. Morel.\n4. Códido de Vestimenta: Evitar rayas, cuadros o estampados pequeños, patrones muy llamativos, logos o textos de gran tamaño o colores fluorescentes. Recomendamos el uso de zapatos comodos.  \n5. Por razones de espacio, favor no traer bultos grandes.\n\n¡Esperamos verte!",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5375,
+   "attributes": {
+    "name": "OSHO • LAUGHINH DRUMS CELEBRACIÓN • DOM 11 OCT",
+    "slug": "OSHOLAUGHINHDRUMSCELEBRACIONDOM11OCT-1",
+    "start_at": "2026-10-11T15:00:16.000Z",
+    "end_at": "2026-10-11T16:00:16.000Z",
+    "free": false,
+    "place": "https://maps.app.goo.gl/yHVhV11uJweoHRUW8?g_st=ic",
+    "description": "OSHO LAUGHING DRUMS CELEBRATION™ 🥁\n\nDomingo 11 de octubre · 11 AM\n\nUna experiencia para salir de la mente y entrar en el cuerpo.\n\nRitmo, movimiento, respiración y risa se encuentran en una celebración activa que invita a soltar tensiones, liberar energía y entregarse al momento.\n\nBaila. Ríe. Sacude. Suelta. Celebra.\n\nRD$1,600\nJunto a @stressbreak · Laura Herasme\n📍 Jardín Secreto",
+    "event_category": {
+     "data": {
+      "id": 9,
+      "attributes": {
+       "name": "✨ Wellness"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5394,
+   "attributes": {
+    "name": "OPEN MIC - THE GREEN ROOM",
+    "slug": "OPENMICTHEGREENROOM-13",
+    "start_at": "2026-10-11T23:00:34.000Z",
+    "end_at": "2026-10-12T01:00:34.000Z",
+    "free": false,
+    "place": "The Green Room",
+    "description": "Consumo minimo de 1,000 pesos en el local\n\nEvento para mayores de edad",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5374,
+   "attributes": {
+    "name": "YOGA BRUNCH • DOM 11 OCT",
+    "slug": "YOGABRUNCHDOM11OCT-1",
+    "start_at": "2026-10-12T01:00:25.000Z",
+    "end_at": "2026-10-12T03:00:25.000Z",
+    "free": false,
+    "place": "https://maps.app.goo.gl/yHVhV11uJweoHRUW8?g_st=ic",
+    "description": "YOGA & BRUNCH • Slow Sunday\n\nDomingo 11 de octubre · 9 AM\n\nUna mañana para mover el cuerpo, respirar profundo y comenzar el domingo sin prisa.\n\nYoga entre verde, seguido de un brunch preparado en nuestra cocina del Jardín.\n\nRD$1,895\nLa experiencia incluye: una sesión de yoga + brunch bufette saludable.\nLAS BEBIDAS O CAFÉ NO ESTÁN INCLUIDAS.\n\nJunto a @danielhernandez\n📍 Jardín Secreto\n\nMuévete. Respira. Desayuna rico. Quédate un ratito.",
+    "event_category": {
+     "data": {
+      "id": 9,
+      "attributes": {
+       "name": "✨ Wellness"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5038,
+   "attributes": {
+    "name": "ALOK: EAT PRAY LEAVE TOUR",
+    "slug": "ALOKEATPRAYLEAVETOUR-1",
+    "start_at": "2026-10-12T01:30:19.000Z",
+    "end_at": "2026-10-12T03:30:19.000Z",
+    "free": false,
+    "place": "Hard Rock Cafe Blue Mall",
+    "description": "Internationally acclaimed comedian ALOK. A dark comedy about love, heartbreak, and the end times. Their therapist said stop dating projects, so they built one and are charging admission. A journey of self-discovery… and poor decision-making. With razor-sharp wit, ALOK dissects desire, denial, and the stories we tell ourselves to keep going. Suffering is universal. It might as well be funny.\n\nEdad del público: mayores de 18.",
+    "event_category": {
+     "data": {
+      "id": 1,
+      "attributes": {
+       "name": "🎤 Comedia"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5295,
+   "attributes": {
+    "name": "Se juntaron estos 3",
+    "slug": "Sejuntaronestos3-1",
+    "start_at": "2026-10-14T01:00:23.000Z",
+    "end_at": "2026-10-14T03:00:23.000Z",
+    "free": false,
+    "place": "Local 3 : Calle Max. Herriquez Ureña 33",
+    "description": "Comedia Local presenta: Se Juntaron Estos Tres\n\nArmando, Demailyn y Maxwell Johnson se juntan en un mismo escenario para hacer lo que mejor saben: hacer reír.\n\nTres comediantes, tres estilos y una noche de stand-up con historias, opiniones y situaciones que seguramente no deberían estar juntas… pero aquí están.\n\nSe juntaron estos tres. Y ahora aguántalos.\n",
+    "event_category": {
+     "data": {
+      "id": 1,
+      "attributes": {
+       "name": "🎤 Comedia"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4894,
+   "attributes": {
+    "name": "Carlos Sánchez en The Green Room",
+    "slug": "CarlosSanchezenTheGreenRoom-4",
+    "start_at": "2026-10-15T00:30:05.000Z",
+    "end_at": "2026-10-15T02:30:05.000Z",
+    "free": false,
+    "place": "The Green Room",
+    "description": "Carlos está armando este nuevo concepto.\nCarlos les cuenta sus últimos anécdotas y chismes, el público le cuenta a Carlos sus chismes.\nQuien sabe si hasta terminamos cantando todos al final.\nEs decir: una cura.\n\n\nPara reservaciones de mesas llamar al 809 -740-4601 The Green Room.\nLa compra de boletas no asegura mesa, asientos por orden de llegada.",
+    "event_category": {
+     "data": {
+      "id": 1,
+      "attributes": {
+       "name": "🎤 Comedia"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5224,
+   "attributes": {
+    "name": "El debate : La unión de la Isla",
+    "slug": "EldebateLauniondelaIsla-1",
+    "start_at": "2026-10-15T01:00:26.000Z",
+    "end_at": "2026-10-15T02:00:26.000Z",
+    "free": false,
+    "place": "Local 3 : Calle Max. Herriquez Ureña 33",
+    "description": " El Debate \nRESEÑA – La unión de la isla\n\n¿Y si Haití y República Dominicana fueran una sola nación?\n\nEn La unión de la isla, varios comediantes se enfrentan en un debate sobre una de las preguntas más polémicas que se pueden hacer en esta isla: ¿deberían Haití y República Dominicana unirse para formar una gran nación?\n\nArgumentos a favor, argumentos en contra, opiniones que nadie pidió y, sobre todo, mucho humor.\n\nPorque una cosa es hablar de política… y otra muy distinta es hacerlo entre comediantes con un micrófono delante.\n\nLa isla es una. La pregunta es: ¿nos unimos o no?",
+    "event_category": {
+     "data": {
+      "id": 1,
+      "attributes": {
+       "name": "🎤 Comedia"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5125,
+   "attributes": {
+    "name": "ADEIMO RADAR FORUM",
+    "slug": "ADEIMORADARFORUM-1",
+    "start_at": "2026-10-15T12:30:49.000Z",
+    "end_at": "2026-10-15T17:00:49.000Z",
+    "free": false,
+    "place": "Pabellon de la Fama del Deporte Dominicano",
+    "description": "Sobre el evento\n1er Congreso de Investigación de Mercados Profesional en la Republica Dominicana. Este congreso nace con el objetivo de reunir a los principales actores de la industria, incluyendo corporativos, agencias publicitarias, consultoras de investigación y representantes del sector académico, en un espacio de actualización, intercambio de conocimientos y fortalecimiento profesional.\n\nFecha 15 de octubre 2026\n8:30am- 1pm\nPabellón de la Fama del Deporte Dominicano\nDuración 4 horas\nRRPP: Newlink\nProducción:  Switch Havas\n\nInstituciones aliadas:\nADECC\nEntrada general RD$4,000 pesos\n\nADEIMO puede emitir factura con comprobante fiscal. \nComunicarse [teléfono] Rosa Veras \n\n¿Qué encontrarás?\nEste congreso sera el punto de encuentro definitivo para el futuro de nuestra industria en la región. Al asistir, los participantes experimentarán una agenda transformadora diseñada para elevar su ventaja competitiva:\nPerspectiva Global: Charlas y panales de primer nivel, conectando las tendencias mundiales con la realidad local.\nPresentación Exclusiva de ESOMAR sobre tamaño de la industria en la Republica Dominicana.\nNetworking de Alto Nivel: Un espacio único de vinculación con los principales profesionales de la industria de investigación de mercados de la República Dominicana.\nToma de Decisiones de Precisión: Herramientas y metodologías avanzadas para entender mejor a los consumidores y aprender a tomar decisiones comerciales más certeras.\nLa Ciencia detrás del Éxito Creativo\nInvestigación como Aliada Estratégica\nEl Verdadero Poder de la Data",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5285,
+   "attributes": {
+    "name": "La Gomera Market by Bazarbeu",
+    "slug": "LaGomeraMarketbyBazarbeu-1",
+    "start_at": "2026-10-15T21:00:27.000Z",
+    "end_at": "2026-10-16T01:00:27.000Z",
+    "free": false,
+    "place": "La Gomera Street Bar",
+    "description": "La Gomera Market by Bazarbeu ",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5293,
+   "attributes": {
+    "name": "Confesadas",
+    "slug": "Confesadas-1",
+    "start_at": "2026-10-16T00:00:48.000Z",
+    "end_at": "2026-10-16T02:00:48.000Z",
+    "free": false,
+    "place": "Local 3 : Calle Max. Herriquez Ureña 33",
+    "description": "Comedia Local Presenta : Confesadas\n\nLaura Nanita, Débora Fuentes y Begoña Guillén se suben al escenario para hablar de esas cosas que las mujeres pensamos, vivimos y comentamos… pero no siempre decimos en voz alta.\n\nRelaciones, sexo, hombres, inseguridades, situaciones incómodas, contradicciones y todas esas pequeñas cosas que forman parte de ser mujer.\n\nTres mujeres, tres estilos y cero necesidad de fingir que todo está bajo control.\n\n\n",
+    "event_category": {
+     "data": {
+      "id": 1,
+      "attributes": {
+       "name": "🎤 Comedia"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5396,
+   "attributes": {
+    "name": "JAZZ NIGHT - THE GREEN ROOM",
+    "slug": "JAZZNIGHTTHEGREENROOM-19",
+    "start_at": "2026-10-16T01:30:22.000Z",
+    "end_at": "2026-10-16T03:30:22.000Z",
+    "free": false,
+    "place": "The Green Room",
+    "description": "Consumo minimo de 1,000 pesos en el local\n\nEvento para mayores de edad",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5384,
+   "attributes": {
+    "name": "YOGA LIVE MUSIC • 16 OCT",
+    "slug": "YOGALIVEMUSIC16OCT-1",
+    "start_at": "2026-10-16T23:00:35.000Z",
+    "end_at": "2026-10-17T01:00:35.000Z",
+    "free": false,
+    "place": "https://maps.app.goo.gl/p5LpM2zXu5AjdN4Y6?g_st=ic",
+    "description": "YOGA & LIVE MUSIC\nMovimiento • Respiración • Sonidos \n\nUna práctica para volver al cuerpo.\n\nRespirar.\nMover.\nSentir.\n\nMientras el cuerpo fluye, la música sucede en vivo, acompañando cada movimiento y creando un paisaje sonoro que cambia con la práctica.\n\nUna experiencia para escuchar con todo el cuerpo.\n\nVIERNES 16 OCTUBRE • 7 PM\nFACILITAN •  @spinalwavers @ve.lovera @elenaplux\nVALOR $2,300 • CONTACTO [teléfono]",
+    "event_category": {
+     "data": {
+      "id": 9,
+      "attributes": {
+       "name": "✨ Wellness"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5316,
+   "attributes": {
+    "name": "Festival de Teatro Joven",
+    "slug": "FestivaldeTeatroJoven-3",
+    "start_at": "2026-10-17T00:30:49.000Z",
+    "end_at": "2026-10-19T03:55:49.000Z",
+    "free": false,
+    "place": "Teatro Las Máscaras",
+    "description": "Llega a la sala más acogedora de la Zona Colonial el ciclo Noches de Teatro Joven, un espacio vibrante presentado por el grupo Teatro Testarudo bajo la dirección de la talentosa actriz y comediante Aleja Johnson.\n\nDurante todo el mes de octubre, Teatro Las Máscaras abre sus tablas al talento emergente y a la innovación escénica con un formato dinámico de doble función por noche: dos obras cortas (microteatro) en una sola velada donde el público podrá transitar por una montaña rusa de emociones que van desde el drama más conmovedor hasta la comedia más corrosiva y el stand-up.\n\nUna velada balanceada entre la profundidad de la sanación familiar y el humor cotidiano de las conversaciones secretas.\n\nEntre tú y yo (Tragedia/Drama): Una historia conmovedora y punzante que explora la compleja relación entre una madre y su hija, atravesada por el duelo, la fe, el miedo y las pesadas expectativas familiares.\n\nStand-Up con Aleja Johnson (Comedia en vivo): La comediante y directora Aleja Johnson sube al escenario con su rutina fresca, directa e ingeniosa para aligerar la noche y garantizar carcajadas con sus observaciones sobre la vida cotidiana.",
+    "event_category": {
+     "data": {
+      "id": 4,
+      "attributes": {
+       "name": "🎭 Teatro"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5349,
+   "attributes": {
+    "name": "Despecho EL CONCIERTO! by 4ta Dimension @SD",
+    "slug": "DespechoELCONCIERTOby4taDimensionSD-1",
+    "start_at": "2026-10-17T01:00:13.000Z",
+    "end_at": "2026-10-17T03:55:13.000Z",
+    "free": false,
+    "place": "Teatro Nacional Eduardo Brito",
+    "description": "**DESPECHO – EL CONCIERTO** regresa a Santo Domingo en una edición especial y, por primera vez, llega al prestigioso **Café Teatro del Teatro Nacional Eduardo Brito**.\n\nEste **viernes 16 de octubre a las 9:00 PM**, 4ta Dimension presenta una versión más íntima, exclusiva y recargada de uno de sus conceptos más queridos.\n\nPrepárate para una noche de canciones para cantar a todo pulmón, nuevas canciones, más dúos, nuevas dinámicas, concursos de canto, sorpresas y toda la energía de una experiencia **100% en vivo**.\n\nSi nunca has vivido DESPECHO, esta es tu oportunidad.  \nSi ya fuiste, prepárate para descubrir una versión renovada, con mucho material nuevo y una experiencia diferente.\n\n**PRECIO DE LANZAMIENTO DISPONIBLE**\n\nGeneral: RD$2,000  \nVIP: RD$2,500  \nPremium: RD$3,500\n\n**DESPECHO – EL CONCIERTO**  \n📍 Café Teatro del Teatro Nacional Eduardo Brito  \n📅 Viernes 16 de octubre de 2026  \n🕘 9:00 PM\n\n**El único DESPECHO en versión concierto 100% en vivo.**\n\nMás que un concierto. Más que música. Más que un evento.  \n**Otra Dimensión.**",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5320,
+   "attributes": {
+    "name": "Che Rizik",
+    "slug": "CheRizik-1",
+    "start_at": "2026-10-17T01:10:09.000Z",
+    "end_at": "2026-10-17T07:00:09.000Z",
+    "free": false,
+    "place": "Caciba Rock & Roll Bar",
+    "description": "Una noche para disfrutar y bailar con la fusión y melodías únicas del Che.",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5338,
+   "attributes": {
+    "name": "EL ULTIMO HIJO DE BALAGUER : TE DE JAGUA",
+    "slug": "ELULTIMOHIJODEBALAGUERTEDEJAGUA-1",
+    "start_at": "2026-10-17T01:30:21.000Z",
+    "end_at": "2026-10-17T03:30:21.000Z",
+    "free": false,
+    "place": "The Green Room",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 1,
+      "attributes": {
+       "name": "🎤 Comedia"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5184,
+   "attributes": {
+    "name": "Biopulse Wellness Event 🫆",
+    "slug": "BiopulseWellnessEvent-1",
+    "start_at": "2026-10-17T13:30:56.000Z",
+    "end_at": "2026-10-17T21:30:56.000Z",
+    "free": false,
+    "place": "Mauad Hotel Santo Domingo",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 9,
+      "attributes": {
+       "name": "✨ Wellness"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5158,
+   "attributes": {
+    "name": "Coffee Pop-Up by Criss",
+    "slug": "CoffeePopUpbyCriss-1",
+    "start_at": "2026-10-17T14:00:16.000Z",
+    "end_at": "2026-10-17T18:00:16.000Z",
+    "free": false,
+    "place": "Let’s Drunch Studio",
+    "description": "Coffee Pop-Up by Criss se presenta en Salomé 104, ofreciendo una selección exclusiva de cuatro bebidas elaboradas especialmente para la ocasión. Una propuesta que combina café de especialidad, creatividad y técnica, explorando distintas formas de disfrutar el café en un ambiente relajado al aire libre.\n\nLas bebidas\n\n1• Orange Bloom\nUn cóctel con base de licor de café, notas cítricas y una delicada capa de cold foam de naranja.\n\n2• Manzana Verde & Hibisco Milk Punch\nUn mocktail ligero y refrescante que combina manzana verde e hibisco con un cremoso foam de espresso.\n\n3• Flat White\nEspresso de Etiopía de proceso natural, acompañado de una leche especialmente trabajada para conseguir una textura más cremosa y envolvente.\n\n4• Pour Over\nCafé Geisha de Huila, Colombia, con un perfil dulce y frutal en el que destacan notas de durazno, azúcar morena y caramelo.\n\nVen y únete a nosotros el sábado 17 de octubre, de 10:00 a. m. a 2:00 p. m., en Salomé 104, Zona Colonial, Santo Domingo.\n\n✨ Nota importante: El precio incluye las cuatro bebidas y un snack para acompañar. Al tratarse de cuatro preparaciones, puedes compartirlas con un acompañante si así lo deseas.",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5344,
+   "attributes": {
+    "name": "Sol, Playa y En la Arena",
+    "slug": "SolPlayayEnlaArena-1",
+    "start_at": "2026-10-17T17:00:08.000Z",
+    "end_at": "2026-10-18T00:00:08.000Z",
+    "free": false,
+    "place": "The Boat House",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5181,
+   "attributes": {
+    "name": "🎄 Felices Fiestas 2026: \"Una Navidad hecha a Mano ✂️🧶\"",
+    "slug": "FelicesFiestas2026UnaNavidadhechaaMano-1",
+    "start_at": "2026-10-17T20:00:04.000Z",
+    "end_at": "2026-10-17T23:00:04.000Z",
+    "free": false,
+    "place": "The Box Working Space",
+    "description": "Felices Fiestas 2026 🎄✨\n\nUna Navidad hecha a mano.\n\nLlega la 4.ª edición de Felices Fiestas, un encuentro creado para mujeres que disfrutan cocinar, crear, celebrar y hacer de lo cotidiano algo especial.\n\nUna experiencia de inspiración y aprendizaje para prepararte para la temporada navideña, disfrutar más tu hogar, cuidar de ti y comenzar a convertir tus sueños en planes.\n\n¿Qué vivirás?\n\n✨ Cocina y Mesa\nRecetas, demostraciones y consejos de Sagrario Matos para inspirarte a cocinar, recibir y servir bonito esta Navidad.\n\n🏡 Hogar Bonito\nIdeas prácticas para decorar, organizar y crear espacios que cuenten tu historia y hagan más especial la temporada.\n\n💄 Belleza Real\nConversaciones para disfrutar tu belleza y cuidarte desde un lugar más auténtico y consciente.\n\n🌿 Salud y Bienestar\nHerramientas y conversaciones con expertas para cuidar tu bienestar físico y mental mientras disfrutas las fiestas.\n\n💼 Metas y Finanzas\nUna mirada práctica para pasar de los sueños a un plan y comenzar a construir tus próximas metas con intención.\n\nUna experiencia para prepararte para celebrar\n\nEn Felices Fiestas 2026 encontrarás inspiración, ideas prácticas, conversaciones de valor, recetas y momentos para conectar con otras mujeres que, como tú, quieren disfrutar la vida y celebrar lo que realmente importa.\n\nVen a prepararte para una Navidad hecha a mano: con intención, creatividad, alegría y propósito.\n\n✨ Vive la experiencia. Celebra la vida. Disfruta #LaVidaBonita.\n",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5182,
+   "attributes": {
+    "name": "The Bloom | Bossie Social Club",
+    "slug": "TheBloomorBossieSocialClub-1",
+    "start_at": "2026-10-17T20:00:05.000Z",
+    "end_at": "2026-10-18T01:00:05.000Z",
+    "free": false,
+    "place": "Changan República Dominicana",
+    "description": "The Bloom es una experiencia inmersiva de bienestar femenino creada por Bossie para acompañarnos en una conversación más consciente con nuestro cuerpo, bienestar e intimidad.\n\nCombinaremos movimiento, educación, respiración, relajación y conexión social en un ambiente cuidadosamente diseñado para vivir, sentir y recordar.\n\nLa experiencia incluye:\n\n• “No somos lineales”: Live podcast con Camille Ricardo sobre el ciclo menstrual y cómo comprenderlo puede ayudarnos a conocernos mejor.\n\n• Flow & Bloom: Sesión de Pilates guiada por Camille Ricardo.\n\n• Breath & Reset: Una pausa inmersiva de respiración consciente, música y relajación guiada para bajar el ritmo y volver a ti.\n\n• “El placer también es bienestar”: Live podcast con Nicole Lindo, de Infosexions, sobre sexualidad femenina y bienestar integral.\n\n• Drinks & networking: Un espacio para compartir y conectar con otras mujeres al finalizar la experiencia.\n\nFecha: sábado 17 de octubre\nHora: 4:00 PM\nLugar: Changan Dominicana, Av. John F. Kennedy\n \nEvento exclusivo para mujeres.\nLa entrada incluye un goodie bag 🛍️ con productos de nuestras marcas aliadas. \n",
+    "event_category": {
+     "data": {
+      "id": 9,
+      "attributes": {
+       "name": "✨ Wellness"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5346,
+   "attributes": {
+    "name": "Luma en el Caribe Mágico",
+    "slug": "LumaenelCaribeMagico-1",
+    "start_at": "2026-10-17T20:00:32.000Z",
+    "end_at": "2026-10-17T22:00:32.000Z",
+    "free": false,
+    "place": "Centro de Convenciones y Cultura Dominicana UTESA",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 4,
+      "attributes": {
+       "name": "🎭 Teatro"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5191,
+   "attributes": {
+    "name": "La Copa Del Under 3 (Viaje al Salvador)",
+    "slug": "LaCopaDelUnder3ViajealSalvador-1",
+    "start_at": "2026-10-17T20:00:33.000Z",
+    "end_at": "2026-10-18T03:30:33.000Z",
+    "free": false,
+    "place": "Mercedes 313 Live Music",
+    "description": "LA COPA DEL UNDER 3 llega a su tercera edición, consolidándose como uno de los escenarios más importantes para el talento emergente del freestyle en República Dominicana. Durante tres años, este evento ha servido como punto de encuentro para MCs que buscan demostrar su ingenio, capacidad de improvisación, presencia escénica y hambre de representar al movimiento. \n\nAquí no solo se compite por una copa: se compite por el respeto, por el reconocimiento y por la oportunidad de llevar el nombre de República Dominicana a otro nivel.\n\nEste año, el campeón dominicano de La Copa del Under 3 tendrá la responsabilidad y el honor de representar a nuestro país en El Salvador, llevando consigo la bandera, la voz y la esencia de toda una escena. La cultura freestyle dominicana continúa creciendo desde las calles, las plazas, los parques y los diferentes espacios donde cada MC convierte sus palabras en identidad. República Dominicana tiene una historia de creatividad, ritmo y competencia, y este evento busca seguir fortaleciendo esa cultura, creando nuevas oportunidades para quienes hacen del freestyle una forma de expresión y una pasión. \n",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5345,
+   "attributes": {
+    "name": "Festival multicultural América en un solo lugar",
+    "slug": "FestivalmulticulturalAmericaenunsololugar-1",
+    "start_at": "2026-10-17T21:00:11.000Z",
+    "end_at": "2026-10-18T01:00:11.000Z",
+    "free": false,
+    "place": "Estaca Sion almirante ",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5265,
+   "attributes": {
+    "name": "Luz natural fashion show",
+    "slug": "Luznaturalfashionshow-1",
+    "start_at": "2026-10-17T21:00:16.000Z",
+    "end_at": "2026-10-18T01:00:16.000Z",
+    "free": false,
+    "place": "Soler Computer",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5370,
+   "attributes": {
+    "name": "America en un solo lugar un evento para jóvenes adultos de 18 a 35 años",
+    "slug": "Americaenunsololugaruneventoparajovenesadultosde18a35anos-1",
+    "start_at": "2026-10-17T21:00:18.000Z",
+    "end_at": "2026-10-18T01:00:18.000Z",
+    "free": false,
+    "place": "La Iglesia de Jesucristo de los Santos de los Últimos Días",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4791,
+   "attributes": {
+    "name": "LA FUMADA LEGENDARIA 5TH EDITION SANTIAGO",
+    "slug": "LAFUMADALEGENDARIA5THEDITIONSANTIAGO-1",
+    "start_at": "2026-10-17T23:00:22.000Z",
+    "end_at": "2026-10-18T00:00:22.000Z",
+    "free": false,
+    "place": "AC Hotel Santiago de los Caballeros",
+    "description": "LA FUMADA LEGENDARIA – 5th Edition\nSantiago 2026\n\n💰 RD$8,000 por persona\n💰 RD$12,000 por pareja\n\nAmbas entradas incluyen:\n\n📦 1 - Caja Premium de 11 cigarros\n🎁 1- Pack de 4 cigarros\n🥃 Trago de bienvenida\n🍢 Picaderas\n🎟️ Grandes rifas\n\nArtistas en vivo:\n\n🎤 Badir\n🎤 Elvin Rodríguez\n🎤 Abe Flores Blue Star Band\n    DJ\nAdemás:\n\n💬 Charlas\n🎙️ Conversatorios con expertos\n\nInfo: [teléfono] / [teléfono]\nhttps://www.instagram.com/lafumadalegendaria",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4877,
+   "attributes": {
+    "name": "POLACO EN THE GREEN ROOM",
+    "slug": "POLACOENTHEGREENROOM-1",
+    "start_at": "2026-10-17T23:00:47.000Z",
+    "end_at": "2026-10-18T03:00:47.000Z",
+    "free": false,
+    "place": "The Green Room",
+    "description": "Con las boletas de after party podras conocer a polaco\n\n🔞 Evento exclusivo para mayores de 18 años.\n\nLe informamos que, una vez finalizada la compra de su boleta, no se admitirán cambios, cancelaciones ni devoluciones del importe abonado, salvo en los casos de cancelación o aplazamiento del evento por parte del organizador. Al completar su transacción, usted acepta estas condiciones de venta de manera definitiva.",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4196,
+   "attributes": {
+    "name": "Rubinsky Rbk - Concierto Intimo - Tal como soy. R.D",
+    "slug": "RubinskyRbkConciertoTalcomosoyRD-1",
+    "start_at": "2026-10-17T23:30:41.000Z",
+    "end_at": "2026-10-18T04:30:41.000Z",
+    "free": false,
+    "place": "Teatro Lope de Vega Santo Domingo",
+    "description": "Mejor que ayer music presenta:\n“Tal Como Soy” – Rubinsky Rbk en Santo Domingo\n\nRubinsky Rbk después de mucho tiempo fuera, se presenta en su tierra con un show íntimo e irrepetible: “Tal Como Soy”. Una noche donde el rap dominicano se muestra sin máscaras, con la autenticidad como bandera. Acompañado de invitados de lujo: Dkano, Bulova y más sorpresas. Sonarán los himnos de todo el repertorio, los nuevos sencillos y adelantos, pero sobre todo la Presencia del Espíritu Santo. En el  Teatro Lopez De vega, en el centro comercial Novo Centro, Av Lope de Vega Distrito Nacional.  Octubre 17 - 2026. *Capacidad limitada*. Ven a celebrar el rap \"TAL COMO SOY\" filtros.\n\n #TalComoSoy #RubinskyRbk #SantoDomingo\n",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5236,
+   "attributes": {
+    "name": "BACK TO TRAP 2016 VOL.2",
+    "slug": "BACKTOTRAP2016VOL2-1",
+    "start_at": "2026-10-18T00:00:07.000Z",
+    "end_at": "2026-10-18T02:00:07.000Z",
+    "free": false,
+    "place": "Templo Lounge",
+    "description": "EL TRAP QUE MARCÓ UNA ÉPOCA. 🔥\n\n📍 TEMPLO LOUNGE\n📅 SÁBADO 17 DE OCTUBRE\n\n🎶 BACK TO TRAP 2016 — VOL. 2\nDJ STREAM • ALEJANDRO GALÁN DJ\n\n🚪 PUERTAS ABIERTAS DESDE LAS 8:00 PM\n🍾 OPEN BAR DISPONIBLE\n\n🎟️ BOLETAS DISPONIBLES EN TIX.DO\n\n📍 Arzobispo Meriño #410, Zona Colonial\n\nEL 2016 VUELVE POR UNA NOCHE. 🥂🔥",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5165,
+   "attributes": {
+    "name": "Rock 70 80 90 by 4ta Dimension @Santiago",
+    "slug": "Rock708090by4taDimensionSantiago-1",
+    "start_at": "2026-10-18T00:00:09.000Z",
+    "end_at": "2026-10-18T03:55:09.000Z",
+    "free": false,
+    "place": "Gran Teatro Del Cibao",
+    "description": "NUEVA FECHA 📅 \n\n🎸 ROCK 70s · 80s · 90s — SANTIAGO 🔥\n\n4ta Dimensión llega a Santiago como parte de nuestra GIRA NACIONAL 🎶\n\nUna noche construida alrededor de la música, con repertorio en inglés y español, producción cuidada y la experiencia que caracteriza cada evento de 4ta Dimensión.\n\n🎶 HOMENAJEANDO A GRANDES BANDAS Y ARTISTAS COMO:\n\nQueen · Maná · Guns N’ Roses · Gustavo Cerati · Bon Jovi · Bunbury · Journey · Metallica · The Police · Kiss · a-ha · Stevie Wonder · ¡y muchos más!\n\n📍 Bar Gran Teatro del Cibao  \n📅 Sábado 17 de octubre\n\n❤️ Aquí la gente va primero.\n\nDesde el primer mensaje hasta la última canción, cada detalle se cuida para que vivas la experiencia completa.\n\n🎸 ROCK 70s · 80s · 90s  \nGIRA NACIONAL 4TA DIMENSIÓN",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5389,
+   "attributes": {
+    "name": "THE PSYCHO TOILET",
+    "slug": "THEPSYCHOTOILET-1",
+    "start_at": "2026-10-18T00:00:30.000Z",
+    "end_at": "2026-10-18T01:00:30.000Z",
+    "free": false,
+    "place": "Bar Room Republica Brewing",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5360,
+   "attributes": {
+    "name": "Going Under (DIY Hardcore Party)",
+    "slug": "GoingUnderDIYHardcoreParty-1",
+    "start_at": "2026-10-18T01:00:30.000Z",
+    "end_at": "2026-10-18T04:00:30.000Z",
+    "free": false,
+    "place": "Limonada Coco Bar & Billar",
+    "description": "Este sábado 17 de octubre se festeja a lo Under Ground en la escena alternativa de Santo Domingo. El sello independiente Bravata Records junto con el Colectivo P4 nos presentan: \"GOING UNDER (DIY Hardcore Party)\" una fiesta con música en vivo que celebra el resurgir del Punk Rock en R.D.\n\nMusic en Directo por:\nFORESIA (Rock Alternativo)\nNOTAS COTORRA (Acid Jazz/Fusión)\nAGUAS NEGRAS (Hardcore Punk)\n\nFecha: Sábado 17 de Octubre\nHora: 09:00PM\nLugar: Limonada Coco (Billar Bar)\nAv. José Contreras No. 17, Zona Universitaria. (detrás de UTESA)\n",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5369,
+   "attributes": {
+    "name": "COLOMBICANA | TUESKA",
+    "slug": "COLOMBICANAorTUESKA-2",
+    "start_at": "2026-10-18T01:00:55.000Z",
+    "end_at": "2026-10-18T03:00:55.000Z",
+    "free": false,
+    "place": "Velvet Room SDQ",
+    "description": "🔥 ¡COLOMBICANA ESTÁ DE VUELTA! 🇨🇴🇩🇴\n\nEste sábado 17 de octubre, vive una noche explosiva junto a Tueska en Velvet Room.\n\nMúsica en vivo, grandes éxitos y una fiesta hecha para cantar, bailar y gozar de principio a fin.\n\n🎟️ Entradas limitadas. Compra la tuya ahora y no te quedes fuera de COLOMBICANA.",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5347,
+   "attributes": {
+    "name": "THE DOORS & FRIENDS — SEGUNDA ENTREGA",
+    "slug": "THEDOORSandFRIENDSSEGUNDAENTREGA-1",
+    "start_at": "2026-10-18T01:10:11.000Z",
+    "end_at": "2026-10-18T04:15:11.000Z",
+    "free": false,
+    "place": "Republica Brewing Draft Room",
+    "description": "Hay noches que no deberían quedarse en una sola fecha.\n\nDespués de la respuesta que recibimos con The Doors & Friends, decidimos volver a abrir esa puerta.\n\nEste sábado 17 de octubre, Lilé Blanc llega a República Brewing, en la Ciudad Colonial, para una nueva edición de una noche dedicada al sonido, la energía y las grandes canciones de una época que todavía tiene mucho que decir.\n\nThe Doors vuelven a ser el punto de partida. Y alrededor de ellos, sus Friends: The Beatles, Jimi Hendrix, Led Zeppelin, Cream, Queen y otras sorpresas que iremos dejando aparecer durante la noche.\n\nNo es solamente una colección de canciones. Es nuestra manera de encontrarnos nuevamente con una música que seguimos disfrutando, respetando y llevando al escenario con la energía de Lilé Blanc.\n\n17 de octubre · República Brewing · Ciudad Colonial\n🎸 The Doors & Friends — Vol. II\n🕘 9 PM\n🎟 Entrada libre\n\nLa puerta vuelve a abrirse.\n¿Entramos?\n\nLilé Blanc — Old Souls. Loud Guitars.",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5391,
+   "attributes": {
+    "name": "SPOOKY NIGHT",
+    "slug": "PARTYHALLOWEEN-1",
+    "start_at": "2026-10-18T01:30:41.000Z",
+    "end_at": "2026-10-18T06:00:41.000Z",
+    "free": false,
+    "place": "Club de la Dirección General de Aduanas (DGA)",
+    "description": "ven a disfrutar de una fiesta llena de música, diversión y disfraces 🕷️🩸\n\n👻 Ponte tu mejor disfraz\n🎶 Baila toda la noche\n🎃 Vive una noche llena de misterio y diversión\n\n ¡Ven con tus amigos y haz de esta noche una fiesta inolvidable! \n\n📅 Fecha: 17 de octubre \n📍 Lugar: CLUB GENERAL DE LAS ADUANAS EN LAS AMERICAS\n⏰ Hora: 9:30 PM - 2:00 AM\n🔞: +16\n\n🎃 ¿Te atreves a venir? ¡Te esperamos!",
+    "event_category": {
+     "data": {
+      "id": 11,
+      "attributes": {
+       "name": "🎃 Halloween"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5189,
+   "attributes": {
+    "name": "FRAN ROMERO - ÍNTIMO 🔺",
+    "slug": "FRANROMEROINTIMO-1",
+    "start_at": "2026-10-18T02:00:08.000Z",
+    "end_at": "2026-10-18T10:00:08.000Z",
+    "free": false,
+    "place": "BIANCO SOCIAL CLUB",
+    "description": "17 DE OCTUBRE 😮‍💨\nSE ACABÓ LA ESPERA\n\nÍNTIMO en BIANCO\ncon FRAN ROMERO 🔥\nInvitado Internacional\n\nEl íntimo más esperado del año.\n¿Estás listo?",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5273,
+   "attributes": {
+    "name": "ZUMBATON & COFFEE BREAK 2026",
+    "slug": "ZUMBATON2026-1",
+    "start_at": "2026-10-18T13:30:56.000Z",
+    "end_at": "2026-10-18T16:30:56.000Z",
+    "free": false,
+    "place": "Hard Rock Hotel & Casino Punta Cana",
+    "description": "ZUMBATÓN & BRUNCH 2026\n📅 Octubre 18 | 9:30 AM\n📍 Hard Rock Café, Blue Mall\n\nKits de entrada: $1,500\nIncluye: camiseta, bulto, toalla facial, productos de belleza Eucerin, rifas y aperitivo.\n\nDirigido por Rosanna Escaño, instructora de Zumba & Strong.",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5286,
+   "attributes": {
+    "name": "Green Party@ GreenBowl",
+    "slug": "GreenPartyGreenBowl-1",
+    "start_at": "2026-10-18T14:00:48.000Z",
+    "end_at": "2026-10-18T16:00:48.000Z",
+    "free": false,
+    "place": "TableHood",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5259,
+   "attributes": {
+    "name": "Premios glam 2026",
+    "slug": "Premiosglam2026-1",
+    "start_at": "2026-10-18T21:00:27.000Z",
+    "end_at": "2026-10-19T01:00:27.000Z",
+    "free": false,
+    "place": "Ramada by Wyndham Princess Santo Domingo",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 3,
+      "attributes": {
+       "name": "🎉 Festival"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5310,
+   "attributes": {
+    "name": "DIOS REDIME NAGUA 2026",
+    "slug": "DIOSREDIMENAGUA2026-1",
+    "start_at": "2026-10-18T21:00:51.000Z",
+    "end_at": "2026-10-19T02:15:51.000Z",
+    "free": false,
+    "place": "Ayuntamiento de Nagua",
+    "description": "Iglesia Metodista Libre & Ministerio Dios Proveedor presenta: DIOS REDIME NAGUA  — Rompiendo el techo de la división. Con Redimi2 en concierto y Genesis Colon. \n\nDomingo 18 de Octubre 2026 | 5:00 PM | Calle cerrada frente al Ayuntamiento de Nagua.\n\n¡Compra y participa para irte montao! \n\nInfo: [teléfono] ",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5311,
+   "attributes": {
+    "name": "Taller de Lip Gloss y Balsamos Labiales",
+    "slug": "TallerdeLipGlossyBalsamosLabiales-1",
+    "start_at": "2026-10-18T22:00:53.000Z",
+    "end_at": "2026-10-19T00:00:53.000Z",
+    "free": false,
+    "place": "Raíces Food Park",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5296,
+   "attributes": {
+    "name": "De esto no se habla en público",
+    "slug": "Deestonosehablaenpublico-1",
+    "start_at": "2026-10-21T01:00:15.000Z",
+    "end_at": "2026-10-21T03:00:15.000Z",
+    "free": false,
+    "place": "Local 3 : Calle Max. Herriquez Ureña 33",
+    "description": "Comedia Local presenta : De esto no se habla en público\n\nKelvin García, Dymitri y Harú llegan con un show de comedia para hablar de todo eso que normalmente se piensa, se comenta en privado… pero no se dice en público.\n\nSexo, relaciones, situaciones incómodas, pensamientos políticamente incorrectos y esas conversaciones que sería mejor que nadie escuchara.\n\nTres comediantes. Cero temas prohibidos. Porque de esto no se habla en público. Hasta ahora.",
+    "event_category": {
+     "data": {
+      "id": 1,
+      "attributes": {
+       "name": "🎤 Comedia"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5297,
+   "attributes": {
+    "name": "El Tomatazo",
+    "slug": "ElTomatazo-11",
+    "start_at": "2026-10-22T01:00:17.000Z",
+    "end_at": "2026-10-22T03:00:17.000Z",
+    "free": false,
+    "place": "Local 3 : Calle Max. Herriquez Ureña 33",
+    "description": "EL TOMATAZO 🍅: Open Mic diferente \nUn open mic donde los comediantes prueban chistes nuevos… y el público puede tirar tomates si el chiste no le gusta.\nCaos, adrenalina y humor en su punto exacto: si no funciona, ¡vuela un tomate!\n",
+    "event_category": {
+     "data": {
+      "id": 1,
+      "attributes": {
+       "name": "🎤 Comedia"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5403,
+   "attributes": {
+    "name": "COMEDY SHOWCASE - THE GREEN ROOM",
+    "slug": "COMEDYSHOWCASETHEGREENROOM-10",
+    "start_at": "2026-10-22T01:30:38.000Z",
+    "end_at": "2026-10-22T03:30:38.000Z",
+    "free": false,
+    "place": "The Green Room",
+    "description": "CONSUMO MINIMO DE 1,000 PESOS",
+    "event_category": {
+     "data": {
+      "id": 1,
+      "attributes": {
+       "name": "🎤 Comedia"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5351,
+   "attributes": {
+    "name": "Azoterapia en Las Máscaras",
+    "slug": "AzoterapiaenLasMascaras-1",
+    "start_at": "2026-10-23T00:00:23.000Z",
+    "end_at": "2026-10-23T03:55:23.000Z",
+    "free": false,
+    "place": "Teatro Las Máscaras",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5282,
+   "attributes": {
+    "name": "EL ACUSTICORO VOL.6",
+    "slug": "ELACUSTICOROVOL6-1",
+    "start_at": "2026-10-23T00:00:53.000Z",
+    "end_at": "2026-10-23T01:00:53.000Z",
+    "free": false,
+    "place": "Casa 14",
+    "description": "El Acusticoro es noche para descubrir música nueva, hacer coro y pasarla bien. 🪩🎶\n\nReunimos artistas dominicanos emergentes en un espacio íntimo donde presentan sus canciones en formato acústico. ✨",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5123,
+   "attributes": {
+    "name": "Expo–Cumbre Más Mujer 2026",
+    "slug": "ExpoCumbreMasMujer2026-1",
+    "start_at": "2026-10-23T12:30:31.000Z",
+    "end_at": "2026-10-23T23:30:31.000Z",
+    "free": false,
+    "place": "https://maps.app.goo.gl/kiNWYSHhjbkYwtZK6",
+    "description": "Expo–Cumbre Más Mujer 2026 | 80 Mujeres de Liderazgo & Poder\n\nVive un día completo de inspiración, conocimiento, conexiones y oportunidades diseñado para mujeres líderes, empresarias, emprendedoras, ejecutivas y profesionales.\n\nLa Expo–Cumbre Más Mujer reunirá en un mismo escenario a destacadas personalidades y líderes del país, con una programación de conferencias, summits especializados, paneles, networking, exposición comercial y experiencias de marca.\n\nDurante la jornada abordaremos temas de liderazgo, negocios, finanzas, emprendimiento, innovación, belleza, salud y desarrollo profesional, brindándote herramientas que podrás aplicar a tu vida y a tu negocio.\n\nLa experiencia culminará con la ceremonia especial “80 Mujeres de Liderazgo & Poder 2026”, donde reconoceremos a mujeres cuyas historias, trayectorias y aportes están dejando huellas.",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5069,
+   "attributes": {
+    "name": "Bodega Salomé: Tercera edición - Octubre",
+    "slug": "BodegaSalomeTerceraedicionOctubre-1",
+    "start_at": "2026-10-24T00:00:23.000Z",
+    "end_at": "2026-10-24T03:00:23.000Z",
+    "free": false,
+    "place": "Let’s Drunch Studio",
+    "description": "Bodega Salomé es una experiencia gastronómica y social para 30 personas que reúne cocina de autor, vinos naturales y una mesa compartida que invita a conectar con desconocidos a través del arte del buen vivir.\n\nEn esta tercera temporada presentamos una edición creada por el chef José Enrique Mercedes (Prime Foods). Una noche para experimentar su alta cocina contemporánea que combina técnica, creatividad y elegancia, con el compromiso de ofrecer una experiencia gastronómica memorable.\n\nLa noche se complementa con vinos naturales curados por Docaboca, cócteles de autor por The Glenlivet y un DJ set atmosférico, creando una experiencia inmersiva que celebra la gastronomía, la conexión y el talento creativo local.",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4694,
+   "attributes": {
+    "name": "VALENTINA | EN CONCIERTO",
+    "slug": "valentinatickets",
+    "start_at": "2026-10-24T00:00:32.000Z",
+    "end_at": "2026-10-24T04:00:32.000Z",
+    "free": false,
+    "place": "The Green Room",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4996,
+   "attributes": {
+    "name": "Dando Lata",
+    "slug": "DandoLata-1",
+    "start_at": "2026-10-24T00:30:02.000Z",
+    "end_at": "2026-10-24T01:30:02.000Z",
+    "free": false,
+    "place": "7 CUERDAS BAR",
+    "description": "Dando Lata\n\nC. Cordero y Begoña Guillén se juntan para hacer lo que mejor saben: dar lata.\n\nBromas telefónicas en vivo, llamadas inesperadas y conversaciones que pueden acabar en cualquier cosa. Aquí nadie sabe quién va a contestar… y mucho menos qué va a pasar después.\n\nDos teléfonos, cero vergüenza y muchas ganas de dar lata.",
+    "event_category": {
+     "data": {
+      "id": 1,
+      "attributes": {
+       "name": "🎤 Comedia"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5321,
+   "attributes": {
+    "name": "Vamos a Hacerlo Parados",
+    "slug": "VamosaHacerloParados-1",
+    "start_at": "2026-10-24T00:30:36.000Z",
+    "end_at": "2026-11-02T03:55:36.000Z",
+    "free": false,
+    "place": "Teatro Las Máscaras",
+    "description": "Comedia romántica con un divertido manejo del doble sentido. Narra la historia de dos jóvenes que debaten sobre la idea de casarse o no. Él quiere dar el paso, pero ella se niega rotundamente porque cree que el matrimonio destruirá la relación.\n\nEscrita y protagonizada por José Manuel Rodríguez (Josema) junto a Patricia Muñoz, bajo la dirección de Germana Quintana.",
+    "event_category": {
+     "data": {
+      "id": 4,
+      "attributes": {
+       "name": "🎭 Teatro"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5402,
+   "attributes": {
+    "name": "TRIBUTO HEROES SILENCIO / SODA STEREO / CAIFANES",
+    "slug": "TRIBUTOHEROESSILENCIOSODASTEREOCAIFANES-1",
+    "start_at": "2026-10-24T00:31:23.000Z",
+    "end_at": "2026-10-24T01:31:23.000Z",
+    "free": false,
+    "place": "https://maps.app.goo.gl/7DR44UNPintRP1J96",
+    "description": "la banda los villanos traen el Tributo de 3 banda legendarias del rock en español (soda stereo, heroes del silencio y caifanes) ",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5233,
+   "attributes": {
+    "name": "The Art of Pause ~ Sound Bath Otoñal",
+    "slug": "TheArtofPauseSoundBathOtonal-1",
+    "start_at": "2026-10-24T13:00:52.000Z",
+    "end_at": "2026-10-24T15:00:52.000Z",
+    "free": false,
+    "place": "Espacio del Mar",
+    "description": "Te invitamos a vivir The Art of Pause || El Arte de la Pausa; un Sábado de Sound Bath y breathwork frente al mar ☀️🌊 \n\nUna mañana de otoño diseñada para ayudarte a pausar, respirar y reconectar contigo a través del sonido, la vibración y la naturaleza con tres yogaterapeutas para que tengas una experiencia inmersiva.\n\n✨ Floating Experience\nVive el Sound Bath flotando cómodamente sobre el agua mientras el sonido de las olas y el movimiento del agua en la piscina sostienen la experiencia.\n\n✨ Garden Experience\nDisfruta el Sound Bath conectando con la tierra, rodeado de naturaleza y la brisa del mar.\n\nAdemás, tendremos momento de crear comunidad con un refrigerio consciente y tiempo para refrescarte en la piscina.\n\n🗓 24 de Octubre\n⏰ 9:00 AM - 11:00 am\n📍 Espacio del Mar, Costa Verde, Santo Domingo\n\nCupos limitados ~ Precio Early Bird hasta el 5 de Octubre. \n\n@soundhealers.rd\n@theartofhealing\nwww.soundhealersrd.com",
+    "event_category": {
+     "data": {
+      "id": 9,
+      "attributes": {
+       "name": "✨ Wellness"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5334,
+   "attributes": {
+    "name": "COMBINA con estrategia",
+    "slug": "COMBINAconestrategia-1",
+    "start_at": "2026-10-24T14:00:30.000Z",
+    "end_at": "2026-10-24T17:00:30.000Z",
+    "free": false,
+    "place": "Karina Ortiz - Asesora de Imagen",
+    "description": "COMBINA con estrategia | Taller presencial KO\n\nAprende a crear outfits según tus objetivos y a encontrar nuevas combinaciones con las prendas que ya tienes.\n\nEn este taller práctico trabajaremos:\n\n• Cómo definir lo que quieres comunicar con un look.\n• Criterios para combinar prendas, colores y accesorios.\n• Fórmulas de vestuario que puedas aplicar a distintas ocasiones.\n\nSaldrás con ideas concretas para aprovechar mejor tu armario y tomar decisiones al vestir con más claridad.\n\nFecha: sábado 24 de octubre de 2026\nHorario: 10:00 a. m. a 1:00 p. m.\nLugar: Estudio KO, Santo Domingo. La dirección exacta se enviará a las personas inscritas.\nInversión: RD$5,000 por persona\nIncluye: materiales y picadera\nCupos: máximo 10 participantes\n\nFacilita Karina Ortiz, consultora de Imagen, Estrategia y Comunicación.\n\nPara consultas: correo@ejemplo.org",
+    "event_category": {
+     "data": {
+      "id": 5,
+      "attributes": {
+       "name": "💼 Workshop"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5271,
+   "attributes": {
+    "name": "FIESTA DE INTERCAMBIO",
+    "slug": "FIESTADEINTERCAMBIO-2",
+    "start_at": "2026-10-24T19:00:02.000Z",
+    "end_at": "2026-10-25T22:00:02.000Z",
+    "free": false,
+    "place": "https://maps.apple/p/sT3ma0R5HDafuu",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5064,
+   "attributes": {
+    "name": "Lanzamiento de Libro Rubinsky Rbk",
+    "slug": "LanzamientodeLibroRubinskyRbk-1",
+    "start_at": "2026-10-24T20:00:41.000Z",
+    "end_at": "2026-10-24T22:00:41.000Z",
+    "free": false,
+    "place": "Cine Auditorio Arturo Rodriguez.",
+    "description": "Lanzamiento del libro “El Ojo de la Tormenta, el Demonio que se Volvió Humano”\nPrimera obra literaria del artista Rubinsky RBK\n\nEl evento se realizará en el Cine Auditorio Arturo Rodríguez, ubicado en el Centro INDOTEL Cultura Digital (Museo de las Telecomunicaciones) de la Ciudad Colonial, Santo Domingo.\nDirección: Calle Isabel La Católica Esq. Emiliano Tejera, Ciudad Colonial, Santo Domingo, R.D.\n\nFecha: Sábado 24 de octubre de 2026\nHora: 4:00 p.m. (duración estimada: 2 horas)\nLugar: Cine Auditorio Arturo Rodríguez – INDOTEL Cultura Digital\nCosto: Gratuito (con registro previo)\nAforo limitado: 144 personas (inscripción obligatoria por orden de llegada)",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5317,
+   "attributes": {
+    "name": "Pilates Rosa",
+    "slug": "PilatesRosa-1",
+    "start_at": "2026-10-24T21:00:46.000Z",
+    "end_at": "2026-10-24T22:30:46.000Z",
+    "free": false,
+    "place": "Volea Padel Club",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4238,
+   "attributes": {
+    "name": "DATA MUSIC FEST",
+    "slug": "DATAMUSICFEST-1",
+    "start_at": "2026-10-24T23:00:28.000Z",
+    "end_at": "2026-10-24T23:00:28.000Z",
+    "free": false,
+    "place": "Vent Lounge & Club",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 3,
+      "attributes": {
+       "name": "🎉 Festival"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5243,
+   "attributes": {
+    "name": "Despecho EL CONCIERTO! by 4ta Dimension @Santiago",
+    "slug": "DespechoELCONCIERTOby4taDimensionSantiago-2",
+    "start_at": "2026-10-25T00:00:17.000Z",
+    "end_at": "2026-10-25T03:55:17.000Z",
+    "free": false,
+    "place": "Gran Teatro Del Cibao",
+    "description": "DESPECHO – EL CONCIERTO | SANTIAGO ❤️‍🔥\nPRECIO DE LANZAMIENTO POR TIEMPO LIMITADO\n\nVuelve a Santiago el único DESPECHO en versión concierto 100% en vivo.\n\nEste sábado 24 de octubre de 2026, 4ta Dimensión regresa al Bar del Gran Teatro del Cibao con una edición completamente recargada de DESPECHO – EL CONCIERTO.\n\nSi todavía no has vivido la experiencia, esta es tu oportunidad.\nY si ya estuviste con nosotros, prepárate, porque esta vez venimos con muchísimo material nuevo:\n\n🎶 Muchas canciones nuevas\n🎤 Más dúos\n🔥 Nuevas dinámicas con el público\n🏆 Concursos de canto\n🎁 Sorpresas durante toda la noche\n❤️‍🔥 Nuevos momentos para cantar, dedicar, reír y desahogarse\n🥁 Música 100% en vivo\n\nNo es simplemente repetir el concierto anterior. Es una nueva versión de DESPECHO, con más contenido, más interacción y muchas sorpresas preparadas especialmente para esta edición.\n\n📍 Bar del Gran Teatro del Cibao – Santiago\n📅 Sábado 24 de octubre de 2026\n🕘 8:00 PM\n\nMás que un concierto. Más que música. Más que un evento.\nOtra Dimensión.\n",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5365,
+   "attributes": {
+    "name": "80’s - 90’s x siempre🪩🕺✨",
+    "slug": "80s90sxsiempre-1",
+    "start_at": "2026-10-25T01:00:11.000Z",
+    "end_at": "2026-10-25T07:00:11.000Z",
+    "free": false,
+    "place": "Nueve",
+    "description": "80’s–90’s Por Siempre es una noche para volver a la época de los grandes bonches: música, baile, DJs y todos esos clásicos que todavía nos sabemos de memoria. 💿📺✨\n\nUna noche para recordar, bailar y confirmar que los 80’s y 90’s son por siempre.",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5319,
+   "attributes": {
+    "name": "STELLAR X FREQUENCIES VOL.3",
+    "slug": "StellarXFrequencies-1",
+    "start_at": "2026-10-25T02:00:49.000Z",
+    "end_at": "2026-10-25T07:00:49.000Z",
+    "free": false,
+    "place": "Lucia SDQ",
+    "description": "Frequencies vol.3 👻\n\n📅 October 24\n⌛️ Starting at 10:00 PM\n🥂 Open Bar\n🔞 N.R.D.A 18+\nPHYSICAL ID REQUIRED\n\n\nINFO AND RSVP: [teléfono] | [teléfono]\nTo reserve a table, a minimum deposit of 50% is required.\n(Non-refundable)\n@stellarprodrd\n\n\nDISCLAIMER: By purchasing tickets for this public event, you acknowledge that your presence and actions inside and outside the event venue are public by nature, and you have no expectation of privacy regarding your actions or behaviour at the event. You grant us, the event organizers, permission to use your likeness, image, actions, poses, movements, and statements in any live or recorded audio, video, or photographic display, transmission, publication, or reproduction made at the event (whether before, during, or after the event) for any purpose, in any manner, in any medium or context, known now or developed in the future, without further authorization or compensation to you or anyone acting on your behalf.\n\nYou understand that the event for which you purchase a ticket shall be presented by applicable venue policies, public health, safety, and security policies, including local public health and safety policies, as of the date of such event and which may change at any time as determined by federal, state, or local government agencies or instrumentalities, the venue operator, artists and/or the promoter; such requirements may include, without limitation, changes to capacity, attendance procedures and entry requirements, and other protective measures. If Holder does not comply with any laws, mandates, health orders or directives, promoter or venue terms, conditions, or rules, then the promoter or venue operator may refuse admission or require any Holder to leave the venue and you/Holder will not be entitled to a refund. Please visit the venue website for the most up-to-date policies, protocols, and procedures that the venue may require compliance with or verification of, before or as a condition of admission to the venue.",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5398,
+   "attributes": {
+    "name": "The Brow Place Miami Experience X Casas del Siglo XVI  Vignette Collection",
+    "slug": "TheBrowPlaceMiamiExperienceXCasasdelSigloXVIVignetteCollection-1",
+    "start_at": "2026-10-25T12:30:03.000Z",
+    "end_at": "2026-10-25T19:00:03.000Z",
+    "free": false,
+    "place": "C. 19 de Marzo 113",
+    "description": "THE BROW PLACE MIAMI EXPERIENCE X CASAS DEL SIGLO XVI VIGNETTE COLLECTION\n\nJoin us for a morning of movement, wellness, fashion and beauty at Casas del Siglo XVI in Zona Colonial.\n\nYOUR TICKET INCLUDES\n\n• Pilates, Sculpt & Yoga\n• A sensory pause\n• A runway show & jewelry showcase\n• Smoothies & fuel\n• Brunch\n• A curated gifting bar\n• Conversations on cycle wellness & acupuncture\n• One The Brow Place service of your choice: BP Brow Spa, BP Face Yoga, BP Makeup or BP Hairstyling\n• A Red Light Room experience\n• Matcha & coffee bar\n• Live DJ & saxophone music\n\nExplore our shopping bar and discover a curated selection of brands. Shopping purchases are paid separately.\n\n📍 Casas del Siglo XVI Vignette Collection, Zona Colonial, Santo Domingo\n🗝️ Check-in begins at 8:30 AM\n\nReserve your spot.\nSee you at check-in.",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5290,
+   "attributes": {
+    "name": "THE ART MARKET: POP UP",
+    "slug": "THEARTMARKETPOPUP-2",
+    "start_at": "2026-10-25T20:00:25.000Z",
+    "end_at": "2026-10-26T03:00:25.000Z",
+    "free": false,
+    "place": "The Green Room",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5173,
+   "attributes": {
+    "name": "SANTO DOMINGO POLE SHOW",
+    "slug": "SANTODOMINGOPOLESHOW-1",
+    "start_at": "2026-10-25T22:00:34.000Z",
+    "end_at": "2026-10-25T23:00:34.000Z",
+    "free": false,
+    "place": "Pabellon de la Fama del Deporte Dominicano",
+    "description": "¡Vuelve el #SantoDomingoPoleShow en su 4.ª edición! ✨\n\nUna noche para celebrar el pole dance en todas sus expresiones. Más de 40 artistas, un escenario y un espectáculo creado para sorprenderte. \n\n📅 25 de octubre de 2026\n📍 Pabellón de la Fama del Deporte Dominicano\n👨‍👩‍👧‍👦 Apto para todo público\n\nSanto Domingo Pole Show 2026 es un evento artístico y deportivo que celebra el pole dance en todas sus expresiones.\n\nNace con el objetivo de brindar un espacio profesional, seguro e inspirador para que pole dancers de la República Dominicana y otros países puedan mostrar su talento, creatividad y evolución, fomentando la comunidad, el respeto y el crecimiento de esta disciplina.\n\nUna noche donde artistas y atletas, tanto nacionales como internacionales, se reúnen para compartir su pasión por el pole y ser parte de una experiencia que celebra el movimiento, el esfuerzo y la creatividad.\n\nPrepárate para una noche de fuerza, arte, movimiento y mucha magia. 💜",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5298,
+   "attributes": {
+    "name": "Edición Halloween",
+    "slug": "EdicionHalloween-2",
+    "start_at": "2026-10-28T01:00:24.000Z",
+    "end_at": "2026-10-28T03:00:24.000Z",
+    "free": false,
+    "place": "Local 3 : Calle Max. Herriquez Ureña 33",
+    "description": "Comedia Local presenta : Edición Halloween\n\nBoadil Jones y Begoña Guillén se juntan para celebrar Halloween como mejor saben: haciendo comedia.\n\nHistorias de miedo, situaciones absurdas, experiencias paranormales y todo lo que da más miedo que un fantasma: la vida real.\n\nUna noche de humor, sustos y muchas cosas que probablemente no deberías contar.",
+    "event_category": {
+     "data": {
+      "id": 1,
+      "attributes": {
+       "name": "🎤 Comedia"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5337,
+   "attributes": {
+    "name": "PHD Connected Summit",
+    "slug": "PHDConnectedSummit-1",
+    "start_at": "2026-10-28T12:00:26.000Z",
+    "end_at": "2026-10-29T16:55:26.000Z",
+    "free": false,
+    "place": "Universidad Nacional Pedro Henríquez Ureña",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 4,
+      "attributes": {
+       "name": "🎭 Teatro"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5118,
+   "attributes": {
+    "name": "Certificación Internacional Team Building Master",
+    "slug": "CertificacionInternacionalTeamBuildingMaster-3",
+    "start_at": "2026-10-28T12:30:05.000Z",
+    "end_at": "2026-10-31T22:30:05.000Z",
+    "free": false,
+    "place": "Cartagena de Indias, Colombia",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5390,
+   "attributes": {
+    "name": "El Degalille - Musicales Edition 🎭",
+    "slug": "ElDegalilleMusicalesEdition-1",
+    "start_at": "2026-10-28T23:30:19.000Z",
+    "end_at": "2026-10-29T03:55:19.000Z",
+    "free": false,
+    "place": "Velvet Room SDQ",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4827,
+   "attributes": {
+    "name": "Nacho Redondo - Terapia de Grupo 7:00P.M.",
+    "slug": "NachoRedondoTerapiadeGrupo700PM-1",
+    "start_at": "2026-10-29T23:00:22.000Z",
+    "end_at": "2026-10-30T01:00:22.000Z",
+    "free": false,
+    "place": "Pabellon de la Fama",
+    "description": "Terapia de Grupo es la nueva hora de stand up de Nacho Redondo: una versión más grande y afilada del universo que arrancó con Traumas, donde Nacho desentierra sus propios demonios psicológicos e integra los del público para convertir cada función en una sesión colectiva. Un espacio seguro para reírse de las peores situaciones de la vida y comprobar que, a pesar de todo, los traumas no definen a nadie.\n\nMayores de 18 años - nos se aceptan cambios o devoluciónes",
+    "event_category": {
+     "data": {
+      "id": 1,
+      "attributes": {
+       "name": "🎤 Comedia"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5363,
+   "attributes": {
+    "name": "Revisitando",
+    "slug": "Revisitando-1",
+    "start_at": "2026-10-30T00:00:03.000Z",
+    "end_at": "2026-10-30T03:00:03.000Z",
+    "free": false,
+    "place": "The velvet room",
+    "description": "En este show Antonio Ferrés revisitará las mejores rutinas de sus shows “Introvertido” y “En Teoría”.\n\nAdemás tendrá de invitados a los comediantes:\n\nMax Johnson, Jinita y Dr. Humor\n\nPara mayores de 18 años",
+    "event_category": {
+     "data": {
+      "id": 1,
+      "attributes": {
+       "name": "🎤 Comedia"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5299,
+   "attributes": {
+    "name": "Ensayo, error...y terror",
+    "slug": "ElultimohijodeBalaguer-5",
+    "start_at": "2026-10-30T00:00:22.000Z",
+    "end_at": "2026-10-30T02:00:22.000Z",
+    "free": false,
+    "place": "Local 3 : Calle Max. Herriquez Ureña 33",
+    "description": "\n\nTé de Jagua presenta Ensayo, error …y terror , un show donde va a probar nuevo material con su humor político negro, incómodo y sin demasiadas ganas de quedar bien con nadie.\n\nPolítica, poder, historia y actualidad se mezclan en una noche de comedia donde probablemente más de uno se va a sentir aludido.\n\nNo es un show para todos los oídos ",
+    "event_category": {
+     "data": {
+      "id": 1,
+      "attributes": {
+       "name": "🎤 Comedia"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4837,
+   "attributes": {
+    "name": "Nacho Redondo - Terapia de Grupo 9:45 P.M.",
+    "slug": "NachoRedondoTerapiadeGrupo945PM-3",
+    "start_at": "2026-10-30T01:45:53.000Z",
+    "end_at": "2026-10-30T02:00:53.000Z",
+    "free": false,
+    "place": "Pabellon de la Fama",
+    "description": "Terapia de Grupo es la nueva hora de stand up de Nacho Redondo: una versión más grande y afilada del universo que arrancó con Traumas, donde Nacho desentierra sus propios demonios psicológicos e integra los del público para convertir cada función en una sesión colectiva. Un espacio seguro para reírse de las peores situaciones de la vida y comprobar que, a pesar de todo, los traumas no definen a nadie.\n\nMayores de 18 años - nos se aceptan cambios o devoluciónes",
+    "event_category": {
+     "data": {
+      "id": 1,
+      "attributes": {
+       "name": "🎤 Comedia"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5156,
+   "attributes": {
+    "name": "El Congreso Internacional de Armonización Facial 2026 — Arte · Ciencia · Regeneración",
+    "slug": "ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1",
+    "start_at": "2026-10-30T12:00:10.000Z",
+    "end_at": "2026-10-31T23:00:10.000Z",
+    "free": false,
+    "place": "Villa Palmera Business Center",
+    "description": "El Congreso Internacional de Armonización Facial 2026 — Arte · Ciencia · Regeneración será un encuentro académico presencial dedicado a la actualización en armonización facial y medicina regenerativa.\n\nReunirá conferencistas nacionales e internacionales para compartir conocimientos, evidencia científica, tendencias y estrategias clínicas actuales.\n\nEl programa abordará anatomía facial, planificación estética, neuromoduladores, ácido hialurónico, bioestimulación, regeneración tisular y manejo de complicaciones.\nEstá dirigido a médicos, especialistas, residentes y estudiantes de término interesados en el área de la estética facial.\n\nLa jornada incluirá conferencias, discusión de casos, networking profesional, refrigerios y certificado de participación.\nSe celebrará el viernes 30 de octubre de 2026 en Villa Palmera Business Center, Santo Domingo, República Dominicana.",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4838,
+   "attributes": {
+    "name": "Nacho Redondo - Terapia de Grupo 7:00P.M.",
+    "slug": "NachoRedondoTerapiadeGrupo700PM-3",
+    "start_at": "2026-10-30T23:00:58.000Z",
+    "end_at": "2026-10-31T00:00:58.000Z",
+    "free": false,
+    "place": "Pabellon de la Fama",
+    "description": "Terapia de Grupo es la nueva hora de stand up de Nacho Redondo: una versión más grande y afilada del universo que arrancó con Traumas, donde Nacho desentierra sus propios demonios psicológicos e integra los del público para convertir cada función en una sesión colectiva. Un espacio seguro para reírse de las peores situaciones de la vida y comprobar que, a pesar de todo, los traumas no definen a nadie.\n\nMayores de 18 años - nos se aceptan cambios o devoluciónes",
+    "event_category": {
+     "data": {
+      "id": 1,
+      "attributes": {
+       "name": "🎤 Comedia"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5136,
+   "attributes": {
+    "name": "BAD INTENTIONS",
+    "slug": "BADINTENTIONS-1",
+    "start_at": "2026-10-31T00:00:32.000Z",
+    "end_at": "2026-10-31T03:55:32.000Z",
+    "free": false,
+    "place": "914 Bar & Lounge",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  }
+ ],
+ "meta": {
+  "pagination": {
+   "page": 1,
+   "pageSize": 100,
+   "pageCount": 2,
+   "total": 180
+  }
+ }
+}

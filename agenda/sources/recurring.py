@@ -37,6 +37,7 @@ from decimal import Decimal, InvalidOperation
 from pathlib import Path
 from typing import Optional, Union
 
+from agenda.dates import today_sdq
 from agenda.models import Event, guess_kids, zone_for
 from agenda.sources.base import Source
 
@@ -374,7 +375,7 @@ def collect(
     include_inactive: bool = False,
 ) -> RecurringResult:
     result = RecurringResult()
-    today = today or date.today()
+    today = today or today_sdq()
     window_end = today + timedelta(days=horizon_days)
     seen: set[str] = set()
 

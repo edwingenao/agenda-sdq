@@ -6,7 +6,16 @@ Todo es texto -> valores Python, sin red ni estado, para poder probarlo offline.
 from __future__ import annotations
 
 import re
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
+
+# República Dominicana: UTC-4 todo el año, sin cambio de horario.
+TZ_SDQ = timezone(timedelta(hours=-4))
+
+
+def today_sdq(now: datetime | None = None) -> date:
+    """La fecha de hoy en Santo Domingo. Los servidores de GitHub corren en UTC: con date.today(), una corrida
+    después de las 8:00 p. m. ya creería que es mañana y dejaría fuera los eventos de esa noche."""
+    return (now or datetime.now(timezone.utc)).astimezone(TZ_SDQ).date()
 
 MONTHS = {
     "ene": 1, "enero": 1,

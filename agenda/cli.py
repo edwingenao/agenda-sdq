@@ -9,6 +9,7 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 from urllib.parse import urlparse
 
+from agenda.dates import today_sdq
 from agenda.db import DB
 from agenda.export import export_json
 from agenda.htmlutil import parse, text_lines
@@ -17,7 +18,7 @@ from agenda.sources import SOURCES
 
 
 def _today(args) -> date:
-    return date.fromisoformat(args.today) if getattr(args, "today", None) else date.today()
+    return date.fromisoformat(args.today) if getattr(args, "today", None) else today_sdq()
 
 
 def cmd_run(args) -> int:

@@ -386,4 +386,7 @@ def test_shipped_gerard_ellis_inauguration():
     ev = next(e for e in recurring.events(today=TODAY, horizon_days=14) if e.title.startswith("Gerard Ellis"))
     assert ev.dates == ["2026-10-15"] and ev.start_time == "19:00"
     assert ev.category == "Arte" and ev.zone == "Piantini"
-    assert ev.is_free is True  # el flyer no trae precio; la gratuidad la confirmó Edwin el 7 de octubre
+    assert ev.is_free is True  # ni Artsy ni el flyer traen precio; Edwin confirmó que es de entrada libre
+    assert ev.source_name == "Lyle O. Reitzel en Artsy"
+    assert ev.url.startswith("https://www.artsy.net/show/lyle-o-reitzel-the-dominican-dream#")
+    assert "13 de noviembre" in ev.description

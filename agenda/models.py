@@ -50,6 +50,7 @@ ZONES = [
     ("museo nacional de historia natural", "Plaza de la Cultura"),
     ("cinemateca", "Plaza de la Cultura"),
     ("the green room", "Piantini"),
+    ("torre piantini", "Piantini"),
     ("dominican fiesta", "Mirador Sur"),
     ("plaza montesinos", "Malecón"),
 ]

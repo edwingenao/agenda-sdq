@@ -139,3 +139,11 @@ class TestDedupe(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+def test_containment_tolerates_typos_but_not_different_words():
+    from agenda.dedupe import title_similarity
+
+    assert title_similarity("Mahler Resurreción", "Mahler: Resurrección | Gala de aniversarios") >= 0.85
+    assert title_similarity("Mahler Titán", "Mahler: Resurrección | Gala de aniversarios") < 0.85
+    assert title_similarity("Retro Jazz", "Rock Jazz Quartet") < 0.85

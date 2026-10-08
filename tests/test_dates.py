@@ -124,3 +124,18 @@ def test_today_sdq_uses_santo_domingo_time_not_utc():
     # 03:41 UTC del 7 de octubre = 11:41 p. m. del 6 en Santo Domingo (la corrida manual de esa noche)
     assert today_sdq(datetime(2026, 10, 7, 3, 41, tzinfo=timezone.utc)).isoformat() == "2026-10-06"
     assert today_sdq(datetime(2026, 10, 7, 10, 17, tzinfo=timezone.utc)).isoformat() == "2026-10-07"
+
+
+def test_cross_month_ranges_share_the_trailing_year():
+    from datetime import date
+
+    from agenda.dates import find_dates
+
+    today = date(2026, 10, 7)
+    d = date
+    # El año va al final y vale para las dos fechas (antes la primera se iba a 2027).
+    assert find_dates("Del 30 de abril al 3 de mayo de 2026", today) == [d(2026, 4, 30), d(2026, 5, 3)]
+    assert find_dates("Del 23 de Octubre al 1 de Noviembre, 2026", today) == [d(2026, 10, 23), d(2026, 11, 1)]
+    assert find_dates("del 28 de diciembre al 3 de enero", today) == [d(2026, 12, 28), d(2027, 1, 3)]
+    assert find_dates("del 28 de diciembre de 2026 al 3 de enero de 2027", today) == [d(2026, 12, 28), d(2027, 1, 3)]
+    assert find_dates("Del 2 al 18 de Octubre, 2026", today) == [d(2026, 10, 2), d(2026, 10, 18)]

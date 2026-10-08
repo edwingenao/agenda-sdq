@@ -1,3 +1,4 @@
+from agenda.sources.acento_cultural import AcentoCultural
 from agenda.sources.casa_de_teatro import CasaDeTeatro
 from agenda.sources.cce import CentroCulturalEspana
 from agenda.sources.centro_leon import CentroLeon
@@ -8,4 +9,4 @@ from agenda.sources.teatro_las_mascaras import TeatroLasMascaras
 from agenda.sources.teatro_nacional import TeatroNacional
 from agenda.sources.zona_colonial import ZonaColonial
 
-SOURCES = {cls.id: cls for cls in (TeatroNacional, ZonaColonial, CentroCulturalEspana, CasaDeTeatro, JazzEnDominicana, MinisterioCulturaSIC, CentroLeon, SeriesRecurrentes, TeatroLasMascaras)}
+SOURCES = {cls.id: cls for cls in (TeatroNacional, ZonaColonial, CentroCulturalEspana, CasaDeTeatro, JazzEnDominicana, MinisterioCulturaSIC, CentroLeon, SeriesRecurrentes, TeatroLasMascaras, AcentoCultural)}

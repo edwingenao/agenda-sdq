@@ -195,3 +195,11 @@ el contenido, y sería copiar el trabajo de un tercero. Se usa como mapa de dón
 | Deportes (5K, maratones, trail) | Ticketeras de carreras | Fuera del alcance cultural por ahora; preguntar a Edwin si quiere categoría Deportes |
 | Festivales y ferias (Oktoberfest) | Sitio de cada organizador | Cargar como serie curada cuando haya fecha |
 | Santiago (Gran Teatro Cibao, Centro León) | — | Se descarta: solo Santo Domingo |
+
+### EDANCO (Festival Internacional de Danza Contemporánea), revisado el 7 de octubre de 2026
+
+Festival anual de danza en Santo Domingo (Sala Manuel Rueda, Bellas Artes, CCE y otros espacios), dirigido desde 2026 por Patricia Ortega. La edición 2026 (la 21.ª) fue del 22 de septiembre
+al 4 de octubre, así que **ya terminó y no hay nada que cargar ahora**. No se encontró un sitio oficial con agenda (el dominio edanco.com.do no resuelve). Las fechas y sedes salen en notas de prensa
+(Acento, El Nuevo Diario) y en el PDF de programa que Bellas Artes sube a su sitio (`wp.bellasartesrd.gob.do/wp-content/uploads/<año>/<mes>/PROGRAMA-<año>...pdf`, así fue en 2025).
+Las notas traen horas por función, pero no precios. Qué hacer: serie curada de temporada para septiembre de 2027 cuando anuncien fechas (categoría Danza, hora de cada función
+solo si el programa la da; precio por confirmar), y mirar el sitio de Bellas Artes en agosto.

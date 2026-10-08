@@ -1,8 +1,64 @@
 {
-  "generated_at": "2026-10-08T00:08:42+00:00",
-  "today": "2026-10-07",
-  "count": 39,
+  "generated_at": "2026-10-08T17:34:23+00:00",
+  "today": "2026-10-08",
+  "count": 184,
   "events": [
+    {
+      "id": "5194c26d18d743f2",
+      "source": "recurring",
+      "date": "2026-09-03",
+      "end": "2026-10-15",
+      "sessions": null,
+      "title": "Interconexión (ASR Galería)",
+      "venue": "ASR Galería",
+      "zone": "",
+      "cat": "Arte",
+      "price": 0,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [
+        "serie"
+      ],
+      "description": "Muestra en ASR Galería, abierta hasta el 15 de octubre.",
+      "ticketUrl": "",
+      "srcName": "Artsy, muestras de Santo Domingo",
+      "srcUrl": "https://www.artsy.net/shows/santo-domingo-dominican-republic#asr-interconexion-2026-hasta-2026-10-15",
+      "sources": [
+        {
+          "srcName": "Artsy, muestras de Santo Domingo",
+          "srcUrl": "https://www.artsy.net/shows/santo-domingo-dominican-republic#asr-interconexion-2026-hasta-2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "f2552473b9737908",
+      "source": "recurring",
+      "date": "2026-09-17",
+      "end": "2026-10-17",
+      "sessions": null,
+      "title": "ARQUIONIRIAS: Arquitecturas de lo Onírico (ASR Galería)",
+      "venue": "ASR Galería",
+      "zone": "",
+      "cat": "Arte",
+      "price": 0,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [
+        "serie"
+      ],
+      "description": "Muestra «ARQUIONIRIAS: Arquitecturas de lo Onírico» en ASR Galería, abierta hasta el 17 de octubre.",
+      "ticketUrl": "",
+      "srcName": "Artsy, muestras de Santo Domingo",
+      "srcUrl": "https://www.artsy.net/shows/santo-domingo-dominican-republic#asr-arquionirias-2026-hasta-2026-10-17",
+      "sources": [
+        {
+          "srcName": "Artsy, muestras de Santo Domingo",
+          "srcUrl": "https://www.artsy.net/shows/santo-domingo-dominican-republic#asr-arquionirias-2026-hasta-2026-10-17"
+        }
+      ]
+    },
     {
       "id": "a4bb62fe0c6a1ff7",
       "source": "teatro_las_mascaras",
@@ -97,28 +153,30 @@
       ]
     },
     {
-      "id": "3367acce857d94e1",
-      "source": "teatro_nacional",
+      "id": "18d3f70bd30ff541",
+      "source": "recurring",
       "date": "2026-10-07",
-      "end": null,
+      "end": "2026-10-10",
       "sessions": null,
-      "title": "Wagner / Molina",
-      "venue": "Sala Carlos Piantini, Teatro Nacional",
-      "zone": "Plaza de la Cultura",
-      "cat": "Música",
-      "price": 610,
-      "price_max": 2290,
+      "title": "FESTIL 2026: Festival Estudiantil de Teatro",
+      "venue": "ENAD (Escuela Nacional de Arte Dramático)",
+      "zone": "",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
       "time": "",
       "kids": false,
-      "tags": [],
-      "description": "El Ministerio de Cultura, la Dirección General de Bellas Artes, Fundación Sinfonía y la Orquesta Sinfónica Nacional, dentro del marco de su 85 aniversario presentan la tan esperada Temporada Sinfónica.  Cada año, la Orquesta Sinfónica Nacional presenta al pueblo dominicano una te",
-      "ticketUrl": "https://boleteria.com.do/",
-      "srcName": "Teatro Nacional",
-      "srcUrl": "https://teatronacional.gob.do/events/wagner-molina/",
+      "tags": [
+        "serie"
+      ],
+      "description": "Festival de teatro hecho por estudiantes, del 7 al 10 de octubre, con el Ministerio de Cultura, la Dirección General de Bellas Artes (DEFAE) y la ENAD.",
+      "ticketUrl": "",
+      "srcName": "DEFAE Bellas Artes, vía letstalkart.rd",
+      "srcUrl": "https://www.instagram.com/defaebellasartesrd/#festil-2026-hasta-2026-10-10",
       "sources": [
         {
-          "srcName": "Teatro Nacional",
-          "srcUrl": "https://teatronacional.gob.do/events/wagner-molina/"
+          "srcName": "DEFAE Bellas Artes, vía letstalkart.rd",
+          "srcUrl": "https://www.instagram.com/defaebellasartesrd/#festil-2026-hasta-2026-10-10"
         }
       ]
     },
@@ -156,6 +214,112 @@
       ]
     },
     {
+      "id": "5b121093f8be4cbe",
+      "source": "tix",
+      "date": "2026-10-08",
+      "end": "2026-10-30",
+      "sessions": null,
+      "title": "El Congreso Internacional de Armonización Facial 2026 — Arte · Ciencia · Regeneración",
+      "venue": "Villa Palmera Business Center",
+      "zone": "",
+      "cat": "Arte",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "El Congreso Internacional de Armonización Facial 2026 — Arte · Ciencia · Regeneración será un encuentro académico presencial dedicado a la actualización en armonización facial y medicina regenerativa. Reunirá conferencistas nacionales e internacionales para compartir conocimient…",
+      "ticketUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1"
+        }
+      ]
+    },
+    {
+      "id": "f49f83e14404e7a9",
+      "source": "recurring",
+      "date": "2026-10-08",
+      "end": "2026-10-15",
+      "sessions": null,
+      "title": "Entre muros y colores",
+      "venue": "Galería 360",
+      "zone": "",
+      "cat": "Arte",
+      "price": 0,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [
+        "serie"
+      ],
+      "description": "Exposición en Galería 360, abierta hasta el 15 de octubre.",
+      "ticketUrl": "",
+      "srcName": "Galería 360, vía letstalkart.rd",
+      "srcUrl": "https://www.instagram.com/galeria360/#entre-muros-y-colores-galeria-360-hasta-2026-10-15",
+      "sources": [
+        {
+          "srcName": "Galería 360, vía letstalkart.rd",
+          "srcUrl": "https://www.instagram.com/galeria360/#entre-muros-y-colores-galeria-360-hasta-2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "0addca6c0292ae72",
+      "source": "tix",
+      "date": "2026-10-08",
+      "end": "2026-12-23",
+      "sessions": null,
+      "title": "Pavel Núñez: Tú en mi vida Sessions",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "COMO TODO EMPEZÓ…25 AÑOS”. Acústicos como en los viejos tiempos, en la eterna Casa de Teatro, será una residencia en dicha casa con el fin de re-conectar en el Pavel de los inicios. Les contará la razón que se esconde tras cada canción, sus desvelos y aciertos, su guitarra en ma…",
+      "ticketUrl": "https://tix.do/event/Pavel-19",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/Pavel-19",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/Pavel-19"
+        }
+      ]
+    },
+    {
+      "id": "68761c065b6db5aa",
+      "source": "ticketmax",
+      "date": "2026-10-08",
+      "end": null,
+      "sessions": null,
+      "title": "ARIEL SANTANA: MAL DE LA CABEZA",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 999,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://ticketmax.org/evento/266578/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/266578/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/266578/"
+        }
+      ]
+    },
+    {
       "id": "c12c63810a782cf2",
       "source": "jazz_en_dominicana",
       "date": "2026-10-08",
@@ -173,13 +337,17 @@
         "jazz"
       ],
       "description": "El jazz vuelve a encender aThe Green Room. Este jueves 8 se dan inicio a los Sandy Gabriel Jazz Residence. Comenta Sandy: “Más que una serie de conciertos, ha sido concebida como una experiencia musical dinámica, elegante y variada, donde cada noche tendrá una propuesta diferente",
-      "ticketUrl": "",
+      "ticketUrl": "https://tix.do/event/SANDYGABRIELSJAZZRESIDENCEATTHEGREENROOM-1",
       "srcName": "Jazz en Dominicana",
       "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-4-al-10-de.html#2026-10-08-sandy-gabriel-jazz-residence",
       "sources": [
         {
           "srcName": "Jazz en Dominicana",
           "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-4-al-10-de.html#2026-10-08-sandy-gabriel-jazz-residence"
+        },
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/SANDYGABRIELSJAZZRESIDENCEATTHEGREENROOM-1"
         }
       ]
     },
@@ -206,6 +374,114 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/3-x-todas-las-canciones/"
+        }
+      ]
+    },
+    {
+      "id": "5d4504500e9dc965",
+      "source": "recurring",
+      "date": "2026-10-09",
+      "end": null,
+      "sessions": null,
+      "title": "Concierto aniversario de la Filarmónica Appassionato",
+      "venue": "Auditorio Horacio Álvarez Saviñón, UNPHU",
+      "zone": "",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [
+        "serie"
+      ],
+      "description": "Concierto de aniversario de la orquesta Filarmónica Appassionato, con el maestro Alberto Rincón como director artístico.",
+      "ticketUrl": "",
+      "srcName": "Filarmónica Appassionato, vía letstalkart.rd",
+      "srcUrl": "https://www.instagram.com/appassionatofilarmonica/#appassionato-concierto-aniversario-2026-10-09-2026-10-09",
+      "sources": [
+        {
+          "srcName": "Filarmónica Appassionato, vía letstalkart.rd",
+          "srcUrl": "https://www.instagram.com/appassionatofilarmonica/#appassionato-concierto-aniversario-2026-10-09-2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "48f576349062449e",
+      "source": "tix",
+      "date": "2026-10-09",
+      "end": "2026-10-10",
+      "sessions": null,
+      "title": "DINASTIA LATINA - THE GREEN ROOM",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "CONSUMO MÍNIMO EN EL LOCAL DE 1,000 PESOS 🔞 Evento exclusivo para mayores de 18 años.",
+      "ticketUrl": "https://tix.do/event/DINASTIALATINATHEGREENROOM-10",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/DINASTIALATINATHEGREENROOM-10",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/DINASTIALATINATHEGREENROOM-10"
+        }
+      ]
+    },
+    {
+      "id": "40fb93a54a8abbe9",
+      "source": "tix",
+      "date": "2026-10-09",
+      "end": "2026-10-11",
+      "sessions": null,
+      "title": "Festival de Teatro Joven",
+      "venue": "Teatro Las Máscaras",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Llega a la sala más acogedora de la Zona Colonial el ciclo Noches de Teatro Joven, un espacio vibrante presentado por el grupo Teatro Testarudo bajo la dirección de la talentosa actriz y comediante Aleja Johnson. Durante todo el mes de octubre, Teatro Las Máscaras abre sus tabla…",
+      "ticketUrl": "https://tix.do/event/FestivaldeTeatroJoven-2",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/FestivaldeTeatroJoven-2",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/FestivaldeTeatroJoven-2"
+        }
+      ]
+    },
+    {
+      "id": "22ff5ba43d2044cd",
+      "source": "recurring",
+      "date": "2026-10-09",
+      "end": "2026-10-11",
+      "sessions": null,
+      "title": "Liborio (teatro)",
+      "venue": "Teatro Guloya, Arzobispo Portes 205, Ciudad Colonial",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [
+        "serie"
+      ],
+      "description": "Obra de teatro sobre Liborio en el Teatro Guloya, del 9 al 11 de octubre.",
+      "ticketUrl": "",
+      "srcName": "Teatro Guloya, vía letstalkart.rd",
+      "srcUrl": "https://www.instagram.com/teatroguloya/#liborio-teatro-guloya-2026-10-hasta-2026-10-11",
+      "sources": [
+        {
+          "srcName": "Teatro Guloya, vía letstalkart.rd",
+          "srcUrl": "https://www.instagram.com/teatroguloya/#liborio-teatro-guloya-2026-10-hasta-2026-10-11"
         }
       ]
     },
@@ -245,7 +521,7 @@
       "venue": "Dominican Fiesta Hotel & Casino",
       "zone": "Mirador Sur",
       "cat": "Música",
-      "price": null,
+      "price": 0,
       "price_max": null,
       "time": "20:00",
       "kids": false,
@@ -260,6 +536,300 @@
         {
           "srcName": "Jazz en Dominicana",
           "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-4-al-10-de.html#2026-10-09-fiesta-sunset-jazz-presenta-the-maggie-rodri-guez-"
+        }
+      ]
+    },
+    {
+      "id": "d029d626c58b5565",
+      "source": "ticketmax",
+      "date": "2026-10-09",
+      "end": null,
+      "sessions": null,
+      "title": "FRU◦BLAZ◦ITA en Velvet Room | Stand up comedy",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 800,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "Frubidubi, Blaz y Jinita se juntaron para traerles el FRUBLAZITA, un show de pura comedia con estos tres toletes.",
+      "ticketUrl": "https://ticketmax.org/evento/900001/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900001/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900001/"
+        }
+      ]
+    },
+    {
+      "id": "377b03ab5d0c4082",
+      "source": "recurring",
+      "date": "2026-10-10",
+      "end": null,
+      "sessions": null,
+      "title": "6.º Festival de Canto Coral",
+      "venue": "Sala Manuel Rueda, Plaza Iberoamérica",
+      "zone": "",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [
+        "serie"
+      ],
+      "description": "Sexta edición del Festival de Canto Coral de Bellas Artes, el 10 y el 11 de octubre.",
+      "ticketUrl": "",
+      "srcName": "Bellas Artes, vía letstalkart.rd",
+      "srcUrl": "https://www.instagram.com/bellasartesrd/#festival-canto-coral-6-2026-10-2026-10-10",
+      "sources": [
+        {
+          "srcName": "Bellas Artes, vía letstalkart.rd",
+          "srcUrl": "https://www.instagram.com/bellasartesrd/#festival-canto-coral-6-2026-10-2026-10-10"
+        }
+      ]
+    },
+    {
+      "id": "832b7aa81c7cab13",
+      "source": "tix",
+      "date": "2026-10-10",
+      "end": "2026-10-11",
+      "sessions": null,
+      "title": "Angels and Demons",
+      "venue": "Lucia SDQ",
+      "zone": "",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Some nights bring out a different side of you. Angels & Demons — choose yours. 🖤 Saturday, Oct 10th. Vodka Open Bar all night. Tickets available — link in bio..",
+      "ticketUrl": "https://tix.do/event/AngelsandDemons-2",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/AngelsandDemons-2",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/AngelsandDemons-2"
+        }
+      ]
+    },
+    {
+      "id": "73538c4225a873b7",
+      "source": "tix",
+      "date": "2026-10-10",
+      "end": "2026-10-11",
+      "sessions": null,
+      "title": "ROMO + DOMINÓ = ROMINÓ - THE GREEN ROOM",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "CONSUMO MÍNIMO EN EL LOCAL DE 1,000 PESOS 🔞 Evento exclusivo para mayores de 18 años.",
+      "ticketUrl": "https://tix.do/event/ROMINO-2",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/ROMINO-2",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/ROMINO-2"
+        }
+      ]
+    },
+    {
+      "id": "a9b6ba049033b538",
+      "source": "ticketmax",
+      "date": "2026-10-10",
+      "end": null,
+      "sessions": null,
+      "title": "Másters of Magic ( La orden secreta )",
+      "venue": "Cine Teatro ISSFFAA ( El millon )",
+      "zone": "",
+      "cat": "Cultura",
+      "price": 1000,
+      "price_max": null,
+      "time": "15:00",
+      "kids": true,
+      "tags": [],
+      "description": "Un espectáculo de magia e ilusionismo para toda la familia. Inspirado en el universo de Harry Potter. Cada entrada incluye un combo de snacks con palomitas y una bebida.",
+      "ticketUrl": "https://ticketmax.org/evento/266454/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/266454/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/266454/"
+        }
+      ]
+    },
+    {
+      "id": "ca2511d952ee6072",
+      "source": "recurring",
+      "date": "2026-10-10",
+      "end": null,
+      "sessions": null,
+      "title": "Cineforum: Tubérculo Gourmet",
+      "venue": "Cinemateca Dominicana",
+      "zone": "Plaza de la Cultura",
+      "cat": "Cine",
+      "price": null,
+      "price_max": null,
+      "time": "16:00",
+      "kids": false,
+      "tags": [
+        "serie"
+      ],
+      "description": "Cineforum de la película «Tubérculo Gourmet» (de Archie López), precedida del cortometraje «Diario Arrepentido», de Liz Fulgencio (INTEC).",
+      "ticketUrl": "",
+      "srcName": "Cinemateca Dominicana, vía letstalkart.rd",
+      "srcUrl": "https://www.instagram.com/cinematecadomrd/#cineforum-tuberculo-gourmet-2026-10-10-2026-10-10",
+      "sources": [
+        {
+          "srcName": "Cinemateca Dominicana, vía letstalkart.rd",
+          "srcUrl": "https://www.instagram.com/cinematecadomrd/#cineforum-tuberculo-gourmet-2026-10-10-2026-10-10"
+        }
+      ]
+    },
+    {
+      "id": "df0d9e0929d64d4d",
+      "source": "tix",
+      "date": "2026-10-10",
+      "end": null,
+      "sessions": null,
+      "title": "Puras Cosas Maravillosas - 10 Octubre Función 4:00P.M.",
+      "venue": "Galeria 360 - Cosas Maravillosas",
+      "zone": "",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "16:00",
+      "kids": true,
+      "tags": [],
+      "description": "“Puras cosas maravillosas” es una obra que cuenta la historia de una niña de siete años que comienza una lista de cosas para regalársela a su mamá para demostrarle que la vida vale la pena vivirla. Puras Cosas Maravillosas logra de una forma interactiva el delicado equilibrio en…",
+      "ticketUrl": "https://tix.do/event/PurasCosasMaravillosas-7",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/PurasCosasMaravillosas-7",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/PurasCosasMaravillosas-7"
+        }
+      ]
+    },
+    {
+      "id": "eb3b60a12c6bdaf1",
+      "source": "recurring",
+      "date": "2026-10-10",
+      "end": null,
+      "sessions": null,
+      "title": "Proyección y conversatorio: Mis 500 locos",
+      "venue": "Auditorio Patrick N. Hughson",
+      "zone": "",
+      "cat": "Cine",
+      "price": 400,
+      "price_max": null,
+      "time": "17:00",
+      "kids": false,
+      "tags": [
+        "cultura",
+        "serie",
+        "confirmar"
+      ],
+      "description": "Proyección de «Mis 500 locos» y conversatorio «De mis 500 locos a la Salud Mental de hoy: evolución, dignidad y rehabilitación psicosocial».",
+      "ticketUrl": "",
+      "srcName": "Dominico Arte y Cultura, vía letstalkart.rd",
+      "srcUrl": "https://www.instagram.com/dominicoarteyculturard/#mis-500-locos-proyeccion-2026-10-10-2026-10-10",
+      "sources": [
+        {
+          "srcName": "Dominico Arte y Cultura, vía letstalkart.rd",
+          "srcUrl": "https://www.instagram.com/dominicoarteyculturard/#mis-500-locos-proyeccion-2026-10-10-2026-10-10"
+        }
+      ]
+    },
+    {
+      "id": "0b74a2bf30a1ddab",
+      "source": "ticketmax",
+      "date": "2026-10-10",
+      "end": null,
+      "sessions": null,
+      "title": "MANUEL ÁNGEL REDONDO – ADULTO RESPONSABLE",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 1800,
+      "price_max": 3000,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "Crecer era lo máximo… hasta que creces. En ADULTO RESPONSABLE, Manuel Ángel Redondo presenta un show completamente nuevo de stand up y crowd work sobre el experimento social más extraño de todos: la adultez. Un show sobre intentar convertirse en una persona funcional mientras la…",
+      "ticketUrl": "https://ticketmax.org/evento/245698/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/245698/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/245698/"
+        }
+      ]
+    },
+    {
+      "id": "fb5ebbca3e3cbe21",
+      "source": "cce",
+      "date": "2026-10-10",
+      "end": null,
+      "sessions": null,
+      "title": "Getan. Pura Fantasía",
+      "venue": "CCESD",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "Sesiones de escruchaEntrada libre hasta completar aforoPrograma Fortalecimiento del Espacio Iberoamericano",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/getan",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/getan"
+        }
+      ]
+    },
+    {
+      "id": "570710b2522aa2c9",
+      "source": "tix",
+      "date": "2026-10-10",
+      "end": null,
+      "sessions": null,
+      "title": "Puras cosas Maravillosas - 10 Octubre Función 8:00P.M.",
+      "venue": "Galeria 360 - Cosas Maravillosas",
+      "zone": "",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "20:00",
+      "kids": true,
+      "tags": [],
+      "description": "“Puras cosas maravillosas” es una obra que cuenta la historia de una niña de siete años que comienza una lista de cosas para regalársela a su mamá para demostrarle que la vida vale la pena vivirla. Puras Cosas Maravillosas logra de una forma interactiva el delicado equilibrio en…",
+      "ticketUrl": "https://tix.do/event/PurascosasMaravillosas10OctubreFuncion800PM-2",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/PurascosasMaravillosas10OctubreFuncion800PM-2",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/PurascosasMaravillosas10OctubreFuncion800PM-2"
         }
       ]
     },
@@ -296,6 +866,91 @@
       ]
     },
     {
+      "id": "cb383e6b2bb9b0ab",
+      "source": "recurring",
+      "date": "2026-10-10",
+      "end": null,
+      "sessions": null,
+      "title": "Una fiesta de esperanza: Ramón Orlando y Roberto del Castillo",
+      "venue": "Gran Salón Edmundo Félix Cuevas, Club Arroyo Hondo",
+      "zone": "Arroyo Hondo",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "21:00",
+      "kids": false,
+      "tags": [
+        "serie"
+      ],
+      "description": "Noche musical con Ramón Orlando y su orquesta y Roberto del Castillo con su show artístico, en el Club Arroyo Hondo.",
+      "ticketUrl": "",
+      "srcName": "Club Arroyo Hondo, vía letstalkart.rd",
+      "srcUrl": "https://www.instagram.com/clubarroyohondord/#una-fiesta-de-esperanza-2026-10-10-2026-10-10",
+      "sources": [
+        {
+          "srcName": "Club Arroyo Hondo, vía letstalkart.rd",
+          "srcUrl": "https://www.instagram.com/clubarroyohondord/#una-fiesta-de-esperanza-2026-10-10-2026-10-10"
+        }
+      ]
+    },
+    {
+      "id": "99f9e52c60dea02d",
+      "source": "recurring",
+      "date": "2026-10-11",
+      "end": null,
+      "sessions": null,
+      "title": "6.º Festival de Canto Coral",
+      "venue": "Sala Manuel Rueda, Plaza Iberoamérica",
+      "zone": "",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [
+        "serie"
+      ],
+      "description": "Sexta edición del Festival de Canto Coral de Bellas Artes, el 10 y el 11 de octubre.",
+      "ticketUrl": "",
+      "srcName": "Bellas Artes, vía letstalkart.rd",
+      "srcUrl": "https://www.instagram.com/bellasartesrd/#festival-canto-coral-6-2026-10-2026-10-11",
+      "sources": [
+        {
+          "srcName": "Bellas Artes, vía letstalkart.rd",
+          "srcUrl": "https://www.instagram.com/bellasartesrd/#festival-canto-coral-6-2026-10-2026-10-11"
+        }
+      ]
+    },
+    {
+      "id": "4047e1cc5505264a",
+      "source": "recurring",
+      "date": "2026-10-11",
+      "end": null,
+      "sessions": null,
+      "title": "Alok: show de comedia",
+      "venue": "Hard Rock Cafe",
+      "zone": "",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [
+        "serie",
+        "confirmar"
+      ],
+      "description": "Show de comedia de Alok en Hard Rock Cafe.",
+      "ticketUrl": "",
+      "srcName": "Alok, vía letstalkart.rd",
+      "srcUrl": "https://www.instagram.com/alokvmenon/#alok-comedia-hard-rock-2026-10-11-2026-10-11",
+      "sources": [
+        {
+          "srcName": "Alok, vía letstalkart.rd",
+          "srcUrl": "https://www.instagram.com/alokvmenon/#alok-comedia-hard-rock-2026-10-11-2026-10-11"
+        }
+      ]
+    },
+    {
       "id": "0cb16b48fb7973ad",
       "source": "teatro_nacional",
       "date": "2026-10-11",
@@ -318,6 +973,35 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/luli-pampin/"
+        }
+      ]
+    },
+    {
+      "id": "308431cf172cd6fe",
+      "source": "recurring",
+      "date": "2026-10-11",
+      "end": null,
+      "sessions": null,
+      "title": "Techy: Chula (residencia)",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [
+        "serie",
+        "confirmar"
+      ],
+      "description": "Concierto de Techy de su residencia «Experiencia Chula» en Velvet Room. La guía lista el 4 y el 11 de octubre.",
+      "ticketUrl": "",
+      "srcName": "Techy, vía letstalkart.rd",
+      "srcUrl": "https://www.instagram.com/techy/#techy-chula-velvet-2026-10-11-2026-10-11",
+      "sources": [
+        {
+          "srcName": "Techy, vía letstalkart.rd",
+          "srcUrl": "https://www.instagram.com/techy/#techy-chula-velvet-2026-10-11-2026-10-11"
         }
       ]
     },
@@ -351,6 +1035,84 @@
       ]
     },
     {
+      "id": "0306e8998a63e734",
+      "source": "tix",
+      "date": "2026-10-11",
+      "end": null,
+      "sessions": null,
+      "title": "OPEN MIC - THE GREEN ROOM",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "Consumo minimo de 1,000 pesos en el local Evento para mayores de edad",
+      "ticketUrl": "https://tix.do/event/OPENMICTHEGREENROOM-13",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/OPENMICTHEGREENROOM-13",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/OPENMICTHEGREENROOM-13"
+        }
+      ]
+    },
+    {
+      "id": "82f432eccce388de",
+      "source": "tix",
+      "date": "2026-10-11",
+      "end": null,
+      "sessions": null,
+      "title": "ALOK: EAT PRAY LEAVE TOUR",
+      "venue": "Hard Rock Cafe Blue Mall",
+      "zone": "",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "21:30",
+      "kids": false,
+      "tags": [],
+      "description": "Internationally acclaimed comedian ALOK. A dark comedy about love, heartbreak, and the end times. Their therapist said stop dating projects, so they built one and are charging admission. A journey of self-discovery… and poor decision-making. With razor-sharp wit, ALOK dissects d…",
+      "ticketUrl": "https://tix.do/event/ALOKEATPRAYLEAVETOUR-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/ALOKEATPRAYLEAVETOUR-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/ALOKEATPRAYLEAVETOUR-1"
+        }
+      ]
+    },
+    {
+      "id": "1619c5f6ee9cc15b",
+      "source": "tix",
+      "date": "2026-10-13",
+      "end": null,
+      "sessions": null,
+      "title": "Se juntaron estos 3",
+      "venue": "Local 3 : Calle Max. Herriquez Ureña 33",
+      "zone": "",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "21:00",
+      "kids": false,
+      "tags": [],
+      "description": "Comedia Local presenta: Se Juntaron Estos Tres Armando, Demailyn y Maxwell Johnson se juntan en un mismo escenario para hacer lo que mejor saben: hacer reír. Tres comediantes, tres estilos y una noche de stand-up con historias, opiniones y situaciones que seguramente no deberían…",
+      "ticketUrl": "https://tix.do/event/Sejuntaronestos3-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/Sejuntaronestos3-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/Sejuntaronestos3-1"
+        }
+      ]
+    },
+    {
       "id": "80dad4549df0897c",
       "source": "cce",
       "date": "2026-10-14",
@@ -373,6 +1135,58 @@
         {
           "srcName": "Centro Cultural de España",
           "srcUrl": "https://ccesd.aecid.es/w/la-construcci%C3%B3n-narrativa-de-la-novela-el-narrador-el-narratario-y-los-personajes"
+        }
+      ]
+    },
+    {
+      "id": "74e80e627c1380c5",
+      "source": "tix",
+      "date": "2026-10-14",
+      "end": null,
+      "sessions": null,
+      "title": "Carlos Sánchez en The Green Room",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "Carlos está armando este nuevo concepto. Carlos les cuenta sus últimos anécdotas y chismes, el público le cuenta a Carlos sus chismes. Quien sabe si hasta terminamos cantando todos al final. Es decir: una cura. Para reservaciones de mesas llamar al 809 -740-4601 The Green Room.…",
+      "ticketUrl": "https://tix.do/event/CarlosSanchezenTheGreenRoom-4",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/CarlosSanchezenTheGreenRoom-4",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/CarlosSanchezenTheGreenRoom-4"
+        }
+      ]
+    },
+    {
+      "id": "6205d6eac274e3db",
+      "source": "tix",
+      "date": "2026-10-14",
+      "end": null,
+      "sessions": null,
+      "title": "El debate : La unión de la Isla",
+      "venue": "Local 3 : Calle Max. Herriquez Ureña 33",
+      "zone": "",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "21:00",
+      "kids": false,
+      "tags": [],
+      "description": "El Debate RESEÑA – La unión de la isla ¿Y si Haití y República Dominicana fueran una sola nación? En La unión de la isla, varios comediantes se enfrentan en un debate sobre una de las preguntas más polémicas que se pueden hacer en esta isla: ¿deberían Haití y República Dominican…",
+      "ticketUrl": "https://tix.do/event/EldebateLauniondelaIsla-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/EldebateLauniondelaIsla-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/EldebateLauniondelaIsla-1"
         }
       ]
     },
@@ -409,6 +1223,270 @@
       ]
     },
     {
+      "id": "d7651f468626585b",
+      "source": "recurring",
+      "date": "2026-10-15",
+      "end": "2026-11-13",
+      "sessions": null,
+      "title": "Gerard Ellis: The Dominican Dream (exposición)",
+      "venue": "Lyle O. Reitzel Arte Contemporáneo, Torre Piantini (Av. Gustavo Mejía Ricart 196, Piantini)",
+      "zone": "Piantini",
+      "cat": "Arte",
+      "price": 0,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [
+        "serie"
+      ],
+      "description": "Solo show de Gerard Ellis que parte del béisbol y de los peloteros dominicanos, del 15 de octubre al 13 de noviembre.",
+      "ticketUrl": "",
+      "srcName": "Lyle O. Reitzel en Artsy",
+      "srcUrl": "https://www.artsy.net/show/lyle-o-reitzel-the-dominican-dream#gerard-ellis-dominican-dream-muestra-hasta-2026-11-13",
+      "sources": [
+        {
+          "srcName": "Lyle O. Reitzel en Artsy",
+          "srcUrl": "https://www.artsy.net/show/lyle-o-reitzel-the-dominican-dream#gerard-ellis-dominican-dream-muestra-hasta-2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "c95c719117f4245a",
+      "source": "tix",
+      "date": "2026-10-15",
+      "end": null,
+      "sessions": null,
+      "title": "ADEIMO RADAR FORUM",
+      "venue": "Pabellon de la Fama del Deporte Dominicano",
+      "zone": "",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "08:30",
+      "kids": false,
+      "tags": [],
+      "description": "Sobre el evento 1er Congreso de Investigación de Mercados Profesional en la Republica Dominicana. Este congreso nace con el objetivo de reunir a los principales actores de la industria, incluyendo corporativos, agencias publicitarias, consultoras de investigación y representante…",
+      "ticketUrl": "https://tix.do/event/ADEIMORADARFORUM-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/ADEIMORADARFORUM-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/ADEIMORADARFORUM-1"
+        }
+      ]
+    },
+    {
+      "id": "af6cf5c8ccbe2ca7",
+      "source": "recurring",
+      "date": "2026-10-15",
+      "end": null,
+      "sessions": null,
+      "title": "Gerard Ellis: The Dominican Dream (inauguración)",
+      "venue": "Lyle O. Reitzel Arte Contemporáneo, Torre Piantini (Av. Gustavo Mejía Ricart 196, Piantini)",
+      "zone": "Piantini",
+      "cat": "Arte",
+      "price": 0,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [
+        "serie"
+      ],
+      "description": "Inauguración de 7:00 a 10:00 p. m. del nuevo solo show de Gerard Ellis, que parte del béisbol y de los peloteros dominicanos. La exposición sigue abierta hasta el 13 de noviembre.",
+      "ticketUrl": "",
+      "srcName": "Lyle O. Reitzel en Artsy",
+      "srcUrl": "https://www.artsy.net/show/lyle-o-reitzel-the-dominican-dream#gerard-ellis-dominican-dream-inauguracion-2026-10-15",
+      "sources": [
+        {
+          "srcName": "Lyle O. Reitzel en Artsy",
+          "srcUrl": "https://www.artsy.net/show/lyle-o-reitzel-the-dominican-dream#gerard-ellis-dominican-dream-inauguracion-2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "034f428f3edb0088",
+      "source": "ticketmax",
+      "date": "2026-10-15",
+      "end": null,
+      "sessions": null,
+      "title": "Open Mic Unplugged | Voices Unleashed: Marena",
+      "venue": "Jardin Secreto",
+      "zone": "",
+      "cat": "Arte",
+      "price": 800,
+      "price_max": 1100,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "VOICES UNLEASHED — OPEN MIC UNPLUGGED · OCTUBRE Jueves 15 de octubre · 7:00 PM 📍 El Jardín Secreto Una noche para encontrarnos alrededor de la expresión artística, la palabra y la música. Un espacio abierto para poetas, escritores, músicos, artistas y personas creativas que quie…",
+      "ticketUrl": "https://ticketmax.org/evento/900042/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900042/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900042/"
+        }
+      ]
+    },
+    {
+      "id": "6a9d4f03c2f560a2",
+      "source": "tix",
+      "date": "2026-10-15",
+      "end": null,
+      "sessions": null,
+      "title": "Confesadas",
+      "venue": "Local 3 : Calle Max. Herriquez Ureña 33",
+      "zone": "",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "Comedia Local Presenta : Confesadas Laura Nanita, Débora Fuentes y Begoña Guillén se suben al escenario para hablar de esas cosas que las mujeres pensamos, vivimos y comentamos… pero no siempre decimos en voz alta. Relaciones, sexo, hombres, inseguridades, situaciones incómodas,…",
+      "ticketUrl": "https://tix.do/event/Confesadas-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/Confesadas-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/Confesadas-1"
+        }
+      ]
+    },
+    {
+      "id": "1585c92f7c7765ac",
+      "source": "ticketmax",
+      "date": "2026-10-15",
+      "end": null,
+      "sessions": null,
+      "title": "SIMON OLANO: ENTRE RECUERDOS Y CANCIONES",
+      "venue": "Escenario 360",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 2500,
+      "price_max": 3500,
+      "time": "21:00",
+      "kids": true,
+      "tags": [],
+      "description": "&gt; ¡MIS OJOS LINDOS LLEGA A SU CASA! 🇩🇴 &gt; Después de cantarnos \"Te Busco\", Simón Olano vuelve a Galería 360 por petición de su familia dominicana. &gt; Noche íntima, boleros que nos abrazan, y el Meet &amp; Greet con su familia oficial. &gt; 15 de Octubre - 9:00 PM - Escena…",
+      "ticketUrl": "https://ticketmax.org/evento/251113/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/251113/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/251113/"
+        }
+      ]
+    },
+    {
+      "id": "0d9016aa54ce292d",
+      "source": "tix",
+      "date": "2026-10-15",
+      "end": null,
+      "sessions": null,
+      "title": "JAZZ NIGHT - THE GREEN ROOM",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "21:30",
+      "kids": false,
+      "tags": [],
+      "description": "Consumo minimo de 1,000 pesos en el local Evento para mayores de edad",
+      "ticketUrl": "https://tix.do/event/JAZZNIGHTTHEGREENROOM-19",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/JAZZNIGHTTHEGREENROOM-19",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/JAZZNIGHTTHEGREENROOM-19"
+        }
+      ]
+    },
+    {
+      "id": "26907825d03cb673",
+      "source": "tix",
+      "date": "2026-10-16",
+      "end": "2026-10-18",
+      "sessions": null,
+      "title": "Festival de Teatro Joven",
+      "venue": "Teatro Las Máscaras",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Llega a la sala más acogedora de la Zona Colonial el ciclo Noches de Teatro Joven, un espacio vibrante presentado por el grupo Teatro Testarudo bajo la dirección de la talentosa actriz y comediante Aleja Johnson. Durante todo el mes de octubre, Teatro Las Máscaras abre sus tabla…",
+      "ticketUrl": "https://tix.do/event/FestivaldeTeatroJoven-3",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/FestivaldeTeatroJoven-3",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/FestivaldeTeatroJoven-3"
+        }
+      ]
+    },
+    {
+      "id": "a842dd38d65d1753",
+      "source": "ticketmax",
+      "date": "2026-10-16",
+      "end": null,
+      "sessions": null,
+      "title": "Briceño Bueno y Sano",
+      "venue": "Izbira Centro de Eventos",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 1500,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "DOMINICANA podrás disfrutar del nuevo evento de Briceño. BUENO Y SANO. 3 de julio Izbira centro de Eventos Entradas en www.lacomedialocal.com EL Profesor Briceño subirá al escenario con su propuesta inédita, que nace después de la observación aguda de las vidas perfectas de los…",
+      "ticketUrl": "https://ticketmax.org/evento/243547/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/243547/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/243547/"
+        }
+      ]
+    },
+    {
+      "id": "1024f3b5b0a93c7b",
+      "source": "ticketmax",
+      "date": "2026-10-16",
+      "end": null,
+      "sessions": null,
+      "title": "Despechadas: Piano bar by Nicole Sosa",
+      "venue": "Hotel Crowne Plaza",
+      "zone": "",
+      "cat": "Cultura",
+      "price": 800,
+      "price_max": 1000,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "DESPECHADAS: PIANO BAR Nicole Sosa en vivo · voz + piano Una noche íntima para sentir, cantar por dentro y dejar ir. Canciones de Yuridia, Ha*Ash, Laura Pausini, Kany García, La Quinta Estación y más. 🎹 Show en vivo 🍸 Bar del Despecho 💔 Emociones reales ✨ Formato íntimo y elegan…",
+      "ticketUrl": "https://ticketmax.org/evento/266438/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/266438/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/266438/"
+        }
+      ]
+    },
+    {
       "id": "102f8f5ee8e9ac7a",
       "source": "teatro_nacional",
       "date": "2026-10-16",
@@ -420,10 +1498,10 @@
       "cat": "Música",
       "price": 2000,
       "price_max": 3500,
-      "time": "",
+      "time": "21:00",
       "kids": false,
       "tags": [],
-      "description": "DESPECHO EL CONCIERTO regresa a Santo Domingo en una edición especial y, por primera vez, llega al prestigioso Café Teatro del Teatro Nacional Eduardo Brito.",
+      "description": "**DESPECHO – EL CONCIERTO** regresa a Santo Domingo en una edición especial y, por primera vez, llega al prestigioso **Café Teatro del Teatro Nacional Eduardo Brito**. Este **viernes 16 de octubre a las 9:00 PM**, 4ta Dimension presenta una versión más íntima, exclusiva y recarg…",
       "ticketUrl": "https://boleteria.com.do/",
       "srcName": "Teatro Nacional",
       "srcUrl": "https://teatronacional.gob.do/events/despecho-el-concierto/",
@@ -431,6 +1509,62 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/despecho-el-concierto/"
+        },
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/DespechoELCONCIERTOby4taDimensionSD-1"
+        }
+      ]
+    },
+    {
+      "id": "f3dd533f55f01305",
+      "source": "tix",
+      "date": "2026-10-16",
+      "end": null,
+      "sessions": null,
+      "title": "EL ULTIMO HIJO DE BALAGUER : TE DE JAGUA",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "21:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://tix.do/event/ELULTIMOHIJODEBALAGUERTEDEJAGUA-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/ELULTIMOHIJODEBALAGUERTEDEJAGUA-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/ELULTIMOHIJODEBALAGUERTEDEJAGUA-1"
+        }
+      ]
+    },
+    {
+      "id": "1522f0191b2e051b",
+      "source": "ticketmax",
+      "date": "2026-10-16",
+      "end": null,
+      "sessions": null,
+      "title": "LIONDY OZORIA EN VELVET",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 1000,
+      "price_max": null,
+      "time": "21:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://ticketmax.org/evento/900018/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900018/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900018/"
         }
       ]
     },
@@ -457,6 +1591,292 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/rosario-universo-de-ley-tour/"
+        }
+      ]
+    },
+    {
+      "id": "91e93c7e947e4737",
+      "source": "tix",
+      "date": "2026-10-17",
+      "end": "2026-10-18",
+      "sessions": null,
+      "title": "Rubinsky Rbk - Concierto Intimo - Tal como soy. R.D",
+      "venue": "Teatro Lope de Vega Santo Domingo",
+      "zone": "",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Mejor que ayer music presenta: “Tal Como Soy” – Rubinsky Rbk en Santo Domingo Rubinsky Rbk después de mucho tiempo fuera, se presenta en su tierra con un show íntimo e irrepetible: “Tal Como Soy”. Una noche donde el rap dominicano se muestra sin máscaras, con la autenticidad com…",
+      "ticketUrl": "https://tix.do/event/RubinskyRbkConciertoTalcomosoyRD-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/RubinskyRbkConciertoTalcomosoyRD-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/RubinskyRbkConciertoTalcomosoyRD-1"
+        }
+      ]
+    },
+    {
+      "id": "e16cc903314e6832",
+      "source": "tix",
+      "date": "2026-10-17",
+      "end": "2026-10-18",
+      "sessions": null,
+      "title": "THE DOORS & FRIENDS — SEGUNDA ENTREGA",
+      "venue": "Republica Brewing Draft Room",
+      "zone": "",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Hay noches que no deberían quedarse en una sola fecha. Después de la respuesta que recibimos con The Doors & Friends, decidimos volver a abrir esa puerta. Este sábado 17 de octubre, Lilé Blanc llega a República Brewing, en la Ciudad Colonial, para una nueva edición de una noche…",
+      "ticketUrl": "https://tix.do/event/THEDOORSandFRIENDSSEGUNDAENTREGA-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/THEDOORSandFRIENDSSEGUNDAENTREGA-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/THEDOORSandFRIENDSSEGUNDAENTREGA-1"
+        }
+      ]
+    },
+    {
+      "id": "3bb0d30dc9ad7b1a",
+      "source": "ticketmax",
+      "date": "2026-10-17",
+      "end": null,
+      "sessions": null,
+      "title": "EL PODER DE UNA MUJER CON IDENTIDAD",
+      "venue": "Acropolis Business Mall",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 1000,
+      "price_max": 1500,
+      "time": "16:00",
+      "kids": false,
+      "tags": [],
+      "description": "El Poder de una Mujer con Identidad Es una experiencia transformadora creada para mujeres que desean sanar, redescubrir su esencia y abrazar la identidad que Dios les dio. A través de conferencias inspiradoras, momentos de reflexión y una atmósfera llena de propósito, cada parti…",
+      "ticketUrl": "https://ticketmax.org/evento/252477/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/252477/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/252477/"
+        }
+      ]
+    },
+    {
+      "id": "0b42f57b36abce92",
+      "source": "tix",
+      "date": "2026-10-17",
+      "end": null,
+      "sessions": null,
+      "title": "🎄 Felices Fiestas 2026: \"Una Navidad hecha a Mano ✂️🧶\"",
+      "venue": "The Box Working Space",
+      "zone": "",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "16:00",
+      "kids": false,
+      "tags": [],
+      "description": "Felices Fiestas 2026 🎄✨ Una Navidad hecha a mano. Llega la 4.ª edición de Felices Fiestas, un encuentro creado para mujeres que disfrutan cocinar, crear, celebrar y hacer de lo cotidiano algo especial. Una experiencia de inspiración y aprendizaje para prepararte para la temporad…",
+      "ticketUrl": "https://tix.do/event/FelicesFiestas2026UnaNavidadhechaaMano-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/FelicesFiestas2026UnaNavidadhechaaMano-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/FelicesFiestas2026UnaNavidadhechaaMano-1"
+        }
+      ]
+    },
+    {
+      "id": "f46c37bdbd7baa7e",
+      "source": "tix",
+      "date": "2026-10-17",
+      "end": null,
+      "sessions": null,
+      "title": "POLACO EN THE GREEN ROOM",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "Con las boletas de after party podras conocer a polaco 🔞 Evento exclusivo para mayores de 18 años. Le informamos que, una vez finalizada la compra de su boleta, no se admitirán cambios, cancelaciones ni devoluciones del importe abonado, salvo en los casos de cancelación o aplaza…",
+      "ticketUrl": "https://tix.do/event/POLACOENTHEGREENROOM-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/POLACOENTHEGREENROOM-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/POLACOENTHEGREENROOM-1"
+        }
+      ]
+    },
+    {
+      "id": "25b3c8db3fb0012e",
+      "source": "ticketmax",
+      "date": "2026-10-17",
+      "end": null,
+      "sessions": null,
+      "title": "TCM19 HALOWEEN EDITION - OLD SCHOOL VS EDM",
+      "venue": "Nash House Club",
+      "zone": "",
+      "cat": "Arte",
+      "price": 450,
+      "price_max": 2200,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "ESTE EVENTO SE HARÁ EN SANTO DOMINGO ZONA COLONIAL | NASH HOUSE CLUB Este 17 de octubre, Tecmus® regresa con una noche donde dos sonidos chocan en una misma pista. 🎧 OLD SCHOOL VS EDM COMERCIAL 📡 Two Sounds. One Night. One Signal. 📅 Sábado 17 de octubre de 2026 🕗 8:00 PM - 3:00…",
+      "ticketUrl": "https://ticketmax.org/evento/264730/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/264730/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/264730/"
+        }
+      ]
+    },
+    {
+      "id": "203e8f1efdd6f223",
+      "source": "tix",
+      "date": "2026-10-17",
+      "end": null,
+      "sessions": null,
+      "title": "THE PSYCHO TOILET",
+      "venue": "Bar Room Republica Brewing",
+      "zone": "",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://tix.do/event/THEPSYCHOTOILET-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/THEPSYCHOTOILET-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/THEPSYCHOTOILET-1"
+        }
+      ]
+    },
+    {
+      "id": "07dd46fde7db9c34",
+      "source": "ticketmax",
+      "date": "2026-10-17",
+      "end": null,
+      "sessions": null,
+      "title": "LOS JUGLARONES",
+      "venue": "Sala Manuel Rueda: Escuela de Bellas Artes",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 800,
+      "price_max": null,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "Los Juglarones reúne cuatro divertidos entremeses del teatro clásico español: La tierra de Jauja, Los habladores, Las aceitunas y El viejo celoso. A través del humor, la picardía y las situaciones cotidianas, estas historias cobran nueva vida en un encuentro de generaciones, exp…",
+      "ticketUrl": "https://ticketmax.org/evento/265948/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/265948/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/265948/"
+        }
+      ]
+    },
+    {
+      "id": "6fd8491d79712128",
+      "source": "tix",
+      "date": "2026-10-17",
+      "end": null,
+      "sessions": null,
+      "title": "COLOMBICANA | TUESKA",
+      "venue": "Velvet Room SDQ",
+      "zone": "",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "21:00",
+      "kids": false,
+      "tags": [],
+      "description": "🔥 ¡COLOMBICANA ESTÁ DE VUELTA! 🇨🇴🇩🇴 Este sábado 17 de octubre, vive una noche explosiva junto a Tueska en Velvet Room. Música en vivo, grandes éxitos y una fiesta hecha para cantar, bailar y gozar de principio a fin. 🎟️ Entradas limitadas. Compra la tuya ahora y no te quedes fue…",
+      "ticketUrl": "https://tix.do/event/COLOMBICANAorTUESKA-2",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/COLOMBICANAorTUESKA-2",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/COLOMBICANAorTUESKA-2"
+        }
+      ]
+    },
+    {
+      "id": "cb977f77bf8088bf",
+      "source": "ticketmax",
+      "date": "2026-10-17",
+      "end": null,
+      "sessions": null,
+      "title": "Reggaeton Noir V: Masquerade Noir",
+      "venue": "Cielo Room",
+      "zone": "",
+      "cat": "Música",
+      "price": 800,
+      "price_max": 2000,
+      "time": "21:00",
+      "kids": false,
+      "tags": [],
+      "description": "REGGAETON NOIR V — MASQUERADE NOIR VIBE SD presenta REGGAETON NOIR V: MASQUERADE NOIR. La quinta edición de Reggaeton Noir llega con una nueva identidad, pero con la misma esencia: una noche dedicada 100% al reggaetón, Old School to New School. Esta vez entramos en Masquerade No…",
+      "ticketUrl": "https://ticketmax.org/evento/262820/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/262820/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/262820/"
+        }
+      ]
+    },
+    {
+      "id": "75a5b087d068c54f",
+      "source": "tix",
+      "date": "2026-10-18",
+      "end": null,
+      "sessions": null,
+      "title": "Premios glam 2026",
+      "venue": "Ramada by Wyndham Princess Santo Domingo",
+      "zone": "",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "17:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://tix.do/event/Premiosglam2026-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/Premiosglam2026-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/Premiosglam2026-1"
         }
       ]
     },
@@ -490,6 +1910,188 @@
       ]
     },
     {
+      "id": "599dabeb64e81da0",
+      "source": "cce",
+      "date": "2026-10-19",
+      "end": null,
+      "sessions": null,
+      "title": "Exposición",
+      "venue": "CCESD",
+      "zone": "Ciudad Colonial",
+      "cat": "Arte",
+      "price": null,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "Proyecto AnticanonPrograma de Fortalecimiento del Espacio Cultural IberoamericanoLa exposición fotográfica “Escritoras Anticanónicas” busca continuar con la labor de visibilizar la obra y el legado literario de las escritoras que han sido relegadas e invisibilizadas históricament",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/exposici%C3%B3n-1",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/exposici%C3%B3n-1"
+        }
+      ]
+    },
+    {
+      "id": "abfa9f449697ce29",
+      "source": "tix",
+      "date": "2026-10-20",
+      "end": null,
+      "sessions": null,
+      "title": "De esto no se habla en público",
+      "venue": "Local 3 : Calle Max. Herriquez Ureña 33",
+      "zone": "",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "21:00",
+      "kids": false,
+      "tags": [],
+      "description": "Comedia Local presenta : De esto no se habla en público Kelvin García, Dymitri y Harú llegan con un show de comedia para hablar de todo eso que normalmente se piensa, se comenta en privado… pero no se dice en público. Sexo, relaciones, situaciones incómodas, pensamientos polític…",
+      "ticketUrl": "https://tix.do/event/Deestonosehablaenpublico-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/Deestonosehablaenpublico-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/Deestonosehablaenpublico-1"
+        }
+      ]
+    },
+    {
+      "id": "d7eab9d95f819b9a",
+      "source": "tix",
+      "date": "2026-10-21",
+      "end": null,
+      "sessions": null,
+      "title": "El Tomatazo",
+      "venue": "Local 3 : Calle Max. Herriquez Ureña 33",
+      "zone": "",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "21:00",
+      "kids": false,
+      "tags": [],
+      "description": "EL TOMATAZO 🍅: Open Mic diferente Un open mic donde los comediantes prueban chistes nuevos… y el público puede tirar tomates si el chiste no le gusta. Caos, adrenalina y humor en su punto exacto: si no funciona, ¡vuela un tomate!",
+      "ticketUrl": "https://tix.do/event/ElTomatazo-11",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/ElTomatazo-11",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/ElTomatazo-11"
+        }
+      ]
+    },
+    {
+      "id": "3c9f579fabb4a141",
+      "source": "tix",
+      "date": "2026-10-21",
+      "end": null,
+      "sessions": null,
+      "title": "COMEDY SHOWCASE - THE GREEN ROOM",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "21:30",
+      "kids": false,
+      "tags": [],
+      "description": "CONSUMO MINIMO DE 1,000 PESOS",
+      "ticketUrl": "https://tix.do/event/COMEDYSHOWCASETHEGREENROOM-10",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/COMEDYSHOWCASETHEGREENROOM-10",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/COMEDYSHOWCASETHEGREENROOM-10"
+        }
+      ]
+    },
+    {
+      "id": "91a166cb4f84e506",
+      "source": "tix",
+      "date": "2026-10-22",
+      "end": null,
+      "sessions": null,
+      "title": "Azoterapia en Las Máscaras",
+      "venue": "Teatro Las Máscaras",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://tix.do/event/AzoterapiaenLasMascaras-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/AzoterapiaenLasMascaras-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/AzoterapiaenLasMascaras-1"
+        }
+      ]
+    },
+    {
+      "id": "23abd93b8bfa5412",
+      "source": "ticketmax",
+      "date": "2026-10-22",
+      "end": null,
+      "sessions": null,
+      "title": "ÍNTIMO CON LUCHY",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Música",
+      "price": 1000,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://ticketmax.org/evento/900046/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900046/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900046/"
+        }
+      ]
+    },
+    {
+      "id": "6b5febb311376432",
+      "source": "tix",
+      "date": "2026-10-23",
+      "end": "2026-10-24",
+      "sessions": null,
+      "title": "VALENTINA | EN CONCIERTO",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://tix.do/event/valentinatickets",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/valentinatickets",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/valentinatickets"
+        }
+      ]
+    },
+    {
       "id": "7e0fde7b529a5965",
       "source": "teatro_las_mascaras",
       "date": "2026-10-23",
@@ -504,7 +2106,7 @@
       "time": "",
       "kids": false,
       "tags": [],
-      "description": "Funciones: Viernes y Sábados 8:30 p.m. | Domingos 6:30 p.m. Una de las comedias románticas más aclamadas de la República Dominicana regresa renovada, más reflexiva y con mucha más risa.",
+      "description": "Comedia romántica con un divertido manejo del doble sentido. Narra la historia de dos jóvenes que debaten sobre la idea de casarse o no. Él quiere dar el paso, pero ella se niega rotundamente porque cree que el matrimonio destruirá la relación. Escrita y protagonizada por José M…",
       "ticketUrl": "https://tix.do/event/VamosaHacerloParados-1",
       "srcName": "Teatro Las Máscaras",
       "srcUrl": "https://teatrolasmascaras.com/#vamos-hacerlo-parados",
@@ -512,6 +2114,88 @@
         {
           "srcName": "Teatro Las Máscaras",
           "srcUrl": "https://teatrolasmascaras.com/#vamos-hacerlo-parados"
+        },
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/VamosaHacerloParados-1"
+        }
+      ]
+    },
+    {
+      "id": "7539ea877241e6c8",
+      "source": "ticketmax",
+      "date": "2026-10-23",
+      "end": null,
+      "sessions": null,
+      "title": "ALEX SUAREZ EN CONCIERTO",
+      "venue": "Ferro Café",
+      "zone": "",
+      "cat": "Música",
+      "price": 1000,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://ticketmax.org/evento/900041/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900041/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900041/"
+        }
+      ]
+    },
+    {
+      "id": "1916d3a1f0628a8e",
+      "source": "ticketmax",
+      "date": "2026-10-23",
+      "end": null,
+      "sessions": null,
+      "title": "EMIGRAR ES ARRECHO: MARIA VILLALOBOS",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 1500,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://ticketmax.org/evento/900007/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900007/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900007/"
+        }
+      ]
+    },
+    {
+      "id": "805fff289238c3aa",
+      "source": "ticketmax",
+      "date": "2026-10-23",
+      "end": null,
+      "sessions": null,
+      "title": "Cupido está borracho - Show de stand up comedy / improv - Krystal Taveras",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 700,
+      "price_max": null,
+      "time": "22:00",
+      "kids": false,
+      "tags": [],
+      "description": "💘 CUPIDO ESTÁ BORRACHO 💘 ¿Alguna vez te has preguntado si encontrar pareja hoy en día es realmente tan difícil… o si simplemente Cupido está demasiado tomado para apuntar bien? En este show, Krystal Taveras mezcla stand up comedy e improvisación teatral para hablar de esas citas…",
+      "ticketUrl": "https://ticketmax.org/evento/264538/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/264538/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/264538/"
         }
       ]
     },
@@ -542,6 +2226,84 @@
       ]
     },
     {
+      "id": "53513d30b353dbbd",
+      "source": "tix",
+      "date": "2026-10-24",
+      "end": "2026-10-25",
+      "sessions": null,
+      "title": "STELLAR X FREQUENCIES VOL.3",
+      "venue": "Lucia SDQ",
+      "zone": "",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Frequencies vol.3 👻 📅 October 24 ⌛️ Starting at 10:00 PM 🥂 Open Bar 🔞 N.R.D.A 18+ PHYSICAL ID REQUIRED INFO AND RSVP: (829) 775-8254 | (829) 761-3529 To reserve a table, a minimum deposit of 50% is required. (Non-refundable) @stellarprodrd DISCLAIMER: By purchasing tickets for t…",
+      "ticketUrl": "https://tix.do/event/StellarXFrequencies-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/StellarXFrequencies-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/StellarXFrequencies-1"
+        }
+      ]
+    },
+    {
+      "id": "0b20cd7982a34ae1",
+      "source": "tix",
+      "date": "2026-10-25",
+      "end": null,
+      "sessions": null,
+      "title": "The Brow Place Miami Experience X Casas del Siglo XVI Vignette Collection",
+      "venue": "C. 19 de Marzo 113",
+      "zone": "",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "08:30",
+      "kids": false,
+      "tags": [],
+      "description": "THE BROW PLACE MIAMI EXPERIENCE X CASAS DEL SIGLO XVI VIGNETTE COLLECTION Join us for a morning of movement, wellness, fashion and beauty at Casas del Siglo XVI in Zona Colonial. YOUR TICKET INCLUDES • Pilates, Sculpt & Yoga • A sensory pause • A runway show & jewelry showcase •…",
+      "ticketUrl": "https://tix.do/event/TheBrowPlaceMiamiExperienceXCasasdelSigloXVIVignetteCollection-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/TheBrowPlaceMiamiExperienceXCasasdelSigloXVIVignetteCollection-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/TheBrowPlaceMiamiExperienceXCasasdelSigloXVIVignetteCollection-1"
+        }
+      ]
+    },
+    {
+      "id": "bdbd42fd680104df",
+      "source": "tix",
+      "date": "2026-10-25",
+      "end": null,
+      "sessions": null,
+      "title": "THE ART MARKET: POP UP",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "16:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://tix.do/event/THEARTMARKETPOPUP-2",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/THEARTMARKETPOPUP-2",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/THEARTMARKETPOPUP-2"
+        }
+      ]
+    },
+    {
       "id": "c0d2806841447cd8",
       "source": "recurring",
       "date": "2026-10-25",
@@ -567,6 +2329,32 @@
         {
           "srcName": "SalsaVida",
           "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-10-25"
+        }
+      ]
+    },
+    {
+      "id": "04f086c39b531572",
+      "source": "tix",
+      "date": "2026-10-25",
+      "end": null,
+      "sessions": null,
+      "title": "SANTO DOMINGO POLE SHOW",
+      "venue": "Pabellon de la Fama del Deporte Dominicano",
+      "zone": "",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [],
+      "description": "¡Vuelve el #SantoDomingoPoleShow en su 4.ª edición! ✨ Una noche para celebrar el pole dance en todas sus expresiones. Más de 40 artistas, un escenario y un espectáculo creado para sorprenderte. 📅 25 de octubre de 2026 📍 Pabellón de la Fama del Deporte Dominicano 👨‍👩‍👧‍👦 Apto par…",
+      "ticketUrl": "https://tix.do/event/SANTODOMINGOPOLESHOW-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/SANTODOMINGOPOLESHOW-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/SANTODOMINGOPOLESHOW-1"
         }
       ]
     },
@@ -627,6 +2415,32 @@
       ]
     },
     {
+      "id": "9f24add90b8d8aa6",
+      "source": "tix",
+      "date": "2026-10-27",
+      "end": null,
+      "sessions": null,
+      "title": "Edición Halloween",
+      "venue": "Local 3 : Calle Max. Herriquez Ureña 33",
+      "zone": "",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "21:00",
+      "kids": false,
+      "tags": [],
+      "description": "Comedia Local presenta : Edición Halloween Boadil Jones y Begoña Guillén se juntan para celebrar Halloween como mejor saben: haciendo comedia. Historias de miedo, situaciones absurdas, experiencias paranormales y todo lo que da más miedo que un fantasma: la vida real. Una noche…",
+      "ticketUrl": "https://tix.do/event/EdicionHalloween-2",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/EdicionHalloween-2",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/EdicionHalloween-2"
+        }
+      ]
+    },
+    {
       "id": "d8634cbbf684a2f0",
       "source": "recurring",
       "date": "2026-10-28",
@@ -651,6 +2465,58 @@
         {
           "srcName": "DGCINE",
           "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-28"
+        }
+      ]
+    },
+    {
+      "id": "466f658f7d09dcd1",
+      "source": "tix",
+      "date": "2026-10-28",
+      "end": "2026-10-29",
+      "sessions": null,
+      "title": "PHD Connected Summit",
+      "venue": "Universidad Nacional Pedro Henríquez Ureña",
+      "zone": "",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://tix.do/event/PHDConnectedSummit-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/PHDConnectedSummit-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/PHDConnectedSummit-1"
+        }
+      ]
+    },
+    {
+      "id": "1deeee48c642cb66",
+      "source": "tix",
+      "date": "2026-10-28",
+      "end": null,
+      "sessions": null,
+      "title": "El Degalille - Musicales Edition 🎭",
+      "venue": "Velvet Room SDQ",
+      "zone": "",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "19:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://tix.do/event/ElDegalilleMusicalesEdition-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/ElDegalilleMusicalesEdition-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/ElDegalilleMusicalesEdition-1"
         }
       ]
     },
@@ -683,6 +2549,110 @@
       ]
     },
     {
+      "id": "dca6fbeaaab5f6c7",
+      "source": "tix",
+      "date": "2026-10-29",
+      "end": null,
+      "sessions": null,
+      "title": "Nacho Redondo - Terapia de Grupo 7:00P.M.",
+      "venue": "Pabellon de la Fama",
+      "zone": "",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "Terapia de Grupo es la nueva hora de stand up de Nacho Redondo: una versión más grande y afilada del universo que arrancó con Traumas, donde Nacho desentierra sus propios demonios psicológicos e integra los del público para convertir cada función en una sesión colectiva. Un espa…",
+      "ticketUrl": "https://tix.do/event/NachoRedondoTerapiadeGrupo700PM-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/NachoRedondoTerapiadeGrupo700PM-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/NachoRedondoTerapiadeGrupo700PM-1"
+        }
+      ]
+    },
+    {
+      "id": "8a2eae4976846e45",
+      "source": "tix",
+      "date": "2026-10-29",
+      "end": null,
+      "sessions": null,
+      "title": "Ensayo, error...y terror",
+      "venue": "Local 3 : Calle Max. Herriquez Ureña 33",
+      "zone": "",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "Té de Jagua presenta Ensayo, error …y terror , un show donde va a probar nuevo material con su humor político negro, incómodo y sin demasiadas ganas de quedar bien con nadie. Política, poder, historia y actualidad se mezclan en una noche de comedia donde probablemente más de uno…",
+      "ticketUrl": "https://tix.do/event/ElultimohijodeBalaguer-5",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/ElultimohijodeBalaguer-5",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/ElultimohijodeBalaguer-5"
+        }
+      ]
+    },
+    {
+      "id": "4f93c9c8f22fbce7",
+      "source": "tix",
+      "date": "2026-10-29",
+      "end": null,
+      "sessions": null,
+      "title": "Revisitando",
+      "venue": "The velvet room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "En este show Antonio Ferrés revisitará las mejores rutinas de sus shows “Introvertido” y “En Teoría”. Además tendrá de invitados a los comediantes: Max Johnson, Jinita y Dr. Humor Para mayores de 18 años",
+      "ticketUrl": "https://tix.do/event/Revisitando-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/Revisitando-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/Revisitando-1"
+        }
+      ]
+    },
+    {
+      "id": "f29fb60830eb1a80",
+      "source": "tix",
+      "date": "2026-10-29",
+      "end": null,
+      "sessions": null,
+      "title": "Nacho Redondo - Terapia de Grupo 9:45 P.M.",
+      "venue": "Pabellon de la Fama",
+      "zone": "",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "21:45",
+      "kids": false,
+      "tags": [],
+      "description": "Terapia de Grupo es la nueva hora de stand up de Nacho Redondo: una versión más grande y afilada del universo que arrancó con Traumas, donde Nacho desentierra sus propios demonios psicológicos e integra los del público para convertir cada función en una sesión colectiva. Un espa…",
+      "ticketUrl": "https://tix.do/event/NachoRedondoTerapiadeGrupo945PM-3",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/NachoRedondoTerapiadeGrupo945PM-3",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/NachoRedondoTerapiadeGrupo945PM-3"
+        }
+      ]
+    },
+    {
       "id": "613a46717ba81310",
       "source": "recurring",
       "date": "2026-10-30",
@@ -711,6 +2681,188 @@
       ]
     },
     {
+      "id": "97f036043c28121d",
+      "source": "tix",
+      "date": "2026-10-30",
+      "end": "2026-10-31",
+      "sessions": null,
+      "title": "Halloween After party (La Vita E Dolce)",
+      "venue": "Av. Lope de Vega no. 29",
+      "zone": "",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://tix.do/event/HalloweenAfterpartyLaVitaEDolce-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/HalloweenAfterpartyLaVitaEDolce-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/HalloweenAfterpartyLaVitaEDolce-1"
+        }
+      ]
+    },
+    {
+      "id": "50b9726b4cfd0115",
+      "source": "tix",
+      "date": "2026-10-30",
+      "end": "2026-10-31",
+      "sessions": null,
+      "title": "HOUSE OF SHADOWS",
+      "venue": "Lucia SDQ",
+      "zone": "",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Este 30 de octubre, la noche se pone oscura. 🕷️ HOUSE OF SHADOWS llega con OPEN BAR, disfraces, premios y sorpresas hasta tarde. 🩸 Sexiest Costume: RD$10,000 🩸 Best Group Costume: Win a Bottle 🩸 Surprise Show: 2 AM 📍 Plaza Andalucía II, Av. Abraham Lincoln 📲 Reservas: (809) 722-…",
+      "ticketUrl": "https://tix.do/event/HOUSEOFSHADOWS-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/HOUSEOFSHADOWS-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/HOUSEOFSHADOWS-1"
+        }
+      ]
+    },
+    {
+      "id": "4c67e82d0b9a02e5",
+      "source": "tix",
+      "date": "2026-10-30",
+      "end": null,
+      "sessions": null,
+      "title": "Nacho Redondo - Terapia de Grupo 7:00P.M.",
+      "venue": "Pabellon de la Fama",
+      "zone": "",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "Terapia de Grupo es la nueva hora de stand up de Nacho Redondo: una versión más grande y afilada del universo que arrancó con Traumas, donde Nacho desentierra sus propios demonios psicológicos e integra los del público para convertir cada función en una sesión colectiva. Un espa…",
+      "ticketUrl": "https://tix.do/event/NachoRedondoTerapiadeGrupo700PM-3",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/NachoRedondoTerapiadeGrupo700PM-3",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/NachoRedondoTerapiadeGrupo700PM-3"
+        }
+      ]
+    },
+    {
+      "id": "b5cd197f3d355e8f",
+      "source": "tix",
+      "date": "2026-10-30",
+      "end": null,
+      "sessions": null,
+      "title": "NAIROBY DUARTE",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://tix.do/event/SIMPLEMENTENAIROBY-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/SIMPLEMENTENAIROBY-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/SIMPLEMENTENAIROBY-1"
+        }
+      ]
+    },
+    {
+      "id": "d43fb66c5fd7ac9b",
+      "source": "tix",
+      "date": "2026-10-30",
+      "end": null,
+      "sessions": null,
+      "title": "Nacho Redondo - Terapia de Grupo 9:45 P.M.",
+      "venue": "Pabellon de la Fama",
+      "zone": "",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "21:45",
+      "kids": false,
+      "tags": [],
+      "description": "Terapia de Grupo es la nueva hora de stand up de Nacho Redondo: una versión más grande y afilada del universo que arrancó con Traumas, donde Nacho desentierra sus propios demonios psicológicos e integra los del público para convertir cada función en una sesión colectiva. Un espa…",
+      "ticketUrl": "https://tix.do/event/NachoRedondoTerapiadeGrupo945PM-4",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/NachoRedondoTerapiadeGrupo945PM-4",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/NachoRedondoTerapiadeGrupo945PM-4"
+        }
+      ]
+    },
+    {
+      "id": "2179aee544d045b3",
+      "source": "ticketmax",
+      "date": "2026-10-30",
+      "end": null,
+      "sessions": null,
+      "title": "Rafa Boba: Mil Maneras De Reir",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 1500,
+      "price_max": null,
+      "time": "22:00",
+      "kids": false,
+      "tags": [],
+      "description": "PUERTAS ABREN 9:30 PM SHOW COMIENZA 10 PM",
+      "ticketUrl": "https://ticketmax.org/evento/900016/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900016/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900016/"
+        }
+      ]
+    },
+    {
+      "id": "6424534fb8db3415",
+      "source": "tix",
+      "date": "2026-10-31",
+      "end": "2026-11-01",
+      "sessions": null,
+      "title": "Combate Mortal Freestyle Internacional.",
+      "venue": "Salón de Eventos Sambil",
+      "zone": "",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Combate Mortal Internacional es un evento de alto impacto que reúne a los mejores peleadores nacionales e internacionales en una noche llena de adrenalina, fuerza y espectáculo. Disfruta de intensos enfrentamientos, técnicas de combate de primer nivel y un ambiente electrizante…",
+      "ticketUrl": "https://tix.do/event/CombateMortalFreestyleInternacional-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/CombateMortalFreestyleInternacional-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/CombateMortalFreestyleInternacional-1"
+        }
+      ]
+    },
+    {
       "id": "cb222b458fee4a84",
       "source": "recurring",
       "date": "2026-10-31",
@@ -735,6 +2887,84 @@
         {
           "srcName": "DGCINE",
           "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "569314fc40191b89",
+      "source": "tix",
+      "date": "2026-10-31",
+      "end": "2026-11-01",
+      "sessions": null,
+      "title": "THE HAUNTED MANOR",
+      "venue": "Lucia SDQ",
+      "zone": "",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "The doors are open… but not everyone makes it out. 🩸 THE HAUNTED MANOR This Halloween, enter at your own risk. 👻 Scariest Costume — RD$10,000 🖤 Best Couple Costume — Win a Bottle 🎭 Surprise Show — 2 AM 📍 Plaza Andalucía II, Av. Abraham Lincoln 📲 Reservas: (809) 722-0343 🔞 +21",
+      "ticketUrl": "https://tix.do/event/THEHAUNTEDMANOR-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/THEHAUNTEDMANOR-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/THEHAUNTEDMANOR-1"
+        }
+      ]
+    },
+    {
+      "id": "321e7104382f5ee5",
+      "source": "ticketmax",
+      "date": "2026-10-31",
+      "end": null,
+      "sessions": null,
+      "title": "CONGRESO FAMILIA A TODA PRUEBA",
+      "venue": "Auditorio Profesor Juan Boch",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 0,
+      "price_max": null,
+      "time": "08:00",
+      "kids": true,
+      "tags": [],
+      "description": "UNIDO POR LA FAMILIA, COMPROMETIDO POR LA PAZ.",
+      "ticketUrl": "https://ticketmax.org/evento/254808/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/254808/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/254808/"
+        }
+      ]
+    },
+    {
+      "id": "cca3564b45534e3e",
+      "source": "ticketmax",
+      "date": "2026-10-31",
+      "end": null,
+      "sessions": null,
+      "title": "Social Brunch Party @Bloom 👻 Sábado 31 octubre",
+      "venue": "Bloom SDQ",
+      "zone": "",
+      "cat": "Música",
+      "price": 2500,
+      "price_max": null,
+      "time": "11:00",
+      "kids": false,
+      "tags": [],
+      "description": "SOCIAL BRUNCH PARTY ☀️🥂 | 31 de octubre Preventa | Early Bird: RD$2,500 General | En la entrada: RD$3,000 Tu entrada incluye 4 horas de All You Can Drink de 11:00 a.m. a 3:00p.m. con: 🍾 Mimosas 🍹 Palomas 🍷 Bandarra Spritz 🍺 Cerveza ☕ Selección de cafés El sábado nos reunimos par…",
+      "ticketUrl": "https://ticketmax.org/evento/900011/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900011/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900011/"
         }
       ]
     },
@@ -796,6 +3026,32 @@
       ]
     },
     {
+      "id": "3bdc73013095ee45",
+      "source": "tix",
+      "date": "2026-11-01",
+      "end": null,
+      "sessions": null,
+      "title": "Throwback to Rock: 70s & 80s - Coro de Santo Domingo Primada de América",
+      "venue": "Bar Juan Lockward del Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "​¡El rock como nunca antes lo habías escuchado! El Coro de Santo Domingo Primada de América te invita a \"Throwback to Rock - 70s & 80s\", un concierto íntimo que fusiona la potencia coral con los más grandes himnos de la historia. ​Disfruta de arreglos vocales únicos para clásico…",
+      "ticketUrl": "https://tix.do/event/ThrowbacktoRock70sand80sCorodeSantoDomingoPrimadadeAmerica-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/ThrowbacktoRock70sand80sCorodeSantoDomingoPrimadadeAmerica-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/ThrowbacktoRock70sand80sCorodeSantoDomingoPrimadadeAmerica-1"
+        }
+      ]
+    },
+    {
       "id": "6eff35ff9fb23914",
       "source": "teatro_nacional",
       "date": "2026-11-04",
@@ -807,10 +3063,10 @@
       "cat": "Música",
       "price": 2290,
       "price_max": 5640,
-      "time": "",
+      "time": "20:30",
       "kids": false,
       "tags": [],
-      "description": "Gala de Aniversarios: «RESURRECCIÓN» de Gustav Mahler, una de las obras más MONUMENTALES del repertorio sinfónico universal.",
+      "description": "No te pierdas de la Gala de Aniversarios: «Resurrección» de Gustav Mahler, una de las obras más monumentales del repertorio sinfónico universal.",
       "ticketUrl": "https://boleteria.com.do/",
       "srcName": "Teatro Nacional",
       "srcUrl": "https://teatronacional.gob.do/events/mahler-resurrecion/",
@@ -818,6 +3074,168 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/mahler-resurrecion/"
+        },
+        {
+          "srcName": "Fundación Sinfonía",
+          "srcUrl": "https://sinfonia.org.do/agenda/mahler-resurreccion-gala-de-aniversarios/"
+        }
+      ]
+    },
+    {
+      "id": "d75b7600ea545daa",
+      "source": "tix",
+      "date": "2026-11-05",
+      "end": null,
+      "sessions": null,
+      "title": "Bingo Solidario ADOSID",
+      "venue": "Fuerzas Armadas, Salón Independencia",
+      "zone": "",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "17:00",
+      "kids": false,
+      "tags": [],
+      "description": "Te invitamos a celebrar una segunda edición de nuestro Bingo Solidario. Con tu aporte, nos ayudas a seguir ofreciendo nuestros servicios educativos, terapéuticos y formativos a personas con síndrome de Down.",
+      "ticketUrl": "https://tix.do/event/BingoSolidarioADOSID-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/BingoSolidarioADOSID-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/BingoSolidarioADOSID-1"
+        }
+      ]
+    },
+    {
+      "id": "c84f0936d6f0af46",
+      "source": "ticketmax",
+      "date": "2026-11-05",
+      "end": null,
+      "sessions": null,
+      "title": "FDT 10x10 | LA LEYENDA DE ROBIN HOOD",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": 800,
+      "price_max": null,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "Convertido en el forajido más buscado del reino, Robin Hood ha hecho del bosque su hogar y de la justicia su mayor causa. Mientras el Alcalde Gilbert y su capitán oprimen al pueblo con impuestos y abusos, él, junto a su inseparable banda de amigos, idea ingeniosos planes para de…",
+      "ticketUrl": "https://ticketmax.org/evento/253522/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/253522/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/253522/"
+        }
+      ]
+    },
+    {
+      "id": "a80a543fd053b05c",
+      "source": "ticketmax",
+      "date": "2026-11-06",
+      "end": null,
+      "sessions": null,
+      "title": "FDT 10x10 | LA LEYENDA DE ROBIN HOOD",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": 800,
+      "price_max": null,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "Convertido en el forajido más buscado del reino, Robin Hood ha hecho del bosque su hogar y de la justicia su mayor causa. Mientras el Alcalde Gilbert y su capitán oprimen al pueblo con impuestos y abusos, él, junto a su inseparable banda de amigos, idea ingeniosos planes para de…",
+      "ticketUrl": "https://ticketmax.org/evento/253550/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/253550/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/253550/"
+        }
+      ]
+    },
+    {
+      "id": "e294fe43fff7db1e",
+      "source": "tix",
+      "date": "2026-11-07",
+      "end": "2026-11-08",
+      "sessions": null,
+      "title": "Saint's Revenge: No Room In Hell Album Release Show",
+      "venue": "Los Reales Colonial",
+      "zone": "",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Este mes de noviembre, Saint's Revenge presenta oficialmente No Room In Hell, su primer álbum de estudio. Después de dos años desarrollando y puliendo su sonido, y tras construir una reputación dentro del circuito local a través de cuatro sencillos y una intensa agenda de presen…",
+      "ticketUrl": "https://tix.do/event/SaintsRevengeNoRoomInHellAlbumReleaseShow-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/SaintsRevengeNoRoomInHellAlbumReleaseShow-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/SaintsRevengeNoRoomInHellAlbumReleaseShow-1"
+        }
+      ]
+    },
+    {
+      "id": "e3cf639117a24d35",
+      "source": "ticketmax",
+      "date": "2026-11-07",
+      "end": null,
+      "sessions": null,
+      "title": "MARKETING SIN TEATRO",
+      "venue": "Biblioteca Pedro Mir, Auditorio Manuel Del Cabral",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 4000,
+      "price_max": null,
+      "time": "08:00",
+      "kids": false,
+      "tags": [
+        "formacion"
+      ],
+      "description": "Marketing Sin Teatro es un workshop práctico diseñado para creadores de contenido, emprendedores y marcas que desean aprender estrategias reales y aplicables de marketing digital. Durante la jornada, Ismael Bidó compartirá herramientas, tácticas y trucos que te ayudarán a crear…",
+      "ticketUrl": "https://ticketmax.org/evento/265957/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/265957/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/265957/"
+        }
+      ]
+    },
+    {
+      "id": "caa37169570fdb4a",
+      "source": "ticketmax",
+      "date": "2026-11-07",
+      "end": null,
+      "sessions": null,
+      "title": "FDT 10X10 | LA FUNCIÓN NO ESTÁ CANCELADA",
+      "venue": "Teatro Guloya",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 800,
+      "price_max": null,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "Un grupo de actores se prepara para entrar en escena en una obra sobre las últimas horas de la vida de Molière. Nada está listo y las dificultades se acumulan. Incluso el robo de la recaudación del día… ¿Deberían cancelar la función y precipitar así la ruina de este teatro al bo…",
+      "ticketUrl": "https://ticketmax.org/evento/253716/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/253716/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/253716/"
         }
       ]
     },
@@ -848,6 +3266,188 @@
       ]
     },
     {
+      "id": "7e8b7fe1cef91325",
+      "source": "tix",
+      "date": "2026-11-08",
+      "end": null,
+      "sessions": null,
+      "title": "Recital \"Palabra de Mujer\"",
+      "venue": "Teatro Las Máscaras",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "11:00",
+      "kids": false,
+      "tags": [],
+      "description": "Tras una emocionante primera edición el pasado 8 de marzo junto a Perpetual Lab y Karibe Vintage, regresa Palabra de Mujer, un espacio íntimo y transformador diseñado por y para mujeres que buscan elevar su voz, compartir sus vivencias y dar vida a la memoria de quienes vinieron…",
+      "ticketUrl": "https://tix.do/event/RecitalPalabradeMujer-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/RecitalPalabradeMujer-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/RecitalPalabradeMujer-1"
+        }
+      ]
+    },
+    {
+      "id": "dcbd8b532c92476e",
+      "source": "ticketmax",
+      "date": "2026-11-08",
+      "end": null,
+      "sessions": null,
+      "title": "LA GRANJA DE ZENÓN: LA BUSQUEDA DEL TESORO",
+      "venue": "Auditorio Casa San Pablo",
+      "zone": "",
+      "cat": "Música",
+      "price": 1800,
+      "price_max": 3000,
+      "time": "14:00",
+      "kids": true,
+      "tags": [],
+      "description": "¡La aventura más divertida llega a Santo Domingo! 🎉 Prepárate para vivir una experiencia llena de alegría, música y diversión junto a La Granja de Zenón en una emocionante aventura: “La Búsqueda del Tesoro”. 🗺️✨ Zenón y sus queridos personajes te esperan para compartir con toda…",
+      "ticketUrl": "https://ticketmax.org/evento/266538/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/266538/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/266538/"
+        }
+      ]
+    },
+    {
+      "id": "e34e13930c935779",
+      "source": "ticketmax",
+      "date": "2026-11-08",
+      "end": null,
+      "sessions": null,
+      "title": "LAS GUERRERAS KPOP",
+      "venue": "Auditorio Casa San Pablo",
+      "zone": "",
+      "cat": "Música",
+      "price": 1600,
+      "price_max": 2000,
+      "time": "17:00",
+      "kids": true,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://ticketmax.org/evento/900028/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900028/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900028/"
+        }
+      ]
+    },
+    {
+      "id": "5a3bb52724993577",
+      "source": "ticketmax",
+      "date": "2026-11-08",
+      "end": null,
+      "sessions": null,
+      "title": "FDT 10X10 | LA FUNCIÓN NO ESTÁ CANCELADA",
+      "venue": "Teatro Guloya",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 800,
+      "price_max": null,
+      "time": "19:30",
+      "kids": false,
+      "tags": [],
+      "description": "Un grupo de actores se prepara para entrar en escena en una obra sobre las últimas horas de la vida de Molière. Nada está listo y las dificultades se acumulan. Incluso el robo de la recaudación del día… ¿Deberían cancelar la función y precipitar así la ruina de este teatro al bo…",
+      "ticketUrl": "https://ticketmax.org/evento/253727/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/253727/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/253727/"
+        }
+      ]
+    },
+    {
+      "id": "3e305eeecf98e5dc",
+      "source": "tix",
+      "date": "2026-11-11",
+      "end": null,
+      "sessions": null,
+      "title": "El Degalille - Old School edition",
+      "venue": "Velvet Room SDQ",
+      "zone": "",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "19:30",
+      "kids": false,
+      "tags": [],
+      "description": "El Degalille es un karaoke para cantar malo, pero con sentimiento 🎤 Y para esta edición nos vamos Old School: Wisin & Yandel, Zion & Lennox, Jowell & Randy, Don Omar, Daddy Yankee, Plan B y todos esos clásicos que uno se sabe aunque tenga años sin escucharlos. 🔥",
+      "ticketUrl": "https://tix.do/event/ElDegalilleOldSchooledition-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/ElDegalilleOldSchooledition-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/ElDegalilleOldSchooledition-1"
+        }
+      ]
+    },
+    {
+      "id": "d13a69f680d05bcf",
+      "source": "tix",
+      "date": "2026-11-11",
+      "end": null,
+      "sessions": null,
+      "title": "Carlos Sánchez en The Green Room",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "Carlos está armando este nuevo concepto. Carlos les cuenta sus últimos anécdotas y chismes, el público le cuenta a Carlos sus chismes. Quien sabe si hasta terminamos cantando todos al final. Es decir: una cura. Para reservaciones de mesas llamar al 809 -740-4601 La compra de bol…",
+      "ticketUrl": "https://tix.do/event/CarlosSanchezenTheGreenRoom-5",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/CarlosSanchezenTheGreenRoom-5",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/CarlosSanchezenTheGreenRoom-5"
+        }
+      ]
+    },
+    {
+      "id": "0f6644212729ae00",
+      "source": "ticketmax",
+      "date": "2026-11-12",
+      "end": null,
+      "sessions": null,
+      "title": "FDT 10X10 | EL PADRE DE TODOS NOSOTROS",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": 800,
+      "price_max": null,
+      "time": "20:30",
+      "kids": true,
+      "tags": [],
+      "description": "Cinco hermanos se reencuentran después de mucho tiempo para tomar decisiones luego de la muerte de su padre ocurrida en un acantilado, por salvar a una niña. Motiva la reunión la oferta de dinero de una compañía de refresco que quiere tomar la imagen de su padre como un héroe en…",
+      "ticketUrl": "https://ticketmax.org/evento/253999/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/253999/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/253999/"
+        }
+      ]
+    },
+    {
       "id": "a801800daf37f28b",
       "source": "teatro_nacional",
       "date": "2026-11-13",
@@ -874,6 +3474,84 @@
       ]
     },
     {
+      "id": "fa5b8781f65aa266",
+      "source": "tix",
+      "date": "2026-11-13",
+      "end": "2026-11-14",
+      "sessions": null,
+      "title": "Olga Cerpa & Mestisay. Música de las Islas Canarias",
+      "venue": "Casa de Teatro. Olga Cerpa & Mestisay. Muisca de las Islas Canarias",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Por primera vez en República Dominicana Olga Cerpa y Mestisay. Música de las Islas Canarias. Un concierto cercano con los temas de su más reciente CD \"La costa de los cantares\" y éxitos de sus 20 producciones anteriores. Olga Cerpa es una intérprete excepcional considerada \"La v…",
+      "ticketUrl": "https://tix.do/event/OlgaCerpaandMestisayMusicadelasIslasCanarias-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/OlgaCerpaandMestisayMusicadelasIslasCanarias-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/OlgaCerpaandMestisayMusicadelasIslasCanarias-1"
+        }
+      ]
+    },
+    {
+      "id": "b45b35a18bd9a6e9",
+      "source": "ticketmax",
+      "date": "2026-11-13",
+      "end": null,
+      "sessions": null,
+      "title": "NAVIDAD VENEZOLANA 2026: LO MEJOR DE LA GAITA",
+      "venue": "Escenario 360",
+      "zone": "",
+      "cat": "Música",
+      "price": 1500,
+      "price_max": 2000,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://ticketmax.org/evento/264450/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/264450/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/264450/"
+        }
+      ]
+    },
+    {
+      "id": "69461710bb60e551",
+      "source": "ticketmax",
+      "date": "2026-11-13",
+      "end": null,
+      "sessions": null,
+      "title": "FDT 10X10 | EL PADRE DE TODOS NOSOTROS",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": 800,
+      "price_max": null,
+      "time": "20:30",
+      "kids": true,
+      "tags": [],
+      "description": "Cinco hermanos se reencuentran después de mucho tiempo para tomar decisiones luego de la muerte de su padre ocurrida en un acantilado, por salvar a una niña. Motiva la reunión la oferta de dinero de una compañía de refresco que quiere tomar la imagen de su padre como un héroe en…",
+      "ticketUrl": "https://ticketmax.org/evento/254011/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/254011/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/254011/"
+        }
+      ]
+    },
+    {
       "id": "34614044015ba971",
       "source": "teatro_las_mascaras",
       "date": "2026-11-13",
@@ -885,17 +3563,21 @@
       "cat": "Teatro",
       "price": 875,
       "price_max": 875,
-      "time": "",
+      "time": "20:30",
       "kids": false,
       "tags": [],
-      "description": "Funciones: Viernes y Sábados 8:30 p.m. | Domingos 6:30 p.m. El amor en la edad otoñal y la oposición de unos hijos que no asimilan que sus padres viudos, ambos de la tercera edad, se sientan profundamente enamorados, son los sentimientos que se juegan en la obra.",
-      "ticketUrl": "",
+      "description": "El amor en la edad otoñal y la oposición de unos hijos que no asimilan que sus padres viudos, ambos de la tercera edad, se sientan profundamente enamorados, son los sentimientos que se juegan en la obra. Actores: Lidia Ariza, Jorge Santiago, Montessori Ventura, Paola Mejia y Jun…",
+      "ticketUrl": "https://tix.do/event/LasLocurasdePapiyMami-1",
       "srcName": "Teatro Las Máscaras",
       "srcUrl": "https://teatrolasmascaras.com/#las-locuras-de-papi-y-mami",
       "sources": [
         {
           "srcName": "Teatro Las Máscaras",
           "srcUrl": "https://teatrolasmascaras.com/#las-locuras-de-papi-y-mami"
+        },
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/LasLocurasdePapiyMami-1"
         }
       ]
     },
@@ -929,6 +3611,136 @@
       ]
     },
     {
+      "id": "3537efb41ceb8f8c",
+      "source": "ticketmax",
+      "date": "2026-11-14",
+      "end": "2026-11-15",
+      "sessions": null,
+      "title": "Beauty Fest Caribbean Edition | Sábado 14 y Domingo 15 Noviembre 2026",
+      "venue": "Sambil",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 900,
+      "price_max": null,
+      "time": "08:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://ticketmax.org/evento/258761/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/258761/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/258761/"
+        }
+      ]
+    },
+    {
+      "id": "f8a0f1d7932f22f1",
+      "source": "tix",
+      "date": "2026-11-14",
+      "end": null,
+      "sessions": null,
+      "title": "VERTICALÍSIMO",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "Este 14 de noviembre, Casa de Teatro se transforma en un escenario donde la fuerza, la flexibilidad, la danza, la acrobacia y la expresión corporal se encuentran alrededor de una barra vertical. VERTICALÍSIMO es un espectáculo de pole creado y producido por Claudia Gómez, que re…",
+      "ticketUrl": "https://tix.do/event/VERTICALISIMO-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/VERTICALISIMO-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/VERTICALISIMO-1"
+        }
+      ]
+    },
+    {
+      "id": "31a17f0a7225cc7f",
+      "source": "tix",
+      "date": "2026-11-14",
+      "end": null,
+      "sessions": null,
+      "title": "WHAT IS REAL 3.0",
+      "venue": "Los Reales Colonial",
+      "zone": "",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "👑 WHAT IS REAL 3.0 · Mascarada electrónica Sábado 14 de noviembre. Los Reales Colonial, Santo Domingo. Una noche donde la realidad se quita la máscara. Inspirada en la realeza medieval, esta tercera edición te lleva a un baile de máscaras con música electrónica y visuales hiperr…",
+      "ticketUrl": "https://tix.do/event/WHATISREAL30-2",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/WHATISREAL30-2",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/WHATISREAL30-2"
+        }
+      ]
+    },
+    {
+      "id": "400ab19cf335ba39",
+      "source": "ticketmax",
+      "date": "2026-11-14",
+      "end": null,
+      "sessions": null,
+      "title": "FDT 10X10 | UN TONTO EN UNA CAJA",
+      "venue": "Teatro Guloya",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 800,
+      "price_max": null,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "¿QUÉ HARÍAS TÚ, SI EL DIABLO TE MANDA UN REGALO DE CUMPLEAÑOS? Una sociedad dividida en PEQUEÑOS, GRANDES Y NOTABLES. El notable recibe por correo una caja supuestamente enviada por el Diablo, e invita a una reunión en su casa a un Pequeño y un Grande para descubrir si las mágic…",
+      "ticketUrl": "https://ticketmax.org/evento/254179/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/254179/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/254179/"
+        }
+      ]
+    },
+    {
+      "id": "8b63eff86e3ea58e",
+      "source": "ticketmax",
+      "date": "2026-11-14",
+      "end": null,
+      "sessions": null,
+      "title": "SPLOU : POR PRIMERA VEZ EN RD",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 1800,
+      "price_max": 3000,
+      "time": "21:30",
+      "kids": false,
+      "tags": [],
+      "description": "Por primera vez en República Dominicana, llega SPLOU a Velvet Room. Con millones de reproducciones en redes sociales y una comunidad de seguidores que no para de crecer, Splou se ha convertido en una de las nuevas voces de la comedia latina en Estados Unidos. Su estilo mezcla hi…",
+      "ticketUrl": "https://ticketmax.org/evento/253308/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/253308/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/253308/"
+        }
+      ]
+    },
+    {
       "id": "d0b1b7f4141950bb",
       "source": "recurring",
       "date": "2026-11-15",
@@ -954,6 +3766,920 @@
         {
           "srcName": "Hostelworld Events",
           "srcUrl": "https://www.hostelworld.com/events/e/6a9b8740514fd3e727f8222f/809-mercado/#809-mercado-2026-11-2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "9487aa3be5502b8d",
+      "source": "ticketmax",
+      "date": "2026-11-15",
+      "end": null,
+      "sessions": null,
+      "title": "FDT 10X10 | UN TONTO EN UNA CAJA",
+      "venue": "Teatro Guloya",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 800,
+      "price_max": null,
+      "time": "19:30",
+      "kids": false,
+      "tags": [],
+      "description": "¿QUÉ HARÍAS TÚ, SI EL DIABLO TE MANDA UN REGALO DE CUMPLEAÑOS? Una sociedad dividida en PEQUEÑOS, GRANDES Y NOTABLES. El notable recibe por correo una caja supuestamente enviada por el Diablo, e invita a una reunión en su casa a un Pequeño y un Grande para descubrir si las mágic…",
+      "ticketUrl": "https://ticketmax.org/evento/254191/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/254191/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/254191/"
+        }
+      ]
+    },
+    {
+      "id": "21cfc41edc062ff8",
+      "source": "tix",
+      "date": "2026-11-17",
+      "end": null,
+      "sessions": null,
+      "title": "Foro Económico elDinero 2026",
+      "venue": "InterContinental Real Santo Domingo by IHG",
+      "zone": "",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "14:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://tix.do/event/ForoEconomicoelDinero2026-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/ForoEconomicoelDinero2026-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/ForoEconomicoelDinero2026-1"
+        }
+      ]
+    },
+    {
+      "id": "f1b48521d8e2d8f2",
+      "source": "tix",
+      "date": "2026-11-18",
+      "end": null,
+      "sessions": null,
+      "title": "SINFONICO - Encuentro de Talento",
+      "venue": "Teatro Nacional Eduardo Brito",
+      "zone": "Plaza de la Cultura",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "SINFÓNICO 2026 Encuentro de Talento La Fundación Harmonía, el Teatro Nacional Eduardo Brito, y SeaBoard Energía Limpia se unen, en una iniciativa de contribuir al arte sinfónico en el país, propiciando un evento donde brillen nuestros talentos locales, SINFÓNICO 2026. Este será…",
+      "ticketUrl": "https://tix.do/event/SINFONICOEncuentrodeTalento-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/SINFONICOEncuentrodeTalento-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/SINFONICOEncuentrodeTalento-1"
+        }
+      ]
+    },
+    {
+      "id": "7bc8f3624f5ecc3b",
+      "source": "tix",
+      "date": "2026-11-18",
+      "end": null,
+      "sessions": null,
+      "title": "Pampers arcoíris. El debate sobre la adopción gay",
+      "venue": "Local 3 : Calle Max. Herriquez Ureña 33",
+      "zone": "",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "21:00",
+      "kids": false,
+      "tags": [],
+      "description": "Pampers arcoíris 🌈. El debate sobre la adopcion gay En un país, donde ni el matrimonio gay existe, Comedia Local se atreve a debatir la adopción en parejas del mismo sexo. Seis comediantes, dos posturas opuestas, que se enfrentan en un debate con argumentos, humor y mucha incomo…",
+      "ticketUrl": "https://tix.do/event/PampersarcoirisEldebatesobrelaadopciongay-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/PampersarcoirisEldebatesobrelaadopciongay-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/PampersarcoirisEldebatesobrelaadopciongay-1"
+        }
+      ]
+    },
+    {
+      "id": "9c20f79af708b457",
+      "source": "ticketmax",
+      "date": "2026-11-19",
+      "end": null,
+      "sessions": null,
+      "title": "FDT 10X10 | LA CASA DE BERNARDA ALBA",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": 800,
+      "price_max": null,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "La historia gira en torno a Bernarda Alba, una viuda dominante y autoritaria que impone un luto riguroso sobre sus cinco hijas tras la muerte de su segundo marido. Encerradas en su casa, las hijas luchan por su libertad y deseos personales bajo la opresión y el control de su mad…",
+      "ticketUrl": "https://ticketmax.org/evento/254330/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/254330/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/254330/"
+        }
+      ]
+    },
+    {
+      "id": "84e60ca43fed7d50",
+      "source": "ticketmax",
+      "date": "2026-11-20",
+      "end": "2026-11-21",
+      "sessions": null,
+      "title": "NENA'S SHOW | Viernes 20 al Sábado 21 Noviembre 2026",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 2100,
+      "price_max": null,
+      "time": "19:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://ticketmax.org/evento/264497/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/264497/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/264497/"
+        }
+      ]
+    },
+    {
+      "id": "d4db07d86faa3c35",
+      "source": "tix",
+      "date": "2026-11-20",
+      "end": null,
+      "sessions": null,
+      "title": "ANA GABRIEL by Johanna Almanzar - TRIBUTO",
+      "venue": "Hard Rock Cafe Blue Mall",
+      "zone": "",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "Tributo a : ANA GABRIEL by Johanna Almanzar Sus grandes éxitos en una noche llena de emoción. Viernes 20 de Noviembre 8:00PM / Hard Rock Café Santo Domingo - Bluemall",
+      "ticketUrl": "https://tix.do/event/ANAGABRIELbyJohannaAlmanzarTRIBUTO-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/ANAGABRIELbyJohannaAlmanzarTRIBUTO-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/ANAGABRIELbyJohannaAlmanzarTRIBUTO-1"
+        }
+      ]
+    },
+    {
+      "id": "9770a05c406a90f7",
+      "source": "ticketmax",
+      "date": "2026-11-20",
+      "end": null,
+      "sessions": null,
+      "title": "FDT 10X10 | LA CASA DE BERNARDA ALBA",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": 800,
+      "price_max": null,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "La historia gira en torno a Bernarda Alba, una viuda dominante y autoritaria que impone un luto riguroso sobre sus cinco hijas tras la muerte de su segundo marido. Encerradas en su casa, las hijas luchan por su libertad y deseos personales bajo la opresión y el control de su mad…",
+      "ticketUrl": "https://ticketmax.org/evento/254338/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/254338/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/254338/"
+        }
+      ]
+    },
+    {
+      "id": "aa2199a5478bf817",
+      "source": "ticketmax",
+      "date": "2026-11-21",
+      "end": "2026-11-28",
+      "sessions": null,
+      "title": "Mixilogia y Mujer. La Pijamada | Sábado 21 al Sábado 28 Noviembre 2026",
+      "venue": "The Box Working Space",
+      "zone": "",
+      "cat": "Cultura",
+      "price": 6000,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [
+        "formacion"
+      ],
+      "description": "",
+      "ticketUrl": "https://ticketmax.org/evento/266187/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/266187/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/266187/"
+        }
+      ]
+    },
+    {
+      "id": "bbf365f922dbb4e7",
+      "source": "tix",
+      "date": "2026-11-21",
+      "end": null,
+      "sessions": null,
+      "title": "AARON 21 - ALMA ROSA: EL CONCIERTO",
+      "venue": "Los Reales Colonial",
+      "zone": "",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "**AARON 21 — ALMA ROSA: EN VIVO 🌹** LO’ PRIMO, llegó el momento de vivir **ALMA ROSA** de una manera completamente diferente. Este **21 de noviembre** nos reunimos en **Los Reales Colonial** para una noche especial donde la música, la historia y la energía de ALMA ROSA cobran vi…",
+      "ticketUrl": "https://tix.do/event/AARON21ALMAROSAELCONCIERTO-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/AARON21ALMAROSAELCONCIERTO-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/AARON21ALMAROSAELCONCIERTO-1"
+        }
+      ]
+    },
+    {
+      "id": "3a70abbcdf4bb12f",
+      "source": "tix",
+      "date": "2026-11-21",
+      "end": null,
+      "sessions": null,
+      "title": "LA PÚBLICA DE PASEO - NOVELPOPPYS",
+      "venue": "Escenario 360",
+      "zone": "",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "20:00",
+      "kids": true,
+      "tags": [],
+      "description": "LA PÚBLICA DE PASEO - El show del programa de Humor #1 en YOUTUBE llega a Escenario 360 para que lo puedas disfrutar en vivo junto a tus amigos y familiares. 📅 Sábado 21 de noviembre 🕜 8:00pm 📍 Escenario 360 - GALERÍA 360 🎟️ RD$1,000 COCINA - RD$1,500 LOS CORISTAS - RD$2,000 CLU…",
+      "ticketUrl": "https://tix.do/event/LAPUBLICADEPASEONOVELPOPPYS-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/LAPUBLICADEPASEONOVELPOPPYS-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/LAPUBLICADEPASEONOVELPOPPYS-1"
+        }
+      ]
+    },
+    {
+      "id": "c6f40fed3d2992d3",
+      "source": "ticketmax",
+      "date": "2026-11-21",
+      "end": null,
+      "sessions": null,
+      "title": "FDT 10X10 | TERAPIA",
+      "venue": "Teatro Guloya",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 800,
+      "price_max": null,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "Un hombre llega al consultorio de un psicoanalista para solicitar una cita para su madre… una madre que, aparentemente, no existe. A partir de ese encuentro, el terapeuta se ve envuelto en una sucesión de situaciones disparatadas que ponen a prueba su propia cordura. Mientras el…",
+      "ticketUrl": "https://ticketmax.org/evento/254658/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/254658/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/254658/"
+        }
+      ]
+    },
+    {
+      "id": "4cf630ddb5b4b697",
+      "source": "tix",
+      "date": "2026-11-21",
+      "end": null,
+      "sessions": null,
+      "title": "Juanma's Jazzy Christmas: An Intimate Celebration",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://tix.do/event/JuanmasJazzyChristmasAnIntimateCelebration-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/JuanmasJazzyChristmasAnIntimateCelebration-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/JuanmasJazzyChristmasAnIntimateCelebration-1"
+        }
+      ]
+    },
+    {
+      "id": "506c00270f2e5e0d",
+      "source": "ticketmax",
+      "date": "2026-11-22",
+      "end": null,
+      "sessions": null,
+      "title": "FDT 10X10 | TERAPIA",
+      "venue": "Teatro Guloya",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 800,
+      "price_max": null,
+      "time": "19:30",
+      "kids": false,
+      "tags": [],
+      "description": "Un hombre llega al consultorio de un psicoanalista para solicitar una cita para su madre… una madre que, aparentemente, no existe. A partir de ese encuentro, el terapeuta se ve envuelto en una sucesión de situaciones disparatadas que ponen a prueba su propia cordura. Mientras el…",
+      "ticketUrl": "https://ticketmax.org/evento/254701/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/254701/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/254701/"
+        }
+      ]
+    },
+    {
+      "id": "0b4eff3601d6a40a",
+      "source": "ticketmax",
+      "date": "2026-11-25",
+      "end": null,
+      "sessions": null,
+      "title": "LO QUE LA CAMA SABE Y LA BOCA CALLA | ELAINE FELIZ",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 1500,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [
+        "formacion"
+      ],
+      "description": "Lo que la cama sabe y la boca calla es un show de Elaine Féliz para reírnos de la sexualidad real: la del deseo, la culpa, el cuerpo, los silencios, los límites y todas esas ideas mal aprendidas que también se meten en la cama. Una noche con humor, verdad y cero anestesia para h…",
+      "ticketUrl": "https://ticketmax.org/evento/900002/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900002/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900002/"
+        }
+      ]
+    },
+    {
+      "id": "49bc0ead4d634008",
+      "source": "ticketmax",
+      "date": "2026-11-26",
+      "end": null,
+      "sessions": null,
+      "title": "FDT 10X10 | SUEÑO DE UNA NOCHE DE VERANO",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": 800,
+      "price_max": null,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "Una boda está a punto de celebrarse… pero antes de llegar al “sí, acepto”, el amor deberá atravesar un bosque encantado donde nada ocurre como debería. Entre hechizos, enredos románticos, personajes extravagantes y situaciones inesperadas, esta nueva versión de Sueño de una noch…",
+      "ticketUrl": "https://ticketmax.org/evento/254776/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/254776/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/254776/"
+        }
+      ]
+    },
+    {
+      "id": "04bcbbd12adb8f37",
+      "source": "tix",
+      "date": "2026-11-26",
+      "end": null,
+      "sessions": null,
+      "title": "TOUR BACHARENGUE 2.0 Thanksgiving Edition",
+      "venue": "Hard Rock Cafe Santo Domingo",
+      "zone": "",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "21:00",
+      "kids": false,
+      "tags": [],
+      "description": "HARD ROCK CAFÉ SANTO DOMINGO PRESENTA LA MÁS VERSÁTIL, LA MÁS POPULAR, LA MÁS QUERIDA MARCEL PIEL MORENA BACHARENGUE 2.0 THANKSGIVING EDITION JUEVES 26 DE NOVIEMBRE DE 2026 ACOMPAÑADA POR 17 MÚSICOS EN ESCENA E INVITADOS ESPECIALES UN EVENTO DE FUNDACIÓN MEDIA LUNA EN APOYO A LA…",
+      "ticketUrl": "https://tix.do/event/TOURBACHARENGUE20ThanksgivingEdition-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/TOURBACHARENGUE20ThanksgivingEdition-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/TOURBACHARENGUE20ThanksgivingEdition-1"
+        }
+      ]
+    },
+    {
+      "id": "e5ab435923752366",
+      "source": "ticketmax",
+      "date": "2026-11-27",
+      "end": null,
+      "sessions": null,
+      "title": "FDT 10X10 | SUEÑO DE UNA NOCHE DE VERANO",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": 800,
+      "price_max": null,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "Una boda está a punto de celebrarse… pero antes de llegar al “sí, acepto”, el amor deberá atravesar un bosque encantado donde nada ocurre como debería. Entre hechizos, enredos románticos, personajes extravagantes y situaciones inesperadas, esta nueva versión de Sueño de una noch…",
+      "ticketUrl": "https://ticketmax.org/evento/254783/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/254783/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/254783/"
+        }
+      ]
+    },
+    {
+      "id": "6d926b1638c50bc6",
+      "source": "ticketmax",
+      "date": "2026-11-28",
+      "end": null,
+      "sessions": null,
+      "title": "FDT 10X10 | RUIDO",
+      "venue": "Teatro Guloya",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 800,
+      "price_max": null,
+      "time": "20:30",
+      "kids": true,
+      "tags": [],
+      "description": "En medio de apagones, toques de queda y escasez, una familia excéntrica y su vecina en bata se enredan en conversaciones absurdas, copas de vino y alarmas que nunca dejan de sonar. Ruido es una comedia delirante donde lo cotidiano se vuelve extravagante y el caos político se con…",
+      "ticketUrl": "https://ticketmax.org/evento/254937/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/254937/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/254937/"
+        }
+      ]
+    },
+    {
+      "id": "223478797134913e",
+      "source": "tix",
+      "date": "2026-11-28",
+      "end": null,
+      "sessions": null,
+      "title": "A NEW DAY",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "21:00",
+      "kids": false,
+      "tags": [],
+      "description": "\"A New Day\" llega el 28 de noviembre a Casa de Teatro. Una noche llena de energía y buena música para celebrar un nuevo comienzo. ¡Ven a vivir esta experiencia con nosotros!",
+      "ticketUrl": "https://tix.do/event/ANEWDAY-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/ANEWDAY-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/ANEWDAY-1"
+        }
+      ]
+    },
+    {
+      "id": "e3b37e2c64e0c72b",
+      "source": "ticketmax",
+      "date": "2026-11-29",
+      "end": null,
+      "sessions": null,
+      "title": "FDT 10X10 | RUIDO",
+      "venue": "Teatro Guloya",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 800,
+      "price_max": null,
+      "time": "19:30",
+      "kids": true,
+      "tags": [],
+      "description": "En medio de apagones, toques de queda y escasez, una familia excéntrica y su vecina en bata se enredan en conversaciones absurdas, copas de vino y alarmas que nunca dejan de sonar. Ruido es una comedia delirante donde lo cotidiano se vuelve extravagante y el caos político se con…",
+      "ticketUrl": "https://ticketmax.org/evento/254945/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/254945/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/254945/"
+        }
+      ]
+    },
+    {
+      "id": "1da849a3caffd071",
+      "source": "tix",
+      "date": "2026-12-01",
+      "end": null,
+      "sessions": null,
+      "title": "ROMÁN MOSTEIRO · CASA CRUDA TOUR",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "16:00",
+      "kids": false,
+      "tags": [],
+      "description": "Román Mosteiro vuelve un año después de su primera visita a la ciudad para presentar su tercer disco de autor CASA CRUDA. Será desde el corazón de la Zona Colonial de Santo Domingo en Casa de Teatro. Un concierto en el cual se podrán escuchar todas las nuevas canciones de este t…",
+      "ticketUrl": "https://tix.do/event/ROMANMOSTEIROCASACRUDATOUR-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/ROMANMOSTEIROCASACRUDATOUR-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/ROMANMOSTEIROCASACRUDATOUR-1"
+        }
+      ]
+    },
+    {
+      "id": "b8c538f653cec4ea",
+      "source": "ticketmax",
+      "date": "2026-12-03",
+      "end": null,
+      "sessions": null,
+      "title": "FDT 10x10 | BODAS DE SANGRE",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": 800,
+      "price_max": null,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "Una boda. Un deseo prohibido. Un destino que ya está escrito. La Novia y Leonardo arrastran un amor imposible que irrumpe en medio de un matrimonio marcado por la sangre y la tradición. Cuando deciden huir, desatan una fuerza inevitable donde la pasión, la honra y la muerte se e…",
+      "ticketUrl": "https://ticketmax.org/evento/255078/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/255078/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/255078/"
+        }
+      ]
+    },
+    {
+      "id": "576ac6bfe3d44821",
+      "source": "tix",
+      "date": "2026-12-03",
+      "end": null,
+      "sessions": null,
+      "title": "J-ROD SULLIVAN - THE GREEN ROOM",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "21:30",
+      "kids": false,
+      "tags": [],
+      "description": "El jueves 3 de diciembre, The Green Room se viste de gala para recibir a Jerrod \"J-Rod\" Sullivan en nuestra Jazz Night. Baterista actual de Janet Jackson y Jeffrey Osborne, J-Rod es un referente mundial de la percusión, reconocido por su técnica impecable, su versatilidad y su c…",
+      "ticketUrl": "https://tix.do/event/JRODSULLIVANTHEGREENROOM-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/JRODSULLIVANTHEGREENROOM-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/JRODSULLIVANTHEGREENROOM-1"
+        }
+      ]
+    },
+    {
+      "id": "fdf0637cd75c74a6",
+      "source": "ticketmax",
+      "date": "2026-12-04",
+      "end": null,
+      "sessions": null,
+      "title": "FDT 10x10 | BODAS DE SANGRE",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": 800,
+      "price_max": null,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "Una boda. Un deseo prohibido. Un destino que ya está escrito. La Novia y Leonardo arrastran un amor imposible que irrumpe en medio de un matrimonio marcado por la sangre y la tradición. Cuando deciden huir, desatan una fuerza inevitable donde la pasión, la honra y la muerte se e…",
+      "ticketUrl": "https://ticketmax.org/evento/255088/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/255088/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/255088/"
+        }
+      ]
+    },
+    {
+      "id": "cf31168b2d24e6c2",
+      "source": "tix",
+      "date": "2026-12-05",
+      "end": null,
+      "sessions": null,
+      "title": "Andrés Obregón en Concierto",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "Después de recorrer escenarios en México, Latinoamérica, Estados Unidos y Europa con su gira Todo Pasa, Andrés Obregón llega por primera vez a República Dominicana. En este concierto especial, el cantautor mexicano presentará las canciones que han marcado su carrera y los temas…",
+      "ticketUrl": "https://tix.do/event/AndresObregonenConcierto-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/AndresObregonenConcierto-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/AndresObregonenConcierto-1"
+        }
+      ]
+    },
+    {
+      "id": "2fd79917e6539551",
+      "source": "ticketmax",
+      "date": "2026-12-05",
+      "end": null,
+      "sessions": null,
+      "title": "El Rey Latino Show by Carlos Moore",
+      "venue": "Seven Lounge",
+      "zone": "",
+      "cat": "Música",
+      "price": 1000,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "El Rey Latino de Carlos Moore es un show retro-moderno, contando con canciones y clásicos nunca antes grabadas en las versiones POP-URBANAS. Por eso llevamos el slogan de \"los clásicos nunca pasan de moda\" esta vez con el estilo auténtico de Carlos Moore",
+      "ticketUrl": "https://ticketmax.org/evento/264599/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/264599/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/264599/"
+        }
+      ]
+    },
+    {
+      "id": "8f179ea8ff689fbb",
+      "source": "ticketmax",
+      "date": "2026-12-05",
+      "end": null,
+      "sessions": null,
+      "title": "FDT 10X10 | 75 PUÑALADAS",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": 800,
+      "price_max": null,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "Mr. Stagertton ha sido encontrado muerto en su estudio, aparentemente asesinado de 75 puñaladas. Lo extraño es que las puertas y ventanas estaban cerradas por dentro, no hay rastros del asesino y, sobre todo, no existe una sola gota de sangre en la escena del crimen. Para resolv…",
+      "ticketUrl": "https://ticketmax.org/evento/255179/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/255179/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/255179/"
+        }
+      ]
+    },
+    {
+      "id": "1c256d19fa6745c0",
+      "source": "ticketmax",
+      "date": "2026-12-06",
+      "end": null,
+      "sessions": null,
+      "title": "FDT 10X10 | 75 PUÑALADAS",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": 800,
+      "price_max": null,
+      "time": "19:30",
+      "kids": false,
+      "tags": [],
+      "description": "Mr. Stagertton ha sido encontrado muerto en su estudio, aparentemente asesinado de 75 puñaladas. Lo extraño es que las puertas y ventanas estaban cerradas por dentro, no hay rastros del asesino y, sobre todo, no existe una sola gota de sangre en la escena del crimen. Para resolv…",
+      "ticketUrl": "https://ticketmax.org/evento/255189/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/255189/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/255189/"
+        }
+      ]
+    },
+    {
+      "id": "32b49125b586579e",
+      "source": "ticketmax",
+      "date": "2026-12-10",
+      "end": null,
+      "sessions": null,
+      "title": "Emilio y Laureano: Tierra de Gracia",
+      "venue": "Hard Rock Cafe Santo Domingo",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 1000,
+      "price_max": 2000,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://ticketmax.org/evento/245257/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/245257/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/245257/"
+        }
+      ]
+    },
+    {
+      "id": "616a915e6c94108f",
+      "source": "ticketmax",
+      "date": "2026-12-11",
+      "end": null,
+      "sessions": null,
+      "title": "TRASLADO AL FESTIVAL PRESIDENTE",
+      "venue": "Estadio Olímpico Félix Sánchez",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 1650,
+      "price_max": 2950,
+      "time": "13:00",
+      "kids": false,
+      "tags": [],
+      "description": "Experiencia Incluye: * Traslado Ida y Vuelta * Open Bar * Refrigerio * Asistencia de nuestros #4RutasStaff * Cobertura Memovid * Botiquín de Primeros Auxilios. * Seguro de Viaje. * Seguridad abordo Salida: Punta Cana : Downton La Romana: Jumbo San Pedro de Macoris: Mcdonalds",
+      "ticketUrl": "https://ticketmax.org/evento/254996/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/254996/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/254996/"
+        }
+      ]
+    },
+    {
+      "id": "56d9b753bff50ba1",
+      "source": "ticketmax",
+      "date": "2026-12-12",
+      "end": null,
+      "sessions": null,
+      "title": "TRASLADO AL FESTIVAL PRESIDENTE",
+      "venue": "Estadio Olímpico Félix Sánchez",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 1650,
+      "price_max": 2950,
+      "time": "13:00",
+      "kids": false,
+      "tags": [],
+      "description": "Experiencia Incluye: * Traslado Ida y Vuelta * Open Bar * Refrigerio * Asistencia de nuestros #4RutasStaff * Cobertura Memovid * Botiquín de Primeros Auxilios. * Seguro de Viaje. * Seguridad abordo Salida: Punta Cana : Downton La Romana: Jumbo San Pedro de Macoris: Mcdonalds",
+      "ticketUrl": "https://ticketmax.org/evento/255031/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/255031/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/255031/"
+        }
+      ]
+    },
+    {
+      "id": "d9502c7909c91214",
+      "source": "tix",
+      "date": "2026-12-13",
+      "end": null,
+      "sessions": null,
+      "title": "𝐄𝐋 𝐆𝐑𝐈𝐍𝐂𝐇: 𝐃𝐄𝐒𝐃𝐄 𝐋𝐀 𝐌𝐎𝐍𝐓𝐀Ñ𝐀",
+      "venue": "Sala Manuel Rueda",
+      "zone": "",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "16:00",
+      "kids": false,
+      "tags": [],
+      "description": "𝐄𝐋 𝐆𝐑𝐈𝐍𝐂𝐇: 𝐃𝐄𝐒𝐃𝐄 𝐋𝐀 𝐌𝐎𝐍𝐓𝐀Ñ𝐀 𝐓𝐨𝐝𝐨𝐬 𝐜𝐨𝐧𝐨𝐜𝐞𝐧 𝐚𝐥 𝐆𝐫𝐢𝐧𝐜𝐡. 𝐓𝐨𝐝𝐨𝐬 𝐬𝐚𝐛𝐞𝐧 𝐪𝐮𝐞 𝐨𝐝𝐢𝐚 𝐥𝐚 𝐍𝐚𝐯𝐢𝐝𝐚𝐝. 𝐓𝐨𝐝𝐨𝐬 𝐬𝐚𝐛𝐞𝐧 𝐪𝐮𝐞 𝐞𝐬 𝐞𝐥 𝐯𝐢𝐥𝐥𝐚𝐧𝐨… ¿𝐨 𝐞𝐬𝐨 𝐟𝐮𝐞 𝐬𝐢𝐦𝐩𝐥𝐞𝐦𝐞𝐧𝐭𝐞 𝐥𝐨 𝐪𝐮𝐞 𝐧𝐨𝐬 𝐜𝐨𝐧𝐭𝐚𝐫𝐨𝐧?𝐌𝐢𝐞𝐧𝐭𝐫𝐚𝐬 𝐕𝐢𝐥𝐥𝐚𝐪𝐮𝐢é𝐧 𝐬𝐞 𝐩𝐫𝐞𝐩𝐚𝐫𝐚 𝐩𝐚𝐫𝐚 𝐜𝐞𝐥𝐞𝐛𝐫𝐚𝐫 𝐥𝐚 𝐍𝐚𝐯𝐢𝐝𝐚𝐝 𝐦á𝐬 𝐞𝐬𝐩𝐞𝐜𝐭𝐚𝐜𝐮𝐥𝐚𝐫 𝐝𝐞 𝐭𝐨𝐝𝐚𝐬, 𝐝𝐞𝐬𝐝𝐞 𝐥𝐨 𝐚𝐥𝐭𝐨 𝐝𝐞 𝐥𝐚 𝐦𝐨𝐧𝐭𝐚ñ𝐚 𝐞𝐥 𝐆𝐫𝐢𝐧𝐜…",
+      "ticketUrl": "https://tix.do/event/N-4138",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/N-4138",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/N-4138"
+        }
+      ]
+    },
+    {
+      "id": "16a909a97c4cc4d5",
+      "source": "tix",
+      "date": "2026-12-17",
+      "end": null,
+      "sessions": null,
+      "title": "Giorgio Siladi en Los Reales Colonial",
+      "venue": "Los Reales Colonial",
+      "zone": "",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "Giorgio Siladi presenta en vivo Así Inventamos el Fuego, su tercer álbum de estudio y el cierre de una trilogía iniciada en 2020 con Todo Se Mueve y continuada con Quemar La Casa. El concierto reunirá canciones de las tres producciones en un recorrido por la evolución artística…",
+      "ticketUrl": "https://tix.do/event/GiorgioSiladienLosRealesColonial-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/GiorgioSiladienLosRealesColonial-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/GiorgioSiladienLosRealesColonial-1"
+        }
+      ]
+    },
+    {
+      "id": "caeae21559164576",
+      "source": "tix",
+      "date": "2026-12-18",
+      "end": "2026-12-19",
+      "sessions": null,
+      "title": "Andres Rubio y sus amigos",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "¡Hola amig@! Espero te encuentres muy bien. Aprovecho para invitarte a mi próximo concierto acustico. Será en mi casa @Casadeteatro en la ciudad colonial. ¡Te espero para que cantemos juntos puro rock en español y algo mas!😎🤠🎸🎶",
+      "ticketUrl": "https://tix.do/event/AndresRubioysusamigos-5",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/AndresRubioysusamigos-5",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/AndresRubioysusamigos-5"
         }
       ]
     },
@@ -1006,6 +4732,110 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/vicente-garcia-sinfonico/"
+        }
+      ]
+    },
+    {
+      "id": "32746b5d510d22c3",
+      "source": "ticketmax",
+      "date": "2026-12-20",
+      "end": null,
+      "sessions": null,
+      "title": "Noti-Antaño",
+      "venue": "Iglesia Metodista Libre",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 500,
+      "price_max": null,
+      "time": "17:30",
+      "kids": true,
+      "tags": [],
+      "description": "NOTI-ANTAÑO Nuestros corresponsales están listos para compartir la mejor noticia de hace 2mil años. Un elenco integrado por cantores, actores y reporteros te hará vivir la Navidad otra vez. Obra de Navidad. Los fondos serán usados para la construcción de un aula para los niños d…",
+      "ticketUrl": "https://ticketmax.org/evento/259078/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/259078/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/259078/"
+        }
+      ]
+    },
+    {
+      "id": "1d4be3cbb01c1b07",
+      "source": "tix",
+      "date": "2026-12-23",
+      "end": null,
+      "sessions": null,
+      "title": "Carlos Sánchez en The Green Room",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "Carlos está armando este nuevo concepto. Carlos les cuenta sus últimos anécdotas y chismes, el público le cuenta a Carlos sus chismes. Quien sabe si hasta terminamos cantando todos al final. Es decir: una cura. Para reservaciones de mesas llamar al 809 -740-4601 La compra de bol…",
+      "ticketUrl": "https://tix.do/event/CarlosSanchezenTheGreenRoom-6",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/CarlosSanchezenTheGreenRoom-6",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/CarlosSanchezenTheGreenRoom-6"
+        }
+      ]
+    },
+    {
+      "id": "c52bd05d25504279",
+      "source": "tix",
+      "date": "2027-01-16",
+      "end": null,
+      "sessions": null,
+      "title": "Next Gen Run 5k run • connect • wellness",
+      "venue": "Jardin Botanico",
+      "zone": "",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "06:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://tix.do/event/NextGenRun5krunconnectwellness-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/NextGenRun5krunconnectwellness-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/NextGenRun5krunconnectwellness-1"
+        }
+      ]
+    },
+    {
+      "id": "8893b0a95e233726",
+      "source": "tix",
+      "date": "2027-01-17",
+      "end": null,
+      "sessions": null,
+      "title": "NEGOCIANTES RD SUMMIT 2027",
+      "venue": "Pabellon de la Fama del Deporte Dominicano",
+      "zone": "",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "10:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://tix.do/event/NEGOCIANTESRDSUMMIT2027-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/NEGOCIANTESRDSUMMIT2027-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/NEGOCIANTESRDSUMMIT2027-1"
         }
       ]
     },

@@ -167,7 +167,8 @@ function ventana(){
   const dow=parse(hoy).getDay();
   if(st.rango==="hoy")return[hoy,hoy];
   if(st.rango==="manana")return[suma(hoy,1),suma(hoy,1)];
-  if(st.rango==="finde"){const sab=suma(hoy,(6-dow+7)%7);return dow===0?[hoy,hoy]:dow===6?[hoy,suma(hoy,1)]:[sab,suma(sab,1)]}
+  // El fin de semana va de viernes a domingo. Si ya es sábado o domingo, empieza hoy (lo pasado no se muestra).
+  if(st.rango==="finde"){const vie=suma(hoy,(5-dow+7)%7);return dow===0?[hoy,hoy]:dow===6?[hoy,suma(hoy,1)]:[vie,suma(vie,2)]}
   return[hoy,"9999-12-31"]}
 const nombreDia=f=>{const d=parse(f);return DIAS[d.getDay()][0].toUpperCase()+DIAS[d.getDay()].slice(1)+" "+d.getDate()+" de "+MESES[d.getMonth()]};
 const corto=f=>{const d=parse(f);return DIAS[d.getDay()].slice(0,3)+" "+d.getDate()};

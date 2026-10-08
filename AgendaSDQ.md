@@ -148,3 +148,12 @@ sin año, dirección, horario ni precio; las cerradas salen sin fechas. robots.t
 no se revisaron sus términos de uso. Con unas 3 muestras al mes no justifica un adaptador: se cargan como series curadas con `range`
 (Interconexión y ARQUIONIRIAS, de ASR Galería, quedaron cargadas). Volver a mirar la página cuando abra una muestra nueva.
 
+
+### Noticias del Ministerio de Cultura (cultura.gob.do/noticias), revisadas el 7 de octubre de 2026
+
+Sitio WordPress con feed RSS 2.0 (`/feed/`), `sitemap_index.xml` y un robots.txt sin ninguna prohibición. Las notas son comunicados de prensa
+casi todos posteriores al hecho: las 16 más recientes (1 al 4 de oct) hablan de la Feria Internacional del Libro, que ya cerró el 4 de oct.
+No traen calendario de eventos y los datos de fecha, hora, lugar y precio van dentro del texto. Solo una nota anuncia algo futuro
+(la FILSD 2027, del 12 al 26 de septiembre de 2027, sin precio). Los eventos propios del Ministerio ya entran por `sic`.
+No justifica un adaptador por ahora: rinde poco y repetiría `sic`. Útil como confirmación a mano y para series de temporada (FILSD, cuando
+anuncien las fechas de 2027).

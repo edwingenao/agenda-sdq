@@ -42,6 +42,7 @@ VENUES = [  # el texto libre rara vez marca el lugar de forma uniforme: lista de
     "Jazz Café",
     "Hotel Embajador",
 ]
+_NO_COVER_SERIES = re.compile(r"fiesta sunset jazz", re.I)
 _TIME = re.compile(r"(?:a las|a partir de las|desde las)\s*(\d{1,2})(?::(\d{2}))?\s*([ap])\.?\s*m", re.I)
 _ANY_TIME = re.compile(r"\b(\d{1,2})(?::(\d{2}))?\s*([ap])\.?\s*m\b", re.I)
 
@@ -93,6 +94,10 @@ def parse_weekly(title_text: str, lines: list[str], published: date, post_url: s
         # "No cover" + boletas a RD$1,500: manda el monto
         is_free, pmin, pmax = parse_price(body)
         if is_free is None and re.search(r"\bno cover\b|entrada libre|gratis", body, re.I):
+            is_free, pmin, pmax = True, 0, 0
+        if is_free is None and _NO_COVER_SERIES.search(title):
+            # Su entrada del feed no dice el precio, pero la barra lateral del blog la lista con "No cover!"
+            # (el feed no la trae) y Edwin lo confirmó el 7 de octubre de 2026.
             is_free, pmin, pmax = True, 0, 0
         slug = re.sub(r"\W+", "-", title.casefold()).strip("-")[:50]
         out.append(

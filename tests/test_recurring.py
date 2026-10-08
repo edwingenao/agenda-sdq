@@ -491,7 +491,7 @@ def test_shipped_guide_prices_are_never_assumed_free():
     ev = shipped("Mis 500 locos")
     assert ev.is_free is False and ev.price_min == 400
     for fragment in ("FESTIL", "Appassionato", "Liborio", "Tubérculo", "Una fiesta de esperanza",
-                     "Canto Coral", "Techy", "Alok", "Entre muros"):
+                     "Canto Coral", "Techy", "Alok"):
         ev = shipped(fragment)
         assert ev.is_free is None and ev.price_min is None, fragment
 
@@ -520,11 +520,17 @@ def test_shipped_guide_zones():
 def test_shipped_gerard_ellis_exhibition_is_a_range():
     ev = shipped("Gerard Ellis: The Dominican Dream (exposición)")
     assert ev.dates == ["2026-10-15", "2026-11-13"] and ev.category == "Arte"
-    assert ev.is_free is None  # solo la inauguración está confirmada como gratis
+    assert ev.is_free is True  # Edwin confirmó (7 oct 2026) que las exposiciones en galerías son gratis
 
 
 def test_shipped_asr_galeria_shows_are_ranges():
     inter = shipped("Interconexión")
     assert inter.dates == ["2026-09-03", "2026-10-15"] and inter.category == "Arte"
-    assert inter.is_free is None and inter.start_time is None
+    assert inter.is_free is True and inter.start_time is None
     assert shipped("ARQUIONIRIAS").dates == ["2026-09-17", "2026-10-17"]
+
+
+def test_shipped_gallery_exhibitions_are_free_by_edwins_confirmation():
+    for fragment in ("Interconexión", "ARQUIONIRIAS", "Entre muros", "Gerard Ellis: The Dominican Dream (exposición)"):
+        ev = shipped(fragment)
+        assert ev.is_free is True and ev.price_min == 0, fragment

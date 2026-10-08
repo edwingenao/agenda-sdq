@@ -103,6 +103,26 @@ def test_cce_detail():
     assert ev.to_public()["sessions"] == ev.dates
 
 
+def test_cce_formacion_without_price_line_is_free():
+    """Confirmado por Edwin (7 oct 2026): los cursos de Formación del CCE son gratuitos aunque la página no lo diga."""
+    html = CCE_HTML.replace("Precio: Gratuito (Entrada libre hasta completar aforo)", "")
+    ev = cce_detail(html, "https://ccesd.aecid.es/w/novela", TODAY)
+    assert "formacion" in ev.tags and ev.is_free is True and ev.price_min == 0
+
+
+def test_cce_formacion_with_a_price_keeps_the_price():
+    html = CCE_HTML.replace("Precio: Gratuito (Entrada libre hasta completar aforo)", "Precio: RD$1,500")
+    ev = cce_detail(html, "https://ccesd.aecid.es/w/novela", TODAY)
+    assert ev.is_free is False and ev.price_min == 1500
+
+
+def test_cce_event_that_is_not_formacion_stays_unconfirmed():
+    html = CCE_HTML.replace("Precio: Gratuito (Entrada libre hasta completar aforo)", "").replace("Formación", "Exposición")
+    html = html.replace("con entrada libre hasta completar aforo", "")
+    ev = cce_detail(html, "https://ccesd.aecid.es/w/expo", TODAY)
+    assert "formacion" not in ev.tags and ev.is_free is None
+
+
 def test_cce_extract_links_skips_portlet_urls():
     html = """<a href="/w/uno">1</a><a href="/w/dos?x=1#frag">2</a><a href="/w/uno">dup</a>
     <a href="/c/portal/login">login</a><a href="/w/tres?p_p_id=abc">3</a><a href="https://otro.com/w/cuatro">4</a>"""

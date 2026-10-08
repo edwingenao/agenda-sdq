@@ -600,9 +600,7 @@
       "exceptions": [],
       "venue": "Galería 360",
       "category": ["Arte"],
-      "price": {
-        "status": "unconfirmed"
-      },
+      "price": { "status": "free" },
       "description": "Exposición en Galería 360, abierta hasta el 15 de octubre.",
       "url": "https://www.instagram.com/galeria360/",
       "sources": [
@@ -617,12 +615,18 @@
           "url": "https://www.instagram.com/letstalkart.rd/",
           "seen": "2026-10-07",
           "says": "Entre muros y colores, hasta el 15 de octubre, Galería 360; sin fecha de apertura, horario ni precio"
+        },
+        {
+          "name": "Confirmación de Edwin Genao",
+          "url": "https://www.instagram.com/galeria360/",
+          "seen": "2026-10-07",
+          "says": "Las exposiciones en galerías son de entrada gratis (la fuente no trae precio)"
         }
       ],
       "confidence": "listado",
       "last_confirmed": "2026-10-07",
       "stale_after_days": 14,
-      "notes": "No se sabe cuándo abrió: se muestra desde hoy hasta el cierre. El flyer no trae precio: queda por confirmar."
+      "notes": "No se sabe cuándo abrió: se muestra desde hoy hasta el cierre. El flyer no trae precio; gratis según Edwin."
     },
     {
       "id": "gerard-ellis-dominican-dream-muestra",
@@ -636,9 +640,7 @@
       "exceptions": [],
       "venue": "Lyle O. Reitzel Arte Contemporáneo, Torre Piantini (Av. Gustavo Mejía Ricart 196, Piantini)",
       "category": ["Arte"],
-      "price": {
-        "status": "unconfirmed"
-      },
+      "price": { "status": "free" },
       "description": "Solo show de Gerard Ellis que parte del béisbol y de los peloteros dominicanos, del 15 de octubre al 13 de noviembre.",
       "url": "https://www.artsy.net/show/lyle-o-reitzel-the-dominican-dream",
       "sources": [
@@ -647,12 +649,18 @@
           "url": "https://www.artsy.net/show/lyle-o-reitzel-the-dominican-dream",
           "seen": "2026-10-07",
           "says": "The Dominican Dream, 15 de octubre al 13 de noviembre de 2026, Torre Piantini; sin precio ni horario de visita"
+        },
+        {
+          "name": "Confirmación de Edwin Genao",
+          "url": "https://www.artsy.net/show/lyle-o-reitzel-the-dominican-dream",
+          "seen": "2026-10-07",
+          "says": "Las exposiciones en galerías son de entrada gratis (la fuente no trae precio)"
         }
       ],
       "confidence": "oficial",
       "last_confirmed": "2026-10-07",
       "stale_after_days": 30,
-      "notes": "Es la muestra completa; la noche de apertura es la serie gerard-ellis-dominican-dream-inauguracion. Solo se confirmó como gratis la inauguración: el precio de visitar la muestra queda por confirmar."
+      "notes": "Es la muestra completa; la noche de apertura es la serie gerard-ellis-dominican-dream-inauguracion. Gratis según Edwin, que ha ido a la galería."
     },
     {
       "id": "asr-interconexion-2026",
@@ -666,9 +674,7 @@
       "exceptions": [],
       "venue": "ASR Galería",
       "category": ["Arte"],
-      "price": {
-        "status": "unconfirmed"
-      },
+      "price": { "status": "free" },
       "description": "Muestra en ASR Galería, abierta hasta el 15 de octubre.",
       "url": "https://www.artsy.net/shows/santo-domingo-dominican-republic",
       "sources": [
@@ -677,12 +683,18 @@
           "url": "https://www.artsy.net/shows/santo-domingo-dominican-republic",
           "seen": "2026-10-07",
           "says": "Interconexión, ASR Galería, Santo Domingo, 3 sep al 15 oct, estado actual; sin año, dirección ni precio"
+        },
+        {
+          "name": "Confirmación de Edwin Genao",
+          "url": "https://www.artsy.net/shows/santo-domingo-dominican-republic",
+          "seen": "2026-10-07",
+          "says": "Las exposiciones en galerías son de entrada gratis (la fuente no trae precio)"
         }
       ],
       "confidence": "listado",
       "last_confirmed": "2026-10-07",
       "stale_after_days": 14,
-      "notes": "Artsy no indica el año ni la dirección, el horario ni el precio: el año 2026 se deduce de que figura como muestra actual el 7 de octubre de 2026. Precio por confirmar."
+      "notes": "Artsy no indica el año ni la dirección, el horario ni el precio: el año 2026 se deduce de que figura como muestra actual el 7 de octubre de 2026."
     },
     {
       "id": "asr-arquionirias-2026",
@@ -696,9 +708,7 @@
       "exceptions": [],
       "venue": "ASR Galería",
       "category": ["Arte"],
-      "price": {
-        "status": "unconfirmed"
-      },
+      "price": { "status": "free" },
       "description": "Muestra «ARQUIONIRIAS: Arquitecturas de lo Onírico» en ASR Galería, abierta hasta el 17 de octubre.",
       "url": "https://www.artsy.net/shows/santo-domingo-dominican-republic",
       "sources": [
@@ -707,12 +717,18 @@
           "url": "https://www.artsy.net/shows/santo-domingo-dominican-republic",
           "seen": "2026-10-07",
           "says": "ARQUIONIRIAS: Arquitecturas de lo Onírico, ASR Galería, Santo Domingo, 17 sep al 17 oct, estado actual; sin año, dirección ni precio"
+        },
+        {
+          "name": "Confirmación de Edwin Genao",
+          "url": "https://www.artsy.net/shows/santo-domingo-dominican-republic",
+          "seen": "2026-10-07",
+          "says": "Las exposiciones en galerías son de entrada gratis (la fuente no trae precio)"
         }
       ],
       "confidence": "listado",
       "last_confirmed": "2026-10-07",
       "stale_after_days": 14,
-      "notes": "Artsy no indica el año ni la dirección, el horario ni el precio: el año 2026 se deduce de que figura como muestra actual el 7 de octubre de 2026. Precio por confirmar."
+      "notes": "Artsy no indica el año ni la dirección, el horario ni el precio: el año 2026 se deduce de que figura como muestra actual el 7 de octubre de 2026."
     }
   ]
 }

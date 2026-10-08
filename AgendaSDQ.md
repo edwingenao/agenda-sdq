@@ -60,6 +60,8 @@ El orden de confianza para unir repetidos está en `SOURCE_PRIORITY` (`agenda/de
   o no se publica, según la fuente.
 - **Nunca inventar una hora.** Si la fuente no la da, `start_time` queda vacío y el sitio dice "Hora por confirmar".
 - **Precio honesto.** Gratis solo si la fuente lo dice. Precio vacío o dudoso = "por confirmar", nunca gratis.
+  Excepciones confirmadas por Edwin el 7 de octubre de 2026 (la fuente no trae precio): los cursos de Formación del CCE,
+  las exposiciones en galerías (series curadas) y Fiesta Sunset Jazz ("No cover!" en la barra lateral del blog) son gratis.
 - **Fechas en hora de Santo Domingo** (UTC-4, sin cambio de horario). Las fuentes en UTC se convierten.
 - **Rangos sin sesiones** (una obra del 9 al 18) salen una sola vez con "Hasta": no se inventan días de función.
 - **Siempre el enlace a la fuente original.** No se copian textos largos (descripción hasta ~280 caracteres) ni imágenes.

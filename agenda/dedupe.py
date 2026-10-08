@@ -38,6 +38,7 @@ SOURCE_PRIORITY = [
     "cce",
     "jazz_en_dominicana",
     "recurring",  # listados curados a mano: si una fuente publica el mismo evento, gana esa
+    "acento_cultural",  # agenda de prensa leída con IA: siempre la última
 ]
 
 

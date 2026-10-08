@@ -49,6 +49,7 @@ Si un documento y el código no coinciden, manda el código; actualiza el docume
 | `cce` | Centro Cultural de España | Activa. Solo la página 1 del buscador (robots.txt), 30 s entre peticiones |
 | `jazz_en_dominicana` | Jazz en Dominicana (feed Atom) | Activa. Solo Santo Domingo |
 | `teatro_las_mascaras` | Teatro Las Máscaras (portada del sitio) | Nueva, sin HTML real verificado: lee el texto de la portada (fechas, precio de la boleta, enlace a tix.do). Sin hora única: viernes y sábado 8:30 p. m., domingo 6:30 p. m. (va en la descripción) |
+| `acento_cultural` | Acento Cultural (agenda semanal de prensa, leída con IA) | Nueva. Necesita el secreto `ANTHROPIC_API_KEY` en GitHub; sin él no publica nada. Todo sale para revisión; precio y gratis se contrastan con el texto de cada evento. Va al final de `SOURCE_PRIORITY` |
 | `recurring` | Series curadas a mano (`agenda/series_recurrentes.json`) | Activa: Domingos de Bonyé, 809 Mercado, EUROCINE 2026, Gerard Ellis en Lyle O. Reitzel (inauguración y muestra) y 10 eventos de la guía de letstalkart.rd (7 al 15 oct). Para agregar o reconfirmar una serie se edita ese archivo (instrucciones dentro). Admite semanal, n-ésimo día del mes, fechas sueltas y rangos (`range`, con "Hasta") |
 
 El orden de confianza para unir repetidos está en `SOURCE_PRIORITY` (`agenda/dedupe.py`).

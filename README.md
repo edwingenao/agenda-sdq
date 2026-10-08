@@ -41,6 +41,7 @@ pytest                                   # pruebas offline (incluye páginas rea
 | `centro_leon` | centroleon.org.do | API de The Events Calendar (`/wp-json/tribe/events/v1/events?start_date=…`) | **Verificado con la API real** (6 oct). Solo publica lo que es en Santo Domingo (la extensión de Calle Las Damas); ese día los 19 eventos eran en Santiago, así que aporta 0 |
 | `teatro_las_mascaras` | teatrolasmascaras.com | Cartelera en la portada (WordPress.com): bloque por montaje con título, `Del X al Y de mes`, `Funciones:`, `Boletas: RD$…` y botón a tix.do. Se lee el texto visible; robots.txt lo permite (la API pública de WordPress.com no) | **Sin HTML real verificado**: pruebas con HTML sintético. Hora no única (vie y sáb 8:30 p. m., dom 6:30 p. m.): `start_time` vacío y el horario en la descripción. El parqueo (RD$50/100) no cuenta como precio |
 | `recurring` | `agenda/series_recurrentes.json` (curado a mano) | Series semanales, n-ésimo día del mes, fechas sueltas o rangos (exposiciones y festivales), cada una con sus fuentes y fecha de última confirmación | **Sin peticiones a ningún sitio.** Activas: Domingos de Bonyé, 809 Mercado, EUROCINE 2026, Gerard Ellis en Lyle O. Reitzel (inauguración y muestra) y 10 eventos de la guía de letstalkart.rd (7 al 15 oct). Las de temporada quedan `"active": false` hasta que anuncien la próxima edición; una serie sin reconfirmar en 60 días queda para revisión |
+| `acento_cultural` | acento.com.do, agenda semanal "Acento Cultural" | Encuentra la nota más reciente en los sitemaps y extrae los eventos con IA (`llm.extract_events`, salida con esquema JSON) | **Muestra real verificada** (nota 61). Todo sale `needs_review`; precio y gratis se comprueban en el bloque de cada evento; solo Santo Domingo. Necesita el secreto `ANTHROPIC_API_KEY`. La última nota (61, 17 sep) llevaba tres semanas sin sucesora |
 | `jazz_en_dominicana` | jazzendominicana.com | Feed Atom de Blogger; parsea la entrada semanal "Jazz en Vivo en RD" (bloques "Jueves 8: … (Ciudad):"), solo Santo Domingo; anuncios sueltos vía IA (opcional) | **Feed verificado con el navegador**; los datos del bloque semanal vienen de texto libre: revisar lugares nuevos (`needs_review`) |
 
 "Verificado" significa que leí las páginas con una herramienta de lectura web que devuelve el contenido
@@ -81,7 +82,7 @@ Si un adaptador no logra leer una página, puede pedirle los campos a Claude:
 
 ```bash
 pip install anthropic
-export AGENDA_LLM=1 ANTHROPIC_API_KEY=...   # modelo: AGENDA_LLM_MODEL (por defecto claude-haiku-4-5-20251001)
+export AGENDA_LLM=1 ANTHROPIC_API_KEY=...   # modelo: AGENDA_LLM_MODEL (por defecto claude-haiku-4-5)
 ```
 
 Esos eventos quedan marcados `needs_review`. Sin esas variables, nada se envía a ningún servicio.

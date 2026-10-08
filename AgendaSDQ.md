@@ -49,7 +49,7 @@ Si un documento y el código no coinciden, manda el código; actualiza el docume
 | `cce` | Centro Cultural de España | Activa. Solo la página 1 del buscador (robots.txt), 30 s entre peticiones |
 | `jazz_en_dominicana` | Jazz en Dominicana (feed Atom) | Activa. Solo Santo Domingo |
 | `teatro_las_mascaras` | Teatro Las Máscaras (portada del sitio) | Nueva, sin HTML real verificado: lee el texto de la portada (fechas, precio de la boleta, enlace a tix.do). Sin hora única: viernes y sábado 8:30 p. m., domingo 6:30 p. m. (va en la descripción) |
-| `recurring` | Series curadas a mano (`agenda/series_recurrentes.json`) | Activa: Domingos de Bonyé, 809 Mercado, EUROCINE 2026 y la inauguración de Gerard Ellis en Lyle O. Reitzel (15 oct). Para agregar o reconfirmar una serie se edita ese archivo (instrucciones dentro) |
+| `recurring` | Series curadas a mano (`agenda/series_recurrentes.json`) | Activa: Domingos de Bonyé, 809 Mercado, EUROCINE 2026, Gerard Ellis en Lyle O. Reitzel (inauguración y muestra) y 10 eventos de la guía de letstalkart.rd (7 al 15 oct). Para agregar o reconfirmar una serie se edita ese archivo (instrucciones dentro). Admite semanal, n-ésimo día del mes, fechas sueltas y rangos (`range`, con "Hasta") |
 
 El orden de confianza para unir repetidos está en `SOURCE_PRIORITY` (`agenda/dedupe.py`).
 
@@ -116,3 +116,24 @@ Revisadas desde la PC el 6 de octubre de 2026. Antes de volver a probarlas, lee 
 | Teatro Guloya (teatroguloya.com) | App de Base44 con API pública sin autenticación en su mismo dominio: `/api/apps/6aab0bddff1e87a2bfb25e50/entities/Show?q={"status":"cartelera"}` (obras) y `/entities/Function?q={"status":"activa"}` (funciones: `starts_at` en UTC, `ticket_types` con precio, `capacity`). No tiene robots.txt. Los datos son de prueba: una obra con descripción de relleno, precio RD$1 y una función ya pasada (20 sep); las noticias citan montajes que no están en la cartelera | Volver a mirar cuando carguen la temporada real. El adaptador sería corto: unir `Function` con su `Show` por `show_id` |
 | Feed de DGCINE (dgcine.gob.do/feed/) | Feed RSS con unas 10 notas; casi todas son institucionales (convenios, convocatorias, festivales fuera). Ese día solo 2 eran eventos: EUROCINE 2026 (26 oct al 1 nov, Caribbean Cinemas Galería 360, 15 películas, sin precio) y una exposición de la Cinemateca | Muy poco volumen para un adaptador. Cargar EUROCINE a mano en las series curadas, o leerlo junto con las agendas de prensa cuando haya extracción con IA |
 | Biblioteca Nacional (bnphu.gob.do, eventos.bnphu.gob.do) | `eventos.bnphu.gob.do` prohíbe todo en robots.txt (`Disallow: /`). `bnphu.gob.do` responde con la verificación anti-bots de Cloudflare ("Just a moment…"), también en su API de WordPress | No se lee de forma automática ni se esquiva el bloqueo. Pedirles la programación o cargarla a mano |
+
+### Guía de letstalkart.rd (Instagram), revisada el 7 de octubre de 2026
+
+Carrusel mensual "Agenda cultural" con eventos, talleres y convocatorias, desde una captura de pantalla (no se
+lee de forma automática). Los 5 eventos que ya teníamos por otras fuentes (Wagner/Molina, Sandy Gabriel, 3 x Todas las
+canciones, Rojo, Retro Jazz) coinciden en fecha y lugar. Marca "Santiago" los eventos de esa ciudad y se descartaron.
+Se cargaron a mano como series curadas los que faltaban. Se dejaron fuera las clases y talleres de pago, los cursos
+virtuales y las convocatorias (concursos con fecha límite): no son eventos para asistir.
+
+| Fuente | Qué se encontró | Qué hacer |
+|---|---|---|
+| letstalkart.rd y las cuentas de Instagram de cada organizador | Instagram no se lee de forma automática. La guía se marca "AI content" y no tiene sitio ni feed | Seguir cargando a mano desde capturas, o leer las mismas fechas en una fuente web (las de abajo) |
+| Acento Cultural (acento.com.do) | Agenda semanal en la web. robots.txt no prohíbe nada y publica sitemaps | La mejor candidata: cubre lo mismo que la guía y sí es texto. Necesita extracción con IA (`agenda/llm.py`) y `needs_review` |
+| Ticketeras: Ticketmax y UEPA Tickets | Los flyers casi nunca traen precio ni hora; las boletas sí. ticketmax.com.do redirige a ticketmax.org (WordPress; robots.txt solo bloquea `/wp-admin/`). No se halló el sitio de UEPA Tickets | Revisar desde la PC: confirmar el dominio, la estructura de la página de cada evento y si lista hora y precio |
+| Fundación Sinfonía (sinfonia.org.do) | WordPress; robots.txt solo bloquea un JSON de un plugin y publica `sitemap_index.xml`. No se verificó si tiene calendario | Mirar desde la PC si tiene página de conciertos; poco volumen |
+| Teatro Guloya | Su cuenta anuncia "Sola" (4 oct) y "Liborio" (9 al 11 oct), pero su API pública traía datos de prueba el 6 de oct | Volver a mirar la API: puede que ya tenga la temporada real |
+| Bellas Artes, DEFAE, ENAD, Cinemateca, Galería 360, The Green Room, Club Arroyo Hondo | Solo publican en Instagram (o su sitio bloquea lectura automática) | Carga manual; `jazz_en_dominicana` ya cubre parte de The Green Room, pero no todo (faltó Omar Quezada, 7 oct) |
+
+Quedan por confirmar: la hora y el precio de casi todos los eventos cargados de esta guía (la columna "confirmar" del sitio
+los marca), y que Velvet Room, Hard Rock Cafe y el Auditorio Patrick N. Hughson estén en Santo Domingo.
+

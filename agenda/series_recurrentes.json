@@ -1,7 +1,7 @@
 {
   "_comentario": "Series recurrentes y eventos puntuales curados a mano. Los lee recurring.py y los convierte en eventos con fecha. Para agregar uno: copia un bloque de 'series', cambia el id (único), llena 'sources' con la página donde lo viste y pon 'last_confirmed' con la fecha de hoy. Una serie de temporada queda con \"active\": false hasta que anuncien las fechas de la próxima edición: entonces actualiza 'valid_from' y 'valid_until' y pon \"active\": true. Después corre las pruebas: una entrada mal escrita se salta y se reporta, no se publica.",
   "_campos": {
-    "pattern.freq": "weekly (todas las semanas) | monthly_nth (el n-ésimo día del mes: nth 1, 2, 3, 4 o -1 para el último) | dates (fechas sueltas, para eventos puntuales)",
+    "pattern.freq": "weekly (todas las semanas) | monthly_nth (el n-ésimo día del mes: nth 1, 2, 3, 4 o -1 para el último) | dates (fechas sueltas, para eventos puntuales) | range (exposición o festival sin funciones sueltas: 'start' y 'end'; sale una vez con 'Hasta'; 'start' puede ir null si no se sabe cuándo abrió)",
     "pattern.weekday": "lunes, martes, miércoles, jueves, viernes, sábado, domingo (uno o una lista)",
     "price.status": "free | paid (con min y max si se conocen) | unconfirmed. Si no hay evidencia, unconfirmed: nunca se asume gratis",
     "confidence": "oficial (página del organizador o del Estado) | listado (guía o prensa) | sin_verificar",
@@ -256,6 +256,403 @@
       "last_confirmed": "2026-10-07",
       "stale_after_days": 30,
       "notes": "Evento puntual: solo la noche de apertura. La galería publica sus muestras con fechas en Artsy (su sitio actual, lorgallery.com, las lista sin fechas; lyleoreitzel.com está abandonado desde 2017). Gratis según Edwin, que ha ido antes; ni Artsy ni el flyer dicen precio. La muestra (15 oct al 13 nov) se puede cargar como evento de rango cuando las series admitan rangos."
+    },
+    {
+      "id": "festil-2026",
+      "title": "FESTIL 2026: Festival Estudiantil de Teatro",
+      "active": true,
+      "pattern": { "freq": "range", "start": "2026-10-07", "end": "2026-10-10" },
+      "start_time": null,
+      "end_time": null,
+      "valid_from": null,
+      "valid_until": null,
+      "exceptions": [],
+      "venue": "ENAD (Escuela Nacional de Arte Dramático)",
+      "category": ["Teatro"],
+      "price": {
+        "status": "unconfirmed"
+      },
+      "description": "Festival de teatro hecho por estudiantes, del 7 al 10 de octubre, con el Ministerio de Cultura, la Dirección General de Bellas Artes (DEFAE) y la ENAD.",
+      "url": "https://www.instagram.com/defaebellasartesrd/",
+      "sources": [
+        {
+          "name": "DEFAE Bellas Artes, vía letstalkart.rd",
+          "url": "https://www.instagram.com/defaebellasartesrd/",
+          "seen": "2026-10-07",
+          "says": "Del 7 al 10 de octubre, ENAD; sin horarios, programa ni precio"
+        },
+        {
+          "name": "letstalkart.rd (Instagram), agenda cultural de octubre",
+          "url": "https://www.instagram.com/letstalkart.rd/",
+          "seen": "2026-10-07",
+          "says": "Del 7 al 10 de octubre, ENAD; sin horarios, programa ni precio"
+        }
+      ],
+      "confidence": "listado",
+      "last_confirmed": "2026-10-07",
+      "stale_after_days": 14,
+      "notes": "Sin programa por función: se publica como rango ('Hasta'). El flyer no trae precio: queda por confirmar."
+    },
+    {
+      "id": "appassionato-concierto-aniversario-2026-10-09",
+      "title": "Concierto aniversario de la Filarmónica Appassionato",
+      "active": true,
+      "pattern": { "freq": "dates", "dates": ["2026-10-09"] },
+      "start_time": null,
+      "end_time": null,
+      "valid_from": null,
+      "valid_until": null,
+      "exceptions": [],
+      "venue": "Auditorio Horacio Álvarez Saviñón, UNPHU",
+      "category": ["Música"],
+      "price": {
+        "status": "unconfirmed"
+      },
+      "description": "Concierto de aniversario de la orquesta Filarmónica Appassionato, con el maestro Alberto Rincón como director artístico.",
+      "url": "https://www.instagram.com/appassionatofilarmonica/",
+      "sources": [
+        {
+          "name": "Filarmónica Appassionato, vía letstalkart.rd",
+          "url": "https://www.instagram.com/appassionatofilarmonica/",
+          "seen": "2026-10-07",
+          "says": "9 de octubre, Auditorio Horacio Álvarez Saviñón, UNPHU; la hora y el precio no se alcanzan a leer en el flyer"
+        },
+        {
+          "name": "letstalkart.rd (Instagram), agenda cultural de octubre",
+          "url": "https://www.instagram.com/letstalkart.rd/",
+          "seen": "2026-10-07",
+          "says": "9 de octubre, Auditorio Horacio Álvarez Saviñón, UNPHU; la hora y el precio no se alcanzan a leer en el flyer"
+        }
+      ],
+      "confidence": "listado",
+      "last_confirmed": "2026-10-07",
+      "stale_after_days": 14,
+      "notes": "Hora y precio sin confirmar: abrir el flyer original."
+    },
+    {
+      "id": "liborio-teatro-guloya-2026-10",
+      "title": "Liborio (teatro)",
+      "active": true,
+      "pattern": { "freq": "range", "start": "2026-10-09", "end": "2026-10-11" },
+      "start_time": null,
+      "end_time": null,
+      "valid_from": null,
+      "valid_until": null,
+      "exceptions": [],
+      "venue": "Teatro Guloya",
+      "category": ["Teatro"],
+      "price": {
+        "status": "unconfirmed"
+      },
+      "description": "Obra de teatro sobre Liborio en el Teatro Guloya, del 9 al 11 de octubre.",
+      "url": "https://www.instagram.com/teatroguloya/",
+      "sources": [
+        {
+          "name": "Teatro Guloya, vía letstalkart.rd",
+          "url": "https://www.instagram.com/teatroguloya/",
+          "seen": "2026-10-07",
+          "says": "Teatro: Liborio, del 9 al 11 de octubre, Teatro Guloya; sin horas ni precio"
+        },
+        {
+          "name": "letstalkart.rd (Instagram), agenda cultural de octubre",
+          "url": "https://www.instagram.com/letstalkart.rd/",
+          "seen": "2026-10-07",
+          "says": "Teatro: Liborio, del 9 al 11 de octubre, Teatro Guloya; sin horas ni precio"
+        }
+      ],
+      "confidence": "listado",
+      "last_confirmed": "2026-10-07",
+      "stale_after_days": 14,
+      "notes": "Sin horas por función: se publica como rango. El flyer no trae precio: queda por confirmar."
+    },
+    {
+      "id": "mis-500-locos-proyeccion-2026-10-10",
+      "title": "Proyección y conversatorio: Mis 500 locos",
+      "active": true,
+      "pattern": { "freq": "dates", "dates": ["2026-10-10"] },
+      "start_time": "17:00",
+      "end_time": null,
+      "valid_from": null,
+      "valid_until": null,
+      "exceptions": [],
+      "venue": "Auditorio Patrick N. Hughson",
+      "category": ["Cine", "Cultura"],
+      "price": {
+        "status": "paid",
+        "min": 400
+      },
+      "description": "Proyección de «Mis 500 locos» y conversatorio «De mis 500 locos a la Salud Mental de hoy: evolución, dignidad y rehabilitación psicosocial».",
+      "url": "https://www.instagram.com/dominicoarteyculturard/",
+      "sources": [
+        {
+          "name": "Dominico Arte y Cultura, vía letstalkart.rd",
+          "url": "https://www.instagram.com/dominicoarteyculturard/",
+          "seen": "2026-10-07",
+          "says": "Sábado 10 de octubre, 5:00 p. m., Auditorio Patrick N. Hughson; aporte RD$400"
+        },
+        {
+          "name": "letstalkart.rd (Instagram), agenda cultural de octubre",
+          "url": "https://www.instagram.com/letstalkart.rd/",
+          "seen": "2026-10-07",
+          "says": "Sábado 10 de octubre, 5:00 p. m., Auditorio Patrick N. Hughson; aporte RD$400"
+        }
+      ],
+      "confidence": "sin_verificar",
+      "last_confirmed": "2026-10-07",
+      "stale_after_days": 14,
+      "notes": "El flyer dice 'aporte: RD$400'. Ciudad del auditorio sin comprobar: confirmar que es en Santo Domingo."
+    },
+    {
+      "id": "cineforum-tuberculo-gourmet-2026-10-10",
+      "title": "Cineforum: Tubérculo Gourmet",
+      "active": true,
+      "pattern": { "freq": "dates", "dates": ["2026-10-10"] },
+      "start_time": "16:00",
+      "end_time": null,
+      "valid_from": null,
+      "valid_until": null,
+      "exceptions": [],
+      "venue": "Cinemateca Dominicana",
+      "category": ["Cine"],
+      "price": {
+        "status": "unconfirmed"
+      },
+      "description": "Cineforum de la película «Tubérculo Gourmet» (de Archie López), precedida del cortometraje «Diario Arrepentido», de Liz Fulgencio (INTEC).",
+      "url": "https://www.instagram.com/cinematecadomrd/",
+      "sources": [
+        {
+          "name": "Cinemateca Dominicana, vía letstalkart.rd",
+          "url": "https://www.instagram.com/cinematecadomrd/",
+          "seen": "2026-10-07",
+          "says": "Sábado 10 de octubre, 4:00 p. m., Cinemateca Dominicana; cortometraje Diario Arrepentido; sin precio"
+        },
+        {
+          "name": "letstalkart.rd (Instagram), agenda cultural de octubre",
+          "url": "https://www.instagram.com/letstalkart.rd/",
+          "seen": "2026-10-07",
+          "says": "Sábado 10 de octubre, 4:00 p. m., Cinemateca Dominicana; cortometraje Diario Arrepentido; sin precio"
+        }
+      ],
+      "confidence": "listado",
+      "last_confirmed": "2026-10-07",
+      "stale_after_days": 14,
+      "notes": "El flyer no trae precio: queda por confirmar."
+    },
+    {
+      "id": "una-fiesta-de-esperanza-2026-10-10",
+      "title": "Una fiesta de esperanza: Ramón Orlando y Roberto del Castillo",
+      "active": true,
+      "pattern": { "freq": "dates", "dates": ["2026-10-10"] },
+      "start_time": "21:00",
+      "end_time": null,
+      "valid_from": null,
+      "valid_until": null,
+      "exceptions": [],
+      "venue": "Gran Salón Edmundo Félix Cuevas, Club Arroyo Hondo",
+      "category": ["Música"],
+      "price": {
+        "status": "unconfirmed"
+      },
+      "description": "Noche musical con Ramón Orlando y su orquesta y Roberto del Castillo con su show artístico, en el Club Arroyo Hondo.",
+      "url": "https://www.instagram.com/clubarroyohondord/",
+      "sources": [
+        {
+          "name": "Club Arroyo Hondo, vía letstalkart.rd",
+          "url": "https://www.instagram.com/clubarroyohondord/",
+          "seen": "2026-10-07",
+          "says": "Sábado 10 de octubre de 2026, 9:00 p. m., Gran Salón Edmundo Félix Cuevas, Club Arroyo Hondo; sin precio"
+        },
+        {
+          "name": "letstalkart.rd (Instagram), agenda cultural de octubre",
+          "url": "https://www.instagram.com/letstalkart.rd/",
+          "seen": "2026-10-07",
+          "says": "Sábado 10 de octubre de 2026, 9:00 p. m., Gran Salón Edmundo Félix Cuevas, Club Arroyo Hondo; sin precio"
+        }
+      ],
+      "confidence": "listado",
+      "last_confirmed": "2026-10-07",
+      "stale_after_days": 14,
+      "notes": "El flyer no trae precio: queda por confirmar."
+    },
+    {
+      "id": "festival-canto-coral-6-2026-10",
+      "title": "6.º Festival de Canto Coral",
+      "active": true,
+      "pattern": { "freq": "dates", "dates": ["2026-10-10", "2026-10-11"] },
+      "start_time": null,
+      "end_time": null,
+      "valid_from": null,
+      "valid_until": null,
+      "exceptions": [],
+      "venue": "Sala Manuel Rueda, Plaza Iberoamérica",
+      "category": ["Música"],
+      "price": {
+        "status": "unconfirmed"
+      },
+      "description": "Sexta edición del Festival de Canto Coral de Bellas Artes, el 10 y el 11 de octubre.",
+      "url": "https://www.instagram.com/bellasartesrd/",
+      "sources": [
+        {
+          "name": "Bellas Artes, vía letstalkart.rd",
+          "url": "https://www.instagram.com/bellasartesrd/",
+          "seen": "2026-10-07",
+          "says": "10 y 11 de octubre, Sala Manuel Rueda, Plaza Iberoamérica; sin horas ni precio"
+        },
+        {
+          "name": "letstalkart.rd (Instagram), agenda cultural de octubre",
+          "url": "https://www.instagram.com/letstalkart.rd/",
+          "seen": "2026-10-07",
+          "says": "10 y 11 de octubre, Sala Manuel Rueda, Plaza Iberoamérica; sin horas ni precio"
+        }
+      ],
+      "confidence": "listado",
+      "last_confirmed": "2026-10-07",
+      "stale_after_days": 14,
+      "notes": "El flyer no trae precio: queda por confirmar."
+    },
+    {
+      "id": "techy-chula-velvet-2026-10-11",
+      "title": "Techy: Chula (residencia)",
+      "active": true,
+      "pattern": { "freq": "dates", "dates": ["2026-10-11"] },
+      "start_time": null,
+      "end_time": null,
+      "valid_from": null,
+      "valid_until": null,
+      "exceptions": [],
+      "venue": "Velvet Room",
+      "category": ["Música"],
+      "price": {
+        "status": "unconfirmed"
+      },
+      "description": "Concierto de Techy de su residencia «Experiencia Chula» en Velvet Room. La guía lista el 4 y el 11 de octubre.",
+      "url": "https://www.instagram.com/techy/",
+      "sources": [
+        {
+          "name": "Techy, vía letstalkart.rd",
+          "url": "https://www.instagram.com/techy/",
+          "seen": "2026-10-07",
+          "says": "Conciertos de Techy el 4 y el 11 de octubre, Velvet Room; sin hora ni precio"
+        },
+        {
+          "name": "letstalkart.rd (Instagram), agenda cultural de octubre",
+          "url": "https://www.instagram.com/letstalkart.rd/",
+          "seen": "2026-10-07",
+          "says": "Conciertos de Techy el 4 y el 11 de octubre, Velvet Room; sin hora ni precio"
+        },
+        {
+          "name": "El Nuevo Diario",
+          "url": "https://elnuevodiario.com.do/techy-realizara-residencia-experiencia-chula/",
+          "seen": "2026-10-07",
+          "says": "Residencia Experiencia Chula en octubre de 2026 en «Velvet»; boletas en Ticketmax.com.do; sin fechas, hora, sector ni precio"
+        }
+      ],
+      "confidence": "sin_verificar",
+      "last_confirmed": "2026-10-07",
+      "stale_after_days": 14,
+      "notes": "Falta confirmar que Velvet Room es en Santo Domingo, la hora y el precio. La residencia puede tener más fechas que la guía no lista."
+    },
+    {
+      "id": "alok-comedia-hard-rock-2026-10-11",
+      "title": "Alok: show de comedia",
+      "active": true,
+      "pattern": { "freq": "dates", "dates": ["2026-10-11"] },
+      "start_time": null,
+      "end_time": null,
+      "valid_from": null,
+      "valid_until": null,
+      "exceptions": [],
+      "venue": "Hard Rock Cafe",
+      "category": ["Teatro"],
+      "price": {
+        "status": "unconfirmed"
+      },
+      "description": "Show de comedia de Alok en Hard Rock Cafe.",
+      "url": "https://www.instagram.com/alokvmenon/",
+      "sources": [
+        {
+          "name": "Alok, vía letstalkart.rd",
+          "url": "https://www.instagram.com/alokvmenon/",
+          "seen": "2026-10-07",
+          "says": "11 de octubre, Hard Rock Cafe; sin hora ni precio"
+        },
+        {
+          "name": "letstalkart.rd (Instagram), agenda cultural de octubre",
+          "url": "https://www.instagram.com/letstalkart.rd/",
+          "seen": "2026-10-07",
+          "says": "11 de octubre, Hard Rock Cafe; sin hora ni precio"
+        }
+      ],
+      "confidence": "sin_verificar",
+      "last_confirmed": "2026-10-07",
+      "stale_after_days": 14,
+      "notes": "Falta confirmar la ciudad del local, la hora y el precio."
+    },
+    {
+      "id": "entre-muros-y-colores-galeria-360",
+      "title": "Entre muros y colores",
+      "active": true,
+      "pattern": { "freq": "range", "start": null, "end": "2026-10-15" },
+      "start_time": null,
+      "end_time": null,
+      "valid_from": null,
+      "valid_until": null,
+      "exceptions": [],
+      "venue": "Galería 360",
+      "category": ["Arte"],
+      "price": {
+        "status": "unconfirmed"
+      },
+      "description": "Exposición en Galería 360, abierta hasta el 15 de octubre.",
+      "url": "https://www.instagram.com/galeria360/",
+      "sources": [
+        {
+          "name": "Galería 360, vía letstalkart.rd",
+          "url": "https://www.instagram.com/galeria360/",
+          "seen": "2026-10-07",
+          "says": "Entre muros y colores, hasta el 15 de octubre, Galería 360; sin fecha de apertura, horario ni precio"
+        },
+        {
+          "name": "letstalkart.rd (Instagram), agenda cultural de octubre",
+          "url": "https://www.instagram.com/letstalkart.rd/",
+          "seen": "2026-10-07",
+          "says": "Entre muros y colores, hasta el 15 de octubre, Galería 360; sin fecha de apertura, horario ni precio"
+        }
+      ],
+      "confidence": "listado",
+      "last_confirmed": "2026-10-07",
+      "stale_after_days": 14,
+      "notes": "No se sabe cuándo abrió: se muestra desde hoy hasta el cierre. El flyer no trae precio: queda por confirmar."
+    },
+    {
+      "id": "gerard-ellis-dominican-dream-muestra",
+      "title": "Gerard Ellis: The Dominican Dream (exposición)",
+      "active": true,
+      "pattern": { "freq": "range", "start": "2026-10-15", "end": "2026-11-13" },
+      "start_time": null,
+      "end_time": null,
+      "valid_from": null,
+      "valid_until": null,
+      "exceptions": [],
+      "venue": "Lyle O. Reitzel Arte Contemporáneo, Torre Piantini (Av. Gustavo Mejía Ricart 196, Piantini)",
+      "category": ["Arte"],
+      "price": {
+        "status": "unconfirmed"
+      },
+      "description": "Solo show de Gerard Ellis que parte del béisbol y de los peloteros dominicanos, del 15 de octubre al 13 de noviembre.",
+      "url": "https://www.artsy.net/show/lyle-o-reitzel-the-dominican-dream",
+      "sources": [
+        {
+          "name": "Lyle O. Reitzel en Artsy",
+          "url": "https://www.artsy.net/show/lyle-o-reitzel-the-dominican-dream",
+          "seen": "2026-10-07",
+          "says": "The Dominican Dream, 15 de octubre al 13 de noviembre de 2026, Torre Piantini; sin precio ni horario de visita"
+        }
+      ],
+      "confidence": "oficial",
+      "last_confirmed": "2026-10-07",
+      "stale_after_days": 30,
+      "notes": "Es la muestra completa; la noche de apertura es la serie gerard-ellis-dominican-dream-inauguracion. Solo se confirmó como gratis la inauguración: el precio de visitar la muestra queda por confirmar."
     }
   ]
 }

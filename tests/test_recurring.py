@@ -370,23 +370,153 @@ def test_source_run_and_export(tmp_path):
     db = DB(":memory:")
     logs = []
     evs = recurring.SeriesRecurrentes(None, db, TODAY, "2026-10-06T12:00:00+00:00", log=logs.append).run()
-    assert len(evs) == 14  # 4 domingos de Bonyé en 28 días + 7 días de EUROCINE + 2 de 809 Mercado + la inauguración de Gerard Ellis
-    assert any("8 series" in line for line in logs)
+    # 4 domingos de Bonyé + 7 días de EUROCINE + 2 de 809 Mercado + Gerard Ellis (inauguración y muestra)
+    # + 11 eventos de la guía de letstalkart.rd (el Festival de Canto Coral cuenta 2)
+    assert len(evs) == 26
+    assert any("19 series" in line for line in logs)
     for e in evs:
         assert db.upsert_event(e, "2026-10-06T12:00:00+00:00") == "new"
     out = tmp_path / "events.json"
-    assert export_json(db, out, TODAY) == 14
+    assert export_json(db, out, TODAY) == 26
     pub = json.loads(out.read_text(encoding="utf-8"))["events"]
-    assert pub[0]["title"] == "Domingos de Bonyé" and pub[0]["time"] == "18:00" and pub[0]["price"] == 0
-    assert pub[0]["srcName"] == "SalsaVida" and pub[0]["zone"] == "Ciudad Colonial"
+    bonye = next(p for p in pub if p["title"] == "Domingos de Bonyé")
+    assert bonye["time"] == "18:00" and bonye["price"] == 0
+    assert bonye["srcName"] == "SalsaVida" and bonye["zone"] == "Ciudad Colonial"
     assert [p["cat"] for p in pub if p["title"] == "809 Mercado"] == ["Gastronomía", "Gastronomía"]
 
 
 def test_shipped_gerard_ellis_inauguration():
-    ev = next(e for e in recurring.events(today=TODAY, horizon_days=14) if e.title.startswith("Gerard Ellis"))
+    ev = next(e for e in recurring.events(today=TODAY, horizon_days=14) if "inauguración" in e.title)
     assert ev.dates == ["2026-10-15"] and ev.start_time == "19:00"
     assert ev.category == "Arte" and ev.zone == "Piantini"
     assert ev.is_free is True  # ni Artsy ni el flyer traen precio; Edwin confirmó que es de entrada libre
     assert ev.source_name == "Lyle O. Reitzel en Artsy"
     assert ev.url.startswith("https://www.artsy.net/show/lyle-o-reitzel-the-dominican-dream#")
     assert "13 de noviembre" in ev.description
+
+
+# --- rangos (exposiciones y festivales sin funciones sueltas) ---
+
+
+def range_raw(**over):
+    return raw(pattern={"freq": "range", "start": "2026-10-07", "end": "2026-10-10"}, start_time=None, end_time=None, **over)
+
+
+def test_range_is_one_event_with_start_and_end():
+    res = run(range_raw())
+    assert len(res.events) == 1
+    assert res.events[0].dates == ["2026-10-07", "2026-10-10"]
+    assert res.events[0].url.endswith("#s1-hasta-2026-10-10")
+
+
+def test_range_in_progress_keeps_its_real_start():
+    ev = run(range_raw(), today=date(2026, 10, 9)).events[0]
+    assert ev.dates == ["2026-10-07", "2026-10-10"]
+
+
+def test_range_without_start_shows_from_today():
+    ev = run(raw(pattern={"freq": "range", "start": None, "end": "2026-10-15"})).events[0]
+    assert ev.dates == [TODAY.isoformat(), "2026-10-15"]
+    # la URL no depende de "hoy": si no, cada día sería un evento nuevo en la base
+    assert ev.url.endswith("#s1-hasta-2026-10-15")
+
+
+def test_range_that_ended_is_not_published():
+    res = run(range_raw(), today=date(2026, 10, 11))
+    assert res.events == [] and res.empty == ["s1"]
+
+
+def test_range_that_starts_far_away_is_published_complete():
+    res = run(raw(pattern={"freq": "range", "start": "2026-12-01", "end": "2026-12-20"}))
+    assert [e.dates for e in res.events] == [["2026-12-01", "2026-12-20"]]
+
+
+def test_range_one_day_has_a_single_date():
+    ev = run(raw(pattern={"freq": "range", "start": "2026-10-10", "end": "2026-10-10"})).events[0]
+    assert ev.dates == ["2026-10-10"]
+
+
+@pytest.mark.parametrize(
+    "pattern",
+    [
+        {"freq": "range", "start": "2026-10-07"},  # sin cierre
+        {"freq": "range", "start": "2026-10-12", "end": "2026-10-10"},  # al revés
+        {"freq": "range", "start": "mañana", "end": "2026-10-10"},
+    ],
+)
+def test_invalid_range_is_skipped_and_reported(pattern):
+    res = run(raw(pattern=pattern))
+    assert res.events == [] and len(res.skipped_invalid) == 1
+
+
+def test_range_export_keeps_start_and_end(tmp_path):
+    db = DB(":memory:")
+    for e in run(range_raw()).events:
+        db.upsert_event(e, "2026-10-07T12:00:00+00:00")
+    out = tmp_path / "events.json"
+    export_json(db, out, date(2026, 10, 8))
+    pub = json.loads(out.read_text(encoding="utf-8"))["events"][0]
+    assert pub["date"] == "2026-10-07" and pub["end"] == "2026-10-10"
+
+
+# --- eventos de la guía de letstalkart.rd (octubre de 2026) ---
+
+LETSTALKART_TODAY = date(2026, 10, 7)
+
+
+def shipped(fragment, **kw):
+    evs = recurring.events(today=LETSTALKART_TODAY, horizon_days=45, **kw)
+    return next(e for e in evs if fragment in e.title)
+
+
+def test_shipped_guide_events_are_all_loaded_and_valid():
+    res = recurring.collect(today=LETSTALKART_TODAY, horizon_days=45)
+    assert res.skipped_invalid == []
+    titles = " ".join(e.title for e in res.events)
+    for fragment in ("FESTIL", "Appassionato", "Liborio", "Mis 500 locos", "Tubérculo Gourmet",
+                     "Una fiesta de esperanza", "Canto Coral", "Techy", "Alok", "Entre muros"):
+        assert fragment in titles, fragment
+
+
+def test_shipped_guide_times_come_from_the_flyers():
+    assert shipped("Mis 500 locos").start_time == "17:00"
+    assert shipped("Tubérculo").start_time == "16:00"
+    assert shipped("Una fiesta de esperanza").start_time == "21:00"
+    # sin hora en el flyer: no se inventa
+    for fragment in ("FESTIL", "Appassionato", "Liborio", "Canto Coral", "Techy", "Alok", "Entre muros"):
+        assert shipped(fragment).start_time is None, fragment
+
+
+def test_shipped_guide_prices_are_never_assumed_free():
+    ev = shipped("Mis 500 locos")
+    assert ev.is_free is False and ev.price_min == 400
+    for fragment in ("FESTIL", "Appassionato", "Liborio", "Tubérculo", "Una fiesta de esperanza",
+                     "Canto Coral", "Techy", "Alok", "Entre muros"):
+        ev = shipped(fragment)
+        assert ev.is_free is None and ev.price_min is None, fragment
+
+
+def test_shipped_guide_unverified_venues_are_marked_to_confirm():
+    for fragment in ("Techy", "Alok", "Mis 500 locos"):
+        ev = shipped(fragment)
+        assert ev.needs_review and "confirmar" in ev.tags, fragment
+    assert not shipped("Liborio").needs_review
+
+
+def test_shipped_guide_ranges_and_pairs():
+    assert shipped("FESTIL").dates == ["2026-10-07", "2026-10-10"]
+    assert shipped("Liborio").dates == ["2026-10-09", "2026-10-11"]
+    assert shipped("Entre muros").dates == ["2026-10-07", "2026-10-15"]
+    coral = [e for e in recurring.events(today=LETSTALKART_TODAY, horizon_days=45) if "Canto Coral" in e.title]
+    assert [e.dates for e in coral] == [["2026-10-10"], ["2026-10-11"]]
+
+
+def test_shipped_guide_zones():
+    assert shipped("Una fiesta de esperanza").zone == "Arroyo Hondo"
+    assert shipped("Tubérculo").zone == "Plaza de la Cultura"
+
+
+def test_shipped_gerard_ellis_exhibition_is_a_range():
+    ev = shipped("Gerard Ellis: The Dominican Dream (exposición)")
+    assert ev.dates == ["2026-10-15", "2026-11-13"] and ev.category == "Arte"
+    assert ev.is_free is None  # solo la inauguración está confirmada como gratis

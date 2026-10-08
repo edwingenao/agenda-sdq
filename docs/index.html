@@ -240,7 +240,7 @@ function inicio(){
   <h1>Qué hacer hoy en la ciudad.</h1>
   <p class="sub">Música, teatro, arte y planes gratis, en un solo lugar.</p>
   ${unicos.size?`<div class="cifras"><span class="pill-c">${unicos.size} planes próximos</span>${gratis.size?`<span class="gratis">${gratis.size} gratis</span>`:""}</div>`:""}</div>
-  <button class="cta" data-n="hoy">${hayHoy?"Ver qué hay hoy":"Ver la agenda"}${FLECHA}</button>
+  <button class="cta" data-n="hoy">${hayHoy?"Ver qué hay pa' hoy":"Ver la agenda"}${FLECHA}</button>
   <div class="rapidos" role="group" aria-label="Atajos">${rapido("gratis","Solo gratis","#FFD166")}${rapido("musica","Música",PUNTO.musica)}${rapido("teatro","Teatro y danza",PUNTO.teatro)}${rapido("arte","Arte",PUNTO.arte)}</div>
   <p class="nota">Revisa siempre la fuente original antes de ir.</p></div>`}
 const indices=f=>EV.map((e,i)=>({e,i})).filter(({e})=>f(e));

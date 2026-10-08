@@ -89,6 +89,8 @@ def test_jazz_en_dominicana_feed():
     assert (g.is_free, g.price_min, g.price_max) == (False, 1500, 2000)  # "No cover" pero boletas a RD$
     f = by["Fiesta"]
     assert f.dates == ["2026-10-09"] and f.start_time == "20:00" and f.venue.startswith("Dominican Fiesta")
+    assert (f.is_free, f.price_min) == (True, 0)  # "No cover!" en la barra lateral del blog; confirmado por Edwin
+    assert by["Retro"].is_free is None  # sin precio en la fuente: por confirmar
     r = by["Retro"]
     assert r.dates == ["2026-10-10"] and r.start_time == "20:30" and r.venue == "Teatro Nacional"
     assert all("jazz" in e.tags and e.category == "Música" for e in evs)

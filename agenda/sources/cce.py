@@ -153,6 +153,10 @@ def parse_detail(html: str, url: str, today) -> Event | None:
     cat_label = next((ln for ln in lines[:15] if _CATEGORY_WORDS.match(ln)), "")
     category = normalize_category(cat_label, title)
     tags = ["formacion"] if (re.match(r"formaci", cat_label, re.I) or _FORMACION.search(title)) else []
+    if is_free is None and "formacion" in tags:
+        # Los cursos de Formación del CCE son gratuitos aunque la página no tenga línea de precio
+        # (confirmado por Edwin el 7 de octubre de 2026). Si la página trae un monto, manda el monto.
+        is_free, pmin, pmax = True, 0, 0
 
     desc = ""
     for p in tree.css("p"):

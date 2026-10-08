@@ -371,13 +371,13 @@ def test_source_run_and_export(tmp_path):
     logs = []
     evs = recurring.SeriesRecurrentes(None, db, TODAY, "2026-10-06T12:00:00+00:00", log=logs.append).run()
     # 4 domingos de Bonyé + 7 días de EUROCINE + 2 de 809 Mercado + Gerard Ellis (inauguración y muestra)
-    # + 11 eventos de la guía de letstalkart.rd (el Festival de Canto Coral cuenta 2)
-    assert len(evs) == 26
-    assert any("19 series" in line for line in logs)
+    # + 2 muestras de ASR Galería + 11 eventos de la guía de letstalkart.rd (el Festival de Canto Coral cuenta 2)
+    assert len(evs) == 28
+    assert any("21 series" in line for line in logs)
     for e in evs:
         assert db.upsert_event(e, "2026-10-06T12:00:00+00:00") == "new"
     out = tmp_path / "events.json"
-    assert export_json(db, out, TODAY) == 26
+    assert export_json(db, out, TODAY) == 28
     pub = json.loads(out.read_text(encoding="utf-8"))["events"]
     bonye = next(p for p in pub if p["title"] == "Domingos de Bonyé")
     assert bonye["time"] == "18:00" and bonye["price"] == 0
@@ -491,7 +491,7 @@ def test_shipped_guide_prices_are_never_assumed_free():
     ev = shipped("Mis 500 locos")
     assert ev.is_free is False and ev.price_min == 400
     for fragment in ("FESTIL", "Appassionato", "Liborio", "Tubérculo", "Una fiesta de esperanza",
-                     "Canto Coral", "Techy", "Alok", "Entre muros"):
+                     "Canto Coral", "Techy", "Alok"):
         ev = shipped(fragment)
         assert ev.is_free is None and ev.price_min is None, fragment
 
@@ -520,4 +520,17 @@ def test_shipped_guide_zones():
 def test_shipped_gerard_ellis_exhibition_is_a_range():
     ev = shipped("Gerard Ellis: The Dominican Dream (exposición)")
     assert ev.dates == ["2026-10-15", "2026-11-13"] and ev.category == "Arte"
-    assert ev.is_free is None  # solo la inauguración está confirmada como gratis
+    assert ev.is_free is True  # Edwin confirmó (7 oct 2026) que las exposiciones en galerías son gratis
+
+
+def test_shipped_asr_galeria_shows_are_ranges():
+    inter = shipped("Interconexión")
+    assert inter.dates == ["2026-09-03", "2026-10-15"] and inter.category == "Arte"
+    assert inter.is_free is True and inter.start_time is None
+    assert shipped("ARQUIONIRIAS").dates == ["2026-09-17", "2026-10-17"]
+
+
+def test_shipped_gallery_exhibitions_are_free_by_edwins_confirmation():
+    for fragment in ("Interconexión", "ARQUIONIRIAS", "Entre muros", "Gerard Ellis: The Dominican Dream (exposición)"):
+        ev = shipped(fragment)
+        assert ev.is_free is True and ev.price_min == 0, fragment

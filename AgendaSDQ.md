@@ -52,7 +52,8 @@ Si un documento y el código no coinciden, manda el código; actualiza el docume
 | `fundacion_sinfonia` | Fundación Sinfonía (sinfonia.org.do) | Nueva. Conciertos de la Orquesta Sinfónica Nacional con hora y precio; completa la hora de los del Teatro Nacional al unir repetidos |
 | `ticketmax` | Ticketmax (ticketera, ticketmax.org) | Nueva. Lee la portada (solo Santo Domingo) y el JSON-LD de cada evento: hora y precio exactos. Detrás de los sitios de las salas en `SOURCE_PRIORITY` |
 | `tix` | TIX (ticketera tix.do, su API pública) | Nueva. Hora real de cada función; sin precio (solo "gratis") ni ciudad: publica solo salas reconocidas de Santo Domingo y la corrida lista las demás. Pendiente: escribirle a info@tix.do (Edwin) |
-| `recurring` | Series curadas a mano (`agenda/series_recurrentes.json`) | Activa: Domingos de Bonyé, 809 Mercado, EUROCINE 2026, Gerard Ellis en Lyle O. Reitzel (inauguración y muestra) y 10 eventos de la guía de letstalkart.rd (7 al 15 oct). Para agregar o reconfirmar una serie se edita ese archivo (instrucciones dentro). Admite semanal, n-ésimo día del mes, fechas sueltas y rangos (`range`, con "Hasta") |
+| — | Artsy, muestras de Santo Domingo (artsy.net/shows/santo-domingo-dominican-republic) | Sin adaptador: solo lista 2 galerías (Lyle O. Reitzel y ASR Galería), unas 3 muestras al mes. Se cargan a mano como series con `range` (ASR Galería: Interconexión y ARQUIONIRIAS). Volver a mirar cuando abra una muestra |
+| `recurring` | Series curadas a mano (`agenda/series_recurrentes.json`) | Activa: Domingos de Bonyé, 809 Mercado, EUROCINE 2026, Gerard Ellis en Lyle O. Reitzel (inauguración y muestra), 10 eventos de la guía de letstalkart.rd (7 al 15 oct) y 2 muestras de ASR Galería. Para agregar o reconfirmar una serie se edita ese archivo (instrucciones dentro). Admite semanal, n-ésimo día del mes, fechas sueltas y rangos (`range`, con "Hasta") |
 
 El orden de confianza para unir repetidos está en `SOURCE_PRIORITY` (`agenda/dedupe.py`).
 
@@ -62,6 +63,8 @@ El orden de confianza para unir repetidos está en `SOURCE_PRIORITY` (`agenda/de
   o no se publica, según la fuente.
 - **Nunca inventar una hora.** Si la fuente no la da, `start_time` queda vacío y el sitio dice "Hora por confirmar".
 - **Precio honesto.** Gratis solo si la fuente lo dice. Precio vacío o dudoso = "por confirmar", nunca gratis.
+  Excepciones confirmadas por Edwin el 7 de octubre de 2026 (la fuente no trae precio): los cursos de Formación del CCE,
+  las exposiciones en galerías (series curadas) y Fiesta Sunset Jazz ("No cover!" en la barra lateral del blog) son gratis.
 - **Fechas en hora de Santo Domingo** (UTC-4, sin cambio de horario). Las fuentes en UTC se convierten.
 - **Rangos sin sesiones** (una obra del 9 al 18) salen una sola vez con "Hasta": no se inventan días de función.
 - **Siempre el enlace a la fuente original.** No se copian textos largos (descripción hasta ~280 caracteres) ni imágenes.
@@ -141,3 +144,65 @@ virtuales y las convocatorias (concursos con fecha límite): no son eventos para
 Quedan por confirmar: la hora y el precio de casi todos los eventos cargados de esta guía (la columna "confirmar" del sitio
 los marca), y que Velvet Room, Hard Rock Cafe y el Auditorio Patrick N. Hughson estén en Santo Domingo.
 
+### Artsy, muestras de Santo Domingo (artsy.net/shows/santo-domingo-dominican-republic), revisada el 7 de octubre de 2026
+
+Solo lista dos galerías: Lyle O. Reitzel y ASR Galería (esta es la "ARS" que se había supuesto). Trae título, galería y fechas,
+sin año, dirección, horario ni precio; las cerradas salen sin fechas. robots.txt no prohíbe `/shows/` y publica `sitemap-shows.xml`;
+no se revisaron sus términos de uso. Con unas 3 muestras al mes no justifica un adaptador: se cargan como series curadas con `range`
+(Interconexión y ARQUIONIRIAS, de ASR Galería, quedaron cargadas). Volver a mirar la página cuando abra una muestra nueva.
+
+
+### Noticias del Ministerio de Cultura (cultura.gob.do/noticias), revisadas el 7 de octubre de 2026
+
+Sitio WordPress con feed RSS 2.0 (`/feed/`), `sitemap_index.xml` y un robots.txt sin ninguna prohibición. Las notas son comunicados de prensa
+casi todos posteriores al hecho: las 16 más recientes (1 al 4 de oct) hablan de la Feria Internacional del Libro, que ya cerró el 4 de oct.
+No traen calendario de eventos y los datos de fecha, hora, lugar y precio van dentro del texto. Solo una nota anuncia algo futuro
+(la FILSD 2027, del 12 al 26 de septiembre de 2027, sin precio). Los eventos propios del Ministerio ya entran por `sic`.
+No justifica un adaptador por ahora: rinde poco y repetiría `sic`. Útil como confirmación a mano y para series de temporada (FILSD, cuando
+anuncien las fechas de 2027).
+
+### Ayuntamiento del Distrito Nacional (adn.gob.do), revisado el 7 de octubre de 2026
+
+WordPress con feed RSS 2.0 (`/feed/`), `wp-sitemap.xml` y un robots.txt que solo bloquea `/wp-admin/`. No tiene agenda ni calendario: el mapa del sitio
+solo trae noticias, una página de Cultura que describe la Ciudad Colonial y secciones institucionales. Las 10 notas más recientes (19 sep al 7 oct) son
+sobre obras, operativos de limpieza y actos de la alcaldesa; ninguna anuncia un evento con fecha futura. No se integra. Sirve como confirmación
+a mano si una actividad municipal aparece en otra fuente.
+
+### TIX (tix.do), revisado el 7 de octubre de 2026
+
+Ticketera dominicana ("Buy moments not things"): vende las boletas de Las Máscaras y de Sandy Gabriel Jazz Residence. Desde la nube solo se ve el cascarón
+de la página (título y metadatos): parece una app de JavaScript que carga los eventos después, y `/robots.txt` y `/sitemap.xml` devuelven ese mismo
+cascarón, así que no se pudo leer ni su robots.txt ni un listado de eventos. El shell de la nube no llega al sitio (403 del proxy). Falta revisar desde la PC:
+abrirlo en el navegador, mirar la pestaña Network para encontrar la API que lista eventos (con fecha, hora, lugar y precio), y leer sus términos de uso antes de
+escribir un adaptador. Si la API es pública y permitida, sería una fuente muy buena: trae hora y precio, que los flyers no traen.
+
+### padonde.do (guía de eventos y cine), revisado el 7 de octubre de 2026
+
+Agregador de eventos de toda la República Dominicana (Santo Domingo y Santiago, con filtro por categoría). Sus términos dicen que junta información de "fuentes públicas,
+páginas web de terceros, redes sociales y organizadores que publican directamente"; no nombra las fuentes, no menciona ticketeras ni IA y no dice nada sobre que
+terceros reutilicen su contenido. robots.txt solo bloquea `/User` y `/login`; tiene un `sitemap.xml` con más de 100 `/evento/<slug>`. Desde la nube, `/eventos` llegó vacío
+("No hay eventos disponibles", aunque el filtro cuenta 158 en Santo Domingo): parece una app de JavaScript.
+
+Sus lugares de la portada ya los cubrimos: CCE (`cce`), Casa de Teatro (`casa_de_teatro`), Teatro Nacional y Sala Ravelo (`teatro_nacional`), The Green Room (`jazz_en_dominicana`,
+parcial), Centro León (`centro_leon`), Wagner/Molina, Sandy Gabriel, 3 x Todas las canciones, Rojo y Concierto Aniversario (series curadas de la guía de letstalkart.rd).
+Lo que sí aporta y no tenemos: Museo de la Catedral ("A La Merced", gratis), exposiciones de museos (Museo del Hombre Dominicano, Museo de Historia y Geografía), carreras y
+eventos deportivos, fiestas de bares y lounges (Velvet Room SDQ, "The Evolution of Hood!!!"), festivales y ferias (Oktoberfest) y el Centro Comunitario.
+
+Decisión: **no se lee padonde.do**. Es un agregador de segunda mano (sus datos vienen de otras fuentes, sin verificar), sus términos no permiten ni prohíben reutilizar
+el contenido, y sería copiar el trabajo de un tercero. Se usa como mapa de dónde buscar. Las fuentes originales de lo que falta:
+
+| Falta | Fuente original a revisar | Nota |
+|---|---|---|
+| Museos (Catedral, Hombre Dominicano, Historia y Geografía) | Museos RD / sitios de cada museo y Ministerio de Cultura | Ya estaba en pendientes ("Museos RD"). Ver si publican agenda con robots.txt abierto |
+| Conciertos y fiestas de bares | Ticketmax, TIX | Ya en la lista para Code |
+| Deportes (5K, maratones, trail) | Ticketeras de carreras | Fuera del alcance cultural por ahora; preguntar a Edwin si quiere categoría Deportes |
+| Festivales y ferias (Oktoberfest) | Sitio de cada organizador | Cargar como serie curada cuando haya fecha |
+| Santiago (Gran Teatro Cibao, Centro León) | — | Se descarta: solo Santo Domingo |
+
+### EDANCO (Festival Internacional de Danza Contemporánea), revisado el 7 de octubre de 2026
+
+Festival anual de danza en Santo Domingo (Sala Manuel Rueda, Bellas Artes, CCE y otros espacios), dirigido desde 2026 por Patricia Ortega. La edición 2026 (la 21.ª) fue del 22 de septiembre
+al 4 de octubre, así que **ya terminó y no hay nada que cargar ahora**. No se encontró un sitio oficial con agenda (el dominio edanco.com.do no resuelve). Las fechas y sedes salen en notas de prensa
+(Acento, El Nuevo Diario) y en el PDF de programa que Bellas Artes sube a su sitio (`wp.bellasartesrd.gob.do/wp-content/uploads/<año>/<mes>/PROGRAMA-<año>...pdf`, así fue en 2025).
+Las notas traen horas por función, pero no precios. Qué hacer: serie curada de temporada para septiembre de 2027 cuando anuncien fechas (categoría Danza, hora de cada función
+solo si el programa la da; precio por confirmar), y mirar el sitio de Bellas Artes en agosto.

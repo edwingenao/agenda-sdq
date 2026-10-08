@@ -34,7 +34,7 @@ Si un documento y el código no coinciden, manda el código; actualiza el docume
    (`agenda/dedupe.py`) y escribe `docs/events.json`.
 3. **Workflow** (`.github/workflows/scrape.yml`): corre a diario a las 6:17 a. m. de Santo Domingo y publica
    `events.json`. Necesita la variable de repositorio `AGENDA_CONTACT` (ya definida).
-4. **Sitio** (`docs/index.html`): una sola página sin dependencias que carga `events.json`. Pantallas Hoy,
+4. **Sitio** (`docs/index.html`): una sola página sin dependencias que carga `events.json`. Pantallas Bienvenida, Hoy,
    Calendario, Guardados y detalle.
 
 ## Fuentes

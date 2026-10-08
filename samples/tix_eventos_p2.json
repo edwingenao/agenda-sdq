@@ -1,0 +1,1612 @@
+{
+ "data": [
+  {
+   "id": 5234,
+   "attributes": {
+    "name": "NAIROBY DUARTE",
+    "slug": "SIMPLEMENTENAIROBY-1",
+    "start_at": "2026-10-31T00:30:44.000Z",
+    "end_at": "2026-10-31T02:30:44.000Z",
+    "free": false,
+    "place": "The Green Room",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5180,
+   "attributes": {
+    "name": "The Rocky Horror Party Show",
+    "slug": "TheRockyHorrorPartyShow-1",
+    "start_at": "2026-10-31T01:00:11.000Z",
+    "end_at": "2026-10-31T07:00:11.000Z",
+    "free": false,
+    "place": "Caciba Rock & Roll Bar",
+    "description": "🩸 ESTE HALLOWEEN, CACIBA SE PONE… ROCKY HORROR. 🩸\n\nPrepárate para una noche de música en vivo, disfraces, personajes y mucho drama baby!. 🔥\n\n🎸 THE ROCKY HORROR PARTY SHOW\n👄 Ven de tu personaje preferido.\n💋 Saca tu lado más extravagante,  ven listo para una noche fuera de lo común, un halloween 🎃 diferente. \n\n🎸 Banda en vivo: Cherry Flavor\n🎎 Ambientación: Shara Vinhas \n📅 Viernes 30 de octubre\n📍 Caciba \n🕑 9:00p.m \n\n🎟️ Cover: pre venta \n🎫 RD$500 p/p vía tix.do\n🚪 RD$600 en puerta\n💃Chicas tienen entrada libre hasta las 10:00p.m \n🥃 El cover incluye 2 shots de tequila o 1 Cuba Libre.\n\nDont dream it!\nBE IT!\n\n#cacibapeople☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️☀️",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4839,
+   "attributes": {
+    "name": "Nacho Redondo - Terapia de Grupo 9:45 P.M.",
+    "slug": "NachoRedondoTerapiadeGrupo945PM-4",
+    "start_at": "2026-10-31T01:45:23.000Z",
+    "end_at": "2026-10-31T03:45:23.000Z",
+    "free": false,
+    "place": "Pabellon de la Fama",
+    "description": "Terapia de Grupo es la nueva hora de stand up de Nacho Redondo: una versión más grande y afilada del universo que arrancó con Traumas, donde Nacho desentierra sus propios demonios psicológicos e integra los del público para convertir cada función en una sesión colectiva. Un espacio seguro para reírse de las peores situaciones de la vida y comprobar que, a pesar de todo, los traumas no definen a nadie.\n\nMayores de 18 años - nos se aceptan cambios o devoluciónes",
+    "event_category": {
+     "data": {
+      "id": 1,
+      "attributes": {
+       "name": "🎤 Comedia"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5366,
+   "attributes": {
+    "name": "HOUSE OF SHADOWS",
+    "slug": "HOUSEOFSHADOWS-1",
+    "start_at": "2026-10-31T02:00:47.000Z",
+    "end_at": "2026-10-31T07:00:47.000Z",
+    "free": false,
+    "place": "Lucia SDQ",
+    "description": "Este 30 de octubre, la noche se pone oscura. 🕷️\nHOUSE OF SHADOWS llega con OPEN BAR, disfraces, premios y sorpresas hasta tarde.\n\n🩸 Sexiest Costume: RD$10,000\n🩸 Best Group Costume: Win a Bottle\n🩸 Surprise Show: 2 AM\n📍 Plaza Andalucía II, Av. Abraham Lincoln\n📲 Reservas: [teléfono]\n🔞 +21\n\nEnter if you dare.",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5272,
+   "attributes": {
+    "name": "UMBRAWEEN - COSTUME PARTY",
+    "slug": "UMBRAWEENCOSTUMEPARTY-1",
+    "start_at": "2026-10-31T02:50:03.000Z",
+    "end_at": "2026-10-31T12:50:03.000Z",
+    "free": false,
+    "place": "BIANCO SOCIAL CLUB",
+    "description": "Esta noche, no vengas siendo tú, conviértete en algo más. 🦇\n\n🎃 UMBRAWEEN una noche donde lo sobrenatural, los disfraces y la música electronica se apoderan de la terraza de BIANCO.\n\n• 🏆 RD$50,000 en premios en efectivo para los mejores disfraces.\n• 🍸 OPEN BAR hasta las 2:00 AM.\n• 🎧 REVELACION DEL LINEUP (Jueves 10 de Octubre) mediante nuestro instagram @UMBRA_DR\n• 🎟️ PREVENTA FINALIZA (Jueves 10 de Octubre)\n\n📍 La Terraza de Bianco | Ramada Princess Hotel & Casino, Santo Domingo.\n\n",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5341,
+   "attributes": {
+    "name": "Halloween After party (La Vita E Dolce)",
+    "slug": "HalloweenAfterpartyLaVitaEDolce-1",
+    "start_at": "2026-10-31T03:00:12.000Z",
+    "end_at": "2026-10-31T05:00:12.000Z",
+    "free": false,
+    "place": "Av. Lope de Vega no. 29",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5385,
+   "attributes": {
+    "name": "𝑪𝑹𝑬𝑨𝑻𝑶𝑹𝑺 𝒙 𝑩𝑹𝑨𝑵𝑫𝑺 ✨ 𝑷𝑹 𝑷𝒂𝒄𝒌𝒂𝒈𝒆𝒔 & 𝑪𝒐𝒍𝒍𝒂𝒃𝒔",
+    "slug": "and-559",
+    "start_at": "2026-10-31T13:00:02.000Z",
+    "end_at": "2026-10-31T14:00:02.000Z",
+    "free": false,
+    "place": "ONLINE",
+    "description": "CREATORS x BRANDS ✨\nPR PACKAGES & COLLABS\n\nUn espacio para chicas que quieran convertirse en creadoras de contenido o que ya estén creando contenido, y que quieran acceder a oportunidades de PR packages y colaboraciones con marcas. 📦🤝\n\nPara formar parte debes tener disposición para crear contenido, cumplir con los requisitos de las marcas y comprometerte con cada colaboración.\n\nSi estás lista para crear, conectar con marcas y aprovechar nuevas oportunidades, este espacio es para ti. 🤍✨",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5221,
+   "attributes": {
+    "name": "RITMO DEL BOSQUE (Halloween1)",
+    "slug": "RITMODELBOSQUE-2",
+    "start_at": "2026-10-31T14:30:54.000Z",
+    "end_at": "2026-11-01T20:30:54.000Z",
+    "free": false,
+    "place": "ONLINE",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5401,
+   "attributes": {
+    "name": "Trick or Treat Playtown",
+    "slug": "TrickorTreatPlaytown-1",
+    "start_at": "2026-10-31T20:00:07.000Z",
+    "end_at": "2026-10-31T23:00:07.000Z",
+    "free": false,
+    "place": "Playtown Park",
+    "description": "🎃👻 ¡Halloween llega a Playtown! 🕷️🍭\nPrepárate para una tarde llena de animación, premios, dulces y mucha diversión. 🧡💜 Los peques pueden venir disfrazados, jugar, disfrutar y ¡salir a recoger sus dulces! 🍬🎃\n\n📅 31 de octubre\n⏰ 4:00 p. m. – 7:00 p. m.\n🎟️ RD$1,000 — 1 niño + 1 adulto\n👻 Persona adicional: RD$400\n🧺 Cada niño debe traer su canasta o recipiente para recoger sus dulces. 🍭🍬\n🎟️ Cupo limitado\n👻 ¡Ven con tu disfraz favorito y prepárate para una tarde de Halloween llena de sorpresas!",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5159,
+   "attributes": {
+    "name": "Horror Night",
+    "slug": "HorrorNight-1",
+    "start_at": "2026-10-31T22:30:13.000Z",
+    "end_at": "2026-11-01T03:00:13.000Z",
+    "free": false,
+    "place": "Pisicina don Ricardo",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4057,
+   "attributes": {
+    "name": "Combate Mortal Freestyle Internacional.",
+    "slug": "CombateMortalFreestyleInternacional-1",
+    "start_at": "2026-10-31T23:00:31.000Z",
+    "end_at": "2026-11-01T04:00:31.000Z",
+    "free": false,
+    "place": "Salón de Eventos Sambil",
+    "description": "Combate Mortal Internacional es un evento de alto impacto que reúne a los mejores peleadores nacionales e internacionales en una noche llena de adrenalina, fuerza y espectáculo. Disfruta de intensos enfrentamientos, técnicas de combate de primer nivel y un ambiente electrizante que hará vibrar a todos los asistentes. Una experiencia única para los amantes de la acción y las artes de combate, donde solo los más fuertes lograrán imponerse. ¡No te lo puedes perder!",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5373,
+   "attributes": {
+    "name": "Concierto Marilyn Manson Halloween",
+    "slug": "ConciertoMarilynMasonHalloween-1",
+    "start_at": "2026-10-31T23:00:40.000Z",
+    "end_at": "2026-11-01T07:00:40.000Z",
+    "free": false,
+    "place": "https://maps.app.goo.gl/7DR44UNPintRP1J96",
+    "description": "Noche de halloween diferente con el Concierto tributo de Marilyn Manson \n\n",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5379,
+   "attributes": {
+    "name": "PUNK-IN PARTY! Fiesta de Halloween! by P4 y Alejandro Band.",
+    "slug": "PUNKINPARTYFiestadeHalloweenbyP4yAlejandroBand-1",
+    "start_at": "2026-11-01T00:00:38.000Z",
+    "end_at": "2026-11-01T03:55:38.000Z",
+    "free": false,
+    "place": "Echoes Cafe & Bar",
+    "description": "Colectivo P4 y Alejandro Band presentan: PUNK-IN PARTY! Fiesta de Halloween!\n\n¡Prepárate para una noche inolvidable en la Punk-in Party este 31 de octubre en Echoes Bar! \n\nCelebra la fiesta de Halloween con nosotros en una explosión de energía, actividades espeluznantemente divertidas, concurso de disfraces y 3 bandas de rock en vivo que encenderán el escenario: Alejandro Band, Burning Nerissa y Tres Meses Después.  Disfraces, música, moshpits, ¡de todo, baby! OOOH YEAH.  🤘\n\n¡No te pierdas la fiesta más vibrante de la temporada y únete a nosotros en tix.com.do! Quienes lleguen temprano tendrán un hermoso sourvenir!\n\n¡LLEGA PUNTUALMENTE, BABY!  🤘 From punks to punks. \n\nSOLO MAYORES DE 18 AÑOS. \n\n@alejandrobandmusic + @colectivop4",
+    "event_category": {
+     "data": {
+      "id": 11,
+      "attributes": {
+       "name": "🎃 Halloween"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5358,
+   "attributes": {
+    "name": "pr0y3to X",
+    "slug": "pr0y3toX-1",
+    "start_at": "2026-11-01T00:00:53.000Z",
+    "end_at": "2026-11-01T06:00:53.000Z",
+    "free": false,
+    "place": "La Casa De La Piscina",
+    "description": "🎃 **Halloween en la casa de la piscina \n** 👻\n\nEste 31 de octubre nos escapamos a una piscina para celebrar una noche de disfraces, música, picadera y buena compañía. Prepárate para bailar, pasarla en grande y vivir una fiesta de miedo… ¡de las buenas! 🕸️🦇\n\n📅 31 de octubre  \n📍 En una villa  \n $ 1000\n🥃Open bar \n🧛ven con tu disfraz y tu traje de baño, que está será una noche inolvidable .\n\n\n¿Te atreves a venir? 🕷️\n\n\nPara pago de entrada comunicarse al \nWs [teléfono]\n",
+    "event_category": {
+     "data": {
+      "id": 11,
+      "attributes": {
+       "name": "🎃 Halloween"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5335,
+   "attributes": {
+    "name": "THE ATABEX HOLLOW",
+    "slug": "THEATABEXHOLLOW-2",
+    "start_at": "2026-11-01T01:00:01.000Z",
+    "end_at": "2026-11-01T06:00:01.000Z",
+    "free": false,
+    "place": "RocknRolla Bar",
+    "description": "THE ATABEX HOLLOW\n\nThe Atabex Hollow es una experiencia de Halloween concebida desde la estética oscura, alternativa y nocturna de The Atabex.\n\nUna noche para habitar lo extraño, lo elegante y lo inquietante. Una atmósfera de música, oscuridad, identidad visual y comunidad, pensada para quienes conectan con el EBM, industrial, post-punk, goth, darkwave y dark techno.\n\nDJ Sets by\nO.D. Vienna\nRobert Gilnez\n\nFecha: 31 de octubre\nHora: 9:00 P.M.\nLugar: Rock N Rolla\nAv. Sarasota 19, Plaza Universitaria, Santo Domingo\n\nEntradas\nEarly Bats: DOP 600.00 — hasta el 15 de octubre\nLate Ravens: DOP 1,000.00 — desde el 16 de octubre\n\nOscuridad, beats y una noche creada para entrar en la frecuencia de The Atabex Hollow.\n\nNo es una escena. Es una frecuencia.",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5367,
+   "attributes": {
+    "name": "THE HAUNTED MANOR",
+    "slug": "THEHAUNTEDMANOR-1",
+    "start_at": "2026-11-01T02:00:46.000Z",
+    "end_at": "2026-11-01T07:00:46.000Z",
+    "free": false,
+    "place": "Lucia SDQ",
+    "description": "The doors are open… but not everyone makes it out. 🩸\n\nTHE HAUNTED MANOR\nThis Halloween, enter at your own risk.\n\n👻 Scariest Costume — RD$10,000\n🖤 Best Couple Costume — Win a Bottle\n🎭 Surprise Show — 2 AM\n📍 Plaza Andalucía II, Av. Abraham Lincoln\n📲 Reservas: [teléfono]\n🔞 +21",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5228,
+   "attributes": {
+    "name": "IBIZA HALLOWEEN PARTY 2k26",
+    "slug": "IBIZAHALLOWEENPARTY2k26-1",
+    "start_at": "2026-11-01T02:00:57.000Z",
+    "end_at": "2026-11-01T09:00:57.000Z",
+    "free": false,
+    "place": "Ibiza Bar & Lounge",
+    "description": "ESTE PRÓXIMO SÁBADO 31 DE OCTUBRE LLEGA A NAGUA EL MEJOR PARTY DE HALLOWEEN DE TODOS LOS TIEMPO , COM ARTISTAS INVITADOS Y PREMIOS AL MEJOR TRAJE DE LA NOCHE . ",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5318,
+   "attributes": {
+    "name": "5K Yo Corro y Camino – Cáncer de Próstata y Salud Masculina",
+    "slug": "5KYoCorroyCaminoCancerdeProstataySaludMasculina-1",
+    "start_at": "2026-11-01T11:30:40.000Z",
+    "end_at": "2026-11-01T16:40:40.000Z",
+    "free": false,
+    "place": "Jardin Botanico",
+    "description": "**5K YO CORRO Y CAMINO**\n\n**Por la concientización sobre el cáncer de próstata y la salud masculina**\n\nLa **Sociedad Dominicana de Urología** te invita a participar en esta carrera y caminata familiar, creada para promover la prevención, el diagnóstico oportuno y el cuidado integral de la salud masculina.\n\n📅 **Domingo 1.º de noviembre de 2026**  \n🕢 **7:30 a. m.**  \n📍 **Jardín Botánico Nacional, Santo Domingo**\n\nPuedes correr o caminar. Lo importante es participar, compartir en familia y apoyar una causa que nos involucra a todos.\n\n### Inscripción para adultos: RD$1,500\n\nIncluye:\n\n• Participación en la carrera 5K.  \n• T-shirt oficial del evento.  \n• Bulto oficial del evento.  \n• Medalla de finalización.\n\n**Tallas disponibles para adultos: S, M, L y XL.**\n\n### Inscripción infantil: RD$800\n\nIncluye:\n\n• Participación en la categoría infantil.  \n• T-shirt infantil del evento.  \n• Bultito tipo funda con cordones.  \n• Medalla de finalización.\n\n**Tallas infantiles disponibles: desde talla 4 hasta M.**\n\nCada participante deberá seleccionar la talla de su T-shirt al momento de completar la inscripción. La disponibilidad de tallas estará sujeta al orden de registro.\n\nLos precios indicados no incluyen el cargo por servicio de Tix, que será añadido al momento de completar la compra.\n\nLa fecha y el lugar para retirar los kits serán comunicados posteriormente a los participantes registrados.\n\n💙 **Corre, camina y únete a una causa que nos importa a todos.**",
+    "event_category": {
+     "data": {
+      "id": 9,
+      "attributes": {
+       "name": "✨ Wellness"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5242,
+   "attributes": {
+    "name": "Maison Grand Prix - Mexico Edition",
+    "slug": "MaisonGrandPrixMexicoEdition-1",
+    "start_at": "2026-11-01T18:00:48.000Z",
+    "end_at": "2026-11-02T00:00:48.000Z",
+    "free": false,
+    "place": "Cielo Room",
+    "description": "Maison Grand Prix llega a Santo Domingo. Domingo 1ro de noviembre, 2:00pm, Cielo Rooftop, una tarde para ver la carrera como se debe ver: en buena compañía.",
+    "event_category": {
+     "data": {
+      "id": 6,
+      "attributes": {
+       "name": "🏀 Deporte"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5378,
+   "attributes": {
+    "name": "Throwback to Rock: 70s & 80s - Coro de Santo Domingo Primada de América",
+    "slug": "ThrowbacktoRock70sand80sCorodeSantoDomingoPrimadadeAmerica-1",
+    "start_at": "2026-11-01T23:00:55.000Z",
+    "end_at": "2026-11-02T00:30:55.000Z",
+    "free": false,
+    "place": "Bar Juan Lockward del Teatro Nacional",
+    "description": "​¡El rock como nunca antes lo habías escuchado! El Coro de Santo Domingo Primada de América te invita a \"Throwback to Rock - 70s & 80s\", un concierto íntimo que fusiona la potencia coral con los más grandes himnos de la historia.\n​Disfruta de arreglos vocales únicos para clásicos legendarios como \"Bohemian Rhapsody\", \"Livin' on a Prayer\", \"Eye of the Tiger\" y \"Smooth Criminal\", en el ambiente exclusivo del Bar Juan Lockward.\n​¡Asegura tu boleta con anticipación y vive esta experiencia inolvidable!",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5000,
+   "attributes": {
+    "name": "Nacho Redondo - Terapia de Grupo - Santiago",
+    "slug": "NachoRedondoTerapiadeGrupoSantiago-1",
+    "start_at": "2026-11-02T00:30:58.000Z",
+    "end_at": "2026-11-02T03:40:58.000Z",
+    "free": false,
+    "place": "Gran Teatro del Cibao",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5269,
+   "attributes": {
+    "name": "Bingo Solidario ADOSID",
+    "slug": "BingoSolidarioADOSID-1",
+    "start_at": "2026-11-05T21:00:54.000Z",
+    "end_at": "2026-11-06T00:00:54.000Z",
+    "free": false,
+    "place": "Fuerzas Armadas, Salón Independencia",
+    "description": "Te invitamos a celebrar una segunda edición de nuestro Bingo Solidario. Con tu aporte, nos ayudas a seguir ofreciendo nuestros servicios educativos, terapéuticos y formativos a personas con síndrome de Down.",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5238,
+   "attributes": {
+    "name": "Pediatras que dejan huella con Diana Santaguilliana",
+    "slug": "PediatrasquedejanhuellaconDianaSantaguilliana-1",
+    "start_at": "2026-11-05T22:30:12.000Z",
+    "end_at": "2026-11-06T01:00:12.000Z",
+    "free": false,
+    "place": "SPIRIT COWORKING",
+    "description": "Tu conocimiento puede trascender el consultorio. Un workshop práctico de marca personal, comunicación estratégica y media training. \n\nPARA QUIÉN ES\n\nPara pediatras que quieren que su voz llegue más lejos: \n\n• Quieres posicionarte como referente en tu especialidad.\n• Te invitan a medios, charlas o redes y quieres comunicar con seguridad.\n• Buscas conectar mejor con las familias que atiendes, dentro y fuera del consultorio.\n\nQUÉ APRENDERÁS\n\nTres herramientas para un solo objetivo: dejar huella\n\n• Fortalecer tu marca personal: \nDefine qué te hace distinta o distinto como pediatra y cómo hacerlo visible de forma coherente.\n\n• Comunicar con mayor impacto\nMensajes claros y estratégicos para padres, colegas e instituciones.\n\n• Prepararte para medios y entrevistas\nMedia training práctico: cómo responder, qué evitar y cómo aprovechar cada aparición.",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4832,
+   "attributes": {
+    "name": "Entre Nos: La Mesa Servida",
+    "slug": "EntreNosLaMesaServida-1",
+    "start_at": "2026-11-06T14:00:33.000Z",
+    "end_at": "2026-11-06T22:00:33.000Z",
+    "free": false,
+    "place": "Melany casa club (piscina)",
+    "description": "Encuentro exclusivo diseñado para mujeres de fe que lideran, cuidan y sirven. Es momento de hacer una pausa, recargar tus fuerzas y disfrutar de un espacio pensado enteramente para tu bienestar físico y emocional.",
+    "event_category": {
+     "data": {
+      "id": 13,
+      "attributes": {
+       "name": "🪁 Crecimiento Personal"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5306,
+   "attributes": {
+    "name": "Saint's Revenge: No Room In Hell Album Release Show",
+    "slug": "SaintsRevengeNoRoomInHellAlbumReleaseShow-1",
+    "start_at": "2026-11-08T01:00:29.000Z",
+    "end_at": "2026-11-08T04:55:29.000Z",
+    "free": false,
+    "place": "Los Reales Colonial",
+    "description": "Este mes de noviembre, Saint's Revenge presenta oficialmente No Room In Hell, su primer álbum de estudio. Después de dos años desarrollando y puliendo su sonido, y tras construir una reputación dentro del circuito local a través de cuatro sencillos y una intensa agenda de presentaciones en vivo, la agrupación reúne en este LP una muestra de todo lo que ha definido su propuesta hasta ahora, llevándola a un terreno más crudo, agresivo y visceral.\n\nSaint's Revenge: Taste For Blood at Estudio Local\n\nOpening Act: Truño\n\nCover: RD$ 300 / RD$ 500 En puerta\n\nHora: 9:00 PM\n",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5255,
+   "attributes": {
+    "name": "Ivy Negro - A Los Ojos @ SPM",
+    "slug": "IvyNegroALosOjosSPM-1",
+    "start_at": "2026-11-08T01:00:57.000Z",
+    "end_at": "2026-11-08T03:40:57.000Z",
+    "free": false,
+    "place": "Therapia Art Cafe",
+    "description": "La cantautora de rock Ivy Negro lleva este concierto promocional a San Pedro de Macoris, para promocionar su más reciente sencillo y compartir con sus seguidores. \n\nA Los Ojos, es el primer adelanto de su nuevo disco y es la segunda vez que se presenta en San Pedro de Macoris. Los asistentes pueden esperar una entrega cargada de intimidad, energía e historias envolventes. ",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5091,
+   "attributes": {
+    "name": "CADABRA FEST 2026",
+    "slug": "CADABRAFEST2026-1",
+    "start_at": "2026-11-08T02:00:16.000Z",
+    "end_at": "2026-11-08T08:00:16.000Z",
+    "free": false,
+    "place": "Caribbean Lake Park",
+    "description": "## ✨ CADABRA FEST 2026 🪐  \n### **EL PORTAL SE ABRE**\n**Un nuevo universo de fantasía.**\n\nHay mundos que solo existen en la imaginación… hasta que un portal se abre.\n\nEste **sábado 7 de noviembre**, Cadabra Fest regresa a **Caribbean Lake Park, Punta Cana**, para transportarnos hacia un nuevo universo donde la música, la fantasía y lo inesperado se encuentran en una experiencia fuera de este mundo. ✨\n\nEsta nueva edición estará encabezada por:\n\n🌍 **NIC FANCIULLI**  \nDJ y productor británico nominado al Grammy, fundador de **Saved Records** y una de las figuras más reconocidas del house y techno internacional.\n\n🇨🇴 **DH MOON**  \nDesde Colombia, talento de **Grood Taste**, llega a Cadabra con un sonido cargado de groove, ritmo y energía diseñado para la pista.\n\nUna noche.  \nUn portal.  \nUn nuevo universo esperando ser descubierto.\n\n🪐 **CADABRA FEST 2026**  \n📅 **Sábado 7 de noviembre**  \n📍 **Caribbean Lake Park — Downtown Punta Cana**\n\n🎟️ **Boletas disponibles en TIX y mutemonkeydr.com**\n\nEl portal está por abrirse.\n\n### **Atrévete a cruzarlo.** 🚀✨",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5392,
+   "attributes": {
+    "name": "THEMBA",
+    "slug": "THEMBA-1",
+    "start_at": "2026-11-08T02:00:48.000Z",
+    "end_at": "2026-11-08T08:00:48.000Z",
+    "free": false,
+    "place": "El Dorado Water Park",
+    "description": "THEMBA | Sábado 7 de noviembre\n\nTHEMBA es uno de los DJs más reconocidos de la escena afro house y pionero del sonido Afro Tech, la mezcla de ritmos africanos con la energía del techno que ha llevado a pistas de todo el mundo.\n\nEste sábado 7 de noviembre lo tendremos con nosotros para una noche que no te puedes perder @DORADO WATER PARK (LEGENDS ARENA)\n\n⚠️ Evento de capacidad limitada. Asegura tu entrada con tiempo.",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4685,
+   "attributes": {
+    "name": "4to Tour de Neiba - Ruta de la Uva en MTB",
+    "slug": "4toTourdeNeibaRutadelaUvaenMTB-1",
+    "start_at": "2026-11-08T12:30:50.000Z",
+    "end_at": "2026-11-09T19:00:50.000Z",
+    "free": false,
+    "place": "Kapu Village Neyba",
+    "description": "🚵 4to Tour de Neiba – Ruta de la Uva en MTB 2026\n\n¡La gran fiesta del ciclismo de MTB en Bahoruco!\n\nEl Club de Ciclismo Neiba MTB te invita a vivir la cuarta edición del evento más emocionante del sur dominicano: el Tour de Neiba – Ruta de la Uva en MTB, una experiencia única que combina el deporte, la naturaleza y la cultura vitivinícola de la región.\n\n📅 Fecha y Lugar:\nFecha: 08 de noviembre de 2026\nLugar: Neiba, Bahoruco\nHora de salida: 8:30 AM\n\n🛣️ La Ruta:\nDistancia: 35 kilómetros\nElevación Positiva: 250 metros\n\nUna ruta diseñada para disfrutar entre paisajes de viñedos y montañas del Valle de Neiba.\n\t\n🎟️ Entradas:\nCiclistas: RD$ 1,500\nVisitantes: RD$ 1,000\nNiños menores de 10 años: GRATIS\n\n🎒 ¿Qué incluye tu entrada?\n\nKit Ciclista:\n🥇 Medalla de finalización · Gorra del evento · Lentes de sol · Bolso · Brazalete personalizado · Oasis en ruta · Ticket rifa ciclistas · ID bicicleta · Asistencia mecánica · Desayuno · Almuerzo\n\nKit Visitante:\n🎉 Gorra del evento · Brazalete personalizado · Refrigerios · Ticket rifa invitados · Desayuno · Almuerzo · Actividades recreativas\n\n💳 Inscripciones y Pagos\n\nVia TIX:\nInscríbete en: www.tix.do\n\nVia Link de Inscripcion:\nPagos vía transferencia bancaria:\nBanreservas\nCuenta Corriente No.: 9609566457\nA nombre de: Club de Ciclismo Neiba MTB\nRNC: 430-43297-2\n\nFecha límite de inscripción: 30 de octubre de 2026\n\n📞 Más Información:\nTel/WhatsApp: +[teléfono]\nLugar del evento: Villa Kapú, Estero, Bahoruco\n\n¡No te quedes fuera! \n\nLas inscripciones son limitadas. Vive la Ruta de la Uva y sé parte de la historia del ciclismo en el sur de la República Dominicana. 🍇🚵‍♂️\n",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4944,
+   "attributes": {
+    "name": "Recital \"Palabra de Mujer\"",
+    "slug": "RecitalPalabradeMujer-1",
+    "start_at": "2026-11-08T15:00:27.000Z",
+    "end_at": "2026-11-09T03:55:27.000Z",
+    "free": false,
+    "place": "Teatro Las Máscaras",
+    "description": "Tras una emocionante primera edición el pasado 8 de marzo junto a Perpetual Lab y Karibe Vintage, regresa Palabra de Mujer, un espacio íntimo y transformador diseñado por y para mujeres que buscan elevar su voz, compartir sus vivencias y dar vida a la memoria de quienes vinieron antes.\n\nEn esta segunda edición, las tablas del Teatro Las Máscaras abren sus puertas para recibir relatos, poesía y verdades que conectan con lo más profundo del alma. Una mañana dominical para inspirarse, reflexionar y compartir en comunidad.\n\nFecha: Domingo 8 de noviembre\n\nHora: 11:00 A.M. a 1:00 P.M.\n\nLugar: Teatro Las Máscaras (Calle Arzobispo Portes #56, Zona Colonial)\n\nAcceso: Boletas únicamente disponibles en Tix.do.\n\n(Nota: Si deseas subir al escenario a participar como oradora o lectora, completa el formulario de registro disponible en el perfil de Instagram de @teatrolasmascaras).",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5382,
+   "attributes": {
+    "name": "TONY GUERRA | BY COSMIC VISION",
+    "slug": "TONYGERRABYCOSMICVISION-1",
+    "start_at": "2026-11-08T19:00:40.000Z",
+    "end_at": "2026-11-09T04:00:40.000Z",
+    "free": false,
+    "place": "Salvaje Beach Club",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5397,
+   "attributes": {
+    "name": "El Degalille - Old School edition",
+    "slug": "ElDegalilleOldSchooledition-1",
+    "start_at": "2026-11-11T23:30:08.000Z",
+    "end_at": "2026-11-12T03:55:08.000Z",
+    "free": false,
+    "place": "Velvet Room SDQ",
+    "description": "El Degalille es un karaoke para cantar malo, pero con sentimiento 🎤\n\nY para esta edición nos vamos Old School: Wisin & Yandel, Zion & Lennox, Jowell & Randy, Don Omar, Daddy Yankee, Plan B y todos esos clásicos que uno se sabe aunque tenga años sin escucharlos. 🔥",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4895,
+   "attributes": {
+    "name": "Carlos Sánchez en The Green Room",
+    "slug": "CarlosSanchezenTheGreenRoom-5",
+    "start_at": "2026-11-13T00:30:43.000Z",
+    "end_at": "2026-11-13T01:30:43.000Z",
+    "free": false,
+    "place": "The Green Room",
+    "description": "Carlos está armando este nuevo concepto.\nCarlos les cuenta sus últimos anécdotas y chismes, el público le cuenta a Carlos sus chismes.\nQuien sabe si hasta terminamos cantando todos al final.\nEs decir: una cura.\n\n\nPara reservaciones de mesas llamar al 809 -740-4601\nLa compra de boletas no asegura mesa, asientos por orden de llegada.",
+    "event_category": {
+     "data": {
+      "id": 1,
+      "attributes": {
+       "name": "🎤 Comedia"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5322,
+   "attributes": {
+    "name": "Las Locuras de Papi y Mami",
+    "slug": "LasLocurasdePapiyMami-1",
+    "start_at": "2026-11-14T00:30:42.000Z",
+    "end_at": "2026-11-14T03:55:42.000Z",
+    "free": false,
+    "place": "Teatro Las Máscaras",
+    "description": "El amor en la edad otoñal y la oposición de unos hijos que no asimilan que sus padres viudos, ambos de la tercera edad, se sientan profundamente enamorados, son los sentimientos que se juegan en la obra.\n\nActores: Lidia Ariza, Jorge Santiago, Montessori Ventura, Paola Mejia y Junior Jimenez",
+    "event_category": {
+     "data": {
+      "id": 4,
+      "attributes": {
+       "name": "🎭 Teatro"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5284,
+   "attributes": {
+    "name": "Olga Cerpa & Mestisay. Música de las Islas Canarias",
+    "slug": "OlgaCerpaandMestisayMusicadelasIslasCanarias-1",
+    "start_at": "2026-11-14T02:50:04.000Z",
+    "end_at": "2026-11-14T04:50:04.000Z",
+    "free": false,
+    "place": "Casa de Teatro. Olga Cerpa & Mestisay. Muisca de las Islas Canarias",
+    "description": "Por primera vez en República Dominicana Olga Cerpa y Mestisay. Música de las Islas Canarias. Un concierto cercano con los temas de su más reciente CD \"La costa de los cantares\" y éxitos de sus 20 producciones anteriores. Olga Cerpa es una intérprete excepcional considerada \"La voz de las Islas Canarias\". La avalan, presentaciones en importantes escenarios de todo el mundo. Dos nominaciones a los Premios Grammy Latinos. Premio Internacional en el Festival Cuba disco y otros reconocimientos y distinciones. Una voz de mucho alcance que enamora desde las primeras notas.",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5045,
+   "attributes": {
+    "name": "Humanizando el Liderazgo - The meeting Hub",
+    "slug": "HumanizandoelLiderazgoThemeetingHub-1",
+    "start_at": "2026-11-14T13:00:59.000Z",
+    "end_at": "2026-11-14T16:00:59.000Z",
+    "free": false,
+    "place": "SPIRIT COWORKING",
+    "description": "https://josesposito.com/humanizandoelliderazgo/\n\nEn este espacio queremos reflexionar sobre la manera en que estamos liderando, pero también sobre cómo podemos sumar, contribuir y asumir un papel activo en la construcción de entornos donde las personas se sientan escuchadas, reconocidas e inspiradas a dar lo mejor de sí.\n\nPorque humanizar el liderazgo no significa perder firmeza ni orientación a resultados. Significa comprender que las transformaciones más genuinas y sostenibles ocurren cuando ponemos a las personas en el centro, lideramos desde la coherencia y convertimos nuestras conversaciones en oportunidades para generar confianza, compromiso y acción.\n\nAv. Tiradentes, Santo Domingo\nSalon VICTORY el 14 de Noviembre de 9AM - 12PM",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5230,
+   "attributes": {
+    "name": "Construye tu Futuro por Pablo De la Rosa",
+    "slug": "ConstruyetuFuturoporPabloDelaRosa-1",
+    "start_at": "2026-11-14T13:30:58.000Z",
+    "end_at": "2026-11-14T14:30:58.000Z",
+    "free": false,
+    "place": "Centro León",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5235,
+   "attributes": {
+    "name": "VERTICALÍSIMO",
+    "slug": "VERTICALISIMO-1",
+    "start_at": "2026-11-14T23:00:11.000Z",
+    "end_at": "2026-11-15T01:00:11.000Z",
+    "free": false,
+    "place": "Casa de Teatro",
+    "description": "Este 14 de noviembre, Casa de Teatro se transforma en un escenario donde la fuerza, la flexibilidad, la danza, la acrobacia y la expresión corporal se encuentran alrededor de una barra vertical.\n\nVERTICALÍSIMO es un espectáculo de pole creado y producido por Claudia Gómez, que reúne a artistas con diferentes niveles, estilos y formas de interpretar el movimiento. Una experiencia que invita al público a descubrir el pole desde una perspectiva diferente.\n",
+    "event_category": {
+     "data": {
+      "id": 4,
+      "attributes": {
+       "name": "🎭 Teatro"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5372,
+   "attributes": {
+    "name": "Tacos & Tracks II",
+    "slug": "TacosandTracksII-1",
+    "start_at": "2026-11-14T23:00:53.000Z",
+    "end_at": "2026-11-15T04:00:53.000Z",
+    "free": false,
+    "place": "Taste by Reymed",
+    "description": "Una experiencia donde la música electrónica en vivo de Mohikaa & Morukev se une con los sabores de Taste by Reymed. Disfruta una noche llena de buena música, ambiente único\n\n🌮  Bites de tacos en la pista de baile\n👩🏽‍🎨 Retratos gratis por Lalaleiko\n👕 Merch exclusiva del evento",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5342,
+   "attributes": {
+    "name": "WHAT IS REAL 3.0",
+    "slug": "WHATISREAL30-2",
+    "start_at": "2026-11-15T00:00:41.000Z",
+    "end_at": "2026-11-15T01:00:41.000Z",
+    "free": false,
+    "place": "Los Reales Colonial",
+    "description": "👑 WHAT IS REAL 3.0 · Mascarada electrónica\n\nSábado 14 de noviembre. Los Reales Colonial, Santo Domingo.\n\nUna noche donde la realidad se quita la máscara. Inspirada en la realeza medieval, esta tercera edición te lleva a un baile de máscaras con música electrónica y visuales hiperreales que te harán dudar de lo que estás viendo.\n\nPonte tu máscara. Entra al reino. Pregúntate qué es real.\n\n🎟️ Early Bird disponible, los precios suben con cada fase. No esperes a la última.",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4540,
+   "attributes": {
+    "name": "Guaymate y sus Talentos Feria Gastronómica y Cultural 2026",
+    "slug": "GuaymateysusTalentosFeriaGastronomicayCultural2026-1",
+    "start_at": "2026-11-16T20:00:34.000Z",
+    "end_at": "2026-11-18T03:00:34.000Z",
+    "free": false,
+    "place": "Guaymate  Parque Municipal Juan Pablo Duarte",
+    "description": "🎉 ¡Regístrate gratis y acompáñanos!\n\nLa Feria Gastronómica y Cultural 2026 - Guaymate y sus Talentos es una celebración de nuestra identidad, nuestra cultura y el talento que hace grande a nuestra comunidad.\n\nDisfruta de una experiencia familiar donde podrás conocer lo mejor de la gastronomía local, apoyar emprendedores, descubrir talentos artísticos y compartir con cientos de familias en un ambiente seguro y lleno de orgullo guaymatense.\n\n🍽️ Gastronomía local y regional\n🎤 Presentaciones artísticas y culturales\n🛍️ Emprendimientos locales\n👨‍👩‍👧‍👦 Ambiente familiar\n🎟️ Entrada gratuita\n\nTu registro nos ayuda a organizar mejor el evento y garantizar una experiencia más cómoda para todos los asistentes.\n\n📍 Parque Municipal Juan Pablo Duarte, Guaymate\n📅 18 y 19 de julio de 2026",
+    "event_category": {
+     "data": {
+      "id": 3,
+      "attributes": {
+       "name": "🎉 Festival"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5268,
+   "attributes": {
+    "name": "Foro Económico elDinero 2026",
+    "slug": "ForoEconomicoelDinero2026-1",
+    "start_at": "2026-11-17T18:30:48.000Z",
+    "end_at": "2026-11-17T23:00:48.000Z",
+    "free": false,
+    "place": "InterContinental Real Santo Domingo by IHG",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5063,
+   "attributes": {
+    "name": "SINFONICO - Encuentro de Talento",
+    "slug": "SINFONICOEncuentrodeTalento-1",
+    "start_at": "2026-11-19T00:30:37.000Z",
+    "end_at": "2026-11-19T02:30:37.000Z",
+    "free": false,
+    "place": "Teatro Nacional Eduardo Brito",
+    "description": "SINFÓNICO 2026\nEncuentro de Talento\n\nLa Fundación Harmonía, el Teatro Nacional Eduardo Brito, y SeaBoard Energía Limpia se unen, en una iniciativa de contribuir al arte sinfónico en el país, propiciando un evento donde brillen nuestros talentos locales, SINFÓNICO 2026.\n\nEste será el segundo gran encuentro de jóvenes instrumentistas dominicanos, puestos en escena tocando obras musicales en estreno, música para una nueva generación, en interpretación a manos de nuestros jóvenes músicos, con talentosos solistas interpretando obras de los grandes maestros. \n\nObras de: Bach / Rutter / Herdz / Piazzola / Purcell.\nSolistas: Sam Lizardo - Violín / Esmeralda Nuñez - Violín \n30 jóvenes, talento dominicano \nDirige Mtro.  Angel Herdz\n\nMiercoles 18 de noviembre - 2026\nTeatro Nacional Eduardo Brito \nSala Carlos Piantini\n8:30 pm\n\n¡Ven a escuchar los tuyos tocar!\n\nhttps://www.instagram.com/fundacionharmonia/ ",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5225,
+   "attributes": {
+    "name": "Pampers arcoíris. El debate sobre la adopción gay",
+    "slug": "PampersarcoirisEldebatesobrelaadopciongay-1",
+    "start_at": "2026-11-19T01:00:57.000Z",
+    "end_at": "2026-11-19T02:00:57.000Z",
+    "free": false,
+    "place": "Local 3 : Calle Max. Herriquez Ureña 33",
+    "description": "Pampers arcoíris 🌈. El debate sobre la  adopcion gay \nEn un país, donde ni el matrimonio gay existe, Comedia Local se atreve a debatir la adopción en parejas del mismo sexo.\nSeis comediantes, dos posturas opuestas, que se enfrentan en un debate con argumentos, humor y mucha incomodidad. Ven a reír, a debatir desde tu asiento y a disfrutar de una noche tan divertida, como polémica.",
+    "event_category": {
+     "data": {
+      "id": 1,
+      "attributes": {
+       "name": "🎤 Comedia"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5343,
+   "attributes": {
+    "name": "Construye Tu Futuro La Romana",
+    "slug": "ConstruyeTuFuturoLaRomana-1",
+    "start_at": "2026-11-19T23:00:46.000Z",
+    "end_at": "2026-11-20T00:00:46.000Z",
+    "free": false,
+    "place": "Alianza Juvenil Por El Deporte y La Cultura La Romana",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5070,
+   "attributes": {
+    "name": "Bodega Salomé: Tercera edición - Noviembre",
+    "slug": "BodegaSalomeTerceraedicionNoviembre-1",
+    "start_at": "2026-11-21T00:00:42.000Z",
+    "end_at": "2026-11-21T03:00:42.000Z",
+    "free": false,
+    "place": "Let’s Drunch Studio",
+    "description": "Bodega Salomé es una experiencia gastronómica y social para 30 personas que reúne cocina de autor, vinos naturales y una mesa compartida que invita a conectar con desconocidos a través del arte del buen vivir.\n\nEn esta tercera temporada presentamos una edición creada por el chef Hideyoshi Tateyama (Samurai). Una noche para experimentar su alta cocina contemporánea que combina técnica, creatividad y elegancia, con el compromiso de ofrecer una experiencia gastronómica memorable.\n\nLa noche se complementa con vinos naturales curados por Docaboca y un DJ set atmosférico, creando una experiencia inmersiva que celebra la gastronomía, la conexión y el talento creativo local.",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5256,
+   "attributes": {
+    "name": "LA PÚBLICA DE PASEO - NOVELPOPPYS",
+    "slug": "LAPUBLICADEPASEONOVELPOPPYS-1",
+    "start_at": "2026-11-22T00:00:04.000Z",
+    "end_at": "2026-11-22T02:00:04.000Z",
+    "free": false,
+    "place": "Escenario 360",
+    "description": "LA PÚBLICA DE PASEO - El show del programa de Humor #1 en YOUTUBE llega a Escenario 360 para que lo puedas disfrutar en vivo junto a tus amigos y familiares. \n\n📅  Sábado 21 de noviembre \n🕜  8:00pm\n📍  Escenario 360 - GALERÍA 360\n🎟️  RD$1,000 COCINA - RD$1,500 LOS CORISTAS - RD$2,000 CLUB DE FANS - BOLETAS EN TIX.DO\nInfo [teléfono]\nSHOW PARA TODA LA FAMILIA ",
+    "event_category": {
+     "data": {
+      "id": 1,
+      "attributes": {
+       "name": "🎤 Comedia"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5117,
+   "attributes": {
+    "name": "AARON 21 - ALMA ROSA: EL CONCIERTO",
+    "slug": "AARON21ALMAROSAELCONCIERTO-1",
+    "start_at": "2026-11-22T00:00:47.000Z",
+    "end_at": "2026-11-22T03:00:47.000Z",
+    "free": false,
+    "place": "Los Reales Colonial",
+    "description": "**AARON 21 — ALMA ROSA: EN VIVO 🌹**\n\nLO’ PRIMO, llegó el momento de vivir **ALMA ROSA** de una manera completamente diferente.\n\nEste **21 de noviembre** nos reunimos en **Los Reales Colonial** para una noche especial donde la música, la historia y la energía de ALMA ROSA cobran vida sobre el escenario.\n\nPrepárate para cantar, bailar y vivir en directo las canciones de un álbum que representa una parte importante de quién soy, de dónde vengo y todo lo que hemos construido juntos.\n\n🗓️ **21 de noviembre**\n📍 **Los Reales Colonial**\n⏰ **8:00 PM**\n\nCompra tu boleta, llega temprano y ven preparado para vivir la experiencia completa de **ALMA ROSA**. \n\n[ESTE EVENTO ES EXCLUSIVAMENTE PARA MAYORES DE 18 AÑOS SIN EXCEPCIONES]\n\n**Nos vemos ahí, LO’ PRIMO. 🌹**\n",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5237,
+   "attributes": {
+    "name": "Juanma's Jazzy Christmas: An Intimate Celebration",
+    "slug": "JuanmasJazzyChristmasAnIntimateCelebration-1",
+    "start_at": "2026-11-22T00:30:11.000Z",
+    "end_at": "2026-11-22T02:00:11.000Z",
+    "free": false,
+    "place": "The Green Room",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5356,
+   "attributes": {
+    "name": "JIMMIX LIVE (LA VITA E DOLCE)",
+    "slug": "JIMMIXLIVELAVITAEDOLCE-1",
+    "start_at": "2026-11-22T02:00:24.000Z",
+    "end_at": "2026-11-22T03:00:24.000Z",
+    "free": false,
+    "place": "Dolce Italia",
+    "description": "JIMMIX LIVE — LA VITA È DOLCE 🦋\n\nEste viernes 21 de noviembre, La Vita È Dolce presenta una noche especial junto a JIMMIX, llevando su energía y su sonido en vivo a Novo Centro – Dolce Italia.\nUna experiencia nocturna creada para disfrutar de buena música, ambiente exclusivo, luces, tragos y una vibra diferente en el corazón de Santo Domingo.\n\n🦋 JIMMIX — LIVE DJ SET\n📅 Viernes 21 de noviembre\n📍 Novo Centro — Dolce Italia\n🎟️ Entradas disponibles exclusivamente a través de TIX\n\nDress to impress. Come for the music. Stay for the vibe.\n\nLA VITA È DOLCE — The night is yours.",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5154,
+   "attributes": {
+    "name": "TOUR BACHARENGUE 2.0 Thanksgiving Edition",
+    "slug": "TOURBACHARENGUE20ThanksgivingEdition-1",
+    "start_at": "2026-11-27T01:00:46.000Z",
+    "end_at": "2026-11-27T03:50:46.000Z",
+    "free": false,
+    "place": "Hard Rock Cafe Santo Domingo",
+    "description": "HARD ROCK CAFÉ SANTO DOMINGO PRESENTA\n\nLA MÁS VERSÁTIL,\nLA MÁS POPULAR,\nLA MÁS QUERIDA\n\nMARCEL PIEL MORENA\n\nBACHARENGUE 2.0\nTHANKSGIVING EDITION\n\nJUEVES 26 DE NOVIEMBRE DE 2026\n\nACOMPAÑADA POR 17 MÚSICOS EN ESCENA\nE INVITADOS ESPECIALES\n\nUN EVENTO DE FUNDACIÓN MEDIA LUNA\nEN APOYO A LA LUCHA CONTRA EL CÁNCER DE MAMA\n\nINFORMACIÓN Y RESERVAS\n[teléfono]\n",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5178,
+   "attributes": {
+    "name": "A NEW DAY",
+    "slug": "ANEWDAY-1",
+    "start_at": "2026-11-29T01:00:47.000Z",
+    "end_at": "2026-11-29T02:00:47.000Z",
+    "free": false,
+    "place": "Casa de Teatro",
+    "description": "\"A New Day\" llega el 28 de noviembre a Casa de Teatro. Una noche llena de energía y buena música para celebrar un nuevo comienzo. ¡Ven a vivir esta experiencia con nosotros!",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5196,
+   "attributes": {
+    "name": "CRECIENDO EN PAREJA || CONSTRUYE UNA RELACION CONSCIENTE",
+    "slug": "CONSTRUYEUNARELACIONCONSCIENTE-1",
+    "start_at": "2026-11-29T18:30:39.000Z",
+    "end_at": "2026-11-30T00:00:39.000Z",
+    "free": false,
+    "place": "Escenario 360",
+    "description": "29 de noviembre · 2:30 p. m. a 8:00 p. m. · Santo Domingo\n\n¿Sientes que amas a tu pareja, pero cada vez les cuesta más entenderse, conectar o crecer juntos?\n\nA veces no falta amor. Faltan herramientas, conversaciones que llevan tiempo pendientes, acuerdos que nunca se hicieron claros y una manera más consciente de construir la relación.\n\nCreciendo en Pareja es una experiencia presencial para parejas que quieren detenerse, mirarse, escucharse y fortalecer el vínculo desde un lugar más sano e intencional.\n\nDurante todo el día, Enrique Canela y Angie Silva los acompañan a reconocer lo que está debilitando la relación sin que se den cuenta, entender de verdad lo que el otro necesita y construir una nueva manera de relacionarse.\n\nLo que vamos a trabajar\n\nLos patrones que se repiten y desgastan la relación.\nCómo hablarse sin atacar, sin defenderse y sin cerrarse.\nAcuerdos que sí se sostienen en el día a día.\nConexión, intimidad y complicidad.\nCómo crecer cada uno sin terminar creciendo por separado.\nQué hacer con las diferencias y los conflictos.\nLas bases de una relación consciente e intencional.\n\nNo hace falta estar en crisis para trabajar en tu relación. Esto también es para las parejas que están bien y saben que pueden construir algo todavía mejor.\n\nSolo 200 parejas.\n\nEntradas\n\nTodos los precios son por pareja, así que la entrada cubre a los dos.\n\nGold, RD$5,900. El acceso al evento para ustedes dos.\n\nPlatinum, RD$6,600. Lo mismo que Gold, más un libro para que se lleven algo a casa.\n\nDiamond, RD$9,500. Todo lo anterior y bastante más: espacio preferencial en el salón, un libro para cada uno, material de apoyo individual, el Juego de Cartas Creciendo en Pareja y una sesión VIP antes del evento con Enrique, Angie e invitados especiales.\n\nAdquiere tu ticket físico escribiendo al [teléfono]",
+    "event_category": {
+     "data": {
+      "id": 13,
+      "attributes": {
+       "name": "🪁 Crecimiento Personal"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5362,
+   "attributes": {
+    "name": "De Dama a Reina: Reflejando mi Corona.",
+    "slug": "DeDamaaReinaReflejandomiCorona-1",
+    "start_at": "2026-11-29T19:00:05.000Z",
+    "end_at": "2026-11-29T23:00:05.000Z",
+    "free": false,
+    "place": "https://maps.app.goo.gl/YNZwkXGJdmaJgSBQ8",
+    "description": "¿Estás lista para comenzar de nuevo y descubrir la reina que Dios creó en ti?\n\nVen a vivir De Dama a Reina: Reflejando mi Corona, una experiencia creada para despertar la reina que hay en ti.\n\nDisfruta una tarde de té con conferencias inspiradoras, presentación artística y con  mujeres especialistas en destacar nuestra belleza, valor y propósito. \n\nSerá un espacio para renovar tu mirada, fortalecer tu fe y recordar la mujer que Dios te creó para ser. \nNo vendrás solo a escuchar: vendrás a reconectar contigo y a salir lista para brillar con propósito.\n\n🗓️ Domingo 29 de noviembre de 2026\n⏰ 3:00 p. m.\n📍Salón de Eventos de la Catedral de San Pedro de Macorís.\n🎟️ Cupos limitados.",
+    "event_category": {
+     "data": {
+      "id": 9,
+      "attributes": {
+       "name": "✨ Wellness"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 2010,
+   "attributes": {
+    "name": "Evento de Prueba",
+    "slug": "EventodePrueba-1",
+    "start_at": "2026-12-01T19:00:00.000Z",
+    "end_at": "2026-12-01T20:00:00.000Z",
+    "free": false,
+    "place": "Comedy Club",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 3,
+      "attributes": {
+       "name": "🎉 Festival"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4044,
+   "attributes": {
+    "name": "Evento de Prueba (duplicado)",
+    "slug": "EventodePruebaduplicado-1",
+    "start_at": "2026-12-01T19:00:00.000Z",
+    "end_at": "2026-12-01T20:00:00.000Z",
+    "free": false,
+    "place": "Comedy Club",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 3,
+      "attributes": {
+       "name": "🎉 Festival"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5364,
+   "attributes": {
+    "name": "ROMÁN MOSTEIRO · CASA CRUDA TOUR",
+    "slug": "ROMANMOSTEIROCASACRUDATOUR-1",
+    "start_at": "2026-12-01T20:00:14.000Z",
+    "end_at": "2026-12-01T22:00:14.000Z",
+    "free": false,
+    "place": "Casa de Teatro",
+    "description": "Román Mosteiro vuelve un año después de su primera visita a la ciudad para  presentar su tercer disco de autor CASA CRUDA. Será desde el corazón de la Zona Colonial de Santo Domingo en Casa de Teatro. Un concierto en el cual se podrán escuchar todas las nuevas canciones de este trabajo junto a otras de su repertorio anterior. Una tarde noche diferente de martes en la que disfrutar de un bonito concierto en un sitio mágico.",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4964,
+   "attributes": {
+    "name": "J-ROD SULLIVAN - THE GREEN ROOM",
+    "slug": "JRODSULLIVANTHEGREENROOM-1",
+    "start_at": "2026-12-04T01:30:20.000Z",
+    "end_at": "2026-12-04T03:30:20.000Z",
+    "free": false,
+    "place": "The Green Room",
+    "description": "El jueves 3 de diciembre, The Green Room se viste de gala para recibir a Jerrod \"J-Rod\" Sullivan en nuestra Jazz Night.\n\nBaterista actual de Janet Jackson y Jeffrey Osborne, J-Rod es un referente mundial de la percusión, reconocido por su técnica impecable, su versatilidad y su capacidad de inspirar a generaciones de músicos a nivel global.\n\nVen a disfrutar de una velada de Jazz de categoría internacional con la mejor coctelería y gastronomía de Piantini.\n\n\n🔞 Evento exclusivo para mayores de 18 años.\n\nLe informamos que, una vez finalizada la compra de su boleta, no se admitirán cambios, cancelaciones ni devoluciones del importe abonado, salvo en los casos de cancelación o aplazamiento del evento por parte del organizador. Al completar su transacción, usted acepta estas condiciones de venta de manera definitiva.",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4518,
+   "attributes": {
+    "name": "Andrés Obregón en Concierto",
+    "slug": "AndresObregonenConcierto-1",
+    "start_at": "2026-12-06T00:00:52.000Z",
+    "end_at": "2026-12-06T03:00:52.000Z",
+    "free": false,
+    "place": "The Green Room",
+    "description": "Después de recorrer escenarios en México, Latinoamérica, Estados Unidos y Europa con su gira Todo Pasa, Andrés Obregón llega por primera vez a República Dominicana. En este concierto especial, el cantautor mexicano presentará las canciones que han marcado su carrera y los temas de su más reciente etapa artística, en una experiencia cercana, emotiva y llena de historias que han conectado con miles de personas alrededor del mundo.\n\nPuertas 8:00 PM\nShow 9:00 PM",
+    "event_category": {
+     "data": {
+      "id": 2,
+      "attributes": {
+       "name": "🎵 Música"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4778,
+   "attributes": {
+    "name": "SORTEO - GANA UN JUEGO DE 4 GOMAS GRATIS",
+    "slug": "SORTEOGANAUNJUEGODE4GOMASGRATIS-1",
+    "start_at": "2026-12-13T15:00:01.000Z",
+    "end_at": "2026-12-13T16:00:01.000Z",
+    "free": false,
+    "place": "Iglesia Remanso de Dios",
+    "description": "GANA UN JUEGO DE 4 GOMAS PARA TU VEHÍCULO *GRATIS*\n\nCÓMO PARTICIPAR EN EL SORTEO:\nCompra tu Boleto físico o en línea por 500 RD$ pesos - Cada boleto equivale a una oportunidad para ganar.\n\nGANA 1 BOLETO GRATIS al visitarnos y demotrar haber reposteado este anuncio.\nPOR CADA 2000 RD$ pesos en compra de boletos recibes 1 boleto adicional.\n\nEL GANADOR PODRÁ ESCOGER 1 SET DE CUATRO GOMAS DEL TAMAÑO QUE DESEE.\n\nVISÍTANOS EN:\nIglesia Remanso de Dios, Rafael Perez #4, Santo Domingo\n\nEl sorteo se celebrará EN VIVO el domingo 10 de diciembre de 2026\n\nPara más información comunícate al [teléfono]\n\n*Auspiciado por Adan Sanchez Auto Import*",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5386,
+   "attributes": {
+    "name": "𝐄𝐋 𝐆𝐑𝐈𝐍𝐂𝐇: 𝐃𝐄𝐒𝐃𝐄 𝐋𝐀 𝐌𝐎𝐍𝐓𝐀Ñ𝐀",
+    "slug": "N-4138",
+    "start_at": "2026-12-13T20:00:44.000Z",
+    "end_at": "2026-12-13T21:00:44.000Z",
+    "free": false,
+    "place": "Sala Manuel Rueda",
+    "description": "𝐄𝐋 𝐆𝐑𝐈𝐍𝐂𝐇: 𝐃𝐄𝐒𝐃𝐄 𝐋𝐀 𝐌𝐎𝐍𝐓𝐀Ñ𝐀\n\n𝐓𝐨𝐝𝐨𝐬 𝐜𝐨𝐧𝐨𝐜𝐞𝐧 𝐚𝐥 𝐆𝐫𝐢𝐧𝐜𝐡. 𝐓𝐨𝐝𝐨𝐬 𝐬𝐚𝐛𝐞𝐧 𝐪𝐮𝐞 𝐨𝐝𝐢𝐚 𝐥𝐚 𝐍𝐚𝐯𝐢𝐝𝐚𝐝. 𝐓𝐨𝐝𝐨𝐬 𝐬𝐚𝐛𝐞𝐧 𝐪𝐮𝐞 𝐞𝐬 𝐞𝐥 𝐯𝐢𝐥𝐥𝐚𝐧𝐨… ¿𝐨 𝐞𝐬𝐨 𝐟𝐮𝐞 𝐬𝐢𝐦𝐩𝐥𝐞𝐦𝐞𝐧𝐭𝐞 𝐥𝐨 𝐪𝐮𝐞 𝐧𝐨𝐬 𝐜𝐨𝐧𝐭𝐚𝐫𝐨𝐧?𝐌𝐢𝐞𝐧𝐭𝐫𝐚𝐬 𝐕𝐢𝐥𝐥𝐚𝐪𝐮𝐢é𝐧 𝐬𝐞 𝐩𝐫𝐞𝐩𝐚𝐫𝐚 𝐩𝐚𝐫𝐚 𝐜𝐞𝐥𝐞𝐛𝐫𝐚𝐫 𝐥𝐚 𝐍𝐚𝐯𝐢𝐝𝐚𝐝 𝐦á𝐬 𝐞𝐬𝐩𝐞𝐜𝐭𝐚𝐜𝐮𝐥𝐚𝐫 𝐝𝐞 𝐭𝐨𝐝𝐚𝐬, 𝐝𝐞𝐬𝐝𝐞 𝐥𝐨 𝐚𝐥𝐭𝐨 𝐝𝐞 𝐥𝐚 𝐦𝐨𝐧𝐭𝐚ñ𝐚 𝐞𝐥 𝐆𝐫𝐢𝐧𝐜𝐡 𝐨𝐛𝐬𝐞𝐫𝐯𝐚 𝐞𝐧 𝐬𝐢𝐥𝐞𝐧𝐜𝐢𝐨. \n\n𝐀𝐥𝐠𝐨 𝐞𝐧 𝐞𝐬𝐚 𝐜𝐞𝐥𝐞𝐛𝐫𝐚𝐜𝐢ó𝐧 𝐥𝐞 𝐫𝐞𝐬𝐮𝐥𝐭𝐚 𝐯𝐚𝐜í𝐨 𝐲, 𝐝𝐞𝐭𝐫á𝐬 𝐝𝐞 𝐬𝐮 𝐫𝐞𝐜𝐡𝐚𝐳𝐨, 𝐬𝐞 𝐞𝐬𝐜𝐨𝐧𝐝𝐞 𝐮𝐧𝐚 𝐡𝐢𝐬𝐭𝐨𝐫𝐢𝐚 𝐪𝐮𝐞 𝐧𝐚𝐝𝐢𝐞 𝐬𝐞 𝐡𝐚 𝐝𝐞𝐭𝐞𝐧𝐢𝐝𝐨 𝐚 𝐞𝐬𝐜𝐮𝐜𝐡𝐚𝐫.𝐂𝐮𝐚𝐧𝐝𝐨 𝐮𝐧𝐚 𝐧𝐢ñ𝐚 𝐝𝐞𝐜𝐢𝐝𝐞 𝐚𝐜𝐞𝐫𝐜𝐚𝐫𝐬𝐞 𝐚𝐥 𝐭𝐞𝐦𝐢𝐝𝐨 𝐆𝐫𝐢𝐧𝐜𝐡 𝐲 𝐞𝐬𝐜𝐮𝐜𝐡𝐚𝐫 𝐬𝐮 𝐯𝐞𝐫𝐬𝐢ó𝐧, 𝐜𝐨𝐦𝐢𝐞𝐧𝐳𝐚𝐧 𝐚 𝐬𝐚𝐥𝐢𝐫 𝐚 𝐥𝐚 𝐥𝐮𝐳 𝐬𝐞𝐜𝐫𝐞𝐭𝐨𝐬, 𝐡𝐞𝐫𝐢𝐝𝐚𝐬 𝐲 𝐯𝐞𝐫𝐝𝐚𝐝𝐞𝐬 𝐜𝐚𝐩𝐚𝐜𝐞𝐬 𝐝𝐞 𝐜𝐚𝐦𝐛𝐢𝐚𝐫 𝐭𝐨𝐝𝐨 𝐥𝐨 𝐪𝐮𝐞 𝐜𝐫𝐞í𝐚𝐦𝐨𝐬 𝐬𝐚𝐛𝐞𝐫 𝐬𝐨𝐛𝐫𝐞 é𝐥.\n\n𝐋𝐨 𝐪𝐮𝐞 𝐝𝐞𝐬𝐜𝐮𝐛𝐫𝐢𝐫á 𝐩𝐨𝐧𝐝𝐫á 𝐞𝐧 𝐝𝐮𝐝𝐚 𝐫𝐮𝐦𝐨𝐫𝐞𝐬, 𝐞𝐧𝐟𝐫𝐞𝐧𝐭𝐚𝐫á 𝐯𝐞𝐫𝐝𝐚𝐝𝐞𝐬 𝐲 𝐫𝐞𝐯𝐞𝐥𝐚𝐫á 𝐪𝐮𝐞, 𝐪𝐮𝐢𝐳á𝐬, 𝐜𝐨𝐧𝐨𝐜í𝐚𝐦𝐨𝐬 𝐥𝐚 𝐡𝐢𝐬𝐭𝐨𝐫𝐢𝐚… 𝐩𝐞𝐫𝐨 𝐧𝐮𝐧𝐜𝐚 𝐜𝐨𝐧𝐨𝐜𝐢𝐦𝐨𝐬 𝐚𝐥 𝐆𝐫𝐢𝐧𝐜𝐡.\n\n𝐔𝐧𝐚 𝐡𝐢𝐬𝐭𝐨𝐫𝐢𝐚 𝐧𝐚𝐯𝐢𝐝𝐞ñ𝐚 𝐜𝐨𝐧𝐭𝐚𝐝𝐚 𝐜𝐨𝐦𝐨 𝐧𝐮𝐧𝐜𝐚 𝐚𝐧𝐭𝐞𝐬, 𝐝𝐨𝐧𝐝𝐞 𝐥𝐚 𝐝𝐚𝐧𝐳𝐚, 𝐞𝐥 𝐭𝐞𝐚𝐭𝐫𝐨 𝐲 𝐥𝐚 𝐦ú𝐬𝐢𝐜𝐚 𝐬𝐞 𝐮𝐧𝐞𝐧 𝐞𝐧 𝐮𝐧𝐚 𝐩𝐮𝐞𝐬𝐭𝐚 𝐞𝐧 𝐞𝐬𝐜𝐞𝐧𝐚 𝐜𝐚𝐫𝐠𝐚𝐝𝐚 𝐝𝐞 𝐞𝐦𝐨𝐜𝐢ó𝐧 𝐲 𝐦𝐚𝐠𝐢𝐚.\n\n𝐏𝐨𝐫𝐪𝐮𝐞 𝐭𝐨𝐝𝐚 𝐡𝐢𝐬𝐭𝐨𝐫𝐢𝐚 𝐭𝐢𝐞𝐧𝐞 𝐝𝐨𝐬 𝐯𝐞𝐫𝐬𝐢𝐨𝐧𝐞𝐬…𝐲 𝐞𝐬𝐭𝐚 𝐍𝐚𝐯𝐢𝐝𝐚𝐝 𝐜𝐨𝐧𝐨𝐜𝐞𝐫á𝐬 𝐥𝐚 𝐪𝐮𝐞 𝐧𝐮𝐧𝐜𝐚 𝐭𝐞 𝐜𝐨𝐧𝐭𝐚𝐫𝐨𝐧.¿𝐓𝐞 𝐚𝐭𝐫𝐞𝐯𝐞𝐬 𝐚 𝐝𝐞𝐬𝐜𝐮𝐛𝐫𝐢𝐫𝐥𝐚?",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4715,
+   "attributes": {
+    "name": "Vertical Fest 2026, by Iglesia Charis",
+    "slug": "VerticalFest2026byIglesiaCharis-1",
+    "start_at": "2026-12-16T20:30:26.000Z",
+    "end_at": "2026-12-17T03:30:26.000Z",
+    "free": false,
+    "place": "Iglesia Charis",
+    "description": "Vertical Fest SFM es una actividad benéfica tipo concierto enfocada en recaudar fondos para la construcción de un templo cristiano en San Francisco de Macorís, proyectado como un centro de fe, apoyo social y aporte cultural para la ciudad y la región Nordeste, promoviendo la expansión del evangelio y el servicio a los más necesitados.",
+    "event_category": {
+     "data": {
+      "id": 3,
+      "attributes": {
+       "name": "🎉 Festival"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5355,
+   "attributes": {
+    "name": "Giorgio Siladi en Los Reales Colonial",
+    "slug": "GiorgioSiladienLosRealesColonial-1",
+    "start_at": "2026-12-18T00:00:40.000Z",
+    "end_at": "2026-12-18T03:55:40.000Z",
+    "free": false,
+    "place": "Los Reales Colonial",
+    "description": "Giorgio Siladi presenta en vivo Así Inventamos el Fuego, su tercer álbum de estudio y el cierre de una trilogía iniciada en 2020 con Todo Se Mueve y continuada con Quemar La Casa. El concierto reunirá canciones de las tres producciones en un recorrido por la evolución artística del proyecto, acompañado de una propuesta visual y sonora creada especialmente para la ocasión.",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5218,
+   "attributes": {
+    "name": "Andres Rubio y sus amigos",
+    "slug": "AndresRubioysusamigos-5",
+    "start_at": "2026-12-19T00:00:54.000Z",
+    "end_at": "2026-12-19T04:00:54.000Z",
+    "free": false,
+    "place": "Casa de Teatro",
+    "description": "¡Hola amig@! Espero te encuentres muy bien. \n\nAprovecho para invitarte a mi próximo concierto acustico. Será en mi casa @Casadeteatro en la ciudad colonial.\n\n¡Te espero para que cantemos juntos puro rock en español y algo mas!😎🤠🎸🎶\n ",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5275,
+   "attributes": {
+    "name": "COSMIC GRUF - SANTIAGO (EXPERIENCE FEST)",
+    "slug": "COSMICGRUFSANTIAGOEXPERIENCEFEST-1",
+    "start_at": "2026-12-19T23:00:59.000Z",
+    "end_at": "2026-12-20T03:00:59.000Z",
+    "free": false,
+    "place": "Santiago",
+    "description": "Este 19 de diciembre, Santiago se convierte en el punto de encuentro de una experiencia creada para quienes entienden la música más allá de escucharla: para quienes la sienten, la viven y se dejan llevar por el groove.\n\n🌌 WELCOME TO COSMIC GRUF\n\nLa noche contará con la participación de uno de los djs internacionales mas destacados  de la escena del tech house y lo mejor del talento local.\n\nEtapas de Tickets:\nPREVENTA GENERAL: $1,500\nVENTA GENERAL: $2,500\nÚLTIMOS TICKETS: $3,500\n((CAPACIDAD Y TICKETS LIMITADOS))\n\n19 de Diciembre.\nSantiago, Republica Dominicana. \n\n¡Nos vemos en otra dimensión!\n\nReservar mesas/muebles: [teléfono]",
+    "event_category": {
+     "data": {
+      "id": 3,
+      "attributes": {
+       "name": "🎉 Festival"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4896,
+   "attributes": {
+    "name": "Carlos Sánchez en The Green Room",
+    "slug": "CarlosSanchezenTheGreenRoom-6",
+    "start_at": "2026-12-24T00:30:37.000Z",
+    "end_at": "2026-12-24T01:30:37.000Z",
+    "free": false,
+    "place": "The Green Room",
+    "description": "Carlos está armando este nuevo concepto.\nCarlos les cuenta sus últimos anécdotas y chismes, el público le cuenta a Carlos sus chismes.\nQuien sabe si hasta terminamos cantando todos al final.\nEs decir: una cura.\n\n\nPara reservaciones de mesas llamar al 809 -740-4601\nLa compra de boletas no asegura mesa, asientos por orden de llegada.",
+    "event_category": {
+     "data": {
+      "id": 1,
+      "attributes": {
+       "name": "🎤 Comedia"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5328,
+   "attributes": {
+    "name": "Next Gen Run 5k run • connect • wellness",
+    "slug": "NextGenRun5krunconnectwellness-1",
+    "start_at": "2027-01-16T10:30:44.000Z",
+    "end_at": "2027-01-16T17:30:44.000Z",
+    "free": false,
+    "place": "Jardin Botanico",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 3,
+      "attributes": {
+       "name": "🎉 Festival"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4911,
+   "attributes": {
+    "name": "NEGOCIANTES RD SUMMIT 2027",
+    "slug": "NEGOCIANTESRDSUMMIT2027-1",
+    "start_at": "2027-01-17T14:00:29.000Z",
+    "end_at": "2027-01-17T21:00:29.000Z",
+    "free": false,
+    "place": "Pabellon de la Fama del Deporte Dominicano",
+    "description": "",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5171,
+   "attributes": {
+    "name": "Congreso de mujeres Intimamente con El",
+    "slug": "CongresodemujeresIntimamenteconEl-1",
+    "start_at": "2027-03-06T18:00:50.000Z",
+    "end_at": "2027-03-07T00:00:50.000Z",
+    "free": false,
+    "place": "Club Ministerio de Obras Públicas y Comunicaciones (MOPC)",
+    "description": "CONGRESO DE MUJERES 2027 | Íntimamente con Él\n\nUn encuentro diseñado para mujeres que desean acercarse más a Dios, fortalecer su fe y experimentar una transformación desde lo más profundo de su corazón.\n\nUn espacio de adoración, enseñanza, restauración y conexión espiritual, donde cada mujer podrá renovar sus fuerzas, descubrir su propósito y recordar que su identidad está en Cristo.\n\nUna invitación a detenerte, buscar Su presencia y vivir íntimamente con Él.",
+    "event_category": {
+     "data": {
+      "id": 13,
+      "attributes": {
+       "name": "🪁 Crecimiento Personal"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5309,
+   "attributes": {
+    "name": "YOUTH CHAT RD 2027",
+    "slug": "YOUTHCHATRD2027-1",
+    "start_at": "2027-03-13T12:00:32.000Z",
+    "end_at": "2027-03-14T18:00:32.000Z",
+    "free": false,
+    "place": "Auditorio Unphu Santo Domingo",
+    "description": "Youth Chat RD es una experiencia única. Un evento dirigido a estudiantes de bachiller, universitarios y de carreras técnicas, con charlas a cargo de profesionales de distintas áreas que le ayudarán a descubrir su verdadero propósito, y definir un plan de vida a mediano plazo, clarificando el camino. ",
+    "event_category": {
+     "data": {
+      "id": 13,
+      "attributes": {
+       "name": "🪁 Crecimiento Personal"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5001,
+   "attributes": {
+    "name": "Las Ratas Sin Nombre - 15 abril 2027",
+    "slug": "LasRatasSinNombre15abril2027-1",
+    "start_at": "2027-04-16T00:30:12.000Z",
+    "end_at": "2027-04-16T02:00:12.000Z",
+    "free": false,
+    "place": "Fiesta Alto Nivel",
+    "description": "https://www.instagram.com/lasratassinnombre/",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5002,
+   "attributes": {
+    "name": "Las Ratas Sin Nombre - 16 abril 2027",
+    "slug": "LasRatasSinNombre16abril2027-1",
+    "start_at": "2027-04-17T00:30:32.000Z",
+    "end_at": "2027-04-17T02:00:32.000Z",
+    "free": false,
+    "place": "Fiesta Alto Nivel",
+    "description": "https://www.instagram.com/lasratassinnombre/",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5003,
+   "attributes": {
+    "name": "Las Ratas Sin Nombre - 17 abril 2027",
+    "slug": "LasRatasSinNombre17abril2026-1",
+    "start_at": "2027-04-18T00:30:40.000Z",
+    "end_at": "2027-04-18T02:00:40.000Z",
+    "free": false,
+    "place": "Fiesta Alto Nivel",
+    "description": "https://www.instagram.com/lasratassinnombre/",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5004,
+   "attributes": {
+    "name": "Las Ratas Sin Nombre - 18 abril 2027 - Función",
+    "slug": "LasRatasSinNombre18abril2027Funcion-1",
+    "start_at": "2027-04-18T21:30:10.000Z",
+    "end_at": "2027-04-18T23:00:10.000Z",
+    "free": false,
+    "place": "Fiesta Alto Nivel",
+    "description": "https://www.instagram.com/lasratassinnombre/",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5005,
+   "attributes": {
+    "name": "Las Ratas Sin Nombre - 18 abril 2027 - Función",
+    "slug": "LasRatasSinNombre18abril2027Funcion-2",
+    "start_at": "2027-04-19T00:00:01.000Z",
+    "end_at": "2027-04-19T01:30:01.000Z",
+    "free": false,
+    "place": "Fiesta Alto Nivel",
+    "description": "https://www.instagram.com/lasratassinnombre/",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5006,
+   "attributes": {
+    "name": "Las Ratas Sin Nombre - 22 abril 2027",
+    "slug": "LasRatasSinNombre22abril2027-1",
+    "start_at": "2027-04-23T00:30:13.000Z",
+    "end_at": "2027-04-23T02:00:13.000Z",
+    "free": false,
+    "place": "Fiesta Alto Nivel",
+    "description": "https://www.instagram.com/lasratassinnombre/",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5007,
+   "attributes": {
+    "name": "Las Ratas Sin Nombre - 23 abril 2027",
+    "slug": "LasRatasSinNombre23abril2027-1",
+    "start_at": "2027-04-24T00:30:46.000Z",
+    "end_at": "2027-04-24T02:00:46.000Z",
+    "free": false,
+    "place": "Fiesta Alto Nivel",
+    "description": "https://www.instagram.com/lasratassinnombre/",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5008,
+   "attributes": {
+    "name": "Las Ratas Sin Nombre - 24 abril 2027",
+    "slug": "LasRatasSinNombre24abril2027-1",
+    "start_at": "2027-04-25T00:30:10.000Z",
+    "end_at": "2027-04-25T03:30:10.000Z",
+    "free": false,
+    "place": "Fiesta Alto Nivel",
+    "description": "https://www.instagram.com/lasratassinnombre/",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5009,
+   "attributes": {
+    "name": "Las Ratas Sin Nombre - 25 abril 2027 - Función",
+    "slug": "LasRatasSinNombre25abril2027Funcion-1",
+    "start_at": "2027-04-25T21:30:20.000Z",
+    "end_at": "2027-04-25T23:00:20.000Z",
+    "free": false,
+    "place": "Fiesta Alto Nivel",
+    "description": "https://www.instagram.com/lasratassinnombre/",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5010,
+   "attributes": {
+    "name": "Las Ratas Sin Nombre - 25 abril 2027 - Función",
+    "slug": "LasRatasSinNombre25abril2027Funcion-2",
+    "start_at": "2027-04-26T00:00:19.000Z",
+    "end_at": "2027-04-26T01:30:19.000Z",
+    "free": false,
+    "place": "Fiesta Alto Nivel",
+    "description": "https://www.instagram.com/lasratassinnombre/",
+    "event_category": {
+     "data": {
+      "id": 8,
+      "attributes": {
+       "name": "⚡️ Otros"
+      }
+     }
+    }
+   }
+  }
+ ],
+ "meta": {
+  "pagination": {
+   "page": 2,
+   "pageSize": 100,
+   "pageCount": 2,
+   "total": 180
+  }
+ }
+}

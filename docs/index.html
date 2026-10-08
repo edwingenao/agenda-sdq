@@ -109,6 +109,8 @@ body.sin-nav{padding-block:calc(18px + env(safe-area-inset-top,0px)) calc(24px +
 .acciones{display:flex;gap:10px;margin-top:22px;flex-wrap:wrap}
 .acciones a{flex:1 1 150px;min-height:52px;border-radius:26px;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-size:15px;font-weight:700;border:1.5px solid var(--ink);color:var(--ink)}
 .acciones a.p{background:var(--sel-bg);color:var(--sel-fg)}
+.wa{margin-top:10px;min-height:52px;border-radius:26px;background:#25D366;color:#10222E;text-decoration:none;display:flex;align-items:center;justify-content:center;gap:10px;font-size:15px;font-weight:700}
+.wa:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
 .tambien{margin-top:14px;font-size:14px;color:var(--muted)}
 .tambien a{color:var(--teal-ink);font-weight:700}
 </style>
@@ -207,6 +209,12 @@ function lista(){
   <div class="lista">${cuerpo||`<div class="vacio"><b>Nada con estos filtros</b><span>Prueba otro día o quita algún filtro.</span><button data-x="1">Ver todos los próximos</button></div>`}</div>
   <p class="pie">Fuentes: ${esc(nombresFuentes())} · actualizado el ${esc(actualizado())}${muestra?" (muestra: esas fechas ya pasaron)":""}. Confirma en la fuente original antes de ir.</p>`}
 const svgI=p=>`<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${p}</svg>`;
+const SITIO="https://edwingenao.github.io/agenda-sdq/";
+// Texto que se manda por WhatsApp: qué, cuándo, dónde, precio y el enlace a la fuente original.
+function mensajeWA(e,cuando){
+  const p=e.precio,precio=p.estado==="gratis"?"Gratis":p.estado==="con_precio"?(p.max?`${pesos(p.min)} – ${pesos(p.max)}`:`Desde ${pesos(p.min)}`):"Precio por confirmar";
+  return[e.titulo,cuando,e.lugar.nombre+(e.lugar.sector?`, ${e.lugar.sector}`:""),precio,e.enlace,"","Visto en Agenda SDQ: "+SITIO].join("\n")}
+const WA='<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21l1.7-4.9A8.5 8.5 0 1 1 8 19.3z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1-1.5-2-1-1 .8c-.8-.4-1.6-1.2-2-2l.8-1-1-2z"/></svg>';
 function detalle(e){
   const c=e.categorias[0],H=HERO[c],h=hora(e);
   const cuando=nombreDia(e.fecha)+" · "+(h?`${h.t} ${h.ap}`:e.horario==="todo_el_dia"?"Todo el día":"Hora por confirmar")+(e.fecha_cierre?` · hasta el ${parse(e.fecha_cierre).getDate()} de ${MESES[parse(e.fecha_cierre).getMonth()]}`:"");
@@ -223,6 +231,7 @@ function detalle(e){
   ${e.horario==="por_confirmar"?`<p class="aviso">La fuente no publica la hora. Revísala en la página original antes de ir.</p>`:""}
   ${e.descripcion?`<p class="desc">${esc(e.descripcion)}</p>`:""}
   <div class="acciones">${e.enlace_boletos?`<a class="p" href="${esc(e.enlace_boletos)}" target="_blank" rel="noopener">Comprar boletos</a>`:""}<a class="${e.enlace_boletos?"":"p"}" href="${esc(e.enlace)}" target="_blank" rel="noopener">Ver fuente original</a></div>
+  <a class="wa" href="https://wa.me/?text=${encodeURIComponent(mensajeWA(e,cuando))}" target="_blank" rel="noopener">${WA}Compartir por WhatsApp</a>
   ${extra.length?`<p class="tambien">También publicado en ${extra.map(f=>`<a href="${esc(f.srcUrl)}" target="_blank" rel="noopener">${esc(f.srcName)}</a>`).join(", ")}.</p>`:""}
   ${otros.length?`<h2 style="font:700 18px var(--display);margin:26px 0 8px">También ese día</h2><div class="lista" style="margin-top:0">${otros.map(({x,i})=>tarjeta(x,i)).join("")}</div>`:""}</div>`}
 const ICON={hoy:'<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',cal:'<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>',gua:'<path d="M6 3h12v18l-6-4-6 4z"/>'};

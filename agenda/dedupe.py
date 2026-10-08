@@ -34,6 +34,7 @@ SOURCE_PRIORITY = [
     "teatro_las_mascaras",  # sitio oficial del teatro
     "sic",
     "fundacion_sinfonia",  # trae la hora que le falta al Teatro Nacional
+    "ticketmax",  # ticketera: datos estructurados, pero el sitio de la sala manda
     "centro_leon",
     "zona_colonial",
     "cce",

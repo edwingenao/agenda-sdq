@@ -7,6 +7,7 @@ from agenda.sources.recurring import SeriesRecurrentes
 from agenda.sources.sic import MinisterioCulturaSIC
 from agenda.sources.teatro_las_mascaras import TeatroLasMascaras
 from agenda.sources.teatro_nacional import TeatroNacional
+from agenda.sources.ticketmax import Ticketmax
 from agenda.sources.zona_colonial import ZonaColonial
 
-SOURCES = {cls.id: cls for cls in (TeatroNacional, ZonaColonial, CentroCulturalEspana, CasaDeTeatro, JazzEnDominicana, MinisterioCulturaSIC, CentroLeon, SeriesRecurrentes, TeatroLasMascaras, FundacionSinfonia)}
+SOURCES = {cls.id: cls for cls in (TeatroNacional, ZonaColonial, CentroCulturalEspana, CasaDeTeatro, JazzEnDominicana, MinisterioCulturaSIC, CentroLeon, SeriesRecurrentes, TeatroLasMascaras, FundacionSinfonia, Ticketmax)}

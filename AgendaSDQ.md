@@ -172,3 +172,26 @@ de la página (título y metadatos): parece una app de JavaScript que carga los 
 cascarón, así que no se pudo leer ni su robots.txt ni un listado de eventos. El shell de la nube no llega al sitio (403 del proxy). Falta revisar desde la PC:
 abrirlo en el navegador, mirar la pestaña Network para encontrar la API que lista eventos (con fecha, hora, lugar y precio), y leer sus términos de uso antes de
 escribir un adaptador. Si la API es pública y permitida, sería una fuente muy buena: trae hora y precio, que los flyers no traen.
+
+### padonde.do (guía de eventos y cine), revisado el 7 de octubre de 2026
+
+Agregador de eventos de toda la República Dominicana (Santo Domingo y Santiago, con filtro por categoría). Sus términos dicen que junta información de "fuentes públicas,
+páginas web de terceros, redes sociales y organizadores que publican directamente"; no nombra las fuentes, no menciona ticketeras ni IA y no dice nada sobre que
+terceros reutilicen su contenido. robots.txt solo bloquea `/User` y `/login`; tiene un `sitemap.xml` con más de 100 `/evento/<slug>`. Desde la nube, `/eventos` llegó vacío
+("No hay eventos disponibles", aunque el filtro cuenta 158 en Santo Domingo): parece una app de JavaScript.
+
+Sus lugares de la portada ya los cubrimos: CCE (`cce`), Casa de Teatro (`casa_de_teatro`), Teatro Nacional y Sala Ravelo (`teatro_nacional`), The Green Room (`jazz_en_dominicana`,
+parcial), Centro León (`centro_leon`), Wagner/Molina, Sandy Gabriel, 3 x Todas las canciones, Rojo y Concierto Aniversario (series curadas de la guía de letstalkart.rd).
+Lo que sí aporta y no tenemos: Museo de la Catedral ("A La Merced", gratis), exposiciones de museos (Museo del Hombre Dominicano, Museo de Historia y Geografía), carreras y
+eventos deportivos, fiestas de bares y lounges (Velvet Room SDQ, "The Evolution of Hood!!!"), festivales y ferias (Oktoberfest) y el Centro Comunitario.
+
+Decisión: **no se lee padonde.do**. Es un agregador de segunda mano (sus datos vienen de otras fuentes, sin verificar), sus términos no permiten ni prohíben reutilizar
+el contenido, y sería copiar el trabajo de un tercero. Se usa como mapa de dónde buscar. Las fuentes originales de lo que falta:
+
+| Falta | Fuente original a revisar | Nota |
+|---|---|---|
+| Museos (Catedral, Hombre Dominicano, Historia y Geografía) | Museos RD / sitios de cada museo y Ministerio de Cultura | Ya estaba en pendientes ("Museos RD"). Ver si publican agenda con robots.txt abierto |
+| Conciertos y fiestas de bares | Ticketmax, TIX | Ya en la lista para Code |
+| Deportes (5K, maratones, trail) | Ticketeras de carreras | Fuera del alcance cultural por ahora; preguntar a Edwin si quiere categoría Deportes |
+| Festivales y ferias (Oktoberfest) | Sitio de cada organizador | Cargar como serie curada cuando haya fecha |
+| Santiago (Gran Teatro Cibao, Centro León) | — | Se descarta: solo Santo Domingo |

@@ -157,3 +157,10 @@ No traen calendario de eventos y los datos de fecha, hora, lugar y precio van de
 (la FILSD 2027, del 12 al 26 de septiembre de 2027, sin precio). Los eventos propios del Ministerio ya entran por `sic`.
 No justifica un adaptador por ahora: rinde poco y repetiría `sic`. Útil como confirmación a mano y para series de temporada (FILSD, cuando
 anuncien las fechas de 2027).
+
+### Ayuntamiento del Distrito Nacional (adn.gob.do), revisado el 7 de octubre de 2026
+
+WordPress con feed RSS 2.0 (`/feed/`), `wp-sitemap.xml` y un robots.txt que solo bloquea `/wp-admin/`. No tiene agenda ni calendario: el mapa del sitio
+solo trae noticias, una página de Cultura que describe la Ciudad Colonial y secciones institucionales. Las 10 notas más recientes (19 sep al 7 oct) son
+sobre obras, operativos de limpieza y actos de la alcaldesa; ninguna anuncia un evento con fecha futura. No se integra. Sirve como confirmación
+a mano si una actividad municipal aparece en otra fuente.

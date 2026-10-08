@@ -514,6 +514,7 @@ def test_shipped_guide_ranges_and_pairs():
 def test_shipped_guide_zones():
     assert shipped("Una fiesta de esperanza").zone == "Arroyo Hondo"
     assert shipped("Tubérculo").zone == "Plaza de la Cultura"
+    assert shipped("Liborio").zone == "Ciudad Colonial"
 
 
 def test_shipped_gerard_ellis_exhibition_is_a_range():

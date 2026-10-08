@@ -1,8 +1,34 @@
 {
-  "generated_at": "2026-10-07T17:30:51+00:00",
+  "generated_at": "2026-10-08T00:08:42+00:00",
   "today": "2026-10-07",
-  "count": 36,
+  "count": 39,
   "events": [
+    {
+      "id": "a4bb62fe0c6a1ff7",
+      "source": "teatro_las_mascaras",
+      "date": "2026-10-02",
+      "end": "2026-10-18",
+      "sessions": null,
+      "title": "Festival Teatro Joven",
+      "venue": "Teatro Las Máscaras",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": 875,
+      "price_max": 875,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Funciones: Viernes y Sábados 8:30 p.m. | Domingos 6:30 p.m. Llega a la sala más acogedora de la Zona Colonial el ciclo Noches de Teatro Joven , un espacio vibrante presentado por el grupo Teatro Testarudo bajo la dirección de la talentosa actriz y comediante Aleja Johnson .",
+      "ticketUrl": "https://tix.do/event/FestivaldeTeatroJoven-1",
+      "srcName": "Teatro Las Máscaras",
+      "srcUrl": "https://teatrolasmascaras.com/#festival-teatro-joven",
+      "sources": [
+        {
+          "srcName": "Teatro Las Máscaras",
+          "srcUrl": "https://teatrolasmascaras.com/#festival-teatro-joven"
+        }
+      ]
+    },
     {
       "id": "cb8f6618f2535e0b",
       "source": "cce",
@@ -464,6 +490,32 @@
       ]
     },
     {
+      "id": "7e0fde7b529a5965",
+      "source": "teatro_las_mascaras",
+      "date": "2026-10-23",
+      "end": "2026-11-01",
+      "sessions": null,
+      "title": "Vamos Hacerlo Parados",
+      "venue": "Teatro Las Máscaras",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": 875,
+      "price_max": 875,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Funciones: Viernes y Sábados 8:30 p.m. | Domingos 6:30 p.m. Una de las comedias románticas más aclamadas de la República Dominicana regresa renovada, más reflexiva y con mucha más risa.",
+      "ticketUrl": "https://tix.do/event/VamosaHacerloParados-1",
+      "srcName": "Teatro Las Máscaras",
+      "srcUrl": "https://teatrolasmascaras.com/#vamos-hacerlo-parados",
+      "sources": [
+        {
+          "srcName": "Teatro Las Máscaras",
+          "srcUrl": "https://teatrolasmascaras.com/#vamos-hacerlo-parados"
+        }
+      ]
+    },
+    {
       "id": "c847ea28e470239c",
       "source": "teatro_nacional",
       "date": "2026-10-24",
@@ -818,6 +870,32 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/la-ciguapa/"
+        }
+      ]
+    },
+    {
+      "id": "34614044015ba971",
+      "source": "teatro_las_mascaras",
+      "date": "2026-11-13",
+      "end": "2026-11-29",
+      "sessions": null,
+      "title": "Las Locuras de Papi y Mami",
+      "venue": "Teatro Las Máscaras",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": 875,
+      "price_max": 875,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Funciones: Viernes y Sábados 8:30 p.m. | Domingos 6:30 p.m. El amor en la edad otoñal y la oposición de unos hijos que no asimilan que sus padres viudos, ambos de la tercera edad, se sientan profundamente enamorados, son los sentimientos que se juegan en la obra.",
+      "ticketUrl": "",
+      "srcName": "Teatro Las Máscaras",
+      "srcUrl": "https://teatrolasmascaras.com/#las-locuras-de-papi-y-mami",
+      "sources": [
+        {
+          "srcName": "Teatro Las Máscaras",
+          "srcUrl": "https://teatrolasmascaras.com/#las-locuras-de-papi-y-mami"
         }
       ]
     },

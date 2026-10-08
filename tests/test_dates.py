@@ -114,3 +114,13 @@ def test_parse_price(text, expected):
 )
 def test_category(text, expected):
     assert normalize_category(text) == expected
+
+
+def test_today_sdq_uses_santo_domingo_time_not_utc():
+    from datetime import datetime, timezone
+
+    from agenda.dates import today_sdq
+
+    # 03:41 UTC del 7 de octubre = 11:41 p. m. del 6 en Santo Domingo (la corrida manual de esa noche)
+    assert today_sdq(datetime(2026, 10, 7, 3, 41, tzinfo=timezone.utc)).isoformat() == "2026-10-06"
+    assert today_sdq(datetime(2026, 10, 7, 10, 17, tzinfo=timezone.utc)).isoformat() == "2026-10-07"

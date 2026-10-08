@@ -49,7 +49,8 @@ Si un documento y el código no coinciden, manda el código; actualiza el docume
 | `cce` | Centro Cultural de España | Activa. Solo la página 1 del buscador (robots.txt), 30 s entre peticiones |
 | `jazz_en_dominicana` | Jazz en Dominicana (feed Atom) | Activa. Solo Santo Domingo |
 | `teatro_las_mascaras` | Teatro Las Máscaras (portada del sitio) | Nueva, sin HTML real verificado: lee el texto de la portada (fechas, precio de la boleta, enlace a tix.do). Sin hora única: viernes y sábado 8:30 p. m., domingo 6:30 p. m. (va en la descripción) |
-| `recurring` | Series curadas a mano (`agenda/series_recurrentes.json`) | Activa: Domingos de Bonyé, 809 Mercado, EUROCINE 2026, Gerard Ellis en Lyle O. Reitzel (inauguración y muestra) y 10 eventos de la guía de letstalkart.rd (7 al 15 oct). Para agregar o reconfirmar una serie se edita ese archivo (instrucciones dentro). Admite semanal, n-ésimo día del mes, fechas sueltas y rangos (`range`, con "Hasta") |
+| — | Artsy, muestras de Santo Domingo (artsy.net/shows/santo-domingo-dominican-republic) | Sin adaptador: solo lista 2 galerías (Lyle O. Reitzel y ASR Galería), unas 3 muestras al mes. Se cargan a mano como series con `range` (ASR Galería: Interconexión y ARQUIONIRIAS). Volver a mirar cuando abra una muestra |
+| `recurring` | Series curadas a mano (`agenda/series_recurrentes.json`) | Activa: Domingos de Bonyé, 809 Mercado, EUROCINE 2026, Gerard Ellis en Lyle O. Reitzel (inauguración y muestra) 10 eventos de la guía de letstalkart.rd (7 al 15 oct) y 2 muestras de ASR Galería. Para agregar o reconfirmar una serie se edita ese archivo (instrucciones dentro). Admite semanal, n-ésimo día del mes, fechas sueltas y rangos (`range`, con "Hasta") |
 
 El orden de confianza para unir repetidos está en `SOURCE_PRIORITY` (`agenda/dedupe.py`).
 

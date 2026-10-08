@@ -16,6 +16,8 @@ Reglas de producto que respeta:
   * Las series de temporada (ciclos, programas de verano) quedan con
     ``"active": false`` hasta que se anuncien las fechas de la próxima edición.
   * Toda serie lleva al menos una fuente: sin evidencia no entra.
+  * Exposiciones, festivales y temporadas sin funciones sueltas se cargan como ``range``
+    (``start`` y ``end``): salen una sola vez, con "Hasta", y no se inventan días de función.
   * Hasta 2 categorías en el archivo. El modelo guarda una: la primera es la
     categoría del evento y la segunda va a ``tags`` hasta que el modelo admita dos.
 
@@ -51,7 +53,7 @@ CATEGORIES = ("Música", "Teatro", "Danza", "Arte", "Cine", "Gastronomía", "Cul
 MAX_CATEGORIES = 2
 CONFIDENCE_LEVELS = ("oficial", "listado", "sin_verificar")
 PRICE_STATUSES = ("free", "paid", "unconfirmed")
-FREQUENCIES = ("weekly", "monthly_nth", "dates")
+FREQUENCIES = ("weekly", "monthly_nth", "dates", "range")
 VALID_NTH = (1, 2, 3, 4, -1)
 WEEKDAYS = {
     "lunes": 0, "martes": 1, "miercoles": 2, "jueves": 3,
@@ -69,6 +71,8 @@ class Series:
     weekdays: tuple = ()
     nth: Optional[int] = None
     dates: tuple = ()
+    range_start: Optional[date] = None  # freq "range": primer día (None = no se sabe cuándo abrió)
+    range_end: Optional[date] = None  # freq "range": último día
     start_time: Optional[time] = None
     end_time: Optional[time] = None
     valid_from: Optional[date] = None
@@ -185,6 +189,7 @@ def _build(sid: str, raw: dict) -> Series:
     weekdays: tuple = ()
     nth = None
     dates: tuple = ()
+    range_start = range_end = None
     if freq in ("weekly", "monthly_nth"):
         weekdays = _weekdays(pattern.get("weekday"))
         if freq == "monthly_nth":
@@ -193,6 +198,13 @@ def _build(sid: str, raw: dict) -> Series:
                 raise ValueError(f"nth inválido {nth!r} (usa 1, 2, 3, 4 o -1)")
             if len(weekdays) != 1:
                 raise ValueError("monthly_nth admite un solo día de la semana")
+    elif freq == "range":
+        range_start = _date(pattern.get("start"), "pattern.start")
+        range_end = _date(pattern.get("end"), "pattern.end")
+        if range_end is None:
+            raise ValueError("range necesita pattern.end (la fecha de cierre)")
+        if range_start and range_start > range_end:
+            raise ValueError("pattern.start es posterior a pattern.end")
     else:
         raw_dates = pattern.get("dates")
         if not isinstance(raw_dates, list) or not raw_dates:
@@ -267,6 +279,8 @@ def _build(sid: str, raw: dict) -> Series:
         weekdays=weekdays,
         nth=nth,
         dates=dates,
+        range_start=range_start,
+        range_end=range_end,
         start_time=start_time,
         end_time=end_time,
         valid_from=valid_from,
@@ -295,7 +309,17 @@ def _is_nth(day: date, nth: int) -> bool:
 
 
 def occurrences(series: Series, start: date, end: date) -> list[date]:
-    """Fechas de la serie entre start y end, ambas incluidas."""
+    """Fechas de la serie entre start y end, ambas incluidas.
+
+    En un ``range`` (exposición, festival o temporada sin funciones sueltas) devuelve
+    ``[primer día, último día]``: se publica una sola vez, con "Hasta". Si el archivo
+    no dice cuándo abrió (``start`` vacío), se muestra desde hoy.
+    """
+    if series.freq == "range":
+        first = series.range_start or start
+        if series.range_end < start or first > end:
+            return []
+        return sorted({first, series.range_end})
     lo = max(start, series.valid_from) if series.valid_from else start
     hi = min(end, series.valid_until) if series.valid_until else end
     if lo > hi:
@@ -331,14 +355,19 @@ def to_events(series: Series, days: list[date], today: date) -> list[Event]:
     tags = [c.lower() for c in series.categories[1:]] + ["serie"] + (["confirmar"] if needs else [])
     source_name = next((s.get("name") for s in series.sources if s.get("name")), "Serie curada")
     out = []
-    for day in days:
+    # Un range sale como un solo evento con [inicio, fin]; lo demás, uno por fecha.
+    groups = [days] if series.freq == "range" else [[day] for day in days]
+    for group in groups:
+        day = group[0]
+        # Una URL por fecha: la base identifica cada evento por fuente + URL.
+        # El range lleva su cierre (no su inicio, que puede ser "hoy" y cambiaría cada día).
+        suffix = f"hasta-{series.range_end.isoformat()}" if series.freq == "range" else day.isoformat()
         out.append(Event(
             source=SOURCE_ID,
             source_name=source_name,
-            # Una URL por fecha: la base identifica cada evento por fuente + URL.
-            url=f"{series.url}#{series.id}-{day.isoformat()}",
+            url=f"{series.url}#{series.id}-{suffix}",
             title=series.title,
-            dates=[day.isoformat()],
+            dates=[d.isoformat() for d in group],
             start_time=series.start_time.strftime("%H:%M") if series.start_time else None,
             venue=series.venue or "",
             zone=zone_for(series.venue or ""),
@@ -395,7 +424,12 @@ def collect(
             continue
         # La ventana evita llenar la agenda de repeticiones; un evento de fechas sueltas
         # (809 Mercado) se publica completo apenas se conoce.
-        end = max(window_end, series.dates[-1]) if series.freq == "dates" else window_end
+        if series.freq == "dates":
+            end = max(window_end, series.dates[-1])
+        elif series.freq == "range" and series.range_start:
+            end = max(window_end, series.range_start)
+        else:
+            end = window_end
         days = occurrences(series, today, end)
         if not days:
             result.empty.append(series.id)

@@ -51,6 +51,7 @@ ZONES = [
     ("cinemateca", "Plaza de la Cultura"),
     ("the green room", "Piantini"),
     ("torre piantini", "Piantini"),
+    ("club arroyo hondo", "Arroyo Hondo"),
     ("dominican fiesta", "Mirador Sur"),
     ("plaza montesinos", "Malecón"),
 ]

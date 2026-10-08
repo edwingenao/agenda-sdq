@@ -33,6 +33,7 @@ SOURCE_PRIORITY = [
     "casa_de_teatro",
     "teatro_las_mascaras",  # sitio oficial del teatro
     "sic",
+    "fundacion_sinfonia",  # trae la hora que le falta al Teatro Nacional
     "centro_leon",
     "zona_colonial",
     "cce",
@@ -109,6 +110,13 @@ def norm_venue(venue: Optional[str]) -> str:
 # --------------------------------------------------------------------------
 
 
+def _same_word(a: str, b: str) -> bool:
+    """Igual, o con una errata ("resurrecion" / "resurreccion"). Solo en palabras de 6 letras o más."""
+    if a == b:
+        return True
+    return min(len(a), len(b)) >= 6 and SequenceMatcher(None, a, b).ratio() >= 0.9
+
+
 def title_similarity(a: str, b: str) -> float:
     """0..1. Combina texto completo, tokens y contención."""
     ta, tb = title_tokens(a), title_tokens(b)
@@ -117,11 +125,14 @@ def title_similarity(a: str, b: str) -> float:
     sa, sb = set(ta), set(tb)
     jaccard = len(sa & sb) / len(sa | sb)
     seq = SequenceMatcher(None, " ".join(ta), " ".join(tb)).ratio()
-    # Contención: "Retro Jazz" dentro de "Retro Jazz: Noche de standards".
+    # Contención: "Retro Jazz" dentro de "Retro Jazz: Noche de standards", tolerando erratas
+    # ("Mahler Resurreción" del Teatro Nacional dentro de "Mahler: Resurrección | Gala de aniversarios").
     # Exige al menos 2 tokens o 8 caracteres para no unir "Jazz" con todo.
     small, big = (sa, sb) if len(sa) <= len(sb) else (sb, sa)
     containment = 0.0
-    if small <= big and (len(small) >= 2 or sum(len(t) for t in small) >= 8):
+    if all(any(_same_word(t, u) for u in big) for t in small) and (
+        len(small) >= 2 or sum(len(t) for t in small) >= 8
+    ):
         containment = 0.9
     return max(jaccard, seq, containment)
 

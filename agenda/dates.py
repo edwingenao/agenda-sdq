@@ -35,6 +35,11 @@ _MON = "|".join(sorted(MONTHS, key=len, reverse=True))
 _YEAR = r"(?:\s*,?\s*(?:de\s+)?(?P<y>\d{4}))?"
 
 _RX = {
+    # "del 30 de abril al 3 de mayo de 2026": el año, si está, va al final y vale para las dos fechas
+    "cross": re.compile(
+        rf"(?P<d1>\d{{1,2}})\s+de\s+(?P<m1>{_MON})\b\.?(?:\s*,?\s*(?:de\s+)?(?P<y1>\d{{4}}))?"
+        rf"\s*(?:al|a|hasta\s+el|-|–|—)\s*(?P<d2>\d{{1,2}})\s+de\s+(?P<m2>{_MON})\b\.?{_YEAR}", re.I
+    ),
     # "del 9 al 18 de octubre, 2026"
     "range": re.compile(
         rf"(?P<d1>\d{{1,2}})\s*(?:al|a|-|–|—)\s*(?P<d2>\d{{1,2}})\s+de\s+(?P<m>{_MON})\b\.?{_YEAR}", re.I
@@ -80,6 +85,21 @@ def month_day(month_name: str, day: int | str, today: date, year: int | str | No
     return infer_year(mo, int(day), today)
 
 
+def _cross(g: dict, today: date) -> list[date | None]:
+    """Rango que cruza de mes. Sin año en la primera fecha, toma el de la segunda (o el anterior si cruza de año)."""
+    m1, m2 = MONTHS.get(g["m1"].lower().strip(".")), MONTHS.get(g["m2"].lower().strip("."))
+    if m1 is None or m2 is None:
+        return []
+    end = month_day(g["m2"], g["d2"], today, g.get("y"))
+    if end is None:
+        return []
+    y1 = int(g["y1"]) if g.get("y1") else (end.year - 1 if m1 > m2 else end.year)
+    start = _mk(y1, m1, int(g["d1"]))
+    if start is None or start > end:
+        return []
+    return [start, end]
+
+
 def find_dates(
     text: str,
     today: date,
@@ -97,14 +117,16 @@ def find_dates(
     if only_slash:
         order = ["slash"]
     else:
-        order = ["range", "list", "slash", "num", "long"] + (["md"] if month_day_pattern else [])
+        order = ["cross", "range", "list", "slash", "num", "long"] + (["md"] if month_day_pattern else [])
 
     for name in order:
         for m in _RX[name].finditer(text):
             if not free(m.span()):
                 continue
             g = m.groupdict()
-            if name in ("range", "list"):
+            if name == "cross":
+                ds = _cross(g, today)
+            elif name in ("range", "list"):
                 a, b = int(g["d1"]), int(g["d2"])
                 if a >= b:
                     continue

@@ -1,0 +1,1053 @@
+{
+  "_comentario": "Lugares (venues) de la agenda, curados a mano. Los lee agenda/venues.py: busca el texto `venue` de cada evento entre los `aliases` (sin acentos ni mayúsculas, palabra completa; gana el alias más largo) y agrega lat/lng/venueId al evento exportado. Para agregar un lugar: copia un bloque, cambia el `id` (único) y pon como aliases las formas en que lo escriben las fuentes. La corrida diaria lista los lugares de eventos que no encuentra aquí. REGLA DE COORDENADAS: solo con fuente que se pueda citar (Wikipedia/Wikidata, OpenStreetMap o una medición propia). No se copian coordenadas de Google Maps/Places: sus términos prohíben guardarlas y usarlas con otros mapas. Sin fuente, lat y lng van null. Todo empieza con verified false; pásalo a true cuando lo hayas visto en el mapa.",
+  "_campos": {
+    "id": "slug único; no cambiarlo una vez publicado",
+    "aliases": "formas del nombre en las fuentes (incluye salas dentro del edificio)",
+    "address": "solo si una fuente la publica; si no, null",
+    "zone": "igual que en agenda/models.py (ZONES) cuando aplica",
+    "lat / lng": "grados decimales (WGS84) o null",
+    "precision": "edificio (unos 75 m) | calle (unos 300 m) | sector (hasta 1 km, ubicación aproximada) | null",
+    "coord_source": "de dónde salió la coordenada",
+    "verified": "true solo si alguien la comprobó en el mapa"
+  },
+  "venues": [
+    {
+      "id": "teatro-nacional",
+      "name": "Teatro Nacional Eduardo Brito",
+      "aliases": [
+        "Teatro Nacional Eduardo Brito",
+        "Teatro Nacional",
+        "Sala Carlos Piantini",
+        "Sala José de Jesús Ravelo",
+        "Sala Aída Bonnelly de Díaz",
+        "Sala Aída Bonelly de Díaz",
+        "Café Teatro Juan Lockward",
+        "Bar Juan Lockward"
+      ],
+      "address": "Plaza de la Cultura Juan Pablo Duarte",
+      "zone": "Plaza de la Cultura",
+      "city": "Santo Domingo",
+      "lat": 18.47056,
+      "lng": -69.91083,
+      "precision": "edificio",
+      "coord_source": "Wikipedia (en), «Eduardo Brito National Theater», ficha: 18°28′14″N 69°54′39″W",
+      "verified": false,
+      "notes": "Las salas y el café/bar están en el mismo edificio: comparten coordenada."
+    },
+    {
+      "id": "plaza-de-la-cultura",
+      "name": "Plaza de la Cultura Juan Pablo Duarte",
+      "aliases": [
+        "Plaza de la Cultura Juan Pablo Duarte",
+        "Plaza de la Cultura"
+      ],
+      "address": null,
+      "zone": "Plaza de la Cultura",
+      "city": "Santo Domingo",
+      "lat": 18.47056,
+      "lng": -69.91083,
+      "precision": "sector",
+      "coord_source": "Wikipedia (en), «Eduardo Brito National Theater», ficha: 18°28′14″N 69°54′39″W",
+      "verified": false,
+      "notes": "Coordenada del Teatro Nacional, que está en el mismo complejo. La Plaza de la Cultura ocupa varias manzanas: es una ubicación aproximada de la zona, no del edificio."
+    },
+    {
+      "id": "museo-arte-moderno",
+      "name": "Museo de Arte Moderno",
+      "aliases": [
+        "Museo de Arte Moderno",
+        "Pabellón de Identidad y Ciudadanía",
+        "Pabellón Identidad y Ciudadanía"
+      ],
+      "address": "Plaza de la Cultura Juan Pablo Duarte",
+      "zone": "Plaza de la Cultura",
+      "city": "Santo Domingo",
+      "lat": 18.47056,
+      "lng": -69.91083,
+      "precision": "sector",
+      "coord_source": "Wikipedia (en), «Eduardo Brito National Theater», ficha: 18°28′14″N 69°54′39″W",
+      "verified": false,
+      "notes": "Coordenada del Teatro Nacional, que está en el mismo complejo. La Plaza de la Cultura ocupa varias manzanas: es una ubicación aproximada de la zona, no del edificio."
+    },
+    {
+      "id": "cinemateca-dominicana",
+      "name": "Cinemateca Dominicana",
+      "aliases": [
+        "Cinemateca Dominicana",
+        "Cinemateca"
+      ],
+      "address": null,
+      "zone": "Plaza de la Cultura",
+      "city": "Santo Domingo",
+      "lat": 18.47056,
+      "lng": -69.91083,
+      "precision": "sector",
+      "coord_source": "Wikipedia (en), «Eduardo Brito National Theater», ficha: 18°28′14″N 69°54′39″W",
+      "verified": false,
+      "notes": "Coordenada del Teatro Nacional, que está en el mismo complejo. La Plaza de la Cultura ocupa varias manzanas: es una ubicación aproximada de la zona, no del edificio."
+    },
+    {
+      "id": "museo-historia-natural",
+      "name": "Museo Nacional de Historia Natural",
+      "aliases": [
+        "Museo Nacional de Historia Natural"
+      ],
+      "address": null,
+      "zone": "Plaza de la Cultura",
+      "city": "Santo Domingo",
+      "lat": 18.47056,
+      "lng": -69.91083,
+      "precision": "sector",
+      "coord_source": "Wikipedia (en), «Eduardo Brito National Theater», ficha: 18°28′14″N 69°54′39″W",
+      "verified": false,
+      "notes": "Coordenada del Teatro Nacional, que está en el mismo complejo. La Plaza de la Cultura ocupa varias manzanas: es una ubicación aproximada de la zona, no del edificio."
+    },
+    {
+      "id": "sala-manuel-rueda",
+      "name": "Sala Manuel Rueda (Bellas Artes)",
+      "aliases": [
+        "Sala Manuel Rueda",
+        "Plaza Iberoamérica",
+        "Escuela de Bellas Artes"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": "Sala de Bellas Artes. Falta ubicarla con una fuente."
+    },
+    {
+      "id": "enad",
+      "name": "ENAD (Escuela Nacional de Arte Dramático)",
+      "aliases": [
+        "ENAD",
+        "Escuela Nacional de Arte Dramático"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "biblioteca-pedro-mir",
+      "name": "Biblioteca Pedro Mir (Auditorio Manuel del Cabral)",
+      "aliases": [
+        "Biblioteca Pedro Mir",
+        "Auditorio Manuel del Cabral"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "estadio-olimpico",
+      "name": "Estadio Olímpico Félix Sánchez",
+      "aliases": [
+        "Estadio Olímpico Félix Sánchez"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": "Está en el Centro Olímpico Juan Pablo Duarte (Wikipedia, en)."
+    },
+    {
+      "id": "pabellon-fama-deporte",
+      "name": "Pabellón de la Fama del Deporte Dominicano",
+      "aliases": [
+        "Pabellón de la Fama del Deporte Dominicano",
+        "Pabellón de la Fama"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "casa-de-teatro",
+      "name": "Casa de Teatro",
+      "aliases": [
+        "Casa de Teatro"
+      ],
+      "address": null,
+      "zone": "Ciudad Colonial",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "teatro-las-mascaras",
+      "name": "Teatro Las Máscaras",
+      "aliases": [
+        "Teatro Las Máscaras"
+      ],
+      "address": null,
+      "zone": "Ciudad Colonial",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": "Su sitio dice que es «la sala más acogedora de la Zona Colonial». Sin dirección publicada en la portada."
+    },
+    {
+      "id": "teatro-guloya",
+      "name": "Teatro Guloya",
+      "aliases": [
+        "Teatro Guloya"
+      ],
+      "address": "Arzobispo Portes 205, Ciudad Colonial",
+      "zone": "Ciudad Colonial",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "centro-cultural-de-espana",
+      "name": "Centro Cultural de España (CCE)",
+      "aliases": [
+        "Centro Cultural de España en Santo Domingo",
+        "Centro Cultural de España",
+        "CCESD",
+        "CCE"
+      ],
+      "address": null,
+      "zone": "Ciudad Colonial",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "centro-comunitario",
+      "name": "Centro Comunitario",
+      "aliases": [
+        "Centro Comunitario"
+      ],
+      "address": null,
+      "zone": "Ciudad Colonial",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": "Así lo publica la fuente `cce`; no dice cuál. Ubicar solo cuando se sepa el lugar exacto."
+    },
+    {
+      "id": "ruinas-san-francisco",
+      "name": "Ruinas de San Francisco",
+      "aliases": [
+        "Ruinas de San Francisco",
+        "Monasterio de San Francisco"
+      ],
+      "address": "Calle Hostos, Zona Colonial",
+      "zone": "Ciudad Colonial",
+      "city": "Santo Domingo",
+      "lat": 18.47694,
+      "lng": -69.88567,
+      "precision": "edificio",
+      "coord_source": "Wikipedia (en), «Monastery of San Francisco, Santo Domingo», ficha: 18°28′37″N 69°53′08″W",
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "parque-pellerano-castro",
+      "name": "Parque Pellerano Castro",
+      "aliases": [
+        "Parque Pellerano Castro"
+      ],
+      "address": null,
+      "zone": "Ciudad Colonial",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "plaza-de-espana",
+      "name": "Plaza de España",
+      "aliases": [
+        "Plaza de España"
+      ],
+      "address": null,
+      "zone": "Ciudad Colonial",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "quinta-dominica",
+      "name": "Quinta Dominica",
+      "aliases": [
+        "Quinta Dominica"
+      ],
+      "address": null,
+      "zone": "Ciudad Colonial",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "casa-del-cordon",
+      "name": "Casa del Cordón",
+      "aliases": [
+        "Casa del Cordón"
+      ],
+      "address": null,
+      "zone": "Ciudad Colonial",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "museo-de-la-catedral",
+      "name": "Museo de la Catedral",
+      "aliases": [
+        "Museo de la Catedral"
+      ],
+      "address": null,
+      "zone": "Ciudad Colonial",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "academia-lengua",
+      "name": "Academia Dominicana de la Lengua",
+      "aliases": [
+        "Academia Dominicana de la Lengua"
+      ],
+      "address": null,
+      "zone": "Ciudad Colonial",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "centro-cultural-banreservas",
+      "name": "Centro Cultural Banreservas",
+      "aliases": [
+        "Centro Cultural Banreservas"
+      ],
+      "address": null,
+      "zone": "Ciudad Colonial",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "calle-19-de-marzo-113",
+      "name": "C. 19 de Marzo 113",
+      "aliases": [
+        "19 de Marzo 113"
+      ],
+      "address": "C. 19 de Marzo 113",
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": "Solo se conoce la dirección que publica TIX (evento «Casas del Siglo XVI»); falta el nombre del lugar."
+    },
+    {
+      "id": "los-reales-colonial",
+      "name": "Los Reales Colonial",
+      "aliases": [
+        "Los Reales Colonial"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "plaza-montesinos",
+      "name": "Plaza Montesinos",
+      "aliases": [
+        "Plaza Montesinos"
+      ],
+      "address": null,
+      "zone": "Malecón",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "lyle-o-reitzel",
+      "name": "Lyle O. Reitzel Arte Contemporáneo",
+      "aliases": [
+        "Lyle O. Reitzel Arte Contemporáneo",
+        "Lyle O. Reitzel",
+        "Torre Piantini"
+      ],
+      "address": "Torre Piantini, Av. Gustavo Mejía Ricart 196, Piantini",
+      "zone": "Piantini",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "the-green-room",
+      "name": "The Green Room",
+      "aliases": [
+        "The Green Room"
+      ],
+      "address": null,
+      "zone": "Piantini",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "asr-galeria",
+      "name": "ASR Galería",
+      "aliases": [
+        "ASR Galería"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "galeria-360",
+      "name": "Galería 360",
+      "aliases": [
+        "Galería 360"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": "Aquí entra también «Caribbean Cinemas, Galería 360» (EUROCINE)."
+    },
+    {
+      "id": "escenario-360",
+      "name": "Escenario 360",
+      "aliases": [
+        "Escenario 360"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "acropolis-business-mall",
+      "name": "Acropolis Business Mall",
+      "aliases": [
+        "Acropolis Business Mall"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "hard-rock-cafe",
+      "name": "Hard Rock Cafe Santo Domingo",
+      "aliases": [
+        "Hard Rock Cafe"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": "TIX lo escribe «Hard Rock Cafe Blue Mall» y Ticketmax «Hard Rock Cafe Santo Domingo»: confirmar que es el mismo local. Confirmar que está en Santo Domingo (pendiente en AgendaSDQ.md)."
+    },
+    {
+      "id": "sambil",
+      "name": "Sambil Santo Domingo",
+      "aliases": [
+        "Sambil"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": "Incluye el «Salón de Eventos Sambil»."
+    },
+    {
+      "id": "velvet-room",
+      "name": "Velvet Room SDQ",
+      "aliases": [
+        "Velvet Room"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": "Confirmar que está en Santo Domingo (pendiente en AgendaSDQ.md)."
+    },
+    {
+      "id": "lucia-sdq",
+      "name": "Lucia SDQ",
+      "aliases": [
+        "Lucia SDQ"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "bloom-sdq",
+      "name": "Bloom SDQ",
+      "aliases": [
+        "Bloom SDQ"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "the-box-working-space",
+      "name": "The Box Working Space",
+      "aliases": [
+        "The Box Working Space"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "republica-brewing",
+      "name": "República Brewing",
+      "aliases": [
+        "Republica Brewing"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": "Aparece como «Bar Room» y «Draft Room»: son salas del mismo lugar."
+    },
+    {
+      "id": "seven-lounge",
+      "name": "Seven Lounge",
+      "aliases": [
+        "Seven Lounge"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "cielo-room",
+      "name": "Cielo Room",
+      "aliases": [
+        "Cielo Room"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "nash-house-club",
+      "name": "Nash House Club",
+      "aliases": [
+        "Nash House Club"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "ferro-cafe",
+      "name": "Ferro Café",
+      "aliases": [
+        "Ferro Café"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "jardin-secreto",
+      "name": "Jardín Secreto",
+      "aliases": [
+        "Jardín Secreto"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "jardin-botanico",
+      "name": "Jardín Botánico Nacional Dr. Rafael María Moscoso",
+      "aliases": [
+        "Jardín Botánico Nacional Dr. Rafael María Moscoso",
+        "Jardín Botánico Nacional",
+        "Jardín Botánico"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "unphu",
+      "name": "Universidad Nacional Pedro Henríquez Ureña (UNPHU)",
+      "aliases": [
+        "Universidad Nacional Pedro Henríquez Ureña",
+        "UNPHU",
+        "Auditorio Horacio Álvarez Saviñón"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": 18.486,
+      "lng": -69.949,
+      "precision": "sector",
+      "coord_source": "Wikipedia (en), «Universidad Nacional Pedro Henríquez Ureña», ficha: 18°29′10″N 69°56′56″W",
+      "verified": false,
+      "notes": "Coordenada del campus (ficha de Wikipedia), no del auditorio."
+    },
+    {
+      "id": "auditorio-patrick-hughson",
+      "name": "Auditorio Patrick N. Hughson",
+      "aliases": [
+        "Auditorio Patrick N. Hughson"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": "Confirmar que está en Santo Domingo (pendiente en AgendaSDQ.md)."
+    },
+    {
+      "id": "auditorio-casa-san-pablo",
+      "name": "Auditorio Casa San Pablo",
+      "aliases": [
+        "Casa San Pablo"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "auditorio-juan-boch",
+      "name": "Auditorio Profesor Juan Boch",
+      "aliases": [
+        "Auditorio Profesor Juan Boch"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "fuerzas-armadas-salon-independencia",
+      "name": "Fuerzas Armadas, Salón Independencia",
+      "aliases": [
+        "Fuerzas Armadas, Salón Independencia"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "cine-teatro-issffaa",
+      "name": "Cine Teatro ISSFFAA (El Millón)",
+      "aliases": [
+        "Cine Teatro ISSFFAA"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "izbira",
+      "name": "Izbira Centro de Eventos",
+      "aliases": [
+        "Izbira Centro de Eventos"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "iglesia-metodista-libre",
+      "name": "Iglesia Metodista Libre",
+      "aliases": [
+        "Iglesia Metodista Libre"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "villa-palmera",
+      "name": "Villa Palmera Business Center",
+      "aliases": [
+        "Villa Palmera Business Center"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "hotel-crowne-plaza",
+      "name": "Hotel Crowne Plaza",
+      "aliases": [
+        "Crowne Plaza"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "intercontinental-real",
+      "name": "InterContinental Real Santo Domingo",
+      "aliases": [
+        "InterContinental Real Santo Domingo"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "ramada-princess",
+      "name": "Ramada by Wyndham Princess Santo Domingo",
+      "aliases": [
+        "Ramada by Wyndham Princess Santo Domingo",
+        "Ramada Princess"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "dominican-fiesta",
+      "name": "Dominican Fiesta Hotel & Casino",
+      "aliases": [
+        "Dominican Fiesta Hotel & Casino",
+        "Dominican Fiesta"
+      ],
+      "address": null,
+      "zone": "Mirador Sur",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "club-arroyo-hondo",
+      "name": "Club Arroyo Hondo (Gran Salón Edmundo Félix Cuevas)",
+      "aliases": [
+        "Club Arroyo Hondo",
+        "Gran Salón Edmundo Félix Cuevas"
+      ],
+      "address": null,
+      "zone": "Arroyo Hondo",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "alianza-francesa",
+      "name": "Alianza Francesa",
+      "aliases": [
+        "Alianza Francesa"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "lope-de-vega-29",
+      "name": "Av. Lope de Vega 29",
+      "aliases": [
+        "Lope de Vega no. 29"
+      ],
+      "address": "Av. Lope de Vega no. 29",
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": "Solo se conoce la dirección que publica TIX (evento «La Vita E Dolce»). No confundir con el Teatro Lope de Vega."
+    },
+    {
+      "id": "teatro-lope-de-vega",
+      "name": "Teatro Lope de Vega",
+      "aliases": [
+        "Teatro Lope de Vega"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": null
+    },
+    {
+      "id": "max-henriquez-urena-33",
+      "name": "Local 3, Calle Max Henríquez Ureña 33",
+      "aliases": [
+        "Max. Herriquez Ureña 33",
+        "Max Henriquez Ureña 33"
+      ],
+      "address": "Local 3: Calle Max. Henríquez Ureña 33",
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": "Solo se conoce la dirección que publica TIX (8 eventos de teatro y debate); falta el nombre del lugar."
+    }
+  ]
+}

@@ -27,9 +27,9 @@ jobs:
       - run: python -m agenda run
         env:
           AGENDA_CONTACT: ${{ vars.AGENDA_CONTACT }}
-      - name: Publicar events.json
+      - name: Publicar events.json y venues.json
         run: |
           git config user.name "agenda-bot"
           git config user.email "agenda-bot@users.noreply.github.com"
-          git add docs/events.json
+          git add docs/events.json docs/venues.json
           git diff --staged --quiet || (git commit -m "Actualizar eventos" && git push)

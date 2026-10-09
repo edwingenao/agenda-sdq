@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-08T17:34:23+00:00",
-  "today": "2026-10-08",
-  "count": 184,
+  "generated_at": "2026-10-09T17:09:40+00:00",
+  "today": "2026-10-09",
+  "count": 188,
   "events": [
     {
       "id": "5194c26d18d743f2",
@@ -214,144 +214,6 @@
       ]
     },
     {
-      "id": "5b121093f8be4cbe",
-      "source": "tix",
-      "date": "2026-10-08",
-      "end": "2026-10-30",
-      "sessions": null,
-      "title": "El Congreso Internacional de Armonización Facial 2026 — Arte · Ciencia · Regeneración",
-      "venue": "Villa Palmera Business Center",
-      "zone": "",
-      "cat": "Arte",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "El Congreso Internacional de Armonización Facial 2026 — Arte · Ciencia · Regeneración será un encuentro académico presencial dedicado a la actualización en armonización facial y medicina regenerativa. Reunirá conferencistas nacionales e internacionales para compartir conocimient…",
-      "ticketUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1"
-        }
-      ]
-    },
-    {
-      "id": "f49f83e14404e7a9",
-      "source": "recurring",
-      "date": "2026-10-08",
-      "end": "2026-10-15",
-      "sessions": null,
-      "title": "Entre muros y colores",
-      "venue": "Galería 360",
-      "zone": "",
-      "cat": "Arte",
-      "price": 0,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [
-        "serie"
-      ],
-      "description": "Exposición en Galería 360, abierta hasta el 15 de octubre.",
-      "ticketUrl": "",
-      "srcName": "Galería 360, vía letstalkart.rd",
-      "srcUrl": "https://www.instagram.com/galeria360/#entre-muros-y-colores-galeria-360-hasta-2026-10-15",
-      "sources": [
-        {
-          "srcName": "Galería 360, vía letstalkart.rd",
-          "srcUrl": "https://www.instagram.com/galeria360/#entre-muros-y-colores-galeria-360-hasta-2026-10-15"
-        }
-      ]
-    },
-    {
-      "id": "0addca6c0292ae72",
-      "source": "tix",
-      "date": "2026-10-08",
-      "end": "2026-12-23",
-      "sessions": null,
-      "title": "Pavel Núñez: Tú en mi vida Sessions",
-      "venue": "Casa de Teatro",
-      "zone": "Ciudad Colonial",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "COMO TODO EMPEZÓ…25 AÑOS”. Acústicos como en los viejos tiempos, en la eterna Casa de Teatro, será una residencia en dicha casa con el fin de re-conectar en el Pavel de los inicios. Les contará la razón que se esconde tras cada canción, sus desvelos y aciertos, su guitarra en ma…",
-      "ticketUrl": "https://tix.do/event/Pavel-19",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/Pavel-19",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/Pavel-19"
-        }
-      ]
-    },
-    {
-      "id": "68761c065b6db5aa",
-      "source": "ticketmax",
-      "date": "2026-10-08",
-      "end": null,
-      "sessions": null,
-      "title": "ARIEL SANTANA: MAL DE LA CABEZA",
-      "venue": "Velvet Room",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 999,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "https://ticketmax.org/evento/266578/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/266578/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/266578/"
-        }
-      ]
-    },
-    {
-      "id": "c12c63810a782cf2",
-      "source": "jazz_en_dominicana",
-      "date": "2026-10-08",
-      "end": null,
-      "sessions": null,
-      "title": "Sandy Gabriel Jazz Residence",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Música",
-      "price": 1500,
-      "price_max": 2000,
-      "time": "21:30",
-      "kids": false,
-      "tags": [
-        "jazz"
-      ],
-      "description": "El jazz vuelve a encender aThe Green Room. Este jueves 8 se dan inicio a los Sandy Gabriel Jazz Residence. Comenta Sandy: “Más que una serie de conciertos, ha sido concebida como una experiencia musical dinámica, elegante y variada, donde cada noche tendrá una propuesta diferente",
-      "ticketUrl": "https://tix.do/event/SANDYGABRIELSJAZZRESIDENCEATTHEGREENROOM-1",
-      "srcName": "Jazz en Dominicana",
-      "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-4-al-10-de.html#2026-10-08-sandy-gabriel-jazz-residence",
-      "sources": [
-        {
-          "srcName": "Jazz en Dominicana",
-          "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-4-al-10-de.html#2026-10-08-sandy-gabriel-jazz-residence"
-        },
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/SANDYGABRIELSJAZZRESIDENCEATTHEGREENROOM-1"
-        }
-      ]
-    },
-    {
       "id": "f01fcad4623a4f3b",
       "source": "teatro_nacional",
       "date": "2026-10-09",
@@ -428,6 +290,60 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/DINASTIALATINATHEGREENROOM-10"
+        }
+      ]
+    },
+    {
+      "id": "5b121093f8be4cbe",
+      "source": "tix",
+      "date": "2026-10-09",
+      "end": "2026-10-30",
+      "sessions": null,
+      "title": "El Congreso Internacional de Armonización Facial 2026 — Arte · Ciencia · Regeneración",
+      "venue": "Villa Palmera Business Center",
+      "zone": "",
+      "cat": "Arte",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "El Congreso Internacional de Armonización Facial 2026 — Arte · Ciencia · Regeneración será un encuentro académico presencial dedicado a la actualización en armonización facial y medicina regenerativa. Reunirá conferencistas nacionales e internacionales para compartir conocimient…",
+      "ticketUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1"
+        }
+      ]
+    },
+    {
+      "id": "f49f83e14404e7a9",
+      "source": "recurring",
+      "date": "2026-10-09",
+      "end": "2026-10-15",
+      "sessions": null,
+      "title": "Entre muros y colores",
+      "venue": "Galería 360",
+      "zone": "",
+      "cat": "Arte",
+      "price": 0,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [
+        "serie"
+      ],
+      "description": "Exposición en Galería 360, abierta hasta el 15 de octubre.",
+      "ticketUrl": "",
+      "srcName": "Galería 360, vía letstalkart.rd",
+      "srcUrl": "https://www.instagram.com/galeria360/#entre-muros-y-colores-galeria-360-hasta-2026-10-15",
+      "sources": [
+        {
+          "srcName": "Galería 360, vía letstalkart.rd",
+          "srcUrl": "https://www.instagram.com/galeria360/#entre-muros-y-colores-galeria-360-hasta-2026-10-15"
         }
       ]
     },
@@ -655,7 +571,7 @@
       "venue": "Cine Teatro ISSFFAA ( El millon )",
       "zone": "",
       "cat": "Cultura",
-      "price": 1000,
+      "price": 850,
       "price_max": null,
       "time": "15:00",
       "kids": true,
@@ -2054,7 +1970,7 @@
       "time": "20:00",
       "kids": false,
       "tags": [],
-      "description": "",
+      "description": "Íntimo con Luchy y Artista Invitados !!",
       "ticketUrl": "https://ticketmax.org/evento/900046/",
       "srcName": "Ticketmax",
       "srcUrl": "https://ticketmax.org/evento/900046/",
@@ -2785,6 +2701,32 @@
       ]
     },
     {
+      "id": "f8788de0c181859d",
+      "source": "tix",
+      "date": "2026-10-30",
+      "end": null,
+      "sessions": null,
+      "title": "Michael Jackson – The Live Experience | Full Band 100% en Vivo + Imitador",
+      "venue": "Hard Rock Cafe Blue Mall",
+      "zone": "",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "21:00",
+      "kids": true,
+      "tags": [],
+      "description": "Michael Jackson – The Live Experience llega a Hard Rock Cafe Santo Domingo este viernes 30 de octubre con una producción especial de 4ta Dimension. Un espectáculo tributo para disfrutar en familia, combinando la fuerza de una full band 100% en vivo con la presencia escénica de u…",
+      "ticketUrl": "https://tix.do/event/MichaelJacksonTheLiveExperienceorFullBand100percentenVivoImitador-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/MichaelJacksonTheLiveExperienceorFullBand100percentenVivoImitador-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/MichaelJacksonTheLiveExperienceorFullBand100percentenVivoImitador-1"
+        }
+      ]
+    },
+    {
       "id": "d43fb66c5fd7ac9b",
       "source": "tix",
       "date": "2026-10-30",
@@ -2965,6 +2907,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900011/"
+        }
+      ]
+    },
+    {
+      "id": "5be9457515b13d90",
+      "source": "ticketmax",
+      "date": "2026-10-31",
+      "end": null,
+      "sessions": null,
+      "title": "CHISMEANDO CON EDUARDO SANTOS",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 800,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "Chismeando con Eduardo Santos es un show donde los chismes del público se convierten en protagonistas. ¿Tienes un CHISME de pareja, un drama del trabajo o un chisme que merece ser contado? Tráelo a Velvet Room. Eduardo Santos hará comedia con TUS CHISMES, en una noche de ocurren…",
+      "ticketUrl": "https://ticketmax.org/evento/900059/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900059/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900059/"
         }
       ]
     },
@@ -3329,7 +3297,7 @@
       "cat": "Música",
       "price": 1600,
       "price_max": 2000,
-      "time": "17:00",
+      "time": "19:00",
       "kids": true,
       "tags": [],
       "description": "",
@@ -3496,6 +3464,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/OlgaCerpaandMestisayMusicadelasIslasCanarias-1"
+        }
+      ]
+    },
+    {
+      "id": "e1d47012167f838c",
+      "source": "ticketmax",
+      "date": "2026-11-13",
+      "end": null,
+      "sessions": null,
+      "title": "El Bueno, El Malo y Mama",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 1000,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "Tres personalidades, tres estilos y una sola misión: ¡hacerte reír hasta que te duela la barriga! 🤣 😇 Alexander Corleone, EL BUENO: bueno… hasta que suelta un doble sentido y te das cuenta de que no era tan bueno como parecía. 😂🌶️ 😈 Miguel Alcántara, EL MALO: humor picante, humo…",
+      "ticketUrl": "https://ticketmax.org/evento/900058/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900058/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900058/"
         }
       ]
     },
@@ -4136,6 +4130,32 @@
       ]
     },
     {
+      "id": "c072d7b10d59acd7",
+      "source": "sic",
+      "date": "2026-11-24",
+      "end": null,
+      "sessions": null,
+      "title": "Celebración de gala premiación View Awards 2026",
+      "venue": "Auditorio Manuel Rueda del Conservatorio Nacional",
+      "zone": "",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "Premiación",
+      "ticketUrl": "",
+      "srcName": "Ministerio de Cultura (SIC)",
+      "srcUrl": "https://sic.cultura.gob.do/agenda/evento/35",
+      "sources": [
+        {
+          "srcName": "Ministerio de Cultura (SIC)",
+          "srcUrl": "https://sic.cultura.gob.do/agenda/evento/35"
+        }
+      ]
+    },
+    {
       "id": "0b4eff3601d6a40a",
       "source": "ticketmax",
       "date": "2026-11-25",
@@ -4294,6 +4314,58 @@
       ]
     },
     {
+      "id": "0f78f23eeda40bd0",
+      "source": "ticketmax",
+      "date": "2026-11-29",
+      "end": null,
+      "sessions": null,
+      "title": "Erase Una Vez. Versión Abuela En Navidad",
+      "venue": "Centro Cultural Narciso González",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 1000,
+      "price_max": 1300,
+      "time": "15:00",
+      "kids": false,
+      "tags": [],
+      "description": "Érase una vez versión abuela en Navidad En esta segunda versión de Érase una vez, versión Abuela, nuestra querida Abuela regresa para contarnos una historia muy particular, esta vez envuelta en la magia de la Navidad. En un reino donde la Navidad ha sido prohibida por una reina…",
+      "ticketUrl": "https://ticketmax.org/evento/900051/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900051/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900051/"
+        }
+      ]
+    },
+    {
+      "id": "667cee35a6bd2bb5",
+      "source": "ticketmax",
+      "date": "2026-11-29",
+      "end": null,
+      "sessions": null,
+      "title": "La Tarde Más Corta",
+      "venue": "Centro Cultural Narciso González",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 1000,
+      "price_max": 1400,
+      "time": "16:30",
+      "kids": false,
+      "tags": [],
+      "description": "LA TARDE MÁS CORTA La poética entre el día y la noche, la luz y la oscuridad, reúne el amor, la locura, secretos y risas… donde seis historias completamente diferentes se unen en un mismo escenario para hacerte vivir un espectáculo lleno de sorpresas y emociones intensas. Seis o…",
+      "ticketUrl": "https://ticketmax.org/evento/900054/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900054/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900054/"
+        }
+      ]
+    },
+    {
       "id": "e3b37e2c64e0c72b",
       "source": "ticketmax",
       "date": "2026-11-29",
@@ -4342,6 +4414,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/ROMANMOSTEIROCASACRUDATOUR-1"
+        }
+      ]
+    },
+    {
+      "id": "0addca6c0292ae72",
+      "source": "tix",
+      "date": "2026-12-02",
+      "end": null,
+      "sessions": null,
+      "title": "Pavel Núñez: Tú en mi vida Sessions",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "21:00",
+      "kids": false,
+      "tags": [],
+      "description": "COMO TODO EMPEZÓ…25 AÑOS”. Acústicos como en los viejos tiempos, en la eterna Casa de Teatro, será una residencia en dicha casa con el fin de re-conectar en el Pavel de los inicios. Les contará la razón que se esconde tras cada canción, sus desvelos y aciertos, su guitarra en ma…",
+      "ticketUrl": "https://tix.do/event/Pavel-19",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/Pavel-19",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/Pavel-19"
         }
       ]
     },

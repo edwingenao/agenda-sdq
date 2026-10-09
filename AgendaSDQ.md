@@ -32,8 +32,10 @@ Si un documento y el código no coinciden, manda el código; actualiza el docume
    (`data/agenda.db`, no se versiona).
 2. **Exportación** (`agenda/export.py`): toma los eventos próximos, une los repetidos entre fuentes
    (`agenda/dedupe.py`) y escribe `docs/events.json`.
+   Al exportar, cada evento cuyo lugar está en `agenda/venues.json` gana `venueId` y, si el lugar tiene coordenadas,
+   `lat`, `lng` y `geoPrecision`; además se escribe `docs/venues.json` con los lugares de esos eventos (ver "Lugares y mapa").
 3. **Workflow** (`.github/workflows/scrape.yml`): corre a diario a las 6:17 a. m. de Santo Domingo y publica
-   `events.json`. Necesita la variable de repositorio `AGENDA_CONTACT` (ya definida).
+   `events.json` y `venues.json`. Necesita la variable de repositorio `AGENDA_CONTACT` (ya definida).
 4. **Sitio** (`docs/index.html`): una sola página sin dependencias que carga `events.json`. Pantallas Bienvenida, Hoy,
    Calendario, Guardados y detalle.
 
@@ -81,6 +83,30 @@ El orden de confianza para unir repetidos está en `SOURCE_PRIORITY` (`agenda/de
 - Pendiente: el documento "Campos de cada evento" permite hasta **2** categorías, pero el modelo guarda solo una.
 - Gastronomía solo tiene, por ahora, eventos de las series curadas (809 Mercado).
 
+## Lugares y mapa
+
+Base de lugares en `agenda/venues.json` (curada a mano, validada al cargar por `agenda/venues.py`): una entrada por lugar,
+con sus `aliases` (las formas en que lo escriben las fuentes, salas incluidas), `address`, `zone`, `lat`/`lng`, `precision`,
+`coord_source` y `verified`. El texto `venue` de cada evento se busca entre los alias sin acentos ni mayúsculas, por palabras
+completas, y gana el alias más largo. La corrida lista en el log los lugares que no encuentra, para agregarlos.
+
+- **Coordenadas solo con fuente citable** (Wikipedia/Wikidata, OpenStreetMap o una medición propia), siempre con `coord_source`.
+  **No se copian de Google Maps ni de Google Places**: sus términos prohíben guardarlas y usarlas con otros mapas. Sin fuente,
+  `lat` y `lng` quedan `null`: el lugar existe pero todavía no sale en el mapa. No se adivinan.
+- `precision`: `edificio` (unos 75 m), `calle` (unos 300 m) o `sector` (hasta 1 km). El sitio debe decir "zona aproximada" cuando es `sector`.
+  Los lugares dentro de la Plaza de la Cultura usan la coordenada del Teatro Nacional como `sector`, no como el edificio.
+- `verified` es `false` hasta que alguien vea el marcador en el mapa y confirme que cae en el lugar.
+- Estado (9 oct 2026): 63 lugares; 7 con coordenadas (Wikipedia: Teatro Nacional, Ruinas de San Francisco, UNPHU, y el resto
+  de la Plaza de la Cultura aproximado); 56 por ubicar.
+- **Ubicar los que faltan:** `python -m agenda.geocode` (desde la PC, con `AGENDA_CONTACT`). Consulta Nominatim (OpenStreetMap) con
+  el `Fetcher` del proyecto (robots.txt, identificación, 1 petición por segundo). Escribe `data/venues_geocodificacion.md` con cada
+  candidato y un enlace para buscarlo a mano; con `--aplicar` guarda solo los resultados que caen en Santo Domingo y cuyo nombre se
+  parece al del lugar (nunca sobrescribe), y siempre con `verified: false`. `--revisar` compara las coordenadas existentes.
+  Si robots.txt no permite la consulta, se detiene: se busca a mano con los enlaces del informe. El mapa debe mostrar
+  «© colaboradores de OpenStreetMap».
+- Lo que falta para ver el mapa en el sitio: un mapa en `docs/index.html` que lea `venues.json` (sin dependencias externas pesadas,
+  atribución de OSM) y `geoPrecision`.
+
 ## Cómo trabajar
 
 - **GitHub es la única fuente de verdad del código.** Empieza actualizando desde `main` y termina con commit y push,
@@ -112,6 +138,11 @@ El orden de confianza para unir repetidos está en `SOURCE_PRIORITY` (`agenda/de
 - Fuentes de Gastronomía que publiquen con regularidad.
 - Reconfirmar las series curadas antes de que venzan (60 días sin confirmar las marca para revisión) y activar las de temporada cuando anuncien fechas.
 - La hora de los eventos del Teatro Nacional (su página no la publica).
+- Ubicar los 56 lugares sin coordenadas con `python -m agenda.geocode` y verificar los marcadores (ver "Lugares y mapa").
+- Confirmar el nombre y la dirección de los lugares que TIX publica solo con dirección (Calle Max Henríquez Ureña 33 local 3,
+  Av. Lope de Vega 29, C. 19 de Marzo 113) y si «Hard Rock Cafe Blue Mall» y «Hard Rock Cafe Santo Domingo» son el mismo local.
+- Revisar `VENUE_ALIASES` en `agenda/dedupe.py`: mapea «palacio de bellas artes» a «teatro nacional», pero son edificios distintos
+  (Sala Manuel Rueda está en Bellas Artes). Podría unir por error eventos de dos sedes.
 
 ## Fuentes revisadas que no se integran todavía
 

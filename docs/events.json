@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T17:09:40+00:00",
-  "today": "2026-10-09",
-  "count": 188,
+  "generated_at": "2026-10-10T16:01:33+00:00",
+  "today": "2026-10-10",
+  "count": 185,
   "events": [
     {
       "id": "5194c26d18d743f2",
@@ -82,38 +82,6 @@
         {
           "srcName": "Teatro Las Máscaras",
           "srcUrl": "https://teatrolasmascaras.com/#festival-teatro-joven"
-        }
-      ]
-    },
-    {
-      "id": "cb8f6618f2535e0b",
-      "source": "cce",
-      "date": "2026-10-06",
-      "end": "2026-10-09",
-      "sessions": [
-        "2026-10-06",
-        "2026-10-08",
-        "2026-10-09"
-      ],
-      "title": "Galería de personajes",
-      "venue": "Centro Comunitario",
-      "zone": "Ciudad Colonial",
-      "cat": "Arte",
-      "price": null,
-      "price_max": null,
-      "time": "17:00",
-      "kids": false,
-      "tags": [
-        "formacion"
-      ],
-      "description": "Imparten Nathalie Santos Martínez y Dilianny Julissa Tamariz EnisCONVOCATORIA CERRADA",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/galer%C3%ADa-de-personajes",
-      "sources": [
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/galer%C3%ADa-de-personajes"
         }
       ]
     },
@@ -214,60 +182,6 @@
       ]
     },
     {
-      "id": "f01fcad4623a4f3b",
-      "source": "teatro_nacional",
-      "date": "2026-10-09",
-      "end": null,
-      "sessions": null,
-      "title": "3 x Todas las canciones",
-      "venue": "Café Teatro Juan Lockward, Teatro Nacional",
-      "zone": "Plaza de la Cultura",
-      "cat": "Música",
-      "price": 1100,
-      "price_max": 1100,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Los cantautores José Antonio Rodríguez, Raúl Torres y Manuel Jiménez compartirán escenario para una velada dedicada a la canción de autor. Reunirá a tres reconocidos compositores e intérpretes en un formato acústico y cercano. El público podrá disfrutar de un repertorio que recog",
-      "ticketUrl": "https://boleteria.com.do/",
-      "srcName": "Teatro Nacional",
-      "srcUrl": "https://teatronacional.gob.do/events/3-x-todas-las-canciones/",
-      "sources": [
-        {
-          "srcName": "Teatro Nacional",
-          "srcUrl": "https://teatronacional.gob.do/events/3-x-todas-las-canciones/"
-        }
-      ]
-    },
-    {
-      "id": "5d4504500e9dc965",
-      "source": "recurring",
-      "date": "2026-10-09",
-      "end": null,
-      "sessions": null,
-      "title": "Concierto aniversario de la Filarmónica Appassionato",
-      "venue": "Auditorio Horacio Álvarez Saviñón, UNPHU",
-      "zone": "",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [
-        "serie"
-      ],
-      "description": "Concierto de aniversario de la orquesta Filarmónica Appassionato, con el maestro Alberto Rincón como director artístico.",
-      "ticketUrl": "",
-      "srcName": "Filarmónica Appassionato, vía letstalkart.rd",
-      "srcUrl": "https://www.instagram.com/appassionatofilarmonica/#appassionato-concierto-aniversario-2026-10-09-2026-10-09",
-      "sources": [
-        {
-          "srcName": "Filarmónica Appassionato, vía letstalkart.rd",
-          "srcUrl": "https://www.instagram.com/appassionatofilarmonica/#appassionato-concierto-aniversario-2026-10-09-2026-10-09"
-        }
-      ]
-    },
-    {
       "id": "48f576349062449e",
       "source": "tix",
       "date": "2026-10-09",
@@ -290,86 +204,6 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/DINASTIALATINATHEGREENROOM-10"
-        }
-      ]
-    },
-    {
-      "id": "5b121093f8be4cbe",
-      "source": "tix",
-      "date": "2026-10-09",
-      "end": "2026-10-30",
-      "sessions": null,
-      "title": "El Congreso Internacional de Armonización Facial 2026 — Arte · Ciencia · Regeneración",
-      "venue": "Villa Palmera Business Center",
-      "zone": "",
-      "cat": "Arte",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "El Congreso Internacional de Armonización Facial 2026 — Arte · Ciencia · Regeneración será un encuentro académico presencial dedicado a la actualización en armonización facial y medicina regenerativa. Reunirá conferencistas nacionales e internacionales para compartir conocimient…",
-      "ticketUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1"
-        }
-      ]
-    },
-    {
-      "id": "f49f83e14404e7a9",
-      "source": "recurring",
-      "date": "2026-10-09",
-      "end": "2026-10-15",
-      "sessions": null,
-      "title": "Entre muros y colores",
-      "venue": "Galería 360",
-      "zone": "",
-      "cat": "Arte",
-      "price": 0,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [
-        "serie"
-      ],
-      "description": "Exposición en Galería 360, abierta hasta el 15 de octubre.",
-      "ticketUrl": "",
-      "srcName": "Galería 360, vía letstalkart.rd",
-      "srcUrl": "https://www.instagram.com/galeria360/#entre-muros-y-colores-galeria-360-hasta-2026-10-15",
-      "sources": [
-        {
-          "srcName": "Galería 360, vía letstalkart.rd",
-          "srcUrl": "https://www.instagram.com/galeria360/#entre-muros-y-colores-galeria-360-hasta-2026-10-15"
-        }
-      ]
-    },
-    {
-      "id": "40fb93a54a8abbe9",
-      "source": "tix",
-      "date": "2026-10-09",
-      "end": "2026-10-11",
-      "sessions": null,
-      "title": "Festival de Teatro Joven",
-      "venue": "Teatro Las Máscaras",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Llega a la sala más acogedora de la Zona Colonial el ciclo Noches de Teatro Joven, un espacio vibrante presentado por el grupo Teatro Testarudo bajo la dirección de la talentosa actriz y comediante Aleja Johnson. Durante todo el mes de octubre, Teatro Las Máscaras abre sus tabla…",
-      "ticketUrl": "https://tix.do/event/FestivaldeTeatroJoven-2",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/FestivaldeTeatroJoven-2",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/FestivaldeTeatroJoven-2"
         }
       ]
     },
@@ -428,60 +262,6 @@
       ]
     },
     {
-      "id": "0f1839bf90b0130f",
-      "source": "jazz_en_dominicana",
-      "date": "2026-10-09",
-      "end": null,
-      "sessions": null,
-      "title": "Fiesta Sunset Jazz presenta - The Maggie Rodríguez Project - sus favoritas!",
-      "venue": "Dominican Fiesta Hotel & Casino",
-      "zone": "Mirador Sur",
-      "cat": "Música",
-      "price": 0,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [
-        "jazz"
-      ],
-      "description": "El pasado 6 de marzo se dio inicio a un mes de presentaciones para celebrar de una manera muy especial dl Día Internacional de la Mujer. Esa noche el Fiesta Sunset Jazz, a casa llena, presentó al proyecto de la vocalista Maggie Rodríguez, acompañada del pianista Oscar Micheli, Mi",
-      "ticketUrl": "",
-      "srcName": "Jazz en Dominicana",
-      "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-4-al-10-de.html#2026-10-09-fiesta-sunset-jazz-presenta-the-maggie-rodri-guez-",
-      "sources": [
-        {
-          "srcName": "Jazz en Dominicana",
-          "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-4-al-10-de.html#2026-10-09-fiesta-sunset-jazz-presenta-the-maggie-rodri-guez-"
-        }
-      ]
-    },
-    {
-      "id": "d029d626c58b5565",
-      "source": "ticketmax",
-      "date": "2026-10-09",
-      "end": null,
-      "sessions": null,
-      "title": "FRU◦BLAZ◦ITA en Velvet Room | Stand up comedy",
-      "venue": "Velvet Room",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 800,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [],
-      "description": "Frubidubi, Blaz y Jinita se juntaron para traerles el FRUBLAZITA, un show de pura comedia con estos tres toletes.",
-      "ticketUrl": "https://ticketmax.org/evento/900001/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900001/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900001/"
-        }
-      ]
-    },
-    {
       "id": "377b03ab5d0c4082",
       "source": "recurring",
       "date": "2026-10-10",
@@ -532,6 +312,34 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/AngelsandDemons-2"
+        }
+      ]
+    },
+    {
+      "id": "f49f83e14404e7a9",
+      "source": "recurring",
+      "date": "2026-10-10",
+      "end": "2026-10-15",
+      "sessions": null,
+      "title": "Entre muros y colores",
+      "venue": "Galería 360",
+      "zone": "",
+      "cat": "Arte",
+      "price": 0,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [
+        "serie"
+      ],
+      "description": "Exposición en Galería 360, abierta hasta el 15 de octubre.",
+      "ticketUrl": "",
+      "srcName": "Galería 360, vía letstalkart.rd",
+      "srcUrl": "https://www.instagram.com/galeria360/#entre-muros-y-colores-galeria-360-hasta-2026-10-15",
+      "sources": [
+        {
+          "srcName": "Galería 360, vía letstalkart.rd",
+          "srcUrl": "https://www.instagram.com/galeria360/#entre-muros-y-colores-galeria-360-hasta-2026-10-15"
         }
       ]
     },
@@ -947,6 +755,32 @@
         {
           "srcName": "SalsaVida",
           "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-10-11"
+        }
+      ]
+    },
+    {
+      "id": "40fb93a54a8abbe9",
+      "source": "tix",
+      "date": "2026-10-11",
+      "end": null,
+      "sessions": null,
+      "title": "Festival de Teatro Joven",
+      "venue": "Teatro Las Máscaras",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "18:30",
+      "kids": false,
+      "tags": [],
+      "description": "Llega a la sala más acogedora de la Zona Colonial el ciclo Noches de Teatro Joven, un espacio vibrante presentado por el grupo Teatro Testarudo bajo la dirección de la talentosa actriz y comediante Aleja Johnson. Durante todo el mes de octubre, Teatro Las Máscaras abre sus tabla…",
+      "ticketUrl": "https://tix.do/event/FestivaldeTeatroJoven-2",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/FestivaldeTeatroJoven-2",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/FestivaldeTeatroJoven-2"
         }
       ]
     },
@@ -1373,6 +1207,34 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/243547/"
+        }
+      ]
+    },
+    {
+      "id": "85396695924aedc4",
+      "source": "jazz_en_dominicana",
+      "date": "2026-10-16",
+      "end": null,
+      "sessions": null,
+      "title": "Fiesta Sunset Jazz presenta: Luz Brito Quartet - Jazz Emotions",
+      "venue": "Dominican Fiesta Hotel & Casino",
+      "zone": "Mirador Sur",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [
+        "jazz"
+      ],
+      "description": "Es un honor para el Fiesta Sunset Jazz presentar, el viernes 16 de octubre, al debutante cuarteto de la joven músico Luz Brito! con su especial entrega de Jazz Emotions. Luz Marie Brito Fortuna , estudiante dominicana de piano jazz y composición contemporánea. Estudia en el Conse",
+      "ticketUrl": "",
+      "srcName": "Jazz en Dominicana",
+      "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-11-al-17-de.html#2026-10-16-fiesta-sunset-jazz-presenta-luz-brito-quartet-jazz",
+      "sources": [
+        {
+          "srcName": "Jazz en Dominicana",
+          "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-11-al-17-de.html#2026-10-16-fiesta-sunset-jazz-presenta-luz-brito-quartet-jazz"
         }
       ]
     },
@@ -2645,6 +2507,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/HOUSEOFSHADOWS-1"
+        }
+      ]
+    },
+    {
+      "id": "5b121093f8be4cbe",
+      "source": "tix",
+      "date": "2026-10-30",
+      "end": null,
+      "sessions": null,
+      "title": "El Congreso Internacional de Armonización Facial 2026 — Arte · Ciencia · Regeneración",
+      "venue": "Villa Palmera Business Center",
+      "zone": "",
+      "cat": "Arte",
+      "price": null,
+      "price_max": null,
+      "time": "08:00",
+      "kids": false,
+      "tags": [],
+      "description": "El Congreso Internacional de Armonización Facial 2026 — Arte · Ciencia · Regeneración será un encuentro académico presencial dedicado a la actualización en armonización facial y medicina regenerativa. Reunirá conferencistas nacionales e internacionales para compartir conocimient…",
+      "ticketUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1"
         }
       ]
     },
@@ -4362,6 +4250,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900054/"
+        }
+      ]
+    },
+    {
+      "id": "81ad67a2939d8a2e",
+      "source": "ticketmax",
+      "date": "2026-11-29",
+      "end": null,
+      "sessions": null,
+      "title": "Noche ¿Buena?",
+      "venue": "Centro Cultural Narciso González",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 1400,
+      "price_max": 1750,
+      "time": "19:00",
+      "kids": true,
+      "tags": [],
+      "description": "Noche ¿Buena? Como cada 24 de Diciembre en todo hogar dominicano, la familia Echavarriga se reúne para celebrar Nochebuena, pero esta vez algo cambiará. Lo que debía ser una noche llena de risas y buenos recuerdos se convertirá en un escenario de secretos, tensiones y decisiones…",
+      "ticketUrl": "https://ticketmax.org/evento/900062/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900062/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900062/"
         }
       ]
     },

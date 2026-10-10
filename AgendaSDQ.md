@@ -111,7 +111,7 @@ El orden de confianza para unir repetidos está en `SOURCE_PRIORITY` (`agenda/de
   galerías, ticketeras y medios.
 - Fuentes de Gastronomía que publiquen con regularidad.
 - Reconfirmar las series curadas antes de que venzan (60 días sin confirmar las marca para revisión) y activar las de temporada cuando anuncien fechas.
-- La hora de los eventos del Teatro Nacional (su página no la publica).
+- La hora de los eventos del Teatro Nacional: su página no la publica, pero su API sí trae fecha y hora (ver la nota de abajo). Falta que el adaptador `teatro_nacional` la use.
 
 ## Fuentes revisadas que no se integran todavía
 
@@ -122,6 +122,8 @@ Revisadas desde la PC el 6 de octubre de 2026. Antes de volver a probarlas, lee 
 | Teatro Guloya (teatroguloya.com) | App de Base44 con API pública sin autenticación en su mismo dominio: `/api/apps/6aab0bddff1e87a2bfb25e50/entities/Show?q={"status":"cartelera"}` (obras) y `/entities/Function?q={"status":"activa"}` (funciones: `starts_at` en UTC, `ticket_types` con precio, `capacity`). No tiene robots.txt. Los datos son de prueba: una obra con descripción de relleno, precio RD$1 y una función ya pasada (20 sep); las noticias citan montajes que no están en la cartelera | Volver a mirar cuando carguen la temporada real. El adaptador sería corto: unir `Function` con su `Show` por `show_id` |
 | Feed de DGCINE (dgcine.gob.do/feed/) | Feed RSS con unas 10 notas; casi todas son institucionales (convenios, convocatorias, festivales fuera). Ese día solo 2 eran eventos: EUROCINE 2026 (26 oct al 1 nov, Caribbean Cinemas Galería 360, 15 películas, sin precio) y una exposición de la Cinemateca | Muy poco volumen para un adaptador. Cargar EUROCINE a mano en las series curadas, o leerlo junto con las agendas de prensa cuando haya extracción con IA |
 | Biblioteca Nacional (bnphu.gob.do, eventos.bnphu.gob.do) | `eventos.bnphu.gob.do` prohíbe todo en robots.txt (`Disallow: /`). `bnphu.gob.do` responde con la verificación anti-bots de Cloudflare ("Just a moment…"), también en su API de WordPress | No se lee de forma automática ni se esquiva el bloqueo. Pedirles la programación o cargarla a mano |
+| Teatro Nacional: API con hora (nota para mejorar `teatro_nacional`) | `/wp-json/trafico/tneb/v1/events?start=&end=` (fechas en segundos Unix) devuelve `{success, data:{events,start,end}}`. **Las fechas son la hora local escrita como si fuera UTC**: no se convierte (un evento de las 8:30 p. m. llega como 20:30 UTC; convertirlo da 16:30, que es un error). 00:00 significa que no publican hora. Se verificó contra uepatickets (7/10/2026, 8:30 p. m.). El precio y el enlace de boletos solo están en la página de cada evento (`.tneb-price-list-section-price`, `.tneb-price-list-subsection-price`, enlace «Compre sus boletas aquí»); sin lista de precios queda «por confirmar», nunca gratis. Dos funciones el mismo día (matiné y noche) son eventos distintos | Cambiar el adaptador para leer la API y agregar la hora; mantener la regla de no inventar la hora cuando llega 00:00 |
+| Turizoneando (mitur.gob.do/turizoneando) | Revisado el 7 oct: temporada terminada, solo flyers en imagen y actividades gratuitas, sin feed ni texto con fecha y hora | No se integra. Volver a mirar cada junio, cuando abre la temporada |
 
 ### Guía de letstalkart.rd (Instagram), revisada el 7 de octubre de 2026
 

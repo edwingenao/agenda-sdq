@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-10T16:01:33+00:00",
-  "today": "2026-10-10",
-  "count": 185,
+  "generated_at": "2026-10-11T16:27:48+00:00",
+  "today": "2026-10-11",
+  "count": 175,
   "events": [
     {
       "id": "5194c26d18d743f2",
@@ -121,34 +121,6 @@
       ]
     },
     {
-      "id": "18d3f70bd30ff541",
-      "source": "recurring",
-      "date": "2026-10-07",
-      "end": "2026-10-10",
-      "sessions": null,
-      "title": "FESTIL 2026: Festival Estudiantil de Teatro",
-      "venue": "ENAD (Escuela Nacional de Arte Dramático)",
-      "zone": "",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [
-        "serie"
-      ],
-      "description": "Festival de teatro hecho por estudiantes, del 7 al 10 de octubre, con el Ministerio de Cultura, la Dirección General de Bellas Artes (DEFAE) y la ENAD.",
-      "ticketUrl": "",
-      "srcName": "DEFAE Bellas Artes, vía letstalkart.rd",
-      "srcUrl": "https://www.instagram.com/defaebellasartesrd/#festil-2026-hasta-2026-10-10",
-      "sources": [
-        {
-          "srcName": "DEFAE Bellas Artes, vía letstalkart.rd",
-          "srcUrl": "https://www.instagram.com/defaebellasartesrd/#festil-2026-hasta-2026-10-10"
-        }
-      ]
-    },
-    {
       "id": "b9dcbcf89fa21ff0",
       "source": "cce",
       "date": "2026-10-07",
@@ -178,32 +150,6 @@
         {
           "srcName": "Centro Cultural de España",
           "srcUrl": "https://ccesd.aecid.es/w/lo-tr%C3%A1gico-psicol%C3%B3gico-en-la-cuent%C3%ADstica-de-virgilio-d%C3%ADaz-grull%C3%B3n"
-        }
-      ]
-    },
-    {
-      "id": "48f576349062449e",
-      "source": "tix",
-      "date": "2026-10-09",
-      "end": "2026-10-10",
-      "sessions": null,
-      "title": "DINASTIA LATINA - THE GREEN ROOM",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "CONSUMO MÍNIMO EN EL LOCAL DE 1,000 PESOS 🔞 Evento exclusivo para mayores de 18 años.",
-      "ticketUrl": "https://tix.do/event/DINASTIALATINATHEGREENROOM-10",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/DINASTIALATINATHEGREENROOM-10",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/DINASTIALATINATHEGREENROOM-10"
         }
       ]
     },
@@ -262,34 +208,6 @@
       ]
     },
     {
-      "id": "377b03ab5d0c4082",
-      "source": "recurring",
-      "date": "2026-10-10",
-      "end": null,
-      "sessions": null,
-      "title": "6.º Festival de Canto Coral",
-      "venue": "Sala Manuel Rueda, Plaza Iberoamérica",
-      "zone": "",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [
-        "serie"
-      ],
-      "description": "Sexta edición del Festival de Canto Coral de Bellas Artes, el 10 y el 11 de octubre.",
-      "ticketUrl": "",
-      "srcName": "Bellas Artes, vía letstalkart.rd",
-      "srcUrl": "https://www.instagram.com/bellasartesrd/#festival-canto-coral-6-2026-10-2026-10-10",
-      "sources": [
-        {
-          "srcName": "Bellas Artes, vía letstalkart.rd",
-          "srcUrl": "https://www.instagram.com/bellasartesrd/#festival-canto-coral-6-2026-10-2026-10-10"
-        }
-      ]
-    },
-    {
       "id": "832b7aa81c7cab13",
       "source": "tix",
       "date": "2026-10-10",
@@ -316,34 +234,6 @@
       ]
     },
     {
-      "id": "f49f83e14404e7a9",
-      "source": "recurring",
-      "date": "2026-10-10",
-      "end": "2026-10-15",
-      "sessions": null,
-      "title": "Entre muros y colores",
-      "venue": "Galería 360",
-      "zone": "",
-      "cat": "Arte",
-      "price": 0,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [
-        "serie"
-      ],
-      "description": "Exposición en Galería 360, abierta hasta el 15 de octubre.",
-      "ticketUrl": "",
-      "srcName": "Galería 360, vía letstalkart.rd",
-      "srcUrl": "https://www.instagram.com/galeria360/#entre-muros-y-colores-galeria-360-hasta-2026-10-15",
-      "sources": [
-        {
-          "srcName": "Galería 360, vía letstalkart.rd",
-          "srcUrl": "https://www.instagram.com/galeria360/#entre-muros-y-colores-galeria-360-hasta-2026-10-15"
-        }
-      ]
-    },
-    {
       "id": "73538c4225a873b7",
       "source": "tix",
       "date": "2026-10-10",
@@ -366,254 +256,6 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/ROMINO-2"
-        }
-      ]
-    },
-    {
-      "id": "a9b6ba049033b538",
-      "source": "ticketmax",
-      "date": "2026-10-10",
-      "end": null,
-      "sessions": null,
-      "title": "Másters of Magic ( La orden secreta )",
-      "venue": "Cine Teatro ISSFFAA ( El millon )",
-      "zone": "",
-      "cat": "Cultura",
-      "price": 850,
-      "price_max": null,
-      "time": "15:00",
-      "kids": true,
-      "tags": [],
-      "description": "Un espectáculo de magia e ilusionismo para toda la familia. Inspirado en el universo de Harry Potter. Cada entrada incluye un combo de snacks con palomitas y una bebida.",
-      "ticketUrl": "https://ticketmax.org/evento/266454/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/266454/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/266454/"
-        }
-      ]
-    },
-    {
-      "id": "ca2511d952ee6072",
-      "source": "recurring",
-      "date": "2026-10-10",
-      "end": null,
-      "sessions": null,
-      "title": "Cineforum: Tubérculo Gourmet",
-      "venue": "Cinemateca Dominicana",
-      "zone": "Plaza de la Cultura",
-      "cat": "Cine",
-      "price": null,
-      "price_max": null,
-      "time": "16:00",
-      "kids": false,
-      "tags": [
-        "serie"
-      ],
-      "description": "Cineforum de la película «Tubérculo Gourmet» (de Archie López), precedida del cortometraje «Diario Arrepentido», de Liz Fulgencio (INTEC).",
-      "ticketUrl": "",
-      "srcName": "Cinemateca Dominicana, vía letstalkart.rd",
-      "srcUrl": "https://www.instagram.com/cinematecadomrd/#cineforum-tuberculo-gourmet-2026-10-10-2026-10-10",
-      "sources": [
-        {
-          "srcName": "Cinemateca Dominicana, vía letstalkart.rd",
-          "srcUrl": "https://www.instagram.com/cinematecadomrd/#cineforum-tuberculo-gourmet-2026-10-10-2026-10-10"
-        }
-      ]
-    },
-    {
-      "id": "df0d9e0929d64d4d",
-      "source": "tix",
-      "date": "2026-10-10",
-      "end": null,
-      "sessions": null,
-      "title": "Puras Cosas Maravillosas - 10 Octubre Función 4:00P.M.",
-      "venue": "Galeria 360 - Cosas Maravillosas",
-      "zone": "",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "16:00",
-      "kids": true,
-      "tags": [],
-      "description": "“Puras cosas maravillosas” es una obra que cuenta la historia de una niña de siete años que comienza una lista de cosas para regalársela a su mamá para demostrarle que la vida vale la pena vivirla. Puras Cosas Maravillosas logra de una forma interactiva el delicado equilibrio en…",
-      "ticketUrl": "https://tix.do/event/PurasCosasMaravillosas-7",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/PurasCosasMaravillosas-7",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/PurasCosasMaravillosas-7"
-        }
-      ]
-    },
-    {
-      "id": "eb3b60a12c6bdaf1",
-      "source": "recurring",
-      "date": "2026-10-10",
-      "end": null,
-      "sessions": null,
-      "title": "Proyección y conversatorio: Mis 500 locos",
-      "venue": "Auditorio Patrick N. Hughson",
-      "zone": "",
-      "cat": "Cine",
-      "price": 400,
-      "price_max": null,
-      "time": "17:00",
-      "kids": false,
-      "tags": [
-        "cultura",
-        "serie",
-        "confirmar"
-      ],
-      "description": "Proyección de «Mis 500 locos» y conversatorio «De mis 500 locos a la Salud Mental de hoy: evolución, dignidad y rehabilitación psicosocial».",
-      "ticketUrl": "",
-      "srcName": "Dominico Arte y Cultura, vía letstalkart.rd",
-      "srcUrl": "https://www.instagram.com/dominicoarteyculturard/#mis-500-locos-proyeccion-2026-10-10-2026-10-10",
-      "sources": [
-        {
-          "srcName": "Dominico Arte y Cultura, vía letstalkart.rd",
-          "srcUrl": "https://www.instagram.com/dominicoarteyculturard/#mis-500-locos-proyeccion-2026-10-10-2026-10-10"
-        }
-      ]
-    },
-    {
-      "id": "0b74a2bf30a1ddab",
-      "source": "ticketmax",
-      "date": "2026-10-10",
-      "end": null,
-      "sessions": null,
-      "title": "MANUEL ÁNGEL REDONDO – ADULTO RESPONSABLE",
-      "venue": "Velvet Room",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 1800,
-      "price_max": 3000,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "Crecer era lo máximo… hasta que creces. En ADULTO RESPONSABLE, Manuel Ángel Redondo presenta un show completamente nuevo de stand up y crowd work sobre el experimento social más extraño de todos: la adultez. Un show sobre intentar convertirse en una persona funcional mientras la…",
-      "ticketUrl": "https://ticketmax.org/evento/245698/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/245698/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/245698/"
-        }
-      ]
-    },
-    {
-      "id": "fb5ebbca3e3cbe21",
-      "source": "cce",
-      "date": "2026-10-10",
-      "end": null,
-      "sessions": null,
-      "title": "Getan. Pura Fantasía",
-      "venue": "CCESD",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [],
-      "description": "Sesiones de escruchaEntrada libre hasta completar aforoPrograma Fortalecimiento del Espacio Iberoamericano",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/getan",
-      "sources": [
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/getan"
-        }
-      ]
-    },
-    {
-      "id": "570710b2522aa2c9",
-      "source": "tix",
-      "date": "2026-10-10",
-      "end": null,
-      "sessions": null,
-      "title": "Puras cosas Maravillosas - 10 Octubre Función 8:00P.M.",
-      "venue": "Galeria 360 - Cosas Maravillosas",
-      "zone": "",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "20:00",
-      "kids": true,
-      "tags": [],
-      "description": "“Puras cosas maravillosas” es una obra que cuenta la historia de una niña de siete años que comienza una lista de cosas para regalársela a su mamá para demostrarle que la vida vale la pena vivirla. Puras Cosas Maravillosas logra de una forma interactiva el delicado equilibrio en…",
-      "ticketUrl": "https://tix.do/event/PurascosasMaravillosas10OctubreFuncion800PM-2",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/PurascosasMaravillosas10OctubreFuncion800PM-2",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/PurascosasMaravillosas10OctubreFuncion800PM-2"
-        }
-      ]
-    },
-    {
-      "id": "19df404c9a5dd5ca",
-      "source": "teatro_nacional",
-      "date": "2026-10-10",
-      "end": null,
-      "sessions": null,
-      "title": "Retro Jazz 15 años, Gala del cancionero dominicano",
-      "venue": "Sala Carlos Piantini, Teatro Nacional",
-      "zone": "Plaza de la Cultura",
-      "cat": "Música",
-      "price": 2290,
-      "price_max": 4525,
-      "time": "20:30",
-      "kids": false,
-      "tags": [
-        "jazz"
-      ],
-      "description": "La agrupación dominicana Retro Jazz anunció que ya están a la venta las boletas para su concierto Retro Jazz 15 Años: Gala del Cancionero Dominicano, el cual tendrá lugar en la Sala Carlos Piantini del Teatro Nacional Eduardo Brito el sábado 10 de octubre. Bajo el lema «15 años j",
-      "ticketUrl": "https://boleteria.com.do/",
-      "srcName": "Teatro Nacional",
-      "srcUrl": "https://teatronacional.gob.do/events/retro-jazz-15-anos-gala-del-cancionero-dominicano/",
-      "sources": [
-        {
-          "srcName": "Teatro Nacional",
-          "srcUrl": "https://teatronacional.gob.do/events/retro-jazz-15-anos-gala-del-cancionero-dominicano/"
-        },
-        {
-          "srcName": "Jazz en Dominicana",
-          "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-4-al-10-de.html#2026-10-10-retro-jazz-15-años-gala-del-cancionero-dominicano"
-        }
-      ]
-    },
-    {
-      "id": "cb383e6b2bb9b0ab",
-      "source": "recurring",
-      "date": "2026-10-10",
-      "end": null,
-      "sessions": null,
-      "title": "Una fiesta de esperanza: Ramón Orlando y Roberto del Castillo",
-      "venue": "Gran Salón Edmundo Félix Cuevas, Club Arroyo Hondo",
-      "zone": "Arroyo Hondo",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "21:00",
-      "kids": false,
-      "tags": [
-        "serie"
-      ],
-      "description": "Noche musical con Ramón Orlando y su orquesta y Roberto del Castillo con su show artístico, en el Club Arroyo Hondo.",
-      "ticketUrl": "",
-      "srcName": "Club Arroyo Hondo, vía letstalkart.rd",
-      "srcUrl": "https://www.instagram.com/clubarroyohondord/#una-fiesta-de-esperanza-2026-10-10-2026-10-10",
-      "sources": [
-        {
-          "srcName": "Club Arroyo Hondo, vía letstalkart.rd",
-          "srcUrl": "https://www.instagram.com/clubarroyohondord/#una-fiesta-de-esperanza-2026-10-10-2026-10-10"
         }
       ]
     },
@@ -671,6 +313,34 @@
         {
           "srcName": "Alok, vía letstalkart.rd",
           "srcUrl": "https://www.instagram.com/alokvmenon/#alok-comedia-hard-rock-2026-10-11-2026-10-11"
+        }
+      ]
+    },
+    {
+      "id": "f49f83e14404e7a9",
+      "source": "recurring",
+      "date": "2026-10-11",
+      "end": "2026-10-15",
+      "sessions": null,
+      "title": "Entre muros y colores",
+      "venue": "Galería 360",
+      "zone": "",
+      "cat": "Arte",
+      "price": 0,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [
+        "serie"
+      ],
+      "description": "Exposición en Galería 360, abierta hasta el 15 de octubre.",
+      "ticketUrl": "",
+      "srcName": "Galería 360, vía letstalkart.rd",
+      "srcUrl": "https://www.instagram.com/galeria360/#entre-muros-y-colores-galeria-360-hasta-2026-10-15",
+      "sources": [
+        {
+          "srcName": "Galería 360, vía letstalkart.rd",
+          "srcUrl": "https://www.instagram.com/galeria360/#entre-muros-y-colores-galeria-360-hasta-2026-10-15"
         }
       ]
     },
@@ -1279,7 +949,7 @@
       "time": "21:00",
       "kids": false,
       "tags": [],
-      "description": "**DESPECHO – EL CONCIERTO** regresa a Santo Domingo en una edición especial y, por primera vez, llega al prestigioso **Café Teatro del Teatro Nacional Eduardo Brito**. Este **viernes 16 de octubre a las 9:00 PM**, 4ta Dimension presenta una versión más íntima, exclusiva y recarg…",
+      "description": "DESPECHO – EL CONCIERTO llega este viernes 16 de octubre al Café Teatro del Teatro Nacional Eduardo Brito en una edición especial, más íntima, exclusiva y recargada. Una noche para cantar a todo pulmón esas canciones que no solo se escuchan… cuando son EN VIVO, se sienten en el…",
       "ticketUrl": "https://boleteria.com.do/",
       "srcName": "Teatro Nacional",
       "srcUrl": "https://teatronacional.gob.do/events/despecho-el-concierto/",
@@ -1710,6 +1380,32 @@
         {
           "srcName": "Centro Cultural de España",
           "srcUrl": "https://ccesd.aecid.es/w/exposici%C3%B3n-1"
+        }
+      ]
+    },
+    {
+      "id": "67d35ca5849355b8",
+      "source": "ticketmax",
+      "date": "2026-10-20",
+      "end": null,
+      "sessions": null,
+      "title": "Elias Serulle - El Hijo del Pollero",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 1000,
+      "price_max": null,
+      "time": "20:00",
+      "kids": true,
+      "tags": [],
+      "description": "Este show es uno donde Elías celebra a su familia, de dónde viene y cómo han sido responsables de sus logros y sus traumas. Un show personal y para todo el mundo.",
+      "ticketUrl": "https://ticketmax.org/evento/900061/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900061/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900061/"
         }
       ]
     },
@@ -3170,6 +2866,35 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/266538/"
+        }
+      ]
+    },
+    {
+      "id": "0ca099dcd9a58634",
+      "source": "recurring",
+      "date": "2026-11-08",
+      "end": null,
+      "sessions": null,
+      "title": "Domingos de Bonyé",
+      "venue": "Ruinas de San Francisco, calle Hostos, Zona Colonial",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [
+        "cultura",
+        "serie"
+      ],
+      "description": "Música en vivo al aire libre con el grupo Bonyé: tambora, son, salsa y merengue.",
+      "ticketUrl": "",
+      "srcName": "SalsaVida",
+      "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-11-08",
+      "sources": [
+        {
+          "srcName": "SalsaVida",
+          "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-11-08"
         }
       ]
     },

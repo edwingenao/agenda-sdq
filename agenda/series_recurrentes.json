@@ -729,6 +729,34 @@
       "last_confirmed": "2026-10-07",
       "stale_after_days": 14,
       "notes": "Artsy no indica el año ni la dirección, el horario ni el precio: el año 2026 se deduce de que figura como muestra actual el 7 de octubre de 2026."
+    },
+    {
+      "id": "circuito-galerias-2026-10-15",
+      "title": "Circuito de Galerías 2026",
+      "active": true,
+      "pattern": { "freq": "dates", "dates": ["2026-10-15"] },
+      "start_time": "19:00",
+      "end_time": null,
+      "valid_from": null,
+      "valid_until": null,
+      "exceptions": [],
+      "venue": "Arawak Gallery",
+      "category": ["Arte"],
+      "price": { "status": "free" },
+      "description": "Noche en que galerías y espacios culturales abren sus puertas. Punto de partida: Arawak Gallery, a las 7:00 p. m. Hay que reservar cupo con la organización.",
+      "url": "https://www.instagram.com/agadominicana/",
+      "sources": [
+        {
+          "name": "Asociación de Galerías de Arte (@agadominicana, Instagram)",
+          "url": "https://www.instagram.com/agadominicana/",
+          "seen": "2026-10-12",
+          "says": "Save the date: jueves 15 de octubre, 7:00 PM, punto de partida Arawak Gallery; «totalmente gratis»; reservar cupo por teléfono o WhatsApp (los números están en el post). El circuito es el tercer jueves de cada mes, de agosto a diciembre"
+        }
+      ],
+      "confidence": "oficial",
+      "last_confirmed": "2026-10-12",
+      "stale_after_days": 14,
+      "notes": "Cargado desde una captura del post; falta el enlace exacto de la publicación. El texto del post dice «2025» pero la imagen dice 2026 (el 15 de oct cae jueves en 2026): se asumió error de redacción. No dice qué galerías participan ni la ciudad de Arawak Gallery (confirmar Santo Domingo). Próximas ediciones (19 nov y 17 dic) sin cargar hasta que anuncien lugar y hora."
     }
   ]
 }

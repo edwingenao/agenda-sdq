@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-11T16:27:48+00:00",
-  "today": "2026-10-11",
-  "count": 175,
+  "generated_at": "2026-10-12T19:58:55+00:00",
+  "today": "2026-10-12",
+  "count": 164,
   "events": [
     {
       "id": "5194c26d18d743f2",
@@ -154,34 +154,6 @@
       ]
     },
     {
-      "id": "22ff5ba43d2044cd",
-      "source": "recurring",
-      "date": "2026-10-09",
-      "end": "2026-10-11",
-      "sessions": null,
-      "title": "Liborio (teatro)",
-      "venue": "Teatro Guloya, Arzobispo Portes 205, Ciudad Colonial",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [
-        "serie"
-      ],
-      "description": "Obra de teatro sobre Liborio en el Teatro Guloya, del 9 al 11 de octubre.",
-      "ticketUrl": "",
-      "srcName": "Teatro Guloya, vía letstalkart.rd",
-      "srcUrl": "https://www.instagram.com/teatroguloya/#liborio-teatro-guloya-2026-10-hasta-2026-10-11",
-      "sources": [
-        {
-          "srcName": "Teatro Guloya, vía letstalkart.rd",
-          "srcUrl": "https://www.instagram.com/teatroguloya/#liborio-teatro-guloya-2026-10-hasta-2026-10-11"
-        }
-      ]
-    },
-    {
       "id": "9b2be05dad4c1a80",
       "source": "teatro_nacional",
       "date": "2026-10-09",
@@ -208,118 +180,9 @@
       ]
     },
     {
-      "id": "832b7aa81c7cab13",
-      "source": "tix",
-      "date": "2026-10-10",
-      "end": "2026-10-11",
-      "sessions": null,
-      "title": "Angels and Demons",
-      "venue": "Lucia SDQ",
-      "zone": "",
-      "cat": "Cultura",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Some nights bring out a different side of you. Angels & Demons — choose yours. 🖤 Saturday, Oct 10th. Vodka Open Bar all night. Tickets available — link in bio..",
-      "ticketUrl": "https://tix.do/event/AngelsandDemons-2",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/AngelsandDemons-2",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/AngelsandDemons-2"
-        }
-      ]
-    },
-    {
-      "id": "73538c4225a873b7",
-      "source": "tix",
-      "date": "2026-10-10",
-      "end": "2026-10-11",
-      "sessions": null,
-      "title": "ROMO + DOMINÓ = ROMINÓ - THE GREEN ROOM",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Cultura",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "CONSUMO MÍNIMO EN EL LOCAL DE 1,000 PESOS 🔞 Evento exclusivo para mayores de 18 años.",
-      "ticketUrl": "https://tix.do/event/ROMINO-2",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/ROMINO-2",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/ROMINO-2"
-        }
-      ]
-    },
-    {
-      "id": "99f9e52c60dea02d",
-      "source": "recurring",
-      "date": "2026-10-11",
-      "end": null,
-      "sessions": null,
-      "title": "6.º Festival de Canto Coral",
-      "venue": "Sala Manuel Rueda, Plaza Iberoamérica",
-      "zone": "",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [
-        "serie"
-      ],
-      "description": "Sexta edición del Festival de Canto Coral de Bellas Artes, el 10 y el 11 de octubre.",
-      "ticketUrl": "",
-      "srcName": "Bellas Artes, vía letstalkart.rd",
-      "srcUrl": "https://www.instagram.com/bellasartesrd/#festival-canto-coral-6-2026-10-2026-10-11",
-      "sources": [
-        {
-          "srcName": "Bellas Artes, vía letstalkart.rd",
-          "srcUrl": "https://www.instagram.com/bellasartesrd/#festival-canto-coral-6-2026-10-2026-10-11"
-        }
-      ]
-    },
-    {
-      "id": "4047e1cc5505264a",
-      "source": "recurring",
-      "date": "2026-10-11",
-      "end": null,
-      "sessions": null,
-      "title": "Alok: show de comedia",
-      "venue": "Hard Rock Cafe",
-      "zone": "",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [
-        "serie",
-        "confirmar"
-      ],
-      "description": "Show de comedia de Alok en Hard Rock Cafe.",
-      "ticketUrl": "",
-      "srcName": "Alok, vía letstalkart.rd",
-      "srcUrl": "https://www.instagram.com/alokvmenon/#alok-comedia-hard-rock-2026-10-11-2026-10-11",
-      "sources": [
-        {
-          "srcName": "Alok, vía letstalkart.rd",
-          "srcUrl": "https://www.instagram.com/alokvmenon/#alok-comedia-hard-rock-2026-10-11-2026-10-11"
-        }
-      ]
-    },
-    {
       "id": "f49f83e14404e7a9",
       "source": "recurring",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "end": "2026-10-15",
       "sessions": null,
       "title": "Entre muros y colores",
@@ -341,168 +204,6 @@
         {
           "srcName": "Galería 360, vía letstalkart.rd",
           "srcUrl": "https://www.instagram.com/galeria360/#entre-muros-y-colores-galeria-360-hasta-2026-10-15"
-        }
-      ]
-    },
-    {
-      "id": "0cb16b48fb7973ad",
-      "source": "teatro_nacional",
-      "date": "2026-10-11",
-      "end": null,
-      "sessions": null,
-      "title": "Luli Pampin",
-      "venue": "Sala Carlos Piantini, Teatro Nacional",
-      "zone": "Plaza de la Cultura",
-      "cat": "Música",
-      "price": 3425,
-      "price_max": 6610,
-      "time": "",
-      "kids": true,
-      "tags": [],
-      "description": "Luli Pampín llega a República Dominicana con “Bienvenidos, Juntos Otra Vez”, una experiencia llena de magia, canciones y diversión para disfrutar en familia con los pequeños.",
-      "ticketUrl": "https://boleteria.com.do/",
-      "srcName": "Teatro Nacional",
-      "srcUrl": "https://teatronacional.gob.do/events/luli-pampin/",
-      "sources": [
-        {
-          "srcName": "Teatro Nacional",
-          "srcUrl": "https://teatronacional.gob.do/events/luli-pampin/"
-        }
-      ]
-    },
-    {
-      "id": "308431cf172cd6fe",
-      "source": "recurring",
-      "date": "2026-10-11",
-      "end": null,
-      "sessions": null,
-      "title": "Techy: Chula (residencia)",
-      "venue": "Velvet Room",
-      "zone": "",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [
-        "serie",
-        "confirmar"
-      ],
-      "description": "Concierto de Techy de su residencia «Experiencia Chula» en Velvet Room. La guía lista el 4 y el 11 de octubre.",
-      "ticketUrl": "",
-      "srcName": "Techy, vía letstalkart.rd",
-      "srcUrl": "https://www.instagram.com/techy/#techy-chula-velvet-2026-10-11-2026-10-11",
-      "sources": [
-        {
-          "srcName": "Techy, vía letstalkart.rd",
-          "srcUrl": "https://www.instagram.com/techy/#techy-chula-velvet-2026-10-11-2026-10-11"
-        }
-      ]
-    },
-    {
-      "id": "109938a7fcbfd36c",
-      "source": "recurring",
-      "date": "2026-10-11",
-      "end": null,
-      "sessions": null,
-      "title": "Domingos de Bonyé",
-      "venue": "Ruinas de San Francisco, calle Hostos, Zona Colonial",
-      "zone": "Ciudad Colonial",
-      "cat": "Música",
-      "price": 0,
-      "price_max": null,
-      "time": "18:00",
-      "kids": false,
-      "tags": [
-        "cultura",
-        "serie"
-      ],
-      "description": "Música en vivo al aire libre con el grupo Bonyé: tambora, son, salsa y merengue.",
-      "ticketUrl": "",
-      "srcName": "SalsaVida",
-      "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-10-11",
-      "sources": [
-        {
-          "srcName": "SalsaVida",
-          "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-10-11"
-        }
-      ]
-    },
-    {
-      "id": "40fb93a54a8abbe9",
-      "source": "tix",
-      "date": "2026-10-11",
-      "end": null,
-      "sessions": null,
-      "title": "Festival de Teatro Joven",
-      "venue": "Teatro Las Máscaras",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "18:30",
-      "kids": false,
-      "tags": [],
-      "description": "Llega a la sala más acogedora de la Zona Colonial el ciclo Noches de Teatro Joven, un espacio vibrante presentado por el grupo Teatro Testarudo bajo la dirección de la talentosa actriz y comediante Aleja Johnson. Durante todo el mes de octubre, Teatro Las Máscaras abre sus tabla…",
-      "ticketUrl": "https://tix.do/event/FestivaldeTeatroJoven-2",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/FestivaldeTeatroJoven-2",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/FestivaldeTeatroJoven-2"
-        }
-      ]
-    },
-    {
-      "id": "0306e8998a63e734",
-      "source": "tix",
-      "date": "2026-10-11",
-      "end": null,
-      "sessions": null,
-      "title": "OPEN MIC - THE GREEN ROOM",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Cultura",
-      "price": null,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "Consumo minimo de 1,000 pesos en el local Evento para mayores de edad",
-      "ticketUrl": "https://tix.do/event/OPENMICTHEGREENROOM-13",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/OPENMICTHEGREENROOM-13",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/OPENMICTHEGREENROOM-13"
-        }
-      ]
-    },
-    {
-      "id": "82f432eccce388de",
-      "source": "tix",
-      "date": "2026-10-11",
-      "end": null,
-      "sessions": null,
-      "title": "ALOK: EAT PRAY LEAVE TOUR",
-      "venue": "Hard Rock Cafe Blue Mall",
-      "zone": "",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "21:30",
-      "kids": false,
-      "tags": [],
-      "description": "Internationally acclaimed comedian ALOK. A dark comedy about love, heartbreak, and the end times. Their therapist said stop dating projects, so they built one and are charging admission. A journey of self-discovery… and poor decision-making. With razor-sharp wit, ALOK dissects d…",
-      "ticketUrl": "https://tix.do/event/ALOKEATPRAYLEAVETOUR-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/ALOKEATPRAYLEAVETOUR-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/ALOKEATPRAYLEAVETOUR-1"
         }
       ]
     },
@@ -4071,7 +3772,7 @@
       "time": "21:00",
       "kids": false,
       "tags": [],
-      "description": "COMO TODO EMPEZÓ…25 AÑOS”. Acústicos como en los viejos tiempos, en la eterna Casa de Teatro, será una residencia en dicha casa con el fin de re-conectar en el Pavel de los inicios. Les contará la razón que se esconde tras cada canción, sus desvelos y aciertos, su guitarra en ma…",
+      "description": "Luego de su paso por Estados Unidos con su “Tu en vida Tour “, Pavel y el Corredor de la 27 regresan a RD con “Tu en mi vida SESSIONS” para una hermosa residencia melódica en Casa De teatro, los primeros 4 miércoles de diciembre. Hasta entonces la canción queda pausa, suspendida…",
       "ticketUrl": "https://tix.do/event/Pavel-19",
       "srcName": "TIX",
       "srcUrl": "https://tix.do/event/Pavel-19",

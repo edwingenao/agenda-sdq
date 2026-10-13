@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T19:58:55+00:00",
-  "today": "2026-10-12",
-  "count": 164,
+  "generated_at": "2026-10-13T17:45:58+00:00",
+  "today": "2026-10-13",
+  "count": 169,
   "events": [
     {
       "id": "5194c26d18d743f2",
@@ -180,9 +180,35 @@
       ]
     },
     {
+      "id": "5b121093f8be4cbe",
+      "source": "tix",
+      "date": "2026-10-13",
+      "end": "2026-10-31",
+      "sessions": null,
+      "title": "El Congreso Internacional de Armonización Facial 2026 — Arte · Ciencia · Regeneración",
+      "venue": "Villa Palmera Business Center",
+      "zone": "",
+      "cat": "Arte",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "El Congreso Internacional de Armonización Facial 2026 — Arte · Ciencia · Regeneración será un encuentro académico presencial dedicado a la actualización en armonización facial y medicina regenerativa. Reunirá conferencistas nacionales e internacionales para compartir conocimient…",
+      "ticketUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1"
+        }
+      ]
+    },
+    {
       "id": "f49f83e14404e7a9",
       "source": "recurring",
-      "date": "2026-10-12",
+      "date": "2026-10-13",
       "end": "2026-10-15",
       "sessions": null,
       "title": "Entre muros y colores",
@@ -1085,6 +1111,34 @@
       ]
     },
     {
+      "id": "52de12f607a3178a",
+      "source": "sic",
+      "date": "2026-10-20",
+      "end": null,
+      "sessions": null,
+      "title": "Taller \"Microfinanzas para Emprendedores Culturales\" para Emprendedores culturales, gestores y artistas",
+      "venue": "Auditoria Enriquillo Sanchez, Ministerio de Cultura",
+      "zone": "",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "09:30",
+      "kids": false,
+      "tags": [
+        "formacion"
+      ],
+      "description": "Taller",
+      "ticketUrl": "",
+      "srcName": "Ministerio de Cultura (SIC)",
+      "srcUrl": "https://sic.cultura.gob.do/agenda/evento/37",
+      "sources": [
+        {
+          "srcName": "Ministerio de Cultura (SIC)",
+          "srcUrl": "https://sic.cultura.gob.do/agenda/evento/37"
+        }
+      ]
+    },
+    {
       "id": "67d35ca5849355b8",
       "source": "ticketmax",
       "date": "2026-10-20",
@@ -1185,6 +1239,62 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/COMEDYSHOWCASETHEGREENROOM-10"
+        }
+      ]
+    },
+    {
+      "id": "e1648d2ec4936d74",
+      "source": "sic",
+      "date": "2026-10-22",
+      "end": null,
+      "sessions": null,
+      "title": "Metodologias y modelos de negocio para emprendimientos culturales para emprendedores culturales, gestores y artistas.",
+      "venue": "Auditoria Enriquillo Sanchez, Ministerio de Cultura",
+      "zone": "",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "09:30",
+      "kids": false,
+      "tags": [
+        "formacion"
+      ],
+      "description": "Taller",
+      "ticketUrl": "",
+      "srcName": "Ministerio de Cultura (SIC)",
+      "srcUrl": "https://sic.cultura.gob.do/agenda/evento/39",
+      "sources": [
+        {
+          "srcName": "Ministerio de Cultura (SIC)",
+          "srcUrl": "https://sic.cultura.gob.do/agenda/evento/39"
+        }
+      ]
+    },
+    {
+      "id": "99a88ea7eccf2d87",
+      "source": "sic",
+      "date": "2026-10-22",
+      "end": null,
+      "sessions": null,
+      "title": "Taller \"Marketing Digital y Gestion de Redes Sociales para Emprendedores Culturales, Artistas y Gestores\"",
+      "venue": "Hotel Dominican Fiesta",
+      "zone": "Mirador Sur",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "14:00",
+      "kids": false,
+      "tags": [
+        "formacion"
+      ],
+      "description": "Taller",
+      "ticketUrl": "",
+      "srcName": "Ministerio de Cultura (SIC)",
+      "srcUrl": "https://sic.cultura.gob.do/agenda/evento/38",
+      "sources": [
+        {
+          "srcName": "Ministerio de Cultura (SIC)",
+          "srcUrl": "https://sic.cultura.gob.do/agenda/evento/38"
         }
       ]
     },
@@ -1590,6 +1700,34 @@
       ]
     },
     {
+      "id": "be763d4ac5f90f10",
+      "source": "sic",
+      "date": "2026-10-27",
+      "end": null,
+      "sessions": null,
+      "title": "Ciclo de Talleres para Emprendedores Culturales",
+      "venue": "Auditorio Enriquillo Sanchez, Ministerio de Cultura",
+      "zone": "",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "09:00",
+      "kids": false,
+      "tags": [
+        "formacion"
+      ],
+      "description": "Taller",
+      "ticketUrl": "",
+      "srcName": "Ministerio de Cultura (SIC)",
+      "srcUrl": "https://sic.cultura.gob.do/agenda/evento/40",
+      "sources": [
+        {
+          "srcName": "Ministerio de Cultura (SIC)",
+          "srcUrl": "https://sic.cultura.gob.do/agenda/evento/40"
+        }
+      ]
+    },
+    {
       "id": "9f24add90b8d8aa6",
       "source": "tix",
       "date": "2026-10-27",
@@ -1904,32 +2042,6 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/HOUSEOFSHADOWS-1"
-        }
-      ]
-    },
-    {
-      "id": "5b121093f8be4cbe",
-      "source": "tix",
-      "date": "2026-10-30",
-      "end": null,
-      "sessions": null,
-      "title": "El Congreso Internacional de Armonización Facial 2026 — Arte · Ciencia · Regeneración",
-      "venue": "Villa Palmera Business Center",
-      "zone": "",
-      "cat": "Arte",
-      "price": null,
-      "price_max": null,
-      "time": "08:00",
-      "kids": false,
-      "tags": [],
-      "description": "El Congreso Internacional de Armonización Facial 2026 — Arte · Ciencia · Regeneración será un encuentro académico presencial dedicado a la actualización en armonización facial y medicina regenerativa. Reunirá conferencistas nacionales e internacionales para compartir conocimient…",
-      "ticketUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1"
         }
       ]
     },
@@ -4352,6 +4464,32 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/medea/"
+        }
+      ]
+    },
+    {
+      "id": "cfb6cd196872aecd",
+      "source": "ticketmax",
+      "date": "2027-03-10",
+      "end": null,
+      "sessions": null,
+      "title": "DALIA GUTMANN. NO ME CALMO NADA",
+      "venue": "Auditorio Pabellón de la Fama",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 3365,
+      "price_max": 5047,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://ticketmax.org/evento/900065/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900065/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900065/"
         }
       ]
     }

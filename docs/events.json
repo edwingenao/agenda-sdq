@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-13T17:45:58+00:00",
-  "today": "2026-10-13",
-  "count": 169,
+  "generated_at": "2026-10-14T15:20:24+00:00",
+  "today": "2026-10-14",
+  "count": 171,
   "events": [
     {
       "id": "5194c26d18d743f2",
@@ -182,7 +182,7 @@
     {
       "id": "5b121093f8be4cbe",
       "source": "tix",
-      "date": "2026-10-13",
+      "date": "2026-10-14",
       "end": "2026-10-31",
       "sessions": null,
       "title": "El Congreso Internacional de Armonización Facial 2026 — Arte · Ciencia · Regeneración",
@@ -208,7 +208,7 @@
     {
       "id": "f49f83e14404e7a9",
       "source": "recurring",
-      "date": "2026-10-13",
+      "date": "2026-10-14",
       "end": "2026-10-15",
       "sessions": null,
       "title": "Entre muros y colores",
@@ -230,32 +230,6 @@
         {
           "srcName": "Galería 360, vía letstalkart.rd",
           "srcUrl": "https://www.instagram.com/galeria360/#entre-muros-y-colores-galeria-360-hasta-2026-10-15"
-        }
-      ]
-    },
-    {
-      "id": "1619c5f6ee9cc15b",
-      "source": "tix",
-      "date": "2026-10-13",
-      "end": null,
-      "sessions": null,
-      "title": "Se juntaron estos 3",
-      "venue": "Local 3 : Calle Max. Herriquez Ureña 33",
-      "zone": "",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "21:00",
-      "kids": false,
-      "tags": [],
-      "description": "Comedia Local presenta: Se Juntaron Estos Tres Armando, Demailyn y Maxwell Johnson se juntan en un mismo escenario para hacer lo que mejor saben: hacer reír. Tres comediantes, tres estilos y una noche de stand-up con historias, opiniones y situaciones que seguramente no deberían…",
-      "ticketUrl": "https://tix.do/event/Sejuntaronestos3-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/Sejuntaronestos3-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/Sejuntaronestos3-1"
         }
       ]
     },
@@ -282,6 +256,32 @@
         {
           "srcName": "Centro Cultural de España",
           "srcUrl": "https://ccesd.aecid.es/w/la-construcci%C3%B3n-narrativa-de-la-novela-el-narrador-el-narratario-y-los-personajes"
+        }
+      ]
+    },
+    {
+      "id": "e4d46bd35fb91264",
+      "source": "tix",
+      "date": "2026-10-14",
+      "end": null,
+      "sessions": null,
+      "title": "Pabellon de la fama",
+      "venue": "Pabellon de la Fama",
+      "zone": "",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "18:52",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://tix.do/event/Pabellondelafama-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/Pabellondelafama-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/Pabellondelafama-1"
         }
       ]
     },
@@ -452,32 +452,6 @@
       ]
     },
     {
-      "id": "034f428f3edb0088",
-      "source": "ticketmax",
-      "date": "2026-10-15",
-      "end": null,
-      "sessions": null,
-      "title": "Open Mic Unplugged | Voices Unleashed: Marena",
-      "venue": "Jardin Secreto",
-      "zone": "",
-      "cat": "Arte",
-      "price": 800,
-      "price_max": 1100,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "VOICES UNLEASHED — OPEN MIC UNPLUGGED · OCTUBRE Jueves 15 de octubre · 7:00 PM 📍 El Jardín Secreto Una noche para encontrarnos alrededor de la expresión artística, la palabra y la música. Un espacio abierto para poetas, escritores, músicos, artistas y personas creativas que quie…",
-      "ticketUrl": "https://ticketmax.org/evento/900042/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900042/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900042/"
-        }
-      ]
-    },
-    {
       "id": "6a9d4f03c2f560a2",
       "source": "tix",
       "date": "2026-10-15",
@@ -500,6 +474,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/Confesadas-1"
+        }
+      ]
+    },
+    {
+      "id": "6b12f0690b1740da",
+      "source": "ticketmax",
+      "date": "2026-10-15",
+      "end": null,
+      "sessions": null,
+      "title": "EL QUINCENAZO : 5 COMEDIANTES",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 499,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "EL QUINCENAZO Un show pa’ que te rinda la quincena. ¡La quincena también tiene que alcanzar pa’ reírse! 😂 Este jueves, Starlyn Ramirez, Daniel Colón, Randy Medina, Boadil Jones y Michael Penton se juntan en Velvet Room para una noche de stand-up con cinco estilos de humor en un…",
+      "ticketUrl": "https://ticketmax.org/evento/900079/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900079/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900079/"
         }
       ]
     },
@@ -1888,6 +1888,32 @@
       ]
     },
     {
+      "id": "034f428f3edb0088",
+      "source": "ticketmax",
+      "date": "2026-10-29",
+      "end": null,
+      "sessions": null,
+      "title": "Open Mic Unplugged | Voices Unleashed: Marena Live Music",
+      "venue": "Jardin Secreto",
+      "zone": "",
+      "cat": "Arte",
+      "price": 800,
+      "price_max": 1100,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "OPEN MIC UNPLUGGED · OCTUBRE Jueves 29 de octubre · 7:00 PM 📍 El Jardín Secreto Una noche para encontrarnos alrededor de la expresión artística, la palabra y la música. Un espacio abierto para poetas, escritores, músicos, artistas y personas creativas que quieran compartir su vo…",
+      "ticketUrl": "https://ticketmax.org/evento/900042/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900042/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900042/"
+        }
+      ]
+    },
+    {
       "id": "8a2eae4976846e45",
       "source": "tix",
       "date": "2026-10-29",
@@ -3238,6 +3264,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/ForoEconomicoelDinero2026-1"
+        }
+      ]
+    },
+    {
+      "id": "a7cd56ebd72c2361",
+      "source": "tix",
+      "date": "2026-11-17",
+      "end": null,
+      "sessions": null,
+      "title": "El Tomatazo",
+      "venue": "Local 3 : Calle Max. Herriquez Ureña 33",
+      "zone": "",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "21:00",
+      "kids": false,
+      "tags": [],
+      "description": "EL TOMATAZO 🍅: Open Mic diferente Un open mic donde los comediantes prueban chistes nuevos… y el público puede tirar tomates si el chiste no le gusta. Caos, adrenalina y humor en su punto exacto: si no funciona, ¡vuela un tomate!",
+      "ticketUrl": "https://tix.do/event/ElTomatazo-12",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/ElTomatazo-12",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/ElTomatazo-12"
         }
       ]
     },

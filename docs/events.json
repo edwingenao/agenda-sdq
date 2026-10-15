@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-14T15:20:24+00:00",
-  "today": "2026-10-14",
-  "count": 171,
+  "generated_at": "2026-10-15T15:12:49+00:00",
+  "today": "2026-10-15",
+  "count": 170,
   "events": [
     {
       "id": "5194c26d18d743f2",
@@ -121,39 +121,6 @@
       ]
     },
     {
-      "id": "b9dcbcf89fa21ff0",
-      "source": "cce",
-      "date": "2026-10-07",
-      "end": "2026-10-14",
-      "sessions": [
-        "2026-10-07",
-        "2026-10-08",
-        "2026-10-09",
-        "2026-10-14"
-      ],
-      "title": "Lo trágico-psicológico en la cuentística de Virgilio Díaz Grullón",
-      "venue": "Centro Cultural de España",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": null,
-      "price_max": null,
-      "time": "21:00",
-      "kids": false,
-      "tags": [
-        "formacion"
-      ],
-      "description": "Inscríbete antes del viernes 2 de octubrerellenando este formulario con tus datosEn este taller, se explorarán la dimensión trágica, la representación psicológica y las tipologías de la muerte a través del análisis de la narrativa breve del escritor dominicano Virgilio Díaz Grull",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/lo-tr%C3%A1gico-psicol%C3%B3gico-en-la-cuent%C3%ADstica-de-virgilio-d%C3%ADaz-grull%C3%B3n",
-      "sources": [
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/lo-tr%C3%A1gico-psicol%C3%B3gico-en-la-cuent%C3%ADstica-de-virgilio-d%C3%ADaz-grull%C3%B3n"
-        }
-      ]
-    },
-    {
       "id": "9b2be05dad4c1a80",
       "source": "teatro_nacional",
       "date": "2026-10-09",
@@ -176,164 +143,6 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/rojo/"
-        }
-      ]
-    },
-    {
-      "id": "5b121093f8be4cbe",
-      "source": "tix",
-      "date": "2026-10-14",
-      "end": "2026-10-31",
-      "sessions": null,
-      "title": "El Congreso Internacional de Armonización Facial 2026 — Arte · Ciencia · Regeneración",
-      "venue": "Villa Palmera Business Center",
-      "zone": "",
-      "cat": "Arte",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "El Congreso Internacional de Armonización Facial 2026 — Arte · Ciencia · Regeneración será un encuentro académico presencial dedicado a la actualización en armonización facial y medicina regenerativa. Reunirá conferencistas nacionales e internacionales para compartir conocimient…",
-      "ticketUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1"
-        }
-      ]
-    },
-    {
-      "id": "f49f83e14404e7a9",
-      "source": "recurring",
-      "date": "2026-10-14",
-      "end": "2026-10-15",
-      "sessions": null,
-      "title": "Entre muros y colores",
-      "venue": "Galería 360",
-      "zone": "",
-      "cat": "Arte",
-      "price": 0,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [
-        "serie"
-      ],
-      "description": "Exposición en Galería 360, abierta hasta el 15 de octubre.",
-      "ticketUrl": "",
-      "srcName": "Galería 360, vía letstalkart.rd",
-      "srcUrl": "https://www.instagram.com/galeria360/#entre-muros-y-colores-galeria-360-hasta-2026-10-15",
-      "sources": [
-        {
-          "srcName": "Galería 360, vía letstalkart.rd",
-          "srcUrl": "https://www.instagram.com/galeria360/#entre-muros-y-colores-galeria-360-hasta-2026-10-15"
-        }
-      ]
-    },
-    {
-      "id": "80dad4549df0897c",
-      "source": "cce",
-      "date": "2026-10-14",
-      "end": null,
-      "sessions": null,
-      "title": "La construcción narrativa de la novela: El narrador, el narratario y los personajes",
-      "venue": "Centro Cultural de España",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Un taller práctico a partir de El montero, de Pedro Francisco BonóImparte Pedro Antonio ValdezDirigido a todo públicoInscríbete antes del viernes 14 de octubrerellenando este formulario con tus datosEntrada libre hasta completar aforoIntroducir a los participantes en conceptos fu",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/la-construcci%C3%B3n-narrativa-de-la-novela-el-narrador-el-narratario-y-los-personajes",
-      "sources": [
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/la-construcci%C3%B3n-narrativa-de-la-novela-el-narrador-el-narratario-y-los-personajes"
-        }
-      ]
-    },
-    {
-      "id": "e4d46bd35fb91264",
-      "source": "tix",
-      "date": "2026-10-14",
-      "end": null,
-      "sessions": null,
-      "title": "Pabellon de la fama",
-      "venue": "Pabellon de la Fama",
-      "zone": "",
-      "cat": "Cultura",
-      "price": null,
-      "price_max": null,
-      "time": "18:52",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "https://tix.do/event/Pabellondelafama-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/Pabellondelafama-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/Pabellondelafama-1"
-        }
-      ]
-    },
-    {
-      "id": "74e80e627c1380c5",
-      "source": "tix",
-      "date": "2026-10-14",
-      "end": null,
-      "sessions": null,
-      "title": "Carlos Sánchez en The Green Room",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "20:30",
-      "kids": false,
-      "tags": [],
-      "description": "Carlos está armando este nuevo concepto. Carlos les cuenta sus últimos anécdotas y chismes, el público le cuenta a Carlos sus chismes. Quien sabe si hasta terminamos cantando todos al final. Es decir: una cura. Para reservaciones de mesas llamar al 809 -740-4601 The Green Room.…",
-      "ticketUrl": "https://tix.do/event/CarlosSanchezenTheGreenRoom-4",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/CarlosSanchezenTheGreenRoom-4",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/CarlosSanchezenTheGreenRoom-4"
-        }
-      ]
-    },
-    {
-      "id": "6205d6eac274e3db",
-      "source": "tix",
-      "date": "2026-10-14",
-      "end": null,
-      "sessions": null,
-      "title": "El debate : La unión de la Isla",
-      "venue": "Local 3 : Calle Max. Herriquez Ureña 33",
-      "zone": "",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "21:00",
-      "kids": false,
-      "tags": [],
-      "description": "El Debate RESEÑA – La unión de la isla ¿Y si Haití y República Dominicana fueran una sola nación? En La unión de la isla, varios comediantes se enfrentan en un debate sobre una de las preguntas más polémicas que se pueden hacer en esta isla: ¿deberían Haití y República Dominican…",
-      "ticketUrl": "https://tix.do/event/EldebateLauniondelaIsla-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/EldebateLauniondelaIsla-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/EldebateLauniondelaIsla-1"
         }
       ]
     },
@@ -366,6 +175,60 @@
         {
           "srcName": "Centro Cultural de España",
           "srcUrl": "https://ccesd.aecid.es/w/hablar-con-el-paisaje-la-video-poes%C3%ADa-como-forma-de-atenci%C3%B3n"
+        }
+      ]
+    },
+    {
+      "id": "5b121093f8be4cbe",
+      "source": "tix",
+      "date": "2026-10-15",
+      "end": "2026-10-31",
+      "sessions": null,
+      "title": "El Congreso Internacional de Armonización Facial 2026 — Arte · Ciencia · Regeneración",
+      "venue": "Villa Palmera Business Center",
+      "zone": "",
+      "cat": "Arte",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "El Congreso Internacional de Armonización Facial 2026 — Arte · Ciencia · Regeneración será un encuentro académico presencial dedicado a la actualización en armonización facial y medicina regenerativa. Reunirá conferencistas nacionales e internacionales para compartir conocimient…",
+      "ticketUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1"
+        }
+      ]
+    },
+    {
+      "id": "f49f83e14404e7a9",
+      "source": "recurring",
+      "date": "2026-10-15",
+      "end": null,
+      "sessions": null,
+      "title": "Entre muros y colores",
+      "venue": "Galería 360",
+      "zone": "",
+      "cat": "Arte",
+      "price": 0,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [
+        "serie"
+      ],
+      "description": "Exposición en Galería 360, abierta hasta el 15 de octubre.",
+      "ticketUrl": "",
+      "srcName": "Galería 360, vía letstalkart.rd",
+      "srcUrl": "https://www.instagram.com/galeria360/#entre-muros-y-colores-galeria-360-hasta-2026-10-15",
+      "sources": [
+        {
+          "srcName": "Galería 360, vía letstalkart.rd",
+          "srcUrl": "https://www.instagram.com/galeria360/#entre-muros-y-colores-galeria-360-hasta-2026-10-15"
         }
       ]
     },
@@ -1030,6 +893,32 @@
       ]
     },
     {
+      "id": "7d00aa7dcbbebbc3",
+      "source": "tix",
+      "date": "2026-10-18",
+      "end": "2026-10-19",
+      "sessions": null,
+      "title": "MATINE DE SALSA - THE GREEN ROOM",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://tix.do/event/MATINEDESALSATHEGREENROOM-12",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/MATINEDESALSATHEGREENROOM-12",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/MATINEDESALSATHEGREENROOM-12"
+        }
+      ]
+    },
+    {
       "id": "75a5b087d068c54f",
       "source": "tix",
       "date": "2026-10-18",
@@ -1239,6 +1128,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/COMEDYSHOWCASETHEGREENROOM-10"
+        }
+      ]
+    },
+    {
+      "id": "7710fcf90cf7dd7f",
+      "source": "tix",
+      "date": "2026-10-21",
+      "end": null,
+      "sessions": null,
+      "title": "COMEDY SHOWCASE - THE GREEN ROOM",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "21:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://tix.do/event/COMEDYSHOWCASETHEGREENROOM-11",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/COMEDYSHOWCASETHEGREENROOM-11",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/COMEDYSHOWCASETHEGREENROOM-11"
         }
       ]
     },
@@ -2697,7 +2612,7 @@
       "time": "14:00",
       "kids": true,
       "tags": [],
-      "description": "¡La aventura más divertida llega a Santo Domingo! 🎉 Prepárate para vivir una experiencia llena de alegría, música y diversión junto a La Granja de Zenón en una emocionante aventura: “La Búsqueda del Tesoro”. 🗺️✨ Zenón y sus queridos personajes te esperan para compartir con toda…",
+      "description": "🎉 ¡La aventura más divertida llega a Santo Domingo! 🐷🌾 Prepárate para vivir una experiencia llena de alegría, música y diversión junto a La Granja de Zenón y su emocionante espectáculo “La Búsqueda del Tesoro”. 🗺️✨ Zenón y sus queridos personajes te esperan para disfrutar de una…",
       "ticketUrl": "https://ticketmax.org/evento/266538/",
       "srcName": "Ticketmax",
       "srcUrl": "https://ticketmax.org/evento/266538/",
@@ -2786,6 +2701,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/253727/"
+        }
+      ]
+    },
+    {
+      "id": "209fce1fa948677b",
+      "source": "tix",
+      "date": "2026-11-10",
+      "end": null,
+      "sessions": null,
+      "title": "Sex Education",
+      "venue": "Local 3 : Calle Max. Herriquez Ureña 33",
+      "zone": "",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "21:00",
+      "kids": false,
+      "tags": [],
+      "description": "Sex Educación Wellington Ledesma y Begoña Guillén traen un show de stand-up sin tabúes, donde de sexo se habla claro, se ríe fuerte y hasta se aprende algo (sí, en serio). Con una sexóloga invitada en escena, las preguntas incómodas están garantizadas. Risas, cero censura y educ…",
+      "ticketUrl": "https://tix.do/event/SexEducation-2",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/SexEducation-2",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/SexEducation-2"
         }
       ]
     },
@@ -3630,6 +3571,32 @@
         {
           "srcName": "Ministerio de Cultura (SIC)",
           "srcUrl": "https://sic.cultura.gob.do/agenda/evento/35"
+        }
+      ]
+    },
+    {
+      "id": "8c97a8a9493e3c65",
+      "source": "tix",
+      "date": "2026-11-24",
+      "end": null,
+      "sessions": null,
+      "title": "Otakus",
+      "venue": "Local 3 : Calle Max. Herriquez Ureña 33",
+      "zone": "",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "21:00",
+      "kids": false,
+      "tags": [],
+      "description": "Comedia Local presenta: Otakus & Geeks Randy Medina, Blaz y Sebastián llegan con un show de comedia para hablar de anime, videojuegos, cómics, películas y todas esas obsesiones que hacen de la cultura geek un mundo aparte. Tres comediantes, muchas referencias y cero vergüenza ge…",
+      "ticketUrl": "https://tix.do/event/Otakus-2",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/Otakus-2",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/Otakus-2"
         }
       ]
     },

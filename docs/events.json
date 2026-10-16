@@ -1,36 +1,8 @@
 {
-  "generated_at": "2026-10-15T15:12:49+00:00",
-  "today": "2026-10-15",
-  "count": 170,
+  "generated_at": "2026-10-16T15:01:15+00:00",
+  "today": "2026-10-16",
+  "count": 164,
   "events": [
-    {
-      "id": "5194c26d18d743f2",
-      "source": "recurring",
-      "date": "2026-09-03",
-      "end": "2026-10-15",
-      "sessions": null,
-      "title": "Interconexión (ASR Galería)",
-      "venue": "ASR Galería",
-      "zone": "",
-      "cat": "Arte",
-      "price": 0,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [
-        "serie"
-      ],
-      "description": "Muestra en ASR Galería, abierta hasta el 15 de octubre.",
-      "ticketUrl": "",
-      "srcName": "Artsy, muestras de Santo Domingo",
-      "srcUrl": "https://www.artsy.net/shows/santo-domingo-dominican-republic#asr-interconexion-2026-hasta-2026-10-15",
-      "sources": [
-        {
-          "srcName": "Artsy, muestras de Santo Domingo",
-          "srcUrl": "https://www.artsy.net/shows/santo-domingo-dominican-republic#asr-interconexion-2026-hasta-2026-10-15"
-        }
-      ]
-    },
     {
       "id": "f2552473b9737908",
       "source": "recurring",
@@ -179,60 +151,6 @@
       ]
     },
     {
-      "id": "5b121093f8be4cbe",
-      "source": "tix",
-      "date": "2026-10-15",
-      "end": "2026-10-31",
-      "sessions": null,
-      "title": "El Congreso Internacional de Armonización Facial 2026 — Arte · Ciencia · Regeneración",
-      "venue": "Villa Palmera Business Center",
-      "zone": "",
-      "cat": "Arte",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "El Congreso Internacional de Armonización Facial 2026 — Arte · Ciencia · Regeneración será un encuentro académico presencial dedicado a la actualización en armonización facial y medicina regenerativa. Reunirá conferencistas nacionales e internacionales para compartir conocimient…",
-      "ticketUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1"
-        }
-      ]
-    },
-    {
-      "id": "f49f83e14404e7a9",
-      "source": "recurring",
-      "date": "2026-10-15",
-      "end": null,
-      "sessions": null,
-      "title": "Entre muros y colores",
-      "venue": "Galería 360",
-      "zone": "",
-      "cat": "Arte",
-      "price": 0,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [
-        "serie"
-      ],
-      "description": "Exposición en Galería 360, abierta hasta el 15 de octubre.",
-      "ticketUrl": "",
-      "srcName": "Galería 360, vía letstalkart.rd",
-      "srcUrl": "https://www.instagram.com/galeria360/#entre-muros-y-colores-galeria-360-hasta-2026-10-15",
-      "sources": [
-        {
-          "srcName": "Galería 360, vía letstalkart.rd",
-          "srcUrl": "https://www.instagram.com/galeria360/#entre-muros-y-colores-galeria-360-hasta-2026-10-15"
-        }
-      ]
-    },
-    {
       "id": "d7651f468626585b",
       "source": "recurring",
       "date": "2026-10-15",
@@ -257,164 +175,6 @@
         {
           "srcName": "Lyle O. Reitzel en Artsy",
           "srcUrl": "https://www.artsy.net/show/lyle-o-reitzel-the-dominican-dream#gerard-ellis-dominican-dream-muestra-hasta-2026-11-13"
-        }
-      ]
-    },
-    {
-      "id": "c95c719117f4245a",
-      "source": "tix",
-      "date": "2026-10-15",
-      "end": null,
-      "sessions": null,
-      "title": "ADEIMO RADAR FORUM",
-      "venue": "Pabellon de la Fama del Deporte Dominicano",
-      "zone": "",
-      "cat": "Cultura",
-      "price": null,
-      "price_max": null,
-      "time": "08:30",
-      "kids": false,
-      "tags": [],
-      "description": "Sobre el evento 1er Congreso de Investigación de Mercados Profesional en la Republica Dominicana. Este congreso nace con el objetivo de reunir a los principales actores de la industria, incluyendo corporativos, agencias publicitarias, consultoras de investigación y representante…",
-      "ticketUrl": "https://tix.do/event/ADEIMORADARFORUM-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/ADEIMORADARFORUM-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/ADEIMORADARFORUM-1"
-        }
-      ]
-    },
-    {
-      "id": "af6cf5c8ccbe2ca7",
-      "source": "recurring",
-      "date": "2026-10-15",
-      "end": null,
-      "sessions": null,
-      "title": "Gerard Ellis: The Dominican Dream (inauguración)",
-      "venue": "Lyle O. Reitzel Arte Contemporáneo, Torre Piantini (Av. Gustavo Mejía Ricart 196, Piantini)",
-      "zone": "Piantini",
-      "cat": "Arte",
-      "price": 0,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [
-        "serie"
-      ],
-      "description": "Inauguración de 7:00 a 10:00 p. m. del nuevo solo show de Gerard Ellis, que parte del béisbol y de los peloteros dominicanos. La exposición sigue abierta hasta el 13 de noviembre.",
-      "ticketUrl": "",
-      "srcName": "Lyle O. Reitzel en Artsy",
-      "srcUrl": "https://www.artsy.net/show/lyle-o-reitzel-the-dominican-dream#gerard-ellis-dominican-dream-inauguracion-2026-10-15",
-      "sources": [
-        {
-          "srcName": "Lyle O. Reitzel en Artsy",
-          "srcUrl": "https://www.artsy.net/show/lyle-o-reitzel-the-dominican-dream#gerard-ellis-dominican-dream-inauguracion-2026-10-15"
-        }
-      ]
-    },
-    {
-      "id": "6a9d4f03c2f560a2",
-      "source": "tix",
-      "date": "2026-10-15",
-      "end": null,
-      "sessions": null,
-      "title": "Confesadas",
-      "venue": "Local 3 : Calle Max. Herriquez Ureña 33",
-      "zone": "",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [],
-      "description": "Comedia Local Presenta : Confesadas Laura Nanita, Débora Fuentes y Begoña Guillén se suben al escenario para hablar de esas cosas que las mujeres pensamos, vivimos y comentamos… pero no siempre decimos en voz alta. Relaciones, sexo, hombres, inseguridades, situaciones incómodas,…",
-      "ticketUrl": "https://tix.do/event/Confesadas-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/Confesadas-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/Confesadas-1"
-        }
-      ]
-    },
-    {
-      "id": "6b12f0690b1740da",
-      "source": "ticketmax",
-      "date": "2026-10-15",
-      "end": null,
-      "sessions": null,
-      "title": "EL QUINCENAZO : 5 COMEDIANTES",
-      "venue": "Velvet Room",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 499,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [],
-      "description": "EL QUINCENAZO Un show pa’ que te rinda la quincena. ¡La quincena también tiene que alcanzar pa’ reírse! 😂 Este jueves, Starlyn Ramirez, Daniel Colón, Randy Medina, Boadil Jones y Michael Penton se juntan en Velvet Room para una noche de stand-up con cinco estilos de humor en un…",
-      "ticketUrl": "https://ticketmax.org/evento/900079/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900079/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900079/"
-        }
-      ]
-    },
-    {
-      "id": "1585c92f7c7765ac",
-      "source": "ticketmax",
-      "date": "2026-10-15",
-      "end": null,
-      "sessions": null,
-      "title": "SIMON OLANO: ENTRE RECUERDOS Y CANCIONES",
-      "venue": "Escenario 360",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 2500,
-      "price_max": 3500,
-      "time": "21:00",
-      "kids": true,
-      "tags": [],
-      "description": "&gt; ¡MIS OJOS LINDOS LLEGA A SU CASA! 🇩🇴 &gt; Después de cantarnos \"Te Busco\", Simón Olano vuelve a Galería 360 por petición de su familia dominicana. &gt; Noche íntima, boleros que nos abrazan, y el Meet &amp; Greet con su familia oficial. &gt; 15 de Octubre - 9:00 PM - Escena…",
-      "ticketUrl": "https://ticketmax.org/evento/251113/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/251113/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/251113/"
-        }
-      ]
-    },
-    {
-      "id": "0d9016aa54ce292d",
-      "source": "tix",
-      "date": "2026-10-15",
-      "end": null,
-      "sessions": null,
-      "title": "JAZZ NIGHT - THE GREEN ROOM",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "21:30",
-      "kids": false,
-      "tags": [],
-      "description": "Consumo minimo de 1,000 pesos en el local Evento para mayores de edad",
-      "ticketUrl": "https://tix.do/event/JAZZNIGHTTHEGREENROOM-19",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/JAZZNIGHTTHEGREENROOM-19",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/JAZZNIGHTTHEGREENROOM-19"
         }
       ]
     },
@@ -1903,6 +1663,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/NachoRedondoTerapiadeGrupo945PM-3"
+        }
+      ]
+    },
+    {
+      "id": "5b121093f8be4cbe",
+      "source": "tix",
+      "date": "2026-10-30",
+      "end": "2026-10-31",
+      "sessions": null,
+      "title": "El Congreso Internacional de Armonización Facial 2026 — Arte · Ciencia · Regeneración",
+      "venue": "Villa Palmera Business Center",
+      "zone": "",
+      "cat": "Arte",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "El Congreso Internacional de Armonización Facial 2026 — Arte · Ciencia · Regeneración será un encuentro académico presencial dedicado a la actualización en armonización facial y medicina regenerativa. Reunirá conferencistas nacionales e internacionales para compartir conocimient…",
+      "ticketUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1"
         }
       ]
     },
@@ -3993,6 +3779,32 @@
       ]
     },
     {
+      "id": "37be24b203cc76df",
+      "source": "tix",
+      "date": "2026-12-05",
+      "end": "2026-12-06",
+      "sessions": null,
+      "title": "Mohikaa & Friends",
+      "venue": "Cielo SDQ",
+      "zone": "",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Party oficial para recibir la época navideña! Mohikaa & Friends powered by Caribbean Cure 🌀 Headliner: Mohikaa 🕺🏽 Opening DJ: Sussette Marie ✨ Location📍: Cielo Room",
+      "ticketUrl": "https://tix.do/event/MohikaaandFriends-6",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/MohikaaandFriends-6",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/MohikaaandFriends-6"
+        }
+      ]
+    },
+    {
       "id": "cf31168b2d24e6c2",
       "source": "tix",
       "date": "2026-12-05",
@@ -4483,6 +4295,34 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/medea/"
+        }
+      ]
+    },
+    {
+      "id": "9ada2b558527cfde",
+      "source": "ticketmax",
+      "date": "2027-03-06",
+      "end": null,
+      "sessions": null,
+      "title": "MI HIJA ES ASTRONAUTA. DEL LIBRO AL ESCENARIO DE CLAUDIA VALDES",
+      "venue": "Escenario 360",
+      "zone": "",
+      "cat": "Cultura",
+      "price": 2100,
+      "price_max": 2900,
+      "time": "20:30",
+      "kids": false,
+      "tags": [
+        "formacion"
+      ],
+      "description": "🚀✨ MI HIJA ES ASTRONAUTA: DEL LIBRO AL ESCENARIO 🌌 No es solo la historia de una madre y su hija. Es la historia de todos los que, alguna vez, hemos tenido que enfrentarnos a lo inesperado y encontrar fuerza donde creíamos que no la había. ❤️ En este espectáculo inspirado en su…",
+      "ticketUrl": "https://ticketmax.org/evento/900092/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900092/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900092/"
         }
       ]
     },

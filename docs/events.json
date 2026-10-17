@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-16T15:01:15+00:00",
-  "today": "2026-10-16",
+  "generated_at": "2026-10-17T13:55:08+00:00",
+  "today": "2026-10-17",
   "count": 164,
   "events": [
     {
@@ -181,7 +181,7 @@
     {
       "id": "26907825d03cb673",
       "source": "tix",
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "end": "2026-10-18",
       "sessions": null,
       "title": "Festival de Teatro Joven",
@@ -201,168 +201,6 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/FestivaldeTeatroJoven-3"
-        }
-      ]
-    },
-    {
-      "id": "a842dd38d65d1753",
-      "source": "ticketmax",
-      "date": "2026-10-16",
-      "end": null,
-      "sessions": null,
-      "title": "Briceño Bueno y Sano",
-      "venue": "Izbira Centro de Eventos",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 1500,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [],
-      "description": "DOMINICANA podrás disfrutar del nuevo evento de Briceño. BUENO Y SANO. 3 de julio Izbira centro de Eventos Entradas en www.lacomedialocal.com EL Profesor Briceño subirá al escenario con su propuesta inédita, que nace después de la observación aguda de las vidas perfectas de los…",
-      "ticketUrl": "https://ticketmax.org/evento/243547/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/243547/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/243547/"
-        }
-      ]
-    },
-    {
-      "id": "85396695924aedc4",
-      "source": "jazz_en_dominicana",
-      "date": "2026-10-16",
-      "end": null,
-      "sessions": null,
-      "title": "Fiesta Sunset Jazz presenta: Luz Brito Quartet - Jazz Emotions",
-      "venue": "Dominican Fiesta Hotel & Casino",
-      "zone": "Mirador Sur",
-      "cat": "Música",
-      "price": 0,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [
-        "jazz"
-      ],
-      "description": "Es un honor para el Fiesta Sunset Jazz presentar, el viernes 16 de octubre, al debutante cuarteto de la joven músico Luz Brito! con su especial entrega de Jazz Emotions. Luz Marie Brito Fortuna , estudiante dominicana de piano jazz y composición contemporánea. Estudia en el Conse",
-      "ticketUrl": "",
-      "srcName": "Jazz en Dominicana",
-      "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-11-al-17-de.html#2026-10-16-fiesta-sunset-jazz-presenta-luz-brito-quartet-jazz",
-      "sources": [
-        {
-          "srcName": "Jazz en Dominicana",
-          "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-11-al-17-de.html#2026-10-16-fiesta-sunset-jazz-presenta-luz-brito-quartet-jazz"
-        }
-      ]
-    },
-    {
-      "id": "1024f3b5b0a93c7b",
-      "source": "ticketmax",
-      "date": "2026-10-16",
-      "end": null,
-      "sessions": null,
-      "title": "Despechadas: Piano bar by Nicole Sosa",
-      "venue": "Hotel Crowne Plaza",
-      "zone": "",
-      "cat": "Cultura",
-      "price": 800,
-      "price_max": 1000,
-      "time": "20:30",
-      "kids": false,
-      "tags": [],
-      "description": "DESPECHADAS: PIANO BAR Nicole Sosa en vivo · voz + piano Una noche íntima para sentir, cantar por dentro y dejar ir. Canciones de Yuridia, Ha*Ash, Laura Pausini, Kany García, La Quinta Estación y más. 🎹 Show en vivo 🍸 Bar del Despecho 💔 Emociones reales ✨ Formato íntimo y elegan…",
-      "ticketUrl": "https://ticketmax.org/evento/266438/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/266438/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/266438/"
-        }
-      ]
-    },
-    {
-      "id": "102f8f5ee8e9ac7a",
-      "source": "teatro_nacional",
-      "date": "2026-10-16",
-      "end": null,
-      "sessions": null,
-      "title": "Despecho El Concierto",
-      "venue": "Café Teatro Juan Lockward, Teatro Nacional",
-      "zone": "Plaza de la Cultura",
-      "cat": "Música",
-      "price": 2000,
-      "price_max": 3500,
-      "time": "21:00",
-      "kids": false,
-      "tags": [],
-      "description": "DESPECHO – EL CONCIERTO llega este viernes 16 de octubre al Café Teatro del Teatro Nacional Eduardo Brito en una edición especial, más íntima, exclusiva y recargada. Una noche para cantar a todo pulmón esas canciones que no solo se escuchan… cuando son EN VIVO, se sienten en el…",
-      "ticketUrl": "https://boleteria.com.do/",
-      "srcName": "Teatro Nacional",
-      "srcUrl": "https://teatronacional.gob.do/events/despecho-el-concierto/",
-      "sources": [
-        {
-          "srcName": "Teatro Nacional",
-          "srcUrl": "https://teatronacional.gob.do/events/despecho-el-concierto/"
-        },
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/DespechoELCONCIERTOby4taDimensionSD-1"
-        }
-      ]
-    },
-    {
-      "id": "f3dd533f55f01305",
-      "source": "tix",
-      "date": "2026-10-16",
-      "end": null,
-      "sessions": null,
-      "title": "EL ULTIMO HIJO DE BALAGUER : TE DE JAGUA",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "21:30",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "https://tix.do/event/ELULTIMOHIJODEBALAGUERTEDEJAGUA-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/ELULTIMOHIJODEBALAGUERTEDEJAGUA-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/ELULTIMOHIJODEBALAGUERTEDEJAGUA-1"
-        }
-      ]
-    },
-    {
-      "id": "1522f0191b2e051b",
-      "source": "ticketmax",
-      "date": "2026-10-16",
-      "end": null,
-      "sessions": null,
-      "title": "LIONDY OZORIA EN VELVET",
-      "venue": "Velvet Room",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 1000,
-      "price_max": null,
-      "time": "21:30",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "https://ticketmax.org/evento/900018/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900018/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900018/"
         }
       ]
     },
@@ -1026,6 +864,34 @@
       ]
     },
     {
+      "id": "a2fc00cc5ddeaf3c",
+      "source": "jazz_en_dominicana",
+      "date": "2026-10-22",
+      "end": null,
+      "sessions": null,
+      "title": "Sandy Gabriel Jazz Residence",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "21:30",
+      "kids": false,
+      "tags": [
+        "jazz"
+      ],
+      "description": "Este jueves 22 continúa el Sandy Gabriel Jazz Residence. Su invitado especial será el reconocido Pavel Núñez. Sandy es acompañado por Rafa Payan en guitarra, Fito Morales en piano, David Almengod en percusión, y Jeremías King en bajo. Sandy Gabriel Jazz Residence at the Green R",
+      "ticketUrl": "",
+      "srcName": "Jazz en Dominicana",
+      "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-18-al-24-de.html#2026-10-22-sandy-gabriel-jazz-residence",
+      "sources": [
+        {
+          "srcName": "Jazz en Dominicana",
+          "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-18-al-24-de.html#2026-10-22-sandy-gabriel-jazz-residence"
+        }
+      ]
+    },
+    {
       "id": "6b5febb311376432",
       "source": "tix",
       "date": "2026-10-23",
@@ -1082,6 +948,58 @@
       ]
     },
     {
+      "id": "3e3c26461d73b398",
+      "source": "cce",
+      "date": "2026-10-23",
+      "end": null,
+      "sessions": null,
+      "title": "En torno a \"La Sonrisa de Audrey Hepburn”",
+      "venue": "CCESD",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "17:00",
+      "kids": false,
+      "tags": [],
+      "description": "A cargo de su autora Sonia Betancourt y Juan Carlos MiesesCoordina Fundación Espacios CulturalesEntrada libre hasta completar aforo",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/en-torno-a-la-sonrisa-de-audrey-hepburn-",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/en-torno-a-la-sonrisa-de-audrey-hepburn-"
+        }
+      ]
+    },
+    {
+      "id": "e1714f11f42794c3",
+      "source": "cce",
+      "date": "2026-10-23",
+      "end": null,
+      "sessions": null,
+      "title": "Homenaje a Blanca Varela y Jaime Sabines",
+      "venue": "CCESD",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [],
+      "description": "Expositores Paolo De Lima,  María Baranda y Mateo MorrisonCoordina Fundación Espacios CulturalesEntrada libre hasta completar aforo",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/homenaje-a-blanca-varela-y-jaime-sabines%C2%A0",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/homenaje-a-blanca-varela-y-jaime-sabines%C2%A0"
+        }
+      ]
+    },
+    {
       "id": "7539ea877241e6c8",
       "source": "ticketmax",
       "date": "2026-10-23",
@@ -1130,6 +1048,34 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900007/"
+        }
+      ]
+    },
+    {
+      "id": "d267effdbf007cc4",
+      "source": "jazz_en_dominicana",
+      "date": "2026-10-23",
+      "end": null,
+      "sessions": null,
+      "title": "Fiesta Sunset Jazz presenta al Frómeta-Mirabal-Sang-Estrada Quartet Los 20 de Jazz",
+      "venue": "Dominican Fiesta Hotel & Casino",
+      "zone": "Mirador Sur",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [
+        "jazz"
+      ],
+      "description": "A finales de octubre del 2006 nació Jazz en Dominicana; y fue hasta de una manera poética, naciendo de una inconformidad al asistir a un evento de jazz. Me explico. Sentado solo – escuchando y disfrutando de un solo de Jazz - en el espacio ¨Cuando el Bar es Teatro¨ en el Teatro N",
+      "ticketUrl": "",
+      "srcName": "Jazz en Dominicana",
+      "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-18-al-24-de.html#2026-10-23-fiesta-sunset-jazz-presenta-al-fro-meta-mirabal-sa",
+      "sources": [
+        {
+          "srcName": "Jazz en Dominicana",
+          "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-18-al-24-de.html#2026-10-23-fiesta-sunset-jazz-presenta-al-fro-meta-mirabal-sa"
         }
       ]
     },
@@ -1208,6 +1154,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/StellarXFrequencies-1"
+        }
+      ]
+    },
+    {
+      "id": "93c36f4ad45a5bbf",
+      "source": "cce",
+      "date": "2026-10-24",
+      "end": null,
+      "sessions": null,
+      "title": "Membranófonos del verano",
+      "venue": "Centro Cultural de España",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "Entrada libre hasta completar aforoPrograma Fortalecimiento del espacio cultural IberoamericanoDrumayor presenta un repertorio musical de la más variada representación del arte tradicional basado en las investigaciones de campo de su director, el antropólogo y percusionista Edis ",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/membran%C3%B3fonos-del-verano",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/membran%C3%B3fonos-del-verano"
         }
       ]
     },
@@ -1509,34 +1481,6 @@
       ]
     },
     {
-      "id": "d4d8ad5b327f7f48",
-      "source": "recurring",
-      "date": "2026-10-29",
-      "end": null,
-      "sessions": null,
-      "title": "EUROCINE 2026",
-      "venue": "Caribbean Cinemas, Galería 360",
-      "zone": "",
-      "cat": "Cine",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [
-        "serie"
-      ],
-      "description": "Festival de cine europeo contemporáneo: 15 películas de distintos países de Europa.",
-      "ticketUrl": "",
-      "srcName": "DGCINE",
-      "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-29",
-      "sources": [
-        {
-          "srcName": "DGCINE",
-          "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-29"
-        }
-      ]
-    },
-    {
       "id": "dca6fbeaaab5f6c7",
       "source": "tix",
       "date": "2026-10-29",
@@ -1611,6 +1555,38 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/ElultimohijodeBalaguer-5"
+        }
+      ]
+    },
+    {
+      "id": "0c5ea812f98e5162",
+      "source": "cce",
+      "date": "2026-10-29",
+      "end": null,
+      "sessions": null,
+      "title": "EUROCINE 2026. Saben Aquell",
+      "venue": "Galería 360",
+      "zone": "Ciudad Colonial",
+      "cat": "Cine",
+      "price": null,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [
+        "serie"
+      ],
+      "description": "Película sobre los primeros años de carrera del humorista Eugenio. Barcelona, finales de los 60. Eugenio Jofra, un joven joyero, conoce a Conchita y el flechazo es instantáneo. Eugenio aprende a tocar la guitarra para acompañar a Conchita, para lo que tendrá que luchar contra el ",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/eurocine-2026.-saben-aquell",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/eurocine-2026.-saben-aquell"
+        },
+        {
+          "srcName": "DGCINE",
+          "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-29"
         }
       ]
     },
@@ -3983,6 +3959,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/255031/"
+        }
+      ]
+    },
+    {
+      "id": "4ad63f98d694fd56",
+      "source": "tix",
+      "date": "2026-12-12",
+      "end": null,
+      "sessions": null,
+      "title": "Miguel Inzunza",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "21:00",
+      "kids": false,
+      "tags": [],
+      "description": "Vuelve a estar entre nosotros uno de los cantautores mexicanos más importantes de su generación: Miguel Inzunza. Este próximo 12 de diciembre en The Green Room, la canción, la poesía y el encuentro con los trova-adictos será inevitable. Ven a presenciar la integridad de la canci…",
+      "ticketUrl": "https://tix.do/event/MiguelInzunza-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/MiguelInzunza-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/MiguelInzunza-1"
         }
       ]
     },

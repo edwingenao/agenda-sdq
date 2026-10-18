@@ -1,36 +1,8 @@
 {
-  "generated_at": "2026-10-17T13:55:08+00:00",
-  "today": "2026-10-17",
-  "count": 164,
+  "generated_at": "2026-10-18T14:10:44+00:00",
+  "today": "2026-10-18",
+  "count": 156,
   "events": [
-    {
-      "id": "f2552473b9737908",
-      "source": "recurring",
-      "date": "2026-09-17",
-      "end": "2026-10-17",
-      "sessions": null,
-      "title": "ARQUIONIRIAS: Arquitecturas de lo Onírico (ASR Galería)",
-      "venue": "ASR Galería",
-      "zone": "",
-      "cat": "Arte",
-      "price": 0,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [
-        "serie"
-      ],
-      "description": "Muestra «ARQUIONIRIAS: Arquitecturas de lo Onírico» en ASR Galería, abierta hasta el 17 de octubre.",
-      "ticketUrl": "",
-      "srcName": "Artsy, muestras de Santo Domingo",
-      "srcUrl": "https://www.artsy.net/shows/santo-domingo-dominican-republic#asr-arquionirias-2026-hasta-2026-10-17",
-      "sources": [
-        {
-          "srcName": "Artsy, muestras de Santo Domingo",
-          "srcUrl": "https://www.artsy.net/shows/santo-domingo-dominican-republic#asr-arquionirias-2026-hasta-2026-10-17"
-        }
-      ]
-    },
     {
       "id": "a4bb62fe0c6a1ff7",
       "source": "teatro_las_mascaras",
@@ -179,58 +151,6 @@
       ]
     },
     {
-      "id": "26907825d03cb673",
-      "source": "tix",
-      "date": "2026-10-17",
-      "end": "2026-10-18",
-      "sessions": null,
-      "title": "Festival de Teatro Joven",
-      "venue": "Teatro Las Máscaras",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Llega a la sala más acogedora de la Zona Colonial el ciclo Noches de Teatro Joven, un espacio vibrante presentado por el grupo Teatro Testarudo bajo la dirección de la talentosa actriz y comediante Aleja Johnson. Durante todo el mes de octubre, Teatro Las Máscaras abre sus tabla…",
-      "ticketUrl": "https://tix.do/event/FestivaldeTeatroJoven-3",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/FestivaldeTeatroJoven-3",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/FestivaldeTeatroJoven-3"
-        }
-      ]
-    },
-    {
-      "id": "06fbb3677135fe00",
-      "source": "teatro_nacional",
-      "date": "2026-10-17",
-      "end": null,
-      "sessions": null,
-      "title": "Rosario, Universo de Ley Tour",
-      "venue": "Sala Carlos Piantini, Teatro Nacional",
-      "zone": "Plaza de la Cultura",
-      "cat": "Música",
-      "price": 5645,
-      "price_max": 11290,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "https://boleteria.com.do/",
-      "srcName": "Teatro Nacional",
-      "srcUrl": "https://teatronacional.gob.do/events/rosario-universo-de-ley-tour/",
-      "sources": [
-        {
-          "srcName": "Teatro Nacional",
-          "srcUrl": "https://teatronacional.gob.do/events/rosario-universo-de-ley-tour/"
-        }
-      ]
-    },
-    {
       "id": "91e93c7e947e4737",
       "source": "tix",
       "date": "2026-10-17",
@@ -283,210 +203,28 @@
       ]
     },
     {
-      "id": "3bb0d30dc9ad7b1a",
-      "source": "ticketmax",
-      "date": "2026-10-17",
+      "id": "26907825d03cb673",
+      "source": "tix",
+      "date": "2026-10-18",
       "end": null,
       "sessions": null,
-      "title": "EL PODER DE UNA MUJER CON IDENTIDAD",
-      "venue": "Acropolis Business Mall",
-      "zone": "",
+      "title": "Festival de Teatro Joven",
+      "venue": "Teatro Las Máscaras",
+      "zone": "Ciudad Colonial",
       "cat": "Teatro",
-      "price": 1000,
-      "price_max": 1500,
-      "time": "16:00",
-      "kids": false,
-      "tags": [],
-      "description": "El Poder de una Mujer con Identidad Es una experiencia transformadora creada para mujeres que desean sanar, redescubrir su esencia y abrazar la identidad que Dios les dio. A través de conferencias inspiradoras, momentos de reflexión y una atmósfera llena de propósito, cada parti…",
-      "ticketUrl": "https://ticketmax.org/evento/252477/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/252477/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/252477/"
-        }
-      ]
-    },
-    {
-      "id": "0b42f57b36abce92",
-      "source": "tix",
-      "date": "2026-10-17",
-      "end": null,
-      "sessions": null,
-      "title": "🎄 Felices Fiestas 2026: \"Una Navidad hecha a Mano ✂️🧶\"",
-      "venue": "The Box Working Space",
-      "zone": "",
-      "cat": "Cultura",
       "price": null,
       "price_max": null,
-      "time": "16:00",
+      "time": "",
       "kids": false,
       "tags": [],
-      "description": "Felices Fiestas 2026 🎄✨ Una Navidad hecha a mano. Llega la 4.ª edición de Felices Fiestas, un encuentro creado para mujeres que disfrutan cocinar, crear, celebrar y hacer de lo cotidiano algo especial. Una experiencia de inspiración y aprendizaje para prepararte para la temporad…",
-      "ticketUrl": "https://tix.do/event/FelicesFiestas2026UnaNavidadhechaaMano-1",
+      "description": "Llega a la sala más acogedora de la Zona Colonial el ciclo Noches de Teatro Joven, un espacio vibrante presentado por el grupo Teatro Testarudo bajo la dirección de la talentosa actriz y comediante Aleja Johnson. Durante todo el mes de octubre, Teatro Las Máscaras abre sus tabla…",
+      "ticketUrl": "https://tix.do/event/FestivaldeTeatroJoven-3",
       "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/FelicesFiestas2026UnaNavidadhechaaMano-1",
+      "srcUrl": "https://tix.do/event/FestivaldeTeatroJoven-3",
       "sources": [
         {
           "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/FelicesFiestas2026UnaNavidadhechaaMano-1"
-        }
-      ]
-    },
-    {
-      "id": "f46c37bdbd7baa7e",
-      "source": "tix",
-      "date": "2026-10-17",
-      "end": null,
-      "sessions": null,
-      "title": "POLACO EN THE GREEN ROOM",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "Con las boletas de after party podras conocer a polaco 🔞 Evento exclusivo para mayores de 18 años. Le informamos que, una vez finalizada la compra de su boleta, no se admitirán cambios, cancelaciones ni devoluciones del importe abonado, salvo en los casos de cancelación o aplaza…",
-      "ticketUrl": "https://tix.do/event/POLACOENTHEGREENROOM-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/POLACOENTHEGREENROOM-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/POLACOENTHEGREENROOM-1"
-        }
-      ]
-    },
-    {
-      "id": "25b3c8db3fb0012e",
-      "source": "ticketmax",
-      "date": "2026-10-17",
-      "end": null,
-      "sessions": null,
-      "title": "TCM19 HALOWEEN EDITION - OLD SCHOOL VS EDM",
-      "venue": "Nash House Club",
-      "zone": "",
-      "cat": "Arte",
-      "price": 450,
-      "price_max": 2200,
-      "time": "20:00",
-      "kids": false,
-      "tags": [],
-      "description": "ESTE EVENTO SE HARÁ EN SANTO DOMINGO ZONA COLONIAL | NASH HOUSE CLUB Este 17 de octubre, Tecmus® regresa con una noche donde dos sonidos chocan en una misma pista. 🎧 OLD SCHOOL VS EDM COMERCIAL 📡 Two Sounds. One Night. One Signal. 📅 Sábado 17 de octubre de 2026 🕗 8:00 PM - 3:00…",
-      "ticketUrl": "https://ticketmax.org/evento/264730/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/264730/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/264730/"
-        }
-      ]
-    },
-    {
-      "id": "203e8f1efdd6f223",
-      "source": "tix",
-      "date": "2026-10-17",
-      "end": null,
-      "sessions": null,
-      "title": "THE PSYCHO TOILET",
-      "venue": "Bar Room Republica Brewing",
-      "zone": "",
-      "cat": "Cultura",
-      "price": null,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "https://tix.do/event/THEPSYCHOTOILET-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/THEPSYCHOTOILET-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/THEPSYCHOTOILET-1"
-        }
-      ]
-    },
-    {
-      "id": "07dd46fde7db9c34",
-      "source": "ticketmax",
-      "date": "2026-10-17",
-      "end": null,
-      "sessions": null,
-      "title": "LOS JUGLARONES",
-      "venue": "Sala Manuel Rueda: Escuela de Bellas Artes",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 800,
-      "price_max": null,
-      "time": "20:30",
-      "kids": false,
-      "tags": [],
-      "description": "Los Juglarones reúne cuatro divertidos entremeses del teatro clásico español: La tierra de Jauja, Los habladores, Las aceitunas y El viejo celoso. A través del humor, la picardía y las situaciones cotidianas, estas historias cobran nueva vida en un encuentro de generaciones, exp…",
-      "ticketUrl": "https://ticketmax.org/evento/265948/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/265948/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/265948/"
-        }
-      ]
-    },
-    {
-      "id": "6fd8491d79712128",
-      "source": "tix",
-      "date": "2026-10-17",
-      "end": null,
-      "sessions": null,
-      "title": "COLOMBICANA | TUESKA",
-      "venue": "Velvet Room SDQ",
-      "zone": "",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "21:00",
-      "kids": false,
-      "tags": [],
-      "description": "🔥 ¡COLOMBICANA ESTÁ DE VUELTA! 🇨🇴🇩🇴 Este sábado 17 de octubre, vive una noche explosiva junto a Tueska en Velvet Room. Música en vivo, grandes éxitos y una fiesta hecha para cantar, bailar y gozar de principio a fin. 🎟️ Entradas limitadas. Compra la tuya ahora y no te quedes fue…",
-      "ticketUrl": "https://tix.do/event/COLOMBICANAorTUESKA-2",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/COLOMBICANAorTUESKA-2",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/COLOMBICANAorTUESKA-2"
-        }
-      ]
-    },
-    {
-      "id": "cb977f77bf8088bf",
-      "source": "ticketmax",
-      "date": "2026-10-17",
-      "end": null,
-      "sessions": null,
-      "title": "Reggaeton Noir V: Masquerade Noir",
-      "venue": "Cielo Room",
-      "zone": "",
-      "cat": "Música",
-      "price": 800,
-      "price_max": 2000,
-      "time": "21:00",
-      "kids": false,
-      "tags": [],
-      "description": "REGGAETON NOIR V — MASQUERADE NOIR VIBE SD presenta REGGAETON NOIR V: MASQUERADE NOIR. La quinta edición de Reggaeton Noir llega con una nueva identidad, pero con la misma esencia: una noche dedicada 100% al reggaetón, Old School to New School. Esta vez entramos en Masquerade No…",
-      "ticketUrl": "https://ticketmax.org/evento/262820/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/262820/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/262820/"
+          "srcUrl": "https://tix.do/event/FestivaldeTeatroJoven-3"
         }
       ]
     },
@@ -1613,6 +1351,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/Revisitando-1"
+        }
+      ]
+    },
+    {
+      "id": "421e9a08599109cd",
+      "source": "tix",
+      "date": "2026-10-29",
+      "end": null,
+      "sessions": null,
+      "title": "JAZZ NIGHT",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "21:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://tix.do/event/JAZZNIGHT-25",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/JAZZNIGHT-25",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/JAZZNIGHT-25"
         }
       ]
     },
@@ -2915,6 +2679,35 @@
         {
           "srcName": "Hostelworld Events",
           "srcUrl": "https://www.hostelworld.com/events/e/6a9b8740514fd3e727f8222f/809-mercado/#809-mercado-2026-11-2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "49ce38a0718ee5e2",
+      "source": "recurring",
+      "date": "2026-11-15",
+      "end": null,
+      "sessions": null,
+      "title": "Domingos de Bonyé",
+      "venue": "Ruinas de San Francisco, calle Hostos, Zona Colonial",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [
+        "cultura",
+        "serie"
+      ],
+      "description": "Música en vivo al aire libre con el grupo Bonyé: tambora, son, salsa y merengue.",
+      "ticketUrl": "",
+      "srcName": "SalsaVida",
+      "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-11-15",
+      "sources": [
+        {
+          "srcName": "SalsaVida",
+          "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-11-15"
         }
       ]
     },

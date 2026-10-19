@@ -1,34 +1,8 @@
 {
-  "generated_at": "2026-10-18T14:10:44+00:00",
-  "today": "2026-10-18",
-  "count": 156,
+  "generated_at": "2026-10-19T17:04:32+00:00",
+  "today": "2026-10-19",
+  "count": 153,
   "events": [
-    {
-      "id": "a4bb62fe0c6a1ff7",
-      "source": "teatro_las_mascaras",
-      "date": "2026-10-02",
-      "end": "2026-10-18",
-      "sessions": null,
-      "title": "Festival Teatro Joven",
-      "venue": "Teatro Las Máscaras",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": 875,
-      "price_max": 875,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Funciones: Viernes y Sábados 8:30 p.m. | Domingos 6:30 p.m. Llega a la sala más acogedora de la Zona Colonial el ciclo Noches de Teatro Joven , un espacio vibrante presentado por el grupo Teatro Testarudo bajo la dirección de la talentosa actriz y comediante Aleja Johnson .",
-      "ticketUrl": "https://tix.do/event/FestivaldeTeatroJoven-1",
-      "srcName": "Teatro Las Máscaras",
-      "srcUrl": "https://teatrolasmascaras.com/#festival-teatro-joven",
-      "sources": [
-        {
-          "srcName": "Teatro Las Máscaras",
-          "srcUrl": "https://teatrolasmascaras.com/#festival-teatro-joven"
-        }
-      ]
-    },
     {
       "id": "f426f72dcdfe3f57",
       "source": "cce",
@@ -61,32 +35,6 @@
         {
           "srcName": "Centro Cultural de España",
           "srcUrl": "https://ccesd.aecid.es/w/pensar-y-recrear-la-mujer-en-la-imagen"
-        }
-      ]
-    },
-    {
-      "id": "9b2be05dad4c1a80",
-      "source": "teatro_nacional",
-      "date": "2026-10-09",
-      "end": "2026-10-18",
-      "sessions": null,
-      "title": "Rojo",
-      "venue": "Sala José de Jesus Ravelo, Teatro Nacional",
-      "zone": "Plaza de la Cultura",
-      "cat": "Teatro",
-      "price": 2000,
-      "price_max": 2000,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Dos artistas.Un lienzo en blanco.Y una batalla feroz entre el arte, el ego, el tiempo y la trascendencia.",
-      "ticketUrl": "https://boleteria.com.do/",
-      "srcName": "Teatro Nacional",
-      "srcUrl": "https://teatronacional.gob.do/events/rojo/",
-      "sources": [
-        {
-          "srcName": "Teatro Nacional",
-          "srcUrl": "https://teatronacional.gob.do/events/rojo/"
         }
       ]
     },
@@ -151,84 +99,6 @@
       ]
     },
     {
-      "id": "91e93c7e947e4737",
-      "source": "tix",
-      "date": "2026-10-17",
-      "end": "2026-10-18",
-      "sessions": null,
-      "title": "Rubinsky Rbk - Concierto Intimo - Tal como soy. R.D",
-      "venue": "Teatro Lope de Vega Santo Domingo",
-      "zone": "",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Mejor que ayer music presenta: “Tal Como Soy” – Rubinsky Rbk en Santo Domingo Rubinsky Rbk después de mucho tiempo fuera, se presenta en su tierra con un show íntimo e irrepetible: “Tal Como Soy”. Una noche donde el rap dominicano se muestra sin máscaras, con la autenticidad com…",
-      "ticketUrl": "https://tix.do/event/RubinskyRbkConciertoTalcomosoyRD-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/RubinskyRbkConciertoTalcomosoyRD-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/RubinskyRbkConciertoTalcomosoyRD-1"
-        }
-      ]
-    },
-    {
-      "id": "e16cc903314e6832",
-      "source": "tix",
-      "date": "2026-10-17",
-      "end": "2026-10-18",
-      "sessions": null,
-      "title": "THE DOORS & FRIENDS — SEGUNDA ENTREGA",
-      "venue": "Republica Brewing Draft Room",
-      "zone": "",
-      "cat": "Cultura",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Hay noches que no deberían quedarse en una sola fecha. Después de la respuesta que recibimos con The Doors & Friends, decidimos volver a abrir esa puerta. Este sábado 17 de octubre, Lilé Blanc llega a República Brewing, en la Ciudad Colonial, para una nueva edición de una noche…",
-      "ticketUrl": "https://tix.do/event/THEDOORSandFRIENDSSEGUNDAENTREGA-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/THEDOORSandFRIENDSSEGUNDAENTREGA-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/THEDOORSandFRIENDSSEGUNDAENTREGA-1"
-        }
-      ]
-    },
-    {
-      "id": "26907825d03cb673",
-      "source": "tix",
-      "date": "2026-10-18",
-      "end": null,
-      "sessions": null,
-      "title": "Festival de Teatro Joven",
-      "venue": "Teatro Las Máscaras",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Llega a la sala más acogedora de la Zona Colonial el ciclo Noches de Teatro Joven, un espacio vibrante presentado por el grupo Teatro Testarudo bajo la dirección de la talentosa actriz y comediante Aleja Johnson. Durante todo el mes de octubre, Teatro Las Máscaras abre sus tabla…",
-      "ticketUrl": "https://tix.do/event/FestivaldeTeatroJoven-3",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/FestivaldeTeatroJoven-3",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/FestivaldeTeatroJoven-3"
-        }
-      ]
-    },
-    {
       "id": "7d00aa7dcbbebbc3",
       "source": "tix",
       "date": "2026-10-18",
@@ -251,61 +121,6 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/MATINEDESALSATHEGREENROOM-12"
-        }
-      ]
-    },
-    {
-      "id": "75a5b087d068c54f",
-      "source": "tix",
-      "date": "2026-10-18",
-      "end": null,
-      "sessions": null,
-      "title": "Premios glam 2026",
-      "venue": "Ramada by Wyndham Princess Santo Domingo",
-      "zone": "",
-      "cat": "Cultura",
-      "price": null,
-      "price_max": null,
-      "time": "17:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "https://tix.do/event/Premiosglam2026-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/Premiosglam2026-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/Premiosglam2026-1"
-        }
-      ]
-    },
-    {
-      "id": "634a4aea6b021810",
-      "source": "recurring",
-      "date": "2026-10-18",
-      "end": null,
-      "sessions": null,
-      "title": "Domingos de Bonyé",
-      "venue": "Ruinas de San Francisco, calle Hostos, Zona Colonial",
-      "zone": "Ciudad Colonial",
-      "cat": "Música",
-      "price": 0,
-      "price_max": null,
-      "time": "18:00",
-      "kids": false,
-      "tags": [
-        "cultura",
-        "serie"
-      ],
-      "description": "Música en vivo al aire libre con el grupo Bonyé: tambora, son, salsa y merengue.",
-      "ticketUrl": "",
-      "srcName": "SalsaVida",
-      "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-10-18",
-      "sources": [
-        {
-          "srcName": "SalsaVida",
-          "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-10-18"
         }
       ]
     },
@@ -412,6 +227,34 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/Deestonosehablaenpublico-1"
+        }
+      ]
+    },
+    {
+      "id": "fad97650d958619b",
+      "source": "ticketmax",
+      "date": "2026-10-21",
+      "end": null,
+      "sessions": null,
+      "title": "Vino & Tinta 21.10.26 | 6:00 PM - 8:00 PM",
+      "venue": "Centro Cultural Casa Libros",
+      "zone": "",
+      "cat": "Arte",
+      "price": 300,
+      "price_max": null,
+      "time": "18:00",
+      "kids": true,
+      "tags": [
+        "formacion"
+      ],
+      "description": "🍷📚 ¡HAY HISTORIAS QUE ROMPEN EL SILENCIO Y NOS OBLIGAN A MIRAR MÁS ALLÁ! ¿Qué sucede cuando la literatura se atreve a contar lo que muchos callan? Descúbrelo junto a Roxanna Marte y Orlando Muñoz Una noche para conversar sobre historias que cuestionan, emocionan y transforman. 📅…",
+      "ticketUrl": "https://ticketmax.org/evento/900107/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900107/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900107/"
         }
       ]
     },
@@ -619,13 +462,17 @@
         "jazz"
       ],
       "description": "Este jueves 22 continúa el Sandy Gabriel Jazz Residence. Su invitado especial será el reconocido Pavel Núñez. Sandy es acompañado por Rafa Payan en guitarra, Fito Morales en piano, David Almengod en percusión, y Jeremías King en bajo. Sandy Gabriel Jazz Residence at the Green R",
-      "ticketUrl": "",
+      "ticketUrl": "https://tix.do/event/SANDYGABRIELJAZZRESIDENCEPAVELNUNEZ-1",
       "srcName": "Jazz en Dominicana",
       "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-18-al-24-de.html#2026-10-22-sandy-gabriel-jazz-residence",
       "sources": [
         {
           "srcName": "Jazz en Dominicana",
           "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-18-al-24-de.html#2026-10-22-sandy-gabriel-jazz-residence"
+        },
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/SANDYGABRIELJAZZRESIDENCEPAVELNUNEZ-1"
         }
       ]
     },
@@ -734,6 +581,34 @@
         {
           "srcName": "Centro Cultural de España",
           "srcUrl": "https://ccesd.aecid.es/w/homenaje-a-blanca-varela-y-jaime-sabines%C2%A0"
+        }
+      ]
+    },
+    {
+      "id": "f9b49cb14319878e",
+      "source": "ticketmax",
+      "date": "2026-10-23",
+      "end": null,
+      "sessions": null,
+      "title": "Vino & Tinta 23.10.26 | 6:00 PM - 8:00 PM",
+      "venue": "Centro Cultural Casa Libros",
+      "zone": "",
+      "cat": "Arte",
+      "price": 300,
+      "price_max": null,
+      "time": "18:00",
+      "kids": true,
+      "tags": [
+        "formacion"
+      ],
+      "description": "🍷📖 ¡NO TODAS LAS HISTORIAS FUERON ESCRITAS PARA DEJARTE IGUAL! Hay cuentos que incomodan, versos que conmueven y palabras que despiertan emociones. Conoce a Omar Messon y Ramón Gil, en un encuentro cercano entre literatura, vino y conversaciones inolvidables. 📅 Viernes 23 de oct…",
+      "ticketUrl": "https://ticketmax.org/evento/900111/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900111/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900111/"
         }
       ]
     },
@@ -1193,6 +1068,34 @@
       ]
     },
     {
+      "id": "7a2596235fbeb03a",
+      "source": "ticketmax",
+      "date": "2026-10-28",
+      "end": null,
+      "sessions": null,
+      "title": "Vino & Tinta 28.10.26 | 6:00 PM - 8:00 PM",
+      "venue": "Centro Cultural Casa Libros",
+      "zone": "",
+      "cat": "Arte",
+      "price": 300,
+      "price_max": null,
+      "time": "18:00",
+      "kids": true,
+      "tags": [
+        "formacion"
+      ],
+      "description": "🍷 Diez versos bastan para decir lo que llevas años sintiendo. Déjate envolver por el ritmo y la emoción de José Rafael Estévez (Fello) y Papo Fernandez. En Vino &amp; Tinta, el amor, nuestras raíces y la poesía serán el punto de encuentro para conversar con el autor y conocer a…",
+      "ticketUrl": "https://ticketmax.org/evento/900115/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900115/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900115/"
+        }
+      ]
+    },
+    {
       "id": "1deeee48c642cb66",
       "source": "tix",
       "date": "2026-10-28",
@@ -1509,6 +1412,34 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/HOUSEOFSHADOWS-1"
+        }
+      ]
+    },
+    {
+      "id": "2a4dc4c3e2d43eef",
+      "source": "ticketmax",
+      "date": "2026-10-30",
+      "end": null,
+      "sessions": null,
+      "title": "Vino & Tinta 30.10.26 | 6:00 PM - 8:00 PM",
+      "venue": "Centro Cultural Casa Libros",
+      "zone": "",
+      "cat": "Arte",
+      "price": 300,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [
+        "formacion"
+      ],
+      "description": "🍷 Hay silencios que solo un buen libro se atreve a romper. ¿Has leído una historia que parece conocer lo que llevas dentro? Ven a descubrir Donde el silencio cuenta junto a Sandra Margarita Fernández, jurista y escritora que transforma emociones y dilemas humanos en literatura.…",
+      "ticketUrl": "https://ticketmax.org/evento/900119/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900119/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900119/"
         }
       ]
     },

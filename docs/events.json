@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-19T17:04:32+00:00",
-  "today": "2026-10-19",
-  "count": 153,
+  "generated_at": "2026-10-20T15:15:27+00:00",
+  "today": "2026-10-20",
+  "count": 161,
   "events": [
     {
       "id": "f426f72dcdfe3f57",
@@ -95,58 +95,6 @@
         {
           "srcName": "Lyle O. Reitzel en Artsy",
           "srcUrl": "https://www.artsy.net/show/lyle-o-reitzel-the-dominican-dream#gerard-ellis-dominican-dream-muestra-hasta-2026-11-13"
-        }
-      ]
-    },
-    {
-      "id": "7d00aa7dcbbebbc3",
-      "source": "tix",
-      "date": "2026-10-18",
-      "end": "2026-10-19",
-      "sessions": null,
-      "title": "MATINE DE SALSA - THE GREEN ROOM",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "https://tix.do/event/MATINEDESALSATHEGREENROOM-12",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/MATINEDESALSATHEGREENROOM-12",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/MATINEDESALSATHEGREENROOM-12"
-        }
-      ]
-    },
-    {
-      "id": "599dabeb64e81da0",
-      "source": "cce",
-      "date": "2026-10-19",
-      "end": null,
-      "sessions": null,
-      "title": "Exposición",
-      "venue": "CCESD",
-      "zone": "Ciudad Colonial",
-      "cat": "Arte",
-      "price": null,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "Proyecto AnticanonPrograma de Fortalecimiento del Espacio Cultural IberoamericanoLa exposición fotográfica “Escritoras Anticanónicas” busca continuar con la labor de visibilizar la obra y el legado literario de las escritoras que han sido relegadas e invisibilizadas históricament",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/exposici%C3%B3n-1",
-      "sources": [
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/exposici%C3%B3n-1"
         }
       ]
     },
@@ -337,6 +285,32 @@
       ]
     },
     {
+      "id": "34d498ef6cf6c988",
+      "source": "teatro_nacional",
+      "date": "2026-10-22",
+      "end": "2026-10-23",
+      "sessions": null,
+      "title": "Aquí a la sombra, Salomé",
+      "venue": "Sala Carlos Piantini, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Teatro",
+      "price": 200,
+      "price_max": 200,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Lejos de una biografía tradicional, la obra se construye como una experiencia sensorial donde el cuerpo, la palabra y la música dialogan para explorar la memoria, la enfermedad, la maternidad, la educación y la patria. La puesta en escena propone un espacio ritual en el que pasad",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/aqui-a-la-sombra-salome/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/aqui-a-la-sombra-salome/"
+        }
+      ]
+    },
+    {
       "id": "e1648d2ec4936d74",
       "source": "sic",
       "date": "2026-10-22",
@@ -477,6 +451,32 @@
       ]
     },
     {
+      "id": "47ae51e7f00f6308",
+      "source": "teatro_nacional",
+      "date": "2026-10-23",
+      "end": "2026-10-24",
+      "sessions": null,
+      "title": "El beso de la mujer araña",
+      "venue": "Sala José de Jesus Ravelo, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Teatro",
+      "price": 200,
+      "price_max": 200,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "El beso de la mujer araña narra la relación entre Valentín, un preso político, y Molina, un homosexual encarcelado, quienes comparten celda en una prisión opresiva. A medida que pasan los días, Molina le cuenta a Valentín películas que ha visto para escapar del dolor y crear un m",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/el-beso-de-la-mujer-arana/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/el-beso-de-la-mujer-arana/"
+        }
+      ]
+    },
+    {
       "id": "6b5febb311376432",
       "source": "tix",
       "date": "2026-10-23",
@@ -491,7 +491,7 @@
       "time": "",
       "kids": false,
       "tags": [],
-      "description": "",
+      "description": "concierto en vivo en santo domingo :)",
       "ticketUrl": "https://tix.do/event/valentinatickets",
       "srcName": "TIX",
       "srcUrl": "https://tix.do/event/valentinatickets",
@@ -797,6 +797,58 @@
       ]
     },
     {
+      "id": "b381de44f2ab61f4",
+      "source": "tix",
+      "date": "2026-10-24",
+      "end": null,
+      "sessions": null,
+      "title": "BLUES BLUES BLUES",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "21:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://tix.do/event/BLUESBLUESBLUES-2",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/BLUESBLUESBLUES-2",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/BLUESBLUESBLUES-2"
+        }
+      ]
+    },
+    {
+      "id": "9d2195fae988268a",
+      "source": "teatro_nacional",
+      "date": "2026-10-25",
+      "end": "2026-10-31",
+      "sessions": null,
+      "title": "La boda de Frank y Mechy",
+      "venue": "Café Teatro Juan Lockward, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Teatro",
+      "price": 200,
+      "price_max": 200,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "La Boda de Frank y Mechy es una experiencia teatral inmersiva que invita al público a ser parte de una celebración donde nada es exactamente lo que parece. En el marco de una boda, los asistentes no solo observan, sino que participan activamente de un entramado de vínculos, secre",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/la-boda-de-frank-y-mechy/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/la-boda-de-frank-y-mechy/"
+        }
+      ]
+    },
+    {
       "id": "0b20cd7982a34ae1",
       "source": "tix",
       "date": "2026-10-25",
@@ -904,6 +956,32 @@
       ]
     },
     {
+      "id": "cb20ef4f4f72b250",
+      "source": "teatro_nacional",
+      "date": "2026-10-26",
+      "end": "2026-10-27",
+      "sessions": null,
+      "title": "Ahora que vuelvo, Ton",
+      "venue": "Sala José de Jesus Ravelo, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Teatro",
+      "price": 200,
+      "price_max": 200,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "“Ahora que vuelvo, Ton” cuenta la historia de un grupo de amigos que junto a Ton Meliton, “cojo y cabezón”, se reunían para hablar de sus cosas en el parque de su pueblo. Luego, al cabo de muchos años y distanciamiento, el narrador de la historia regresa al pueblo y encuentra a T",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/ahora-que-vuelvo-ton/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/ahora-que-vuelvo-ton/"
+        }
+      ]
+    },
+    {
       "id": "fa9c28d643ffa80e",
       "source": "recurring",
       "date": "2026-10-26",
@@ -984,6 +1062,32 @@
         {
           "srcName": "Ministerio de Cultura (SIC)",
           "srcUrl": "https://sic.cultura.gob.do/agenda/evento/40"
+        }
+      ]
+    },
+    {
+      "id": "ed5a20010476edfb",
+      "source": "sic",
+      "date": "2026-10-27",
+      "end": null,
+      "sessions": null,
+      "title": "Conversatorio en la Galeria \"La educación y la inteligencia artificial\"",
+      "venue": "Galeria Ramon Oviedo, MINC",
+      "zone": "",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [],
+      "description": "Conversatorio",
+      "ticketUrl": "",
+      "srcName": "Ministerio de Cultura (SIC)",
+      "srcUrl": "https://sic.cultura.gob.do/agenda/evento/43",
+      "sources": [
+        {
+          "srcName": "Ministerio de Cultura (SIC)",
+          "srcUrl": "https://sic.cultura.gob.do/agenda/evento/43"
         }
       ]
     },
@@ -1118,6 +1222,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/ElDegalilleMusicalesEdition-1"
+        }
+      ]
+    },
+    {
+      "id": "dcfff4a55511fa7d",
+      "source": "teatro_nacional",
+      "date": "2026-10-29",
+      "end": "2026-10-30",
+      "sessions": null,
+      "title": "Esperando a Odiseo",
+      "venue": "Sala José de Jesus Ravelo, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Teatro",
+      "price": 200,
+      "price_max": 200,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Una azotea habanera es el escenario de esta tragicomedia en torno a la espera/búsqueda de la realización personal. Kiko Paloma, profesor de inglés retirado a destiempo y colombófilo por desmedida pasión; espera el retorno de Odiseo, su palomo favorito. La azotea y su entorno es e",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/esperando-a-odiseo/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/esperando-a-odiseo/"
         }
       ]
     },
@@ -1416,6 +1546,32 @@
       ]
     },
     {
+      "id": "4bf3aeb08edda848",
+      "source": "teatro_nacional",
+      "date": "2026-10-30",
+      "end": "2026-10-31",
+      "sessions": null,
+      "title": "Las criadas",
+      "venue": "Sala Carlos Piantini, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Teatro",
+      "price": 200,
+      "price_max": 200,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Dos criadas sirven en la casa de un narco encarcelado y su señora, una mega diva de la TV Nacional.",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/las-criadas/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/las-criadas/"
+        }
+      ]
+    },
+    {
       "id": "2a4dc4c3e2d43eef",
       "source": "ticketmax",
       "date": "2026-10-30",
@@ -1624,6 +1780,32 @@
         {
           "srcName": "DGCINE",
           "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "ad021324e10b954d",
+      "source": "teatro_nacional",
+      "date": "2026-10-31",
+      "end": "2026-11-01",
+      "sessions": null,
+      "title": "Guerra de los Mundos II",
+      "venue": "Sala José de Jesus Ravelo, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Teatro",
+      "price": 200,
+      "price_max": 200,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "En un San Valentín cualquiera, dos locutores transmiten su programa radial en vivo sin sospechar que están a punto de ser invadidos por los Monstruos Románticos: criaturas alienígenas que transforman el amor en enfermedad, dependencia y manipulación. A través de una estética retr",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/guerra-de-los-mundos-ii/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/guerra-de-los-mundos-ii/"
         }
       ]
     },
@@ -3579,6 +3761,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/255179/"
+        }
+      ]
+    },
+    {
+      "id": "7168276957b9a139",
+      "source": "teatro_nacional",
+      "date": "2026-12-06",
+      "end": null,
+      "sessions": null,
+      "title": "Recital de Navidad",
+      "venue": "Sala Aida Bonnelly de Díaz, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Música",
+      "price": 1050,
+      "price_max": 1050,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Un espectáculo donde los estudiantes de Allegro estarán interpretando un amplio repertorio de villancicos y melodías navideñas.",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/recital-de-navidad/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/recital-de-navidad/"
         }
       ]
     },

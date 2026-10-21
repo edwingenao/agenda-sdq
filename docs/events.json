@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-20T15:15:27+00:00",
-  "today": "2026-10-20",
-  "count": 161,
+  "generated_at": "2026-10-21T15:27:11+00:00",
+  "today": "2026-10-21",
+  "count": 167,
   "events": [
     {
       "id": "f426f72dcdfe3f57",
@@ -95,86 +95,6 @@
         {
           "srcName": "Lyle O. Reitzel en Artsy",
           "srcUrl": "https://www.artsy.net/show/lyle-o-reitzel-the-dominican-dream#gerard-ellis-dominican-dream-muestra-hasta-2026-11-13"
-        }
-      ]
-    },
-    {
-      "id": "52de12f607a3178a",
-      "source": "sic",
-      "date": "2026-10-20",
-      "end": null,
-      "sessions": null,
-      "title": "Taller \"Microfinanzas para Emprendedores Culturales\" para Emprendedores culturales, gestores y artistas",
-      "venue": "Auditoria Enriquillo Sanchez, Ministerio de Cultura",
-      "zone": "",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "09:30",
-      "kids": false,
-      "tags": [
-        "formacion"
-      ],
-      "description": "Taller",
-      "ticketUrl": "",
-      "srcName": "Ministerio de Cultura (SIC)",
-      "srcUrl": "https://sic.cultura.gob.do/agenda/evento/37",
-      "sources": [
-        {
-          "srcName": "Ministerio de Cultura (SIC)",
-          "srcUrl": "https://sic.cultura.gob.do/agenda/evento/37"
-        }
-      ]
-    },
-    {
-      "id": "67d35ca5849355b8",
-      "source": "ticketmax",
-      "date": "2026-10-20",
-      "end": null,
-      "sessions": null,
-      "title": "Elias Serulle - El Hijo del Pollero",
-      "venue": "Velvet Room",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 1000,
-      "price_max": null,
-      "time": "20:00",
-      "kids": true,
-      "tags": [],
-      "description": "Este show es uno donde Elías celebra a su familia, de dónde viene y cómo han sido responsables de sus logros y sus traumas. Un show personal y para todo el mundo.",
-      "ticketUrl": "https://ticketmax.org/evento/900061/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900061/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900061/"
-        }
-      ]
-    },
-    {
-      "id": "abfa9f449697ce29",
-      "source": "tix",
-      "date": "2026-10-20",
-      "end": null,
-      "sessions": null,
-      "title": "De esto no se habla en público",
-      "venue": "Local 3 : Calle Max. Herriquez Ureña 33",
-      "zone": "",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "21:00",
-      "kids": false,
-      "tags": [],
-      "description": "Comedia Local presenta : De esto no se habla en público Kelvin García, Dymitri y Harú llegan con un show de comedia para hablar de todo eso que normalmente se piensa, se comenta en privado… pero no se dice en público. Sexo, relaciones, situaciones incómodas, pensamientos polític…",
-      "ticketUrl": "https://tix.do/event/Deestonosehablaenpublico-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/Deestonosehablaenpublico-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/Deestonosehablaenpublico-1"
         }
       ]
     },
@@ -538,8 +458,8 @@
       "date": "2026-10-23",
       "end": null,
       "sessions": null,
-      "title": "En torno a \"La Sonrisa de Audrey Hepburn”",
-      "venue": "CCESD",
+      "title": "En torno a \"La Sonrisa de Audrey Hepburn\"",
+      "venue": "Centro Cultural de España",
       "zone": "Ciudad Colonial",
       "cat": "Cultura",
       "price": 0,
@@ -547,7 +467,7 @@
       "time": "17:00",
       "kids": false,
       "tags": [],
-      "description": "A cargo de su autora Sonia Betancourt y Juan Carlos MiesesCoordina Fundación Espacios CulturalesEntrada libre hasta completar aforo",
+      "description": "Coordina Fundación Espacios CulturalesEntrada libre hasta completar aforo",
       "ticketUrl": "",
       "srcName": "Centro Cultural de España",
       "srcUrl": "https://ccesd.aecid.es/w/en-torno-a-la-sonrisa-de-audrey-hepburn-",
@@ -555,6 +475,32 @@
         {
           "srcName": "Centro Cultural de España",
           "srcUrl": "https://ccesd.aecid.es/w/en-torno-a-la-sonrisa-de-audrey-hepburn-"
+        }
+      ]
+    },
+    {
+      "id": "ab59bca96dbc3d18",
+      "source": "cce",
+      "date": "2026-10-23",
+      "end": null,
+      "sessions": null,
+      "title": "Homenaje a Blanca Varela y Jaime Sabines",
+      "venue": "Centro Cultural de España",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [],
+      "description": "Expositores Paolo De Lima,  María Baranda y Mateo MorrisonCoordina Fundación Espacios CulturalesEntrada libre hasta completar aforo",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/homenaje-a-blanca-varela-y-jaime-sabines",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/homenaje-a-blanca-varela-y-jaime-sabines"
         }
       ]
     },
@@ -2105,6 +2051,32 @@
       ]
     },
     {
+      "id": "25288e2116f5e9e0",
+      "source": "ticketmax",
+      "date": "2026-11-06",
+      "end": null,
+      "sessions": null,
+      "title": "Si y… Nights! Improv Show",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 700,
+      "price_max": null,
+      "time": "21:30",
+      "kids": false,
+      "tags": [],
+      "description": "Sí y Nights: Improv Show Una noche de pura improvisación. Seis actores en escena, sin guion ni dirección: lo que pase dependerá del momento… y del público. ¡Entretenimiento fuera de lo común y risas garantizadas! ⭐️ Host: Suzette Reyes 📍 Velvet Room, Bloom, Av. Enriquillo 28 🍹🍔…",
+      "ticketUrl": "https://ticketmax.org/evento/900139/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900139/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900139/"
+        }
+      ]
+    },
+    {
       "id": "e294fe43fff7db1e",
       "source": "tix",
       "date": "2026-11-07",
@@ -2263,6 +2235,32 @@
       ]
     },
     {
+      "id": "62cdde164430e44e",
+      "source": "ticketmax",
+      "date": "2026-11-08",
+      "end": null,
+      "sessions": null,
+      "title": "LA GRANJA DE ZENÓN: LA BUSQUEDA DEL TESORO",
+      "venue": "Auditorio Casa San Pablo",
+      "zone": "",
+      "cat": "Música",
+      "price": 1800,
+      "price_max": 3000,
+      "time": "16:30",
+      "kids": true,
+      "tags": [],
+      "description": "🎉 ¡La aventura más divertida llega a Santo Domingo! 🐷🌾 Prepárate para vivir una experiencia llena de alegría, música y diversión junto a La Granja de Zenón y su emocionante espectáculo “La Búsqueda del Tesoro”. 🗺️✨ Zenón y sus queridos personajes te esperan para disfrutar de una…",
+      "ticketUrl": "https://ticketmax.org/evento/900074/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900074/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900074/"
+        }
+      ]
+    },
+    {
       "id": "0ca099dcd9a58634",
       "source": "recurring",
       "date": "2026-11-08",
@@ -2314,6 +2312,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900028/"
+        }
+      ]
+    },
+    {
+      "id": "00474ae996fb238e",
+      "source": "tix",
+      "date": "2026-11-08",
+      "end": null,
+      "sessions": null,
+      "title": "THE EVENT",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "Con las boletas de after party podras conocer a polaco 🔞 Evento exclusivo para mayores de 18 años. Le informamos que, una vez finalizada la compra de su boleta, no se admitirán cambios, cancelaciones ni devoluciones del importe abonado, salvo en los casos de cancelación o aplaza…",
+      "ticketUrl": "https://tix.do/event/THEEVENT-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/THEEVENT-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/THEEVENT-1"
         }
       ]
     },
@@ -2604,6 +2628,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/LasLocurasdePapiyMami-1"
+        }
+      ]
+    },
+    {
+      "id": "3a6fc4e0dfdc8931",
+      "source": "ticketmax",
+      "date": "2026-11-13",
+      "end": null,
+      "sessions": null,
+      "title": "Si y… Nights! Improv Show",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 700,
+      "price_max": null,
+      "time": "21:30",
+      "kids": false,
+      "tags": [],
+      "description": "Sí y Nights: Improv Show Una noche de pura improvisación. Seis actores en escena, sin guion ni dirección: lo que pase dependerá del momento… y del público. ¡Entretenimiento fuera de lo común y risas garantizadas! ⭐️ Host: Suzette Reyes 📍 Velvet Room, Bloom, Av. Enriquillo 28 🍹🍔…",
+      "ticketUrl": "https://ticketmax.org/evento/900141/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900141/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900141/"
         }
       ]
     },
@@ -3059,6 +3109,32 @@
       ]
     },
     {
+      "id": "b90376fec888571a",
+      "source": "ticketmax",
+      "date": "2026-11-20",
+      "end": null,
+      "sessions": null,
+      "title": "Si y… Nights! Improv Show 🎭",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 700,
+      "price_max": null,
+      "time": "21:30",
+      "kids": false,
+      "tags": [],
+      "description": "Sí y Nights: Improv Show Una noche de pura improvisación. Seis actores en escena, sin guion ni dirección: lo que pase dependerá del momento… y del público. ¡Entretenimiento fuera de lo común y risas garantizadas! ⭐️ Host: Suzette Reyes 📍 Velvet Room, Bloom, Av. Enriquillo 28 🍹🍔…",
+      "ticketUrl": "https://ticketmax.org/evento/900143/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900143/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900143/"
+        }
+      ]
+    },
+    {
       "id": "aa2199a5478bf817",
       "source": "ticketmax",
       "date": "2026-11-21",
@@ -3371,6 +3447,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/254783/"
+        }
+      ]
+    },
+    {
+      "id": "b652e37fd8a34d48",
+      "source": "ticketmax",
+      "date": "2026-11-27",
+      "end": null,
+      "sessions": null,
+      "title": "Si y… Nights! Improv Show",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 700,
+      "price_max": null,
+      "time": "21:30",
+      "kids": false,
+      "tags": [],
+      "description": "Sí y Nights: Improv Show Una noche de pura improvisación. Seis actores en escena, sin guion ni dirección: lo que pase dependerá del momento… y del público. ¡Entretenimiento fuera de lo común y risas garantizadas! ⭐️ Host: Suzette Reyes 📍 Velvet Room, Bloom, Av. Enriquillo 28 🍹🍔…",
+      "ticketUrl": "https://ticketmax.org/evento/900147/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900147/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900147/"
         }
       ]
     },
@@ -3843,6 +3945,32 @@
       ]
     },
     {
+      "id": "d20294df6b1a9ec3",
+      "source": "ticketmax",
+      "date": "2026-12-10",
+      "end": null,
+      "sessions": null,
+      "title": "TODO ESTARÁ BIEN",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": 1600,
+      "price_max": null,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://ticketmax.org/evento/900151/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900151/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900151/"
+        }
+      ]
+    },
+    {
       "id": "616a915e6c94108f",
       "source": "ticketmax",
       "date": "2026-12-11",
@@ -3865,6 +3993,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/254996/"
+        }
+      ]
+    },
+    {
+      "id": "37ba4c4208431e92",
+      "source": "ticketmax",
+      "date": "2026-12-11",
+      "end": null,
+      "sessions": null,
+      "title": "TODO ESTARÁ BIEN",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": 1600,
+      "price_max": null,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://ticketmax.org/evento/900153/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900153/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900153/"
         }
       ]
     },

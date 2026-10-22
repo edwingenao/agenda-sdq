@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-21T15:27:11+00:00",
-  "today": "2026-10-21",
-  "count": 167,
+  "generated_at": "2026-10-22T15:28:12+00:00",
+  "today": "2026-10-22",
+  "count": 166,
   "events": [
     {
       "id": "f426f72dcdfe3f57",
@@ -99,112 +99,6 @@
       ]
     },
     {
-      "id": "fad97650d958619b",
-      "source": "ticketmax",
-      "date": "2026-10-21",
-      "end": null,
-      "sessions": null,
-      "title": "Vino & Tinta 21.10.26 | 6:00 PM - 8:00 PM",
-      "venue": "Centro Cultural Casa Libros",
-      "zone": "",
-      "cat": "Arte",
-      "price": 300,
-      "price_max": null,
-      "time": "18:00",
-      "kids": true,
-      "tags": [
-        "formacion"
-      ],
-      "description": "🍷📚 ¡HAY HISTORIAS QUE ROMPEN EL SILENCIO Y NOS OBLIGAN A MIRAR MÁS ALLÁ! ¿Qué sucede cuando la literatura se atreve a contar lo que muchos callan? Descúbrelo junto a Roxanna Marte y Orlando Muñoz Una noche para conversar sobre historias que cuestionan, emocionan y transforman. 📅…",
-      "ticketUrl": "https://ticketmax.org/evento/900107/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900107/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900107/"
-        }
-      ]
-    },
-    {
-      "id": "d7eab9d95f819b9a",
-      "source": "tix",
-      "date": "2026-10-21",
-      "end": null,
-      "sessions": null,
-      "title": "El Tomatazo",
-      "venue": "Local 3 : Calle Max. Herriquez Ureña 33",
-      "zone": "",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "21:00",
-      "kids": false,
-      "tags": [],
-      "description": "EL TOMATAZO 🍅: Open Mic diferente Un open mic donde los comediantes prueban chistes nuevos… y el público puede tirar tomates si el chiste no le gusta. Caos, adrenalina y humor en su punto exacto: si no funciona, ¡vuela un tomate!",
-      "ticketUrl": "https://tix.do/event/ElTomatazo-11",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/ElTomatazo-11",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/ElTomatazo-11"
-        }
-      ]
-    },
-    {
-      "id": "3c9f579fabb4a141",
-      "source": "tix",
-      "date": "2026-10-21",
-      "end": null,
-      "sessions": null,
-      "title": "COMEDY SHOWCASE - THE GREEN ROOM",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "21:30",
-      "kids": false,
-      "tags": [],
-      "description": "CONSUMO MINIMO DE 1,000 PESOS",
-      "ticketUrl": "https://tix.do/event/COMEDYSHOWCASETHEGREENROOM-10",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/COMEDYSHOWCASETHEGREENROOM-10",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/COMEDYSHOWCASETHEGREENROOM-10"
-        }
-      ]
-    },
-    {
-      "id": "7710fcf90cf7dd7f",
-      "source": "tix",
-      "date": "2026-10-21",
-      "end": null,
-      "sessions": null,
-      "title": "COMEDY SHOWCASE - THE GREEN ROOM",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "21:30",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "https://tix.do/event/COMEDYSHOWCASETHEGREENROOM-11",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/COMEDYSHOWCASETHEGREENROOM-11",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/COMEDYSHOWCASETHEGREENROOM-11"
-        }
-      ]
-    },
-    {
       "id": "34d498ef6cf6c988",
       "source": "teatro_nacional",
       "date": "2026-10-22",
@@ -227,6 +121,32 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/aqui-a-la-sombra-salome/"
+        }
+      ]
+    },
+    {
+      "id": "d65de3eea5468ab7",
+      "source": "tix",
+      "date": "2026-10-22",
+      "end": "2027-02-28",
+      "sessions": null,
+      "title": "prueba jade",
+      "venue": "Teatro Nacional Eduardo Brito",
+      "zone": "Plaza de la Cultura",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://tix.do/event/pruebajade-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/pruebajade-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/pruebajade-1"
         }
       ]
     },
@@ -843,6 +763,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/THEARTMARKETPOPUP-2"
+        }
+      ]
+    },
+    {
+      "id": "5d15402f6b583d42",
+      "source": "tix",
+      "date": "2026-10-25",
+      "end": null,
+      "sessions": null,
+      "title": "MATINE DE SALSA",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "17:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://tix.do/event/MATINEDESALSA-16",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/MATINEDESALSA-16",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/MATINEDESALSA-16"
         }
       ]
     },
@@ -2231,6 +2177,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/266538/"
+        }
+      ]
+    },
+    {
+      "id": "868348d3500fac7e",
+      "source": "ticketmax",
+      "date": "2026-11-08",
+      "end": null,
+      "sessions": null,
+      "title": "LA GRANJA DE ZENÓN: LA BUSQUEDA DEL TESORO | 2:00 PM - 12:00 AM",
+      "venue": "Auditorio Casa San Pablo",
+      "zone": "",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "14:00",
+      "kids": true,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://ticketmax.org/evento/900176/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900176/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900176/"
         }
       ]
     },

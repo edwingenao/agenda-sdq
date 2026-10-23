@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-22T15:28:12+00:00",
-  "today": "2026-10-22",
-  "count": 166,
+  "generated_at": "2026-10-23T15:19:21+00:00",
+  "today": "2026-10-23",
+  "count": 167,
   "events": [
     {
       "id": "f426f72dcdfe3f57",
@@ -147,146 +147,6 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/pruebajade-1"
-        }
-      ]
-    },
-    {
-      "id": "e1648d2ec4936d74",
-      "source": "sic",
-      "date": "2026-10-22",
-      "end": null,
-      "sessions": null,
-      "title": "Metodologias y modelos de negocio para emprendimientos culturales para emprendedores culturales, gestores y artistas.",
-      "venue": "Auditoria Enriquillo Sanchez, Ministerio de Cultura",
-      "zone": "",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "09:30",
-      "kids": false,
-      "tags": [
-        "formacion"
-      ],
-      "description": "Taller",
-      "ticketUrl": "",
-      "srcName": "Ministerio de Cultura (SIC)",
-      "srcUrl": "https://sic.cultura.gob.do/agenda/evento/39",
-      "sources": [
-        {
-          "srcName": "Ministerio de Cultura (SIC)",
-          "srcUrl": "https://sic.cultura.gob.do/agenda/evento/39"
-        }
-      ]
-    },
-    {
-      "id": "99a88ea7eccf2d87",
-      "source": "sic",
-      "date": "2026-10-22",
-      "end": null,
-      "sessions": null,
-      "title": "Taller \"Marketing Digital y Gestion de Redes Sociales para Emprendedores Culturales, Artistas y Gestores\"",
-      "venue": "Hotel Dominican Fiesta",
-      "zone": "Mirador Sur",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "14:00",
-      "kids": false,
-      "tags": [
-        "formacion"
-      ],
-      "description": "Taller",
-      "ticketUrl": "",
-      "srcName": "Ministerio de Cultura (SIC)",
-      "srcUrl": "https://sic.cultura.gob.do/agenda/evento/38",
-      "sources": [
-        {
-          "srcName": "Ministerio de Cultura (SIC)",
-          "srcUrl": "https://sic.cultura.gob.do/agenda/evento/38"
-        }
-      ]
-    },
-    {
-      "id": "91a166cb4f84e506",
-      "source": "tix",
-      "date": "2026-10-22",
-      "end": null,
-      "sessions": null,
-      "title": "Azoterapia en Las Máscaras",
-      "venue": "Teatro Las Máscaras",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": null,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "https://tix.do/event/AzoterapiaenLasMascaras-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/AzoterapiaenLasMascaras-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/AzoterapiaenLasMascaras-1"
-        }
-      ]
-    },
-    {
-      "id": "23abd93b8bfa5412",
-      "source": "ticketmax",
-      "date": "2026-10-22",
-      "end": null,
-      "sessions": null,
-      "title": "ÍNTIMO CON LUCHY",
-      "venue": "Velvet Room",
-      "zone": "",
-      "cat": "Música",
-      "price": 1000,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [],
-      "description": "Íntimo con Luchy y Artista Invitados !!",
-      "ticketUrl": "https://ticketmax.org/evento/900046/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900046/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900046/"
-        }
-      ]
-    },
-    {
-      "id": "a2fc00cc5ddeaf3c",
-      "source": "jazz_en_dominicana",
-      "date": "2026-10-22",
-      "end": null,
-      "sessions": null,
-      "title": "Sandy Gabriel Jazz Residence",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Música",
-      "price": 0,
-      "price_max": null,
-      "time": "21:30",
-      "kids": false,
-      "tags": [
-        "jazz"
-      ],
-      "description": "Este jueves 22 continúa el Sandy Gabriel Jazz Residence. Su invitado especial será el reconocido Pavel Núñez. Sandy es acompañado por Rafa Payan en guitarra, Fito Morales en piano, David Almengod en percusión, y Jeremías King en bajo. Sandy Gabriel Jazz Residence at the Green R",
-      "ticketUrl": "https://tix.do/event/SANDYGABRIELJAZZRESIDENCEPAVELNUNEZ-1",
-      "srcName": "Jazz en Dominicana",
-      "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-18-al-24-de.html#2026-10-22-sandy-gabriel-jazz-residence",
-      "sources": [
-        {
-          "srcName": "Jazz en Dominicana",
-          "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-18-al-24-de.html#2026-10-22-sandy-gabriel-jazz-residence"
-        },
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/SANDYGABRIELJAZZRESIDENCEPAVELNUNEZ-1"
         }
       ]
     },
@@ -1280,6 +1140,32 @@
       ]
     },
     {
+      "id": "df13974be2583785",
+      "source": "ticketmax",
+      "date": "2026-10-29",
+      "end": null,
+      "sessions": null,
+      "title": "Dando Lata",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Cultura",
+      "price": 500,
+      "price_max": null,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://ticketmax.org/evento/900191/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900191/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900191/"
+        }
+      ]
+    },
+    {
       "id": "421e9a08599109cd",
       "source": "tix",
       "date": "2026-10-29",
@@ -1780,6 +1666,58 @@
       ]
     },
     {
+      "id": "28f7f0d9badb9275",
+      "source": "cce",
+      "date": "2026-10-31",
+      "end": null,
+      "sessions": null,
+      "title": "Miradas desde España",
+      "venue": "Cinemateca Nacional Dominicana",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "16:00",
+      "kids": false,
+      "tags": [],
+      "description": "Entrada libre hasta completar aforoPrograma Promoción y Difusión Cultural en el ExteriorLa Asociación Dominicana de Prensa y Crítica Cinematográfica (ADOPRESCI) propone el ciclo “Miradas de España” como una ventana sostenida al cine español, integrando obras contemporáneas y un c",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/miradas-desde-espa%C3%B1a",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/miradas-desde-espa%C3%B1a"
+        }
+      ]
+    },
+    {
+      "id": "8637975374380c9e",
+      "source": "cce",
+      "date": "2026-10-31",
+      "end": null,
+      "sessions": null,
+      "title": "Concierto de Palo Kañuto",
+      "venue": "Villa Mella, Comunidad de los Cleto",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [],
+      "description": "Entrada libre hasta completar aforoPrograma Derechos Humanos y Culturales",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/concierto-de-palo-ka%C3%B1uto%C2%A0",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/concierto-de-palo-ka%C3%B1uto%C2%A0"
+        }
+      ]
+    },
+    {
       "id": "5be9457515b13d90",
       "source": "ticketmax",
       "date": "2026-10-31",
@@ -1859,6 +1797,32 @@
         {
           "srcName": "SalsaVida",
           "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-11-01"
+        }
+      ]
+    },
+    {
+      "id": "bd22695d99d3e0f7",
+      "source": "ticketmax",
+      "date": "2026-11-01",
+      "end": null,
+      "sessions": null,
+      "title": "TECHY: UNA TEMPORADA CHULA",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Música",
+      "price": 2640,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "Por primera vez, Techy presenta las canciones de su álbum CHULA en vivo con banda completa, en un formato íntimo y de aforo muy limitado. Un show exclusivo donde el público no solo escucha — decide: elige en el momento qué canciones de CHULA y cuáles de los éxitos de siempre qui…",
+      "ticketUrl": "https://ticketmax.org/evento/900189/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900189/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900189/"
         }
       ]
     },
@@ -1971,6 +1935,32 @@
       ]
     },
     {
+      "id": "30a8bbea5ab552aa",
+      "source": "cce",
+      "date": "2026-11-05",
+      "end": null,
+      "sessions": null,
+      "title": "Espacios de ciudad, espacios interiores: La espacialidad en la poesía de René del Risco",
+      "venue": "Centro Cultural de España",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "21:00",
+      "kids": false,
+      "tags": [],
+      "description": "Imparte Marcos BlondaDirigido a todo público, especialmente interesados en la escrituraInscríbete antes del lunes 1 de noviembrerellenando este formulario con tus datosPrograma Fortalecimiento del espacio iberoamericano",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/espacios-de-ciudad-espacios-interiores-la-espacialidad-en-la-poes%C3%ADa-de-ren%C3%A9-del-risco",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/espacios-de-ciudad-espacios-interiores-la-espacialidad-en-la-poes%C3%ADa-de-ren%C3%A9-del-risco"
+        }
+      ]
+    },
+    {
       "id": "a80a543fd053b05c",
       "source": "ticketmax",
       "date": "2026-11-06",
@@ -2073,6 +2063,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/265957/"
+        }
+      ]
+    },
+    {
+      "id": "f229a4b2cfea7f39",
+      "source": "ticketmax",
+      "date": "2026-11-07",
+      "end": null,
+      "sessions": null,
+      "title": "Patricia Peña: Malgusto",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 2200,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "Patricia Peña regresa con MALGUSTO, el show de stand-up que ha conquistado al público por su mezcla de humor fino, confesiones atrevidas y una honestidad tan cruda que provoca carcajadas. En esta nueva función en Velvet Room, Patricia explora los malos gustos que todos hemos ten…",
+      "ticketUrl": "https://ticketmax.org/evento/900193/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900193/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900193/"
         }
       ]
     },

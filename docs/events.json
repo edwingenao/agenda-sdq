@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-23T15:19:21+00:00",
-  "today": "2026-10-23",
-  "count": 167,
+  "generated_at": "2026-10-24T14:09:52+00:00",
+  "today": "2026-10-24",
+  "count": 162,
   "events": [
     {
       "id": "f426f72dcdfe3f57",
@@ -99,32 +99,6 @@
       ]
     },
     {
-      "id": "34d498ef6cf6c988",
-      "source": "teatro_nacional",
-      "date": "2026-10-22",
-      "end": "2026-10-23",
-      "sessions": null,
-      "title": "Aquí a la sombra, Salomé",
-      "venue": "Sala Carlos Piantini, Teatro Nacional",
-      "zone": "Plaza de la Cultura",
-      "cat": "Teatro",
-      "price": 200,
-      "price_max": 200,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Lejos de una biografía tradicional, la obra se construye como una experiencia sensorial donde el cuerpo, la palabra y la música dialogan para explorar la memoria, la enfermedad, la maternidad, la educación y la patria. La puesta en escena propone un espacio ritual en el que pasad",
-      "ticketUrl": "https://boleteria.com.do/",
-      "srcName": "Teatro Nacional",
-      "srcUrl": "https://teatronacional.gob.do/events/aqui-a-la-sombra-salome/",
-      "sources": [
-        {
-          "srcName": "Teatro Nacional",
-          "srcUrl": "https://teatronacional.gob.do/events/aqui-a-la-sombra-salome/"
-        }
-      ]
-    },
-    {
       "id": "d65de3eea5468ab7",
       "source": "tix",
       "date": "2026-10-22",
@@ -217,7 +191,7 @@
       "time": "",
       "kids": false,
       "tags": [],
-      "description": "Comedia romántica con un divertido manejo del doble sentido. Narra la historia de dos jóvenes que debaten sobre la idea de casarse o no. Él quiere dar el paso, pero ella se niega rotundamente porque cree que el matrimonio destruirá la relación. Escrita y protagonizada por José M…",
+      "description": "Funciones: Viernes y Sábados 8:30 p.m. | Domingos 6:30 p.m. Una de las comedias románticas más aclamadas de la República Dominicana regresa renovada, más reflexiva y con mucha más risa.",
       "ticketUrl": "https://tix.do/event/VamosaHacerloParados-1",
       "srcName": "Teatro Las Máscaras",
       "srcUrl": "https://teatrolasmascaras.com/#vamos-hacerlo-parados",
@@ -225,222 +199,6 @@
         {
           "srcName": "Teatro Las Máscaras",
           "srcUrl": "https://teatrolasmascaras.com/#vamos-hacerlo-parados"
-        },
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/VamosaHacerloParados-1"
-        }
-      ]
-    },
-    {
-      "id": "3e3c26461d73b398",
-      "source": "cce",
-      "date": "2026-10-23",
-      "end": null,
-      "sessions": null,
-      "title": "En torno a \"La Sonrisa de Audrey Hepburn\"",
-      "venue": "Centro Cultural de España",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "17:00",
-      "kids": false,
-      "tags": [],
-      "description": "Coordina Fundación Espacios CulturalesEntrada libre hasta completar aforo",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/en-torno-a-la-sonrisa-de-audrey-hepburn-",
-      "sources": [
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/en-torno-a-la-sonrisa-de-audrey-hepburn-"
-        }
-      ]
-    },
-    {
-      "id": "ab59bca96dbc3d18",
-      "source": "cce",
-      "date": "2026-10-23",
-      "end": null,
-      "sessions": null,
-      "title": "Homenaje a Blanca Varela y Jaime Sabines",
-      "venue": "Centro Cultural de España",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "18:00",
-      "kids": false,
-      "tags": [],
-      "description": "Expositores Paolo De Lima,  María Baranda y Mateo MorrisonCoordina Fundación Espacios CulturalesEntrada libre hasta completar aforo",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/homenaje-a-blanca-varela-y-jaime-sabines",
-      "sources": [
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/homenaje-a-blanca-varela-y-jaime-sabines"
-        }
-      ]
-    },
-    {
-      "id": "e1714f11f42794c3",
-      "source": "cce",
-      "date": "2026-10-23",
-      "end": null,
-      "sessions": null,
-      "title": "Homenaje a Blanca Varela y Jaime Sabines",
-      "venue": "CCESD",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "18:00",
-      "kids": false,
-      "tags": [],
-      "description": "Expositores Paolo De Lima,  María Baranda y Mateo MorrisonCoordina Fundación Espacios CulturalesEntrada libre hasta completar aforo",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/homenaje-a-blanca-varela-y-jaime-sabines%C2%A0",
-      "sources": [
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/homenaje-a-blanca-varela-y-jaime-sabines%C2%A0"
-        }
-      ]
-    },
-    {
-      "id": "f9b49cb14319878e",
-      "source": "ticketmax",
-      "date": "2026-10-23",
-      "end": null,
-      "sessions": null,
-      "title": "Vino & Tinta 23.10.26 | 6:00 PM - 8:00 PM",
-      "venue": "Centro Cultural Casa Libros",
-      "zone": "",
-      "cat": "Arte",
-      "price": 300,
-      "price_max": null,
-      "time": "18:00",
-      "kids": true,
-      "tags": [
-        "formacion"
-      ],
-      "description": "🍷📖 ¡NO TODAS LAS HISTORIAS FUERON ESCRITAS PARA DEJARTE IGUAL! Hay cuentos que incomodan, versos que conmueven y palabras que despiertan emociones. Conoce a Omar Messon y Ramón Gil, en un encuentro cercano entre literatura, vino y conversaciones inolvidables. 📅 Viernes 23 de oct…",
-      "ticketUrl": "https://ticketmax.org/evento/900111/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900111/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900111/"
-        }
-      ]
-    },
-    {
-      "id": "7539ea877241e6c8",
-      "source": "ticketmax",
-      "date": "2026-10-23",
-      "end": null,
-      "sessions": null,
-      "title": "ALEX SUAREZ EN CONCIERTO",
-      "venue": "Ferro Café",
-      "zone": "",
-      "cat": "Música",
-      "price": 1000,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "https://ticketmax.org/evento/900041/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900041/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900041/"
-        }
-      ]
-    },
-    {
-      "id": "1916d3a1f0628a8e",
-      "source": "ticketmax",
-      "date": "2026-10-23",
-      "end": null,
-      "sessions": null,
-      "title": "EMIGRAR ES ARRECHO: MARIA VILLALOBOS",
-      "venue": "Velvet Room",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 1500,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "https://ticketmax.org/evento/900007/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900007/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900007/"
-        }
-      ]
-    },
-    {
-      "id": "d267effdbf007cc4",
-      "source": "jazz_en_dominicana",
-      "date": "2026-10-23",
-      "end": null,
-      "sessions": null,
-      "title": "Fiesta Sunset Jazz presenta al Frómeta-Mirabal-Sang-Estrada Quartet Los 20 de Jazz",
-      "venue": "Dominican Fiesta Hotel & Casino",
-      "zone": "Mirador Sur",
-      "cat": "Música",
-      "price": 0,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [
-        "jazz"
-      ],
-      "description": "A finales de octubre del 2006 nació Jazz en Dominicana; y fue hasta de una manera poética, naciendo de una inconformidad al asistir a un evento de jazz. Me explico. Sentado solo – escuchando y disfrutando de un solo de Jazz - en el espacio ¨Cuando el Bar es Teatro¨ en el Teatro N",
-      "ticketUrl": "",
-      "srcName": "Jazz en Dominicana",
-      "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-18-al-24-de.html#2026-10-23-fiesta-sunset-jazz-presenta-al-fro-meta-mirabal-sa",
-      "sources": [
-        {
-          "srcName": "Jazz en Dominicana",
-          "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-18-al-24-de.html#2026-10-23-fiesta-sunset-jazz-presenta-al-fro-meta-mirabal-sa"
-        }
-      ]
-    },
-    {
-      "id": "805fff289238c3aa",
-      "source": "ticketmax",
-      "date": "2026-10-23",
-      "end": null,
-      "sessions": null,
-      "title": "Cupido está borracho - Show de stand up comedy / improv - Krystal Taveras",
-      "venue": "Velvet Room",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 700,
-      "price_max": null,
-      "time": "22:00",
-      "kids": false,
-      "tags": [],
-      "description": "💘 CUPIDO ESTÁ BORRACHO 💘 ¿Alguna vez te has preguntado si encontrar pareja hoy en día es realmente tan difícil… o si simplemente Cupido está demasiado tomado para apuntar bien? En este show, Krystal Taveras mezcla stand up comedy e improvisación teatral para hablar de esas citas…",
-      "ticketUrl": "https://ticketmax.org/evento/264538/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/264538/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/264538/"
         }
       ]
     },
@@ -493,6 +251,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/StellarXFrequencies-1"
+        }
+      ]
+    },
+    {
+      "id": "b0ca293db52c895e",
+      "source": "tix",
+      "date": "2026-10-24",
+      "end": "2026-11-01",
+      "sessions": null,
+      "title": "Vamos a Hacerlo Parados",
+      "venue": "Teatro Las Máscaras",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Comedia romántica con un divertido manejo del doble sentido. Narra la historia de dos jóvenes que debaten sobre la idea de casarse o no. Él quiere dar el paso, pero ella se niega rotundamente porque cree que el matrimonio destruirá la relación. Escrita y protagonizada por José M…",
+      "ticketUrl": "https://tix.do/event/VamosaHacerloParados-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/VamosaHacerloParados-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/VamosaHacerloParados-1"
         }
       ]
     },
@@ -1166,25 +950,31 @@
       ]
     },
     {
-      "id": "421e9a08599109cd",
-      "source": "tix",
+      "id": "fec2573d7a390e3b",
+      "source": "jazz_en_dominicana",
       "date": "2026-10-29",
       "end": null,
       "sessions": null,
-      "title": "JAZZ NIGHT",
+      "title": "Jazz Night",
       "venue": "The Green Room",
       "zone": "Piantini",
       "cat": "Música",
-      "price": null,
+      "price": 0,
       "price_max": null,
       "time": "21:30",
       "kids": false,
-      "tags": [],
-      "description": "",
+      "tags": [
+        "jazz"
+      ],
+      "description": "El jazz vuelve a encender, cada jueves, la noche de Jazz que ofrece The Green Room. Este jueves 24 con The Green Room Band. Jazz Night at The Green Room, cada jueves a partir de las 9:30PM en The Green Room en la Calle Andrés Julio Aybar 17 segundo piso, del Ensanche Piantini. No",
       "ticketUrl": "https://tix.do/event/JAZZNIGHT-25",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/JAZZNIGHT-25",
+      "srcName": "Jazz en Dominicana",
+      "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-25-al-31-de.html#2026-10-29-jazz-night",
       "sources": [
+        {
+          "srcName": "Jazz en Dominicana",
+          "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-25-al-31-de.html#2026-10-29-jazz-night"
+        },
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/JAZZNIGHT-25"
@@ -1400,6 +1190,34 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/NachoRedondoTerapiadeGrupo700PM-3"
+        }
+      ]
+    },
+    {
+      "id": "4daccc3eab2f3bf9",
+      "source": "jazz_en_dominicana",
+      "date": "2026-10-30",
+      "end": null,
+      "sessions": null,
+      "title": "Jordi Masalles, Tiempo Libre & Friends festejando los 20 de Jazz",
+      "venue": "Dominican Fiesta Hotel & Casino",
+      "zone": "Mirador Sur",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [
+        "jazz"
+      ],
+      "description": "Jazz en Dominicana acaba de cumplir sus 20 …. y la fiesta continúa!! Para los músicos y los amantes de la música, la mejor manera de celebrar es, bueno, con músicos tocando y amantes de la música degustando del banquete! Este viernes 30 se dará cierre a las presentaciones del mes",
+      "ticketUrl": "",
+      "srcName": "Jazz en Dominicana",
+      "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-25-al-31-de.html#2026-10-30-jordi-masalles-tiempo-libre-friends-festejando-los",
+      "sources": [
+        {
+          "srcName": "Jazz en Dominicana",
+          "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-25-al-31-de.html#2026-10-30-jordi-masalles-tiempo-libre-friends-festejando-los"
         }
       ]
     },
@@ -1849,6 +1667,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/ThrowbacktoRock70sand80sCorodeSantoDomingoPrimadadeAmerica-1"
+        }
+      ]
+    },
+    {
+      "id": "c83b60374d772e7c",
+      "source": "cce",
+      "date": "2026-11-03",
+      "end": null,
+      "sessions": null,
+      "title": "Futuras ancestras: La obra de Denisse Español",
+      "venue": "Centro Cultural de España",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": 0,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "Presenta Proyecto AnticanonImparte Amarilis CuetoModera Arlene SabarisEntrada Libre hasta completar aforoPrograma Fortalecimiento del Espacio LatinoamericanoFuturas Ancestras propone construir un espacio de encuentro y lectura entre autoras dominicanas contemporáneas que promueva",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/futuras-ancestras-la-obra-de-denisse-espa%C3%B1ol%C2%A0",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/futuras-ancestras-la-obra-de-denisse-espa%C3%B1ol%C2%A0"
         }
       ]
     },
@@ -2508,6 +2352,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/OlgaCerpaandMestisayMusicadelasIslasCanarias-1"
+        }
+      ]
+    },
+    {
+      "id": "3ff9a00589854853",
+      "source": "tix",
+      "date": "2026-11-13",
+      "end": "2026-11-29",
+      "sessions": null,
+      "title": "Señora, ¿me presta su marido?",
+      "venue": "Teatro Las Máscaras",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "¿Se puede prestar lo que se ama... o el matrimonio requiere de un alerta al buen sentido para sobrevivir? 💍✨ Regresa a las tablas de Teatro Las Máscaras «Señora, ¿me presta su marido?», una comedia imperdible que combina el humor fino, la chispa de la convivencia diaria y reflex…",
+      "ticketUrl": "https://tix.do/event/Senorameprestasumarido-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/Senorameprestasumarido-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/Senorameprestasumarido-1"
         }
       ]
     },

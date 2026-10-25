@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-24T14:09:52+00:00",
-  "today": "2026-10-24",
-  "count": 162,
+  "generated_at": "2026-10-25T14:33:02+00:00",
+  "today": "2026-10-25",
+  "count": 158,
   "events": [
     {
       "id": "f426f72dcdfe3f57",
@@ -125,58 +125,6 @@
       ]
     },
     {
-      "id": "47ae51e7f00f6308",
-      "source": "teatro_nacional",
-      "date": "2026-10-23",
-      "end": "2026-10-24",
-      "sessions": null,
-      "title": "El beso de la mujer araña",
-      "venue": "Sala José de Jesus Ravelo, Teatro Nacional",
-      "zone": "Plaza de la Cultura",
-      "cat": "Teatro",
-      "price": 200,
-      "price_max": 200,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "El beso de la mujer araña narra la relación entre Valentín, un preso político, y Molina, un homosexual encarcelado, quienes comparten celda en una prisión opresiva. A medida que pasan los días, Molina le cuenta a Valentín películas que ha visto para escapar del dolor y crear un m",
-      "ticketUrl": "https://boleteria.com.do/",
-      "srcName": "Teatro Nacional",
-      "srcUrl": "https://teatronacional.gob.do/events/el-beso-de-la-mujer-arana/",
-      "sources": [
-        {
-          "srcName": "Teatro Nacional",
-          "srcUrl": "https://teatronacional.gob.do/events/el-beso-de-la-mujer-arana/"
-        }
-      ]
-    },
-    {
-      "id": "6b5febb311376432",
-      "source": "tix",
-      "date": "2026-10-23",
-      "end": "2026-10-24",
-      "sessions": null,
-      "title": "VALENTINA | EN CONCIERTO",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "concierto en vivo en santo domingo :)",
-      "ticketUrl": "https://tix.do/event/valentinatickets",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/valentinatickets",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/valentinatickets"
-        }
-      ]
-    },
-    {
       "id": "7e0fde7b529a5965",
       "source": "teatro_las_mascaras",
       "date": "2026-10-23",
@@ -199,32 +147,6 @@
         {
           "srcName": "Teatro Las Máscaras",
           "srcUrl": "https://teatrolasmascaras.com/#vamos-hacerlo-parados"
-        }
-      ]
-    },
-    {
-      "id": "c847ea28e470239c",
-      "source": "teatro_nacional",
-      "date": "2026-10-24",
-      "end": null,
-      "sessions": null,
-      "title": "David Bisbal Tour Eternos 2026",
-      "venue": "Sala Carlos Piantini, Teatro Nacional",
-      "zone": "Plaza de la Cultura",
-      "cat": "Música",
-      "price": 9500,
-      "price_max": 12000,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "David Bisbal, uno de los artistas hispanos más reconocidos y queridos a nivel internacional, regresa con más fuerza que nunca con “Tour Eternos 2026”, una gira que marca un nuevo rumbo en su carrera, con un espectáculo renovado, cargado de emoción, en el que presentará en directo",
-      "ticketUrl": "https://boleteria.com.do/",
-      "srcName": "Teatro Nacional",
-      "srcUrl": "https://teatronacional.gob.do/events/david-bisbal-tour-eternos-2026/",
-      "sources": [
-        {
-          "srcName": "Teatro Nacional",
-          "srcUrl": "https://teatronacional.gob.do/events/david-bisbal-tour-eternos-2026/"
         }
       ]
     },
@@ -255,84 +177,6 @@
       ]
     },
     {
-      "id": "b0ca293db52c895e",
-      "source": "tix",
-      "date": "2026-10-24",
-      "end": "2026-11-01",
-      "sessions": null,
-      "title": "Vamos a Hacerlo Parados",
-      "venue": "Teatro Las Máscaras",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Comedia romántica con un divertido manejo del doble sentido. Narra la historia de dos jóvenes que debaten sobre la idea de casarse o no. Él quiere dar el paso, pero ella se niega rotundamente porque cree que el matrimonio destruirá la relación. Escrita y protagonizada por José M…",
-      "ticketUrl": "https://tix.do/event/VamosaHacerloParados-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/VamosaHacerloParados-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/VamosaHacerloParados-1"
-        }
-      ]
-    },
-    {
-      "id": "93c36f4ad45a5bbf",
-      "source": "cce",
-      "date": "2026-10-24",
-      "end": null,
-      "sessions": null,
-      "title": "Membranófonos del verano",
-      "venue": "Centro Cultural de España",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [],
-      "description": "Entrada libre hasta completar aforoPrograma Fortalecimiento del espacio cultural IberoamericanoDrumayor presenta un repertorio musical de la más variada representación del arte tradicional basado en las investigaciones de campo de su director, el antropólogo y percusionista Edis ",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/membran%C3%B3fonos-del-verano",
-      "sources": [
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/membran%C3%B3fonos-del-verano"
-        }
-      ]
-    },
-    {
-      "id": "b381de44f2ab61f4",
-      "source": "tix",
-      "date": "2026-10-24",
-      "end": null,
-      "sessions": null,
-      "title": "BLUES BLUES BLUES",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "21:30",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "https://tix.do/event/BLUESBLUESBLUES-2",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/BLUESBLUESBLUES-2",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/BLUESBLUESBLUES-2"
-        }
-      ]
-    },
-    {
       "id": "9d2195fae988268a",
       "source": "teatro_nacional",
       "date": "2026-10-25",
@@ -355,6 +199,32 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/la-boda-de-frank-y-mechy/"
+        }
+      ]
+    },
+    {
+      "id": "b0ca293db52c895e",
+      "source": "tix",
+      "date": "2026-10-25",
+      "end": "2026-11-01",
+      "sessions": null,
+      "title": "Vamos a Hacerlo Parados",
+      "venue": "Teatro Las Máscaras",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Comedia romántica con un divertido manejo del doble sentido. Narra la historia de dos jóvenes que debaten sobre la idea de casarse o no. Él quiere dar el paso, pero ella se niega rotundamente porque cree que el matrimonio destruirá la relación. Escrita y protagonizada por José M…",
+      "ticketUrl": "https://tix.do/event/VamosaHacerloParados-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/VamosaHacerloParados-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/VamosaHacerloParados-1"
         }
       ]
     },
@@ -1892,7 +1762,7 @@
       "venue": "Biblioteca Pedro Mir, Auditorio Manuel Del Cabral",
       "zone": "",
       "cat": "Teatro",
-      "price": 4000,
+      "price": 2500,
       "price_max": null,
       "time": "08:00",
       "kids": false,
@@ -2356,25 +2226,29 @@
       ]
     },
     {
-      "id": "3ff9a00589854853",
-      "source": "tix",
+      "id": "27fd3306c86532bc",
+      "source": "teatro_las_mascaras",
       "date": "2026-11-13",
       "end": "2026-11-29",
       "sessions": null,
-      "title": "Señora, ¿me presta su marido?",
+      "title": "Señora, ¿Me Presta su Marido?",
       "venue": "Teatro Las Máscaras",
       "zone": "Ciudad Colonial",
       "cat": "Teatro",
-      "price": null,
-      "price_max": null,
+      "price": 875,
+      "price_max": 875,
       "time": "",
       "kids": false,
       "tags": [],
       "description": "¿Se puede prestar lo que se ama... o el matrimonio requiere de un alerta al buen sentido para sobrevivir? 💍✨ Regresa a las tablas de Teatro Las Máscaras «Señora, ¿me presta su marido?», una comedia imperdible que combina el humor fino, la chispa de la convivencia diaria y reflex…",
       "ticketUrl": "https://tix.do/event/Senorameprestasumarido-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/Senorameprestasumarido-1",
+      "srcName": "Teatro Las Máscaras",
+      "srcUrl": "https://teatrolasmascaras.com/#senora-me-presta-su-marido",
       "sources": [
+        {
+          "srcName": "Teatro Las Máscaras",
+          "srcUrl": "https://teatrolasmascaras.com/#senora-me-presta-su-marido"
+        },
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/Senorameprestasumarido-1"
@@ -3121,6 +2995,35 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/JuanmasJazzyChristmasAnIntimateCelebration-1"
+        }
+      ]
+    },
+    {
+      "id": "ab40d805b00fbad9",
+      "source": "recurring",
+      "date": "2026-11-22",
+      "end": null,
+      "sessions": null,
+      "title": "Domingos de Bonyé",
+      "venue": "Ruinas de San Francisco, calle Hostos, Zona Colonial",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [
+        "cultura",
+        "serie"
+      ],
+      "description": "Música en vivo al aire libre con el grupo Bonyé: tambora, son, salsa y merengue.",
+      "ticketUrl": "",
+      "srcName": "SalsaVida",
+      "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-11-22",
+      "sources": [
+        {
+          "srcName": "SalsaVida",
+          "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-11-22"
         }
       ]
     },

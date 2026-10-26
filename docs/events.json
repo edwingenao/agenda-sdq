@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-25T14:33:02+00:00",
-  "today": "2026-10-25",
-  "count": 158,
+  "generated_at": "2026-10-26T16:56:26+00:00",
+  "today": "2026-10-26",
+  "count": 154,
   "events": [
     {
       "id": "f426f72dcdfe3f57",
@@ -151,32 +151,6 @@
       ]
     },
     {
-      "id": "53513d30b353dbbd",
-      "source": "tix",
-      "date": "2026-10-24",
-      "end": "2026-10-25",
-      "sessions": null,
-      "title": "STELLAR X FREQUENCIES VOL.3",
-      "venue": "Lucia SDQ",
-      "zone": "",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Frequencies vol.3 👻 📅 October 24 ⌛️ Starting at 10:00 PM 🥂 Open Bar 🔞 N.R.D.A 18+ PHYSICAL ID REQUIRED INFO AND RSVP: (829) 775-8254 | (829) 761-3529 To reserve a table, a minimum deposit of 50% is required. (Non-refundable) @stellarprodrd DISCLAIMER: By purchasing tickets for t…",
-      "ticketUrl": "https://tix.do/event/StellarXFrequencies-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/StellarXFrequencies-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/StellarXFrequencies-1"
-        }
-      ]
-    },
-    {
       "id": "9d2195fae988268a",
       "source": "teatro_nacional",
       "date": "2026-10-25",
@@ -199,165 +173,6 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/la-boda-de-frank-y-mechy/"
-        }
-      ]
-    },
-    {
-      "id": "b0ca293db52c895e",
-      "source": "tix",
-      "date": "2026-10-25",
-      "end": "2026-11-01",
-      "sessions": null,
-      "title": "Vamos a Hacerlo Parados",
-      "venue": "Teatro Las Máscaras",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Comedia romántica con un divertido manejo del doble sentido. Narra la historia de dos jóvenes que debaten sobre la idea de casarse o no. Él quiere dar el paso, pero ella se niega rotundamente porque cree que el matrimonio destruirá la relación. Escrita y protagonizada por José M…",
-      "ticketUrl": "https://tix.do/event/VamosaHacerloParados-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/VamosaHacerloParados-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/VamosaHacerloParados-1"
-        }
-      ]
-    },
-    {
-      "id": "0b20cd7982a34ae1",
-      "source": "tix",
-      "date": "2026-10-25",
-      "end": null,
-      "sessions": null,
-      "title": "The Brow Place Miami Experience X Casas del Siglo XVI Vignette Collection",
-      "venue": "C. 19 de Marzo 113",
-      "zone": "",
-      "cat": "Cultura",
-      "price": null,
-      "price_max": null,
-      "time": "08:30",
-      "kids": false,
-      "tags": [],
-      "description": "THE BROW PLACE MIAMI EXPERIENCE X CASAS DEL SIGLO XVI VIGNETTE COLLECTION Join us for a morning of movement, wellness, fashion and beauty at Casas del Siglo XVI in Zona Colonial. YOUR TICKET INCLUDES • Pilates, Sculpt & Yoga • A sensory pause • A runway show & jewelry showcase •…",
-      "ticketUrl": "https://tix.do/event/TheBrowPlaceMiamiExperienceXCasasdelSigloXVIVignetteCollection-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/TheBrowPlaceMiamiExperienceXCasasdelSigloXVIVignetteCollection-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/TheBrowPlaceMiamiExperienceXCasasdelSigloXVIVignetteCollection-1"
-        }
-      ]
-    },
-    {
-      "id": "bdbd42fd680104df",
-      "source": "tix",
-      "date": "2026-10-25",
-      "end": null,
-      "sessions": null,
-      "title": "THE ART MARKET: POP UP",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Cultura",
-      "price": null,
-      "price_max": null,
-      "time": "16:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "https://tix.do/event/THEARTMARKETPOPUP-2",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/THEARTMARKETPOPUP-2",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/THEARTMARKETPOPUP-2"
-        }
-      ]
-    },
-    {
-      "id": "5d15402f6b583d42",
-      "source": "tix",
-      "date": "2026-10-25",
-      "end": null,
-      "sessions": null,
-      "title": "MATINE DE SALSA",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "17:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "https://tix.do/event/MATINEDESALSA-16",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/MATINEDESALSA-16",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/MATINEDESALSA-16"
-        }
-      ]
-    },
-    {
-      "id": "c0d2806841447cd8",
-      "source": "recurring",
-      "date": "2026-10-25",
-      "end": null,
-      "sessions": null,
-      "title": "Domingos de Bonyé",
-      "venue": "Ruinas de San Francisco, calle Hostos, Zona Colonial",
-      "zone": "Ciudad Colonial",
-      "cat": "Música",
-      "price": 0,
-      "price_max": null,
-      "time": "18:00",
-      "kids": false,
-      "tags": [
-        "cultura",
-        "serie"
-      ],
-      "description": "Música en vivo al aire libre con el grupo Bonyé: tambora, son, salsa y merengue.",
-      "ticketUrl": "",
-      "srcName": "SalsaVida",
-      "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-10-25",
-      "sources": [
-        {
-          "srcName": "SalsaVida",
-          "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-10-25"
-        }
-      ]
-    },
-    {
-      "id": "04f086c39b531572",
-      "source": "tix",
-      "date": "2026-10-25",
-      "end": null,
-      "sessions": null,
-      "title": "SANTO DOMINGO POLE SHOW",
-      "venue": "Pabellon de la Fama del Deporte Dominicano",
-      "zone": "",
-      "cat": "Cultura",
-      "price": null,
-      "price_max": null,
-      "time": "18:00",
-      "kids": false,
-      "tags": [],
-      "description": "¡Vuelve el #SantoDomingoPoleShow en su 4.ª edición! ✨ Una noche para celebrar el pole dance en todas sus expresiones. Más de 40 artistas, un escenario y un espectáculo creado para sorprenderte. 📅 25 de octubre de 2026 📍 Pabellón de la Fama del Deporte Dominicano 👨‍👩‍👧‍👦 Apto par…",
-      "ticketUrl": "https://tix.do/event/SANTODOMINGOPOLESHOW-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/SANTODOMINGOPOLESHOW-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/SANTODOMINGOPOLESHOW-1"
         }
       ]
     },
@@ -412,6 +227,32 @@
         {
           "srcName": "DGCINE",
           "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "b0ca293db52c895e",
+      "source": "tix",
+      "date": "2026-10-26",
+      "end": "2026-11-01",
+      "sessions": null,
+      "title": "Vamos a Hacerlo Parados",
+      "venue": "Teatro Las Máscaras",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Comedia romántica con un divertido manejo del doble sentido. Narra la historia de dos jóvenes que debaten sobre la idea de casarse o no. Él quiere dar el paso, pero ella se niega rotundamente porque cree que el matrimonio destruirá la relación. Escrita y protagonizada por José M…",
+      "ticketUrl": "https://tix.do/event/VamosaHacerloParados-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/VamosaHacerloParados-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/VamosaHacerloParados-1"
         }
       ]
     },
@@ -1460,6 +1301,32 @@
       ]
     },
     {
+      "id": "534bc25fb2ed5281",
+      "source": "tix",
+      "date": "2026-11-01",
+      "end": null,
+      "sessions": null,
+      "title": "MATINE DE SALSA",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "17:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://tix.do/event/MATINEDESALSA-17",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/MATINEDESALSA-17",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/MATINEDESALSA-17"
+        }
+      ]
+    },
+    {
       "id": "39095ce0901af3b4",
       "source": "recurring",
       "date": "2026-11-01",
@@ -1786,7 +1653,7 @@
       "date": "2026-11-07",
       "end": null,
       "sessions": null,
-      "title": "Patricia Peña: Malgusto",
+      "title": "Patricia Peña: Mal Gusto",
       "venue": "Velvet Room",
       "zone": "",
       "cat": "Teatro",
@@ -2681,6 +2548,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/ElTomatazo-12"
+        }
+      ]
+    },
+    {
+      "id": "4360d53c06c2c1a8",
+      "source": "ticketmax",
+      "date": "2026-11-18",
+      "end": null,
+      "sessions": null,
+      "title": "Un Candidato Ideal",
+      "venue": "Teatro Guloya",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 500,
+      "price_max": null,
+      "time": "20:00",
+      "kids": true,
+      "tags": [],
+      "description": "¿Y si el poder estuviera en las manos equivocadas? Las apariencias engañan, las cartas se juegan y cada quien tiene sus propias intenciones… ¿Será realmente un candidato ideal? DRAMATIKAS TEATRO presenta: UN CANDIDATO IDEAL. Una comedia para toda la familia.",
+      "ticketUrl": "https://ticketmax.org/evento/900200/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900200/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900200/"
         }
       ]
     },

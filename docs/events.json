@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-26T16:56:26+00:00",
-  "today": "2026-10-26",
-  "count": 154,
+  "generated_at": "2026-10-27T16:01:34+00:00",
+  "today": "2026-10-27",
+  "count": 168,
   "events": [
     {
       "id": "f426f72dcdfe3f57",
@@ -203,60 +203,6 @@
       ]
     },
     {
-      "id": "fa9c28d643ffa80e",
-      "source": "recurring",
-      "date": "2026-10-26",
-      "end": null,
-      "sessions": null,
-      "title": "EUROCINE 2026",
-      "venue": "Caribbean Cinemas, Galería 360",
-      "zone": "",
-      "cat": "Cine",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [
-        "serie"
-      ],
-      "description": "Festival de cine europeo contemporáneo: 15 películas de distintos países de Europa.",
-      "ticketUrl": "",
-      "srcName": "DGCINE",
-      "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-26",
-      "sources": [
-        {
-          "srcName": "DGCINE",
-          "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-26"
-        }
-      ]
-    },
-    {
-      "id": "b0ca293db52c895e",
-      "source": "tix",
-      "date": "2026-10-26",
-      "end": "2026-11-01",
-      "sessions": null,
-      "title": "Vamos a Hacerlo Parados",
-      "venue": "Teatro Las Máscaras",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Comedia romántica con un divertido manejo del doble sentido. Narra la historia de dos jóvenes que debaten sobre la idea de casarse o no. Él quiere dar el paso, pero ella se niega rotundamente porque cree que el matrimonio destruirá la relación. Escrita y protagonizada por José M…",
-      "ticketUrl": "https://tix.do/event/VamosaHacerloParados-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/VamosaHacerloParados-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/VamosaHacerloParados-1"
-        }
-      ]
-    },
-    {
       "id": "e17232004dcd4fb8",
       "source": "recurring",
       "date": "2026-10-27",
@@ -335,6 +281,32 @@
         {
           "srcName": "Ministerio de Cultura (SIC)",
           "srcUrl": "https://sic.cultura.gob.do/agenda/evento/43"
+        }
+      ]
+    },
+    {
+      "id": "cc94ed0f76e9057c",
+      "source": "zona_colonial",
+      "date": "2026-10-27",
+      "end": null,
+      "sessions": null,
+      "title": "Cine Clásico — “Ley y Justicia”",
+      "venue": "Centro Cultural Banreservas",
+      "zone": "Ciudad Colonial",
+      "cat": "Cine",
+      "price": 0,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/cine-clasico-ley-y-justicia/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/cine-clasico-ley-y-justicia/"
         }
       ]
     },
@@ -419,6 +391,32 @@
       ]
     },
     {
+      "id": "d0a55b51a463b1d7",
+      "source": "zona_colonial",
+      "date": "2026-10-28",
+      "end": null,
+      "sessions": null,
+      "title": "Sesión solemne de ingreso como miembro correspondiente nacional de Miguel Decamps",
+      "venue": "OCT",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/sesion-solemne-de-ingreso-como-miembro-correspondiente-nacional-de-miguel-decamps/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/sesion-solemne-de-ingreso-como-miembro-correspondiente-nacional-de-miguel-decamps/"
+        }
+      ]
+    },
+    {
       "id": "7a2596235fbeb03a",
       "source": "ticketmax",
       "date": "2026-10-28",
@@ -473,6 +471,32 @@
       ]
     },
     {
+      "id": "11386859053c8721",
+      "source": "zona_colonial",
+      "date": "2026-10-28",
+      "end": null,
+      "sessions": null,
+      "title": "Mis Cuadernos | Una vida dedicada al arte",
+      "venue": "Quinta Dominica",
+      "zone": "Ciudad Colonial",
+      "cat": "Arte",
+      "price": 0,
+      "price_max": null,
+      "time": "19:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/mis-cuadernos-una-vida-dedicada-al-arte/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/mis-cuadernos-una-vida-dedicada-al-arte/"
+        }
+      ]
+    },
+    {
       "id": "dcfff4a55511fa7d",
       "source": "teatro_nacional",
       "date": "2026-10-29",
@@ -495,6 +519,32 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/esperando-a-odiseo/"
+        }
+      ]
+    },
+    {
+      "id": "2f4ea1c6b2c7edb2",
+      "source": "zona_colonial",
+      "date": "2026-10-29",
+      "end": null,
+      "sessions": null,
+      "title": "Cocorícamo. Cartografías desde el sur (Primera exposición individual)",
+      "venue": "Centro Cultural Banreservas",
+      "zone": "Ciudad Colonial",
+      "cat": "Arte",
+      "price": 0,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/cocoricamo-cartografias-desde-el-sur-primera-exposicion-individual/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/cocoricamo-cartografias-desde-el-sur-primera-exposicion-individual/"
         }
       ]
     },
@@ -534,8 +584,8 @@
       "venue": "Jardin Secreto",
       "zone": "",
       "cat": "Arte",
-      "price": 800,
-      "price_max": 1100,
+      "price": 600,
+      "price_max": 1600,
       "time": "19:00",
       "kids": false,
       "tags": [],
@@ -851,6 +901,32 @@
       ]
     },
     {
+      "id": "b0ca293db52c895e",
+      "source": "tix",
+      "date": "2026-10-30",
+      "end": "2026-11-01",
+      "sessions": null,
+      "title": "Vamos a Hacerlo Parados",
+      "venue": "Teatro Las Máscaras",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Comedia romántica con un divertido manejo del doble sentido. Narra la historia de dos jóvenes que debaten sobre la idea de casarse o no. Él quiere dar el paso, pero ella se niega rotundamente porque cree que el matrimonio destruirá la relación. Escrita y protagonizada por José M…",
+      "ticketUrl": "https://tix.do/event/VamosaHacerloParados-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/VamosaHacerloParados-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/VamosaHacerloParados-1"
+        }
+      ]
+    },
+    {
       "id": "2a4dc4c3e2d43eef",
       "source": "ticketmax",
       "date": "2026-10-30",
@@ -901,6 +977,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/NachoRedondoTerapiadeGrupo700PM-3"
+        }
+      ]
+    },
+    {
+      "id": "5b4a1ae670546ef5",
+      "source": "zona_colonial",
+      "date": "2026-10-30",
+      "end": null,
+      "sessions": null,
+      "title": "Tertulias ADHA — “De barro y fuego: Permanencia y memoria”",
+      "venue": "Centro Cultural Banreservas",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/tertulias-adha-de-barro-y-fuego-permanencia-y-memoria/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/tertulias-adha-de-barro-y-fuego-permanencia-y-memoria/"
         }
       ]
     },
@@ -981,6 +1083,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/MichaelJacksonTheLiveExperienceorFullBand100percentenVivoImitador-1"
+        }
+      ]
+    },
+    {
+      "id": "a1c4760ce61a3793",
+      "source": "zona_colonial",
+      "date": "2026-10-30",
+      "end": null,
+      "sessions": null,
+      "title": "ALCANTARILLA DE LAS ATARAZANAS REALES",
+      "venue": "OCT",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 1300,
+      "price_max": 1300,
+      "time": "21:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/alcantarilla-de-las-atarazanas-reales-3/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/alcantarilla-de-las-atarazanas-reales-3/"
         }
       ]
     },
@@ -1169,6 +1297,32 @@
       ]
     },
     {
+      "id": "2ee9ad1439dd7298",
+      "source": "zona_colonial",
+      "date": "2026-10-31",
+      "end": null,
+      "sessions": null,
+      "title": "Taller de Teatro Infantil",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": 0,
+      "price_max": null,
+      "time": "10:00",
+      "kids": true,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/taller-de-teatro-infantil/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/taller-de-teatro-infantil/"
+        }
+      ]
+    },
+    {
       "id": "cca3564b45534e3e",
       "source": "ticketmax",
       "date": "2026-10-31",
@@ -1243,6 +1397,32 @@
         {
           "srcName": "Centro Cultural de España",
           "srcUrl": "https://ccesd.aecid.es/w/concierto-de-palo-ka%C3%B1uto%C2%A0"
+        }
+      ]
+    },
+    {
+      "id": "803a4c7bc0d3a216",
+      "source": "zona_colonial",
+      "date": "2026-10-31",
+      "end": null,
+      "sessions": null,
+      "title": "Historias de la Ciudad Antigua",
+      "venue": "OCT",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 6000,
+      "price_max": 6000,
+      "time": "18:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/historias-de-la-ciudad-antigua/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/historias-de-la-ciudad-antigua/"
         }
       ]
     },
@@ -1434,6 +1614,58 @@
       ]
     },
     {
+      "id": "6218085d18f7e65e",
+      "source": "tix",
+      "date": "2026-11-03",
+      "end": null,
+      "sessions": null,
+      "title": "Comedia Local: Michel Pentón, Laura Nanita y Demailyn",
+      "venue": "Local 3 : Calle Max. Herriquez Ureña 33",
+      "zone": "",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "21:00",
+      "kids": false,
+      "tags": [],
+      "description": "Comedia Local presenta a Michel Pentón (desde Cuba), a Laura Nanita y a Demailyn en una noche de risas y carcajadas sin precedentes . No te lo pierdas",
+      "ticketUrl": "https://tix.do/event/ComediaLocalMichelPentonLauraNanitayDemailyn-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/ComediaLocalMichelPentonLauraNanitayDemailyn-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/ComediaLocalMichelPentonLauraNanitayDemailyn-1"
+        }
+      ]
+    },
+    {
+      "id": "65608b6fbeb6c6f2",
+      "source": "zona_colonial",
+      "date": "2026-11-04",
+      "end": null,
+      "sessions": null,
+      "title": "CENTINELA: De lo Invisible a lo Fecundo",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/centinela-de-lo-invisible-a-lo-fecundo/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/centinela-de-lo-invisible-a-lo-fecundo/"
+        }
+      ]
+    },
+    {
       "id": "6eff35ff9fb23914",
       "source": "teatro_nacional",
       "date": "2026-11-04",
@@ -1486,6 +1718,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/BingoSolidarioADOSID-1"
+        }
+      ]
+    },
+    {
+      "id": "15a4fdb26071cc0b",
+      "source": "zona_colonial",
+      "date": "2026-11-05",
+      "end": null,
+      "sessions": null,
+      "title": "Taller de Dramaturgia: Desde el cuerpo y hacia el cuerpo",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": 4000,
+      "price_max": 4000,
+      "time": "18:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/taller-de-dramaturgia-desde-el-cuerpo-y-hacia-el-cuerpo/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/taller-de-dramaturgia-desde-el-cuerpo-y-hacia-el-cuerpo/"
         }
       ]
     },
@@ -2231,6 +2489,32 @@
       ]
     },
     {
+      "id": "ac5c6cecc41eb716",
+      "source": "zona_colonial",
+      "date": "2026-11-13",
+      "end": null,
+      "sessions": null,
+      "title": "🌺 ¡MÚSICA DE LAS ISLAS CANARIAS EN EL CORAZÓN DE LA ZONA COLONIAL! 🎶✨",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "21:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/%f0%9f%8c%ba-musica-de-las-islas-canarias-en-el-corazon-de-la-zona-colonial-%f0%9f%8e%b6%e2%9c%a8/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/%f0%9f%8c%ba-musica-de-las-islas-canarias-en-el-corazon-de-la-zona-colonial-%f0%9f%8e%b6%e2%9c%a8/"
+        }
+      ]
+    },
+    {
       "id": "3a6fc4e0dfdc8931",
       "source": "ticketmax",
       "date": "2026-11-13",
@@ -2312,8 +2596,8 @@
       ]
     },
     {
-      "id": "f8a0f1d7932f22f1",
-      "source": "tix",
+      "id": "1a77a952dc91a1f8",
+      "source": "zona_colonial",
       "date": "2026-11-14",
       "end": null,
       "sessions": null,
@@ -2321,16 +2605,20 @@
       "venue": "Casa de Teatro",
       "zone": "Ciudad Colonial",
       "cat": "Teatro",
-      "price": null,
-      "price_max": null,
+      "price": 1500,
+      "price_max": 1500,
       "time": "19:00",
       "kids": false,
       "tags": [],
       "description": "Este 14 de noviembre, Casa de Teatro se transforma en un escenario donde la fuerza, la flexibilidad, la danza, la acrobacia y la expresión corporal se encuentran alrededor de una barra vertical. VERTICALÍSIMO es un espectáculo de pole creado y producido por Claudia Gómez, que re…",
       "ticketUrl": "https://tix.do/event/VERTICALISIMO-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/VERTICALISIMO-1",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/verticalisimo/",
       "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/verticalisimo/"
+        },
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/VERTICALISIMO-1"
@@ -3183,6 +3471,84 @@
       ]
     },
     {
+      "id": "7d67e47153f35aea",
+      "source": "zona_colonial",
+      "date": "2026-11-28",
+      "end": null,
+      "sessions": null,
+      "title": "SHALONDY",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 500,
+      "price_max": 500,
+      "time": "21:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/shalondy/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/shalondy/"
+        }
+      ]
+    },
+    {
+      "id": "a0adfd9e32c6a168",
+      "source": "ticketmax",
+      "date": "2026-11-28",
+      "end": null,
+      "sessions": null,
+      "title": "Gordita al fallo",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 500,
+      "price_max": null,
+      "time": "22:00",
+      "kids": false,
+      "tags": [],
+      "description": "Luego de varias funciones de su primer show en solitario \"Eso e' de la gente\", la stand-up comic dominicana Laura Nanita estrena su segundo show unipersonal con la chispa, frescura, desinhibición y el ojo crítico que le caracterizan. \"Gordita al fallo\" es una exploración de la d…",
+      "ticketUrl": "https://ticketmax.org/evento/900203/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900203/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900203/"
+        }
+      ]
+    },
+    {
+      "id": "f173f90395af05ce",
+      "source": "teatro_nacional",
+      "date": "2026-11-29",
+      "end": null,
+      "sessions": null,
+      "title": "Natalia Jiménez",
+      "venue": "Sala Carlos Piantini, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Música",
+      "price": 5500,
+      "price_max": 12000,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/natalia-jimenez/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/natalia-jimenez/"
+        }
+      ]
+    },
+    {
       "id": "0f78f23eeda40bd0",
       "source": "ticketmax",
       "date": "2026-11-29",
@@ -3361,32 +3727,6 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/255078/"
-        }
-      ]
-    },
-    {
-      "id": "576ac6bfe3d44821",
-      "source": "tix",
-      "date": "2026-12-03",
-      "end": null,
-      "sessions": null,
-      "title": "J-ROD SULLIVAN - THE GREEN ROOM",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "21:30",
-      "kids": false,
-      "tags": [],
-      "description": "El jueves 3 de diciembre, The Green Room se viste de gala para recibir a Jerrod \"J-Rod\" Sullivan en nuestra Jazz Night. Baterista actual de Janet Jackson y Jeffrey Osborne, J-Rod es un referente mundial de la percusión, reconocido por su técnica impecable, su versatilidad y su c…",
-      "ticketUrl": "https://tix.do/event/JRODSULLIVANTHEGREENROOM-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/JRODSULLIVANTHEGREENROOM-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/JRODSULLIVANTHEGREENROOM-1"
         }
       ]
     },
@@ -3907,6 +4247,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/CarlosSanchezenTheGreenRoom-6"
+        }
+      ]
+    },
+    {
+      "id": "576ac6bfe3d44821",
+      "source": "tix",
+      "date": "2027-01-14",
+      "end": null,
+      "sessions": null,
+      "title": "J-ROD SULLIVAN - THE GREEN ROOM",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "21:30",
+      "kids": false,
+      "tags": [],
+      "description": "El jueves 3 de diciembre, The Green Room se viste de gala para recibir a Jerrod \"J-Rod\" Sullivan en nuestra Jazz Night. Baterista actual de Janet Jackson y Jeffrey Osborne, J-Rod es un referente mundial de la percusión, reconocido por su técnica impecable, su versatilidad y su c…",
+      "ticketUrl": "https://tix.do/event/JRODSULLIVANTHEGREENROOM-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/JRODSULLIVANTHEGREENROOM-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/JRODSULLIVANTHEGREENROOM-1"
         }
       ]
     },

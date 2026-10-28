@@ -1,8 +1,34 @@
 {
-  "generated_at": "2026-10-27T16:01:34+00:00",
-  "today": "2026-10-27",
-  "count": 168,
+  "generated_at": "2026-10-28T16:51:20+00:00",
+  "today": "2026-10-28",
+  "count": 167,
   "events": [
+    {
+      "id": "a5ea091833762784",
+      "source": "cce",
+      "date": "2026-08-01",
+      "end": "2026-12-20",
+      "sessions": null,
+      "title": "Inscríbete",
+      "venue": "Centro Cultural de España",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Arzobispo Meriño #2, Ciudad Colonial, Santo Domingo, República Dominicana.",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/inscr%C3%ADbete",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/inscr%C3%ADbete"
+        }
+      ]
+    },
     {
       "id": "f426f72dcdfe3f57",
       "source": "cce",
@@ -173,166 +199,6 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/la-boda-de-frank-y-mechy/"
-        }
-      ]
-    },
-    {
-      "id": "cb20ef4f4f72b250",
-      "source": "teatro_nacional",
-      "date": "2026-10-26",
-      "end": "2026-10-27",
-      "sessions": null,
-      "title": "Ahora que vuelvo, Ton",
-      "venue": "Sala José de Jesus Ravelo, Teatro Nacional",
-      "zone": "Plaza de la Cultura",
-      "cat": "Teatro",
-      "price": 200,
-      "price_max": 200,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "“Ahora que vuelvo, Ton” cuenta la historia de un grupo de amigos que junto a Ton Meliton, “cojo y cabezón”, se reunían para hablar de sus cosas en el parque de su pueblo. Luego, al cabo de muchos años y distanciamiento, el narrador de la historia regresa al pueblo y encuentra a T",
-      "ticketUrl": "https://boleteria.com.do/",
-      "srcName": "Teatro Nacional",
-      "srcUrl": "https://teatronacional.gob.do/events/ahora-que-vuelvo-ton/",
-      "sources": [
-        {
-          "srcName": "Teatro Nacional",
-          "srcUrl": "https://teatronacional.gob.do/events/ahora-que-vuelvo-ton/"
-        }
-      ]
-    },
-    {
-      "id": "e17232004dcd4fb8",
-      "source": "recurring",
-      "date": "2026-10-27",
-      "end": null,
-      "sessions": null,
-      "title": "EUROCINE 2026",
-      "venue": "Caribbean Cinemas, Galería 360",
-      "zone": "",
-      "cat": "Cine",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [
-        "serie"
-      ],
-      "description": "Festival de cine europeo contemporáneo: 15 películas de distintos países de Europa.",
-      "ticketUrl": "",
-      "srcName": "DGCINE",
-      "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-27",
-      "sources": [
-        {
-          "srcName": "DGCINE",
-          "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-27"
-        }
-      ]
-    },
-    {
-      "id": "be763d4ac5f90f10",
-      "source": "sic",
-      "date": "2026-10-27",
-      "end": null,
-      "sessions": null,
-      "title": "Ciclo de Talleres para Emprendedores Culturales",
-      "venue": "Auditorio Enriquillo Sanchez, Ministerio de Cultura",
-      "zone": "",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "09:00",
-      "kids": false,
-      "tags": [
-        "formacion"
-      ],
-      "description": "Taller",
-      "ticketUrl": "",
-      "srcName": "Ministerio de Cultura (SIC)",
-      "srcUrl": "https://sic.cultura.gob.do/agenda/evento/40",
-      "sources": [
-        {
-          "srcName": "Ministerio de Cultura (SIC)",
-          "srcUrl": "https://sic.cultura.gob.do/agenda/evento/40"
-        }
-      ]
-    },
-    {
-      "id": "ed5a20010476edfb",
-      "source": "sic",
-      "date": "2026-10-27",
-      "end": null,
-      "sessions": null,
-      "title": "Conversatorio en la Galeria \"La educación y la inteligencia artificial\"",
-      "venue": "Galeria Ramon Oviedo, MINC",
-      "zone": "",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "18:00",
-      "kids": false,
-      "tags": [],
-      "description": "Conversatorio",
-      "ticketUrl": "",
-      "srcName": "Ministerio de Cultura (SIC)",
-      "srcUrl": "https://sic.cultura.gob.do/agenda/evento/43",
-      "sources": [
-        {
-          "srcName": "Ministerio de Cultura (SIC)",
-          "srcUrl": "https://sic.cultura.gob.do/agenda/evento/43"
-        }
-      ]
-    },
-    {
-      "id": "cc94ed0f76e9057c",
-      "source": "zona_colonial",
-      "date": "2026-10-27",
-      "end": null,
-      "sessions": null,
-      "title": "Cine Clásico — “Ley y Justicia”",
-      "venue": "Centro Cultural Banreservas",
-      "zone": "Ciudad Colonial",
-      "cat": "Cine",
-      "price": 0,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/cine-clasico-ley-y-justicia/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/cine-clasico-ley-y-justicia/"
-        }
-      ]
-    },
-    {
-      "id": "9f24add90b8d8aa6",
-      "source": "tix",
-      "date": "2026-10-27",
-      "end": null,
-      "sessions": null,
-      "title": "Edición Halloween",
-      "venue": "Local 3 : Calle Max. Herriquez Ureña 33",
-      "zone": "",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "21:00",
-      "kids": false,
-      "tags": [],
-      "description": "Comedia Local presenta : Edición Halloween Boadil Jones y Begoña Guillén se juntan para celebrar Halloween como mejor saben: haciendo comedia. Historias de miedo, situaciones absurdas, experiencias paranormales y todo lo que da más miedo que un fantasma: la vida real. Una noche…",
-      "ticketUrl": "https://tix.do/event/EdicionHalloween-2",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/EdicionHalloween-2",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/EdicionHalloween-2"
         }
       ]
     },
@@ -1007,6 +873,32 @@
       ]
     },
     {
+      "id": "9f24add90b8d8aa6",
+      "source": "tix",
+      "date": "2026-10-30",
+      "end": null,
+      "sessions": null,
+      "title": "Edición Halloween",
+      "venue": "Local 3 : Calle Max. Herriquez Ureña 33",
+      "zone": "",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "Comedia Local presenta : Edición Halloween Boadil Jones y Begoña Guillén se juntan para celebrar Halloween como mejor saben: haciendo comedia. Historias de miedo, situaciones absurdas, experiencias paranormales y todo lo que da más miedo que un fantasma: la vida real. Una noche…",
+      "ticketUrl": "https://tix.do/event/EdicionHalloween-2",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/EdicionHalloween-2",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/EdicionHalloween-2"
+        }
+      ]
+    },
+    {
       "id": "4daccc3eab2f3bf9",
       "source": "jazz_en_dominicana",
       "date": "2026-10-30",
@@ -1075,7 +967,7 @@
       "time": "21:00",
       "kids": true,
       "tags": [],
-      "description": "Michael Jackson – The Live Experience llega a Hard Rock Cafe Santo Domingo este viernes 30 de octubre con una producción especial de 4ta Dimension. Un espectáculo tributo para disfrutar en familia, combinando la fuerza de una full band 100% en vivo con la presencia escénica de u…",
+      "description": "🚨 ¡NUEVA FUNCIÓN AGREGADA! 🚨 👨‍👩‍👧‍👦 SÁBADO 31 DE OCTUBRE · 6:00 PM · CASA MENCIA Por la gran respuesta a Michael Jackson – The Live Experience, agregamos una segunda función en un formato más íntimo, temprano y pensado para disfrutar en familia. 🎸 Full Band 100% en vivo 🎟️ Bole…",
       "ticketUrl": "https://tix.do/event/MichaelJacksonTheLiveExperienceorFullBand100percentenVivoImitador-1",
       "srcName": "TIX",
       "srcUrl": "https://tix.do/event/MichaelJacksonTheLiveExperienceorFullBand100percentenVivoImitador-1",
@@ -1584,6 +1476,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/ThrowbacktoRock70sand80sCorodeSantoDomingoPrimadadeAmerica-1"
+        }
+      ]
+    },
+    {
+      "id": "cc94ed0f76e9057c",
+      "source": "zona_colonial",
+      "date": "2026-11-03",
+      "end": null,
+      "sessions": null,
+      "title": "Cine Clásico — “Ley y Justicia”",
+      "venue": "Centro Cultural Banreservas",
+      "zone": "Ciudad Colonial",
+      "cat": "Cine",
+      "price": 0,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/cine-clasico-ley-y-justicia/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/cine-clasico-ley-y-justicia/"
         }
       ]
     },
@@ -2433,6 +2351,34 @@
       ]
     },
     {
+      "id": "d0295d03c2bc9867",
+      "source": "ticketmax",
+      "date": "2026-11-13",
+      "end": null,
+      "sessions": null,
+      "title": "Amor a segunda vista",
+      "venue": "Nuevos Comienzos",
+      "zone": "",
+      "cat": "Cultura",
+      "price": 1000,
+      "price_max": null,
+      "time": "19:30",
+      "kids": true,
+      "tags": [
+        "formacion"
+      ],
+      "description": "Amor a segunda vista es una conferencia para reforzar nuestros matrimonios, recordar esos principios que nos hacen seguir juntos y amándonos. El conferencista invitado es Samuel Nina, quien no solo cuenta con mas de 30 anos de matrimonio, sino que su carisma y vivencias enriquec…",
+      "ticketUrl": "https://ticketmax.org/evento/900207/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900207/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900207/"
+        }
+      ]
+    },
+    {
       "id": "69461710bb60e551",
       "source": "ticketmax",
       "date": "2026-11-13",
@@ -2866,25 +2812,29 @@
       ]
     },
     {
-      "id": "f1b48521d8e2d8f2",
-      "source": "tix",
+      "id": "45b7eb15d895775f",
+      "source": "teatro_nacional",
       "date": "2026-11-18",
       "end": null,
       "sessions": null,
-      "title": "SINFONICO - Encuentro de Talento",
-      "venue": "Teatro Nacional Eduardo Brito",
+      "title": "Sinfónico Encuentro de Talento",
+      "venue": "Sala Carlos Piantini, Teatro Nacional",
       "zone": "Plaza de la Cultura",
       "cat": "Música",
-      "price": null,
-      "price_max": null,
+      "price": 500,
+      "price_max": 500,
       "time": "20:30",
       "kids": false,
       "tags": [],
       "description": "SINFÓNICO 2026 Encuentro de Talento La Fundación Harmonía, el Teatro Nacional Eduardo Brito, y SeaBoard Energía Limpia se unen, en una iniciativa de contribuir al arte sinfónico en el país, propiciando un evento donde brillen nuestros talentos locales, SINFÓNICO 2026. Este será…",
-      "ticketUrl": "https://tix.do/event/SINFONICOEncuentrodeTalento-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/SINFONICOEncuentrodeTalento-1",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/sinfonico-encuentro-de-talento/",
       "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/sinfonico-encuentro-de-talento/"
+        },
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/SINFONICOEncuentrodeTalento-1"
@@ -3419,6 +3369,58 @@
       ]
     },
     {
+      "id": "e946e2e3cef612a2",
+      "source": "teatro_nacional",
+      "date": "2026-11-28",
+      "end": null,
+      "sessions": null,
+      "title": "Todo Hollywood vol.2",
+      "venue": "Sala Carlos Piantini, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Música",
+      "price": 2290,
+      "price_max": 5640,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Los grandes éxitos de la industria del cine, bajo la dirección de Amaury Sánchez, junto a la Filarmónica de Santo Domingo.",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/todo-hollywood-vol-2/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/todo-hollywood-vol-2/"
+        }
+      ]
+    },
+    {
+      "id": "a0adfd9e32c6a168",
+      "source": "ticketmax",
+      "date": "2026-11-28",
+      "end": null,
+      "sessions": null,
+      "title": "Gordita al fallo",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 500,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "Luego de varias funciones de su primer show en solitario \"Eso e' de la gente\", la stand-up comic dominicana Laura Nanita estrena su segundo show unipersonal con la chispa, frescura, desinhibición y el ojo crítico que le caracterizan. \"Gordita al fallo\" es una exploración de la d…",
+      "ticketUrl": "https://ticketmax.org/evento/900203/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900203/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900203/"
+        }
+      ]
+    },
+    {
       "id": "6d926b1638c50bc6",
       "source": "ticketmax",
       "date": "2026-11-28",
@@ -3493,32 +3495,6 @@
         {
           "srcName": "Zona Colonial",
           "srcUrl": "https://zonacolonial.do/actividad/shalondy/"
-        }
-      ]
-    },
-    {
-      "id": "a0adfd9e32c6a168",
-      "source": "ticketmax",
-      "date": "2026-11-28",
-      "end": null,
-      "sessions": null,
-      "title": "Gordita al fallo",
-      "venue": "Velvet Room",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 500,
-      "price_max": null,
-      "time": "22:00",
-      "kids": false,
-      "tags": [],
-      "description": "Luego de varias funciones de su primer show en solitario \"Eso e' de la gente\", la stand-up comic dominicana Laura Nanita estrena su segundo show unipersonal con la chispa, frescura, desinhibición y el ojo crítico que le caracterizan. \"Gordita al fallo\" es una exploración de la d…",
-      "ticketUrl": "https://ticketmax.org/evento/900203/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900203/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900203/"
         }
       ]
     },
@@ -4147,6 +4123,32 @@
       ]
     },
     {
+      "id": "5fa51b21920761db",
+      "source": "teatro_nacional",
+      "date": "2026-12-18",
+      "end": "2026-12-19",
+      "sessions": null,
+      "title": "Vicente García Sinfónico",
+      "venue": "Sala Carlos Piantini, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Música",
+      "price": 3405,
+      "price_max": 6760,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Un concierto sinfónico con el artista Vicente García y la Orquesta Filarmónica de Santo Domingo, bajo la producción y dirección de Amaury Sánchez.",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/vicente-garcia-sinfonico/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/vicente-garcia-sinfonico/"
+        }
+      ]
+    },
+    {
       "id": "036552aa045b929b",
       "source": "teatro_nacional",
       "date": "2026-12-19",
@@ -4169,32 +4171,6 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/recital-de-fin-de-ano/"
-        }
-      ]
-    },
-    {
-      "id": "5fa51b21920761db",
-      "source": "teatro_nacional",
-      "date": "2026-12-19",
-      "end": null,
-      "sessions": null,
-      "title": "Vicente García Sinfónico",
-      "venue": "Sala Carlos Piantini, Teatro Nacional",
-      "zone": "Plaza de la Cultura",
-      "cat": "Música",
-      "price": 3405,
-      "price_max": 6760,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Un concierto sinfónico con el artista Vicente García y la Orquesta Filarmónica de Santo Domingo, bajo la producción y dirección de Amaury Sánchez.",
-      "ticketUrl": "https://boleteria.com.do/",
-      "srcName": "Teatro Nacional",
-      "srcUrl": "https://teatronacional.gob.do/events/vicente-garcia-sinfonico/",
-      "sources": [
-        {
-          "srcName": "Teatro Nacional",
-          "srcUrl": "https://teatronacional.gob.do/events/vicente-garcia-sinfonico/"
         }
       ]
     },

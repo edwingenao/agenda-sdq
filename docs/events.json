@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-28T16:51:20+00:00",
-  "today": "2026-10-28",
-  "count": 167,
+  "generated_at": "2026-10-29T17:03:25+00:00",
+  "today": "2026-10-29",
+  "count": 166,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -203,34 +203,6 @@
       ]
     },
     {
-      "id": "d8634cbbf684a2f0",
-      "source": "recurring",
-      "date": "2026-10-28",
-      "end": null,
-      "sessions": null,
-      "title": "EUROCINE 2026",
-      "venue": "Caribbean Cinemas, Galería 360",
-      "zone": "",
-      "cat": "Cine",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [
-        "serie"
-      ],
-      "description": "Festival de cine europeo contemporáneo: 15 películas de distintos países de Europa.",
-      "ticketUrl": "",
-      "srcName": "DGCINE",
-      "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-28",
-      "sources": [
-        {
-          "srcName": "DGCINE",
-          "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-28"
-        }
-      ]
-    },
-    {
       "id": "466f658f7d09dcd1",
       "source": "tix",
       "date": "2026-10-28",
@@ -257,112 +229,6 @@
       ]
     },
     {
-      "id": "d0a55b51a463b1d7",
-      "source": "zona_colonial",
-      "date": "2026-10-28",
-      "end": null,
-      "sessions": null,
-      "title": "Sesión solemne de ingreso como miembro correspondiente nacional de Miguel Decamps",
-      "venue": "OCT",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "18:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/sesion-solemne-de-ingreso-como-miembro-correspondiente-nacional-de-miguel-decamps/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/sesion-solemne-de-ingreso-como-miembro-correspondiente-nacional-de-miguel-decamps/"
-        }
-      ]
-    },
-    {
-      "id": "7a2596235fbeb03a",
-      "source": "ticketmax",
-      "date": "2026-10-28",
-      "end": null,
-      "sessions": null,
-      "title": "Vino & Tinta 28.10.26 | 6:00 PM - 8:00 PM",
-      "venue": "Centro Cultural Casa Libros",
-      "zone": "",
-      "cat": "Arte",
-      "price": 300,
-      "price_max": null,
-      "time": "18:00",
-      "kids": true,
-      "tags": [
-        "formacion"
-      ],
-      "description": "🍷 Diez versos bastan para decir lo que llevas años sintiendo. Déjate envolver por el ritmo y la emoción de José Rafael Estévez (Fello) y Papo Fernandez. En Vino &amp; Tinta, el amor, nuestras raíces y la poesía serán el punto de encuentro para conversar con el autor y conocer a…",
-      "ticketUrl": "https://ticketmax.org/evento/900115/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900115/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900115/"
-        }
-      ]
-    },
-    {
-      "id": "1deeee48c642cb66",
-      "source": "tix",
-      "date": "2026-10-28",
-      "end": null,
-      "sessions": null,
-      "title": "El Degalille - Musicales Edition 🎭",
-      "venue": "Velvet Room SDQ",
-      "zone": "",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "19:30",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "https://tix.do/event/ElDegalilleMusicalesEdition-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/ElDegalilleMusicalesEdition-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/ElDegalilleMusicalesEdition-1"
-        }
-      ]
-    },
-    {
-      "id": "11386859053c8721",
-      "source": "zona_colonial",
-      "date": "2026-10-28",
-      "end": null,
-      "sessions": null,
-      "title": "Mis Cuadernos | Una vida dedicada al arte",
-      "venue": "Quinta Dominica",
-      "zone": "Ciudad Colonial",
-      "cat": "Arte",
-      "price": 0,
-      "price_max": null,
-      "time": "19:30",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/mis-cuadernos-una-vida-dedicada-al-arte/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/mis-cuadernos-una-vida-dedicada-al-arte/"
-        }
-      ]
-    },
-    {
       "id": "dcfff4a55511fa7d",
       "source": "teatro_nacional",
       "date": "2026-10-29",
@@ -385,6 +251,32 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/esperando-a-odiseo/"
+        }
+      ]
+    },
+    {
+      "id": "eb64934fff157bac",
+      "source": "zona_colonial",
+      "date": "2026-10-29",
+      "end": null,
+      "sessions": null,
+      "title": "Cinefórum MMRD Proyección del documental “Mujeres Extraordinarias Vol. II: Políticas, feministas, valientes y decididas”",
+      "venue": "OCT",
+      "zone": "Ciudad Colonial",
+      "cat": "Cine",
+      "price": 0,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/cineforum-mmrd-proyeccion-del-documental-mujeres-extraordinarias-vol-ii-politicas-feministas-valientes-y-decididas/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/cineforum-mmrd-proyeccion-del-documental-mujeres-extraordinarias-vol-ii-politicas-feministas-valientes-y-decididas/"
         }
       ]
     },
@@ -1005,6 +897,32 @@
       ]
     },
     {
+      "id": "2179aee544d045b3",
+      "source": "ticketmax",
+      "date": "2026-10-30",
+      "end": null,
+      "sessions": null,
+      "title": "Rafa Boba: Mil Maneras De Reir",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 1500,
+      "price_max": null,
+      "time": "21:30",
+      "kids": false,
+      "tags": [],
+      "description": "PUERTAS ABREN 9:30 PM SHOW COMIENZA 10 PM",
+      "ticketUrl": "https://ticketmax.org/evento/900016/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900016/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900016/"
+        }
+      ]
+    },
+    {
       "id": "d43fb66c5fd7ac9b",
       "source": "tix",
       "date": "2026-10-30",
@@ -1027,32 +945,6 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/NachoRedondoTerapiadeGrupo945PM-4"
-        }
-      ]
-    },
-    {
-      "id": "2179aee544d045b3",
-      "source": "ticketmax",
-      "date": "2026-10-30",
-      "end": null,
-      "sessions": null,
-      "title": "Rafa Boba: Mil Maneras De Reir",
-      "venue": "Velvet Room",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 1500,
-      "price_max": null,
-      "time": "22:00",
-      "kids": false,
-      "tags": [],
-      "description": "PUERTAS ABREN 9:30 PM SHOW COMIENZA 10 PM",
-      "ticketUrl": "https://ticketmax.org/evento/900016/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900016/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900016/"
         }
       ]
     },
@@ -1263,6 +1155,32 @@
         {
           "srcName": "Centro Cultural de España",
           "srcUrl": "https://ccesd.aecid.es/w/miradas-desde-espa%C3%B1a"
+        }
+      ]
+    },
+    {
+      "id": "09712008349fe303",
+      "source": "zona_colonial",
+      "date": "2026-10-31",
+      "end": null,
+      "sessions": null,
+      "title": "Museo Memorial de la Resistencia Dominicana",
+      "venue": "OCT",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "16:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/museo-memorial-de-la-resistencia-dominicana/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/museo-memorial-de-la-resistencia-dominicana/"
         }
       ]
     },
@@ -1480,6 +1398,32 @@
       ]
     },
     {
+      "id": "a6d36ef05d2617f4",
+      "source": "zona_colonial",
+      "date": "2026-11-02",
+      "end": null,
+      "sessions": null,
+      "title": "Festividad Cultural “Día de Muertos” — Desfile de Catrinas y Catrines e Inauguración del Altar de Muertos 2026",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/festividad-cultural-dia-de-muertos-desfile-de-catrinas-y-catrines-e-inauguracion-del-altar-de-muertos-2026/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/festividad-cultural-dia-de-muertos-desfile-de-catrinas-y-catrines-e-inauguracion-del-altar-de-muertos-2026/"
+        }
+      ]
+    },
+    {
       "id": "cc94ed0f76e9057c",
       "source": "zona_colonial",
       "date": "2026-11-03",
@@ -1610,6 +1554,32 @@
         {
           "srcName": "Fundación Sinfonía",
           "srcUrl": "https://sinfonia.org.do/agenda/mahler-resurreccion-gala-de-aniversarios/"
+        }
+      ]
+    },
+    {
+      "id": "2108329a10565cd1",
+      "source": "tix",
+      "date": "2026-11-04",
+      "end": null,
+      "sessions": null,
+      "title": "COMEDY SHOWCASE",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "21:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://tix.do/event/COMEDYSHOWCASE-28",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/COMEDYSHOWCASE-28",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/COMEDYSHOWCASE-28"
         }
       ]
     },
@@ -2795,7 +2765,7 @@
       "venue": "Teatro Guloya",
       "zone": "",
       "cat": "Teatro",
-      "price": 500,
+      "price": 400,
       "price_max": null,
       "time": "20:00",
       "kids": true,

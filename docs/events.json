@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-29T17:03:25+00:00",
-  "today": "2026-10-29",
-  "count": 166,
+  "generated_at": "2026-10-30T16:53:35+00:00",
+  "today": "2026-10-30",
+  "count": 161,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -26,41 +26,6 @@
         {
           "srcName": "Centro Cultural de España",
           "srcUrl": "https://ccesd.aecid.es/w/inscr%C3%ADbete"
-        }
-      ]
-    },
-    {
-      "id": "f426f72dcdfe3f57",
-      "source": "cce",
-      "date": "2026-10-06",
-      "end": "2026-10-29",
-      "sessions": [
-        "2026-10-06",
-        "2026-10-08",
-        "2026-10-13",
-        "2026-10-16",
-        "2026-10-20",
-        "2026-10-22",
-        "2026-10-27",
-        "2026-10-29"
-      ],
-      "title": "Pensar y recrear la mujer en la imagen",
-      "venue": "Centro Cultural de España",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": null,
-      "price_max": null,
-      "time": "21:00",
-      "kids": false,
-      "tags": [],
-      "description": "Inscripción antes del 1 de octubrerellenando este formulario con tus datosProyecto Formación del Sector Cultural",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/pensar-y-recrear-la-mujer-en-la-imagen",
-      "sources": [
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/pensar-y-recrear-la-mujer-en-la-imagen"
         }
       ]
     },
@@ -203,32 +168,6 @@
       ]
     },
     {
-      "id": "466f658f7d09dcd1",
-      "source": "tix",
-      "date": "2026-10-28",
-      "end": "2026-10-29",
-      "sessions": null,
-      "title": "PHD Connected Summit",
-      "venue": "Universidad Nacional Pedro Henríquez Ureña",
-      "zone": "",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "https://tix.do/event/PHDConnectedSummit-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/PHDConnectedSummit-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/PHDConnectedSummit-1"
-        }
-      ]
-    },
-    {
       "id": "dcfff4a55511fa7d",
       "source": "teatro_nacional",
       "date": "2026-10-29",
@@ -251,278 +190,6 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/esperando-a-odiseo/"
-        }
-      ]
-    },
-    {
-      "id": "eb64934fff157bac",
-      "source": "zona_colonial",
-      "date": "2026-10-29",
-      "end": null,
-      "sessions": null,
-      "title": "Cinefórum MMRD Proyección del documental “Mujeres Extraordinarias Vol. II: Políticas, feministas, valientes y decididas”",
-      "venue": "OCT",
-      "zone": "Ciudad Colonial",
-      "cat": "Cine",
-      "price": 0,
-      "price_max": null,
-      "time": "18:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/cineforum-mmrd-proyeccion-del-documental-mujeres-extraordinarias-vol-ii-politicas-feministas-valientes-y-decididas/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/cineforum-mmrd-proyeccion-del-documental-mujeres-extraordinarias-vol-ii-politicas-feministas-valientes-y-decididas/"
-        }
-      ]
-    },
-    {
-      "id": "2f4ea1c6b2c7edb2",
-      "source": "zona_colonial",
-      "date": "2026-10-29",
-      "end": null,
-      "sessions": null,
-      "title": "Cocorícamo. Cartografías desde el sur (Primera exposición individual)",
-      "venue": "Centro Cultural Banreservas",
-      "zone": "Ciudad Colonial",
-      "cat": "Arte",
-      "price": 0,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/cocoricamo-cartografias-desde-el-sur-primera-exposicion-individual/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/cocoricamo-cartografias-desde-el-sur-primera-exposicion-individual/"
-        }
-      ]
-    },
-    {
-      "id": "dca6fbeaaab5f6c7",
-      "source": "tix",
-      "date": "2026-10-29",
-      "end": null,
-      "sessions": null,
-      "title": "Nacho Redondo - Terapia de Grupo 7:00P.M.",
-      "venue": "Pabellon de la Fama",
-      "zone": "",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "Terapia de Grupo es la nueva hora de stand up de Nacho Redondo: una versión más grande y afilada del universo que arrancó con Traumas, donde Nacho desentierra sus propios demonios psicológicos e integra los del público para convertir cada función en una sesión colectiva. Un espa…",
-      "ticketUrl": "https://tix.do/event/NachoRedondoTerapiadeGrupo700PM-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/NachoRedondoTerapiadeGrupo700PM-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/NachoRedondoTerapiadeGrupo700PM-1"
-        }
-      ]
-    },
-    {
-      "id": "034f428f3edb0088",
-      "source": "ticketmax",
-      "date": "2026-10-29",
-      "end": null,
-      "sessions": null,
-      "title": "Open Mic Unplugged | Voices Unleashed: Marena Live Music",
-      "venue": "Jardin Secreto",
-      "zone": "",
-      "cat": "Arte",
-      "price": 600,
-      "price_max": 1600,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "OPEN MIC UNPLUGGED · OCTUBRE Jueves 29 de octubre · 7:00 PM 📍 El Jardín Secreto Una noche para encontrarnos alrededor de la expresión artística, la palabra y la música. Un espacio abierto para poetas, escritores, músicos, artistas y personas creativas que quieran compartir su vo…",
-      "ticketUrl": "https://ticketmax.org/evento/900042/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900042/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900042/"
-        }
-      ]
-    },
-    {
-      "id": "8a2eae4976846e45",
-      "source": "tix",
-      "date": "2026-10-29",
-      "end": null,
-      "sessions": null,
-      "title": "Ensayo, error...y terror",
-      "venue": "Local 3 : Calle Max. Herriquez Ureña 33",
-      "zone": "",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [],
-      "description": "Té de Jagua presenta Ensayo, error …y terror , un show donde va a probar nuevo material con su humor político negro, incómodo y sin demasiadas ganas de quedar bien con nadie. Política, poder, historia y actualidad se mezclan en una noche de comedia donde probablemente más de uno…",
-      "ticketUrl": "https://tix.do/event/ElultimohijodeBalaguer-5",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/ElultimohijodeBalaguer-5",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/ElultimohijodeBalaguer-5"
-        }
-      ]
-    },
-    {
-      "id": "0c5ea812f98e5162",
-      "source": "cce",
-      "date": "2026-10-29",
-      "end": null,
-      "sessions": null,
-      "title": "EUROCINE 2026. Saben Aquell",
-      "venue": "Galería 360",
-      "zone": "Ciudad Colonial",
-      "cat": "Cine",
-      "price": null,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [
-        "serie"
-      ],
-      "description": "Película sobre los primeros años de carrera del humorista Eugenio. Barcelona, finales de los 60. Eugenio Jofra, un joven joyero, conoce a Conchita y el flechazo es instantáneo. Eugenio aprende a tocar la guitarra para acompañar a Conchita, para lo que tendrá que luchar contra el ",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/eurocine-2026.-saben-aquell",
-      "sources": [
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/eurocine-2026.-saben-aquell"
-        },
-        {
-          "srcName": "DGCINE",
-          "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-29"
-        }
-      ]
-    },
-    {
-      "id": "4f93c9c8f22fbce7",
-      "source": "tix",
-      "date": "2026-10-29",
-      "end": null,
-      "sessions": null,
-      "title": "Revisitando",
-      "venue": "The velvet room",
-      "zone": "",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [],
-      "description": "En este show Antonio Ferrés revisitará las mejores rutinas de sus shows “Introvertido” y “En Teoría”. Además tendrá de invitados a los comediantes: Max Johnson, Jinita y Dr. Humor Para mayores de 18 años",
-      "ticketUrl": "https://tix.do/event/Revisitando-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/Revisitando-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/Revisitando-1"
-        }
-      ]
-    },
-    {
-      "id": "df13974be2583785",
-      "source": "ticketmax",
-      "date": "2026-10-29",
-      "end": null,
-      "sessions": null,
-      "title": "Dando Lata",
-      "venue": "Velvet Room",
-      "zone": "",
-      "cat": "Cultura",
-      "price": 500,
-      "price_max": null,
-      "time": "20:30",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "https://ticketmax.org/evento/900191/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900191/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900191/"
-        }
-      ]
-    },
-    {
-      "id": "fec2573d7a390e3b",
-      "source": "jazz_en_dominicana",
-      "date": "2026-10-29",
-      "end": null,
-      "sessions": null,
-      "title": "Jazz Night",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Música",
-      "price": 0,
-      "price_max": null,
-      "time": "21:30",
-      "kids": false,
-      "tags": [
-        "jazz"
-      ],
-      "description": "El jazz vuelve a encender, cada jueves, la noche de Jazz que ofrece The Green Room. Este jueves 24 con The Green Room Band. Jazz Night at The Green Room, cada jueves a partir de las 9:30PM en The Green Room en la Calle Andrés Julio Aybar 17 segundo piso, del Ensanche Piantini. No",
-      "ticketUrl": "https://tix.do/event/JAZZNIGHT-25",
-      "srcName": "Jazz en Dominicana",
-      "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-25-al-31-de.html#2026-10-29-jazz-night",
-      "sources": [
-        {
-          "srcName": "Jazz en Dominicana",
-          "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-25-al-31-de.html#2026-10-29-jazz-night"
-        },
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/JAZZNIGHT-25"
-        }
-      ]
-    },
-    {
-      "id": "f29fb60830eb1a80",
-      "source": "tix",
-      "date": "2026-10-29",
-      "end": null,
-      "sessions": null,
-      "title": "Nacho Redondo - Terapia de Grupo 9:45 P.M.",
-      "venue": "Pabellon de la Fama",
-      "zone": "",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "21:45",
-      "kids": false,
-      "tags": [],
-      "description": "Terapia de Grupo es la nueva hora de stand up de Nacho Redondo: una versión más grande y afilada del universo que arrancó con Traumas, donde Nacho desentierra sus propios demonios psicológicos e integra los del público para convertir cada función en una sesión colectiva. Un espa…",
-      "ticketUrl": "https://tix.do/event/NachoRedondoTerapiadeGrupo945PM-3",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/NachoRedondoTerapiadeGrupo945PM-3",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/NachoRedondoTerapiadeGrupo945PM-3"
         }
       ]
     },
@@ -1185,6 +852,32 @@
       ]
     },
     {
+      "id": "1d1e90186347f11e",
+      "source": "zona_colonial",
+      "date": "2026-10-31",
+      "end": null,
+      "sessions": null,
+      "title": "Sábado con los Niños — Taller de Construcción y Manejo de Títeres de Calcetín",
+      "venue": "OCT",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "16:00",
+      "kids": true,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/sabado-con-los-ninos-taller-de-construccion-y-manejo-de-titeres-de-calcetin/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/sabado-con-los-ninos-taller-de-construccion-y-manejo-de-titeres-de-calcetin/"
+        }
+      ]
+    },
+    {
       "id": "8637975374380c9e",
       "source": "cce",
       "date": "2026-10-31",
@@ -1287,6 +980,32 @@
         {
           "srcName": "DGCINE",
           "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-11-01"
+        }
+      ]
+    },
+    {
+      "id": "ca4245148edeae7a",
+      "source": "zona_colonial",
+      "date": "2026-11-01",
+      "end": null,
+      "sessions": null,
+      "title": "Gran Recital de Cello — Obras de Schumann y Haydn",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": 1500,
+      "price_max": 1500,
+      "time": "11:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/gran-recital-de-cello-obras-de-schumann-y-haydn/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/gran-recital-de-cello-obras-de-schumann-y-haydn/"
         }
       ]
     },
@@ -1498,6 +1217,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/ComediaLocalMichelPentonLauraNanitayDemailyn-1"
+        }
+      ]
+    },
+    {
+      "id": "1065c5285ca774ad",
+      "source": "zona_colonial",
+      "date": "2026-11-04",
+      "end": null,
+      "sessions": null,
+      "title": "ACTO DE RECONOCIMIENTO A KIN SÁNCHEZ FERNÁNDEZ",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/acto-de-reconocimiento-a-kin-sanchez-fernandez/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/acto-de-reconocimiento-a-kin-sanchez-fernandez/"
         }
       ]
     },
@@ -1771,7 +1516,7 @@
       "date": "2026-11-07",
       "end": null,
       "sessions": null,
-      "title": "MARKETING SIN TEATRO",
+      "title": "MARKETING SIN TEATRO | 8:00 AM - 12:00 AM",
       "venue": "Biblioteca Pedro Mir, Auditorio Manuel Del Cabral",
       "zone": "",
       "cat": "Teatro",
@@ -1816,6 +1561,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900193/"
+        }
+      ]
+    },
+    {
+      "id": "4c5d5a187f0a5ad4",
+      "source": "cce",
+      "date": "2026-11-07",
+      "end": null,
+      "sessions": null,
+      "title": "Etaquetuve",
+      "venue": "Centro Cultural de España",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "Xiomara FortunaEntrada libre hasta completar aforoPrograma Fortalecimiento del espacio cultural IberoamericanoEtaquetuve es un concierto que presenta temas de las últimas producciones de la artista y algunos clásicos de su repertorio, siempre apelando a la identidad y riqueza de ",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/etaquetuve",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/etaquetuve"
         }
       ]
     },
@@ -2083,6 +1854,32 @@
       ]
     },
     {
+      "id": "dc1cf84921412bfd",
+      "source": "cce",
+      "date": "2026-11-10",
+      "end": null,
+      "sessions": null,
+      "title": "Futuras Ancestras. La obra de Angela Suazo",
+      "venue": "Centro Cultural de España",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": 0,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "Imparte Nayely GermosoModera Arlene SabarisEntrada Libre hasta completar AforoPrograma Fortalecimiento del Espacio LatinoamericanoFuturas Ancestraspropone construir un espacio de encuentro y lectura entre autoras dominicanas contemporáneas que promueva sus obras, genere nuevas le",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/futuras-ancestras.-la-obra-de-angela-suazo",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/futuras-ancestras.-la-obra-de-angela-suazo"
+        }
+      ]
+    },
+    {
       "id": "209fce1fa948677b",
       "source": "tix",
       "date": "2026-11-10",
@@ -2105,6 +1902,58 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/SexEducation-2"
+        }
+      ]
+    },
+    {
+      "id": "bec42b193667ea53",
+      "source": "cce",
+      "date": "2026-11-11",
+      "end": null,
+      "sessions": null,
+      "title": "Laboratorio del Collage",
+      "venue": "Centro Cultural de España",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Imparte Paola PradaInscríbete antes del 11 de noviembrerellenando este formulario con tus datos",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/laboratorio-del-collage",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/laboratorio-del-collage"
+        }
+      ]
+    },
+    {
+      "id": "09d43796d49b775b",
+      "source": "cce",
+      "date": "2026-11-11",
+      "end": null,
+      "sessions": null,
+      "title": "Doble Filo",
+      "venue": "Centro Cultural de España",
+      "zone": "Ciudad Colonial",
+      "cat": "Arte",
+      "price": 0,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "Abierta hasta el 20 de diciembreEntrada libre hasta completar aforoPrograma Fortalecimiento Iberoamericano",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/doble-filo",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/doble-filo"
         }
       ]
     },
@@ -3257,6 +3106,10 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/254776/"
+        },
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/sueno-de-una-noche-de-verano/"
         }
       ]
     },

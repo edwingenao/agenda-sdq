@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-30T16:53:35+00:00",
-  "today": "2026-10-30",
-  "count": 161,
+  "generated_at": "2026-10-31T15:56:45+00:00",
+  "today": "2026-10-31",
+  "count": 152,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -168,32 +168,6 @@
       ]
     },
     {
-      "id": "dcfff4a55511fa7d",
-      "source": "teatro_nacional",
-      "date": "2026-10-29",
-      "end": "2026-10-30",
-      "sessions": null,
-      "title": "Esperando a Odiseo",
-      "venue": "Sala José de Jesus Ravelo, Teatro Nacional",
-      "zone": "Plaza de la Cultura",
-      "cat": "Teatro",
-      "price": 200,
-      "price_max": 200,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Una azotea habanera es el escenario de esta tragicomedia en torno a la espera/búsqueda de la realización personal. Kiko Paloma, profesor de inglés retirado a destiempo y colombófilo por desmedida pasión; espera el retorno de Odiseo, su palomo favorito. La azotea y su entorno es e",
-      "ticketUrl": "https://boleteria.com.do/",
-      "srcName": "Teatro Nacional",
-      "srcUrl": "https://teatronacional.gob.do/events/esperando-a-odiseo/",
-      "sources": [
-        {
-          "srcName": "Teatro Nacional",
-          "srcUrl": "https://teatronacional.gob.do/events/esperando-a-odiseo/"
-        }
-      ]
-    },
-    {
       "id": "5b121093f8be4cbe",
       "source": "tix",
       "date": "2026-10-30",
@@ -216,34 +190,6 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1"
-        }
-      ]
-    },
-    {
-      "id": "613a46717ba81310",
-      "source": "recurring",
-      "date": "2026-10-30",
-      "end": null,
-      "sessions": null,
-      "title": "EUROCINE 2026",
-      "venue": "Caribbean Cinemas, Galería 360",
-      "zone": "",
-      "cat": "Cine",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [
-        "serie"
-      ],
-      "description": "Festival de cine europeo contemporáneo: 15 películas de distintos países de Europa.",
-      "ticketUrl": "",
-      "srcName": "DGCINE",
-      "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-30",
-      "sources": [
-        {
-          "srcName": "DGCINE",
-          "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-30"
         }
       ]
     },
@@ -322,296 +268,6 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/las-criadas/"
-        }
-      ]
-    },
-    {
-      "id": "b0ca293db52c895e",
-      "source": "tix",
-      "date": "2026-10-30",
-      "end": "2026-11-01",
-      "sessions": null,
-      "title": "Vamos a Hacerlo Parados",
-      "venue": "Teatro Las Máscaras",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Comedia romántica con un divertido manejo del doble sentido. Narra la historia de dos jóvenes que debaten sobre la idea de casarse o no. Él quiere dar el paso, pero ella se niega rotundamente porque cree que el matrimonio destruirá la relación. Escrita y protagonizada por José M…",
-      "ticketUrl": "https://tix.do/event/VamosaHacerloParados-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/VamosaHacerloParados-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/VamosaHacerloParados-1"
-        }
-      ]
-    },
-    {
-      "id": "2a4dc4c3e2d43eef",
-      "source": "ticketmax",
-      "date": "2026-10-30",
-      "end": null,
-      "sessions": null,
-      "title": "Vino & Tinta 30.10.26 | 6:00 PM - 8:00 PM",
-      "venue": "Centro Cultural Casa Libros",
-      "zone": "",
-      "cat": "Arte",
-      "price": 300,
-      "price_max": null,
-      "time": "18:00",
-      "kids": false,
-      "tags": [
-        "formacion"
-      ],
-      "description": "🍷 Hay silencios que solo un buen libro se atreve a romper. ¿Has leído una historia que parece conocer lo que llevas dentro? Ven a descubrir Donde el silencio cuenta junto a Sandra Margarita Fernández, jurista y escritora que transforma emociones y dilemas humanos en literatura.…",
-      "ticketUrl": "https://ticketmax.org/evento/900119/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900119/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900119/"
-        }
-      ]
-    },
-    {
-      "id": "4c67e82d0b9a02e5",
-      "source": "tix",
-      "date": "2026-10-30",
-      "end": null,
-      "sessions": null,
-      "title": "Nacho Redondo - Terapia de Grupo 7:00P.M.",
-      "venue": "Pabellon de la Fama",
-      "zone": "",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "Terapia de Grupo es la nueva hora de stand up de Nacho Redondo: una versión más grande y afilada del universo que arrancó con Traumas, donde Nacho desentierra sus propios demonios psicológicos e integra los del público para convertir cada función en una sesión colectiva. Un espa…",
-      "ticketUrl": "https://tix.do/event/NachoRedondoTerapiadeGrupo700PM-3",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/NachoRedondoTerapiadeGrupo700PM-3",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/NachoRedondoTerapiadeGrupo700PM-3"
-        }
-      ]
-    },
-    {
-      "id": "5b4a1ae670546ef5",
-      "source": "zona_colonial",
-      "date": "2026-10-30",
-      "end": null,
-      "sessions": null,
-      "title": "Tertulias ADHA — “De barro y fuego: Permanencia y memoria”",
-      "venue": "Centro Cultural Banreservas",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/tertulias-adha-de-barro-y-fuego-permanencia-y-memoria/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/tertulias-adha-de-barro-y-fuego-permanencia-y-memoria/"
-        }
-      ]
-    },
-    {
-      "id": "9f24add90b8d8aa6",
-      "source": "tix",
-      "date": "2026-10-30",
-      "end": null,
-      "sessions": null,
-      "title": "Edición Halloween",
-      "venue": "Local 3 : Calle Max. Herriquez Ureña 33",
-      "zone": "",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [],
-      "description": "Comedia Local presenta : Edición Halloween Boadil Jones y Begoña Guillén se juntan para celebrar Halloween como mejor saben: haciendo comedia. Historias de miedo, situaciones absurdas, experiencias paranormales y todo lo que da más miedo que un fantasma: la vida real. Una noche…",
-      "ticketUrl": "https://tix.do/event/EdicionHalloween-2",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/EdicionHalloween-2",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/EdicionHalloween-2"
-        }
-      ]
-    },
-    {
-      "id": "4daccc3eab2f3bf9",
-      "source": "jazz_en_dominicana",
-      "date": "2026-10-30",
-      "end": null,
-      "sessions": null,
-      "title": "Jordi Masalles, Tiempo Libre & Friends festejando los 20 de Jazz",
-      "venue": "Dominican Fiesta Hotel & Casino",
-      "zone": "Mirador Sur",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [
-        "jazz"
-      ],
-      "description": "Jazz en Dominicana acaba de cumplir sus 20 …. y la fiesta continúa!! Para los músicos y los amantes de la música, la mejor manera de celebrar es, bueno, con músicos tocando y amantes de la música degustando del banquete! Este viernes 30 se dará cierre a las presentaciones del mes",
-      "ticketUrl": "",
-      "srcName": "Jazz en Dominicana",
-      "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-25-al-31-de.html#2026-10-30-jordi-masalles-tiempo-libre-friends-festejando-los",
-      "sources": [
-        {
-          "srcName": "Jazz en Dominicana",
-          "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-25-al-31-de.html#2026-10-30-jordi-masalles-tiempo-libre-friends-festejando-los"
-        }
-      ]
-    },
-    {
-      "id": "b5cd197f3d355e8f",
-      "source": "tix",
-      "date": "2026-10-30",
-      "end": null,
-      "sessions": null,
-      "title": "NAIROBY DUARTE",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "20:30",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "https://tix.do/event/SIMPLEMENTENAIROBY-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/SIMPLEMENTENAIROBY-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/SIMPLEMENTENAIROBY-1"
-        }
-      ]
-    },
-    {
-      "id": "f8788de0c181859d",
-      "source": "tix",
-      "date": "2026-10-30",
-      "end": null,
-      "sessions": null,
-      "title": "Michael Jackson – The Live Experience | Full Band 100% en Vivo + Imitador",
-      "venue": "Hard Rock Cafe Blue Mall",
-      "zone": "",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "21:00",
-      "kids": true,
-      "tags": [],
-      "description": "🚨 ¡NUEVA FUNCIÓN AGREGADA! 🚨 👨‍👩‍👧‍👦 SÁBADO 31 DE OCTUBRE · 6:00 PM · CASA MENCIA Por la gran respuesta a Michael Jackson – The Live Experience, agregamos una segunda función en un formato más íntimo, temprano y pensado para disfrutar en familia. 🎸 Full Band 100% en vivo 🎟️ Bole…",
-      "ticketUrl": "https://tix.do/event/MichaelJacksonTheLiveExperienceorFullBand100percentenVivoImitador-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/MichaelJacksonTheLiveExperienceorFullBand100percentenVivoImitador-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/MichaelJacksonTheLiveExperienceorFullBand100percentenVivoImitador-1"
-        }
-      ]
-    },
-    {
-      "id": "a1c4760ce61a3793",
-      "source": "zona_colonial",
-      "date": "2026-10-30",
-      "end": null,
-      "sessions": null,
-      "title": "ALCANTARILLA DE LAS ATARAZANAS REALES",
-      "venue": "OCT",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 1300,
-      "price_max": 1300,
-      "time": "21:30",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/alcantarilla-de-las-atarazanas-reales-3/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/alcantarilla-de-las-atarazanas-reales-3/"
-        }
-      ]
-    },
-    {
-      "id": "2179aee544d045b3",
-      "source": "ticketmax",
-      "date": "2026-10-30",
-      "end": null,
-      "sessions": null,
-      "title": "Rafa Boba: Mil Maneras De Reir",
-      "venue": "Velvet Room",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 1500,
-      "price_max": null,
-      "time": "21:30",
-      "kids": false,
-      "tags": [],
-      "description": "PUERTAS ABREN 9:30 PM SHOW COMIENZA 10 PM",
-      "ticketUrl": "https://ticketmax.org/evento/900016/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900016/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900016/"
-        }
-      ]
-    },
-    {
-      "id": "d43fb66c5fd7ac9b",
-      "source": "tix",
-      "date": "2026-10-30",
-      "end": null,
-      "sessions": null,
-      "title": "Nacho Redondo - Terapia de Grupo 9:45 P.M.",
-      "venue": "Pabellon de la Fama",
-      "zone": "",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "21:45",
-      "kids": false,
-      "tags": [],
-      "description": "Terapia de Grupo es la nueva hora de stand up de Nacho Redondo: una versión más grande y afilada del universo que arrancó con Traumas, donde Nacho desentierra sus propios demonios psicológicos e integra los del público para convertir cada función en una sesión colectiva. Un espa…",
-      "ticketUrl": "https://tix.do/event/NachoRedondoTerapiadeGrupo945PM-4",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/NachoRedondoTerapiadeGrupo945PM-4",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/NachoRedondoTerapiadeGrupo945PM-4"
         }
       ]
     },
@@ -722,6 +378,32 @@
       ]
     },
     {
+      "id": "b0ca293db52c895e",
+      "source": "tix",
+      "date": "2026-10-31",
+      "end": "2026-11-01",
+      "sessions": null,
+      "title": "Vamos a Hacerlo Parados",
+      "venue": "Teatro Las Máscaras",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Comedia romántica con un divertido manejo del doble sentido. Narra la historia de dos jóvenes que debaten sobre la idea de casarse o no. Él quiere dar el paso, pero ella se niega rotundamente porque cree que el matrimonio destruirá la relación. Escrita y protagonizada por José M…",
+      "ticketUrl": "https://tix.do/event/VamosaHacerloParados-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/VamosaHacerloParados-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/VamosaHacerloParados-1"
+        }
+      ]
+    },
+    {
       "id": "321e7104382f5ee5",
       "source": "ticketmax",
       "date": "2026-10-31",
@@ -783,7 +465,7 @@
       "venue": "Bloom SDQ",
       "zone": "",
       "cat": "Música",
-      "price": 2500,
+      "price": 3000,
       "price_max": null,
       "time": "11:00",
       "kids": false,
@@ -1117,6 +799,32 @@
       ]
     },
     {
+      "id": "4f7d243a050c9a41",
+      "source": "cce",
+      "date": "2026-11-02",
+      "end": null,
+      "sessions": null,
+      "title": "Proyecciones documentales “Isla Alien y Mailin”",
+      "venue": "Centro Cultural de España",
+      "zone": "Ciudad Colonial",
+      "cat": "Cine",
+      "price": 0,
+      "price_max": null,
+      "time": "17:00",
+      "kids": false,
+      "tags": [],
+      "description": "Luego de las proyecciones se llevará a cabo el conversatorio “El guión en el documental” por Claudia GaleanoEntrada libre hasta completar aforoEl Centro Cultural de España en Santo Domingo acoge una jornada de la quinta edición del Festival Histeria, un encuentro dedicado al terr",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/proyecciones-documentales-isla-alien-y-mailin-",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/proyecciones-documentales-isla-alien-y-mailin-"
+        }
+      ]
+    },
+    {
       "id": "a6d36ef05d2617f4",
       "source": "zona_colonial",
       "date": "2026-11-02",
@@ -1433,6 +1141,62 @@
       ]
     },
     {
+      "id": "2711d088011285fc",
+      "source": "jazz_en_dominicana",
+      "date": "2026-11-05",
+      "end": null,
+      "sessions": null,
+      "title": "Sandy Gabriel Jazz Residence",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "21:30",
+      "kids": false,
+      "tags": [
+        "jazz"
+      ],
+      "description": "Continúa el Sandy Gabriel Jazz Residence. Este jueves 5 su invitada especial es la multifacética Techy Fatule!! Sandy Gabriel Jazz Residence at the Green Room, jueves 22 de octubre a las 9:30PM (puertas abren a las 7PM) en The Green Room en la Calle Andrés Julio Aybar 17 segundo ",
+      "ticketUrl": "",
+      "srcName": "Jazz en Dominicana",
+      "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-1-al-7-de.html#2026-11-05-sandy-gabriel-jazz-residence",
+      "sources": [
+        {
+          "srcName": "Jazz en Dominicana",
+          "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-1-al-7-de.html#2026-11-05-sandy-gabriel-jazz-residence"
+        }
+      ]
+    },
+    {
+      "id": "b69997f26f23316f",
+      "source": "jazz_en_dominicana",
+      "date": "2026-11-06",
+      "end": null,
+      "sessions": null,
+      "title": "Fiesta Sunset Jazz - Una Noche de Bossas & más con Elsa Liranzo y el Micky Creales Trío",
+      "venue": "Dominican Fiesta Hotel & Casino",
+      "zone": "Mirador Sur",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [
+        "jazz"
+      ],
+      "description": "Para abrir las presentaciones del penúltimo mes del año, noviembre, época en que llegan a nuestras costas brisas caribeñas que tornan las noches frescas. por lo que el conocido espacio, Fiesta Sunset Jazz tiene el gran honor, del viernes 6, presentar la propuesta musical ¨Una Noc",
+      "ticketUrl": "",
+      "srcName": "Jazz en Dominicana",
+      "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-1-al-7-de.html#2026-11-06-fiesta-sunset-jazz-una-noche-de-bossas-más-con-els",
+      "sources": [
+        {
+          "srcName": "Jazz en Dominicana",
+          "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-1-al-7-de.html#2026-11-06-fiesta-sunset-jazz-una-noche-de-bossas-más-con-els"
+        }
+      ]
+    },
+    {
       "id": "a80a543fd053b05c",
       "source": "ticketmax",
       "date": "2026-11-06",
@@ -1516,7 +1280,7 @@
       "date": "2026-11-07",
       "end": null,
       "sessions": null,
-      "title": "MARKETING SIN TEATRO | 8:00 AM - 12:00 AM",
+      "title": "MARKETING SIN TEATRO",
       "venue": "Biblioteca Pedro Mir, Auditorio Manuel Del Cabral",
       "zone": "",
       "cat": "Teatro",

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-31T15:56:45+00:00",
-  "today": "2026-10-31",
-  "count": 152,
+  "generated_at": "2026-11-01T16:59:26+00:00",
+  "today": "2026-11-01",
+  "count": 140,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -142,136 +142,6 @@
       ]
     },
     {
-      "id": "9d2195fae988268a",
-      "source": "teatro_nacional",
-      "date": "2026-10-25",
-      "end": "2026-10-31",
-      "sessions": null,
-      "title": "La boda de Frank y Mechy",
-      "venue": "Café Teatro Juan Lockward, Teatro Nacional",
-      "zone": "Plaza de la Cultura",
-      "cat": "Teatro",
-      "price": 200,
-      "price_max": 200,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "La Boda de Frank y Mechy es una experiencia teatral inmersiva que invita al público a ser parte de una celebración donde nada es exactamente lo que parece. En el marco de una boda, los asistentes no solo observan, sino que participan activamente de un entramado de vínculos, secre",
-      "ticketUrl": "https://boleteria.com.do/",
-      "srcName": "Teatro Nacional",
-      "srcUrl": "https://teatronacional.gob.do/events/la-boda-de-frank-y-mechy/",
-      "sources": [
-        {
-          "srcName": "Teatro Nacional",
-          "srcUrl": "https://teatronacional.gob.do/events/la-boda-de-frank-y-mechy/"
-        }
-      ]
-    },
-    {
-      "id": "5b121093f8be4cbe",
-      "source": "tix",
-      "date": "2026-10-30",
-      "end": "2026-10-31",
-      "sessions": null,
-      "title": "El Congreso Internacional de Armonización Facial 2026 — Arte · Ciencia · Regeneración",
-      "venue": "Villa Palmera Business Center",
-      "zone": "",
-      "cat": "Arte",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "El Congreso Internacional de Armonización Facial 2026 — Arte · Ciencia · Regeneración será un encuentro académico presencial dedicado a la actualización en armonización facial y medicina regenerativa. Reunirá conferencistas nacionales e internacionales para compartir conocimient…",
-      "ticketUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/ElCongresoInternacionaldeArmonizacionFacial2026ArteCienciaRegeneracion-1"
-        }
-      ]
-    },
-    {
-      "id": "97f036043c28121d",
-      "source": "tix",
-      "date": "2026-10-30",
-      "end": "2026-10-31",
-      "sessions": null,
-      "title": "Halloween After party (La Vita E Dolce)",
-      "venue": "Av. Lope de Vega no. 29",
-      "zone": "",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "https://tix.do/event/HalloweenAfterpartyLaVitaEDolce-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/HalloweenAfterpartyLaVitaEDolce-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/HalloweenAfterpartyLaVitaEDolce-1"
-        }
-      ]
-    },
-    {
-      "id": "50b9726b4cfd0115",
-      "source": "tix",
-      "date": "2026-10-30",
-      "end": "2026-10-31",
-      "sessions": null,
-      "title": "HOUSE OF SHADOWS",
-      "venue": "Lucia SDQ",
-      "zone": "",
-      "cat": "Cultura",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Este 30 de octubre, la noche se pone oscura. 🕷️ HOUSE OF SHADOWS llega con OPEN BAR, disfraces, premios y sorpresas hasta tarde. 🩸 Sexiest Costume: RD$10,000 🩸 Best Group Costume: Win a Bottle 🩸 Surprise Show: 2 AM 📍 Plaza Andalucía II, Av. Abraham Lincoln 📲 Reservas: (809) 722-…",
-      "ticketUrl": "https://tix.do/event/HOUSEOFSHADOWS-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/HOUSEOFSHADOWS-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/HOUSEOFSHADOWS-1"
-        }
-      ]
-    },
-    {
-      "id": "4bf3aeb08edda848",
-      "source": "teatro_nacional",
-      "date": "2026-10-30",
-      "end": "2026-10-31",
-      "sessions": null,
-      "title": "Las criadas",
-      "venue": "Sala Carlos Piantini, Teatro Nacional",
-      "zone": "Plaza de la Cultura",
-      "cat": "Teatro",
-      "price": 200,
-      "price_max": 200,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Dos criadas sirven en la casa de un narco encarcelado y su señora, una mega diva de la TV Nacional.",
-      "ticketUrl": "https://boleteria.com.do/",
-      "srcName": "Teatro Nacional",
-      "srcUrl": "https://teatronacional.gob.do/events/las-criadas/",
-      "sources": [
-        {
-          "srcName": "Teatro Nacional",
-          "srcUrl": "https://teatronacional.gob.do/events/las-criadas/"
-        }
-      ]
-    },
-    {
       "id": "6424534fb8db3415",
       "source": "tix",
       "date": "2026-10-31",
@@ -294,34 +164,6 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/CombateMortalFreestyleInternacional-1"
-        }
-      ]
-    },
-    {
-      "id": "cb222b458fee4a84",
-      "source": "recurring",
-      "date": "2026-10-31",
-      "end": null,
-      "sessions": null,
-      "title": "EUROCINE 2026",
-      "venue": "Caribbean Cinemas, Galería 360",
-      "zone": "",
-      "cat": "Cine",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [
-        "serie"
-      ],
-      "description": "Festival de cine europeo contemporáneo: 15 películas de distintos países de Europa.",
-      "ticketUrl": "",
-      "srcName": "DGCINE",
-      "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-31",
-      "sources": [
-        {
-          "srcName": "DGCINE",
-          "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-10-31"
         }
       ]
     },
@@ -374,266 +216,6 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/THEHAUNTEDMANOR-1"
-        }
-      ]
-    },
-    {
-      "id": "b0ca293db52c895e",
-      "source": "tix",
-      "date": "2026-10-31",
-      "end": "2026-11-01",
-      "sessions": null,
-      "title": "Vamos a Hacerlo Parados",
-      "venue": "Teatro Las Máscaras",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Comedia romántica con un divertido manejo del doble sentido. Narra la historia de dos jóvenes que debaten sobre la idea de casarse o no. Él quiere dar el paso, pero ella se niega rotundamente porque cree que el matrimonio destruirá la relación. Escrita y protagonizada por José M…",
-      "ticketUrl": "https://tix.do/event/VamosaHacerloParados-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/VamosaHacerloParados-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/VamosaHacerloParados-1"
-        }
-      ]
-    },
-    {
-      "id": "321e7104382f5ee5",
-      "source": "ticketmax",
-      "date": "2026-10-31",
-      "end": null,
-      "sessions": null,
-      "title": "CONGRESO FAMILIA A TODA PRUEBA",
-      "venue": "Auditorio Profesor Juan Boch",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 0,
-      "price_max": null,
-      "time": "08:00",
-      "kids": true,
-      "tags": [],
-      "description": "UNIDO POR LA FAMILIA, COMPROMETIDO POR LA PAZ.",
-      "ticketUrl": "https://ticketmax.org/evento/254808/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/254808/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/254808/"
-        }
-      ]
-    },
-    {
-      "id": "2ee9ad1439dd7298",
-      "source": "zona_colonial",
-      "date": "2026-10-31",
-      "end": null,
-      "sessions": null,
-      "title": "Taller de Teatro Infantil",
-      "venue": "Casa de Teatro",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": 0,
-      "price_max": null,
-      "time": "10:00",
-      "kids": true,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/taller-de-teatro-infantil/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/taller-de-teatro-infantil/"
-        }
-      ]
-    },
-    {
-      "id": "cca3564b45534e3e",
-      "source": "ticketmax",
-      "date": "2026-10-31",
-      "end": null,
-      "sessions": null,
-      "title": "Social Brunch Party @Bloom 👻 Sábado 31 octubre",
-      "venue": "Bloom SDQ",
-      "zone": "",
-      "cat": "Música",
-      "price": 3000,
-      "price_max": null,
-      "time": "11:00",
-      "kids": false,
-      "tags": [],
-      "description": "SOCIAL BRUNCH PARTY ☀️🥂 | 31 de octubre Preventa | Early Bird: RD$2,500 General | En la entrada: RD$3,000 Tu entrada incluye 4 horas de All You Can Drink de 11:00 a.m. a 3:00p.m. con: 🍾 Mimosas 🍹 Palomas 🍷 Bandarra Spritz 🍺 Cerveza ☕ Selección de cafés El sábado nos reunimos par…",
-      "ticketUrl": "https://ticketmax.org/evento/900011/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900011/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900011/"
-        }
-      ]
-    },
-    {
-      "id": "28f7f0d9badb9275",
-      "source": "cce",
-      "date": "2026-10-31",
-      "end": null,
-      "sessions": null,
-      "title": "Miradas desde España",
-      "venue": "Cinemateca Nacional Dominicana",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "16:00",
-      "kids": false,
-      "tags": [],
-      "description": "Entrada libre hasta completar aforoPrograma Promoción y Difusión Cultural en el ExteriorLa Asociación Dominicana de Prensa y Crítica Cinematográfica (ADOPRESCI) propone el ciclo “Miradas de España” como una ventana sostenida al cine español, integrando obras contemporáneas y un c",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/miradas-desde-espa%C3%B1a",
-      "sources": [
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/miradas-desde-espa%C3%B1a"
-        }
-      ]
-    },
-    {
-      "id": "09712008349fe303",
-      "source": "zona_colonial",
-      "date": "2026-10-31",
-      "end": null,
-      "sessions": null,
-      "title": "Museo Memorial de la Resistencia Dominicana",
-      "venue": "OCT",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "16:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/museo-memorial-de-la-resistencia-dominicana/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/museo-memorial-de-la-resistencia-dominicana/"
-        }
-      ]
-    },
-    {
-      "id": "1d1e90186347f11e",
-      "source": "zona_colonial",
-      "date": "2026-10-31",
-      "end": null,
-      "sessions": null,
-      "title": "Sábado con los Niños — Taller de Construcción y Manejo de Títeres de Calcetín",
-      "venue": "OCT",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "16:00",
-      "kids": true,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/sabado-con-los-ninos-taller-de-construccion-y-manejo-de-titeres-de-calcetin/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/sabado-con-los-ninos-taller-de-construccion-y-manejo-de-titeres-de-calcetin/"
-        }
-      ]
-    },
-    {
-      "id": "8637975374380c9e",
-      "source": "cce",
-      "date": "2026-10-31",
-      "end": null,
-      "sessions": null,
-      "title": "Concierto de Palo Kañuto",
-      "venue": "Villa Mella, Comunidad de los Cleto",
-      "zone": "Ciudad Colonial",
-      "cat": "Música",
-      "price": 0,
-      "price_max": null,
-      "time": "18:00",
-      "kids": false,
-      "tags": [],
-      "description": "Entrada libre hasta completar aforoPrograma Derechos Humanos y Culturales",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/concierto-de-palo-ka%C3%B1uto%C2%A0",
-      "sources": [
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/concierto-de-palo-ka%C3%B1uto%C2%A0"
-        }
-      ]
-    },
-    {
-      "id": "803a4c7bc0d3a216",
-      "source": "zona_colonial",
-      "date": "2026-10-31",
-      "end": null,
-      "sessions": null,
-      "title": "Historias de la Ciudad Antigua",
-      "venue": "OCT",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 6000,
-      "price_max": 6000,
-      "time": "18:30",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/historias-de-la-ciudad-antigua/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/historias-de-la-ciudad-antigua/"
-        }
-      ]
-    },
-    {
-      "id": "5be9457515b13d90",
-      "source": "ticketmax",
-      "date": "2026-10-31",
-      "end": null,
-      "sessions": null,
-      "title": "CHISMEANDO CON EDUARDO SANTOS",
-      "venue": "Velvet Room",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 800,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "Chismeando con Eduardo Santos es un show donde los chismes del público se convierten en protagonistas. ¿Tienes un CHISME de pareja, un drama del trabajo o un chisme que merece ser contado? Tráelo a Velvet Room. Eduardo Santos hará comedia con TUS CHISMES, en una noche de ocurren…",
-      "ticketUrl": "https://ticketmax.org/evento/900059/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900059/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900059/"
         }
       ]
     },
@@ -743,6 +325,32 @@
         {
           "srcName": "SalsaVida",
           "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-11-01"
+        }
+      ]
+    },
+    {
+      "id": "b0ca293db52c895e",
+      "source": "tix",
+      "date": "2026-11-01",
+      "end": null,
+      "sessions": null,
+      "title": "Vamos a Hacerlo Parados",
+      "venue": "Teatro Las Máscaras",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "18:30",
+      "kids": false,
+      "tags": [],
+      "description": "Comedia romántica con un divertido manejo del doble sentido. Narra la historia de dos jóvenes que debaten sobre la idea de casarse o no. Él quiere dar el paso, pero ella se niega rotundamente porque cree que el matrimonio destruirá la relación. Escrita y protagonizada por José M…",
+      "ticketUrl": "https://tix.do/event/VamosaHacerloParados-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/VamosaHacerloParados-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/VamosaHacerloParados-1"
         }
       ]
     },
@@ -1770,6 +1378,58 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/CarlosSanchezenTheGreenRoom-5"
+        }
+      ]
+    },
+    {
+      "id": "4be1e5182f153af9",
+      "source": "ticketmax",
+      "date": "2026-11-12",
+      "end": null,
+      "sessions": null,
+      "title": "Voices Unleashed Open Mic Unplugged: Chino Sing",
+      "venue": "Jardin Secreto",
+      "zone": "",
+      "cat": "Arte",
+      "price": 600,
+      "price_max": 800,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://ticketmax.org/evento/900283/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900283/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900283/"
+        }
+      ]
+    },
+    {
+      "id": "e497baca29665037",
+      "source": "ticketmax",
+      "date": "2026-11-12",
+      "end": null,
+      "sessions": null,
+      "title": "Ariel Santana : Mal De La Cabeza",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 999,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://ticketmax.org/evento/900289/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900289/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900289/"
         }
       ]
     },
@@ -2996,7 +2656,7 @@
       "time": "19:00",
       "kids": false,
       "tags": [],
-      "description": "Luego de varias funciones de su primer show en solitario \"Eso e' de la gente\", la stand-up comic dominicana Laura Nanita estrena su segundo show unipersonal con la chispa, frescura, desinhibición y el ojo crítico que le caracterizan. \"Gordita al fallo\" es una exploración de la d…",
+      "description": "Luego de varias funciones de su primer show en solitario \"Eso e' de la gente\", la stand-up comic dominicana Laura Nanita presenta la 3ra función de su segundo show unipersonal con la chispa, frescura, desinhibición y el ojo crítico que le caracterizan. \"Gordita al fallo\" es una…",
       "ticketUrl": "https://ticketmax.org/evento/900203/",
       "srcName": "Ticketmax",
       "srcUrl": "https://ticketmax.org/evento/900203/",
@@ -3160,6 +2820,35 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900054/"
+        }
+      ]
+    },
+    {
+      "id": "ee98fd7064aab58e",
+      "source": "recurring",
+      "date": "2026-11-29",
+      "end": null,
+      "sessions": null,
+      "title": "Domingos de Bonyé",
+      "venue": "Ruinas de San Francisco, calle Hostos, Zona Colonial",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [
+        "cultura",
+        "serie"
+      ],
+      "description": "Música en vivo al aire libre con el grupo Bonyé: tambora, son, salsa y merengue.",
+      "ticketUrl": "",
+      "srcName": "SalsaVida",
+      "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-11-29",
+      "sources": [
+        {
+          "srcName": "SalsaVida",
+          "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-11-29"
         }
       ]
     },

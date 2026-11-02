@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-01T16:59:26+00:00",
-  "today": "2026-11-01",
-  "count": 140,
+  "generated_at": "2026-11-02T20:32:58+00:00",
+  "today": "2026-11-02",
+  "count": 139,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -116,297 +116,6 @@
       ]
     },
     {
-      "id": "7e0fde7b529a5965",
-      "source": "teatro_las_mascaras",
-      "date": "2026-10-23",
-      "end": "2026-11-01",
-      "sessions": null,
-      "title": "Vamos Hacerlo Parados",
-      "venue": "Teatro Las Máscaras",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": 875,
-      "price_max": 875,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Funciones: Viernes y Sábados 8:30 p.m. | Domingos 6:30 p.m. Una de las comedias románticas más aclamadas de la República Dominicana regresa renovada, más reflexiva y con mucha más risa.",
-      "ticketUrl": "https://tix.do/event/VamosaHacerloParados-1",
-      "srcName": "Teatro Las Máscaras",
-      "srcUrl": "https://teatrolasmascaras.com/#vamos-hacerlo-parados",
-      "sources": [
-        {
-          "srcName": "Teatro Las Máscaras",
-          "srcUrl": "https://teatrolasmascaras.com/#vamos-hacerlo-parados"
-        }
-      ]
-    },
-    {
-      "id": "6424534fb8db3415",
-      "source": "tix",
-      "date": "2026-10-31",
-      "end": "2026-11-01",
-      "sessions": null,
-      "title": "Combate Mortal Freestyle Internacional.",
-      "venue": "Salón de Eventos Sambil",
-      "zone": "",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Combate Mortal Internacional es un evento de alto impacto que reúne a los mejores peleadores nacionales e internacionales en una noche llena de adrenalina, fuerza y espectáculo. Disfruta de intensos enfrentamientos, técnicas de combate de primer nivel y un ambiente electrizante…",
-      "ticketUrl": "https://tix.do/event/CombateMortalFreestyleInternacional-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/CombateMortalFreestyleInternacional-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/CombateMortalFreestyleInternacional-1"
-        }
-      ]
-    },
-    {
-      "id": "ad021324e10b954d",
-      "source": "teatro_nacional",
-      "date": "2026-10-31",
-      "end": "2026-11-01",
-      "sessions": null,
-      "title": "Guerra de los Mundos II",
-      "venue": "Sala José de Jesus Ravelo, Teatro Nacional",
-      "zone": "Plaza de la Cultura",
-      "cat": "Teatro",
-      "price": 200,
-      "price_max": 200,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "En un San Valentín cualquiera, dos locutores transmiten su programa radial en vivo sin sospechar que están a punto de ser invadidos por los Monstruos Románticos: criaturas alienígenas que transforman el amor en enfermedad, dependencia y manipulación. A través de una estética retr",
-      "ticketUrl": "https://boleteria.com.do/",
-      "srcName": "Teatro Nacional",
-      "srcUrl": "https://teatronacional.gob.do/events/guerra-de-los-mundos-ii/",
-      "sources": [
-        {
-          "srcName": "Teatro Nacional",
-          "srcUrl": "https://teatronacional.gob.do/events/guerra-de-los-mundos-ii/"
-        }
-      ]
-    },
-    {
-      "id": "569314fc40191b89",
-      "source": "tix",
-      "date": "2026-10-31",
-      "end": "2026-11-01",
-      "sessions": null,
-      "title": "THE HAUNTED MANOR",
-      "venue": "Lucia SDQ",
-      "zone": "",
-      "cat": "Cultura",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "The doors are open… but not everyone makes it out. 🩸 THE HAUNTED MANOR This Halloween, enter at your own risk. 👻 Scariest Costume — RD$10,000 🖤 Best Couple Costume — Win a Bottle 🎭 Surprise Show — 2 AM 📍 Plaza Andalucía II, Av. Abraham Lincoln 📲 Reservas: (809) 722-0343 🔞 +21",
-      "ticketUrl": "https://tix.do/event/THEHAUNTEDMANOR-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/THEHAUNTEDMANOR-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/THEHAUNTEDMANOR-1"
-        }
-      ]
-    },
-    {
-      "id": "18336acd3e5b3af4",
-      "source": "recurring",
-      "date": "2026-11-01",
-      "end": null,
-      "sessions": null,
-      "title": "EUROCINE 2026",
-      "venue": "Caribbean Cinemas, Galería 360",
-      "zone": "",
-      "cat": "Cine",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [
-        "serie"
-      ],
-      "description": "Festival de cine europeo contemporáneo: 15 películas de distintos países de Europa.",
-      "ticketUrl": "",
-      "srcName": "DGCINE",
-      "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-11-01",
-      "sources": [
-        {
-          "srcName": "DGCINE",
-          "srcUrl": "https://dgcine.gob.do/eurocine-2026-regresa-con-una-seleccion-de-cine-europeo-contemporaneo/#eurocine-2026-2026-11-01"
-        }
-      ]
-    },
-    {
-      "id": "ca4245148edeae7a",
-      "source": "zona_colonial",
-      "date": "2026-11-01",
-      "end": null,
-      "sessions": null,
-      "title": "Gran Recital de Cello — Obras de Schumann y Haydn",
-      "venue": "NOV",
-      "zone": "Ciudad Colonial",
-      "cat": "Música",
-      "price": 1500,
-      "price_max": 1500,
-      "time": "11:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/gran-recital-de-cello-obras-de-schumann-y-haydn/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/gran-recital-de-cello-obras-de-schumann-y-haydn/"
-        }
-      ]
-    },
-    {
-      "id": "534bc25fb2ed5281",
-      "source": "tix",
-      "date": "2026-11-01",
-      "end": null,
-      "sessions": null,
-      "title": "MATINE DE SALSA",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "17:30",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "https://tix.do/event/MATINEDESALSA-17",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/MATINEDESALSA-17",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/MATINEDESALSA-17"
-        }
-      ]
-    },
-    {
-      "id": "39095ce0901af3b4",
-      "source": "recurring",
-      "date": "2026-11-01",
-      "end": null,
-      "sessions": null,
-      "title": "Domingos de Bonyé",
-      "venue": "Ruinas de San Francisco, calle Hostos, Zona Colonial",
-      "zone": "Ciudad Colonial",
-      "cat": "Música",
-      "price": 0,
-      "price_max": null,
-      "time": "18:00",
-      "kids": false,
-      "tags": [
-        "cultura",
-        "serie"
-      ],
-      "description": "Música en vivo al aire libre con el grupo Bonyé: tambora, son, salsa y merengue.",
-      "ticketUrl": "",
-      "srcName": "SalsaVida",
-      "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-11-01",
-      "sources": [
-        {
-          "srcName": "SalsaVida",
-          "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-11-01"
-        }
-      ]
-    },
-    {
-      "id": "b0ca293db52c895e",
-      "source": "tix",
-      "date": "2026-11-01",
-      "end": null,
-      "sessions": null,
-      "title": "Vamos a Hacerlo Parados",
-      "venue": "Teatro Las Máscaras",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "18:30",
-      "kids": false,
-      "tags": [],
-      "description": "Comedia romántica con un divertido manejo del doble sentido. Narra la historia de dos jóvenes que debaten sobre la idea de casarse o no. Él quiere dar el paso, pero ella se niega rotundamente porque cree que el matrimonio destruirá la relación. Escrita y protagonizada por José M…",
-      "ticketUrl": "https://tix.do/event/VamosaHacerloParados-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/VamosaHacerloParados-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/VamosaHacerloParados-1"
-        }
-      ]
-    },
-    {
-      "id": "bd22695d99d3e0f7",
-      "source": "ticketmax",
-      "date": "2026-11-01",
-      "end": null,
-      "sessions": null,
-      "title": "TECHY: UNA TEMPORADA CHULA",
-      "venue": "Velvet Room",
-      "zone": "",
-      "cat": "Música",
-      "price": 2640,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "Por primera vez, Techy presenta las canciones de su álbum CHULA en vivo con banda completa, en un formato íntimo y de aforo muy limitado. Un show exclusivo donde el público no solo escucha — decide: elige en el momento qué canciones de CHULA y cuáles de los éxitos de siempre qui…",
-      "ticketUrl": "https://ticketmax.org/evento/900189/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900189/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900189/"
-        }
-      ]
-    },
-    {
-      "id": "3bdc73013095ee45",
-      "source": "tix",
-      "date": "2026-11-01",
-      "end": null,
-      "sessions": null,
-      "title": "Throwback to Rock: 70s & 80s - Coro de Santo Domingo Primada de América",
-      "venue": "Bar Juan Lockward del Teatro Nacional",
-      "zone": "Plaza de la Cultura",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "​¡El rock como nunca antes lo habías escuchado! El Coro de Santo Domingo Primada de América te invita a \"Throwback to Rock - 70s & 80s\", un concierto íntimo que fusiona la potencia coral con los más grandes himnos de la historia. ​Disfruta de arreglos vocales únicos para clásico…",
-      "ticketUrl": "https://tix.do/event/ThrowbacktoRock70sand80sCorodeSantoDomingoPrimadadeAmerica-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/ThrowbacktoRock70sand80sCorodeSantoDomingoPrimadadeAmerica-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/ThrowbacktoRock70sand80sCorodeSantoDomingoPrimadadeAmerica-1"
-        }
-      ]
-    },
-    {
       "id": "4f7d243a050c9a41",
       "source": "cce",
       "date": "2026-11-02",
@@ -429,6 +138,32 @@
         {
           "srcName": "Centro Cultural de España",
           "srcUrl": "https://ccesd.aecid.es/w/proyecciones-documentales-isla-alien-y-mailin-"
+        }
+      ]
+    },
+    {
+      "id": "5952cfd404c093b3",
+      "source": "zona_colonial",
+      "date": "2026-11-02",
+      "end": null,
+      "sessions": null,
+      "title": "Eucaristía en ocasión del Día de los Fieles Difuntos",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/eucaristia-en-ocasion-del-dia-de-los-fieles-difuntos/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/eucaristia-en-ocasion-del-dia-de-los-fieles-difuntos/"
         }
       ]
     },
@@ -697,6 +432,32 @@
       ]
     },
     {
+      "id": "0aff3a7ec9ac9b70",
+      "source": "zona_colonial",
+      "date": "2026-11-05",
+      "end": null,
+      "sessions": null,
+      "title": "La Canelilla: Planta endémica de la Hispaniola",
+      "venue": "Quinta Dominica",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "19:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/la-canelilla-planta-endemica-de-la-hispaniola/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/la-canelilla-planta-endemica-de-la-hispaniola/"
+        }
+      ]
+    },
+    {
       "id": "c84f0936d6f0af46",
       "source": "ticketmax",
       "date": "2026-11-05",
@@ -719,6 +480,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/253522/"
+        }
+      ]
+    },
+    {
+      "id": "02f47f42c3fb8ac9",
+      "source": "zona_colonial",
+      "date": "2026-11-05",
+      "end": null,
+      "sessions": null,
+      "title": "La Tarima — Presentación artística en vivo",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 800,
+      "price_max": 800,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/la-tarima-presentacion-artistica-en-vivo/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/la-tarima-presentacion-artistica-en-vivo/"
         }
       ]
     },
@@ -1119,6 +906,32 @@
       ]
     },
     {
+      "id": "8bd163ec6c27528c",
+      "source": "tix",
+      "date": "2026-11-08",
+      "end": null,
+      "sessions": null,
+      "title": "MATINE DE SALSA",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "17:00",
+      "kids": false,
+      "tags": [],
+      "description": "Matiné de Salsa en The Green Room. Domingo 8 de noviembre, a partir de las 5:00PM. Reserva gratis. Calle Andrés Julio Aybar 17, Piantini.",
+      "ticketUrl": "https://tix.do/event/MATINEDESALSA-18",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/MATINEDESALSA-18",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/MATINEDESALSA-18"
+        }
+      ]
+    },
+    {
       "id": "0ca099dcd9a58634",
       "source": "recurring",
       "date": "2026-11-08",
@@ -1486,32 +1299,6 @@
       ]
     },
     {
-      "id": "fa5b8781f65aa266",
-      "source": "tix",
-      "date": "2026-11-13",
-      "end": "2026-11-14",
-      "sessions": null,
-      "title": "Olga Cerpa & Mestisay. Música de las Islas Canarias",
-      "venue": "Casa de Teatro. Olga Cerpa & Mestisay. Muisca de las Islas Canarias",
-      "zone": "Ciudad Colonial",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Por primera vez en República Dominicana Olga Cerpa y Mestisay. Música de las Islas Canarias. Un concierto cercano con los temas de su más reciente CD \"La costa de los cantares\" y éxitos de sus 20 producciones anteriores. Olga Cerpa es una intérprete excepcional considerada \"La v…",
-      "ticketUrl": "https://tix.do/event/OlgaCerpaandMestisayMusicadelasIslasCanarias-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/OlgaCerpaandMestisayMusicadelasIslasCanarias-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/OlgaCerpaandMestisayMusicadelasIslasCanarias-1"
-        }
-      ]
-    },
-    {
       "id": "27fd3306c86532bc",
       "source": "teatro_las_mascaras",
       "date": "2026-11-13",
@@ -1622,6 +1409,32 @@
       ]
     },
     {
+      "id": "b8a6164100a1a79e",
+      "source": "ticketmax",
+      "date": "2026-11-13",
+      "end": null,
+      "sessions": null,
+      "title": "La Excavadora",
+      "venue": "Sala Manuel Rueda: Escuela de Bellas Artes",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 1000,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "Hay historias que no se cuentan: se desentierran. La Excavadora nos adentra en las contradicciones de la vida cotidiana, donde las carencias, el caos y las desigualdades salen a la superficie. Una invitación a descubrir lo que permanece oculto y dejarse atravesar por la fuerza d…",
+      "ticketUrl": "https://ticketmax.org/evento/900420/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900420/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900420/"
+        }
+      ]
+    },
+    {
       "id": "69461710bb60e551",
       "source": "ticketmax",
       "date": "2026-11-13",
@@ -1674,6 +1487,36 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/LasLocurasdePapiyMami-1"
+        }
+      ]
+    },
+    {
+      "id": "9575e01b7519d7b0",
+      "source": "zona_colonial",
+      "date": "2026-11-13",
+      "end": null,
+      "sessions": null,
+      "title": "Concierto en vivo “Música de las Islas Canarias” con Olga Cerpa & Mestisay",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": 1000,
+      "price_max": 1000,
+      "time": "21:00",
+      "kids": false,
+      "tags": [],
+      "description": "Por primera vez en República Dominicana Olga Cerpa y Mestisay. Música de las Islas Canarias. Un concierto cercano con los temas de su más reciente CD \"La costa de los cantares\" y éxitos de sus 20 producciones anteriores. Olga Cerpa es una intérprete excepcional considerada \"La v…",
+      "ticketUrl": "https://tix.do/event/OlgaCerpaandMestisayMusicadelasIslasCanarias-1",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/concierto-en-vivo-musica-de-las-islas-canarias-con-olga-cerpa-mestisay/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/concierto-en-vivo-musica-de-las-islas-canarias-con-olga-cerpa-mestisay/"
+        },
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/OlgaCerpaandMestisayMusicadelasIslasCanarias-1"
         }
       ]
     },
@@ -1889,6 +1732,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/253308/"
+        }
+      ]
+    },
+    {
+      "id": "572ac2063135b369",
+      "source": "zona_colonial",
+      "date": "2026-11-14",
+      "end": null,
+      "sessions": null,
+      "title": "Tributo a RBD, Rebelde Way & Floricienta (Segunda Función)",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 1200,
+      "price_max": 1200,
+      "time": "21:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/tributo-a-rbd-rebelde-way-floricienta-segunda-funcion/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/tributo-a-rbd-rebelde-way-floricienta-segunda-funcion/"
         }
       ]
     },
@@ -2111,6 +1980,32 @@
       ]
     },
     {
+      "id": "8b712f62b5011ec2",
+      "source": "zona_colonial",
+      "date": "2026-11-19",
+      "end": null,
+      "sessions": null,
+      "title": "Concert en vivo desde Cuba — Frank Delgado",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 1000,
+      "price_max": 1000,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/concert-en-vivo-desde-cuba-frank-delgado/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/concert-en-vivo-desde-cuba-frank-delgado/"
+        }
+      ]
+    },
+    {
       "id": "9c20f79af708b457",
       "source": "ticketmax",
       "date": "2026-11-19",
@@ -2133,6 +2028,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/254330/"
+        }
+      ]
+    },
+    {
+      "id": "1f71313aa393e67c",
+      "source": "zona_colonial",
+      "date": "2026-11-19",
+      "end": null,
+      "sessions": null,
+      "title": "Obra de teatro “La casa de Bernarda Alba” — En el marco del Festival Decenario Teatral 10×10",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": 800,
+      "price_max": 800,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/obra-de-teatro-la-casa-de-bernarda-alba-en-el-marco-del-festival-decenario-teatral-10x10/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/obra-de-teatro-la-casa-de-bernarda-alba-en-el-marco-del-festival-decenario-teatral-10x10/"
         }
       ]
     },
@@ -2564,6 +2485,58 @@
       ]
     },
     {
+      "id": "190436ad12da2342",
+      "source": "zona_colonial",
+      "date": "2026-11-27",
+      "end": null,
+      "sessions": null,
+      "title": "Presentación en vivo del álbum debut “Cuerdas en el Ocaso” (Banda completa) por Ivana Loyola",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": 1000,
+      "price_max": 1000,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/presentacion-en-vivo-del-album-debut-cuerdas-en-el-ocaso-banda-completa-por-ivana-loyola/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/presentacion-en-vivo-del-album-debut-cuerdas-en-el-ocaso-banda-completa-por-ivana-loyola/"
+        }
+      ]
+    },
+    {
+      "id": "49549f5a6a637140",
+      "source": "ticketmax",
+      "date": "2026-11-27",
+      "end": null,
+      "sessions": null,
+      "title": "Throwback Friday \"El Recreo Old School\"",
+      "venue": "Izbira Centro de Eventos",
+      "zone": "",
+      "cat": "Música",
+      "price": 500,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "El Equipo Táctico de Egedonbosco, Izbira y Kaifoa Group invitan al Retro Party de Marquesina donde los DJs tocarán los Greatest hits de todos los tiempos SEVERINO JOMAX BAEZI",
+      "ticketUrl": "https://ticketmax.org/evento/900293/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900293/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900293/"
+        }
+      ]
+    },
+    {
       "id": "e5ab435923752366",
       "source": "ticketmax",
       "date": "2026-11-27",
@@ -2651,7 +2624,7 @@
       "venue": "Velvet Room",
       "zone": "",
       "cat": "Teatro",
-      "price": 500,
+      "price": 600,
       "price_max": null,
       "time": "19:00",
       "kids": false,

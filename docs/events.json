@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-02T20:32:58+00:00",
-  "today": "2026-11-02",
-  "count": 139,
+  "generated_at": "2026-11-03T18:03:13+00:00",
+  "today": "2026-11-03",
+  "count": 143,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -116,80 +116,28 @@
       ]
     },
     {
-      "id": "4f7d243a050c9a41",
-      "source": "cce",
-      "date": "2026-11-02",
-      "end": null,
+      "id": "25759d0aa50f1c71",
+      "source": "teatro_nacional",
+      "date": "2026-11-03",
+      "end": "2026-11-15",
       "sessions": null,
-      "title": "Proyecciones documentales “Isla Alien y Mailin”",
-      "venue": "Centro Cultural de España",
-      "zone": "Ciudad Colonial",
-      "cat": "Cine",
-      "price": 0,
-      "price_max": null,
-      "time": "17:00",
+      "title": "Festival Internacional de Teatro para la Infancia y la Juventud",
+      "venue": "Sala José de Jesus Ravelo, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Teatro",
+      "price": 500,
+      "price_max": 700,
+      "time": "",
       "kids": false,
       "tags": [],
-      "description": "Luego de las proyecciones se llevará a cabo el conversatorio “El guión en el documental” por Claudia GaleanoEntrada libre hasta completar aforoEl Centro Cultural de España en Santo Domingo acoge una jornada de la quinta edición del Festival Histeria, un encuentro dedicado al terr",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/proyecciones-documentales-isla-alien-y-mailin-",
+      "description": "¡TODOS A BORDO porque el barco del 17 FITIJ estáa punto de zarpar!",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/festival-internacional-de-teatro-para-la-infancia-y-la-juventud/",
       "sources": [
         {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/proyecciones-documentales-isla-alien-y-mailin-"
-        }
-      ]
-    },
-    {
-      "id": "5952cfd404c093b3",
-      "source": "zona_colonial",
-      "date": "2026-11-02",
-      "end": null,
-      "sessions": null,
-      "title": "Eucaristía en ocasión del Día de los Fieles Difuntos",
-      "venue": "NOV",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "18:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/eucaristia-en-ocasion-del-dia-de-los-fieles-difuntos/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/eucaristia-en-ocasion-del-dia-de-los-fieles-difuntos/"
-        }
-      ]
-    },
-    {
-      "id": "a6d36ef05d2617f4",
-      "source": "zona_colonial",
-      "date": "2026-11-02",
-      "end": null,
-      "sessions": null,
-      "title": "Festividad Cultural “Día de Muertos” — Desfile de Catrinas y Catrines e Inauguración del Altar de Muertos 2026",
-      "venue": "NOV",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "18:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/festividad-cultural-dia-de-muertos-desfile-de-catrinas-y-catrines-e-inauguracion-del-altar-de-muertos-2026/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/festividad-cultural-dia-de-muertos-desfile-de-catrinas-y-catrines-e-inauguracion-del-altar-de-muertos-2026/"
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/festival-internacional-de-teatro-para-la-infancia-y-la-juventud/"
         }
       ]
     },
@@ -454,6 +402,32 @@
         {
           "srcName": "Zona Colonial",
           "srcUrl": "https://zonacolonial.do/actividad/la-canelilla-planta-endemica-de-la-hispaniola/"
+        }
+      ]
+    },
+    {
+      "id": "cd155c7669e72f97",
+      "source": "ticketmax",
+      "date": "2026-11-05",
+      "end": null,
+      "sessions": null,
+      "title": "PODRÍA SER PEOR : DIMITRY JOSEPH 🇭🇹 & MICHAEL PENTON 🇨🇺",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 499,
+      "price_max": 799,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "PODRÍA SER PEOR 😂🇭🇹🇨🇺 ¡Una noche de motivación involuntaria! ¿Tú crees que en República Dominicana estamos pasando trabajo? ¡Espera a escuchar lo que tienen que contar estos dos! 😂 Este jueves 5 de noviembre a las 8:00 PM, Velvet Room presenta PODRÍA SER PEOR, un espectáculo de…",
+      "ticketUrl": "https://ticketmax.org/evento/900315/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900315/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900315/"
         }
       ]
     },
@@ -1628,6 +1602,32 @@
       ]
     },
     {
+      "id": "64d628e5261d179d",
+      "source": "zona_colonial",
+      "date": "2026-11-14",
+      "end": null,
+      "sessions": null,
+      "title": "Taller creativo “Manos en el barro” (Inspirado en la artesanía taína)",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "14:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/taller-creativo-manos-en-el-barro-inspirado-en-la-artesania-taina/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/taller-creativo-manos-en-el-barro-inspirado-en-la-artesania-taina/"
+        }
+      ]
+    },
+    {
       "id": "1a77a952dc91a1f8",
       "source": "zona_colonial",
       "date": "2026-11-14",
@@ -1672,7 +1672,7 @@
       "time": "20:00",
       "kids": false,
       "tags": [],
-      "description": "👑 WHAT IS REAL 3.0 · Mascarada electrónica Sábado 14 de noviembre. Los Reales Colonial, Santo Domingo. Una noche donde la realidad se quita la máscara. Inspirada en la realeza medieval, esta tercera edición te lleva a un baile de máscaras con música electrónica y visuales hiperr…",
+      "description": "👑 WHAT IS REAL 3.0 · Mascarada electrónica CHEZ TROPICS MOHIKAA RAMOS & CHILL OF REZZ Sábado 14 de noviembre. Los Reales Colonial, Santo Domingo. Una noche donde la realidad se quita la máscara. Inspirada en la realeza medieval, esta tercera edición te lleva a un baile de máscar…",
       "ticketUrl": "https://tix.do/event/WHATISREAL30-2",
       "srcName": "TIX",
       "srcUrl": "https://tix.do/event/WHATISREAL30-2",
@@ -1898,6 +1898,32 @@
       ]
     },
     {
+      "id": "acc0de42a02e5e20",
+      "source": "teatro_nacional",
+      "date": "2026-11-18",
+      "end": "2026-11-29",
+      "sessions": null,
+      "title": "Festival Internacional de Teatro Mujeres Sobre las Tablas",
+      "venue": "Sala José de Jesus Ravelo, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Teatro",
+      "price": 400,
+      "price_max": 500,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Del 18 al 29 de noviembre llega la XI edición del Festival Internacional de Teatro Mujeres Sobre Las Tablas — FITMUT-RD 2026, un espacio de encuentro, creación y celebración de las artes escénicas, con presentaciones nacionales e internacionales en República Dominicana.",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/festival-internacional-de-teatro-mujeres-sobre-las-tablas/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/festival-internacional-de-teatro-mujeres-sobre-las-tablas/"
+        }
+      ]
+    },
+    {
       "id": "4360d53c06c2c1a8",
       "source": "ticketmax",
       "date": "2026-11-18",
@@ -1976,6 +2002,34 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/PampersarcoirisEldebatesobrelaadopciongay-1"
+        }
+      ]
+    },
+    {
+      "id": "7f36df11e6f46f57",
+      "source": "cce",
+      "date": "2026-11-19",
+      "end": null,
+      "sessions": null,
+      "title": "Herederas del texto: Taller de edición, corrección y escritura",
+      "venue": "Centro Cultural de España",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [
+        "formacion"
+      ],
+      "description": "Dirigido a personas interesadas en la corrección y edición de textos.Inscríbete antes del lunes 16 de noviembrerellenando este formulario con tus datosEl objetivo de este taller no es solo aprender a corregir gramática, sino entender la edición como un oficio creativo y crítico. ",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/herederas-del-texto-taller-de-edici%C3%B3n-correcci%C3%B3n-y-escritura",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/herederas-del-texto-taller-de-edici%C3%B3n-correcci%C3%B3n-y-escritura"
         }
       ]
     },
@@ -2481,6 +2535,58 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/TOURBACHARENGUE20ThanksgivingEdition-1"
+        }
+      ]
+    },
+    {
+      "id": "01c1280f350f2cc6",
+      "source": "tix",
+      "date": "2026-11-27",
+      "end": "2026-11-28",
+      "sessions": null,
+      "title": "BULIN 47💙",
+      "venue": "Lucia SDQ",
+      "zone": "",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://tix.do/event/BULIN47-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/BULIN47-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/BULIN47-1"
+        }
+      ]
+    },
+    {
+      "id": "83b0570dc37d67f4",
+      "source": "teatro_nacional",
+      "date": "2026-11-27",
+      "end": null,
+      "sessions": null,
+      "title": "Viaje al Infinito",
+      "venue": "Sala Aida Bonnelly de Díaz, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Música",
+      "price": 1000,
+      "price_max": 1500,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/viaje-al-infinito/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/viaje-al-infinito/"
         }
       ]
     },

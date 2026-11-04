@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03T18:03:13+00:00",
-  "today": "2026-11-03",
+  "generated_at": "2026-11-04T18:11:58+00:00",
+  "today": "2026-11-04",
   "count": 143,
   "events": [
     {
@@ -138,84 +138,6 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/festival-internacional-de-teatro-para-la-infancia-y-la-juventud/"
-        }
-      ]
-    },
-    {
-      "id": "cc94ed0f76e9057c",
-      "source": "zona_colonial",
-      "date": "2026-11-03",
-      "end": null,
-      "sessions": null,
-      "title": "Cine Clásico — “Ley y Justicia”",
-      "venue": "Centro Cultural Banreservas",
-      "zone": "Ciudad Colonial",
-      "cat": "Cine",
-      "price": 0,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/cine-clasico-ley-y-justicia/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/cine-clasico-ley-y-justicia/"
-        }
-      ]
-    },
-    {
-      "id": "c83b60374d772e7c",
-      "source": "cce",
-      "date": "2026-11-03",
-      "end": null,
-      "sessions": null,
-      "title": "Futuras ancestras: La obra de Denisse Español",
-      "venue": "Centro Cultural de España",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": 0,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "Presenta Proyecto AnticanonImparte Amarilis CuetoModera Arlene SabarisEntrada Libre hasta completar aforoPrograma Fortalecimiento del Espacio LatinoamericanoFuturas Ancestras propone construir un espacio de encuentro y lectura entre autoras dominicanas contemporáneas que promueva",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/futuras-ancestras-la-obra-de-denisse-espa%C3%B1ol%C2%A0",
-      "sources": [
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/futuras-ancestras-la-obra-de-denisse-espa%C3%B1ol%C2%A0"
-        }
-      ]
-    },
-    {
-      "id": "6218085d18f7e65e",
-      "source": "tix",
-      "date": "2026-11-03",
-      "end": null,
-      "sessions": null,
-      "title": "Comedia Local: Michel Pentón, Laura Nanita y Demailyn",
-      "venue": "Local 3 : Calle Max. Herriquez Ureña 33",
-      "zone": "",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "21:00",
-      "kids": false,
-      "tags": [],
-      "description": "Comedia Local presenta a Michel Pentón (desde Cuba), a Laura Nanita y a Demailyn en una noche de risas y carcajadas sin precedentes . No te lo pierdas",
-      "ticketUrl": "https://tix.do/event/ComediaLocalMichelPentonLauraNanitayDemailyn-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/ComediaLocalMichelPentonLauraNanitayDemailyn-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/ComediaLocalMichelPentonLauraNanitayDemailyn-1"
         }
       ]
     },
@@ -606,7 +528,7 @@
       "time": "21:30",
       "kids": false,
       "tags": [],
-      "description": "Sí y Nights: Improv Show Una noche de pura improvisación. Seis actores en escena, sin guion ni dirección: lo que pase dependerá del momento… y del público. ¡Entretenimiento fuera de lo común y risas garantizadas! ⭐️ Host: Suzette Reyes 📍 Velvet Room, Bloom, Av. Enriquillo 28 🍹🍔…",
+      "description": "Sí y Nights: Improv Show Una noche de pura improvisación. Cinco actores en escena, sin guion ni dirección: lo que pase dependerá del momento… y del público. ¡Entretenimiento fuera de lo común y risas garantizadas! ⭐️ Host: Suzette Reyes 📍 Velvet Room, Bloom, Av. Enriquillo 28 🍹🍔…",
       "ticketUrl": "https://ticketmax.org/evento/900139/",
       "srcName": "Ticketmax",
       "srcUrl": "https://ticketmax.org/evento/900139/",
@@ -1392,7 +1314,7 @@
       "venue": "Sala Manuel Rueda: Escuela de Bellas Artes",
       "zone": "",
       "cat": "Teatro",
-      "price": 1000,
+      "price": 900,
       "price_max": null,
       "time": "20:00",
       "kids": false,
@@ -1535,7 +1457,7 @@
       "time": "21:30",
       "kids": false,
       "tags": [],
-      "description": "Sí y Nights: Improv Show Una noche de pura improvisación. Seis actores en escena, sin guion ni dirección: lo que pase dependerá del momento… y del público. ¡Entretenimiento fuera de lo común y risas garantizadas! ⭐️ Host: Suzette Reyes 📍 Velvet Room, Bloom, Av. Enriquillo 28 🍹🍔…",
+      "description": "Sí y Nights: Improv Show Una noche de pura improvisación. Cinco actores en escena, sin guion ni dirección: lo que pase dependerá del momento… y del público. ¡Entretenimiento fuera de lo común y risas garantizadas! ⭐️ Host: Suzette Reyes 📍 Velvet Room, Bloom, Av. Enriquillo 28 🍹🍔…",
       "ticketUrl": "https://ticketmax.org/evento/900141/",
       "srcName": "Ticketmax",
       "srcUrl": "https://ticketmax.org/evento/900141/",
@@ -1572,6 +1494,32 @@
         {
           "srcName": "Hostelworld Events",
           "srcUrl": "https://www.hostelworld.com/events/e/6a9b8740514fd3e727f8222f/809-mercado/#809-mercado-2026-11-2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "f6a494e87e2fc6b2",
+      "source": "tix",
+      "date": "2026-11-14",
+      "end": "2026-11-15",
+      "sessions": null,
+      "title": "THE BRIGADE",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "The Brigade en vivo en The Green Room. Sábado 14 de noviembre, 9:30 PM. Tributo a The Strokes, Nirvana, Hombres G, Arctic Monkeys, Caramelos de Cianuro y más. Reserva gratis. Calle Andrés Julio Aybar 17, Piantini.",
+      "ticketUrl": "https://tix.do/event/THEBRIGADE-2",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/THEBRIGADE-2",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/THEBRIGADE-2"
         }
       ]
     },
@@ -1816,6 +1764,32 @@
         {
           "srcName": "SalsaVida",
           "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "147b3500b185a2ef",
+      "source": "ticketmax",
+      "date": "2026-11-15",
+      "end": null,
+      "sessions": null,
+      "title": "SPLOU : NUEVA FUNCIÓN",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 1800,
+      "price_max": 3000,
+      "time": "18:30",
+      "kids": false,
+      "tags": [],
+      "description": "Por primera vez en República Dominicana, llega SPLOU a Velvet Room. Con millones de reproducciones en redes sociales y una comunidad de seguidores que no para de crecer, Splou se ha convertido en una de las nuevas voces de la comedia latina en Estados Unidos. Su estilo mezcla hi…",
+      "ticketUrl": "https://ticketmax.org/evento/900439/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900439/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900439/"
         }
       ]
     },
@@ -2204,7 +2178,7 @@
       "time": "21:30",
       "kids": false,
       "tags": [],
-      "description": "Sí y Nights: Improv Show Una noche de pura improvisación. Seis actores en escena, sin guion ni dirección: lo que pase dependerá del momento… y del público. ¡Entretenimiento fuera de lo común y risas garantizadas! ⭐️ Host: Suzette Reyes 📍 Velvet Room, Bloom, Av. Enriquillo 28 🍹🍔…",
+      "description": "Sí y Nights: Improv Show Una noche de pura improvisación. Cinco actores en escena, sin guion ni dirección: lo que pase dependerá del momento… y del público. ¡Entretenimiento fuera de lo común y risas garantizadas! ⭐️ Host: Suzette Reyes 📍 Velvet Room, Bloom, Av. Enriquillo 28 🍹🍔…",
       "ticketUrl": "https://ticketmax.org/evento/900143/",
       "srcName": "Ticketmax",
       "srcUrl": "https://ticketmax.org/evento/900143/",
@@ -2591,6 +2565,32 @@
       ]
     },
     {
+      "id": "71e3fb04b1f5ef30",
+      "source": "ticketmax",
+      "date": "2026-11-27",
+      "end": null,
+      "sessions": null,
+      "title": "ESCUELA PARA MUJERES 161",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 1300,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "Raeldo López celebra 10 años de presentaciones de su emblemático show ESCUELA PARA MUJERES, donde el Dr. Amor convoca a sus alumnas para convencerlas de que los hombres no somos tan complicados, el amor con nosotros si es posible. Luego del cierre de Chao Café Teatro, esta es la…",
+      "ticketUrl": "https://ticketmax.org/evento/900301/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900301/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900301/"
+        }
+      ]
+    },
+    {
       "id": "190436ad12da2342",
       "source": "zona_colonial",
       "date": "2026-11-27",
@@ -2683,7 +2683,7 @@
       "time": "21:30",
       "kids": false,
       "tags": [],
-      "description": "Sí y Nights: Improv Show Una noche de pura improvisación. Seis actores en escena, sin guion ni dirección: lo que pase dependerá del momento… y del público. ¡Entretenimiento fuera de lo común y risas garantizadas! ⭐️ Host: Suzette Reyes 📍 Velvet Room, Bloom, Av. Enriquillo 28 🍹🍔…",
+      "description": "Sí y Nights: Improv Show Una noche de pura improvisación. Cinco actores en escena, sin guion ni dirección: lo que pase dependerá del momento… y del público. ¡Entretenimiento fuera de lo común y risas garantizadas! ⭐️ Host: Suzette Reyes 📍 Velvet Room, Bloom, Av. Enriquillo 28 🍹🍔…",
       "ticketUrl": "https://ticketmax.org/evento/900147/",
       "srcName": "Ticketmax",
       "srcUrl": "https://ticketmax.org/evento/900147/",

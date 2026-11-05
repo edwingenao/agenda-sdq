@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-04T18:11:58+00:00",
-  "today": "2026-11-04",
-  "count": 143,
+  "generated_at": "2026-11-05T18:14:53+00:00",
+  "today": "2026-11-05",
+  "count": 152,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -26,38 +26,6 @@
         {
           "srcName": "Centro Cultural de España",
           "srcUrl": "https://ccesd.aecid.es/w/inscr%C3%ADbete"
-        }
-      ]
-    },
-    {
-      "id": "2b15948fe41c11fa",
-      "source": "cce",
-      "date": "2026-10-14",
-      "end": "2026-11-04",
-      "sessions": [
-        "2026-10-14",
-        "2026-10-17",
-        "2026-10-21",
-        "2026-10-28",
-        "2026-11-04"
-      ],
-      "title": "Hablar con el paisaje: La (video) poesía como forma de atención",
-      "venue": "Centro Cultural de España",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": null,
-      "price_max": null,
-      "time": "21:00",
-      "kids": false,
-      "tags": [],
-      "description": "14, 21 y 28 de octubre 6.30 – 9 pm17 de octubre: Visita al Jardín Botánico, 9 – 11 am4 de noviembre, de 6:30 pm a 9:00 pm",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/hablar-con-el-paisaje-la-video-poes%C3%ADa-como-forma-de-atenci%C3%B3n",
-      "sources": [
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/hablar-con-el-paisaje-la-video-poes%C3%ADa-como-forma-de-atenci%C3%B3n"
         }
       ]
     },
@@ -142,114 +110,6 @@
       ]
     },
     {
-      "id": "1065c5285ca774ad",
-      "source": "zona_colonial",
-      "date": "2026-11-04",
-      "end": null,
-      "sessions": null,
-      "title": "ACTO DE RECONOCIMIENTO A KIN SÁNCHEZ FERNÁNDEZ",
-      "venue": "NOV",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "18:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/acto-de-reconocimiento-a-kin-sanchez-fernandez/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/acto-de-reconocimiento-a-kin-sanchez-fernandez/"
-        }
-      ]
-    },
-    {
-      "id": "65608b6fbeb6c6f2",
-      "source": "zona_colonial",
-      "date": "2026-11-04",
-      "end": null,
-      "sessions": null,
-      "title": "CENTINELA: De lo Invisible a lo Fecundo",
-      "venue": "Casa de Teatro",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": null,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/centinela-de-lo-invisible-a-lo-fecundo/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/centinela-de-lo-invisible-a-lo-fecundo/"
-        }
-      ]
-    },
-    {
-      "id": "6eff35ff9fb23914",
-      "source": "teatro_nacional",
-      "date": "2026-11-04",
-      "end": null,
-      "sessions": null,
-      "title": "Mahler Resurreción",
-      "venue": "Sala Carlos Piantini, Teatro Nacional",
-      "zone": "Plaza de la Cultura",
-      "cat": "Música",
-      "price": 2290,
-      "price_max": 5640,
-      "time": "20:30",
-      "kids": false,
-      "tags": [],
-      "description": "No te pierdas de la Gala de Aniversarios: «Resurrección» de Gustav Mahler, una de las obras más monumentales del repertorio sinfónico universal.",
-      "ticketUrl": "https://boleteria.com.do/",
-      "srcName": "Teatro Nacional",
-      "srcUrl": "https://teatronacional.gob.do/events/mahler-resurrecion/",
-      "sources": [
-        {
-          "srcName": "Teatro Nacional",
-          "srcUrl": "https://teatronacional.gob.do/events/mahler-resurrecion/"
-        },
-        {
-          "srcName": "Fundación Sinfonía",
-          "srcUrl": "https://sinfonia.org.do/agenda/mahler-resurreccion-gala-de-aniversarios/"
-        }
-      ]
-    },
-    {
-      "id": "2108329a10565cd1",
-      "source": "tix",
-      "date": "2026-11-04",
-      "end": null,
-      "sessions": null,
-      "title": "COMEDY SHOWCASE",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "21:30",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "https://tix.do/event/COMEDYSHOWCASE-28",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/COMEDYSHOWCASE-28",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/COMEDYSHOWCASE-28"
-        }
-      ]
-    },
-    {
       "id": "d75b7600ea545daa",
       "source": "tix",
       "date": "2026-11-05",
@@ -272,6 +132,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/BingoSolidarioADOSID-1"
+        }
+      ]
+    },
+    {
+      "id": "e26fc7620245b8b1",
+      "source": "zona_colonial",
+      "date": "2026-11-05",
+      "end": null,
+      "sessions": null,
+      "title": "Cinefórum MMRD: Proyección de la película “La Herencia de los Ramírez” (Mes del Cine Dominicano)",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Cine",
+      "price": 0,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/cineforum-mmrd-proyeccion-de-la-pelicula-la-herencia-de-los-ramirez-mes-del-cine-dominicano/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/cineforum-mmrd-proyeccion-de-la-pelicula-la-herencia-de-los-ramirez-mes-del-cine-dominicano/"
         }
       ]
     },
@@ -338,7 +224,7 @@
       "zone": "",
       "cat": "Teatro",
       "price": 499,
-      "price_max": 799,
+      "price_max": null,
       "time": "20:00",
       "kids": false,
       "tags": [],
@@ -456,6 +342,32 @@
         {
           "srcName": "Jazz en Dominicana",
           "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-1-al-7-de.html#2026-11-05-sandy-gabriel-jazz-residence"
+        }
+      ]
+    },
+    {
+      "id": "6b4f64867d73fffa",
+      "source": "zona_colonial",
+      "date": "2026-11-06",
+      "end": null,
+      "sessions": null,
+      "title": "ZILE M: Donde los espíritus bailan con nosotros” (Momento 1 – Conversatorio y socialización)",
+      "venue": "Centro Cultural de España",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/zile-m-donde-los-espiritus-bailan-con-nosotros-momento-1-conversatorio-y-socializacion/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/zile-m-donde-los-espiritus-bailan-con-nosotros-momento-1-conversatorio-y-socializacion/"
         }
       ]
     },
@@ -594,6 +506,84 @@
       ]
     },
     {
+      "id": "c8faa5c17819d190",
+      "source": "zona_colonial",
+      "date": "2026-11-07",
+      "end": null,
+      "sessions": null,
+      "title": "PROYECCIÓN Y CONVERSATORIO: DOCUMENTAL “HENRY MOLINA: EN LA SOMBRA DE LA DEMOCRACIA”",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Cine",
+      "price": null,
+      "price_max": null,
+      "time": "10:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/proyeccion-y-conversatorio-documental-henry-molina-en-la-sombra-de-la-democracia/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/proyeccion-y-conversatorio-documental-henry-molina-en-la-sombra-de-la-democracia/"
+        }
+      ]
+    },
+    {
+      "id": "7f476cf653978357",
+      "source": "zona_colonial",
+      "date": "2026-11-07",
+      "end": null,
+      "sessions": null,
+      "title": "Taller infantil “La Constitución” (Sábado con los Niños)",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "16:00",
+      "kids": true,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/taller-infantil-la-constitucion-sabado-con-los-ninos/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/taller-infantil-la-constitucion-sabado-con-los-ninos/"
+        }
+      ]
+    },
+    {
+      "id": "1c2e76c5a755031f",
+      "source": "zona_colonial",
+      "date": "2026-11-07",
+      "end": null,
+      "sessions": null,
+      "title": "Taller Infantil de Pintura “Plantas Endémicas vistas por los niños”",
+      "venue": "Quinta Dominica",
+      "zone": "Ciudad Colonial",
+      "cat": "Arte",
+      "price": null,
+      "price_max": null,
+      "time": "16:30",
+      "kids": true,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/taller-infantil-de-pintura-plantas-endemicas-vistas-por-los-ninos/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/taller-infantil-de-pintura-plantas-endemicas-vistas-por-los-ninos/"
+        }
+      ]
+    },
+    {
       "id": "f229a4b2cfea7f39",
       "source": "ticketmax",
       "date": "2026-11-07",
@@ -620,13 +610,39 @@
       ]
     },
     {
+      "id": "8f3470c1824be85b",
+      "source": "zona_colonial",
+      "date": "2026-11-07",
+      "end": null,
+      "sessions": null,
+      "title": "Concierto “Etaquetuve” por Xiomara Fortuna (Dentro del festival CAYE)",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/concierto-etaquetuve-por-xiomara-fortuna-dentro-del-festival-caye/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/concierto-etaquetuve-por-xiomara-fortuna-dentro-del-festival-caye/"
+        }
+      ]
+    },
+    {
       "id": "4c5d5a187f0a5ad4",
       "source": "cce",
       "date": "2026-11-07",
       "end": null,
       "sessions": null,
       "title": "Etaquetuve",
-      "venue": "Centro Cultural de España",
+      "venue": "En la tarima del Festival Caye",
       "zone": "Ciudad Colonial",
       "cat": "Música",
       "price": 0,
@@ -935,6 +951,32 @@
       ]
     },
     {
+      "id": "a3a323c4ba418f38",
+      "source": "zona_colonial",
+      "date": "2026-11-09",
+      "end": null,
+      "sessions": null,
+      "title": "Gran Simultánea de Ajedrez",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "14:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/gran-simultanea-de-ajedrez/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/gran-simultanea-de-ajedrez/"
+        }
+      ]
+    },
+    {
       "id": "dc1cf84921412bfd",
       "source": "cce",
       "date": "2026-11-10",
@@ -1013,12 +1055,42 @@
       ]
     },
     {
-      "id": "09d43796d49b775b",
-      "source": "cce",
+      "id": "40d615acea9cd00f",
+      "source": "zona_colonial",
       "date": "2026-11-11",
       "end": null,
       "sessions": null,
-      "title": "Doble Filo",
+      "title": "Ciclo “Afrodescendientes Hoy: Diáspora y espiritualidad africana en América”",
+      "venue": "Centro Cultural de España",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "Conversatorios, proyección y presentación musicalDirigido a estudiantes, profesores, artistas, cineastas, antropólogos, investigadores del folklore, músicos, portadores de las tradiciones originarias y público en general.",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/ciclo-afrodescendientes-hoy-diaspora-y-espiritualidad-africana-en-america/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/ciclo-afrodescendientes-hoy-diaspora-y-espiritualidad-africana-en-america/"
+        },
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/afrodescendientes-hoy-10"
+        }
+      ]
+    },
+    {
+      "id": "a250c0510c8d109d",
+      "source": "zona_colonial",
+      "date": "2026-11-11",
+      "end": null,
+      "sessions": null,
+      "title": "Exposición inmersiva “Doble Filo”",
       "venue": "Centro Cultural de España",
       "zone": "Ciudad Colonial",
       "cat": "Arte",
@@ -1029,9 +1101,13 @@
       "tags": [],
       "description": "Abierta hasta el 20 de diciembreEntrada libre hasta completar aforoPrograma Fortalecimiento Iberoamericano",
       "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/doble-filo",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/exposicion-inmersiva-doble-filo/",
       "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/exposicion-inmersiva-doble-filo/"
+        },
         {
           "srcName": "Centro Cultural de España",
           "srcUrl": "https://ccesd.aecid.es/w/doble-filo"
@@ -1550,6 +1626,32 @@
       ]
     },
     {
+      "id": "2c816ff98465025f",
+      "source": "zona_colonial",
+      "date": "2026-11-14",
+      "end": null,
+      "sessions": null,
+      "title": "Taller creativo “Manos en el barro” (Nueva tandada / espacio adicional)",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "10:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/taller-creativo-manos-en-el-barro-nueva-tandada-espacio-adicional/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/taller-creativo-manos-en-el-barro-nueva-tandada-espacio-adicional/"
+        }
+      ]
+    },
+    {
       "id": "64d628e5261d179d",
       "source": "zona_colonial",
       "date": "2026-11-14",
@@ -1572,6 +1674,84 @@
         {
           "srcName": "Zona Colonial",
           "srcUrl": "https://zonacolonial.do/actividad/taller-creativo-manos-en-el-barro-inspirado-en-la-artesania-taina/"
+        }
+      ]
+    },
+    {
+      "id": "3c838b2e956d1400",
+      "source": "zona_colonial",
+      "date": "2026-11-14",
+      "end": null,
+      "sessions": null,
+      "title": "Taller: Manos en el barro",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "14:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/taller-manos-en-el-barro/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/taller-manos-en-el-barro/"
+        }
+      ]
+    },
+    {
+      "id": "7bd626967f684f1c",
+      "source": "zona_colonial",
+      "date": "2026-11-14",
+      "end": null,
+      "sessions": null,
+      "title": "SKETCHINK 2026 (Muestra de ilustración, competencia de dibujo en vivo, exhibición y mural colaborativo)",
+      "venue": "Centro Cultural de España",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "16:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/sketchink-2026-muestra-de-ilustracion-competencia-de-dibujo-en-vivo-exhibicion-y-mural-colaborativo/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/sketchink-2026-muestra-de-ilustracion-competencia-de-dibujo-en-vivo-exhibicion-y-mural-colaborativo/"
+        }
+      ]
+    },
+    {
+      "id": "38d5e58c6f8da0fa",
+      "source": "cce",
+      "date": "2026-11-14",
+      "end": null,
+      "sessions": null,
+      "title": "Concierto de Palo Kañuto",
+      "venue": "Villa Mella, Comunidad de los Cleto",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [],
+      "description": "A cargo del Grupo La AltagraciaEntrada libre hasta completar aforoPrograma Derechos Humanos y Culturales",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/concierto-de-palo-ka%C3%B1uto",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/concierto-de-palo-ka%C3%B1uto"
         }
       ]
     },
@@ -2570,7 +2750,7 @@
       "date": "2026-11-27",
       "end": null,
       "sessions": null,
-      "title": "ESCUELA PARA MUJERES 161",
+      "title": "ESCUELA PARA MUJERES 161 | 7:00 PM - 9:00 PM",
       "venue": "Velvet Room",
       "zone": "",
       "cat": "Teatro",
@@ -2717,6 +2897,32 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/todo-hollywood-vol-2/"
+        }
+      ]
+    },
+    {
+      "id": "cf1b29b95f40655a",
+      "source": "ticketmax",
+      "date": "2026-11-28",
+      "end": null,
+      "sessions": null,
+      "title": "Social Brunch Party @Bloom 🌼 Sábado 28 Noviembre",
+      "venue": "Bloom SDQ",
+      "zone": "",
+      "cat": "Música",
+      "price": 2500,
+      "price_max": null,
+      "time": "11:00",
+      "kids": false,
+      "tags": [],
+      "description": "SOCIAL BRUNCH PARTY ☀️🥂 | 28 de noviembre Early Bird RD$2,500 Válido hasta agotar existencias o hasta el 16 de agosto, lo que ocurra primero. Entrada general: RD$3,000 Tu entrada incluye 4 horas de All You Can Drink de 11:00 a.m. a 3:00p.m. con: 🍾 Mimosas 🍹 Palomas 🍷 Bandarra Sp…",
+      "ticketUrl": "https://ticketmax.org/evento/900014/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900014/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900014/"
         }
       ]
     },
@@ -3682,6 +3888,32 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/gian-marco-bajo-la-manga-tour/"
+        }
+      ]
+    },
+    {
+      "id": "a5d42225c8395274",
+      "source": "ticketmax",
+      "date": "2027-02-05",
+      "end": null,
+      "sessions": null,
+      "title": "Cupido está borracho - Show de stand up comedy / improv - Krystal Taveras",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 700,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "💘 CUPIDO ESTÁ BORRACHO 💘 ¿Alguna vez te has preguntado si encontrar pareja hoy en día es realmente tan difícil… o si simplemente Cupido está demasiado tomado para apuntar bien? En este show, Krystal Taveras mezcla stand up comedy e improvisación teatral para hablar de esas citas…",
+      "ticketUrl": "https://ticketmax.org/evento/900463/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900463/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900463/"
         }
       ]
     },

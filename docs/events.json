@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-05T18:14:53+00:00",
-  "today": "2026-11-05",
-  "count": 152,
+  "generated_at": "2026-11-06T17:42:18+00:00",
+  "today": "2026-11-06",
+  "count": 147,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -106,242 +106,6 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/festival-internacional-de-teatro-para-la-infancia-y-la-juventud/"
-        }
-      ]
-    },
-    {
-      "id": "d75b7600ea545daa",
-      "source": "tix",
-      "date": "2026-11-05",
-      "end": null,
-      "sessions": null,
-      "title": "Bingo Solidario ADOSID",
-      "venue": "Fuerzas Armadas, Salón Independencia",
-      "zone": "",
-      "cat": "Cultura",
-      "price": null,
-      "price_max": null,
-      "time": "17:00",
-      "kids": false,
-      "tags": [],
-      "description": "Te invitamos a celebrar una segunda edición de nuestro Bingo Solidario. Con tu aporte, nos ayudas a seguir ofreciendo nuestros servicios educativos, terapéuticos y formativos a personas con síndrome de Down.",
-      "ticketUrl": "https://tix.do/event/BingoSolidarioADOSID-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/BingoSolidarioADOSID-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/BingoSolidarioADOSID-1"
-        }
-      ]
-    },
-    {
-      "id": "e26fc7620245b8b1",
-      "source": "zona_colonial",
-      "date": "2026-11-05",
-      "end": null,
-      "sessions": null,
-      "title": "Cinefórum MMRD: Proyección de la película “La Herencia de los Ramírez” (Mes del Cine Dominicano)",
-      "venue": "NOV",
-      "zone": "Ciudad Colonial",
-      "cat": "Cine",
-      "price": 0,
-      "price_max": null,
-      "time": "18:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/cineforum-mmrd-proyeccion-de-la-pelicula-la-herencia-de-los-ramirez-mes-del-cine-dominicano/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/cineforum-mmrd-proyeccion-de-la-pelicula-la-herencia-de-los-ramirez-mes-del-cine-dominicano/"
-        }
-      ]
-    },
-    {
-      "id": "15a4fdb26071cc0b",
-      "source": "zona_colonial",
-      "date": "2026-11-05",
-      "end": null,
-      "sessions": null,
-      "title": "Taller de Dramaturgia: Desde el cuerpo y hacia el cuerpo",
-      "venue": "NOV",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": 4000,
-      "price_max": 4000,
-      "time": "18:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/taller-de-dramaturgia-desde-el-cuerpo-y-hacia-el-cuerpo/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/taller-de-dramaturgia-desde-el-cuerpo-y-hacia-el-cuerpo/"
-        }
-      ]
-    },
-    {
-      "id": "0aff3a7ec9ac9b70",
-      "source": "zona_colonial",
-      "date": "2026-11-05",
-      "end": null,
-      "sessions": null,
-      "title": "La Canelilla: Planta endémica de la Hispaniola",
-      "venue": "Quinta Dominica",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "19:30",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/la-canelilla-planta-endemica-de-la-hispaniola/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/la-canelilla-planta-endemica-de-la-hispaniola/"
-        }
-      ]
-    },
-    {
-      "id": "cd155c7669e72f97",
-      "source": "ticketmax",
-      "date": "2026-11-05",
-      "end": null,
-      "sessions": null,
-      "title": "PODRÍA SER PEOR : DIMITRY JOSEPH 🇭🇹 & MICHAEL PENTON 🇨🇺",
-      "venue": "Velvet Room",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 499,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [],
-      "description": "PODRÍA SER PEOR 😂🇭🇹🇨🇺 ¡Una noche de motivación involuntaria! ¿Tú crees que en República Dominicana estamos pasando trabajo? ¡Espera a escuchar lo que tienen que contar estos dos! 😂 Este jueves 5 de noviembre a las 8:00 PM, Velvet Room presenta PODRÍA SER PEOR, un espectáculo de…",
-      "ticketUrl": "https://ticketmax.org/evento/900315/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900315/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900315/"
-        }
-      ]
-    },
-    {
-      "id": "c84f0936d6f0af46",
-      "source": "ticketmax",
-      "date": "2026-11-05",
-      "end": null,
-      "sessions": null,
-      "title": "FDT 10x10 | LA LEYENDA DE ROBIN HOOD",
-      "venue": "Casa de Teatro",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": 800,
-      "price_max": null,
-      "time": "20:30",
-      "kids": false,
-      "tags": [],
-      "description": "Convertido en el forajido más buscado del reino, Robin Hood ha hecho del bosque su hogar y de la justicia su mayor causa. Mientras el Alcalde Gilbert y su capitán oprimen al pueblo con impuestos y abusos, él, junto a su inseparable banda de amigos, idea ingeniosos planes para de…",
-      "ticketUrl": "https://ticketmax.org/evento/253522/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/253522/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/253522/"
-        }
-      ]
-    },
-    {
-      "id": "02f47f42c3fb8ac9",
-      "source": "zona_colonial",
-      "date": "2026-11-05",
-      "end": null,
-      "sessions": null,
-      "title": "La Tarima — Presentación artística en vivo",
-      "venue": "Casa de Teatro",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 800,
-      "price_max": 800,
-      "time": "20:30",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/la-tarima-presentacion-artistica-en-vivo/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/la-tarima-presentacion-artistica-en-vivo/"
-        }
-      ]
-    },
-    {
-      "id": "30a8bbea5ab552aa",
-      "source": "cce",
-      "date": "2026-11-05",
-      "end": null,
-      "sessions": null,
-      "title": "Espacios de ciudad, espacios interiores: La espacialidad en la poesía de René del Risco",
-      "venue": "Centro Cultural de España",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": null,
-      "price_max": null,
-      "time": "21:00",
-      "kids": false,
-      "tags": [],
-      "description": "Imparte Marcos BlondaDirigido a todo público, especialmente interesados en la escrituraInscríbete antes del lunes 1 de noviembrerellenando este formulario con tus datosPrograma Fortalecimiento del espacio iberoamericano",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/espacios-de-ciudad-espacios-interiores-la-espacialidad-en-la-poes%C3%ADa-de-ren%C3%A9-del-risco",
-      "sources": [
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/espacios-de-ciudad-espacios-interiores-la-espacialidad-en-la-poes%C3%ADa-de-ren%C3%A9-del-risco"
-        }
-      ]
-    },
-    {
-      "id": "2711d088011285fc",
-      "source": "jazz_en_dominicana",
-      "date": "2026-11-05",
-      "end": null,
-      "sessions": null,
-      "title": "Sandy Gabriel Jazz Residence",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Música",
-      "price": 0,
-      "price_max": null,
-      "time": "21:30",
-      "kids": false,
-      "tags": [
-        "jazz"
-      ],
-      "description": "Continúa el Sandy Gabriel Jazz Residence. Este jueves 5 su invitada especial es la multifacética Techy Fatule!! Sandy Gabriel Jazz Residence at the Green Room, jueves 22 de octubre a las 9:30PM (puertas abren a las 7PM) en The Green Room en la Calle Andrés Julio Aybar 17 segundo ",
-      "ticketUrl": "",
-      "srcName": "Jazz en Dominicana",
-      "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-1-al-7-de.html#2026-11-05-sandy-gabriel-jazz-residence",
-      "sources": [
-        {
-          "srcName": "Jazz en Dominicana",
-          "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-1-al-7-de.html#2026-11-05-sandy-gabriel-jazz-residence"
         }
       ]
     },
@@ -1560,7 +1324,8 @@
       "kids": false,
       "tags": [
         "cultura",
-        "serie"
+        "serie",
+        "confirmar"
       ],
       "description": "Mercado con más de 100 marcas: artesanía y gastronomía local, con música en vivo.",
       "ticketUrl": "",
@@ -1838,6 +1603,32 @@
       ]
     },
     {
+      "id": "b761a1f0504595f3",
+      "source": "cce",
+      "date": "2026-11-14",
+      "end": null,
+      "sessions": null,
+      "title": "Sketchink 2026",
+      "venue": "CCESD",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "21:00",
+      "kids": false,
+      "tags": [],
+      "description": "Entrada libre hasta completar aforoPrograma de Fortalecimiento del Espacio Cultural IberoamericanoMuestra de ilustración y competencia de dibujo en vivo que busca celebrar la diversidad artística y la creatividad, invitando a artistas locales y visitantes a participar en una expe",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/sketchink-2026%C2%A0",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/sketchink-2026%C2%A0"
+        }
+      ]
+    },
+    {
       "id": "8b63eff86e3ea58e",
       "source": "ticketmax",
       "date": "2026-11-14",
@@ -1905,7 +1696,8 @@
       "kids": false,
       "tags": [
         "cultura",
-        "serie"
+        "serie",
+        "confirmar"
       ],
       "description": "Mercado con más de 100 marcas: artesanía y gastronomía local, con música en vivo.",
       "ticketUrl": "",
@@ -2022,6 +1814,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/ForoEconomicoelDinero2026-1"
+        }
+      ]
+    },
+    {
+      "id": "4b02043451f9b1bd",
+      "source": "cce",
+      "date": "2026-11-17",
+      "end": null,
+      "sessions": null,
+      "title": "El permiso de ser vulnerable",
+      "venue": "CCESD",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "Participan Paola Prada Suárez y Rosario RamírezModera Carolina Moreno (psicóloga)",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/el-permiso-de-ser-vulnerable%C2%A0",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/el-permiso-de-ser-vulnerable%C2%A0"
         }
       ]
     },
@@ -3710,6 +3528,32 @@
       ]
     },
     {
+      "id": "d2c43b15a1e7b514",
+      "source": "ticketmax",
+      "date": "2026-12-18",
+      "end": null,
+      "sessions": null,
+      "title": "How High the Moon: A Naughty Christmas by Pirou",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Música",
+      "price": 1500,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "Esta Navidad tiene un lado travieso… How High the Moon: A Naughty Christmas by Pirou es una experiencia musical que reinterpreta el espíritu navideño con arreglos inesperados, armonías atrevidas y ese toque de irreverencia que hace del jazz y el blues géneros tan fascinantes. En…",
+      "ticketUrl": "https://ticketmax.org/evento/900475/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900475/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900475/"
+        }
+      ]
+    },
+    {
       "id": "036552aa045b929b",
       "source": "teatro_nacional",
       "date": "2026-12-19",
@@ -3862,6 +3706,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/NEGOCIANTESRDSUMMIT2027-1"
+        }
+      ]
+    },
+    {
+      "id": "7bd974c97f55eac5",
+      "source": "ticketmax",
+      "date": "2027-01-24",
+      "end": null,
+      "sessions": null,
+      "title": "KATSEYE | THE TRIBUTE EXPERIENCE",
+      "venue": "Auditorio Casa San Pablo",
+      "zone": "",
+      "cat": "Música",
+      "price": 1700,
+      "price_max": 3000,
+      "time": "16:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://ticketmax.org/evento/900487/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900487/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900487/"
         }
       ]
     },

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-06T17:42:18+00:00",
-  "today": "2026-11-06",
-  "count": 147,
+  "generated_at": "2026-11-07T16:40:21+00:00",
+  "today": "2026-11-07",
+  "count": 155,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -44,7 +44,8 @@
       "time": "",
       "kids": false,
       "tags": [
-        "serie"
+        "serie",
+        "confirmar"
       ],
       "description": "Solo show de Gerard Ellis que parte del béisbol y de los peloteros dominicanos, del 15 de octubre al 13 de noviembre.",
       "ticketUrl": "",
@@ -106,112 +107,6 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/festival-internacional-de-teatro-para-la-infancia-y-la-juventud/"
-        }
-      ]
-    },
-    {
-      "id": "6b4f64867d73fffa",
-      "source": "zona_colonial",
-      "date": "2026-11-06",
-      "end": null,
-      "sessions": null,
-      "title": "ZILE M: Donde los espíritus bailan con nosotros” (Momento 1 – Conversatorio y socialización)",
-      "venue": "Centro Cultural de España",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/zile-m-donde-los-espiritus-bailan-con-nosotros-momento-1-conversatorio-y-socializacion/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/zile-m-donde-los-espiritus-bailan-con-nosotros-momento-1-conversatorio-y-socializacion/"
-        }
-      ]
-    },
-    {
-      "id": "b69997f26f23316f",
-      "source": "jazz_en_dominicana",
-      "date": "2026-11-06",
-      "end": null,
-      "sessions": null,
-      "title": "Fiesta Sunset Jazz - Una Noche de Bossas & más con Elsa Liranzo y el Micky Creales Trío",
-      "venue": "Dominican Fiesta Hotel & Casino",
-      "zone": "Mirador Sur",
-      "cat": "Música",
-      "price": 0,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [
-        "jazz"
-      ],
-      "description": "Para abrir las presentaciones del penúltimo mes del año, noviembre, época en que llegan a nuestras costas brisas caribeñas que tornan las noches frescas. por lo que el conocido espacio, Fiesta Sunset Jazz tiene el gran honor, del viernes 6, presentar la propuesta musical ¨Una Noc",
-      "ticketUrl": "",
-      "srcName": "Jazz en Dominicana",
-      "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-1-al-7-de.html#2026-11-06-fiesta-sunset-jazz-una-noche-de-bossas-más-con-els",
-      "sources": [
-        {
-          "srcName": "Jazz en Dominicana",
-          "srcUrl": "https://www.jazzendominicana.com/2026/10/jazz-en-vivo-en-rd-del-1-al-7-de.html#2026-11-06-fiesta-sunset-jazz-una-noche-de-bossas-más-con-els"
-        }
-      ]
-    },
-    {
-      "id": "a80a543fd053b05c",
-      "source": "ticketmax",
-      "date": "2026-11-06",
-      "end": null,
-      "sessions": null,
-      "title": "FDT 10x10 | LA LEYENDA DE ROBIN HOOD",
-      "venue": "Casa de Teatro",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": 800,
-      "price_max": null,
-      "time": "20:30",
-      "kids": false,
-      "tags": [],
-      "description": "Convertido en el forajido más buscado del reino, Robin Hood ha hecho del bosque su hogar y de la justicia su mayor causa. Mientras el Alcalde Gilbert y su capitán oprimen al pueblo con impuestos y abusos, él, junto a su inseparable banda de amigos, idea ingeniosos planes para de…",
-      "ticketUrl": "https://ticketmax.org/evento/253550/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/253550/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/253550/"
-        }
-      ]
-    },
-    {
-      "id": "25288e2116f5e9e0",
-      "source": "ticketmax",
-      "date": "2026-11-06",
-      "end": null,
-      "sessions": null,
-      "title": "Si y… Nights! Improv Show",
-      "venue": "Velvet Room",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 700,
-      "price_max": null,
-      "time": "21:30",
-      "kids": false,
-      "tags": [],
-      "description": "Sí y Nights: Improv Show Una noche de pura improvisación. Cinco actores en escena, sin guion ni dirección: lo que pase dependerá del momento… y del público. ¡Entretenimiento fuera de lo común y risas garantizadas! ⭐️ Host: Suzette Reyes 📍 Velvet Room, Bloom, Av. Enriquillo 28 🍹🍔…",
-      "ticketUrl": "https://ticketmax.org/evento/900139/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900139/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900139/"
         }
       ]
     },
@@ -741,6 +636,32 @@
       ]
     },
     {
+      "id": "7e66875aceeff5e4",
+      "source": "zona_colonial",
+      "date": "2026-11-10",
+      "end": null,
+      "sessions": null,
+      "title": "Cine Clásico: Proyección de la película “Rashomon”",
+      "venue": "Centro Cultural Banreservas",
+      "zone": "Ciudad Colonial",
+      "cat": "Cine",
+      "price": 0,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/cine-clasico-proyeccion-de-la-pelicula-rashomon/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/cine-clasico-proyeccion-de-la-pelicula-rashomon/"
+        }
+      ]
+    },
+    {
       "id": "dc1cf84921412bfd",
       "source": "cce",
       "date": "2026-11-10",
@@ -1009,6 +930,34 @@
       ]
     },
     {
+      "id": "1ded3ad514abac59",
+      "source": "jazz_en_dominicana",
+      "date": "2026-11-12",
+      "end": null,
+      "sessions": null,
+      "title": "Jazz Night",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "21:30",
+      "kids": false,
+      "tags": [
+        "jazz"
+      ],
+      "description": "El jazz vuelve a encender, cada jueves, la noche de Jazz que ofrece The Green Room. Este jueves 12 con The Green Room Band. Jazz Night at The Green Room, cada jueves a partir de las 9:30PM en The Green Room en la Calle Andrés Julio Aybar 17 segundo piso, del Ensanche Piantini. No",
+      "ticketUrl": "",
+      "srcName": "Jazz en Dominicana",
+      "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-8-al-14-de.html#2026-11-12-jazz-night",
+      "sources": [
+        {
+          "srcName": "Jazz en Dominicana",
+          "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-8-al-14-de.html#2026-11-12-jazz-night"
+        }
+      ]
+    },
+    {
       "id": "a801800daf37f28b",
       "source": "teatro_nacional",
       "date": "2026-11-13",
@@ -1061,6 +1010,34 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/Senorameprestasumarido-1"
+        }
+      ]
+    },
+    {
+      "id": "1b2a1922c63ed938",
+      "source": "jazz_en_dominicana",
+      "date": "2026-11-13",
+      "end": null,
+      "sessions": null,
+      "title": "The Jazz Room",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Música",
+      "price": 900,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [
+        "jazz"
+      ],
+      "description": "Concierto Inaugural de The Jazz Room by Fever en The Green Room. Vive una noche que trae de vuelta el ritmo del jazz de las calles de Nueva Orleans de los años 20: cálida, vibrante e imposible de resistir. The Jazz Room at The Green Room, en la Calle Andrés Julio Aybar 17 segundo",
+      "ticketUrl": "",
+      "srcName": "Jazz en Dominicana",
+      "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-8-al-14-de.html#2026-11-13-the-jazz-room",
+      "sources": [
+        {
+          "srcName": "Jazz en Dominicana",
+          "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-8-al-14-de.html#2026-11-13-the-jazz-room"
         }
       ]
     },
@@ -1141,6 +1118,34 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900207/"
+        }
+      ]
+    },
+    {
+      "id": "0ebbcac6b3e5b6c6",
+      "source": "jazz_en_dominicana",
+      "date": "2026-11-13",
+      "end": null,
+      "sessions": null,
+      "title": "Fiesta Sunset Jazz presenta: Desde NY Alex Díaz - Merengue Jazz y más!",
+      "venue": "Dominican Fiesta Hotel & Casino",
+      "zone": "Mirador Sur",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [
+        "jazz"
+      ],
+      "description": "El pasado viernes, 24 de julio, Alex Díaz llego desde New York, y acompañado de Sebastian Mueses en contrabajo y Kevin Arrechea en piano; puso a todo el público a gozar a más no poder con su propuesta ¨A Latin Jazz Party¨! La fiesta en el Fiesta contó con un gran repertorio de La",
+      "ticketUrl": "",
+      "srcName": "Jazz en Dominicana",
+      "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-8-al-14-de.html#2026-11-13-fiesta-sunset-jazz-presenta-desde-ny-alex-di-az-me",
+      "sources": [
+        {
+          "srcName": "Jazz en Dominicana",
+          "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-8-al-14-de.html#2026-11-13-fiesta-sunset-jazz-presenta-desde-ny-alex-di-az-me"
         }
       ]
     },
@@ -1711,6 +1716,32 @@
       ]
     },
     {
+      "id": "6a4821959ae5579e",
+      "source": "tix",
+      "date": "2026-11-15",
+      "end": "2026-11-16",
+      "sessions": null,
+      "title": "MATINE DE SALSA",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Matiné de Salsa en The Green Room. Domingo 15 de noviembre, a partir de las 5:00PM. Reserva gratis. Calle Andrés Julio Aybar 17, Piantini.",
+      "ticketUrl": "https://tix.do/event/MATINEDESALSA-19",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/MATINEDESALSA-19",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/MATINEDESALSA-19"
+        }
+      ]
+    },
+    {
       "id": "49ce38a0718ee5e2",
       "source": "recurring",
       "date": "2026-11-15",
@@ -1870,6 +1901,32 @@
       ]
     },
     {
+      "id": "311c4a4f4f1936d1",
+      "source": "tix",
+      "date": "2026-11-18",
+      "end": "2026-11-19",
+      "sessions": null,
+      "title": "COMEDY SHOWCASE",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Comedy Showcase en The Green Room. Miércoles 18 de noviembre, 9:30 PM. Reserva gratis. Calle Andrés Julio Aybar 17, Piantini.",
+      "ticketUrl": "https://tix.do/event/COMEDYSHOWCASE-29",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/COMEDYSHOWCASE-29",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/COMEDYSHOWCASE-29"
+        }
+      ]
+    },
+    {
       "id": "acc0de42a02e5e20",
       "source": "teatro_nacional",
       "date": "2026-11-18",
@@ -1892,6 +1949,32 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/festival-internacional-de-teatro-mujeres-sobre-las-tablas/"
+        }
+      ]
+    },
+    {
+      "id": "8911983ce9545925",
+      "source": "zona_colonial",
+      "date": "2026-11-18",
+      "end": null,
+      "sessions": null,
+      "title": "Conferencia: “Hispanidad y Dominicanidad: una confluencia” (organizado junto al INPOSDOM)",
+      "venue": "Museo de la Catedral",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "19:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/conferencia-hispanidad-y-dominicanidad-una-confluencia-organizado-junto-al-inposdom/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/conferencia-hispanidad-y-dominicanidad-una-confluencia-organizado-junto-al-inposdom/"
         }
       ]
     },
@@ -1974,6 +2057,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/PampersarcoirisEldebatesobrelaadopciongay-1"
+        }
+      ]
+    },
+    {
+      "id": "3f22998b1683ac0d",
+      "source": "zona_colonial",
+      "date": "2026-11-19",
+      "end": null,
+      "sessions": null,
+      "title": "Concierto “Din Don Dan! Campanas que tañen al nacer el Niño Dios”",
+      "venue": "Museo de la Catedral",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "20:00",
+      "kids": true,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/concierto-din-don-dan-campanas-que-tanen-al-nacer-el-nino-dios/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/concierto-din-don-dan-campanas-que-tanen-al-nacer-el-nino-dios/"
         }
       ]
     },
@@ -2849,6 +2958,32 @@
       ]
     },
     {
+      "id": "dad2d0c8b225d810",
+      "source": "tix",
+      "date": "2026-11-29",
+      "end": "2026-11-30",
+      "sessions": null,
+      "title": "MATINE DE SALSA",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Matiné de Salsa en The Green Room. Domingo 29 de noviembre, a partir de las 5:00PM. Reserva gratis. Calle Andrés Julio Aybar 17, Piantini.",
+      "ticketUrl": "https://tix.do/event/MATINEDESALSA-20",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/MATINEDESALSA-20",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/MATINEDESALSA-20"
+        }
+      ]
+    },
+    {
       "id": "f173f90395af05ce",
       "source": "teatro_nacional",
       "date": "2026-11-29",
@@ -2965,8 +3100,8 @@
       "venue": "Centro Cultural Narciso González",
       "zone": "",
       "cat": "Teatro",
-      "price": 1400,
-      "price_max": 1750,
+      "price": 1000,
+      "price_max": 1250,
       "time": "19:00",
       "kids": true,
       "tags": [],
@@ -3450,6 +3585,34 @@
       ]
     },
     {
+      "id": "8d6e3c07ecbfc317",
+      "source": "ticketmax",
+      "date": "2026-12-16",
+      "end": null,
+      "sessions": null,
+      "title": "LO QUE LA CAMA SABE Y LA BOCA CALLA | ELAINE FELIZ",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 1500,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [
+        "formacion"
+      ],
+      "description": "Lo que la cama sabe y la boca calla es un show de Elaine Féliz para reírnos de la sexualidad real: la del deseo, la culpa, el cuerpo, los silencios, los límites y todas esas ideas mal aprendidas que también se meten en la cama. Una noche con humor, verdad y cero anestesia para h…",
+      "ticketUrl": "https://ticketmax.org/evento/900519/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900519/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900519/"
+        }
+      ]
+    },
+    {
       "id": "16a909a97c4cc4d5",
       "source": "tix",
       "date": "2026-12-17",
@@ -3628,6 +3791,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/CarlosSanchezenTheGreenRoom-6"
+        }
+      ]
+    },
+    {
+      "id": "d4d552df80f7da9d",
+      "source": "ticketmax",
+      "date": "2026-12-26",
+      "end": null,
+      "sessions": null,
+      "title": "EL PARTY - LA ULTIMA CENA | 6:00 PM - 12:00 AM",
+      "venue": "Auditorio Casa San Pablo",
+      "zone": "",
+      "cat": "Música",
+      "price": 1500,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://ticketmax.org/evento/900518/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900518/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900518/"
         }
       ]
     },
@@ -3836,6 +4025,32 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/medea/"
+        }
+      ]
+    },
+    {
+      "id": "ddbe6b17a3945f85",
+      "source": "ticketmax",
+      "date": "2027-02-19",
+      "end": null,
+      "sessions": null,
+      "title": "POLY DÍAZ | SANTO DOMINGO",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 1800,
+      "price_max": 3000,
+      "time": "19:30",
+      "kids": false,
+      "tags": [],
+      "description": "Poly Díaz, comediante y actriz venezolana radicada entre México y Estados Unidos, llega a República Dominicana con su nuevo show de stand-up. Después del éxito de su gira Romántica y de su especial Lo Necesario, que supera las 375 mil reproducciones y ha generado más de 22 millo…",
+      "ticketUrl": "https://ticketmax.org/evento/900512/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900512/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900512/"
         }
       ]
     },

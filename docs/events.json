@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-07T16:40:21+00:00",
-  "today": "2026-11-07",
-  "count": 155,
+  "generated_at": "2026-11-08T16:51:52+00:00",
+  "today": "2026-11-08",
+  "count": 150,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -137,216 +137,6 @@
       ]
     },
     {
-      "id": "e3cf639117a24d35",
-      "source": "ticketmax",
-      "date": "2026-11-07",
-      "end": null,
-      "sessions": null,
-      "title": "MARKETING SIN TEATRO",
-      "venue": "Biblioteca Pedro Mir, Auditorio Manuel Del Cabral",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 2500,
-      "price_max": null,
-      "time": "08:00",
-      "kids": false,
-      "tags": [
-        "formacion"
-      ],
-      "description": "Marketing Sin Teatro es un workshop práctico diseñado para creadores de contenido, emprendedores y marcas que desean aprender estrategias reales y aplicables de marketing digital. Durante la jornada, Ismael Bidó compartirá herramientas, tácticas y trucos que te ayudarán a crear…",
-      "ticketUrl": "https://ticketmax.org/evento/265957/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/265957/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/265957/"
-        }
-      ]
-    },
-    {
-      "id": "c8faa5c17819d190",
-      "source": "zona_colonial",
-      "date": "2026-11-07",
-      "end": null,
-      "sessions": null,
-      "title": "PROYECCIÓN Y CONVERSATORIO: DOCUMENTAL “HENRY MOLINA: EN LA SOMBRA DE LA DEMOCRACIA”",
-      "venue": "NOV",
-      "zone": "Ciudad Colonial",
-      "cat": "Cine",
-      "price": null,
-      "price_max": null,
-      "time": "10:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/proyeccion-y-conversatorio-documental-henry-molina-en-la-sombra-de-la-democracia/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/proyeccion-y-conversatorio-documental-henry-molina-en-la-sombra-de-la-democracia/"
-        }
-      ]
-    },
-    {
-      "id": "7f476cf653978357",
-      "source": "zona_colonial",
-      "date": "2026-11-07",
-      "end": null,
-      "sessions": null,
-      "title": "Taller infantil “La Constitución” (Sábado con los Niños)",
-      "venue": "NOV",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "16:00",
-      "kids": true,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/taller-infantil-la-constitucion-sabado-con-los-ninos/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/taller-infantil-la-constitucion-sabado-con-los-ninos/"
-        }
-      ]
-    },
-    {
-      "id": "1c2e76c5a755031f",
-      "source": "zona_colonial",
-      "date": "2026-11-07",
-      "end": null,
-      "sessions": null,
-      "title": "Taller Infantil de Pintura “Plantas Endémicas vistas por los niños”",
-      "venue": "Quinta Dominica",
-      "zone": "Ciudad Colonial",
-      "cat": "Arte",
-      "price": null,
-      "price_max": null,
-      "time": "16:30",
-      "kids": true,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/taller-infantil-de-pintura-plantas-endemicas-vistas-por-los-ninos/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/taller-infantil-de-pintura-plantas-endemicas-vistas-por-los-ninos/"
-        }
-      ]
-    },
-    {
-      "id": "f229a4b2cfea7f39",
-      "source": "ticketmax",
-      "date": "2026-11-07",
-      "end": null,
-      "sessions": null,
-      "title": "Patricia Peña: Mal Gusto",
-      "venue": "Velvet Room",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 2200,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "Patricia Peña regresa con MALGUSTO, el show de stand-up que ha conquistado al público por su mezcla de humor fino, confesiones atrevidas y una honestidad tan cruda que provoca carcajadas. En esta nueva función en Velvet Room, Patricia explora los malos gustos que todos hemos ten…",
-      "ticketUrl": "https://ticketmax.org/evento/900193/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900193/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900193/"
-        }
-      ]
-    },
-    {
-      "id": "8f3470c1824be85b",
-      "source": "zona_colonial",
-      "date": "2026-11-07",
-      "end": null,
-      "sessions": null,
-      "title": "Concierto “Etaquetuve” por Xiomara Fortuna (Dentro del festival CAYE)",
-      "venue": "NOV",
-      "zone": "Ciudad Colonial",
-      "cat": "Música",
-      "price": 0,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/concierto-etaquetuve-por-xiomara-fortuna-dentro-del-festival-caye/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/concierto-etaquetuve-por-xiomara-fortuna-dentro-del-festival-caye/"
-        }
-      ]
-    },
-    {
-      "id": "4c5d5a187f0a5ad4",
-      "source": "cce",
-      "date": "2026-11-07",
-      "end": null,
-      "sessions": null,
-      "title": "Etaquetuve",
-      "venue": "En la tarima del Festival Caye",
-      "zone": "Ciudad Colonial",
-      "cat": "Música",
-      "price": 0,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [],
-      "description": "Xiomara FortunaEntrada libre hasta completar aforoPrograma Fortalecimiento del espacio cultural IberoamericanoEtaquetuve es un concierto que presenta temas de las últimas producciones de la artista y algunos clásicos de su repertorio, siempre apelando a la identidad y riqueza de ",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/etaquetuve",
-      "sources": [
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/etaquetuve"
-        }
-      ]
-    },
-    {
-      "id": "caa37169570fdb4a",
-      "source": "ticketmax",
-      "date": "2026-11-07",
-      "end": null,
-      "sessions": null,
-      "title": "FDT 10X10 | LA FUNCIÓN NO ESTÁ CANCELADA",
-      "venue": "Teatro Guloya",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 800,
-      "price_max": null,
-      "time": "20:30",
-      "kids": false,
-      "tags": [],
-      "description": "Un grupo de actores se prepara para entrar en escena en una obra sobre las últimas horas de la vida de Molière. Nada está listo y las dificultades se acumulan. Incluso el robo de la recaudación del día… ¿Deberían cancelar la función y precipitar así la ruina de este teatro al bo…",
-      "ticketUrl": "https://ticketmax.org/evento/253716/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/253716/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/253716/"
-        }
-      ]
-    },
-    {
       "id": "9703073b29cd73a5",
       "source": "teatro_nacional",
       "date": "2026-11-08",
@@ -447,6 +237,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900176/"
+        }
+      ]
+    },
+    {
+      "id": "f5c035e89586dce3",
+      "source": "ticketmax",
+      "date": "2026-11-08",
+      "end": null,
+      "sessions": null,
+      "title": "📚 ¡Un cuento hoy, un recuerdo para siempre! Cuentacuentos con Belkis Marte | 4:00 PM - 6:00 PM",
+      "venue": "Centro Cultural Casa Libros",
+      "zone": "",
+      "cat": "Arte",
+      "price": 0,
+      "price_max": null,
+      "time": "16:00",
+      "kids": true,
+      "tags": [],
+      "description": "📚 ¡Un cuento hoy, un recuerdo para siempre! Comparte con tus hijos una tarde con Belkis M. Marte en Casa Libros. 📅 Domingo 8 de noviembre, 4:00 p. m. 📍 Moisés García 3, Gazcue. Reserva aqui Más Información 829-264-8185",
+      "ticketUrl": "https://ticketmax.org/evento/900527/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900527/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900527/"
         }
       ]
     },
@@ -862,7 +678,7 @@
       "zone": "",
       "cat": "Arte",
       "price": 600,
-      "price_max": 800,
+      "price_max": 900,
       "time": "19:00",
       "kids": false,
       "tags": [],
@@ -2057,6 +1873,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/PampersarcoirisEldebatesobrelaadopciongay-1"
+        }
+      ]
+    },
+    {
+      "id": "2f4d9b1bc0edd465",
+      "source": "ticketmax",
+      "date": "2026-11-19",
+      "end": null,
+      "sessions": null,
+      "title": "KARAOKE APAODIS",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Música",
+      "price": 800,
+      "price_max": null,
+      "time": "19:30",
+      "kids": false,
+      "tags": [],
+      "description": "🎤 ¡Canta, comparte y apoya una buena causa! Acompáñanos en Karaoke APAODIS, una noche de música y diversión en Velvet Room, organizada para recaudar fondos a beneficio de la Asociación de Padres APAODIS. Reúne a tu grupo, elige tus canciones favoritas y prepárate para disfrutar.…",
+      "ticketUrl": "https://ticketmax.org/evento/900480/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900480/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900480/"
         }
       ]
     },
@@ -3373,6 +3215,35 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/recital-de-navidad/"
+        }
+      ]
+    },
+    {
+      "id": "2db66bde32773881",
+      "source": "recurring",
+      "date": "2026-12-06",
+      "end": null,
+      "sessions": null,
+      "title": "Domingos de Bonyé",
+      "venue": "Ruinas de San Francisco, calle Hostos, Zona Colonial",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [
+        "cultura",
+        "serie"
+      ],
+      "description": "Música en vivo al aire libre con el grupo Bonyé: tambora, son, salsa y merengue.",
+      "ticketUrl": "",
+      "srcName": "SalsaVida",
+      "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-12-06",
+      "sources": [
+        {
+          "srcName": "SalsaVida",
+          "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-12-06"
         }
       ]
     },

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-08T16:51:52+00:00",
-  "today": "2026-11-08",
-  "count": 150,
+  "generated_at": "2026-11-09T20:58:47+00:00",
+  "today": "2026-11-09",
+  "count": 138,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -107,321 +107,6 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/festival-internacional-de-teatro-para-la-infancia-y-la-juventud/"
-        }
-      ]
-    },
-    {
-      "id": "e294fe43fff7db1e",
-      "source": "tix",
-      "date": "2026-11-07",
-      "end": "2026-11-08",
-      "sessions": null,
-      "title": "Saint's Revenge: No Room In Hell Album Release Show",
-      "venue": "Los Reales Colonial",
-      "zone": "",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Este mes de noviembre, Saint's Revenge presenta oficialmente No Room In Hell, su primer álbum de estudio. Después de dos años desarrollando y puliendo su sonido, y tras construir una reputación dentro del circuito local a través de cuatro sencillos y una intensa agenda de presen…",
-      "ticketUrl": "https://tix.do/event/SaintsRevengeNoRoomInHellAlbumReleaseShow-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/SaintsRevengeNoRoomInHellAlbumReleaseShow-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/SaintsRevengeNoRoomInHellAlbumReleaseShow-1"
-        }
-      ]
-    },
-    {
-      "id": "9703073b29cd73a5",
-      "source": "teatro_nacional",
-      "date": "2026-11-08",
-      "end": null,
-      "sessions": null,
-      "title": "World of Dance 2026",
-      "venue": "Sala Carlos Piantini, Teatro Nacional",
-      "zone": "Plaza de la Cultura",
-      "cat": "Danza",
-      "price": 1500,
-      "price_max": 2000,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "World of Dance es mucho más que una competencia: es la comunidad de baile más grande y prestigiosa del mundo. Fundada en 2008 en Los Ángeles, esta plataforma ha transformado la cultura urbana y del performance al reunir a miles de bailarines de todos los rincones del planeta en u",
-      "ticketUrl": "https://boleteria.com.do/",
-      "srcName": "Teatro Nacional",
-      "srcUrl": "https://teatronacional.gob.do/events/world-of-dance-2026/",
-      "sources": [
-        {
-          "srcName": "Teatro Nacional",
-          "srcUrl": "https://teatronacional.gob.do/events/world-of-dance-2026/"
-        }
-      ]
-    },
-    {
-      "id": "7e8b7fe1cef91325",
-      "source": "tix",
-      "date": "2026-11-08",
-      "end": null,
-      "sessions": null,
-      "title": "Recital \"Palabra de Mujer\"",
-      "venue": "Teatro Las Máscaras",
-      "zone": "Ciudad Colonial",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "11:00",
-      "kids": false,
-      "tags": [],
-      "description": "Tras una emocionante primera edición el pasado 8 de marzo junto a Perpetual Lab y Karibe Vintage, regresa Palabra de Mujer, un espacio íntimo y transformador diseñado por y para mujeres que buscan elevar su voz, compartir sus vivencias y dar vida a la memoria de quienes vinieron…",
-      "ticketUrl": "https://tix.do/event/RecitalPalabradeMujer-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/RecitalPalabradeMujer-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/RecitalPalabradeMujer-1"
-        }
-      ]
-    },
-    {
-      "id": "dcbd8b532c92476e",
-      "source": "ticketmax",
-      "date": "2026-11-08",
-      "end": null,
-      "sessions": null,
-      "title": "LA GRANJA DE ZENÓN: LA BUSQUEDA DEL TESORO",
-      "venue": "Auditorio Casa San Pablo",
-      "zone": "",
-      "cat": "Música",
-      "price": 1800,
-      "price_max": 3000,
-      "time": "14:00",
-      "kids": true,
-      "tags": [],
-      "description": "🎉 ¡La aventura más divertida llega a Santo Domingo! 🐷🌾 Prepárate para vivir una experiencia llena de alegría, música y diversión junto a La Granja de Zenón y su emocionante espectáculo “La Búsqueda del Tesoro”. 🗺️✨ Zenón y sus queridos personajes te esperan para disfrutar de una…",
-      "ticketUrl": "https://ticketmax.org/evento/266538/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/266538/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/266538/"
-        }
-      ]
-    },
-    {
-      "id": "868348d3500fac7e",
-      "source": "ticketmax",
-      "date": "2026-11-08",
-      "end": null,
-      "sessions": null,
-      "title": "LA GRANJA DE ZENÓN: LA BUSQUEDA DEL TESORO | 2:00 PM - 12:00 AM",
-      "venue": "Auditorio Casa San Pablo",
-      "zone": "",
-      "cat": "Cultura",
-      "price": null,
-      "price_max": null,
-      "time": "14:00",
-      "kids": true,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "https://ticketmax.org/evento/900176/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900176/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900176/"
-        }
-      ]
-    },
-    {
-      "id": "f5c035e89586dce3",
-      "source": "ticketmax",
-      "date": "2026-11-08",
-      "end": null,
-      "sessions": null,
-      "title": "📚 ¡Un cuento hoy, un recuerdo para siempre! Cuentacuentos con Belkis Marte | 4:00 PM - 6:00 PM",
-      "venue": "Centro Cultural Casa Libros",
-      "zone": "",
-      "cat": "Arte",
-      "price": 0,
-      "price_max": null,
-      "time": "16:00",
-      "kids": true,
-      "tags": [],
-      "description": "📚 ¡Un cuento hoy, un recuerdo para siempre! Comparte con tus hijos una tarde con Belkis M. Marte en Casa Libros. 📅 Domingo 8 de noviembre, 4:00 p. m. 📍 Moisés García 3, Gazcue. Reserva aqui Más Información 829-264-8185",
-      "ticketUrl": "https://ticketmax.org/evento/900527/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900527/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900527/"
-        }
-      ]
-    },
-    {
-      "id": "62cdde164430e44e",
-      "source": "ticketmax",
-      "date": "2026-11-08",
-      "end": null,
-      "sessions": null,
-      "title": "LA GRANJA DE ZENÓN: LA BUSQUEDA DEL TESORO",
-      "venue": "Auditorio Casa San Pablo",
-      "zone": "",
-      "cat": "Música",
-      "price": 1800,
-      "price_max": 3000,
-      "time": "16:30",
-      "kids": true,
-      "tags": [],
-      "description": "🎉 ¡La aventura más divertida llega a Santo Domingo! 🐷🌾 Prepárate para vivir una experiencia llena de alegría, música y diversión junto a La Granja de Zenón y su emocionante espectáculo “La Búsqueda del Tesoro”. 🗺️✨ Zenón y sus queridos personajes te esperan para disfrutar de una…",
-      "ticketUrl": "https://ticketmax.org/evento/900074/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900074/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900074/"
-        }
-      ]
-    },
-    {
-      "id": "8bd163ec6c27528c",
-      "source": "tix",
-      "date": "2026-11-08",
-      "end": null,
-      "sessions": null,
-      "title": "MATINE DE SALSA",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "17:00",
-      "kids": false,
-      "tags": [],
-      "description": "Matiné de Salsa en The Green Room. Domingo 8 de noviembre, a partir de las 5:00PM. Reserva gratis. Calle Andrés Julio Aybar 17, Piantini.",
-      "ticketUrl": "https://tix.do/event/MATINEDESALSA-18",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/MATINEDESALSA-18",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/MATINEDESALSA-18"
-        }
-      ]
-    },
-    {
-      "id": "0ca099dcd9a58634",
-      "source": "recurring",
-      "date": "2026-11-08",
-      "end": null,
-      "sessions": null,
-      "title": "Domingos de Bonyé",
-      "venue": "Ruinas de San Francisco, calle Hostos, Zona Colonial",
-      "zone": "Ciudad Colonial",
-      "cat": "Música",
-      "price": 0,
-      "price_max": null,
-      "time": "18:00",
-      "kids": false,
-      "tags": [
-        "cultura",
-        "serie"
-      ],
-      "description": "Música en vivo al aire libre con el grupo Bonyé: tambora, son, salsa y merengue.",
-      "ticketUrl": "",
-      "srcName": "SalsaVida",
-      "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-11-08",
-      "sources": [
-        {
-          "srcName": "SalsaVida",
-          "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-11-08"
-        }
-      ]
-    },
-    {
-      "id": "e34e13930c935779",
-      "source": "ticketmax",
-      "date": "2026-11-08",
-      "end": null,
-      "sessions": null,
-      "title": "LAS GUERRERAS KPOP",
-      "venue": "Auditorio Casa San Pablo",
-      "zone": "",
-      "cat": "Música",
-      "price": 1600,
-      "price_max": 2000,
-      "time": "19:00",
-      "kids": true,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "https://ticketmax.org/evento/900028/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900028/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900028/"
-        }
-      ]
-    },
-    {
-      "id": "00474ae996fb238e",
-      "source": "tix",
-      "date": "2026-11-08",
-      "end": null,
-      "sessions": null,
-      "title": "THE EVENT",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "Con las boletas de after party podras conocer a polaco 🔞 Evento exclusivo para mayores de 18 años. Le informamos que, una vez finalizada la compra de su boleta, no se admitirán cambios, cancelaciones ni devoluciones del importe abonado, salvo en los casos de cancelación o aplaza…",
-      "ticketUrl": "https://tix.do/event/THEEVENT-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/THEEVENT-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/THEEVENT-1"
-        }
-      ]
-    },
-    {
-      "id": "5a3bb52724993577",
-      "source": "ticketmax",
-      "date": "2026-11-08",
-      "end": null,
-      "sessions": null,
-      "title": "FDT 10X10 | LA FUNCIÓN NO ESTÁ CANCELADA",
-      "venue": "Teatro Guloya",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 800,
-      "price_max": null,
-      "time": "19:30",
-      "kids": false,
-      "tags": [],
-      "description": "Un grupo de actores se prepara para entrar en escena en una obra sobre las últimas horas de la vida de Molière. Nada está listo y las dificultades se acumulan. Incluso el robo de la recaudación del día… ¿Deberían cancelar la función y precipitar así la ruina de este teatro al bo…",
-      "ticketUrl": "https://ticketmax.org/evento/253727/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/253727/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/253727/"
         }
       ]
     },
@@ -1186,6 +871,32 @@
       ]
     },
     {
+      "id": "31a17f0a7225cc7f",
+      "source": "tix",
+      "date": "2026-11-14",
+      "end": "2026-11-15",
+      "sessions": null,
+      "title": "WHAT IS REAL 3.0",
+      "venue": "Los Reales Colonial",
+      "zone": "",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "👑 WHAT IS REAL 3.0 · Mascarada electrónica CHEZ TROPICS MOHIKAA RAMOS & CHILL OF REZZ Sábado 14 de noviembre. Los Reales Colonial, Santo Domingo. Una noche donde la realidad se quita la máscara. Inspirada en la realeza medieval, esta tercera edición te lleva a un baile de máscar…",
+      "ticketUrl": "https://tix.do/event/WHATISREAL30-2",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/WHATISREAL30-2",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/WHATISREAL30-2"
+        }
+      ]
+    },
+    {
       "id": "3537efb41ceb8f8c",
       "source": "ticketmax",
       "date": "2026-11-14",
@@ -1368,32 +1079,6 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/VERTICALISIMO-1"
-        }
-      ]
-    },
-    {
-      "id": "31a17f0a7225cc7f",
-      "source": "tix",
-      "date": "2026-11-14",
-      "end": null,
-      "sessions": null,
-      "title": "WHAT IS REAL 3.0",
-      "venue": "Los Reales Colonial",
-      "zone": "",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [],
-      "description": "👑 WHAT IS REAL 3.0 · Mascarada electrónica CHEZ TROPICS MOHIKAA RAMOS & CHILL OF REZZ Sábado 14 de noviembre. Los Reales Colonial, Santo Domingo. Una noche donde la realidad se quita la máscara. Inspirada en la realeza medieval, esta tercera edición te lleva a un baile de máscar…",
-      "ticketUrl": "https://tix.do/event/WHATISREAL30-2",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/WHATISREAL30-2",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/WHATISREAL30-2"
         }
       ]
     },
@@ -2705,7 +2390,7 @@
       "venue": "Velvet Room",
       "zone": "",
       "cat": "Teatro",
-      "price": 600,
+      "price": 700,
       "price_max": null,
       "time": "19:00",
       "kids": false,

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-09T20:58:47+00:00",
-  "today": "2026-11-09",
-  "count": 138,
+  "generated_at": "2026-11-10T18:04:51+00:00",
+  "today": "2026-11-10",
+  "count": 142,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -107,32 +107,6 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/festival-internacional-de-teatro-para-la-infancia-y-la-juventud/"
-        }
-      ]
-    },
-    {
-      "id": "a3a323c4ba418f38",
-      "source": "zona_colonial",
-      "date": "2026-11-09",
-      "end": null,
-      "sessions": null,
-      "title": "Gran Simultánea de Ajedrez",
-      "venue": "NOV",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "14:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/gran-simultanea-de-ajedrez/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/gran-simultanea-de-ajedrez/"
         }
       ]
     },
@@ -349,6 +323,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/CarlosSanchezenTheGreenRoom-5"
+        }
+      ]
+    },
+    {
+      "id": "f5210e5b573375e9",
+      "source": "tix",
+      "date": "2026-11-12",
+      "end": null,
+      "sessions": null,
+      "title": "JAZZ NIGHT",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "JAZZ NIGHT - JUEVES 12 DE NOVIEMBRE. Puertas: 7:00 PM. Show: 9:30 PM. Lugar: The Green Room, Calle Andrés Julio Aybar 17, Segundo Piso, Piantini. Entrada: RESERVA GRATIS.",
+      "ticketUrl": "https://tix.do/event/JAZZNIGHT-26",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/JAZZNIGHT-26",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/JAZZNIGHT-26"
         }
       ]
     },
@@ -803,7 +803,7 @@
       "time": "21:30",
       "kids": false,
       "tags": [],
-      "description": "Sí y Nights: Improv Show Una noche de pura improvisación. Cinco actores en escena, sin guion ni dirección: lo que pase dependerá del momento… y del público. ¡Entretenimiento fuera de lo común y risas garantizadas! ⭐️ Host: Suzette Reyes 📍 Velvet Room, Bloom, Av. Enriquillo 28 🍹🍔…",
+      "description": "Sí y Nights: Improv Show Una noche de pura improvisación. Cinco actores en escena, sin guion ni dirección: lo que pase dependerá del momento… y del público. ¡Entretenimiento fuera de lo común y risas garantizadas! ⭐️ Host: Franchy Rodríguez 📍 Velvet Room, Bloom, Av. Enriquillo 2…",
       "ticketUrl": "https://ticketmax.org/evento/900141/",
       "srcName": "Ticketmax",
       "srcUrl": "https://ticketmax.org/evento/900141/",
@@ -1824,6 +1824,34 @@
       ]
     },
     {
+      "id": "5f5cc53902605f80",
+      "source": "ticketmax",
+      "date": "2026-11-21",
+      "end": null,
+      "sessions": null,
+      "title": "Mixilogia y Mujer. La Pijamada",
+      "venue": "The Box Working Space",
+      "zone": "",
+      "cat": "Cultura",
+      "price": 6000,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [
+        "formacion"
+      ],
+      "description": "La Pijamada Mixología y Mujer presenta el cierre de temporada 2026 Cómodas, confiadas y sin filtros. No es un evento, es una experiencia. La Pijamada es la noche que cierra la temporada de Mixología y Mujer: una velada completa entre mujeres, en pijama, pensada para desconectar,…",
+      "ticketUrl": "https://ticketmax.org/evento/266173/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/266173/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/266173/"
+        }
+      ]
+    },
+    {
       "id": "aa2199a5478bf817",
       "source": "ticketmax",
       "date": "2026-11-21",
@@ -2748,6 +2776,32 @@
       ]
     },
     {
+      "id": "7621121fef173804",
+      "source": "teatro_nacional",
+      "date": "2026-12-04",
+      "end": "2026-12-06",
+      "sessions": null,
+      "title": "Brito",
+      "venue": "Sala José de Jesus Ravelo, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Teatro",
+      "price": 1500,
+      "price_max": 1500,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Llega a nuestras tablas \"BRITO\", un biopic teatral que honra la vida, la voz y el legado del insigne barítono dominicano Eduardo Brito.",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/brito-2/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/brito-2/"
+        }
+      ]
+    },
+    {
       "id": "fdf0637cd75c74a6",
       "source": "ticketmax",
       "date": "2026-12-04",
@@ -3169,6 +3223,32 @@
       ]
     },
     {
+      "id": "571b3769eab9a2d3",
+      "source": "tix",
+      "date": "2026-12-16",
+      "end": null,
+      "sessions": null,
+      "title": "CUSITEO: CUIDAO SI TE OFENDES VOL. 4",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "21:30",
+      "kids": false,
+      "tags": [],
+      "description": "¿Aguantas la presión o te vas a ofender? 🎤🔥 Este MIÉRCOLES 16 de DICIEMBRE regresa, en edición navideña, el gameshow más atrevido de la zona: \"Cusiteo: Cuidao si te ofendes\". Prepárate para una noche de dinámicas en vivo, humor negro y respuestas que te pondrán a prueba. Aquí la…",
+      "ticketUrl": "https://tix.do/event/CUSITEOCUIDAOSITEOFENDESVOL4-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/CUSITEOCUIDAOSITEOFENDESVOL4-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/CUSITEOCUIDAOSITEOFENDESVOL4-1"
+        }
+      ]
+    },
+    {
       "id": "16a909a97c4cc4d5",
       "source": "tix",
       "date": "2026-12-17",
@@ -3373,6 +3453,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900518/"
+        }
+      ]
+    },
+    {
+      "id": "d1748f7cfdf64126",
+      "source": "teatro_nacional",
+      "date": "2027-01-14",
+      "end": "2027-01-17",
+      "sessions": null,
+      "title": "Metástasis",
+      "venue": "Sala José de Jesus Ravelo, Teatro Nacional",
+      "zone": "Plaza de la Cultura",
+      "cat": "Teatro",
+      "price": 1500,
+      "price_max": 1500,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Metástasis busca sensibilizar y mostrar al espectador el paisaje cambiante que nos ofrece la vida y la lucha de todos, por vivirla a plenitud y respirarla hasta su final. Por medio a una enfermedad terminal conocemos las mil maneras de enfrentar, vencer, continuar y hacernos resi",
+      "ticketUrl": "https://boleteria.com.do/",
+      "srcName": "Teatro Nacional",
+      "srcUrl": "https://teatronacional.gob.do/events/metastasis/",
+      "sources": [
+        {
+          "srcName": "Teatro Nacional",
+          "srcUrl": "https://teatronacional.gob.do/events/metastasis/"
         }
       ]
     },

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-10T18:04:51+00:00",
-  "today": "2026-11-10",
-  "count": 142,
+  "generated_at": "2026-11-11T18:04:45+00:00",
+  "today": "2026-11-11",
+  "count": 148,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -111,84 +111,6 @@
       ]
     },
     {
-      "id": "7e66875aceeff5e4",
-      "source": "zona_colonial",
-      "date": "2026-11-10",
-      "end": null,
-      "sessions": null,
-      "title": "Cine Clásico: Proyección de la película “Rashomon”",
-      "venue": "Centro Cultural Banreservas",
-      "zone": "Ciudad Colonial",
-      "cat": "Cine",
-      "price": 0,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/cine-clasico-proyeccion-de-la-pelicula-rashomon/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/cine-clasico-proyeccion-de-la-pelicula-rashomon/"
-        }
-      ]
-    },
-    {
-      "id": "dc1cf84921412bfd",
-      "source": "cce",
-      "date": "2026-11-10",
-      "end": null,
-      "sessions": null,
-      "title": "Futuras Ancestras. La obra de Angela Suazo",
-      "venue": "Centro Cultural de España",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": 0,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "Imparte Nayely GermosoModera Arlene SabarisEntrada Libre hasta completar AforoPrograma Fortalecimiento del Espacio LatinoamericanoFuturas Ancestraspropone construir un espacio de encuentro y lectura entre autoras dominicanas contemporáneas que promueva sus obras, genere nuevas le",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/futuras-ancestras.-la-obra-de-angela-suazo",
-      "sources": [
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/futuras-ancestras.-la-obra-de-angela-suazo"
-        }
-      ]
-    },
-    {
-      "id": "209fce1fa948677b",
-      "source": "tix",
-      "date": "2026-11-10",
-      "end": null,
-      "sessions": null,
-      "title": "Sex Education",
-      "venue": "Local 3 : Calle Max. Herriquez Ureña 33",
-      "zone": "",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "21:00",
-      "kids": false,
-      "tags": [],
-      "description": "Sex Educación Wellington Ledesma y Begoña Guillén traen un show de stand-up sin tabúes, donde de sexo se habla claro, se ríe fuerte y hasta se aprende algo (sí, en serio). Con una sexóloga invitada en escena, las preguntas incómodas están garantizadas. Risas, cero censura y educ…",
-      "ticketUrl": "https://tix.do/event/SexEducation-2",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/SexEducation-2",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/SexEducation-2"
-        }
-      ]
-    },
-    {
       "id": "bec42b193667ea53",
       "source": "cce",
       "date": "2026-11-11",
@@ -275,6 +197,58 @@
       ]
     },
     {
+      "id": "6912d1419ac2308f",
+      "source": "zona_colonial",
+      "date": "2026-11-11",
+      "end": null,
+      "sessions": null,
+      "title": "“Pedro Mártir: el primer traductor del Nuevo Mundo”",
+      "venue": "Quinta Dominica",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "19:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/pedro-martir-el-primer-traductor-del-nuevo-mundo/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/pedro-martir-el-primer-traductor-del-nuevo-mundo/"
+        }
+      ]
+    },
+    {
+      "id": "e18578080df1adf2",
+      "source": "zona_colonial",
+      "date": "2026-11-11",
+      "end": null,
+      "sessions": null,
+      "title": "Concierto “Azabache” — Celebración del primer aniversario del lanzamiento del primer sencillo de Elena Ros (Pop Rock Latino)",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/concierto-azabache-celebracion-del-primer-aniversario-del-lanzamiento-del-primer-sencillo-de-elena-ros-pop-rock-latino/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/concierto-azabache-celebracion-del-primer-aniversario-del-lanzamiento-del-primer-sencillo-de-elena-ros-pop-rock-latino/"
+        }
+      ]
+    },
+    {
       "id": "3e305eeecf98e5dc",
       "source": "tix",
       "date": "2026-11-11",
@@ -286,7 +260,7 @@
       "cat": "Música",
       "price": null,
       "price_max": null,
-      "time": "19:30",
+      "time": "20:00",
       "kids": false,
       "tags": [],
       "description": "El Degalille es un karaoke para cantar malo, pero con sentimiento 🎤 Y para esta edición nos vamos Old School: Wisin & Yandel, Zion & Lennox, Jowell & Randy, Don Omar, Daddy Yankee, Plan B y todos esos clásicos que uno se sabe aunque tenga años sin escucharlos. 🔥",
@@ -323,6 +297,58 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/CarlosSanchezenTheGreenRoom-5"
+        }
+      ]
+    },
+    {
+      "id": "bdc6c63e0d59fd0f",
+      "source": "zona_colonial",
+      "date": "2026-11-12",
+      "end": null,
+      "sessions": null,
+      "title": "Cinefórum MMRD: Proyección de la película dominicana “Liborio”",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Cine",
+      "price": 0,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/cineforum-mmrd-proyeccion-de-la-pelicula-dominicana-liborio/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/cineforum-mmrd-proyeccion-de-la-pelicula-dominicana-liborio/"
+        }
+      ]
+    },
+    {
+      "id": "a2e5298a16da7d72",
+      "source": "zona_colonial",
+      "date": "2026-11-12",
+      "end": null,
+      "sessions": null,
+      "title": "Conversatorio y presentación del documental “Orgullo de Mi Tierra: El Pico Duarte”",
+      "venue": "Centro Cultural Banreservas",
+      "zone": "Ciudad Colonial",
+      "cat": "Cine",
+      "price": 0,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/conversatorio-y-presentacion-del-documental-orgullo-de-mi-tierra-el-pico-duarte/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/conversatorio-y-presentacion-del-documental-orgullo-de-mi-tierra-el-pico-duarte/"
         }
       ]
     },
@@ -949,6 +975,32 @@
       ]
     },
     {
+      "id": "cb18037ae230e17f",
+      "source": "zona_colonial",
+      "date": "2026-11-14",
+      "end": null,
+      "sessions": null,
+      "title": "Taller de Cianotipia con plantas (en el marco de la exposición “Cocorícamo. Cartografías del sur”)",
+      "venue": "Centro Cultural Banreservas",
+      "zone": "Ciudad Colonial",
+      "cat": "Arte",
+      "price": 0,
+      "price_max": null,
+      "time": "14:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/taller-de-cianotipia-con-plantas-en-el-marco-de-la-exposicion-cocoricamo-cartografias-del-sur/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/taller-de-cianotipia-con-plantas-en-el-marco-de-la-exposicion-cocoricamo-cartografias-del-sur/"
+        }
+      ]
+    },
+    {
       "id": "64d628e5261d179d",
       "source": "zona_colonial",
       "date": "2026-11-14",
@@ -1239,6 +1291,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/MATINEDESALSA-19"
+        }
+      ]
+    },
+    {
+      "id": "950633968f158dd2",
+      "source": "zona_colonial",
+      "date": "2026-11-15",
+      "end": null,
+      "sessions": null,
+      "title": "Observación de aves y develación de un panel informativo: “Las aves que habitan nuestro jardín”",
+      "venue": "Quinta Dominica",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "16:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/observacion-de-aves-y-develacion-de-un-panel-informativo-las-aves-que-habitan-nuestro-jardin/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/observacion-de-aves-y-develacion-de-un-panel-informativo-las-aves-que-habitan-nuestro-jardin/"
         }
       ]
     },
@@ -2513,6 +2591,32 @@
       ]
     },
     {
+      "id": "426ba98c2295aa7e",
+      "source": "ticketmax",
+      "date": "2026-11-28",
+      "end": null,
+      "sessions": null,
+      "title": "TERTULIA NAVIDEÑA, AQUÍ NADIE SE SALVA",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 1800,
+      "price_max": null,
+      "time": "21:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://ticketmax.org/evento/900556/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900556/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900556/"
+        }
+      ]
+    },
+    {
       "id": "dad2d0c8b225d810",
       "source": "tix",
       "date": "2026-11-29",
@@ -3013,6 +3117,32 @@
       ]
     },
     {
+      "id": "a9c7f30f52b94ba4",
+      "source": "ticketmax",
+      "date": "2026-12-09",
+      "end": null,
+      "sessions": null,
+      "title": "Izquierdo y Derecho.",
+      "venue": "Teatro Guloya",
+      "zone": "",
+      "cat": "Arte",
+      "price": 400,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "IZQUIERDO Y DERECHO. Escrita por Shanisse Rojas ¿Qué sucede cuando tu peor enemigo y tu mejor consejero viven dentro de ti? Juan ha llegado a un punto en el que siente que lo ha perdido todo: el trabajo, el amor, sus sueños y, sobre todo, las ganas de seguir adelante. Sin embarg…",
+      "ticketUrl": "https://ticketmax.org/evento/900558/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900558/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900558/"
+        }
+      ]
+    },
+    {
       "id": "32b49125b586579e",
       "source": "ticketmax",
       "date": "2026-12-10",
@@ -3453,6 +3583,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900518/"
+        }
+      ]
+    },
+    {
+      "id": "942f744fe0686eda",
+      "source": "ticketmax",
+      "date": "2026-12-29",
+      "end": "2026-12-30",
+      "sessions": null,
+      "title": "Retro Jazz: The Velvet Sessions | Martes 29 al Miércoles 30 Diciembre 2026",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Música",
+      "price": 2800,
+      "price_max": null,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://ticketmax.org/evento/900565/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900565/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900565/"
         }
       ]
     },

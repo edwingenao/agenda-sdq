@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-11T18:04:45+00:00",
-  "today": "2026-11-11",
-  "count": 148,
+  "generated_at": "2026-11-12T18:32:53+00:00",
+  "today": "2026-11-12",
+  "count": 149,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -111,38 +111,16 @@
       ]
     },
     {
-      "id": "bec42b193667ea53",
+      "id": "fc7f9e3f9dc84ca3",
       "source": "cce",
       "date": "2026-11-11",
-      "end": null,
-      "sessions": null,
-      "title": "Laboratorio del Collage",
-      "venue": "Centro Cultural de España",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Imparte Paola PradaInscríbete antes del 11 de noviembrerellenando este formulario con tus datos",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/laboratorio-del-collage",
-      "sources": [
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/laboratorio-del-collage"
-        }
-      ]
-    },
-    {
-      "id": "40d615acea9cd00f",
-      "source": "zona_colonial",
-      "date": "2026-11-11",
-      "end": null,
-      "sessions": null,
-      "title": "Ciclo “Afrodescendientes Hoy: Diáspora y espiritualidad africana en América”",
+      "end": "2026-11-13",
+      "sessions": [
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13"
+      ],
+      "title": "Afrodescendientes Hoy",
       "venue": "Centro Cultural de España",
       "zone": "Ciudad Colonial",
       "cat": "Cultura",
@@ -153,13 +131,9 @@
       "tags": [],
       "description": "Conversatorios, proyección y presentación musicalDirigido a estudiantes, profesores, artistas, cineastas, antropólogos, investigadores del folklore, músicos, portadores de las tradiciones originarias y público en general.",
       "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/ciclo-afrodescendientes-hoy-diaspora-y-espiritualidad-africana-en-america/",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/afrodescendientes-hoy-10",
       "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/ciclo-afrodescendientes-hoy-diaspora-y-espiritualidad-africana-en-america/"
-        },
         {
           "srcName": "Centro Cultural de España",
           "srcUrl": "https://ccesd.aecid.es/w/afrodescendientes-hoy-10"
@@ -167,136 +141,28 @@
       ]
     },
     {
-      "id": "a250c0510c8d109d",
+      "id": "dd4583e7f7dd6585",
       "source": "zona_colonial",
-      "date": "2026-11-11",
+      "date": "2026-11-12",
       "end": null,
       "sessions": null,
-      "title": "Exposición inmersiva “Doble Filo”",
-      "venue": "Centro Cultural de España",
-      "zone": "Ciudad Colonial",
-      "cat": "Arte",
-      "price": 0,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "Abierta hasta el 20 de diciembreEntrada libre hasta completar aforoPrograma Fortalecimiento Iberoamericano",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/exposicion-inmersiva-doble-filo/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/exposicion-inmersiva-doble-filo/"
-        },
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/doble-filo"
-        }
-      ]
-    },
-    {
-      "id": "6912d1419ac2308f",
-      "source": "zona_colonial",
-      "date": "2026-11-11",
-      "end": null,
-      "sessions": null,
-      "title": "“Pedro Mártir: el primer traductor del Nuevo Mundo”",
-      "venue": "Quinta Dominica",
+      "title": "Recorrido guiado en Ciudad Colonial en conmemoración de la vida y legado de la insigne poetisa Salomé Ureña de Henríquez",
+      "venue": "NOV",
       "zone": "Ciudad Colonial",
       "cat": "Cultura",
       "price": 0,
       "price_max": null,
-      "time": "19:30",
+      "time": "15:00",
       "kids": false,
       "tags": [],
       "description": "",
       "ticketUrl": "",
       "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/pedro-martir-el-primer-traductor-del-nuevo-mundo/",
+      "srcUrl": "https://zonacolonial.do/actividad/recorrido-guiado-en-ciudad-colonial-en-conmemoracion-de-la-vida-y-legado-de-la-insigne-poetisa-salome-urena-de-henriquez/",
       "sources": [
         {
           "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/pedro-martir-el-primer-traductor-del-nuevo-mundo/"
-        }
-      ]
-    },
-    {
-      "id": "e18578080df1adf2",
-      "source": "zona_colonial",
-      "date": "2026-11-11",
-      "end": null,
-      "sessions": null,
-      "title": "Concierto “Azabache” — Celebración del primer aniversario del lanzamiento del primer sencillo de Elena Ros (Pop Rock Latino)",
-      "venue": "Casa de Teatro",
-      "zone": "Ciudad Colonial",
-      "cat": "Música",
-      "price": 0,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/concierto-azabache-celebracion-del-primer-aniversario-del-lanzamiento-del-primer-sencillo-de-elena-ros-pop-rock-latino/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/concierto-azabache-celebracion-del-primer-aniversario-del-lanzamiento-del-primer-sencillo-de-elena-ros-pop-rock-latino/"
-        }
-      ]
-    },
-    {
-      "id": "3e305eeecf98e5dc",
-      "source": "tix",
-      "date": "2026-11-11",
-      "end": null,
-      "sessions": null,
-      "title": "El Degalille - Old School edition",
-      "venue": "Velvet Room SDQ",
-      "zone": "",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [],
-      "description": "El Degalille es un karaoke para cantar malo, pero con sentimiento 🎤 Y para esta edición nos vamos Old School: Wisin & Yandel, Zion & Lennox, Jowell & Randy, Don Omar, Daddy Yankee, Plan B y todos esos clásicos que uno se sabe aunque tenga años sin escucharlos. 🔥",
-      "ticketUrl": "https://tix.do/event/ElDegalilleOldSchooledition-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/ElDegalilleOldSchooledition-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/ElDegalilleOldSchooledition-1"
-        }
-      ]
-    },
-    {
-      "id": "d13a69f680d05bcf",
-      "source": "tix",
-      "date": "2026-11-11",
-      "end": null,
-      "sessions": null,
-      "title": "Carlos Sánchez en The Green Room",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "20:30",
-      "kids": false,
-      "tags": [],
-      "description": "Carlos está armando este nuevo concepto. Carlos les cuenta sus últimos anécdotas y chismes, el público le cuenta a Carlos sus chismes. Quien sabe si hasta terminamos cantando todos al final. Es decir: una cura. Para reservaciones de mesas llamar al 809 -740-4601 La compra de bol…",
-      "ticketUrl": "https://tix.do/event/CarlosSanchezenTheGreenRoom-5",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/CarlosSanchezenTheGreenRoom-5",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/CarlosSanchezenTheGreenRoom-5"
+          "srcUrl": "https://zonacolonial.do/actividad/recorrido-guiado-en-ciudad-colonial-en-conmemoracion-de-la-vida-y-legado-de-la-insigne-poetisa-salome-urena-de-henriquez/"
         }
       ]
     },
@@ -511,36 +377,6 @@
       ]
     },
     {
-      "id": "27fd3306c86532bc",
-      "source": "teatro_las_mascaras",
-      "date": "2026-11-13",
-      "end": "2026-11-29",
-      "sessions": null,
-      "title": "Señora, ¿Me Presta su Marido?",
-      "venue": "Teatro Las Máscaras",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": 875,
-      "price_max": 875,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "¿Se puede prestar lo que se ama... o el matrimonio requiere de un alerta al buen sentido para sobrevivir? 💍✨ Regresa a las tablas de Teatro Las Máscaras «Señora, ¿me presta su marido?», una comedia imperdible que combina el humor fino, la chispa de la convivencia diaria y reflex…",
-      "ticketUrl": "https://tix.do/event/Senorameprestasumarido-1",
-      "srcName": "Teatro Las Máscaras",
-      "srcUrl": "https://teatrolasmascaras.com/#senora-me-presta-su-marido",
-      "sources": [
-        {
-          "srcName": "Teatro Las Máscaras",
-          "srcUrl": "https://teatrolasmascaras.com/#senora-me-presta-su-marido"
-        },
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/Senorameprestasumarido-1"
-        }
-      ]
-    },
-    {
       "id": "1b2a1922c63ed938",
       "source": "jazz_en_dominicana",
       "date": "2026-11-13",
@@ -630,7 +466,7 @@
       "venue": "Nuevos Comienzos",
       "zone": "",
       "cat": "Cultura",
-      "price": 1000,
+      "price": 500,
       "price_max": null,
       "time": "19:30",
       "kids": true,
@@ -755,6 +591,40 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/LasLocurasdePapiyMami-1"
+        }
+      ]
+    },
+    {
+      "id": "27fd3306c86532bc",
+      "source": "teatro_las_mascaras",
+      "date": "2026-11-13",
+      "end": "2026-11-29",
+      "sessions": null,
+      "title": "Señora, ¿Me Presta su Marido?",
+      "venue": "Teatro Las Máscaras",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": 875,
+      "price_max": 875,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "¿Se puede prestar lo que se ama... o el matrimonio requiere de un alerta al buen sentido para sobrevivir? 💍✨ Regresa a las tablas de Teatro Las Máscaras «Señora, ¿me presta su marido?», una comedia imperdible que combina el humor fino, la chispa de la convivencia diaria y reflex…",
+      "ticketUrl": "https://tix.do/event/Senorameprestasumarido-1",
+      "srcName": "Teatro Las Máscaras",
+      "srcUrl": "https://teatrolasmascaras.com/#senora-me-presta-su-marido",
+      "sources": [
+        {
+          "srcName": "Teatro Las Máscaras",
+          "srcUrl": "https://teatrolasmascaras.com/#senora-me-presta-su-marido"
+        },
+        {
+          "srcName": "Ministerio de Cultura (SIC)",
+          "srcUrl": "https://sic.cultura.gob.do/agenda/evento/46"
+        },
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/Senorameprestasumarido-1"
         }
       ]
     },
@@ -945,6 +815,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/258761/"
+        }
+      ]
+    },
+    {
+      "id": "abb9b7c41a3c70dc",
+      "source": "zona_colonial",
+      "date": "2026-11-14",
+      "end": null,
+      "sessions": null,
+      "title": "Conferencia: “Vida y obra de Nicolás de Jesús Cardenal López Rodríguez”",
+      "venue": "Academia Dominicana de la Lengua",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": 0,
+      "price_max": null,
+      "time": "10:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/conferencia-vida-y-obra-de-nicolas-de-jesus-cardenal-lopez-rodriguez/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/conferencia-vida-y-obra-de-nicolas-de-jesus-cardenal-lopez-rodriguez/"
         }
       ]
     },
@@ -1454,6 +1350,32 @@
       ]
     },
     {
+      "id": "3a45e036e3d16e81",
+      "source": "cce",
+      "date": "2026-11-17",
+      "end": null,
+      "sessions": null,
+      "title": "Futuras ancestras: La obra de Paola Román",
+      "venue": "CCESD",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": 0,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "Imparte José RodríguezModera Patricia MinallaEntrada Libre hasta completar AforoPrograma Fortalecimiento del Espacio LatinoamericanoFuturas Ancestras propone construir un espacio de encuentro y lectura entre autoras dominicanas contemporáneas que promueva sus obras, genere nuevas",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/futuras-ancestras-la-obra-de-paola-rom%C3%A1n",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/futuras-ancestras-la-obra-de-paola-rom%C3%A1n"
+        }
+      ]
+    },
+    {
       "id": "a7cd56ebd72c2361",
       "source": "tix",
       "date": "2026-11-17",
@@ -1528,6 +1450,32 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/festival-internacional-de-teatro-mujeres-sobre-las-tablas/"
+        }
+      ]
+    },
+    {
+      "id": "0341d2f4a5bd0ab9",
+      "source": "cce",
+      "date": "2026-11-18",
+      "end": null,
+      "sessions": null,
+      "title": "Mujer Stem: Una brecha por cerrar",
+      "venue": "Centro Cultural de España",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "09:30",
+      "kids": false,
+      "tags": [],
+      "description": "Modera Yeraldin Guerrero. Panelistas Karoline Taylo r (UNIBE), Alba Taveras (Mujeres en la Ingeniería) y Fanny Ramos (Mujeres en la Ingeniería)Entrada libre hasta completar aforo",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/mujer-stem-una-brecha-por-cerrar",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/mujer-stem-una-brecha-por-cerrar"
         }
       ]
     },
@@ -1636,6 +1584,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/PampersarcoirisEldebatesobrelaadopciongay-1"
+        }
+      ]
+    },
+    {
+      "id": "0c5535659653f8a8",
+      "source": "zona_colonial",
+      "date": "2026-11-18",
+      "end": null,
+      "sessions": null,
+      "title": "Salsa Wednesdays (Clase de baile + Social)",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Danza",
+      "price": 500,
+      "price_max": 500,
+      "time": "21:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/salsa-wednesdays-clase-de-baile-social/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/salsa-wednesdays-clase-de-baile-social/"
         }
       ]
     },
@@ -1794,6 +1768,32 @@
         {
           "srcName": "Zona Colonial",
           "srcUrl": "https://zonacolonial.do/actividad/obra-de-teatro-la-casa-de-bernarda-alba-en-el-marco-del-festival-decenario-teatral-10x10/"
+        }
+      ]
+    },
+    {
+      "id": "c23acc81a7092aef",
+      "source": "cce",
+      "date": "2026-11-20",
+      "end": null,
+      "sessions": null,
+      "title": "Cyber Week 2026",
+      "venue": "Centro Cultural de España",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "09:00",
+      "kids": false,
+      "tags": [],
+      "description": "Juntos más fuertes: protegiendo el futuro digital de América Latina y el Caribe and LAC4 0ct0b3rf35t",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/cyber-week-2026",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/cyber-week-2026"
         }
       ]
     },
@@ -2798,6 +2798,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/254945/"
+        }
+      ]
+    },
+    {
+      "id": "41951820bc82a995",
+      "source": "ticketmax",
+      "date": "2026-11-30",
+      "end": null,
+      "sessions": null,
+      "title": "Un Candidato Ideal",
+      "venue": "Sala Aida Bonelly, Teatro Nacional Eduardo Brito.",
+      "zone": "Plaza de la Cultura",
+      "cat": "Arte",
+      "price": 400,
+      "price_max": null,
+      "time": "20:00",
+      "kids": true,
+      "tags": [],
+      "description": "¿Y si el poder estuviera en las manos equivocadas? Las apariencias engañan, las cartas se juegan y cada quien tiene sus propias intenciones… ¿Será realmente un candidato ideal? DRAMATIKAS TEATRO presenta: UN CANDIDATO IDEAL. Una comedia para toda la familia.",
+      "ticketUrl": "https://ticketmax.org/evento/900570/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900570/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900570/"
         }
       ]
     },

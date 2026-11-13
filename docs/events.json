@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-12T18:32:53+00:00",
-  "today": "2026-11-12",
-  "count": 149,
+  "generated_at": "2026-11-13T17:59:44+00:00",
+  "today": "2026-11-13",
+  "count": 145,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -137,216 +137,6 @@
         {
           "srcName": "Centro Cultural de España",
           "srcUrl": "https://ccesd.aecid.es/w/afrodescendientes-hoy-10"
-        }
-      ]
-    },
-    {
-      "id": "dd4583e7f7dd6585",
-      "source": "zona_colonial",
-      "date": "2026-11-12",
-      "end": null,
-      "sessions": null,
-      "title": "Recorrido guiado en Ciudad Colonial en conmemoración de la vida y legado de la insigne poetisa Salomé Ureña de Henríquez",
-      "venue": "NOV",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "15:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/recorrido-guiado-en-ciudad-colonial-en-conmemoracion-de-la-vida-y-legado-de-la-insigne-poetisa-salome-urena-de-henriquez/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/recorrido-guiado-en-ciudad-colonial-en-conmemoracion-de-la-vida-y-legado-de-la-insigne-poetisa-salome-urena-de-henriquez/"
-        }
-      ]
-    },
-    {
-      "id": "bdc6c63e0d59fd0f",
-      "source": "zona_colonial",
-      "date": "2026-11-12",
-      "end": null,
-      "sessions": null,
-      "title": "Cinefórum MMRD: Proyección de la película dominicana “Liborio”",
-      "venue": "NOV",
-      "zone": "Ciudad Colonial",
-      "cat": "Cine",
-      "price": 0,
-      "price_max": null,
-      "time": "18:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/cineforum-mmrd-proyeccion-de-la-pelicula-dominicana-liborio/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/cineforum-mmrd-proyeccion-de-la-pelicula-dominicana-liborio/"
-        }
-      ]
-    },
-    {
-      "id": "a2e5298a16da7d72",
-      "source": "zona_colonial",
-      "date": "2026-11-12",
-      "end": null,
-      "sessions": null,
-      "title": "Conversatorio y presentación del documental “Orgullo de Mi Tierra: El Pico Duarte”",
-      "venue": "Centro Cultural Banreservas",
-      "zone": "Ciudad Colonial",
-      "cat": "Cine",
-      "price": 0,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/conversatorio-y-presentacion-del-documental-orgullo-de-mi-tierra-el-pico-duarte/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/conversatorio-y-presentacion-del-documental-orgullo-de-mi-tierra-el-pico-duarte/"
-        }
-      ]
-    },
-    {
-      "id": "f5210e5b573375e9",
-      "source": "tix",
-      "date": "2026-11-12",
-      "end": null,
-      "sessions": null,
-      "title": "JAZZ NIGHT",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "JAZZ NIGHT - JUEVES 12 DE NOVIEMBRE. Puertas: 7:00 PM. Show: 9:30 PM. Lugar: The Green Room, Calle Andrés Julio Aybar 17, Segundo Piso, Piantini. Entrada: RESERVA GRATIS.",
-      "ticketUrl": "https://tix.do/event/JAZZNIGHT-26",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/JAZZNIGHT-26",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/JAZZNIGHT-26"
-        }
-      ]
-    },
-    {
-      "id": "4be1e5182f153af9",
-      "source": "ticketmax",
-      "date": "2026-11-12",
-      "end": null,
-      "sessions": null,
-      "title": "Voices Unleashed Open Mic Unplugged: Chino Sing",
-      "venue": "Jardin Secreto",
-      "zone": "",
-      "cat": "Arte",
-      "price": 600,
-      "price_max": 900,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "https://ticketmax.org/evento/900283/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900283/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900283/"
-        }
-      ]
-    },
-    {
-      "id": "e497baca29665037",
-      "source": "ticketmax",
-      "date": "2026-11-12",
-      "end": null,
-      "sessions": null,
-      "title": "Ariel Santana : Mal De La Cabeza",
-      "venue": "Velvet Room",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 999,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "https://ticketmax.org/evento/900289/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900289/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900289/"
-        }
-      ]
-    },
-    {
-      "id": "0f6644212729ae00",
-      "source": "ticketmax",
-      "date": "2026-11-12",
-      "end": null,
-      "sessions": null,
-      "title": "FDT 10X10 | EL PADRE DE TODOS NOSOTROS",
-      "venue": "Casa de Teatro",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": 800,
-      "price_max": null,
-      "time": "20:30",
-      "kids": true,
-      "tags": [],
-      "description": "Cinco hermanos se reencuentran después de mucho tiempo para tomar decisiones luego de la muerte de su padre ocurrida en un acantilado, por salvar a una niña. Motiva la reunión la oferta de dinero de una compañía de refresco que quiere tomar la imagen de su padre como un héroe en…",
-      "ticketUrl": "https://ticketmax.org/evento/253999/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/253999/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/253999/"
-        }
-      ]
-    },
-    {
-      "id": "1ded3ad514abac59",
-      "source": "jazz_en_dominicana",
-      "date": "2026-11-12",
-      "end": null,
-      "sessions": null,
-      "title": "Jazz Night",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Música",
-      "price": 0,
-      "price_max": null,
-      "time": "21:30",
-      "kids": false,
-      "tags": [
-        "jazz"
-      ],
-      "description": "El jazz vuelve a encender, cada jueves, la noche de Jazz que ofrece The Green Room. Este jueves 12 con The Green Room Band. Jazz Night at The Green Room, cada jueves a partir de las 9:30PM en The Green Room en la Calle Andrés Julio Aybar 17 segundo piso, del Ensanche Piantini. No",
-      "ticketUrl": "",
-      "srcName": "Jazz en Dominicana",
-      "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-8-al-14-de.html#2026-11-12-jazz-night",
-      "sources": [
-        {
-          "srcName": "Jazz en Dominicana",
-          "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-8-al-14-de.html#2026-11-12-jazz-night"
         }
       ]
     },
@@ -1614,6 +1404,32 @@
       ]
     },
     {
+      "id": "e0828582ec2575c8",
+      "source": "zona_colonial",
+      "date": "2026-11-19",
+      "end": null,
+      "sessions": null,
+      "title": "Conversatorio “La vivienda popular dominicana: Orígenes de una imagen que nos pertenece”",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/conversatorio-la-vivienda-popular-dominicana-origenes-de-una-imagen-que-nos-pertenece/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/conversatorio-la-vivienda-popular-dominicana-origenes-de-una-imagen-que-nos-pertenece/"
+        }
+      ]
+    },
+    {
       "id": "2f4d9b1bc0edd465",
       "source": "ticketmax",
       "date": "2026-11-19",
@@ -1902,6 +1718,32 @@
       ]
     },
     {
+      "id": "6b5dec818532516b",
+      "source": "zona_colonial",
+      "date": "2026-11-21",
+      "end": null,
+      "sessions": null,
+      "title": "Dibujando Mitos Dominicanos",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 250,
+      "price_max": 250,
+      "time": "16:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/dibujando-mitos-dominicanos/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/dibujando-mitos-dominicanos/"
+        }
+      ]
+    },
+    {
       "id": "5f5cc53902605f80",
       "source": "ticketmax",
       "date": "2026-11-21",
@@ -1954,6 +1796,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/266187/"
+        }
+      ]
+    },
+    {
+      "id": "75a53dcc3faf09bf",
+      "source": "zona_colonial",
+      "date": "2026-11-21",
+      "end": null,
+      "sessions": null,
+      "title": "Estreno en República Dominicana de la obra teatral “La Persona Deprimida”",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": 1200,
+      "price_max": 1200,
+      "time": "19:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/estreno-en-republica-dominicana-de-la-obra-teatral-la-persona-deprimida/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/estreno-en-republica-dominicana-de-la-obra-teatral-la-persona-deprimida/"
         }
       ]
     },
@@ -2314,7 +2182,7 @@
       "venue": "Velvet Room",
       "zone": "",
       "cat": "Teatro",
-      "price": 1300,
+      "price": 1500,
       "price_max": null,
       "time": "19:00",
       "kids": false,
@@ -3084,6 +2952,32 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/recital-de-navidad/"
+        }
+      ]
+    },
+    {
+      "id": "d76a9daac79f0a3b",
+      "source": "ticketmax",
+      "date": "2026-12-06",
+      "end": null,
+      "sessions": null,
+      "title": "PASADIA FAMILIAR 2026, PARROQUIA SAN FRANCISCO DE ASÍS",
+      "venue": "Colegio San Francisco de Asis",
+      "zone": "",
+      "cat": "Música",
+      "price": 1000,
+      "price_max": null,
+      "time": "12:00",
+      "kids": true,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://ticketmax.org/evento/900568/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900568/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900568/"
         }
       ]
     },

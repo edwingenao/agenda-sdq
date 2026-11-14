@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-13T17:59:44+00:00",
-  "today": "2026-11-13",
-  "count": 145,
+  "generated_at": "2026-11-14T16:46:13+00:00",
+  "today": "2026-11-14",
+  "count": 144,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -26,35 +26,6 @@
         {
           "srcName": "Centro Cultural de España",
           "srcUrl": "https://ccesd.aecid.es/w/inscr%C3%ADbete"
-        }
-      ]
-    },
-    {
-      "id": "d7651f468626585b",
-      "source": "recurring",
-      "date": "2026-10-15",
-      "end": "2026-11-13",
-      "sessions": null,
-      "title": "Gerard Ellis: The Dominican Dream (exposición)",
-      "venue": "Lyle O. Reitzel Arte Contemporáneo, Torre Piantini (Av. Gustavo Mejía Ricart 196, Piantini)",
-      "zone": "Piantini",
-      "cat": "Arte",
-      "price": 0,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [
-        "serie",
-        "confirmar"
-      ],
-      "description": "Solo show de Gerard Ellis que parte del béisbol y de los peloteros dominicanos, del 15 de octubre al 13 de noviembre.",
-      "ticketUrl": "",
-      "srcName": "Lyle O. Reitzel en Artsy",
-      "srcUrl": "https://www.artsy.net/show/lyle-o-reitzel-the-dominican-dream#gerard-ellis-dominican-dream-muestra-hasta-2026-11-13",
-      "sources": [
-        {
-          "srcName": "Lyle O. Reitzel en Artsy",
-          "srcUrl": "https://www.artsy.net/show/lyle-o-reitzel-the-dominican-dream#gerard-ellis-dominican-dream-muestra-hasta-2026-11-13"
         }
       ]
     },
@@ -111,36 +82,6 @@
       ]
     },
     {
-      "id": "fc7f9e3f9dc84ca3",
-      "source": "cce",
-      "date": "2026-11-11",
-      "end": "2026-11-13",
-      "sessions": [
-        "2026-11-11",
-        "2026-11-12",
-        "2026-11-13"
-      ],
-      "title": "Afrodescendientes Hoy",
-      "venue": "Centro Cultural de España",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "Conversatorios, proyección y presentación musicalDirigido a estudiantes, profesores, artistas, cineastas, antropólogos, investigadores del folklore, músicos, portadores de las tradiciones originarias y público en general.",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/afrodescendientes-hoy-10",
-      "sources": [
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/afrodescendientes-hoy-10"
-        }
-      ]
-    },
-    {
       "id": "a801800daf37f28b",
       "source": "teatro_nacional",
       "date": "2026-11-13",
@@ -167,194 +108,6 @@
       ]
     },
     {
-      "id": "1b2a1922c63ed938",
-      "source": "jazz_en_dominicana",
-      "date": "2026-11-13",
-      "end": null,
-      "sessions": null,
-      "title": "The Jazz Room",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Música",
-      "price": 900,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [
-        "jazz"
-      ],
-      "description": "Concierto Inaugural de The Jazz Room by Fever en The Green Room. Vive una noche que trae de vuelta el ritmo del jazz de las calles de Nueva Orleans de los años 20: cálida, vibrante e imposible de resistir. The Jazz Room at The Green Room, en la Calle Andrés Julio Aybar 17 segundo",
-      "ticketUrl": "",
-      "srcName": "Jazz en Dominicana",
-      "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-8-al-14-de.html#2026-11-13-the-jazz-room",
-      "sources": [
-        {
-          "srcName": "Jazz en Dominicana",
-          "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-8-al-14-de.html#2026-11-13-the-jazz-room"
-        }
-      ]
-    },
-    {
-      "id": "e1d47012167f838c",
-      "source": "ticketmax",
-      "date": "2026-11-13",
-      "end": null,
-      "sessions": null,
-      "title": "El Bueno, El Malo y Mama",
-      "venue": "Velvet Room",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 1000,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "Tres personalidades, tres estilos y una sola misión: ¡hacerte reír hasta que te duela la barriga! 🤣 😇 Alexander Corleone, EL BUENO: bueno… hasta que suelta un doble sentido y te das cuenta de que no era tan bueno como parecía. 😂🌶️ 😈 Miguel Alcántara, EL MALO: humor picante, humo…",
-      "ticketUrl": "https://ticketmax.org/evento/900058/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900058/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900058/"
-        }
-      ]
-    },
-    {
-      "id": "b45b35a18bd9a6e9",
-      "source": "ticketmax",
-      "date": "2026-11-13",
-      "end": null,
-      "sessions": null,
-      "title": "NAVIDAD VENEZOLANA 2026: LO MEJOR DE LA GAITA",
-      "venue": "Escenario 360",
-      "zone": "",
-      "cat": "Música",
-      "price": 1500,
-      "price_max": 2000,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "https://ticketmax.org/evento/264450/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/264450/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/264450/"
-        }
-      ]
-    },
-    {
-      "id": "d0295d03c2bc9867",
-      "source": "ticketmax",
-      "date": "2026-11-13",
-      "end": null,
-      "sessions": null,
-      "title": "Amor a segunda vista",
-      "venue": "Nuevos Comienzos",
-      "zone": "",
-      "cat": "Cultura",
-      "price": 500,
-      "price_max": null,
-      "time": "19:30",
-      "kids": true,
-      "tags": [
-        "formacion"
-      ],
-      "description": "Amor a segunda vista es una conferencia para reforzar nuestros matrimonios, recordar esos principios que nos hacen seguir juntos y amándonos. El conferencista invitado es Samuel Nina, quien no solo cuenta con mas de 30 anos de matrimonio, sino que su carisma y vivencias enriquec…",
-      "ticketUrl": "https://ticketmax.org/evento/900207/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900207/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900207/"
-        }
-      ]
-    },
-    {
-      "id": "0ebbcac6b3e5b6c6",
-      "source": "jazz_en_dominicana",
-      "date": "2026-11-13",
-      "end": null,
-      "sessions": null,
-      "title": "Fiesta Sunset Jazz presenta: Desde NY Alex Díaz - Merengue Jazz y más!",
-      "venue": "Dominican Fiesta Hotel & Casino",
-      "zone": "Mirador Sur",
-      "cat": "Música",
-      "price": 0,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [
-        "jazz"
-      ],
-      "description": "El pasado viernes, 24 de julio, Alex Díaz llego desde New York, y acompañado de Sebastian Mueses en contrabajo y Kevin Arrechea en piano; puso a todo el público a gozar a más no poder con su propuesta ¨A Latin Jazz Party¨! La fiesta en el Fiesta contó con un gran repertorio de La",
-      "ticketUrl": "",
-      "srcName": "Jazz en Dominicana",
-      "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-8-al-14-de.html#2026-11-13-fiesta-sunset-jazz-presenta-desde-ny-alex-di-az-me",
-      "sources": [
-        {
-          "srcName": "Jazz en Dominicana",
-          "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-8-al-14-de.html#2026-11-13-fiesta-sunset-jazz-presenta-desde-ny-alex-di-az-me"
-        }
-      ]
-    },
-    {
-      "id": "b8a6164100a1a79e",
-      "source": "ticketmax",
-      "date": "2026-11-13",
-      "end": null,
-      "sessions": null,
-      "title": "La Excavadora",
-      "venue": "Sala Manuel Rueda: Escuela de Bellas Artes",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 900,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [],
-      "description": "Hay historias que no se cuentan: se desentierran. La Excavadora nos adentra en las contradicciones de la vida cotidiana, donde las carencias, el caos y las desigualdades salen a la superficie. Una invitación a descubrir lo que permanece oculto y dejarse atravesar por la fuerza d…",
-      "ticketUrl": "https://ticketmax.org/evento/900420/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900420/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900420/"
-        }
-      ]
-    },
-    {
-      "id": "69461710bb60e551",
-      "source": "ticketmax",
-      "date": "2026-11-13",
-      "end": null,
-      "sessions": null,
-      "title": "FDT 10X10 | EL PADRE DE TODOS NOSOTROS",
-      "venue": "Casa de Teatro",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": 800,
-      "price_max": null,
-      "time": "20:30",
-      "kids": true,
-      "tags": [],
-      "description": "Cinco hermanos se reencuentran después de mucho tiempo para tomar decisiones luego de la muerte de su padre ocurrida en un acantilado, por salvar a una niña. Motiva la reunión la oferta de dinero de una compañía de refresco que quiere tomar la imagen de su padre como un héroe en…",
-      "ticketUrl": "https://ticketmax.org/evento/254011/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/254011/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/254011/"
-        }
-      ]
-    },
-    {
       "id": "34614044015ba971",
       "source": "teatro_las_mascaras",
       "date": "2026-11-13",
@@ -366,21 +119,43 @@
       "cat": "Teatro",
       "price": 875,
       "price_max": 875,
-      "time": "20:30",
+      "time": "",
       "kids": false,
       "tags": [],
-      "description": "El amor en la edad otoñal y la oposición de unos hijos que no asimilan que sus padres viudos, ambos de la tercera edad, se sientan profundamente enamorados, son los sentimientos que se juegan en la obra. Actores: Lidia Ariza, Jorge Santiago, Montessori Ventura, Paola Mejia y Jun…",
-      "ticketUrl": "https://tix.do/event/LasLocurasdePapiyMami-1",
+      "description": "Funciones: Viernes y Sábados 8:30 p.m. | Domingos 6:30 p.m. El amor en la edad otoñal y la oposición de unos hijos que no asimilan que sus padres viudos, ambos de la tercera edad, se sientan profundamente enamorados, son los sentimientos que se juegan en la obra.",
+      "ticketUrl": "",
       "srcName": "Teatro Las Máscaras",
       "srcUrl": "https://teatrolasmascaras.com/#las-locuras-de-papi-y-mami",
       "sources": [
         {
           "srcName": "Teatro Las Máscaras",
           "srcUrl": "https://teatrolasmascaras.com/#las-locuras-de-papi-y-mami"
-        },
+        }
+      ]
+    },
+    {
+      "id": "fa5b8781f65aa266",
+      "source": "tix",
+      "date": "2026-11-13",
+      "end": "2026-11-14",
+      "sessions": null,
+      "title": "Olga Cerpa & Mestisay. Música de las Islas Canarias",
+      "venue": "Casa de Teatro. Olga Cerpa & Mestisay. Muisca de las Islas Canarias",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Por primera vez en República Dominicana Olga Cerpa y Mestisay. Música de las Islas Canarias. Un concierto cercano con los temas de su más reciente CD \"La costa de los cantares\" y éxitos de sus 20 producciones anteriores. Olga Cerpa es una intérprete excepcional considerada \"La v…",
+      "ticketUrl": "https://tix.do/event/OlgaCerpaandMestisayMusicadelasIslasCanarias-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/OlgaCerpaandMestisayMusicadelasIslasCanarias-1",
+      "sources": [
         {
           "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/LasLocurasdePapiyMami-1"
+          "srcUrl": "https://tix.do/event/OlgaCerpaandMestisayMusicadelasIslasCanarias-1"
         }
       ]
     },
@@ -396,10 +171,10 @@
       "cat": "Teatro",
       "price": 875,
       "price_max": 875,
-      "time": "20:30",
+      "time": "",
       "kids": false,
       "tags": [],
-      "description": "¿Se puede prestar lo que se ama... o el matrimonio requiere de un alerta al buen sentido para sobrevivir? 💍✨ Regresa a las tablas de Teatro Las Máscaras «Señora, ¿me presta su marido?», una comedia imperdible que combina el humor fino, la chispa de la convivencia diaria y reflex…",
+      "description": "Funciones: Viernes y Sábados 8:30 p.m. | Domingos 6:30 p.m. «Señora, ¿me presta su marido?» Una comedia audaz, ingeniosa y llena de verdades conyugales.",
       "ticketUrl": "https://tix.do/event/Senorameprestasumarido-1",
       "srcName": "Teatro Las Máscaras",
       "srcUrl": "https://teatrolasmascaras.com/#senora-me-presta-su-marido",
@@ -407,96 +182,6 @@
         {
           "srcName": "Teatro Las Máscaras",
           "srcUrl": "https://teatrolasmascaras.com/#senora-me-presta-su-marido"
-        },
-        {
-          "srcName": "Ministerio de Cultura (SIC)",
-          "srcUrl": "https://sic.cultura.gob.do/agenda/evento/46"
-        },
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/Senorameprestasumarido-1"
-        }
-      ]
-    },
-    {
-      "id": "9575e01b7519d7b0",
-      "source": "zona_colonial",
-      "date": "2026-11-13",
-      "end": null,
-      "sessions": null,
-      "title": "Concierto en vivo “Música de las Islas Canarias” con Olga Cerpa & Mestisay",
-      "venue": "Casa de Teatro",
-      "zone": "Ciudad Colonial",
-      "cat": "Música",
-      "price": 1000,
-      "price_max": 1000,
-      "time": "21:00",
-      "kids": false,
-      "tags": [],
-      "description": "Por primera vez en República Dominicana Olga Cerpa y Mestisay. Música de las Islas Canarias. Un concierto cercano con los temas de su más reciente CD \"La costa de los cantares\" y éxitos de sus 20 producciones anteriores. Olga Cerpa es una intérprete excepcional considerada \"La v…",
-      "ticketUrl": "https://tix.do/event/OlgaCerpaandMestisayMusicadelasIslasCanarias-1",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/concierto-en-vivo-musica-de-las-islas-canarias-con-olga-cerpa-mestisay/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/concierto-en-vivo-musica-de-las-islas-canarias-con-olga-cerpa-mestisay/"
-        },
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/OlgaCerpaandMestisayMusicadelasIslasCanarias-1"
-        }
-      ]
-    },
-    {
-      "id": "ac5c6cecc41eb716",
-      "source": "zona_colonial",
-      "date": "2026-11-13",
-      "end": null,
-      "sessions": null,
-      "title": "🌺 ¡MÚSICA DE LAS ISLAS CANARIAS EN EL CORAZÓN DE LA ZONA COLONIAL! 🎶✨",
-      "venue": "Casa de Teatro",
-      "zone": "Ciudad Colonial",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "21:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/%f0%9f%8c%ba-musica-de-las-islas-canarias-en-el-corazon-de-la-zona-colonial-%f0%9f%8e%b6%e2%9c%a8/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/%f0%9f%8c%ba-musica-de-las-islas-canarias-en-el-corazon-de-la-zona-colonial-%f0%9f%8e%b6%e2%9c%a8/"
-        }
-      ]
-    },
-    {
-      "id": "3a6fc4e0dfdc8931",
-      "source": "ticketmax",
-      "date": "2026-11-13",
-      "end": null,
-      "sessions": null,
-      "title": "Si y… Nights! Improv Show",
-      "venue": "Velvet Room",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 700,
-      "price_max": null,
-      "time": "21:30",
-      "kids": false,
-      "tags": [],
-      "description": "Sí y Nights: Improv Show Una noche de pura improvisación. Cinco actores en escena, sin guion ni dirección: lo que pase dependerá del momento… y del público. ¡Entretenimiento fuera de lo común y risas garantizadas! ⭐️ Host: Franchy Rodríguez 📍 Velvet Room, Bloom, Av. Enriquillo 2…",
-      "ticketUrl": "https://ticketmax.org/evento/900141/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900141/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900141/"
         }
       ]
     },
@@ -527,6 +212,32 @@
         {
           "srcName": "Hostelworld Events",
           "srcUrl": "https://www.hostelworld.com/events/e/6a9b8740514fd3e727f8222f/809-mercado/#809-mercado-2026-11-2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "3ff9a00589854853",
+      "source": "tix",
+      "date": "2026-11-14",
+      "end": "2026-11-29",
+      "sessions": null,
+      "title": "Señora, ¿me presta su marido?",
+      "venue": "Teatro Las Máscaras",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "¿Se puede prestar lo que se ama... o el matrimonio requiere de un alerta al buen sentido para sobrevivir? 💍✨ Regresa a las tablas de Teatro Las Máscaras «Señora, ¿me presta su marido?», una comedia imperdible que combina el humor fino, la chispa de la convivencia diaria y reflex…",
+      "ticketUrl": "https://tix.do/event/Senorameprestasumarido-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/Senorameprestasumarido-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/Senorameprestasumarido-1"
         }
       ]
     },
@@ -657,6 +368,32 @@
         {
           "srcName": "Zona Colonial",
           "srcUrl": "https://zonacolonial.do/actividad/taller-creativo-manos-en-el-barro-nueva-tandada-espacio-adicional/"
+        }
+      ]
+    },
+    {
+      "id": "b2c9e14e9b256539",
+      "source": "zona_colonial",
+      "date": "2026-11-14",
+      "end": null,
+      "sessions": null,
+      "title": "Turismo Dominicano: Una historia de visión, inversión y confianza",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "11:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/turismo-dominicano-una-historia-de-vision-inversion-y-confianza/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/turismo-dominicano-una-historia-de-vision-inversion-y-confianza/"
         }
       ]
     },
@@ -1404,6 +1141,32 @@
       ]
     },
     {
+      "id": "f0ef6fc37d3cdeab",
+      "source": "zona_colonial",
+      "date": "2026-11-19",
+      "end": null,
+      "sessions": null,
+      "title": "Mes del Cine Dominicano – Presentación especial del Festival Internacional de Cortometrajes “FestMinutoAgua” (una presentación educativa sin fines de lucro)",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Cine",
+      "price": 0,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/mes-del-cine-dominicano-presentacion-especial-del-festival-internacional-de-cortometrajes-festminutoagua-una-presentacion-educativa-sin-fines-de-lucro/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/mes-del-cine-dominicano-presentacion-especial-del-festival-internacional-de-cortometrajes-festminutoagua-una-presentacion-educativa-sin-fines-de-lucro/"
+        }
+      ]
+    },
+    {
       "id": "e0828582ec2575c8",
       "source": "zona_colonial",
       "date": "2026-11-19",
@@ -1510,6 +1273,34 @@
       ]
     },
     {
+      "id": "7d088f85b327cc6b",
+      "source": "jazz_en_dominicana",
+      "date": "2026-11-19",
+      "end": null,
+      "sessions": null,
+      "title": "Quino Xmas Jazz",
+      "venue": "Santo Domingo Country Club",
+      "zone": "",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [
+        "jazz"
+      ],
+      "description": "El Santo Domingo Country Club presenta, el jueves 19 de noviembre, el concierto Quino Xmas Jazz con el Q-I Jazz Quartett! Jueves 19 de noviembre a las 8:00pm en el Country Garden del Santo Domingo Country Club. Evento para socios, se permiten hasta 2 invitados. Alimentos y Bebida",
+      "ticketUrl": "",
+      "srcName": "Jazz en Dominicana",
+      "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-15-al-21-de.html#2026-11-19-quino-xmas-jazz",
+      "sources": [
+        {
+          "srcName": "Jazz en Dominicana",
+          "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-15-al-21-de.html#2026-11-19-quino-xmas-jazz"
+        }
+      ]
+    },
+    {
       "id": "8b712f62b5011ec2",
       "source": "zona_colonial",
       "date": "2026-11-19",
@@ -1588,6 +1379,34 @@
       ]
     },
     {
+      "id": "28644da53c4ef8f5",
+      "source": "jazz_en_dominicana",
+      "date": "2026-11-19",
+      "end": null,
+      "sessions": null,
+      "title": "Sandy Gabriel Jazz Residence",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "21:30",
+      "kids": false,
+      "tags": [
+        "jazz"
+      ],
+      "description": "The Green Room sigue con el Sandy Gabriel Jazz Residence. En esta ocasión la banda conformada por Sandy Gabriel, Rafa Payán (guitarra), Ezequiel Francisco (batería), y Jeremías King (bajo), tendrán de especial invitado al muy reconocido José Peña Suazo. Una noche denominada: Jazz",
+      "ticketUrl": "",
+      "srcName": "Jazz en Dominicana",
+      "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-15-al-21-de.html#2026-11-19-sandy-gabriel-jazz-residence",
+      "sources": [
+        {
+          "srcName": "Jazz en Dominicana",
+          "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-15-al-21-de.html#2026-11-19-sandy-gabriel-jazz-residence"
+        }
+      ]
+    },
+    {
       "id": "c23acc81a7092aef",
       "source": "cce",
       "date": "2026-11-20",
@@ -1640,6 +1459,34 @@
       ]
     },
     {
+      "id": "fcc740e16e27836a",
+      "source": "jazz_en_dominicana",
+      "date": "2026-11-20",
+      "end": null,
+      "sessions": null,
+      "title": "Recital de Grado “Feelings\"!",
+      "venue": "",
+      "zone": "",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "19:30",
+      "kids": false,
+      "tags": [
+        "jazz"
+      ],
+      "description": "¨Feelings¨ invita al público a emprender un viaje por las emociones y descubrir las distintas formas en que estas cobran vida a través de la música. Este recital constituye la presentación del proyecto de grado de Jean Marcos Delgado, como parte de su proceso para obtener el títu",
+      "ticketUrl": "",
+      "srcName": "Jazz en Dominicana",
+      "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-15-al-21-de.html#2026-11-20-recital-de-grado-feelings",
+      "sources": [
+        {
+          "srcName": "Jazz en Dominicana",
+          "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-15-al-21-de.html#2026-11-20-recital-de-grado-feelings"
+        }
+      ]
+    },
+    {
       "id": "d4db07d86faa3c35",
       "source": "tix",
       "date": "2026-11-20",
@@ -1662,6 +1509,62 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/ANAGABRIELbyJohannaAlmanzarTRIBUTO-1"
+        }
+      ]
+    },
+    {
+      "id": "a9a340fba991b777",
+      "source": "jazz_en_dominicana",
+      "date": "2026-11-20",
+      "end": null,
+      "sessions": null,
+      "title": "Jazz con acento alemán!",
+      "venue": "",
+      "zone": "",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [
+        "jazz"
+      ],
+      "description": "La Embajada de Alemania, en colaboración con la Escuela Internacional de Música de la Universidad Nacional Pedro Henríquez Ureña (UNPHU), invita a disfrutar de una noche llena de música y ritmo. Estudiantes de intercambio alemanes y dominicanos se unen para darle un giro diferent",
+      "ticketUrl": "",
+      "srcName": "Jazz en Dominicana",
+      "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-15-al-21-de.html#2026-11-20-jazz-con-acento-alemán",
+      "sources": [
+        {
+          "srcName": "Jazz en Dominicana",
+          "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-15-al-21-de.html#2026-11-20-jazz-con-acento-alemán"
+        }
+      ]
+    },
+    {
+      "id": "b1f58ee0ae3a8eeb",
+      "source": "jazz_en_dominicana",
+      "date": "2026-11-20",
+      "end": null,
+      "sessions": null,
+      "title": "Pirou - Tea for Two",
+      "venue": "Dominican Fiesta Hotel & Casino",
+      "zone": "Mirador Sur",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [
+        "jazz"
+      ],
+      "description": "Para el viernes 20 de noviembre, el Fiesta Sunset Jazz se honra en presentar el concierto temático ¨Pirou - Tea for Two¨!! La excelente y muy carismática vocalista, en la intimidad que da el formato de dueto, estará acompañada de Gustavo Ël Gus¨ Rodríguez en piano, siendo estos l",
+      "ticketUrl": "",
+      "srcName": "Jazz en Dominicana",
+      "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-15-al-21-de.html#2026-11-20-pirou-tea-for-two",
+      "sources": [
+        {
+          "srcName": "Jazz en Dominicana",
+          "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-15-al-21-de.html#2026-11-20-pirou-tea-for-two"
         }
       ]
     },
@@ -3063,6 +2966,32 @@
       ]
     },
     {
+      "id": "221ad20c185551ba",
+      "source": "ticketmax",
+      "date": "2026-12-10",
+      "end": null,
+      "sessions": null,
+      "title": "10 DAYS TO CHRISTMAS, THE TOY FACTORY",
+      "venue": "Auditorio Pabellón de la Fama",
+      "zone": "",
+      "cat": "Cultura",
+      "price": 900,
+      "price_max": 1100,
+      "time": "11:00",
+      "kids": true,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://ticketmax.org/evento/900610/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900610/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900610/"
+        }
+      ]
+    },
+    {
       "id": "32b49125b586579e",
       "source": "ticketmax",
       "date": "2026-12-10",
@@ -3529,6 +3458,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900565/"
+        }
+      ]
+    },
+    {
+      "id": "786e3a4c632c6a65",
+      "source": "ticketmax",
+      "date": "2027-01-09",
+      "end": null,
+      "sessions": null,
+      "title": "Musical infantil Túnicas de colores",
+      "venue": "Auditorio Pabellón de la Fama",
+      "zone": "",
+      "cat": "Música",
+      "price": 600,
+      "price_max": 1000,
+      "time": "17:30",
+      "kids": true,
+      "tags": [],
+      "description": "TÚNICA DE COLORES: Musical infantil es el evento para niños más grande de la comunidad cristiana. Dirigido a toda la familia. Un recorrido por la historia bíblica de José recreado en un ambiente realista y divertido. Colores, música, teatro, premios y un divertido tiempo para lo…",
+      "ticketUrl": "https://ticketmax.org/evento/900090/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900090/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900090/"
         }
       ]
     },

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-14T16:46:13+00:00",
-  "today": "2026-11-14",
-  "count": 144,
+  "generated_at": "2026-11-15T17:22:18+00:00",
+  "today": "2026-11-15",
+  "count": 133,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -134,32 +134,6 @@
       ]
     },
     {
-      "id": "fa5b8781f65aa266",
-      "source": "tix",
-      "date": "2026-11-13",
-      "end": "2026-11-14",
-      "sessions": null,
-      "title": "Olga Cerpa & Mestisay. Música de las Islas Canarias",
-      "venue": "Casa de Teatro. Olga Cerpa & Mestisay. Muisca de las Islas Canarias",
-      "zone": "Ciudad Colonial",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Por primera vez en República Dominicana Olga Cerpa y Mestisay. Música de las Islas Canarias. Un concierto cercano con los temas de su más reciente CD \"La costa de los cantares\" y éxitos de sus 20 producciones anteriores. Olga Cerpa es una intérprete excepcional considerada \"La v…",
-      "ticketUrl": "https://tix.do/event/OlgaCerpaandMestisayMusicadelasIslasCanarias-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/OlgaCerpaandMestisayMusicadelasIslasCanarias-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/OlgaCerpaandMestisayMusicadelasIslasCanarias-1"
-        }
-      ]
-    },
-    {
       "id": "27fd3306c86532bc",
       "source": "teatro_las_mascaras",
       "date": "2026-11-13",
@@ -182,62 +156,6 @@
         {
           "srcName": "Teatro Las Máscaras",
           "srcUrl": "https://teatrolasmascaras.com/#senora-me-presta-su-marido"
-        }
-      ]
-    },
-    {
-      "id": "0fe6fe9a71205df0",
-      "source": "recurring",
-      "date": "2026-11-14",
-      "end": null,
-      "sessions": null,
-      "title": "809 Mercado",
-      "venue": "Jardín Botánico Nacional Dr. Rafael María Moscoso",
-      "zone": "",
-      "cat": "Gastronomía",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [
-        "cultura",
-        "serie",
-        "confirmar"
-      ],
-      "description": "Mercado con más de 100 marcas: artesanía y gastronomía local, con música en vivo.",
-      "ticketUrl": "",
-      "srcName": "Hostelworld Events",
-      "srcUrl": "https://www.hostelworld.com/events/e/6a9b8740514fd3e727f8222f/809-mercado/#809-mercado-2026-11-2026-11-14",
-      "sources": [
-        {
-          "srcName": "Hostelworld Events",
-          "srcUrl": "https://www.hostelworld.com/events/e/6a9b8740514fd3e727f8222f/809-mercado/#809-mercado-2026-11-2026-11-14"
-        }
-      ]
-    },
-    {
-      "id": "3ff9a00589854853",
-      "source": "tix",
-      "date": "2026-11-14",
-      "end": "2026-11-29",
-      "sessions": null,
-      "title": "Señora, ¿me presta su marido?",
-      "venue": "Teatro Las Máscaras",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "¿Se puede prestar lo que se ama... o el matrimonio requiere de un alerta al buen sentido para sobrevivir? 💍✨ Regresa a las tablas de Teatro Las Máscaras «Señora, ¿me presta su marido?», una comedia imperdible que combina el humor fino, la chispa de la convivencia diaria y reflex…",
-      "ticketUrl": "https://tix.do/event/Senorameprestasumarido-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/Senorameprestasumarido-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/Senorameprestasumarido-1"
         }
       ]
     },
@@ -320,348 +238,6 @@
       ]
     },
     {
-      "id": "abb9b7c41a3c70dc",
-      "source": "zona_colonial",
-      "date": "2026-11-14",
-      "end": null,
-      "sessions": null,
-      "title": "Conferencia: “Vida y obra de Nicolás de Jesús Cardenal López Rodríguez”",
-      "venue": "Academia Dominicana de la Lengua",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": 0,
-      "price_max": null,
-      "time": "10:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/conferencia-vida-y-obra-de-nicolas-de-jesus-cardenal-lopez-rodriguez/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/conferencia-vida-y-obra-de-nicolas-de-jesus-cardenal-lopez-rodriguez/"
-        }
-      ]
-    },
-    {
-      "id": "2c816ff98465025f",
-      "source": "zona_colonial",
-      "date": "2026-11-14",
-      "end": null,
-      "sessions": null,
-      "title": "Taller creativo “Manos en el barro” (Nueva tandada / espacio adicional)",
-      "venue": "NOV",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "10:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/taller-creativo-manos-en-el-barro-nueva-tandada-espacio-adicional/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/taller-creativo-manos-en-el-barro-nueva-tandada-espacio-adicional/"
-        }
-      ]
-    },
-    {
-      "id": "b2c9e14e9b256539",
-      "source": "zona_colonial",
-      "date": "2026-11-14",
-      "end": null,
-      "sessions": null,
-      "title": "Turismo Dominicano: Una historia de visión, inversión y confianza",
-      "venue": "NOV",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": null,
-      "price_max": null,
-      "time": "11:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/turismo-dominicano-una-historia-de-vision-inversion-y-confianza/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/turismo-dominicano-una-historia-de-vision-inversion-y-confianza/"
-        }
-      ]
-    },
-    {
-      "id": "cb18037ae230e17f",
-      "source": "zona_colonial",
-      "date": "2026-11-14",
-      "end": null,
-      "sessions": null,
-      "title": "Taller de Cianotipia con plantas (en el marco de la exposición “Cocorícamo. Cartografías del sur”)",
-      "venue": "Centro Cultural Banreservas",
-      "zone": "Ciudad Colonial",
-      "cat": "Arte",
-      "price": 0,
-      "price_max": null,
-      "time": "14:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/taller-de-cianotipia-con-plantas-en-el-marco-de-la-exposicion-cocoricamo-cartografias-del-sur/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/taller-de-cianotipia-con-plantas-en-el-marco-de-la-exposicion-cocoricamo-cartografias-del-sur/"
-        }
-      ]
-    },
-    {
-      "id": "64d628e5261d179d",
-      "source": "zona_colonial",
-      "date": "2026-11-14",
-      "end": null,
-      "sessions": null,
-      "title": "Taller creativo “Manos en el barro” (Inspirado en la artesanía taína)",
-      "venue": "NOV",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "14:30",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/taller-creativo-manos-en-el-barro-inspirado-en-la-artesania-taina/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/taller-creativo-manos-en-el-barro-inspirado-en-la-artesania-taina/"
-        }
-      ]
-    },
-    {
-      "id": "3c838b2e956d1400",
-      "source": "zona_colonial",
-      "date": "2026-11-14",
-      "end": null,
-      "sessions": null,
-      "title": "Taller: Manos en el barro",
-      "venue": "NOV",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "14:30",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/taller-manos-en-el-barro/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/taller-manos-en-el-barro/"
-        }
-      ]
-    },
-    {
-      "id": "7bd626967f684f1c",
-      "source": "zona_colonial",
-      "date": "2026-11-14",
-      "end": null,
-      "sessions": null,
-      "title": "SKETCHINK 2026 (Muestra de ilustración, competencia de dibujo en vivo, exhibición y mural colaborativo)",
-      "venue": "Centro Cultural de España",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "16:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/sketchink-2026-muestra-de-ilustracion-competencia-de-dibujo-en-vivo-exhibicion-y-mural-colaborativo/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/sketchink-2026-muestra-de-ilustracion-competencia-de-dibujo-en-vivo-exhibicion-y-mural-colaborativo/"
-        }
-      ]
-    },
-    {
-      "id": "38d5e58c6f8da0fa",
-      "source": "cce",
-      "date": "2026-11-14",
-      "end": null,
-      "sessions": null,
-      "title": "Concierto de Palo Kañuto",
-      "venue": "Villa Mella, Comunidad de los Cleto",
-      "zone": "Ciudad Colonial",
-      "cat": "Música",
-      "price": 0,
-      "price_max": null,
-      "time": "18:00",
-      "kids": false,
-      "tags": [],
-      "description": "A cargo del Grupo La AltagraciaEntrada libre hasta completar aforoPrograma Derechos Humanos y Culturales",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/concierto-de-palo-ka%C3%B1uto",
-      "sources": [
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/concierto-de-palo-ka%C3%B1uto"
-        }
-      ]
-    },
-    {
-      "id": "1a77a952dc91a1f8",
-      "source": "zona_colonial",
-      "date": "2026-11-14",
-      "end": null,
-      "sessions": null,
-      "title": "VERTICALÍSIMO",
-      "venue": "Casa de Teatro",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": 1500,
-      "price_max": 1500,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "Este 14 de noviembre, Casa de Teatro se transforma en un escenario donde la fuerza, la flexibilidad, la danza, la acrobacia y la expresión corporal se encuentran alrededor de una barra vertical. VERTICALÍSIMO es un espectáculo de pole creado y producido por Claudia Gómez, que re…",
-      "ticketUrl": "https://tix.do/event/VERTICALISIMO-1",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/verticalisimo/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/verticalisimo/"
-        },
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/VERTICALISIMO-1"
-        }
-      ]
-    },
-    {
-      "id": "400ab19cf335ba39",
-      "source": "ticketmax",
-      "date": "2026-11-14",
-      "end": null,
-      "sessions": null,
-      "title": "FDT 10X10 | UN TONTO EN UNA CAJA",
-      "venue": "Teatro Guloya",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 800,
-      "price_max": null,
-      "time": "20:30",
-      "kids": false,
-      "tags": [],
-      "description": "¿QUÉ HARÍAS TÚ, SI EL DIABLO TE MANDA UN REGALO DE CUMPLEAÑOS? Una sociedad dividida en PEQUEÑOS, GRANDES Y NOTABLES. El notable recibe por correo una caja supuestamente enviada por el Diablo, e invita a una reunión en su casa a un Pequeño y un Grande para descubrir si las mágic…",
-      "ticketUrl": "https://ticketmax.org/evento/254179/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/254179/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/254179/"
-        }
-      ]
-    },
-    {
-      "id": "b761a1f0504595f3",
-      "source": "cce",
-      "date": "2026-11-14",
-      "end": null,
-      "sessions": null,
-      "title": "Sketchink 2026",
-      "venue": "CCESD",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "21:00",
-      "kids": false,
-      "tags": [],
-      "description": "Entrada libre hasta completar aforoPrograma de Fortalecimiento del Espacio Cultural IberoamericanoMuestra de ilustración y competencia de dibujo en vivo que busca celebrar la diversidad artística y la creatividad, invitando a artistas locales y visitantes a participar en una expe",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/sketchink-2026%C2%A0",
-      "sources": [
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/sketchink-2026%C2%A0"
-        }
-      ]
-    },
-    {
-      "id": "8b63eff86e3ea58e",
-      "source": "ticketmax",
-      "date": "2026-11-14",
-      "end": null,
-      "sessions": null,
-      "title": "SPLOU : POR PRIMERA VEZ EN RD",
-      "venue": "Velvet Room",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 1800,
-      "price_max": 3000,
-      "time": "21:30",
-      "kids": false,
-      "tags": [],
-      "description": "Por primera vez en República Dominicana, llega SPLOU a Velvet Room. Con millones de reproducciones en redes sociales y una comunidad de seguidores que no para de crecer, Splou se ha convertido en una de las nuevas voces de la comedia latina en Estados Unidos. Su estilo mezcla hi…",
-      "ticketUrl": "https://ticketmax.org/evento/253308/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/253308/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/253308/"
-        }
-      ]
-    },
-    {
-      "id": "572ac2063135b369",
-      "source": "zona_colonial",
-      "date": "2026-11-14",
-      "end": null,
-      "sessions": null,
-      "title": "Tributo a RBD, Rebelde Way & Floricienta (Segunda Función)",
-      "venue": "Casa de Teatro",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 1200,
-      "price_max": 1200,
-      "time": "21:30",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/tributo-a-rbd-rebelde-way-floricienta-segunda-funcion/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/tributo-a-rbd-rebelde-way-floricienta-segunda-funcion/"
-        }
-      ]
-    },
-    {
       "id": "d0b1b7f4141950bb",
       "source": "recurring",
       "date": "2026-11-15",
@@ -714,6 +290,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/MATINEDESALSA-19"
+        }
+      ]
+    },
+    {
+      "id": "3ff9a00589854853",
+      "source": "tix",
+      "date": "2026-11-15",
+      "end": "2026-11-29",
+      "sessions": null,
+      "title": "Señora, ¿me presta su marido?",
+      "venue": "Teatro Las Máscaras",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "¿Se puede prestar lo que se ama... o el matrimonio requiere de un alerta al buen sentido para sobrevivir? 💍✨ Regresa a las tablas de Teatro Las Máscaras «Señora, ¿me presta su marido?», una comedia imperdible que combina el humor fino, la chispa de la convivencia diaria y reflex…",
+      "ticketUrl": "https://tix.do/event/Senorameprestasumarido-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/Senorameprestasumarido-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/Senorameprestasumarido-1"
         }
       ]
     },
@@ -1600,7 +1202,7 @@
       "date": "2026-11-20",
       "end": null,
       "sessions": null,
-      "title": "Si y… Nights! Improv Show 🎭",
+      "title": "Sí y… Nights! Improv Show 🎭",
       "venue": "Velvet Room",
       "zone": "",
       "cat": "Teatro",
@@ -1680,7 +1282,7 @@
       "date": "2026-11-21",
       "end": "2026-11-28",
       "sessions": null,
-      "title": "Mixilogia y Mujer. La Pijamada | Sábado 21 al Sábado 28 Noviembre 2026",
+      "title": "Mixología y Mujer. La Pijamada | Sábado 21 al Sábado 28 Noviembre 2026",
       "venue": "The Box Working Space",
       "zone": "",
       "cat": "Cultura",
@@ -1688,9 +1290,7 @@
       "price_max": null,
       "time": "19:00",
       "kids": false,
-      "tags": [
-        "formacion"
-      ],
+      "tags": [],
       "description": "",
       "ticketUrl": "https://ticketmax.org/evento/266187/",
       "srcName": "Ticketmax",
@@ -1940,6 +1540,32 @@
       ]
     },
     {
+      "id": "e7f04a5083921479",
+      "source": "zona_colonial",
+      "date": "2026-11-25",
+      "end": null,
+      "sessions": null,
+      "title": "III Congreso para la Reunificación de la Hispanidad",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/iii-congreso-para-la-reunificacion-de-la-hispanidad/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/iii-congreso-para-la-reunificacion-de-la-hispanidad/"
+        }
+      ]
+    },
+    {
       "id": "0b4eff3601d6a40a",
       "source": "ticketmax",
       "date": "2026-11-25",
@@ -2046,6 +1672,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/BULIN47-1"
+        }
+      ]
+    },
+    {
+      "id": "c657ea76ce8245a6",
+      "source": "zona_colonial",
+      "date": "2026-11-27",
+      "end": null,
+      "sessions": null,
+      "title": "Festival Minutos Escénicos 2026 (FME2026)",
+      "venue": "Centro Cultural Banreservas",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": 0,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/festival-minutos-escenicos-2026-fme2026/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/festival-minutos-escenicos-2026-fme2026/"
         }
       ]
     },
@@ -2185,7 +1837,7 @@
       "date": "2026-11-27",
       "end": null,
       "sessions": null,
-      "title": "Si y… Nights! Improv Show",
+      "title": "Sí y… Nights! Improv Show",
       "venue": "Velvet Room",
       "zone": "",
       "cat": "Teatro",
@@ -2445,7 +2097,7 @@
       "date": "2026-11-29",
       "end": null,
       "sessions": null,
-      "title": "Erase Una Vez. Versión Abuela En Navidad",
+      "title": "Érase Una Vez. Versión Abuela En Navidad",
       "venue": "Centro Cultural Narciso González",
       "zone": "",
       "cat": "Teatro",
@@ -2864,10 +2516,10 @@
       "date": "2026-12-06",
       "end": null,
       "sessions": null,
-      "title": "PASADIA FAMILIAR 2026, PARROQUIA SAN FRANCISCO DE ASÍS",
+      "title": "PASADÍA FAMILIAR 2026, PARROQUIA SAN FRANCISCO DE ASÍS",
       "venue": "Colegio San Francisco de Asis",
       "zone": "",
-      "cat": "Música",
+      "cat": "Cultura",
       "price": 1000,
       "price_max": null,
       "time": "12:00",
@@ -3174,6 +2826,35 @@
       ]
     },
     {
+      "id": "824479ba7666adca",
+      "source": "recurring",
+      "date": "2026-12-13",
+      "end": null,
+      "sessions": null,
+      "title": "Domingos de Bonyé",
+      "venue": "Ruinas de San Francisco, calle Hostos, Zona Colonial",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [
+        "cultura",
+        "serie"
+      ],
+      "description": "Música en vivo al aire libre con el grupo Bonyé: tambora, son, salsa y merengue.",
+      "ticketUrl": "",
+      "srcName": "SalsaVida",
+      "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-12-13",
+      "sources": [
+        {
+          "srcName": "SalsaVida",
+          "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-12-13"
+        }
+      ]
+    },
+    {
       "id": "8d6e3c07ecbfc317",
       "source": "ticketmax",
       "date": "2026-12-16",
@@ -3415,7 +3096,7 @@
       "date": "2026-12-26",
       "end": null,
       "sessions": null,
-      "title": "EL PARTY - LA ULTIMA CENA | 6:00 PM - 12:00 AM",
+      "title": "EL PARTY - LA ÚLTIMA CENA | 6:00 PM - 12:00 AM",
       "venue": "Auditorio Casa San Pablo",
       "zone": "",
       "cat": "Música",
@@ -3458,6 +3139,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900565/"
+        }
+      ]
+    },
+    {
+      "id": "71676bac0d4fd3a9",
+      "source": "ticketmax",
+      "date": "2027-01-08",
+      "end": "2027-01-10",
+      "sessions": null,
+      "title": "LEGADO - Campamento de varones | Viernes 8 al Domingo 10 Enero 2027",
+      "venue": "Campamento Los Nazarenos, SDO",
+      "zone": "",
+      "cat": "Cultura",
+      "price": 3200,
+      "price_max": null,
+      "time": "13:00",
+      "kids": false,
+      "tags": [],
+      "description": "¡Se busca a la próxima generación de hombres! El campamento Legado tiene 80 cupos disponibles para jóvenes de 10 años en adelante. ¡Aprovecha la gran oportunidad de aprender habilidades prácticas de la vida. Nos esperan deportes, competencias y muchísimo aprendizaje. ¡Asegura tu…",
+      "ticketUrl": "https://ticketmax.org/evento/259081/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/259081/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/259081/"
         }
       ]
     },

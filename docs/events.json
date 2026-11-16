@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-15T17:22:18+00:00",
-  "today": "2026-11-15",
-  "count": 133,
+  "generated_at": "2026-11-16T20:39:51+00:00",
+  "today": "2026-11-16",
+  "count": 130,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -52,58 +52,6 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/pruebajade-1"
-        }
-      ]
-    },
-    {
-      "id": "25759d0aa50f1c71",
-      "source": "teatro_nacional",
-      "date": "2026-11-03",
-      "end": "2026-11-15",
-      "sessions": null,
-      "title": "Festival Internacional de Teatro para la Infancia y la Juventud",
-      "venue": "Sala José de Jesus Ravelo, Teatro Nacional",
-      "zone": "Plaza de la Cultura",
-      "cat": "Teatro",
-      "price": 500,
-      "price_max": 700,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "¡TODOS A BORDO porque el barco del 17 FITIJ estáa punto de zarpar!",
-      "ticketUrl": "https://boleteria.com.do/",
-      "srcName": "Teatro Nacional",
-      "srcUrl": "https://teatronacional.gob.do/events/festival-internacional-de-teatro-para-la-infancia-y-la-juventud/",
-      "sources": [
-        {
-          "srcName": "Teatro Nacional",
-          "srcUrl": "https://teatronacional.gob.do/events/festival-internacional-de-teatro-para-la-infancia-y-la-juventud/"
-        }
-      ]
-    },
-    {
-      "id": "a801800daf37f28b",
-      "source": "teatro_nacional",
-      "date": "2026-11-13",
-      "end": "2026-11-15",
-      "sessions": null,
-      "title": "La Ciguapa",
-      "venue": "Sala Carlos Piantini, Teatro Nacional",
-      "zone": "Plaza de la Cultura",
-      "cat": "Danza",
-      "price": 2500,
-      "price_max": 3000,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "40 años de historia nos trajeron hasta aquí. Y para celebrarlos, una leyenda dominicana está a punto de cobrar vida sobre el escenario. Por primera vez, Alina Abreu presenta: LA CIGUAPA.",
-      "ticketUrl": "https://boleteria.com.do/",
-      "srcName": "Teatro Nacional",
-      "srcUrl": "https://teatronacional.gob.do/events/la-ciguapa/",
-      "sources": [
-        {
-          "srcName": "Teatro Nacional",
-          "srcUrl": "https://teatronacional.gob.do/events/la-ciguapa/"
         }
       ]
     },
@@ -160,114 +108,6 @@
       ]
     },
     {
-      "id": "f6a494e87e2fc6b2",
-      "source": "tix",
-      "date": "2026-11-14",
-      "end": "2026-11-15",
-      "sessions": null,
-      "title": "THE BRIGADE",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "The Brigade en vivo en The Green Room. Sábado 14 de noviembre, 9:30 PM. Tributo a The Strokes, Nirvana, Hombres G, Arctic Monkeys, Caramelos de Cianuro y más. Reserva gratis. Calle Andrés Julio Aybar 17, Piantini.",
-      "ticketUrl": "https://tix.do/event/THEBRIGADE-2",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/THEBRIGADE-2",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/THEBRIGADE-2"
-        }
-      ]
-    },
-    {
-      "id": "31a17f0a7225cc7f",
-      "source": "tix",
-      "date": "2026-11-14",
-      "end": "2026-11-15",
-      "sessions": null,
-      "title": "WHAT IS REAL 3.0",
-      "venue": "Los Reales Colonial",
-      "zone": "",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "👑 WHAT IS REAL 3.0 · Mascarada electrónica CHEZ TROPICS MOHIKAA RAMOS & CHILL OF REZZ Sábado 14 de noviembre. Los Reales Colonial, Santo Domingo. Una noche donde la realidad se quita la máscara. Inspirada en la realeza medieval, esta tercera edición te lleva a un baile de máscar…",
-      "ticketUrl": "https://tix.do/event/WHATISREAL30-2",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/WHATISREAL30-2",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/WHATISREAL30-2"
-        }
-      ]
-    },
-    {
-      "id": "3537efb41ceb8f8c",
-      "source": "ticketmax",
-      "date": "2026-11-14",
-      "end": "2026-11-15",
-      "sessions": null,
-      "title": "Beauty Fest Caribbean Edition | Sábado 14 y Domingo 15 Noviembre 2026",
-      "venue": "Sambil",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 900,
-      "price_max": null,
-      "time": "08:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "https://ticketmax.org/evento/258761/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/258761/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/258761/"
-        }
-      ]
-    },
-    {
-      "id": "d0b1b7f4141950bb",
-      "source": "recurring",
-      "date": "2026-11-15",
-      "end": null,
-      "sessions": null,
-      "title": "809 Mercado",
-      "venue": "Jardín Botánico Nacional Dr. Rafael María Moscoso",
-      "zone": "",
-      "cat": "Gastronomía",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [
-        "cultura",
-        "serie",
-        "confirmar"
-      ],
-      "description": "Mercado con más de 100 marcas: artesanía y gastronomía local, con música en vivo.",
-      "ticketUrl": "",
-      "srcName": "Hostelworld Events",
-      "srcUrl": "https://www.hostelworld.com/events/e/6a9b8740514fd3e727f8222f/809-mercado/#809-mercado-2026-11-2026-11-15",
-      "sources": [
-        {
-          "srcName": "Hostelworld Events",
-          "srcUrl": "https://www.hostelworld.com/events/e/6a9b8740514fd3e727f8222f/809-mercado/#809-mercado-2026-11-2026-11-15"
-        }
-      ]
-    },
-    {
       "id": "6a4821959ae5579e",
       "source": "tix",
       "date": "2026-11-15",
@@ -294,135 +134,28 @@
       ]
     },
     {
-      "id": "3ff9a00589854853",
-      "source": "tix",
-      "date": "2026-11-15",
-      "end": "2026-11-29",
-      "sessions": null,
-      "title": "Señora, ¿me presta su marido?",
-      "venue": "Teatro Las Máscaras",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "¿Se puede prestar lo que se ama... o el matrimonio requiere de un alerta al buen sentido para sobrevivir? 💍✨ Regresa a las tablas de Teatro Las Máscaras «Señora, ¿me presta su marido?», una comedia imperdible que combina el humor fino, la chispa de la convivencia diaria y reflex…",
-      "ticketUrl": "https://tix.do/event/Senorameprestasumarido-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/Senorameprestasumarido-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/Senorameprestasumarido-1"
-        }
-      ]
-    },
-    {
-      "id": "950633968f158dd2",
+      "id": "11897d47ba9aa45d",
       "source": "zona_colonial",
-      "date": "2026-11-15",
+      "date": "2026-11-16",
       "end": null,
       "sessions": null,
-      "title": "Observación de aves y develación de un panel informativo: “Las aves que habitan nuestro jardín”",
-      "venue": "Quinta Dominica",
+      "title": "Italia, un museo a cielo abierto",
+      "venue": "NOV",
       "zone": "Ciudad Colonial",
       "cat": "Cultura",
-      "price": null,
+      "price": 0,
       "price_max": null,
-      "time": "16:00",
+      "time": "19:00",
       "kids": false,
       "tags": [],
       "description": "",
       "ticketUrl": "",
       "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/observacion-de-aves-y-develacion-de-un-panel-informativo-las-aves-que-habitan-nuestro-jardin/",
+      "srcUrl": "https://zonacolonial.do/actividad/italia-un-museo-a-cielo-abierto/",
       "sources": [
         {
           "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/observacion-de-aves-y-develacion-de-un-panel-informativo-las-aves-que-habitan-nuestro-jardin/"
-        }
-      ]
-    },
-    {
-      "id": "49ce38a0718ee5e2",
-      "source": "recurring",
-      "date": "2026-11-15",
-      "end": null,
-      "sessions": null,
-      "title": "Domingos de Bonyé",
-      "venue": "Ruinas de San Francisco, calle Hostos, Zona Colonial",
-      "zone": "Ciudad Colonial",
-      "cat": "Música",
-      "price": 0,
-      "price_max": null,
-      "time": "18:00",
-      "kids": false,
-      "tags": [
-        "cultura",
-        "serie"
-      ],
-      "description": "Música en vivo al aire libre con el grupo Bonyé: tambora, son, salsa y merengue.",
-      "ticketUrl": "",
-      "srcName": "SalsaVida",
-      "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-11-15",
-      "sources": [
-        {
-          "srcName": "SalsaVida",
-          "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-11-15"
-        }
-      ]
-    },
-    {
-      "id": "147b3500b185a2ef",
-      "source": "ticketmax",
-      "date": "2026-11-15",
-      "end": null,
-      "sessions": null,
-      "title": "SPLOU : NUEVA FUNCIÓN",
-      "venue": "Velvet Room",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 1800,
-      "price_max": 3000,
-      "time": "18:30",
-      "kids": false,
-      "tags": [],
-      "description": "Por primera vez en República Dominicana, llega SPLOU a Velvet Room. Con millones de reproducciones en redes sociales y una comunidad de seguidores que no para de crecer, Splou se ha convertido en una de las nuevas voces de la comedia latina en Estados Unidos. Su estilo mezcla hi…",
-      "ticketUrl": "https://ticketmax.org/evento/900439/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900439/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900439/"
-        }
-      ]
-    },
-    {
-      "id": "9487aa3be5502b8d",
-      "source": "ticketmax",
-      "date": "2026-11-15",
-      "end": null,
-      "sessions": null,
-      "title": "FDT 10X10 | UN TONTO EN UNA CAJA",
-      "venue": "Teatro Guloya",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 800,
-      "price_max": null,
-      "time": "19:30",
-      "kids": false,
-      "tags": [],
-      "description": "¿QUÉ HARÍAS TÚ, SI EL DIABLO TE MANDA UN REGALO DE CUMPLEAÑOS? Una sociedad dividida en PEQUEÑOS, GRANDES Y NOTABLES. El notable recibe por correo una caja supuestamente enviada por el Diablo, e invita a una reunión en su casa a un Pequeño y un Grande para descubrir si las mágic…",
-      "ticketUrl": "https://ticketmax.org/evento/254191/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/254191/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/254191/"
+          "srcUrl": "https://zonacolonial.do/actividad/italia-un-museo-a-cielo-abierto/"
         }
       ]
     },
@@ -501,6 +234,32 @@
         {
           "srcName": "Centro Cultural de España",
           "srcUrl": "https://ccesd.aecid.es/w/futuras-ancestras-la-obra-de-paola-rom%C3%A1n"
+        }
+      ]
+    },
+    {
+      "id": "f8ff7e8d8435b5be",
+      "source": "zona_colonial",
+      "date": "2026-11-17",
+      "end": null,
+      "sessions": null,
+      "title": "Concierto de Yhosvany Palma",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": 500,
+      "price_max": 500,
+      "time": "21:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/concierto-de-yhosvany-palma/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/concierto-de-yhosvany-palma/"
         }
       ]
     },
@@ -657,6 +416,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900200/"
+        }
+      ]
+    },
+    {
+      "id": "16b52b52aff36bd4",
+      "source": "zona_colonial",
+      "date": "2026-11-18",
+      "end": null,
+      "sessions": null,
+      "title": "Concierto “La Tarima”",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": 800,
+      "price_max": 800,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/concierto-la-tarima/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/concierto-la-tarima/"
         }
       ]
     },
@@ -1009,6 +794,32 @@
       ]
     },
     {
+      "id": "3ff9a00589854853",
+      "source": "tix",
+      "date": "2026-11-20",
+      "end": "2026-11-29",
+      "sessions": null,
+      "title": "Señora, ¿me presta su marido?",
+      "venue": "Teatro Las Máscaras",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "¿Se puede prestar lo que se ama... o el matrimonio requiere de un alerta al buen sentido para sobrevivir? 💍✨ Regresa a las tablas de Teatro Las Máscaras «Señora, ¿me presta su marido?», una comedia imperdible que combina el humor fino, la chispa de la convivencia diaria y reflex…",
+      "ticketUrl": "https://tix.do/event/Senorameprestasumarido-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/Senorameprestasumarido-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/Senorameprestasumarido-1"
+        }
+      ]
+    },
+    {
       "id": "c23acc81a7092aef",
       "source": "cce",
       "date": "2026-11-20",
@@ -1245,6 +1056,32 @@
         {
           "srcName": "Zona Colonial",
           "srcUrl": "https://zonacolonial.do/actividad/dibujando-mitos-dominicanos/"
+        }
+      ]
+    },
+    {
+      "id": "7b90d634a309cb0c",
+      "source": "zona_colonial",
+      "date": "2026-11-21",
+      "end": null,
+      "sessions": null,
+      "title": "Taller de Cartografía: “Dibujando Mitos Dominicanos”",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 250,
+      "price_max": 250,
+      "time": "16:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/taller-de-cartografia-dibujando-mitos-dominicanos/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/taller-de-cartografia-dibujando-mitos-dominicanos/"
         }
       ]
     },
@@ -1728,6 +1565,32 @@
       ]
     },
     {
+      "id": "09b544f9decd4cb8",
+      "source": "zona_colonial",
+      "date": "2026-11-27",
+      "end": null,
+      "sessions": null,
+      "title": "Descubre Santo Domingo Subterraneo",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 1300,
+      "price_max": 1300,
+      "time": "09:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/descubre-santo-domingo-subterraneo/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/descubre-santo-domingo-subterraneo/"
+        }
+      ]
+    },
+    {
       "id": "71e3fb04b1f5ef30",
       "source": "ticketmax",
       "date": "2026-11-27",
@@ -1919,7 +1782,7 @@
       "venue": "Velvet Room",
       "zone": "",
       "cat": "Teatro",
-      "price": 700,
+      "price": 800,
       "price_max": null,
       "time": "19:00",
       "kids": false,
@@ -1932,6 +1795,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900203/"
+        }
+      ]
+    },
+    {
+      "id": "240f479e8f175154",
+      "source": "zona_colonial",
+      "date": "2026-11-28",
+      "end": null,
+      "sessions": null,
+      "title": "CONCIERTO DE POOLPO",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/concierto-de-poolpo/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/concierto-de-poolpo/"
         }
       ]
     },
@@ -3399,6 +3288,32 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/jorge-drexler-gira-taraca/"
+        }
+      ]
+    },
+    {
+      "id": "7ab67affbb41ff21",
+      "source": "ticketmax",
+      "date": "2027-02-14",
+      "end": null,
+      "sessions": null,
+      "title": "Cuando el amor sonaba así... Una noche romántica (Santo Domingo)",
+      "venue": "Hard Rock Cafe Santo Domingo",
+      "zone": "",
+      "cat": "Música",
+      "price": 1600,
+      "price_max": 2900,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "🟣 PREVENTA EXCLUSIVA: 20% OFF en las primeras 100 entradas (aplicado automáticamente al momento de pagar). CONCIERTO CONCEPTUAL: “CUANDO EL AMOR SONABA ASÍ…” La banda sonora de toda una generación, reunida en un solo escenario. Este domingo 14 de febrero, Día de los Enamorados,…",
+      "ticketUrl": "https://ticketmax.org/evento/900098/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900098/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900098/"
         }
       ]
     },

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-16T20:39:51+00:00",
-  "today": "2026-11-16",
-  "count": 130,
+  "generated_at": "2026-11-17T19:20:49+00:00",
+  "today": "2026-11-17",
+  "count": 141,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -108,58 +108,6 @@
       ]
     },
     {
-      "id": "6a4821959ae5579e",
-      "source": "tix",
-      "date": "2026-11-15",
-      "end": "2026-11-16",
-      "sessions": null,
-      "title": "MATINE DE SALSA",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Matiné de Salsa en The Green Room. Domingo 15 de noviembre, a partir de las 5:00PM. Reserva gratis. Calle Andrés Julio Aybar 17, Piantini.",
-      "ticketUrl": "https://tix.do/event/MATINEDESALSA-19",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/MATINEDESALSA-19",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/MATINEDESALSA-19"
-        }
-      ]
-    },
-    {
-      "id": "11897d47ba9aa45d",
-      "source": "zona_colonial",
-      "date": "2026-11-16",
-      "end": null,
-      "sessions": null,
-      "title": "Italia, un museo a cielo abierto",
-      "venue": "NOV",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/italia-un-museo-a-cielo-abierto/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/italia-un-museo-a-cielo-abierto/"
-        }
-      ]
-    },
-    {
       "id": "21cfc41edc062ff8",
       "source": "tix",
       "date": "2026-11-17",
@@ -182,6 +130,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/ForoEconomicoelDinero2026-1"
+        }
+      ]
+    },
+    {
+      "id": "39ef0a660f368319",
+      "source": "zona_colonial",
+      "date": "2026-11-17",
+      "end": null,
+      "sessions": null,
+      "title": "Ciclo Cine Clásico “La bicicleta verde”",
+      "venue": "Centro Cultural Banreservas",
+      "zone": "Ciudad Colonial",
+      "cat": "Cine",
+      "price": 0,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/ciclo-cine-clasico-la-bicicleta-verde/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/ciclo-cine-clasico-la-bicicleta-verde/"
         }
       ]
     },
@@ -364,6 +338,58 @@
         {
           "srcName": "Centro Cultural de España",
           "srcUrl": "https://ccesd.aecid.es/w/mujer-stem-una-brecha-por-cerrar"
+        }
+      ]
+    },
+    {
+      "id": "1a3650283d6328db",
+      "source": "ticketmax",
+      "date": "2026-11-18",
+      "end": null,
+      "sessions": null,
+      "title": "Vino & tinta 18.11.26 | 6:00 PM - 8:00 PM",
+      "venue": "Centro Cultural Casa Libros",
+      "zone": "",
+      "cat": "Arte",
+      "price": 300,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [],
+      "description": "🍷📚 VINO &amp; TINTA | Donde las palabras se convierten en experiencias. Hay encuentros que inspiran y conversaciones que dejan huellas. En Casa Libros, Vino &amp; Tinta reúne escritores, artistas, lectores y amantes de la cultura en tertulias únicas donde la literatura, el arte…",
+      "ticketUrl": "https://ticketmax.org/evento/900684/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900684/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900684/"
+        }
+      ]
+    },
+    {
+      "id": "d020113ddfc77a1c",
+      "source": "ticketmax",
+      "date": "2026-11-18",
+      "end": null,
+      "sessions": null,
+      "title": "Vino & Tinta | 6:00 PM - 8:00 PM",
+      "venue": "Centro Cultural Casa Libros",
+      "zone": "",
+      "cat": "Arte",
+      "price": 300,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [],
+      "description": "🍷📚 VINO &amp; TINTA | Donde las palabras se convierten en experiencias. Hay encuentros que inspiran y conversaciones que dejan huellas. En Casa Libros, Vino &amp; Tinta reúne escritores, artistas, lectores y amantes de la cultura en tertulias únicas donde la literatura, el arte…",
+      "ticketUrl": "https://ticketmax.org/evento/900675/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900675/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900675/"
         }
       ]
     },
@@ -794,6 +820,32 @@
       ]
     },
     {
+      "id": "a179f8d267bfb6be",
+      "source": "tix",
+      "date": "2026-11-20",
+      "end": "2026-11-21",
+      "sessions": null,
+      "title": "DINASTIA LATINA",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Dinastía Latina en The Green Room. Viernes 20 de noviembre, 9:30 PM. Reserva gratis. Calle Andrés Julio Aybar 17, Segundo Piso, Piantini.",
+      "ticketUrl": "https://tix.do/event/DINASTIALATINA-13",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/DINASTIALATINA-13",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/DINASTIALATINA-13"
+        }
+      ]
+    },
+    {
       "id": "3ff9a00589854853",
       "source": "tix",
       "date": "2026-11-20",
@@ -842,6 +894,32 @@
         {
           "srcName": "Centro Cultural de España",
           "srcUrl": "https://ccesd.aecid.es/w/cyber-week-2026"
+        }
+      ]
+    },
+    {
+      "id": "5b94bc7e1f432004",
+      "source": "ticketmax",
+      "date": "2026-11-20",
+      "end": null,
+      "sessions": null,
+      "title": "Vino & Tinta 20.11.26 | 6:00 PM - 8:00 PM",
+      "venue": "Centro Cultural Casa Libros",
+      "zone": "",
+      "cat": "Arte",
+      "price": 300,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [],
+      "description": "¡Hay historias que no se leen: se sienten! Ana Almonte te invita a descubrir su novela y sus relatos. Viernes 20, 6 p. m., Casa Libros. ¡Asegura tu reserva! 829-264-8185.",
+      "ticketUrl": "https://ticketmax.org/evento/900666/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900666/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900666/"
         }
       ]
     },
@@ -1086,6 +1164,32 @@
       ]
     },
     {
+      "id": "26cd0837f3eccfb3",
+      "source": "zona_colonial",
+      "date": "2026-11-21",
+      "end": null,
+      "sessions": null,
+      "title": "Plantas Endémicas de La Española",
+      "venue": "Quinta Dominica",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 1500,
+      "price_max": 1500,
+      "time": "16:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/plantas-endemicas-de-la-espanola-2/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/plantas-endemicas-de-la-espanola-2/"
+        }
+      ]
+    },
+    {
       "id": "5f5cc53902605f80",
       "source": "ticketmax",
       "date": "2026-11-21",
@@ -1270,6 +1374,32 @@
       ]
     },
     {
+      "id": "2ff95f93a2860a56",
+      "source": "ticketmax",
+      "date": "2026-11-22",
+      "end": null,
+      "sessions": null,
+      "title": "Cuentacuentos con Tia Arelis | 4:00 PM - 6:00 PM",
+      "venue": "Centro Cultural Casa Libros",
+      "zone": "",
+      "cat": "Arte",
+      "price": 1,
+      "price_max": null,
+      "time": "16:00",
+      "kids": true,
+      "tags": [],
+      "description": "✨ Su imaginación tiene una cita. ¡Contigo! Regálale a tu hijo una tarde de cuentos, sonrisas y tiempo juntos. Arelis Estévez nos invita a descubrir La niña que volaba con el viento. 📖 🗓 Domingo 22 de noviembre · 4:00 p. m. 📍 Casa Libros: Moisés García 3, Gazcue, próximo al Palac…",
+      "ticketUrl": "https://ticketmax.org/evento/900697/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900697/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900697/"
+        }
+      ]
+    },
+    {
       "id": "ab40d805b00fbad9",
       "source": "recurring",
       "date": "2026-11-22",
@@ -1399,6 +1529,58 @@
         {
           "srcName": "Zona Colonial",
           "srcUrl": "https://zonacolonial.do/actividad/iii-congreso-para-la-reunificacion-de-la-hispanidad/"
+        }
+      ]
+    },
+    {
+      "id": "b74b0ef5c1ae52c7",
+      "source": "ticketmax",
+      "date": "2026-11-25",
+      "end": null,
+      "sessions": null,
+      "title": "Vino & Tinta 25.11.26 | 6:00 PM - 8:00 PM",
+      "venue": "Centro Cultural Casa Libros",
+      "zone": "",
+      "cat": "Arte",
+      "price": 300,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [],
+      "description": "🍷📚 VINO &amp; TINTA | Donde las palabras se convierten en experiencias. Hay encuentros que inspiran y conversaciones que dejan huellas. En Casa Libros, Vino &amp; Tinta reúne escritores, artistas, lectores y amantes de la cultura en tertulias únicas donde la literatura, el arte…",
+      "ticketUrl": "https://ticketmax.org/evento/900678/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900678/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900678/"
+        }
+      ]
+    },
+    {
+      "id": "cf37929288787e61",
+      "source": "ticketmax",
+      "date": "2026-11-25",
+      "end": null,
+      "sessions": null,
+      "title": "Vino & Tinta | 6:00 PM - 8:00 PM",
+      "venue": "Centro Cultural Casa Libros",
+      "zone": "",
+      "cat": "Arte",
+      "price": 300,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [],
+      "description": "🍷📚 VINO &amp; TINTA | Donde las palabras se convierten en experiencias. Hay encuentros que inspiran y conversaciones que dejan huellas. En Casa Libros, Vino &amp; Tinta reúne escritores, artistas, lectores y amantes de la cultura en tertulias únicas donde la literatura, el arte…",
+      "ticketUrl": "https://ticketmax.org/evento/900681/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900681/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900681/"
         }
       ]
     },
@@ -1587,6 +1769,32 @@
         {
           "srcName": "Zona Colonial",
           "srcUrl": "https://zonacolonial.do/actividad/descubre-santo-domingo-subterraneo/"
+        }
+      ]
+    },
+    {
+      "id": "0caf87dff26ae897",
+      "source": "ticketmax",
+      "date": "2026-11-27",
+      "end": null,
+      "sessions": null,
+      "title": "Vino & Tinta 27.11.26 | 6:00 PM - 8:00 PM",
+      "venue": "Centro Cultural Casa Libros",
+      "zone": "",
+      "cat": "Arte",
+      "price": 300,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [],
+      "description": "¡Hay palabras que también tienen música! Vive la poesía y narrativa de Eduardo Díaz Guerra. Viernes 27, 6 p. m., Casa Libros. ¡Reserva antes de que se complete el aforo! 829-264-8185.",
+      "ticketUrl": "https://ticketmax.org/evento/900669/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900669/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900669/"
         }
       ]
     },
@@ -2003,6 +2211,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900051/"
+        }
+      ]
+    },
+    {
+      "id": "de0a8b35e93fbba5",
+      "source": "ticketmax",
+      "date": "2026-11-29",
+      "end": null,
+      "sessions": null,
+      "title": "Cuentacuentos con Tia Veroushka | 4:00 PM - 6:00 PM",
+      "venue": "Centro Cultural Casa Libros",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 300,
+      "price_max": null,
+      "time": "16:00",
+      "kids": true,
+      "tags": [],
+      "description": "🐈‍⬛✨ ¡ALERTA! ¡UN GATO MAGO ANDA SUELTO EN CASA LIBROS! 🎩 🌙 ¡La magia está por comenzar! Verouschka Freixas llega con Caspar, el gato mago para regalarles a tus peques una tarde de cuentos, risas y aventuras inolvidables. 📚💜 📅 Domingo 29 de noviembre | 4:00 p. m. 📍 Casa Libros,…",
+      "ticketUrl": "https://ticketmax.org/evento/900694/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900694/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900694/"
         }
       ]
     },
@@ -2611,6 +2845,32 @@
       ]
     },
     {
+      "id": "5bc17c53f617828b",
+      "source": "ticketmax",
+      "date": "2026-12-11",
+      "end": null,
+      "sessions": null,
+      "title": "Vino & Tinta 11.12.26 | 6:00 PM - 8:00 PM",
+      "venue": "Centro Cultural Casa Libros",
+      "zone": "",
+      "cat": "Arte",
+      "price": 300,
+      "price_max": null,
+      "time": "18:00",
+      "kids": true,
+      "tags": [],
+      "description": "📖 ¡Hay historias que merecen escucharse en vivo! Vive una noche de poesía y literatura con Randolfo Ariostto Jiménez. 📅11 de Diciembre | Casa Libros, Gazcue. 📲 ¡Reserva hoy! wa.me/18292648185 #VinoYTinta #CasaLibrosRD #PoesíaDominicana #TertuliaLiteraria #LiteraturaDominicana",
+      "ticketUrl": "https://ticketmax.org/evento/900662/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900662/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900662/"
+        }
+      ]
+    },
+    {
       "id": "37ba4c4208431e92",
       "source": "ticketmax",
       "date": "2026-12-11",
@@ -2685,6 +2945,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/MiguelInzunza-1"
+        }
+      ]
+    },
+    {
+      "id": "65a85341b5f63ebd",
+      "source": "ticketmax",
+      "date": "2026-12-12",
+      "end": null,
+      "sessions": null,
+      "title": "VALERIE MORALES, DEL MIL MANERAS",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Música",
+      "price": 1000,
+      "price_max": null,
+      "time": "21:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://ticketmax.org/evento/900706/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900706/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900706/"
         }
       ]
     },

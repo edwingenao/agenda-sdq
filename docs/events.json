@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-17T19:20:49+00:00",
-  "today": "2026-11-17",
-  "count": 141,
+  "generated_at": "2026-11-18T18:59:42+00:00",
+  "today": "2026-11-18",
+  "count": 146,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -104,162 +104,6 @@
         {
           "srcName": "Teatro Las Máscaras",
           "srcUrl": "https://teatrolasmascaras.com/#senora-me-presta-su-marido"
-        }
-      ]
-    },
-    {
-      "id": "21cfc41edc062ff8",
-      "source": "tix",
-      "date": "2026-11-17",
-      "end": null,
-      "sessions": null,
-      "title": "Foro Económico elDinero 2026",
-      "venue": "InterContinental Real Santo Domingo by IHG",
-      "zone": "",
-      "cat": "Cultura",
-      "price": null,
-      "price_max": null,
-      "time": "14:30",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "https://tix.do/event/ForoEconomicoelDinero2026-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/ForoEconomicoelDinero2026-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/ForoEconomicoelDinero2026-1"
-        }
-      ]
-    },
-    {
-      "id": "39ef0a660f368319",
-      "source": "zona_colonial",
-      "date": "2026-11-17",
-      "end": null,
-      "sessions": null,
-      "title": "Ciclo Cine Clásico “La bicicleta verde”",
-      "venue": "Centro Cultural Banreservas",
-      "zone": "Ciudad Colonial",
-      "cat": "Cine",
-      "price": 0,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/ciclo-cine-clasico-la-bicicleta-verde/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/ciclo-cine-clasico-la-bicicleta-verde/"
-        }
-      ]
-    },
-    {
-      "id": "4b02043451f9b1bd",
-      "source": "cce",
-      "date": "2026-11-17",
-      "end": null,
-      "sessions": null,
-      "title": "El permiso de ser vulnerable",
-      "venue": "CCESD",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": null,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "Participan Paola Prada Suárez y Rosario RamírezModera Carolina Moreno (psicóloga)",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/el-permiso-de-ser-vulnerable%C2%A0",
-      "sources": [
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/el-permiso-de-ser-vulnerable%C2%A0"
-        }
-      ]
-    },
-    {
-      "id": "3a45e036e3d16e81",
-      "source": "cce",
-      "date": "2026-11-17",
-      "end": null,
-      "sessions": null,
-      "title": "Futuras ancestras: La obra de Paola Román",
-      "venue": "CCESD",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": 0,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "Imparte José RodríguezModera Patricia MinallaEntrada Libre hasta completar AforoPrograma Fortalecimiento del Espacio LatinoamericanoFuturas Ancestras propone construir un espacio de encuentro y lectura entre autoras dominicanas contemporáneas que promueva sus obras, genere nuevas",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/futuras-ancestras-la-obra-de-paola-rom%C3%A1n",
-      "sources": [
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/futuras-ancestras-la-obra-de-paola-rom%C3%A1n"
-        }
-      ]
-    },
-    {
-      "id": "f8ff7e8d8435b5be",
-      "source": "zona_colonial",
-      "date": "2026-11-17",
-      "end": null,
-      "sessions": null,
-      "title": "Concierto de Yhosvany Palma",
-      "venue": "Casa de Teatro",
-      "zone": "Ciudad Colonial",
-      "cat": "Música",
-      "price": 500,
-      "price_max": 500,
-      "time": "21:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/concierto-de-yhosvany-palma/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/concierto-de-yhosvany-palma/"
-        }
-      ]
-    },
-    {
-      "id": "a7cd56ebd72c2361",
-      "source": "tix",
-      "date": "2026-11-17",
-      "end": null,
-      "sessions": null,
-      "title": "El Tomatazo",
-      "venue": "Local 3 : Calle Max. Herriquez Ureña 33",
-      "zone": "",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "21:00",
-      "kids": false,
-      "tags": [],
-      "description": "EL TOMATAZO 🍅: Open Mic diferente Un open mic donde los comediantes prueban chistes nuevos… y el público puede tirar tomates si el chiste no le gusta. Caos, adrenalina y humor en su punto exacto: si no funciona, ¡vuela un tomate!",
-      "ticketUrl": "https://tix.do/event/ElTomatazo-12",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/ElTomatazo-12",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/ElTomatazo-12"
         }
       ]
     },
@@ -394,6 +238,32 @@
       ]
     },
     {
+      "id": "1918bc91dc820b07",
+      "source": "ticketmax",
+      "date": "2026-11-18",
+      "end": "2026-12-11",
+      "sessions": null,
+      "title": "Vino & Tinta | Miércoles 18 Noviembre al Viernes 11 Diciembre 2026",
+      "venue": "Centro Cultural Casa Libros",
+      "zone": "",
+      "cat": "Arte",
+      "price": 300,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "https://ticketmax.org/evento/900717/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900717/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900717/"
+        }
+      ]
+    },
+    {
       "id": "8911983ce9545925",
       "source": "zona_colonial",
       "date": "2026-11-18",
@@ -442,6 +312,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900200/"
+        }
+      ]
+    },
+    {
+      "id": "3ac6c90833a1552d",
+      "source": "zona_colonial",
+      "date": "2026-11-18",
+      "end": null,
+      "sessions": null,
+      "title": "Un Candidato Ideal: ¡Una comedia imperdible para toda la familia!",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": 400,
+      "price_max": 400,
+      "time": "20:00",
+      "kids": true,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/un-candidato-ideal-una-comedia-imperdible-para-toda-la-familia/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/un-candidato-ideal-una-comedia-imperdible-para-toda-la-familia/"
         }
       ]
     },
@@ -550,6 +446,32 @@
         {
           "srcName": "Zona Colonial",
           "srcUrl": "https://zonacolonial.do/actividad/salsa-wednesdays-clase-de-baile-social/"
+        }
+      ]
+    },
+    {
+      "id": "9ffbbaae1b74e939",
+      "source": "zona_colonial",
+      "date": "2026-11-19",
+      "end": null,
+      "sessions": null,
+      "title": "Ruta Salomé Ureña",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "15:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/ruta-salome-urena/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/ruta-salome-urena/"
         }
       ]
     },
@@ -1112,6 +1034,32 @@
       ]
     },
     {
+      "id": "7b85de080d9dcc2d",
+      "source": "zona_colonial",
+      "date": "2026-11-21",
+      "end": null,
+      "sessions": null,
+      "title": "Fin de Semana de Puertas Abiertas – Segundo Aniversario",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "09:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/fin-de-semana-de-puertas-abiertas-segundo-aniversario/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/fin-de-semana-de-puertas-abiertas-segundo-aniversario/"
+        }
+      ]
+    },
+    {
       "id": "6b5dec818532516b",
       "source": "zona_colonial",
       "date": "2026-11-21",
@@ -1186,6 +1134,32 @@
         {
           "srcName": "Zona Colonial",
           "srcUrl": "https://zonacolonial.do/actividad/plantas-endemicas-de-la-espanola-2/"
+        }
+      ]
+    },
+    {
+      "id": "d68bc8eff3fc9b26",
+      "source": "zona_colonial",
+      "date": "2026-11-21",
+      "end": null,
+      "sessions": null,
+      "title": "CONCIERTO “ECOS DE LA CIUDAD",
+      "venue": "Centro Cultural de España",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "17:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/concierto-ecos-de-la-ciudad/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/concierto-ecos-de-la-ciudad/"
         }
       ]
     },
@@ -1374,6 +1348,58 @@
       ]
     },
     {
+      "id": "9ab615efa80ce829",
+      "source": "zona_colonial",
+      "date": "2026-11-21",
+      "end": null,
+      "sessions": null,
+      "title": "Quinto Homenaje Póstumo al Profesor José Delmonte",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "23:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/quinto-homenaje-postumo-al-profesor-jose-delmonte/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/quinto-homenaje-postumo-al-profesor-jose-delmonte/"
+        }
+      ]
+    },
+    {
+      "id": "561e192eb520d8fc",
+      "source": "zona_colonial",
+      "date": "2026-11-22",
+      "end": null,
+      "sessions": null,
+      "title": "RALLY COLONIAL TRAMPOLÍN",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 1000,
+      "price_max": 1000,
+      "time": "10:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/rally-colonial-trampolin/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/rally-colonial-trampolin/"
+        }
+      ]
+    },
+    {
       "id": "2ff95f93a2860a56",
       "source": "ticketmax",
       "date": "2026-11-22",
@@ -1477,6 +1503,32 @@
         {
           "srcName": "Ministerio de Cultura (SIC)",
           "srcUrl": "https://sic.cultura.gob.do/agenda/evento/35"
+        }
+      ]
+    },
+    {
+      "id": "cb46fd35342e8c4a",
+      "source": "zona_colonial",
+      "date": "2026-11-24",
+      "end": null,
+      "sessions": null,
+      "title": "HOMENAJE A DIÓMEDES MERCEDES",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/homenaje-a-diomedes-mercedes/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/homenaje-a-diomedes-mercedes/"
         }
       ]
     },
@@ -1609,6 +1661,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900002/"
+        }
+      ]
+    },
+    {
+      "id": "d0066cc3fac4dc1e",
+      "source": "zona_colonial",
+      "date": "2026-11-25",
+      "end": null,
+      "sessions": null,
+      "title": "LOS TIEMPOS QUE VIVIMOS",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/los-tiempos-que-vivimos/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/los-tiempos-que-vivimos/"
         }
       ]
     },
@@ -2344,6 +2422,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/254945/"
+        }
+      ]
+    },
+    {
+      "id": "f001d58222b77ce3",
+      "source": "ticketmax",
+      "date": "2026-11-30",
+      "end": null,
+      "sessions": null,
+      "title": "Los Monólogos De La Vagina : Hony Estrella | Yorlla Castillo | Johanna González",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 1800,
+      "price_max": 3000,
+      "time": "19:30",
+      "kids": false,
+      "tags": [],
+      "description": "LOS MONÓLOGOS DE LA VAGINA Tres mujeres. Tres voces. Una noche sin tabúes. Yorlla Castillo, Hony Estrella y Johanna González se reúnen en el escenario de Velvet Room para dar vida a una de las obras teatrales más emblemáticas y atrevidas de las últimas décadas. Basada en la reco…",
+      "ticketUrl": "https://ticketmax.org/evento/900713/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900713/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900713/"
         }
       ]
     },
@@ -3314,6 +3418,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900565/"
+        }
+      ]
+    },
+    {
+      "id": "809fb615a79c191e",
+      "source": "ticketmax",
+      "date": "2027-01-03",
+      "end": null,
+      "sessions": null,
+      "title": "PLAYA ERMITAÑO",
+      "venue": "Mcdonalds Nuñez de Caceres",
+      "zone": "",
+      "cat": "Cultura",
+      "price": 3950,
+      "price_max": null,
+      "time": "05:00",
+      "kids": false,
+      "tags": [],
+      "description": "Por Vivirlo: Traslado ida y vuelta Refrigerio en el bus Pulsera de Indentificacion Desayuno; - Mcmufing+Jugo Almuerzo Buffet Disfrute Playa Ermitaño 1 Disfrute Playa Ermitaño 2 Disfrute Playa Honda Degustación de Agua de Coco Traslado Maritimo Cobertura de Fotos Visita Rio San J…",
+      "ticketUrl": "https://ticketmax.org/evento/900711/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900711/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900711/"
         }
       ]
     },

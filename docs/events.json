@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-18T18:59:42+00:00",
-  "today": "2026-11-18",
-  "count": 146,
+  "generated_at": "2026-11-19T19:08:01+00:00",
+  "today": "2026-11-19",
+  "count": 142,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -160,84 +160,6 @@
       ]
     },
     {
-      "id": "0341d2f4a5bd0ab9",
-      "source": "cce",
-      "date": "2026-11-18",
-      "end": null,
-      "sessions": null,
-      "title": "Mujer Stem: Una brecha por cerrar",
-      "venue": "Centro Cultural de España",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "09:30",
-      "kids": false,
-      "tags": [],
-      "description": "Modera Yeraldin Guerrero. Panelistas Karoline Taylo r (UNIBE), Alba Taveras (Mujeres en la Ingeniería) y Fanny Ramos (Mujeres en la Ingeniería)Entrada libre hasta completar aforo",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/mujer-stem-una-brecha-por-cerrar",
-      "sources": [
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/mujer-stem-una-brecha-por-cerrar"
-        }
-      ]
-    },
-    {
-      "id": "1a3650283d6328db",
-      "source": "ticketmax",
-      "date": "2026-11-18",
-      "end": null,
-      "sessions": null,
-      "title": "Vino & tinta 18.11.26 | 6:00 PM - 8:00 PM",
-      "venue": "Centro Cultural Casa Libros",
-      "zone": "",
-      "cat": "Arte",
-      "price": 300,
-      "price_max": null,
-      "time": "18:00",
-      "kids": false,
-      "tags": [],
-      "description": "🍷📚 VINO &amp; TINTA | Donde las palabras se convierten en experiencias. Hay encuentros que inspiran y conversaciones que dejan huellas. En Casa Libros, Vino &amp; Tinta reúne escritores, artistas, lectores y amantes de la cultura en tertulias únicas donde la literatura, el arte…",
-      "ticketUrl": "https://ticketmax.org/evento/900684/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900684/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900684/"
-        }
-      ]
-    },
-    {
-      "id": "d020113ddfc77a1c",
-      "source": "ticketmax",
-      "date": "2026-11-18",
-      "end": null,
-      "sessions": null,
-      "title": "Vino & Tinta | 6:00 PM - 8:00 PM",
-      "venue": "Centro Cultural Casa Libros",
-      "zone": "",
-      "cat": "Arte",
-      "price": 300,
-      "price_max": null,
-      "time": "18:00",
-      "kids": false,
-      "tags": [],
-      "description": "🍷📚 VINO &amp; TINTA | Donde las palabras se convierten en experiencias. Hay encuentros que inspiran y conversaciones que dejan huellas. En Casa Libros, Vino &amp; Tinta reúne escritores, artistas, lectores y amantes de la cultura en tertulias únicas donde la literatura, el arte…",
-      "ticketUrl": "https://ticketmax.org/evento/900675/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900675/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900675/"
-        }
-      ]
-    },
-    {
       "id": "1918bc91dc820b07",
       "source": "ticketmax",
       "date": "2026-11-18",
@@ -260,192 +182,6 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900717/"
-        }
-      ]
-    },
-    {
-      "id": "8911983ce9545925",
-      "source": "zona_colonial",
-      "date": "2026-11-18",
-      "end": null,
-      "sessions": null,
-      "title": "Conferencia: “Hispanidad y Dominicanidad: una confluencia” (organizado junto al INPOSDOM)",
-      "venue": "Museo de la Catedral",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "19:30",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/conferencia-hispanidad-y-dominicanidad-una-confluencia-organizado-junto-al-inposdom/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/conferencia-hispanidad-y-dominicanidad-una-confluencia-organizado-junto-al-inposdom/"
-        }
-      ]
-    },
-    {
-      "id": "4360d53c06c2c1a8",
-      "source": "ticketmax",
-      "date": "2026-11-18",
-      "end": null,
-      "sessions": null,
-      "title": "Un Candidato Ideal",
-      "venue": "Teatro Guloya",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 400,
-      "price_max": null,
-      "time": "20:00",
-      "kids": true,
-      "tags": [],
-      "description": "¿Y si el poder estuviera en las manos equivocadas? Las apariencias engañan, las cartas se juegan y cada quien tiene sus propias intenciones… ¿Será realmente un candidato ideal? DRAMATIKAS TEATRO presenta: UN CANDIDATO IDEAL. Una comedia para toda la familia.",
-      "ticketUrl": "https://ticketmax.org/evento/900200/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900200/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900200/"
-        }
-      ]
-    },
-    {
-      "id": "3ac6c90833a1552d",
-      "source": "zona_colonial",
-      "date": "2026-11-18",
-      "end": null,
-      "sessions": null,
-      "title": "Un Candidato Ideal: ¡Una comedia imperdible para toda la familia!",
-      "venue": "NOV",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": 400,
-      "price_max": 400,
-      "time": "20:00",
-      "kids": true,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/un-candidato-ideal-una-comedia-imperdible-para-toda-la-familia/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/un-candidato-ideal-una-comedia-imperdible-para-toda-la-familia/"
-        }
-      ]
-    },
-    {
-      "id": "16b52b52aff36bd4",
-      "source": "zona_colonial",
-      "date": "2026-11-18",
-      "end": null,
-      "sessions": null,
-      "title": "Concierto “La Tarima”",
-      "venue": "Casa de Teatro",
-      "zone": "Ciudad Colonial",
-      "cat": "Música",
-      "price": 800,
-      "price_max": 800,
-      "time": "20:30",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/concierto-la-tarima/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/concierto-la-tarima/"
-        }
-      ]
-    },
-    {
-      "id": "45b7eb15d895775f",
-      "source": "teatro_nacional",
-      "date": "2026-11-18",
-      "end": null,
-      "sessions": null,
-      "title": "Sinfónico Encuentro de Talento",
-      "venue": "Sala Carlos Piantini, Teatro Nacional",
-      "zone": "Plaza de la Cultura",
-      "cat": "Música",
-      "price": 500,
-      "price_max": 500,
-      "time": "20:30",
-      "kids": false,
-      "tags": [],
-      "description": "SINFÓNICO 2026 Encuentro de Talento La Fundación Harmonía, el Teatro Nacional Eduardo Brito, y SeaBoard Energía Limpia se unen, en una iniciativa de contribuir al arte sinfónico en el país, propiciando un evento donde brillen nuestros talentos locales, SINFÓNICO 2026. Este será…",
-      "ticketUrl": "https://boleteria.com.do/",
-      "srcName": "Teatro Nacional",
-      "srcUrl": "https://teatronacional.gob.do/events/sinfonico-encuentro-de-talento/",
-      "sources": [
-        {
-          "srcName": "Teatro Nacional",
-          "srcUrl": "https://teatronacional.gob.do/events/sinfonico-encuentro-de-talento/"
-        },
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/SINFONICOEncuentrodeTalento-1"
-        }
-      ]
-    },
-    {
-      "id": "7bc8f3624f5ecc3b",
-      "source": "tix",
-      "date": "2026-11-18",
-      "end": null,
-      "sessions": null,
-      "title": "Pampers arcoíris. El debate sobre la adopción gay",
-      "venue": "Local 3 : Calle Max. Herriquez Ureña 33",
-      "zone": "",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "21:00",
-      "kids": false,
-      "tags": [],
-      "description": "Pampers arcoíris 🌈. El debate sobre la adopcion gay En un país, donde ni el matrimonio gay existe, Comedia Local se atreve a debatir la adopción en parejas del mismo sexo. Seis comediantes, dos posturas opuestas, que se enfrentan en un debate con argumentos, humor y mucha incomo…",
-      "ticketUrl": "https://tix.do/event/PampersarcoirisEldebatesobrelaadopciongay-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/PampersarcoirisEldebatesobrelaadopciongay-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/PampersarcoirisEldebatesobrelaadopciongay-1"
-        }
-      ]
-    },
-    {
-      "id": "0c5535659653f8a8",
-      "source": "zona_colonial",
-      "date": "2026-11-18",
-      "end": null,
-      "sessions": null,
-      "title": "Salsa Wednesdays (Clase de baile + Social)",
-      "venue": "NOV",
-      "zone": "Ciudad Colonial",
-      "cat": "Danza",
-      "price": 500,
-      "price_max": 500,
-      "time": "21:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/salsa-wednesdays-clase-de-baile-social/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/salsa-wednesdays-clase-de-baile-social/"
         }
       ]
     },
@@ -550,6 +286,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900480/"
+        }
+      ]
+    },
+    {
+      "id": "0db02a32ff3329ff",
+      "source": "zona_colonial",
+      "date": "2026-11-19",
+      "end": null,
+      "sessions": null,
+      "title": "Picasso & Tovar: Acciones morfológicas",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Arte",
+      "price": 0,
+      "price_max": null,
+      "time": "19:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/picasso-tovar-acciones-morfologicas/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/picasso-tovar-acciones-morfologicas/"
         }
       ]
     },
@@ -846,6 +608,32 @@
       ]
     },
     {
+      "id": "a67d39ca512d1758",
+      "source": "zona_colonial",
+      "date": "2026-11-20",
+      "end": null,
+      "sessions": null,
+      "title": "Recitales",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "18:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/recitales/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/recitales/"
+        }
+      ]
+    },
+    {
       "id": "84e60ca43fed7d50",
       "source": "ticketmax",
       "date": "2026-11-20",
@@ -1056,6 +844,58 @@
         {
           "srcName": "Zona Colonial",
           "srcUrl": "https://zonacolonial.do/actividad/fin-de-semana-de-puertas-abiertas-segundo-aniversario/"
+        }
+      ]
+    },
+    {
+      "id": "35cb4c1a25d9f548",
+      "source": "zona_colonial",
+      "date": "2026-11-21",
+      "end": null,
+      "sessions": null,
+      "title": "Balade d’Art – Visita guiada en francés",
+      "venue": "Centro Cultural Taíno Casa del Cordón",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "11:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/balade-dart-visita-guiada-en-frances/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/balade-dart-visita-guiada-en-frances/"
+        }
+      ]
+    },
+    {
+      "id": "a80de6b6db76d906",
+      "source": "cce",
+      "date": "2026-11-21",
+      "end": null,
+      "sessions": null,
+      "title": "Conversatorio sobre VIH",
+      "venue": "Centro Cultural de España",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": null,
+      "price_max": null,
+      "time": "14:00",
+      "kids": false,
+      "tags": [],
+      "description": "Proyecto Derechos Humanos y CulturalesCon motivo del Día Mundial del VIH, que se conmemora el 1 de diciembre, desde CASA Q + queremos realizar un conversatorio educativo orientado a informar, generar conciencia y contribuir a la desestigmatización del VIH.",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/conversatorio-sobre-vih",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/conversatorio-sobre-vih"
         }
       ]
     },
@@ -1687,6 +1527,32 @@
         {
           "srcName": "Zona Colonial",
           "srcUrl": "https://zonacolonial.do/actividad/los-tiempos-que-vivimos/"
+        }
+      ]
+    },
+    {
+      "id": "8e10ca6151a7af1d",
+      "source": "zona_colonial",
+      "date": "2026-11-25",
+      "end": null,
+      "sessions": null,
+      "title": "Alfonso Cervantes – Boleros",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 500,
+      "price_max": 500,
+      "time": "22:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/alfonso-cervantes-boleros/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/alfonso-cervantes-boleros/"
         }
       ]
     },
@@ -3288,6 +3154,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900475/"
+        }
+      ]
+    },
+    {
+      "id": "8369de0d42a7b897",
+      "source": "ticketmax",
+      "date": "2026-12-18",
+      "end": null,
+      "sessions": null,
+      "title": "NAVIDAD VENEZOLANA 2026",
+      "venue": "Izbira Centro de Eventos",
+      "zone": "",
+      "cat": "Música",
+      "price": 1500,
+      "price_max": 2000,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "A PETICIÓN DEL PÚBLICO y para cerrar este 2026 como se debe... RORAIMA PRODUCCIONES Y SON GAITERO PRESENTAN: NAVIDAD VENEZOLANA 2026 🎤 Éxitos bailables de La Billo's y Los Melódicos 🥁 Merengues de los 80 🎧 Show del DJ Gustavo Ramírez y el gran cierre con más horas de gaitas",
+      "ticketUrl": "https://ticketmax.org/evento/900720/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900720/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900720/"
         }
       ]
     },

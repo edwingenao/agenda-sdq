@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-19T19:08:01+00:00",
-  "today": "2026-11-19",
-  "count": 142,
+  "generated_at": "2026-11-20T18:44:41+00:00",
+  "today": "2026-11-20",
+  "count": 134,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -108,32 +108,6 @@
       ]
     },
     {
-      "id": "311c4a4f4f1936d1",
-      "source": "tix",
-      "date": "2026-11-18",
-      "end": "2026-11-19",
-      "sessions": null,
-      "title": "COMEDY SHOWCASE",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Comedy Showcase en The Green Room. Miércoles 18 de noviembre, 9:30 PM. Reserva gratis. Calle Andrés Julio Aybar 17, Piantini.",
-      "ticketUrl": "https://tix.do/event/COMEDYSHOWCASE-29",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/COMEDYSHOWCASE-29",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/COMEDYSHOWCASE-29"
-        }
-      ]
-    },
-    {
       "id": "acc0de42a02e5e20",
       "source": "teatro_nacional",
       "date": "2026-11-18",
@@ -182,324 +156,6 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900717/"
-        }
-      ]
-    },
-    {
-      "id": "9ffbbaae1b74e939",
-      "source": "zona_colonial",
-      "date": "2026-11-19",
-      "end": null,
-      "sessions": null,
-      "title": "Ruta Salomé Ureña",
-      "venue": "NOV",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "15:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/ruta-salome-urena/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/ruta-salome-urena/"
-        }
-      ]
-    },
-    {
-      "id": "f0ef6fc37d3cdeab",
-      "source": "zona_colonial",
-      "date": "2026-11-19",
-      "end": null,
-      "sessions": null,
-      "title": "Mes del Cine Dominicano – Presentación especial del Festival Internacional de Cortometrajes “FestMinutoAgua” (una presentación educativa sin fines de lucro)",
-      "venue": "NOV",
-      "zone": "Ciudad Colonial",
-      "cat": "Cine",
-      "price": 0,
-      "price_max": null,
-      "time": "18:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/mes-del-cine-dominicano-presentacion-especial-del-festival-internacional-de-cortometrajes-festminutoagua-una-presentacion-educativa-sin-fines-de-lucro/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/mes-del-cine-dominicano-presentacion-especial-del-festival-internacional-de-cortometrajes-festminutoagua-una-presentacion-educativa-sin-fines-de-lucro/"
-        }
-      ]
-    },
-    {
-      "id": "e0828582ec2575c8",
-      "source": "zona_colonial",
-      "date": "2026-11-19",
-      "end": null,
-      "sessions": null,
-      "title": "Conversatorio “La vivienda popular dominicana: Orígenes de una imagen que nos pertenece”",
-      "venue": "NOV",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/conversatorio-la-vivienda-popular-dominicana-origenes-de-una-imagen-que-nos-pertenece/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/conversatorio-la-vivienda-popular-dominicana-origenes-de-una-imagen-que-nos-pertenece/"
-        }
-      ]
-    },
-    {
-      "id": "2f4d9b1bc0edd465",
-      "source": "ticketmax",
-      "date": "2026-11-19",
-      "end": null,
-      "sessions": null,
-      "title": "KARAOKE APAODIS",
-      "venue": "Velvet Room",
-      "zone": "",
-      "cat": "Música",
-      "price": 800,
-      "price_max": null,
-      "time": "19:30",
-      "kids": false,
-      "tags": [],
-      "description": "🎤 ¡Canta, comparte y apoya una buena causa! Acompáñanos en Karaoke APAODIS, una noche de música y diversión en Velvet Room, organizada para recaudar fondos a beneficio de la Asociación de Padres APAODIS. Reúne a tu grupo, elige tus canciones favoritas y prepárate para disfrutar.…",
-      "ticketUrl": "https://ticketmax.org/evento/900480/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900480/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900480/"
-        }
-      ]
-    },
-    {
-      "id": "0db02a32ff3329ff",
-      "source": "zona_colonial",
-      "date": "2026-11-19",
-      "end": null,
-      "sessions": null,
-      "title": "Picasso & Tovar: Acciones morfológicas",
-      "venue": "NOV",
-      "zone": "Ciudad Colonial",
-      "cat": "Arte",
-      "price": 0,
-      "price_max": null,
-      "time": "19:30",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/picasso-tovar-acciones-morfologicas/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/picasso-tovar-acciones-morfologicas/"
-        }
-      ]
-    },
-    {
-      "id": "3f22998b1683ac0d",
-      "source": "zona_colonial",
-      "date": "2026-11-19",
-      "end": null,
-      "sessions": null,
-      "title": "Concierto “Din Don Dan! Campanas que tañen al nacer el Niño Dios”",
-      "venue": "Museo de la Catedral",
-      "zone": "Ciudad Colonial",
-      "cat": "Música",
-      "price": 0,
-      "price_max": null,
-      "time": "20:00",
-      "kids": true,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/concierto-din-don-dan-campanas-que-tanen-al-nacer-el-nino-dios/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/concierto-din-don-dan-campanas-que-tanen-al-nacer-el-nino-dios/"
-        }
-      ]
-    },
-    {
-      "id": "7f36df11e6f46f57",
-      "source": "cce",
-      "date": "2026-11-19",
-      "end": null,
-      "sessions": null,
-      "title": "Herederas del texto: Taller de edición, corrección y escritura",
-      "venue": "Centro Cultural de España",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [
-        "formacion"
-      ],
-      "description": "Dirigido a personas interesadas en la corrección y edición de textos.Inscríbete antes del lunes 16 de noviembrerellenando este formulario con tus datosEl objetivo de este taller no es solo aprender a corregir gramática, sino entender la edición como un oficio creativo y crítico. ",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/herederas-del-texto-taller-de-edici%C3%B3n-correcci%C3%B3n-y-escritura",
-      "sources": [
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/herederas-del-texto-taller-de-edici%C3%B3n-correcci%C3%B3n-y-escritura"
-        }
-      ]
-    },
-    {
-      "id": "7d088f85b327cc6b",
-      "source": "jazz_en_dominicana",
-      "date": "2026-11-19",
-      "end": null,
-      "sessions": null,
-      "title": "Quino Xmas Jazz",
-      "venue": "Santo Domingo Country Club",
-      "zone": "",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [
-        "jazz"
-      ],
-      "description": "El Santo Domingo Country Club presenta, el jueves 19 de noviembre, el concierto Quino Xmas Jazz con el Q-I Jazz Quartett! Jueves 19 de noviembre a las 8:00pm en el Country Garden del Santo Domingo Country Club. Evento para socios, se permiten hasta 2 invitados. Alimentos y Bebida",
-      "ticketUrl": "",
-      "srcName": "Jazz en Dominicana",
-      "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-15-al-21-de.html#2026-11-19-quino-xmas-jazz",
-      "sources": [
-        {
-          "srcName": "Jazz en Dominicana",
-          "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-15-al-21-de.html#2026-11-19-quino-xmas-jazz"
-        }
-      ]
-    },
-    {
-      "id": "8b712f62b5011ec2",
-      "source": "zona_colonial",
-      "date": "2026-11-19",
-      "end": null,
-      "sessions": null,
-      "title": "Concert en vivo desde Cuba — Frank Delgado",
-      "venue": "Casa de Teatro",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 1000,
-      "price_max": 1000,
-      "time": "20:30",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/concert-en-vivo-desde-cuba-frank-delgado/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/concert-en-vivo-desde-cuba-frank-delgado/"
-        }
-      ]
-    },
-    {
-      "id": "9c20f79af708b457",
-      "source": "ticketmax",
-      "date": "2026-11-19",
-      "end": null,
-      "sessions": null,
-      "title": "FDT 10X10 | LA CASA DE BERNARDA ALBA",
-      "venue": "Casa de Teatro",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": 800,
-      "price_max": null,
-      "time": "20:30",
-      "kids": false,
-      "tags": [],
-      "description": "La historia gira en torno a Bernarda Alba, una viuda dominante y autoritaria que impone un luto riguroso sobre sus cinco hijas tras la muerte de su segundo marido. Encerradas en su casa, las hijas luchan por su libertad y deseos personales bajo la opresión y el control de su mad…",
-      "ticketUrl": "https://ticketmax.org/evento/254330/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/254330/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/254330/"
-        }
-      ]
-    },
-    {
-      "id": "1f71313aa393e67c",
-      "source": "zona_colonial",
-      "date": "2026-11-19",
-      "end": null,
-      "sessions": null,
-      "title": "Obra de teatro “La casa de Bernarda Alba” — En el marco del Festival Decenario Teatral 10×10",
-      "venue": "Casa de Teatro",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": 800,
-      "price_max": 800,
-      "time": "20:30",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/obra-de-teatro-la-casa-de-bernarda-alba-en-el-marco-del-festival-decenario-teatral-10x10/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/obra-de-teatro-la-casa-de-bernarda-alba-en-el-marco-del-festival-decenario-teatral-10x10/"
-        }
-      ]
-    },
-    {
-      "id": "28644da53c4ef8f5",
-      "source": "jazz_en_dominicana",
-      "date": "2026-11-19",
-      "end": null,
-      "sessions": null,
-      "title": "Sandy Gabriel Jazz Residence",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Música",
-      "price": 0,
-      "price_max": null,
-      "time": "21:30",
-      "kids": false,
-      "tags": [
-        "jazz"
-      ],
-      "description": "The Green Room sigue con el Sandy Gabriel Jazz Residence. En esta ocasión la banda conformada por Sandy Gabriel, Rafa Payán (guitarra), Ezequiel Francisco (batería), y Jeremías King (bajo), tendrán de especial invitado al muy reconocido José Peña Suazo. Una noche denominada: Jazz",
-      "ticketUrl": "",
-      "srcName": "Jazz en Dominicana",
-      "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-15-al-21-de.html#2026-11-19-sandy-gabriel-jazz-residence",
-      "sources": [
-        {
-          "srcName": "Jazz en Dominicana",
-          "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-15-al-21-de.html#2026-11-19-sandy-gabriel-jazz-residence"
         }
       ]
     },
@@ -1513,13 +1169,13 @@
       "title": "LOS TIEMPOS QUE VIVIMOS",
       "venue": "Casa de Teatro",
       "zone": "Ciudad Colonial",
-      "cat": "Cultura",
+      "cat": "Teatro",
       "price": 0,
       "price_max": null,
       "time": "20:00",
       "kids": false,
       "tags": [],
-      "description": "",
+      "description": "Festival Mujeres sobre ls TablasEntrada con boletas disponibles en el CCESD. Hasta agotar existencia.Lugar:Casa de Teatro",
       "ticketUrl": "",
       "srcName": "Zona Colonial",
       "srcUrl": "https://zonacolonial.do/actividad/los-tiempos-que-vivimos/",
@@ -1527,6 +1183,10 @@
         {
           "srcName": "Zona Colonial",
           "srcUrl": "https://zonacolonial.do/actividad/los-tiempos-que-vivimos/"
+        },
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/obra-de-teatro-los-tiempos-que-vivimos-%C2%A0"
         }
       ]
     },
@@ -1553,6 +1213,58 @@
         {
           "srcName": "Zona Colonial",
           "srcUrl": "https://zonacolonial.do/actividad/alfonso-cervantes-boleros/"
+        }
+      ]
+    },
+    {
+      "id": "0d2881dbc4a4a089",
+      "source": "zona_colonial",
+      "date": "2026-11-26",
+      "end": null,
+      "sessions": null,
+      "title": "Beaujolais Nouveau 2026",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 1000,
+      "price_max": 1000,
+      "time": "19:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/beaujolais-nouveau-2026/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/beaujolais-nouveau-2026/"
+        }
+      ]
+    },
+    {
+      "id": "187267bd4c2e87ae",
+      "source": "zona_colonial",
+      "date": "2026-11-26",
+      "end": null,
+      "sessions": null,
+      "title": "LA EVOLUCIÓN DEL TEMA MARIANO A TRAVÉS DE LA HISTORIA DEL ARTE",
+      "venue": "Museo de la Catedral",
+      "zone": "Ciudad Colonial",
+      "cat": "Arte",
+      "price": 0,
+      "price_max": null,
+      "time": "19:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/la-evolucion-del-tema-mariano-a-traves-de-la-historia-del-arte/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/la-evolucion-del-tema-mariano-a-traves-de-la-historia-del-arte/"
         }
       ]
     },
@@ -1609,6 +1321,32 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/TOURBACHARENGUE20ThanksgivingEdition-1"
+        }
+      ]
+    },
+    {
+      "id": "967ab48a3c213f7f",
+      "source": "zona_colonial",
+      "date": "2026-11-26",
+      "end": null,
+      "sessions": null,
+      "title": "Homenaje a Pablo Milanés: Canciones que permanecen",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 1000,
+      "price_max": 1000,
+      "time": "22:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/homenaje-a-pablo-milanes-canciones-que-permanecen/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/homenaje-a-pablo-milanes-canciones-que-permanecen/"
         }
       ]
     },
@@ -2370,6 +2108,32 @@
       ]
     },
     {
+      "id": "d2141a626c900dd3",
+      "source": "tix",
+      "date": "2026-12-01",
+      "end": null,
+      "sessions": null,
+      "title": "El show de: Harú, C.Cordero y Begoña Guillén",
+      "venue": "Local 3 : Calle Max. Herriquez Ureña 33",
+      "zone": "",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "21:00",
+      "kids": false,
+      "tags": [],
+      "description": "Comedia Local presenta a Harú, C.Cordero y Begoña Guillén. Tres comediantes, tres maneras de ver la vida y ninguna intención de quedarse callados. Haru llega con humor ácido y políticamente incorrecto; C. Cordero convierte la historia y las situaciones cotidianas en material par…",
+      "ticketUrl": "https://tix.do/event/ElshowdeHaruCCorderoyBegonaGuillen-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/ElshowdeHaruCCorderoyBegonaGuillen-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/ElshowdeHaruCCorderoyBegonaGuillen-1"
+        }
+      ]
+    },
+    {
       "id": "0addca6c0292ae72",
       "source": "tix",
       "date": "2026-12-02",
@@ -2707,6 +2471,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900558/"
+        }
+      ]
+    },
+    {
+      "id": "004e56ab7bc00356",
+      "source": "tix",
+      "date": "2026-12-10",
+      "end": "2026-12-11",
+      "sessions": null,
+      "title": "Terapia Intensiva",
+      "venue": "Local 3 : Calle Max. Herriquez Ureña 33",
+      "zone": "",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "RESEÑA – Terapia Intensiva Néstor Mora llega con Terapia Intensiva, un show de stand-up comedy donde las situaciones absurdas, las experiencias de la vida y esas pequeñas locuras que todos llevamos dentro se convierten en material para reír. Con su humor ácido, sus personajes y…",
+      "ticketUrl": "https://tix.do/event/TerapiaIntensiva-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/TerapiaIntensiva-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/TerapiaIntensiva-1"
         }
       ]
     },

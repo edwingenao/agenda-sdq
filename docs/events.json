@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-20T18:44:41+00:00",
-  "today": "2026-11-20",
-  "count": 134,
+  "generated_at": "2026-11-21T17:44:51+00:00",
+  "today": "2026-11-21",
+  "count": 130,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -186,110 +186,6 @@
       ]
     },
     {
-      "id": "3ff9a00589854853",
-      "source": "tix",
-      "date": "2026-11-20",
-      "end": "2026-11-29",
-      "sessions": null,
-      "title": "Señora, ¿me presta su marido?",
-      "venue": "Teatro Las Máscaras",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "¿Se puede prestar lo que se ama... o el matrimonio requiere de un alerta al buen sentido para sobrevivir? 💍✨ Regresa a las tablas de Teatro Las Máscaras «Señora, ¿me presta su marido?», una comedia imperdible que combina el humor fino, la chispa de la convivencia diaria y reflex…",
-      "ticketUrl": "https://tix.do/event/Senorameprestasumarido-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/Senorameprestasumarido-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/Senorameprestasumarido-1"
-        }
-      ]
-    },
-    {
-      "id": "c23acc81a7092aef",
-      "source": "cce",
-      "date": "2026-11-20",
-      "end": null,
-      "sessions": null,
-      "title": "Cyber Week 2026",
-      "venue": "Centro Cultural de España",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": null,
-      "price_max": null,
-      "time": "09:00",
-      "kids": false,
-      "tags": [],
-      "description": "Juntos más fuertes: protegiendo el futuro digital de América Latina y el Caribe and LAC4 0ct0b3rf35t",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/cyber-week-2026",
-      "sources": [
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/cyber-week-2026"
-        }
-      ]
-    },
-    {
-      "id": "5b94bc7e1f432004",
-      "source": "ticketmax",
-      "date": "2026-11-20",
-      "end": null,
-      "sessions": null,
-      "title": "Vino & Tinta 20.11.26 | 6:00 PM - 8:00 PM",
-      "venue": "Centro Cultural Casa Libros",
-      "zone": "",
-      "cat": "Arte",
-      "price": 300,
-      "price_max": null,
-      "time": "18:00",
-      "kids": false,
-      "tags": [],
-      "description": "¡Hay historias que no se leen: se sienten! Ana Almonte te invita a descubrir su novela y sus relatos. Viernes 20, 6 p. m., Casa Libros. ¡Asegura tu reserva! 829-264-8185.",
-      "ticketUrl": "https://ticketmax.org/evento/900666/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900666/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900666/"
-        }
-      ]
-    },
-    {
-      "id": "a67d39ca512d1758",
-      "source": "zona_colonial",
-      "date": "2026-11-20",
-      "end": null,
-      "sessions": null,
-      "title": "Recitales",
-      "venue": "NOV",
-      "zone": "Ciudad Colonial",
-      "cat": "Música",
-      "price": 0,
-      "price_max": null,
-      "time": "18:30",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/recitales/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/recitales/"
-        }
-      ]
-    },
-    {
       "id": "84e60ca43fed7d50",
       "source": "ticketmax",
       "date": "2026-11-20",
@@ -316,164 +212,28 @@
       ]
     },
     {
-      "id": "fcc740e16e27836a",
-      "source": "jazz_en_dominicana",
-      "date": "2026-11-20",
-      "end": null,
-      "sessions": null,
-      "title": "Recital de Grado “Feelings\"!",
-      "venue": "",
-      "zone": "",
-      "cat": "Música",
-      "price": 0,
-      "price_max": null,
-      "time": "19:30",
-      "kids": false,
-      "tags": [
-        "jazz"
-      ],
-      "description": "¨Feelings¨ invita al público a emprender un viaje por las emociones y descubrir las distintas formas en que estas cobran vida a través de la música. Este recital constituye la presentación del proyecto de grado de Jean Marcos Delgado, como parte de su proceso para obtener el títu",
-      "ticketUrl": "",
-      "srcName": "Jazz en Dominicana",
-      "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-15-al-21-de.html#2026-11-20-recital-de-grado-feelings",
-      "sources": [
-        {
-          "srcName": "Jazz en Dominicana",
-          "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-15-al-21-de.html#2026-11-20-recital-de-grado-feelings"
-        }
-      ]
-    },
-    {
-      "id": "d4db07d86faa3c35",
+      "id": "3ff9a00589854853",
       "source": "tix",
-      "date": "2026-11-20",
-      "end": null,
+      "date": "2026-11-21",
+      "end": "2026-11-29",
       "sessions": null,
-      "title": "ANA GABRIEL by Johanna Almanzar - TRIBUTO",
-      "venue": "Hard Rock Cafe Blue Mall",
-      "zone": "",
-      "cat": "Cultura",
+      "title": "Señora, ¿me presta su marido?",
+      "venue": "Teatro Las Máscaras",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
       "price": null,
       "price_max": null,
-      "time": "20:00",
+      "time": "",
       "kids": false,
       "tags": [],
-      "description": "Tributo a : ANA GABRIEL by Johanna Almanzar Sus grandes éxitos en una noche llena de emoción. Viernes 20 de Noviembre 8:00PM / Hard Rock Café Santo Domingo - Bluemall",
-      "ticketUrl": "https://tix.do/event/ANAGABRIELbyJohannaAlmanzarTRIBUTO-1",
+      "description": "¿Se puede prestar lo que se ama... o el matrimonio requiere de un alerta al buen sentido para sobrevivir? 💍✨ Regresa a las tablas de Teatro Las Máscaras «Señora, ¿me presta su marido?», una comedia imperdible que combina el humor fino, la chispa de la convivencia diaria y reflex…",
+      "ticketUrl": "https://tix.do/event/Senorameprestasumarido-1",
       "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/ANAGABRIELbyJohannaAlmanzarTRIBUTO-1",
+      "srcUrl": "https://tix.do/event/Senorameprestasumarido-1",
       "sources": [
         {
           "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/ANAGABRIELbyJohannaAlmanzarTRIBUTO-1"
-        }
-      ]
-    },
-    {
-      "id": "a9a340fba991b777",
-      "source": "jazz_en_dominicana",
-      "date": "2026-11-20",
-      "end": null,
-      "sessions": null,
-      "title": "Jazz con acento alemán!",
-      "venue": "",
-      "zone": "",
-      "cat": "Música",
-      "price": 0,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [
-        "jazz"
-      ],
-      "description": "La Embajada de Alemania, en colaboración con la Escuela Internacional de Música de la Universidad Nacional Pedro Henríquez Ureña (UNPHU), invita a disfrutar de una noche llena de música y ritmo. Estudiantes de intercambio alemanes y dominicanos se unen para darle un giro diferent",
-      "ticketUrl": "",
-      "srcName": "Jazz en Dominicana",
-      "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-15-al-21-de.html#2026-11-20-jazz-con-acento-alemán",
-      "sources": [
-        {
-          "srcName": "Jazz en Dominicana",
-          "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-15-al-21-de.html#2026-11-20-jazz-con-acento-alemán"
-        }
-      ]
-    },
-    {
-      "id": "b1f58ee0ae3a8eeb",
-      "source": "jazz_en_dominicana",
-      "date": "2026-11-20",
-      "end": null,
-      "sessions": null,
-      "title": "Pirou - Tea for Two",
-      "venue": "Dominican Fiesta Hotel & Casino",
-      "zone": "Mirador Sur",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [
-        "jazz"
-      ],
-      "description": "Para el viernes 20 de noviembre, el Fiesta Sunset Jazz se honra en presentar el concierto temático ¨Pirou - Tea for Two¨!! La excelente y muy carismática vocalista, en la intimidad que da el formato de dueto, estará acompañada de Gustavo Ël Gus¨ Rodríguez en piano, siendo estos l",
-      "ticketUrl": "",
-      "srcName": "Jazz en Dominicana",
-      "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-15-al-21-de.html#2026-11-20-pirou-tea-for-two",
-      "sources": [
-        {
-          "srcName": "Jazz en Dominicana",
-          "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-15-al-21-de.html#2026-11-20-pirou-tea-for-two"
-        }
-      ]
-    },
-    {
-      "id": "9770a05c406a90f7",
-      "source": "ticketmax",
-      "date": "2026-11-20",
-      "end": null,
-      "sessions": null,
-      "title": "FDT 10X10 | LA CASA DE BERNARDA ALBA",
-      "venue": "Casa de Teatro",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": 800,
-      "price_max": null,
-      "time": "20:30",
-      "kids": false,
-      "tags": [],
-      "description": "La historia gira en torno a Bernarda Alba, una viuda dominante y autoritaria que impone un luto riguroso sobre sus cinco hijas tras la muerte de su segundo marido. Encerradas en su casa, las hijas luchan por su libertad y deseos personales bajo la opresión y el control de su mad…",
-      "ticketUrl": "https://ticketmax.org/evento/254338/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/254338/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/254338/"
-        }
-      ]
-    },
-    {
-      "id": "b90376fec888571a",
-      "source": "ticketmax",
-      "date": "2026-11-20",
-      "end": null,
-      "sessions": null,
-      "title": "Sí y… Nights! Improv Show 🎭",
-      "venue": "Velvet Room",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 700,
-      "price_max": null,
-      "time": "21:30",
-      "kids": false,
-      "tags": [],
-      "description": "Sí y Nights: Improv Show Una noche de pura improvisación. Cinco actores en escena, sin guion ni dirección: lo que pase dependerá del momento… y del público. ¡Entretenimiento fuera de lo común y risas garantizadas! ⭐️ Host: Suzette Reyes 📍 Velvet Room, Bloom, Av. Enriquillo 28 🍹🍔…",
-      "ticketUrl": "https://ticketmax.org/evento/900143/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900143/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900143/"
+          "srcUrl": "https://tix.do/event/Senorameprestasumarido-1"
         }
       ]
     },
@@ -977,6 +737,58 @@
       ]
     },
     {
+      "id": "e022cb22b962dba9",
+      "source": "cce",
+      "date": "2026-11-23",
+      "end": null,
+      "sessions": null,
+      "title": "Superficies comunes: Tensiones de ida y vuelta",
+      "venue": "Centro Cultural de España",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "09:00",
+      "kids": false,
+      "tags": [],
+      "description": "Entrada libre hasta completar aforoPrograma Patrimonio Cltural y NaturalLa práctica artística en una inmensa mayoría está atravesada por la precariedad, -solo hay excepciones sobre esto, algunas muy válidas, admiradas e incluso ansiadas, otras bastante cuestionables-. La práctica",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/superficies-comunes-tensiones-de-ida-y-vuelta",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/superficies-comunes-tensiones-de-ida-y-vuelta"
+        }
+      ]
+    },
+    {
+      "id": "785832807aeb9f2a",
+      "source": "cce",
+      "date": "2026-11-24",
+      "end": null,
+      "sessions": null,
+      "title": "Arte en el espacio público: ¿A quién pertenece la ciudad?",
+      "venue": "Centro Cultural de España en Santo Domingo",
+      "zone": "Ciudad Colonial",
+      "cat": "Arte",
+      "price": 0,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "Participan Lydia Garvin, Diana Prieto y Luis Graham.Entrada libre hasta completar aforoPrograma Patrimonio Cultural y Natural / Acción y Difusión CulturalEl arte en el espacio público constituye un territorio de encuentro, negociación y conflicto en el que convergen la creación a",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/arte-en-el-espacio-p%C3%BAblico-%C2%BFa-qui%C3%A9n-pertenece-la-ciudad-",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/arte-en-el-espacio-p%C3%BAblico-%C2%BFa-qui%C3%A9n-pertenece-la-ciudad-"
+        }
+      ]
+    },
+    {
       "id": "c072d7b10d59acd7",
       "source": "sic",
       "date": "2026-11-24",
@@ -1146,9 +958,7 @@
       "price_max": null,
       "time": "20:00",
       "kids": false,
-      "tags": [
-        "formacion"
-      ],
+      "tags": [],
       "description": "Lo que la cama sabe y la boca calla es un show de Elaine Féliz para reírnos de la sexualidad real: la del deseo, la culpa, el cuerpo, los silencios, los límites y todas esas ideas mal aprendidas que también se meten en la cama. Una noche con humor, verdad y cero anestesia para h…",
       "ticketUrl": "https://ticketmax.org/evento/900002/",
       "srcName": "Ticketmax",
@@ -1321,6 +1131,34 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/TOURBACHARENGUE20ThanksgivingEdition-1"
+        }
+      ]
+    },
+    {
+      "id": "7e216255c42b0cf9",
+      "source": "jazz_en_dominicana",
+      "date": "2026-11-26",
+      "end": null,
+      "sessions": null,
+      "title": "Jazz Night",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "21:30",
+      "kids": false,
+      "tags": [
+        "jazz"
+      ],
+      "description": "El jazz vuelve a encender, cada jueves, la noche de Jazz que ofrece The Green Room. Este jueves 26 con The Green Room Band. Jazz Night at The Green Room, cada jueves a partir de las 9:30PM en The Green Room en la Calle Andrés Julio Aybar 17 segundo piso, del Ensanche Piantini. No",
+      "ticketUrl": "",
+      "srcName": "Jazz en Dominicana",
+      "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-22-al-28-de.html#2026-11-26-jazz-night",
+      "sources": [
+        {
+          "srcName": "Jazz en Dominicana",
+          "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-22-al-28-de.html#2026-11-26-jazz-night"
         }
       ]
     },
@@ -1503,6 +1341,60 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900301/"
+        }
+      ]
+    },
+    {
+      "id": "f9b69f12af0d1c0e",
+      "source": "cce",
+      "date": "2026-11-27",
+      "end": null,
+      "sessions": null,
+      "title": "Exposición de Carmen Talavera",
+      "venue": "CCESD",
+      "zone": "Ciudad Colonial",
+      "cat": "Arte",
+      "price": 0,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "Entrada libre hasta completar aforoPrograma Fortalecimiento Iberoamericano",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/exposici%C3%B3n-de-carmen-talavera",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/exposici%C3%B3n-de-carmen-talavera"
+        }
+      ]
+    },
+    {
+      "id": "22927afc11034172",
+      "source": "jazz_en_dominicana",
+      "date": "2026-11-27",
+      "end": null,
+      "sessions": null,
+      "title": "Fiesta Sunset Jazz presenta - Marjorie Jiménez - Boleros y Bolemengues",
+      "venue": "Dominican Fiesta Hotel & Casino",
+      "zone": "Mirador Sur",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [
+        "jazz"
+      ],
+      "description": "El viernes 27 , y para cerrar las presentaciones del mes de noviembre, Marjorie Jiménez retorna al Dominican Fiesta Hotel para tomar el control de la noche desde la tarima de La Azotea para dirigir un festejo musical, rindiendo honor al Bolero y al Bolemengue, en el Fiesta Sunset",
+      "ticketUrl": "",
+      "srcName": "Jazz en Dominicana",
+      "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-22-al-28-de.html#2026-11-27-fiesta-sunset-jazz-presenta-marjorie-jiménez-boler",
+      "sources": [
+        {
+          "srcName": "Jazz en Dominicana",
+          "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-22-al-28-de.html#2026-11-27-fiesta-sunset-jazz-presenta-marjorie-jiménez-boler"
         }
       ]
     },

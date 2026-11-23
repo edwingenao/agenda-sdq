@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-22T17:59:14+00:00",
-  "today": "2026-11-22",
-  "count": 117,
+  "generated_at": "2026-11-23T22:11:27+00:00",
+  "today": "2026-11-23",
+  "count": 115,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -186,9 +186,35 @@
       ]
     },
     {
+      "id": "2530f693777a0de7",
+      "source": "tix",
+      "date": "2026-11-23",
+      "end": "2026-11-25",
+      "sessions": null,
+      "title": "COMEDY SHOWCASE",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [],
+      "description": "Comedy Showcase en The Green Room. Miércoles 18 de noviembre, 9:30 PM. Reserva gratis. Calle Andrés Julio Aybar 17, Piantini.",
+      "ticketUrl": "https://tix.do/event/COMEDYSHOWCASE-30",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/COMEDYSHOWCASE-30",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/COMEDYSHOWCASE-30"
+        }
+      ]
+    },
+    {
       "id": "3ff9a00589854853",
       "source": "tix",
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "end": "2026-11-29",
       "sessions": null,
       "title": "Señora, ¿me presta su marido?",
@@ -208,113 +234,6 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/Senorameprestasumarido-1"
-        }
-      ]
-    },
-    {
-      "id": "561e192eb520d8fc",
-      "source": "zona_colonial",
-      "date": "2026-11-22",
-      "end": null,
-      "sessions": null,
-      "title": "RALLY COLONIAL TRAMPOLÍN",
-      "venue": "NOV",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 1000,
-      "price_max": 1000,
-      "time": "10:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/rally-colonial-trampolin/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/rally-colonial-trampolin/"
-        }
-      ]
-    },
-    {
-      "id": "2ff95f93a2860a56",
-      "source": "ticketmax",
-      "date": "2026-11-22",
-      "end": null,
-      "sessions": null,
-      "title": "Cuentacuentos con Tia Arelis | 4:00 PM - 6:00 PM",
-      "venue": "Centro Cultural Casa Libros",
-      "zone": "",
-      "cat": "Arte",
-      "price": 1,
-      "price_max": null,
-      "time": "16:00",
-      "kids": true,
-      "tags": [],
-      "description": "✨ Su imaginación tiene una cita. ¡Contigo! Regálale a tu hijo una tarde de cuentos, sonrisas y tiempo juntos. Arelis Estévez nos invita a descubrir La niña que volaba con el viento. 📖 🗓 Domingo 22 de noviembre · 4:00 p. m. 📍 Casa Libros: Moisés García 3, Gazcue, próximo al Palac…",
-      "ticketUrl": "https://ticketmax.org/evento/900697/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900697/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900697/"
-        }
-      ]
-    },
-    {
-      "id": "ab40d805b00fbad9",
-      "source": "recurring",
-      "date": "2026-11-22",
-      "end": null,
-      "sessions": null,
-      "title": "Domingos de Bonyé",
-      "venue": "Ruinas de San Francisco, calle Hostos, Zona Colonial",
-      "zone": "Ciudad Colonial",
-      "cat": "Música",
-      "price": 0,
-      "price_max": null,
-      "time": "18:00",
-      "kids": false,
-      "tags": [
-        "cultura",
-        "serie"
-      ],
-      "description": "Música en vivo al aire libre con el grupo Bonyé: tambora, son, salsa y merengue.",
-      "ticketUrl": "",
-      "srcName": "SalsaVida",
-      "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-11-22",
-      "sources": [
-        {
-          "srcName": "SalsaVida",
-          "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-11-22"
-        }
-      ]
-    },
-    {
-      "id": "506c00270f2e5e0d",
-      "source": "ticketmax",
-      "date": "2026-11-22",
-      "end": null,
-      "sessions": null,
-      "title": "FDT 10X10 | TERAPIA",
-      "venue": "Teatro Guloya",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 800,
-      "price_max": null,
-      "time": "19:30",
-      "kids": false,
-      "tags": [],
-      "description": "Un hombre llega al consultorio de un psicoanalista para solicitar una cita para su madre… una madre que, aparentemente, no existe. A partir de ese encuentro, el terapeuta se ve envuelto en una sucesión de situaciones disparatadas que ponen a prueba su propia cordura. Mientras el…",
-      "ticketUrl": "https://ticketmax.org/evento/254701/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/254701/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/254701/"
         }
       ]
     },
@@ -1945,6 +1864,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/255189/"
+        }
+      ]
+    },
+    {
+      "id": "897280ad63aead25",
+      "source": "ticketmax",
+      "date": "2026-12-08",
+      "end": null,
+      "sessions": null,
+      "title": "El Hijo del Pollero en Local 3",
+      "venue": "Local 3",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 1000,
+      "price_max": null,
+      "time": "20:30",
+      "kids": true,
+      "tags": [],
+      "description": "El Hijo del Pollero es mi show que celebra un poco de dónde vengo y el esfuerzo de mi familia. Denle para allá, pasémosla lindo. Y vemos si sale algún cuento de su familia.",
+      "ticketUrl": "https://ticketmax.org/evento/900732/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900732/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900732/"
         }
       ]
     },

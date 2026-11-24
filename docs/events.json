@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-23T22:11:27+00:00",
-  "today": "2026-11-23",
-  "count": 115,
+  "generated_at": "2026-11-24T20:48:42+00:00",
+  "today": "2026-11-24",
+  "count": 124,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -186,35 +186,9 @@
       ]
     },
     {
-      "id": "2530f693777a0de7",
-      "source": "tix",
-      "date": "2026-11-23",
-      "end": "2026-11-25",
-      "sessions": null,
-      "title": "COMEDY SHOWCASE",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "Comedy Showcase en The Green Room. Miércoles 18 de noviembre, 9:30 PM. Reserva gratis. Calle Andrés Julio Aybar 17, Piantini.",
-      "ticketUrl": "https://tix.do/event/COMEDYSHOWCASE-30",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/COMEDYSHOWCASE-30",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/COMEDYSHOWCASE-30"
-        }
-      ]
-    },
-    {
       "id": "3ff9a00589854853",
       "source": "tix",
-      "date": "2026-11-23",
+      "date": "2026-11-24",
       "end": "2026-11-29",
       "sessions": null,
       "title": "Señora, ¿me presta su marido?",
@@ -234,32 +208,6 @@
         {
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/Senorameprestasumarido-1"
-        }
-      ]
-    },
-    {
-      "id": "e022cb22b962dba9",
-      "source": "cce",
-      "date": "2026-11-23",
-      "end": null,
-      "sessions": null,
-      "title": "Superficies comunes: Tensiones de ida y vuelta",
-      "venue": "Centro Cultural de España",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "09:00",
-      "kids": false,
-      "tags": [],
-      "description": "Entrada libre hasta completar aforoPrograma Patrimonio Cltural y NaturalLa práctica artística en una inmensa mayoría está atravesada por la precariedad, -solo hay excepciones sobre esto, algunas muy válidas, admiradas e incluso ansiadas, otras bastante cuestionables-. La práctica",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/superficies-comunes-tensiones-de-ida-y-vuelta",
-      "sources": [
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/superficies-comunes-tensiones-de-ida-y-vuelta"
         }
       ]
     },
@@ -446,6 +394,32 @@
       ]
     },
     {
+      "id": "bbe6fccf4a9f7b48",
+      "source": "zona_colonial",
+      "date": "2026-11-25",
+      "end": null,
+      "sessions": null,
+      "title": "Proyección de la película “Streets of Fire”",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Cine",
+      "price": 0,
+      "price_max": null,
+      "time": "18:40",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/proyeccion-de-la-pelicula-streets-of-fire/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/proyeccion-de-la-pelicula-streets-of-fire/"
+        }
+      ]
+    },
+    {
       "id": "0b4eff3601d6a40a",
       "source": "ticketmax",
       "date": "2026-11-25",
@@ -502,6 +476,58 @@
       ]
     },
     {
+      "id": "5aeba2c2bab5ed38",
+      "source": "zona_colonial",
+      "date": "2026-11-25",
+      "end": null,
+      "sessions": null,
+      "title": "HERMINIA” EN LA GRUTA",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Teatro",
+      "price": 200,
+      "price_max": 200,
+      "time": "20:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/herminia-en-la-gruta/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/herminia-en-la-gruta/"
+        }
+      ]
+    },
+    {
+      "id": "2530f693777a0de7",
+      "source": "tix",
+      "date": "2026-11-25",
+      "end": null,
+      "sessions": null,
+      "title": "COMEDY SHOWCASE",
+      "venue": "The Green Room",
+      "zone": "Piantini",
+      "cat": "Teatro",
+      "price": null,
+      "price_max": null,
+      "time": "21:30",
+      "kids": false,
+      "tags": [],
+      "description": "Comedy Showcase en The Green Room. Miércoles 25 de noviembre. Puerta 7:00PM | Show 9:30PM. Reserva gratis. Calle Andrés Julio Aybar 17, Piantini.",
+      "ticketUrl": "https://tix.do/event/COMEDYSHOWCASE-30",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/COMEDYSHOWCASE-30",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/COMEDYSHOWCASE-30"
+        }
+      ]
+    },
+    {
       "id": "8e10ca6151a7af1d",
       "source": "zona_colonial",
       "date": "2026-11-25",
@@ -524,6 +550,58 @@
         {
           "srcName": "Zona Colonial",
           "srcUrl": "https://zonacolonial.do/actividad/alfonso-cervantes-boleros/"
+        }
+      ]
+    },
+    {
+      "id": "dc834075bfd1f541",
+      "source": "zona_colonial",
+      "date": "2026-11-26",
+      "end": null,
+      "sessions": null,
+      "title": "Evolución del Merengue Dominicano",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "16:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/evolucion-del-merengue-dominicano/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/evolucion-del-merengue-dominicano/"
+        }
+      ]
+    },
+    {
+      "id": "639ec93e12581f1a",
+      "source": "zona_colonial",
+      "date": "2026-11-26",
+      "end": null,
+      "sessions": null,
+      "title": "DÍA NACIONAL DEL MERENGUE",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/dia-nacional-del-merengue/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/dia-nacional-del-merengue/"
         }
       ]
     },
@@ -653,13 +731,17 @@
         "jazz"
       ],
       "description": "El jazz vuelve a encender, cada jueves, la noche de Jazz que ofrece The Green Room. Este jueves 26 con The Green Room Band. Jazz Night at The Green Room, cada jueves a partir de las 9:30PM en The Green Room en la Calle Andrés Julio Aybar 17 segundo piso, del Ensanche Piantini. No",
-      "ticketUrl": "",
+      "ticketUrl": "https://tix.do/event/JAZZNIGHT-27",
       "srcName": "Jazz en Dominicana",
       "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-22-al-28-de.html#2026-11-26-jazz-night",
       "sources": [
         {
           "srcName": "Jazz en Dominicana",
           "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-22-al-28-de.html#2026-11-26-jazz-night"
+        },
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/JAZZNIGHT-27"
         }
       ]
     },
@@ -764,6 +846,32 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/viaje-al-infinito/"
+        }
+      ]
+    },
+    {
+      "id": "d9c0ede77e87e786",
+      "source": "zona_colonial",
+      "date": "2026-11-27",
+      "end": null,
+      "sessions": null,
+      "title": "ALCANTARILLA DE LAS ATARAZANAS REALES",
+      "venue": "NOV",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 1300,
+      "price_max": 1300,
+      "time": "09:30",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/alcantarilla-de-las-atarazanas-reales-4/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/alcantarilla-de-las-atarazanas-reales-4/"
         }
       ]
     },
@@ -896,6 +1004,32 @@
         {
           "srcName": "Jazz en Dominicana",
           "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-22-al-28-de.html#2026-11-27-fiesta-sunset-jazz-presenta-marjorie-jiménez-boler"
+        }
+      ]
+    },
+    {
+      "id": "0cdfbbc6958070f3",
+      "source": "zona_colonial",
+      "date": "2026-11-27",
+      "end": null,
+      "sessions": null,
+      "title": "IVANA LOYOLA PRESENTA: “CUERDAS EN EL OCASO”",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 1200,
+      "price_max": 1200,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/ivana-loyola-presenta-cuerdas-en-el-ocaso/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/ivana-loyola-presenta-cuerdas-en-el-ocaso/"
         }
       ]
     },
@@ -1035,7 +1169,7 @@
       "date": "2026-11-28",
       "end": null,
       "sessions": null,
-      "title": "Social Brunch Party @Bloom 🌼 Sábado 28 Noviembre",
+      "title": "Social Brunch Party | Hennesy @Bloom 🌼 Sábado 28 Noviembre",
       "venue": "Bloom SDQ",
       "zone": "",
       "cat": "Música",
@@ -1044,7 +1178,7 @@
       "time": "11:00",
       "kids": false,
       "tags": [],
-      "description": "SOCIAL BRUNCH PARTY ☀️🥂 | 28 de noviembre Early Bird RD$2,500 Válido hasta agotar existencias o hasta el 16 de agosto, lo que ocurra primero. Entrada general: RD$3,000 Tu entrada incluye 4 horas de All You Can Drink de 11:00 a.m. a 3:00p.m. con: 🍾 Mimosas 🍹 Palomas 🍷 Bandarra Sp…",
+      "description": "SOCIAL BRUNCH PARTY ☀️🥂 | 28 de noviembre Early Bird RD$2,500 Válido hasta agotar existencias o hasta el 16 de agosto, lo que ocurra primero. Entrada general: RD$3,000 Tu entrada incluye 4 horas de Open Bar de 11:00 a.m. a 3:00p.m. con: 🍾 Mimosas 🍹 Palomas 🍷 Bandarra Spritz 🍺 Ce…",
       "ticketUrl": "https://ticketmax.org/evento/900014/",
       "srcName": "Ticketmax",
       "srcUrl": "https://ticketmax.org/evento/900014/",
@@ -1553,6 +1687,38 @@
       ]
     },
     {
+      "id": "06b6dbcdbb792e0b",
+      "source": "cce",
+      "date": "2026-12-01",
+      "end": "2026-12-10",
+      "sessions": [
+        "2026-12-01",
+        "2026-12-03",
+        "2026-12-10"
+      ],
+      "title": "Taller de cerámica con Carmen Talavera",
+      "venue": "Centro Cultural de España en Santo Domingo",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "21:00",
+      "kids": false,
+      "tags": [
+        "formacion"
+      ],
+      "description": "Fragmentos que conectan: Relieves, pátinas e hilos de conexiónImpartido por Carmen TalaveraInscripción antes del 27 de noviembrerellenando este formulario con tus datosPrograma Fortalecimiento del Espacio Iberoamericano",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/taller-de-cer%C3%A1mica-con-carmen-talavera",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/taller-de-cer%C3%A1mica-con-carmen-talavera"
+        }
+      ]
+    },
+    {
       "id": "0addca6c0292ae72",
       "source": "tix",
       "date": "2026-12-02",
@@ -1627,6 +1793,32 @@
         {
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/brito-2/"
+        }
+      ]
+    },
+    {
+      "id": "15170ae4e0edb16d",
+      "source": "cce",
+      "date": "2026-12-04",
+      "end": null,
+      "sessions": null,
+      "title": "Suns en el Centro",
+      "venue": "Centro Cultural de España",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": 0,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "Entrada libre hasta completar aforoPrograma Fortalecimiento del espacio cultural IberoamericanoSUNS es el nuevo proyecto del guitarrista y productor Surya Cabral, una propuesta que combina la intensidad del rock con la libertad y sofisticación del jazz a través de la improvisació",
+      "ticketUrl": "",
+      "srcName": "Centro Cultural de España",
+      "srcUrl": "https://ccesd.aecid.es/w/suns-en-el-centro",
+      "sources": [
+        {
+          "srcName": "Centro Cultural de España",
+          "srcUrl": "https://ccesd.aecid.es/w/suns-en-el-centro"
         }
       ]
     },
@@ -1761,6 +1953,32 @@
       ]
     },
     {
+      "id": "b6aea8882f385f54",
+      "source": "ticketmax",
+      "date": "2026-12-05",
+      "end": "2026-12-28",
+      "sessions": null,
+      "title": "Microrrelato en Casa | Sábado 5 al Lunes 28 Diciembre 2026",
+      "venue": "Centro Cultural Casa Libros",
+      "zone": "",
+      "cat": "Arte",
+      "price": 300,
+      "price_max": null,
+      "time": "20:30",
+      "kids": true,
+      "tags": [],
+      "description": "El Centro Cultural Casa Libros presenta Norman, una propuesta teatral de suspenso en un ambiente íntimo, bajo la dirección de Pilar Pineda, con actuación de David Melo y dramaturgia de Ariel Feliciano. Funciones: 5, 6, 12, 19, 20, 26, 27 y 28 de diciembre de 2026. Horario: 8:30…",
+      "ticketUrl": "https://ticketmax.org/evento/900749/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900749/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900749/"
+        }
+      ]
+    },
+    {
       "id": "7168276957b9a139",
       "source": "teatro_nacional",
       "date": "2026-12-06",
@@ -1864,6 +2082,32 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/255189/"
+        }
+      ]
+    },
+    {
+      "id": "5b1008df4d9bba22",
+      "source": "ticketmax",
+      "date": "2026-12-06",
+      "end": null,
+      "sessions": null,
+      "title": "Microrrelato en Casa | 8:30 PM - 12:00 AM",
+      "venue": "Centro Cultural Casa Libros",
+      "zone": "",
+      "cat": "Arte",
+      "price": 300,
+      "price_max": null,
+      "time": "20:30",
+      "kids": true,
+      "tags": [],
+      "description": "El Centro Cultural Casa Libros presenta Norman, una propuesta teatral de suspenso en un ambiente íntimo, bajo la dirección de Pilar Pineda, con actuación de David Melo y dramaturgia de Ariel Feliciano. Funciones: 5, 6, 12, 19, 20, 26, 27 y 28 de diciembre de 2026. Horario: 8:30…",
+      "ticketUrl": "https://ticketmax.org/evento/900753/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900753/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900753/"
         }
       ]
     },

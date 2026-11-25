@@ -198,9 +198,21 @@ def is_duplicate_listing(a: Event, b: Event) -> bool:
         return False
     if a.dates != b.dates or not a.start_time or a.start_time != b.start_time:
         return False
-    if not venues_compatible(a.venue, b.venue)[0]:
+    ok_v, venue_confirmed = venues_compatible(a.venue, b.venue)
+    if not ok_v:
         return False
-    return title_similarity(a.title, b.title) >= 0.85
+    if title_similarity(a.title, b.title) >= 0.85:
+        return True
+    # Zona Colonial publica el mismo recorrido con dos nombres («Descubre Santo Domingo Subterráneo» y «Alcantarilla de
+    # las Atarazanas Reales»), a veces sin lugar en una de las dos tarjetas. Sin título parecido pedimos más: mismo
+    # precio de pago y que a una le falte el lugar (si los dos lugares están y coinciden ya basta el título).
+    return (
+        a.source == "zona_colonial"
+        and not venue_confirmed
+        and bool(a.price_min)
+        and a.price_min == b.price_min
+        and a.price_max == b.price_max
+    )
 
 
 def is_same_run(a: Event, b: Event) -> bool:

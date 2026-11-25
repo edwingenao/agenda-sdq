@@ -22,6 +22,13 @@ from agenda.sources.base import Source
 
 LIST_URL = "https://zonacolonial.do/actividades/"
 DATE_TOKEN = re.compile(r"\b(ENE|FEB|MAR|ABR|MAY|JUN|JUL|AGO|SEP|OCT|NOV|DIC)\s*(\d{1,2})\b", re.I)
+RANGE_TOKEN = re.compile(r"\b(ENE|FEB|MAR|ABR|MAY|JUN|JUL|AGO|SEP|OCT|NOV|DIC)\s*(\d{1,2})\s*[-–]\s*(\d{1,2})\b", re.I)
+# Líneas de la tarjeta que no son el lugar: mes, día o rango ("25-28"), etiquetas de precio y botones.
+NOT_VENUE = re.compile(
+    r"^(ENE|FEB|MAR|ABR|MAY|JUN|JUL|AGO|SEP|OCT|NOV|DIC|\d{1,2}(\s*[-–]\s*\d{1,2})?|PRECIO|ENTRADA|GRATIS|\$\s*[\d.,]+\+?)$",
+    re.I,
+)
+SUFFIX = re.compile(r"\s*•\s*Zona Colonial.*$", re.I)
 BLOCK = {"agendar", "ver mapa", "ver más", "ver mas", "leer más", "leer mas", "más info", "más información"}
 KNOWN_VENUES = [
     "Casa de Teatro",
@@ -67,6 +74,13 @@ def card_times(tree) -> dict[tuple[str, str], str]:
     return out
 
 
+def clean_venue(line: str) -> str:
+    """"Casa de Teatro (Arzobispo Meriño #110, …) • Zona Colonial, Santo Domingo" -> "Casa de Teatro"."""
+    line = SUFFIX.sub("", line).strip()
+    name = re.split(r"\s*\(", line, maxsplit=1)[0].strip(" ,.")
+    return name or line
+
+
 def parse_listing(html: str, base_url: str, today) -> list[Event]:
     tree = parse(html)
     times = card_times(tree)
@@ -106,18 +120,26 @@ def parse_listing(html: str, base_url: str, today) -> list[Event]:
         text = c["text"]
         m = DATE_TOKEN.search(text)
         dt = month_day(m.group(1), m.group(2), today)
-        if dt is None or dt < today:
+        if dt is None:
+            continue
+        end_dt = None
+        rm = RANGE_TOKEN.search(text)
+        if rm:  # "NOV 25-28": varios días de un mismo mes; sale una vez con "Hasta"
+            end_dt = month_day(rm.group(1), rm.group(3), today)
+            if end_dt is not None and end_dt <= dt:
+                end_dt = None
+        if (end_dt or dt) < today:
             continue
 
         lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
         venue = next((v for v in KNOWN_VENUES if v.lower() in text.lower()), "")
         if not venue:
             for ln in lines:
-                if ln == title or DATE_TOKEN.fullmatch(ln) or ln.lower() in BLOCK:
+                if ln == title or NOT_VENUE.match(ln) or ln.lower() in BLOCK:
                     continue
                 if parse_price(ln)[0] is not None:
                     continue
-                venue = ln
+                venue = clean_venue(ln)
                 break
         is_free, pmin, pmax = parse_price(text)  # "$1200" se asume RD$
         other = " ".join(ln for ln in lines if ln != venue and not venue.startswith(ln))
@@ -128,12 +150,13 @@ def parse_listing(html: str, base_url: str, today) -> list[Event]:
             if dt.isoformat() not in ev.dates:
                 ev.dates = sorted(ev.dates + [dt.isoformat()])
             continue
+        dates = [dt.isoformat()] + ([end_dt.isoformat()] if end_dt else [])
         by_url[url] = Event(
             source="zona_colonial",
             source_name="Zona Colonial",
             url=url,
             title=title,
-            dates=[dt.isoformat()],
+            dates=dates,
             start_time=times.get((dt.isoformat(), _norm(title))),
             venue=venue,
             zone=zone_for(venue, "Ciudad Colonial"),

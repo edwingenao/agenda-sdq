@@ -32,10 +32,13 @@ Si un documento y el código no coinciden, manda el código; actualiza el docume
    (`data/agenda.db`, no se versiona).
 2. **Exportación** (`agenda/export.py`): toma los eventos próximos, une los repetidos entre fuentes
    (`agenda/dedupe.py`) y escribe `docs/events.json`.
+   Al exportar, cada evento cuyo lugar está en `agenda/venues.json` gana `venueId` y, si el lugar tiene coordenadas,
+   `lat`, `lng` y `geoPrecision`; además se escribe `docs/venues.json` con los lugares de esos eventos (ver "Lugares y mapa").
 3. **Workflow** (`.github/workflows/scrape.yml`): corre a diario a las 6:17 a. m. de Santo Domingo y publica
-   `events.json`. Necesita la variable de repositorio `AGENDA_CONTACT` (ya definida).
+   `events.json` y `venues.json`. Necesita la variable de repositorio `AGENDA_CONTACT` (ya definida).
 4. **Sitio** (`docs/index.html`): una sola página sin dependencias que carga `events.json`. Pantallas Bienvenida, Hoy,
-   Calendario, Guardados y detalle.
+   Calendario, Guardados y detalle. Desde 1180 px de ancho usa el diseño de escritorio (barra superior, filtros
+   a la izquierda, mes en cuadrícula y panel de agenda o detalle a la derecha); abajo de eso, el de celular.
 
 ## Fuentes
 
@@ -48,12 +51,14 @@ Si un documento y el código no coinciden, manda el código; actualiza el docume
 | `zona_colonial` | zonacolonial.do | **En pausa**: responde 403 a los servidores de GitHub. Desde una PC funciona |
 | `cce` | Centro Cultural de España | Activa. Solo la página 1 del buscador (robots.txt), 30 s entre peticiones |
 | `jazz_en_dominicana` | Jazz en Dominicana (feed Atom) | Activa. Solo Santo Domingo |
-| `teatro_las_mascaras` | Teatro Las Máscaras (portada del sitio) | Nueva, sin HTML real verificado: lee el texto de la portada (fechas, precio de la boleta, enlace a tix.do). Sin hora única: viernes y sábado 8:30 p. m., domingo 6:30 p. m. (va en la descripción) |
+| `teatro_las_mascaras` | Teatro Las Máscaras (portada del sitio) | Nueva, verificada con una corrida real el 24 nov 2026 (3 eventos próximos bien leídos): lee el texto de la portada (fechas, precio de la boleta, enlace a tix.do). Sin hora única: viernes y sábado 8:30 p. m., domingo 6:30 p. m. (va en la descripción) |
 | `fundacion_sinfonia` | Fundación Sinfonía (sinfonia.org.do) | Nueva. Conciertos de la Orquesta Sinfónica Nacional con hora y precio; completa la hora de los del Teatro Nacional al unir repetidos |
 | `ticketmax` | Ticketmax (ticketera, ticketmax.org) | Nueva. Lee la portada (solo Santo Domingo) y el JSON-LD de cada evento: hora y precio exactos. Detrás de los sitios de las salas en `SOURCE_PRIORITY` |
 | `tix` | TIX (ticketera tix.do, su API pública) | Nueva. Hora real de cada función; sin precio (solo "gratis") ni ciudad: publica solo salas reconocidas de Santo Domingo y la corrida lista las demás. Pendiente: escribirle a info@tix.do (Edwin) |
+| `acento_cultural` | Acento Cultural (agenda semanal de prensa, leída con IA) | Nueva. Necesita el secreto `ANTHROPIC_API_KEY` en GitHub; sin él no publica nada. Todo sale para revisión; precio y gratis se contrastan con el texto de cada evento. Va al final de `SOURCE_PRIORITY` |
+| `museosrd` | Red Nacional de Museos (museosrd.gob.do) | Nueva, verificada con una corrida real el 24 nov 2026 (3 eventos próximos bien leídos): lee el texto de cada `/evento/<slug>/` (Fecha, Hora, Lugar, Dirección, Entrada) desde el sitemap. Sin `Entrada`, precio por confirmar. Solo Santo Domingo. El título sale de `<title>` (el `<h1>` es el encabezado del sitio). Las muestras de `samples/museosrd_*.txt` son texto, no HTML |
 | — | Artsy, muestras de Santo Domingo (artsy.net/shows/santo-domingo-dominican-republic) | Sin adaptador: solo lista 2 galerías (Lyle O. Reitzel y ASR Galería), unas 3 muestras al mes. Se cargan a mano como series con `range` (ASR Galería: Interconexión y ARQUIONIRIAS). Volver a mirar cuando abra una muestra |
-| `recurring` | Series curadas a mano (`agenda/series_recurrentes.json`) | Activa: Domingos de Bonyé, 809 Mercado, EUROCINE 2026, Gerard Ellis en Lyle O. Reitzel (inauguración y muestra), 10 eventos de la guía de letstalkart.rd (7 al 15 oct) y 2 muestras de ASR Galería. Para agregar o reconfirmar una serie se edita ese archivo (instrucciones dentro). Admite semanal, n-ésimo día del mes, fechas sueltas y rangos (`range`, con "Hasta") |
+| `recurring` | Series curadas a mano (`agenda/series_recurrentes.json`) | Activa: Domingos de Bonyé, 809 Mercado, EUROCINE 2026, Gerard Ellis en Lyle O. Reitzel (inauguración y muestra), 10 eventos de la guía de letstalkart.rd (7 al 15 oct), 2 muestras de ASR Galería y el Circuito de Galerías (15 oct, @agadominicana). Para agregar o reconfirmar una serie se edita ese archivo (instrucciones dentro). Admite semanal, n-ésimo día del mes, fechas sueltas y rangos (`range`, con "Hasta") |
 
 El orden de confianza para unir repetidos está en `SOURCE_PRIORITY` (`agenda/dedupe.py`).
 
@@ -81,6 +86,30 @@ El orden de confianza para unir repetidos está en `SOURCE_PRIORITY` (`agenda/de
 - Pendiente: el documento "Campos de cada evento" permite hasta **2** categorías, pero el modelo guarda solo una.
 - Gastronomía solo tiene, por ahora, eventos de las series curadas (809 Mercado).
 
+## Lugares y mapa
+
+Base de lugares en `agenda/venues.json` (curada a mano, validada al cargar por `agenda/venues.py`): una entrada por lugar,
+con sus `aliases` (las formas en que lo escriben las fuentes, salas incluidas), `address`, `zone`, `lat`/`lng`, `precision`,
+`coord_source` y `verified`. El texto `venue` de cada evento se busca entre los alias sin acentos ni mayúsculas, por palabras
+completas, y gana el alias más largo. La corrida lista en el log los lugares que no encuentra, para agregarlos.
+
+- **Coordenadas solo con fuente citable** (Wikipedia/Wikidata, OpenStreetMap o una medición propia), siempre con `coord_source`.
+  **No se copian de Google Maps ni de Google Places**: sus términos prohíben guardarlas y usarlas con otros mapas. Sin fuente,
+  `lat` y `lng` quedan `null`: el lugar existe pero todavía no sale en el mapa. No se adivinan.
+- `precision`: `edificio` (unos 75 m), `calle` (unos 300 m) o `sector` (hasta 1 km). El sitio debe decir "zona aproximada" cuando es `sector`.
+  Los lugares dentro de la Plaza de la Cultura usan la coordenada del Teatro Nacional como `sector`, no como el edificio.
+- `verified` es `false` hasta que alguien vea el marcador en el mapa y confirme que cae en el lugar.
+- Estado (9 oct 2026): 63 lugares; 7 con coordenadas (Wikipedia: Teatro Nacional, Ruinas de San Francisco, UNPHU, y el resto
+  de la Plaza de la Cultura aproximado); 56 por ubicar.
+- **Ubicar los que faltan:** `python -m agenda.geocode` (desde la PC, con `AGENDA_CONTACT`). Consulta Nominatim (OpenStreetMap) con
+  el `Fetcher` del proyecto (robots.txt, identificación, 1 petición por segundo). Escribe `data/venues_geocodificacion.md` con cada
+  candidato y un enlace para buscarlo a mano; con `--aplicar` guarda solo los resultados que caen en Santo Domingo y cuyo nombre se
+  parece al del lugar (nunca sobrescribe), y siempre con `verified: false`. `--revisar` compara las coordenadas existentes.
+  Si robots.txt no permite la consulta, se detiene: se busca a mano con los enlaces del informe. El mapa debe mostrar
+  «© colaboradores de OpenStreetMap».
+- Lo que falta para ver el mapa en el sitio: un mapa en `docs/index.html` que lea `venues.json` (sin dependencias externas pesadas,
+  atribución de OSM) y `geoPrecision`.
+
 ## Cómo trabajar
 
 - **GitHub es la única fuente de verdad del código.** Empieza actualizando desde `main` y termina con commit y push,
@@ -107,11 +136,16 @@ El orden de confianza para unir repetidos está en `SOURCE_PRIORITY` (`agenda/de
 - zonacolonial.do: escribirles para pedir acceso desde GitHub, o leerla desde una PC y subir el resultado.
 - Hasta 2 categorías por evento (modelo, exportación y filtros del sitio).
 - Fuentes sin integrar: Quinta Dominica (solo boletín por correo; hace falta un correo del proyecto), PDF "Mi Cultura"
-  del Ministerio, Museos RD, Cinemateca (programas fijos, carga manual), Centro Cultural Banreservas (página vacía),
+  del Ministerio, Cinemateca (programas fijos, carga manual), Centro Cultural Banreservas (página vacía),
   galerías, ticketeras y medios.
 - Fuentes de Gastronomía que publiquen con regularidad.
 - Reconfirmar las series curadas antes de que venzan (60 días sin confirmar las marca para revisión) y activar las de temporada cuando anuncien fechas.
-- La hora de los eventos del Teatro Nacional (su página no la publica).
+- La hora de los eventos del Teatro Nacional: su página no la publica, pero su API sí trae fecha y hora (ver la nota de abajo). Falta que el adaptador `teatro_nacional` la use.
+- Ubicar los 56 lugares sin coordenadas con `python -m agenda.geocode` y verificar los marcadores (ver "Lugares y mapa").
+- Confirmar el nombre y la dirección de los lugares que TIX publica solo con dirección (Calle Max Henríquez Ureña 33 local 3,
+  Av. Lope de Vega 29, C. 19 de Marzo 113) y si «Hard Rock Cafe Blue Mall» y «Hard Rock Cafe Santo Domingo» son el mismo local.
+- Revisar `VENUE_ALIASES` en `agenda/dedupe.py`: mapea «palacio de bellas artes» a «teatro nacional», pero son edificios distintos
+  (Sala Manuel Rueda está en Bellas Artes). Podría unir por error eventos de dos sedes.
 
 ## Fuentes revisadas que no se integran todavía
 
@@ -122,6 +156,8 @@ Revisadas desde la PC el 6 de octubre de 2026. Antes de volver a probarlas, lee 
 | Teatro Guloya (teatroguloya.com) | App de Base44 con API pública sin autenticación en su mismo dominio: `/api/apps/6aab0bddff1e87a2bfb25e50/entities/Show?q={"status":"cartelera"}` (obras) y `/entities/Function?q={"status":"activa"}` (funciones: `starts_at` en UTC, `ticket_types` con precio, `capacity`). No tiene robots.txt. Los datos son de prueba: una obra con descripción de relleno, precio RD$1 y una función ya pasada (20 sep); las noticias citan montajes que no están en la cartelera | Volver a mirar cuando carguen la temporada real. El adaptador sería corto: unir `Function` con su `Show` por `show_id` |
 | Feed de DGCINE (dgcine.gob.do/feed/) | Feed RSS con unas 10 notas; casi todas son institucionales (convenios, convocatorias, festivales fuera). Ese día solo 2 eran eventos: EUROCINE 2026 (26 oct al 1 nov, Caribbean Cinemas Galería 360, 15 películas, sin precio) y una exposición de la Cinemateca | Muy poco volumen para un adaptador. Cargar EUROCINE a mano en las series curadas, o leerlo junto con las agendas de prensa cuando haya extracción con IA |
 | Biblioteca Nacional (bnphu.gob.do, eventos.bnphu.gob.do) | `eventos.bnphu.gob.do` prohíbe todo en robots.txt (`Disallow: /`). `bnphu.gob.do` responde con la verificación anti-bots de Cloudflare ("Just a moment…"), también en su API de WordPress | No se lee de forma automática ni se esquiva el bloqueo. Pedirles la programación o cargarla a mano |
+| Teatro Nacional: API con hora (nota para mejorar `teatro_nacional`) | `/wp-json/trafico/tneb/v1/events?start=&end=` (fechas en segundos Unix) devuelve `{success, data:{events,start,end}}`. **Las fechas son la hora local escrita como si fuera UTC**: no se convierte (un evento de las 8:30 p. m. llega como 20:30 UTC; convertirlo da 16:30, que es un error). 00:00 significa que no publican hora. Se verificó contra uepatickets (7/10/2026, 8:30 p. m.). El precio y el enlace de boletos solo están en la página de cada evento (`.tneb-price-list-section-price`, `.tneb-price-list-subsection-price`, enlace «Compre sus boletas aquí»); sin lista de precios queda «por confirmar», nunca gratis. Dos funciones el mismo día (matiné y noche) son eventos distintos | Cambiar el adaptador para leer la API y agregar la hora; mantener la regla de no inventar la hora cuando llega 00:00 |
+| Turizoneando (mitur.gob.do/turizoneando) | Revisado el 7 oct: temporada terminada, solo flyers en imagen y actividades gratuitas, sin feed ni texto con fecha y hora | No se integra. Volver a mirar cada junio, cuando abre la temporada |
 
 ### Guía de letstalkart.rd (Instagram), revisada el 7 de octubre de 2026
 
@@ -140,6 +176,8 @@ virtuales y las convocatorias (concursos con fecha límite): no son eventos para
 | Fundación Sinfonía (sinfonia.org.do) | **Integrada** (fuente `fundacion_sinfonia`). Revisado el 7 oct: tiene agenda (`/agenda/<slug>/`, `evento-sitemap.xml` con 40 eventos en total, uno o dos al mes). Sin JSON-LD de evento, pero el texto trae fecha y **hora** ("4 de noviembre de 2026, 8:30 p.m."), sala y precios por zona. Sus conciertos (Orquesta Sinfónica Nacional) suelen ser en el Teatro Nacional | Poco volumen, pero útil: aporta la hora y el precio que le faltan al Teatro Nacional; al unir repetidos gana la hora. Adaptador corto por sitemap |
 | Teatro Guloya | Su cuenta anuncia "Sola" (4 oct) y "Liborio" (9 al 11 oct). Revisada otra vez el 7 oct: la API sigue con los mismos datos de prueba (Liborio con descripción de relleno, precio RD$1 y una función del 20 sep; sin cambios desde el 19 sep) | No hay adaptador todavía: se mantiene la serie curada `liborio-teatro-guloya-2026-10`. Volver a mirar cuando la boletería tenga funciones de octubre |
 | Bellas Artes, DEFAE, ENAD, Cinemateca, Galería 360, The Green Room, Club Arroyo Hondo | Solo publican en Instagram (o su sitio bloquea lectura automática) | Carga manual; The Green Room vende por TIX, así que la fuente `tix` ya trae su programación (incluido Omar Quezada, 7 oct) |
+
+Circuito de Galerías (AGA, @agadominicana): cargado el 12 de octubre desde una captura (jueves 15 de oct, 7:00 p. m., Arawak Gallery, gratis, con reserva de cupo). Es el tercer jueves de cada mes de agosto a diciembre: cargar el 19 de nov y el 17 de dic cuando anuncien lugar y hora. Falta el enlace exacto del post y la dirección de Arawak Gallery.
 
 Quedan por confirmar: la hora y el precio de casi todos los eventos cargados de esta guía (la columna "confirmar" del sitio
 los marca), y que Velvet Room, Hard Rock Cafe y el Auditorio Patrick N. Hughson estén en Santo Domingo.
@@ -193,7 +231,7 @@ el contenido, y sería copiar el trabajo de un tercero. Se usa como mapa de dón
 
 | Falta | Fuente original a revisar | Nota |
 |---|---|---|
-| Museos (Catedral, Hombre Dominicano, Historia y Geografía) | Museos RD / sitios de cada museo y Ministerio de Cultura | Ya estaba en pendientes ("Museos RD"). Ver si publican agenda con robots.txt abierto |
+| Museos (Catedral, Hombre Dominicano, Historia y Geografía) | Museos RD (museosrd.gob.do) | **Integrada** (`museosrd`, revisada el 24 nov 2026): robots.txt abierto y un listado de eventos con fecha, hora, lugar y entrada. Lista además unos 30 museos (útil para `venues`) |
 | Conciertos y fiestas de bares | Ticketmax, TIX | Ya en la lista para Code |
 | Deportes (5K, maratones, trail) | Ticketeras de carreras | Fuera del alcance cultural por ahora; preguntar a Edwin si quiere categoría Deportes |
 | Festivales y ferias (Oktoberfest) | Sitio de cada organizador | Cargar como serie curada cuando haya fecha |
@@ -206,3 +244,8 @@ al 4 de octubre, así que **ya terminó y no hay nada que cargar ahora**. No se 
 (Acento, El Nuevo Diario) y en el PDF de programa que Bellas Artes sube a su sitio (`wp.bellasartesrd.gob.do/wp-content/uploads/<año>/<mes>/PROGRAMA-<año>...pdf`, así fue en 2025).
 Las notas traen horas por función, pero no precios. Qué hacer: serie curada de temporada para septiembre de 2027 cuando anuncien fechas (categoría Danza, hora de cada función
 solo si el programa la da; precio por confirmar), y mirar el sitio de Bellas Artes en agosto.
+
+### Alianza Francesa de Santo Domingo (afsd.net/agenda), revisada el 24 de noviembre de 2026
+
+WordPress hecho por ATL Software (plugin Kiosque Builder). robots.txt solo bloquea `/wp-admin/` y las búsquedas internas; el `sitemap_index.xml` que anuncia da 404 y la API de WordPress no tiene un tipo de contenido de eventos. El calendario carga por un POST interno
+(`/?ob=open-bridge/events`) que no es una API pública, y el texto visible de la agenda estaba desactualizado (actividades de agosto y septiembre, sin hora ni precio por evento). No se integra: carga manual desde capturas, o escribir a recepcion@afsd.net para pedir un feed.

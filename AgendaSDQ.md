@@ -35,7 +35,8 @@ Si un documento y el código no coinciden, manda el código; actualiza el docume
 3. **Workflow** (`.github/workflows/scrape.yml`): corre a diario a las 6:17 a. m. de Santo Domingo y publica
    `events.json`. Necesita la variable de repositorio `AGENDA_CONTACT` (ya definida).
 4. **Sitio** (`docs/index.html`): una sola página sin dependencias que carga `events.json`. Pantallas Bienvenida, Hoy,
-   Calendario, Guardados y detalle.
+   Calendario, Guardados y detalle. Desde 1180 px de ancho usa el diseño de escritorio (barra superior, filtros
+   a la izquierda, mes en cuadrícula y panel de agenda o detalle a la derecha); abajo de eso, el de celular.
 
 ## Fuentes
 

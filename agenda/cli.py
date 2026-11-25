@@ -77,8 +77,8 @@ def cmd_run(args) -> int:
     # Fuentes sin ningún evento próximo en la base: puede ser normal (SIC, Casa de Teatro) o una fuente muerta.
     have = {ev.get("source") for ev in db.upcoming(today)}
     notices = [f"{sid} no tiene eventos próximos en la base" for sid in wanted if sid not in have]
-    for n in notices:
-        print(f"AVISO: {n}")
+    for notice in notices:
+        print(f"AVISO: {notice}")
     write_alert(os.environ.get("AGENDA_ALERT", ALERT_FILE), problems, notices)
     if problems:
         print(f"ALERTA: {len(problems)} fuente(s) con problemas: {', '.join(sid for sid, _ in problems)}")

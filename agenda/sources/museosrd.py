@@ -8,7 +8,9 @@ Verificado el 24 nov 2026 desde la PC (navegador de la app de escritorio):
     "Dirección: ... Ciudad Colonial, Santo Domingo ..." y a veces "Entrada: Libre, hasta completar aforo.".
     Sin "Entrada" el precio queda por confirmar. Incluye museos de otras ciudades (Centro León en Santiago, Puerto Plata,
     La Romana...): se descartan. Es WordPress con tema My Listing (tipo de contenido job_listing).
-  - SIN HTML REAL VERIFICADO: no se pudo bajar el HTML crudo (el shell no llega al sitio y la herramienta del navegador no
+  - Primera corrida real (24 nov 2026, desde la PC): leyó 3 eventos próximos; fecha, hora, lugar y precio salieron bien
+    y el título de <h1> no (es el encabezado del sitio), por eso ahora sale de <title>.
+  - SIN HTML CRUDO EN samples/: no se pudo bajar el HTML crudo (el shell no llega al sitio y la herramienta del navegador no
     devolvió el DOM). Las muestras de samples/museosrd_*.txt son el texto visible de dos páginas reales; el adaptador
     trabaja sobre las líneas de texto, no sobre selectores. En la primera corrida real hay que comprobar que
     `text_lines` del HTML produce las mismas líneas "Fecha:", "Hora:"... Los teléfonos de la muestra se quitaron.
@@ -106,10 +108,13 @@ def parse_lines(title: str, lines: list[str], url: str, today: date) -> Event | 
 
 def parse_page(html: str, url: str, today: date) -> Event | None:
     tree = parse(html)
-    h1 = tree.css_first("h1")
-    title = h1.text(strip=True) if h1 else ""
-    if not title and tree.css_first("title"):
-        title = tree.css_first("title").text(strip=True).split("|")[0]
+    # El primer <h1> de la página real es el encabezado del sitio ("Portal de la Red Nacional de Museos..."): el título
+    # del evento sale de <title> ("Título | MUSEOSRD"). Verificado con la primera corrida real (24 nov 2026).
+    node = tree.css_first("title")
+    title = node.text(strip=True).split("|")[0].strip() if node else ""
+    if not title:
+        h1 = tree.css_first("h1")
+        title = h1.text(strip=True) if h1 else ""
     return parse_lines(title, text_lines(tree), url, today)
 
 

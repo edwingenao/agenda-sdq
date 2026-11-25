@@ -72,8 +72,9 @@ def test_page_without_date_is_ignored():
 
 def test_parse_page_from_synthetic_html():
     title, lines = sample("museosrd_custodia.txt")
-    html = f"<html><head><title>{title} | MUSEOSRD</title></head><body><h1>{title}</h1>" + "".join(
-        f"<p>{ln}</p>" for ln in lines[10:]) + "</body></html>"
+    # como la página real: el primer <h1> es el encabezado del sitio, no el título del evento
+    html = (f"<html><head><title>{title} | MUSEOSRD</title></head><body><h1>Portal de la<br>Red Nacional de Museos</h1>"
+            + "".join(f"<p>{ln}</p>" for ln in lines[10:]) + "</body></html>")
     ev = parse_page(html, CUSTODIA_URL, TODAY)
     assert ev.dates == ["2026-12-03"] and ev.start_time == "19:30" and ev.title == title
 
@@ -88,7 +89,8 @@ def test_sitemap_keeps_only_recent_events():
 
 def test_run_reads_recent_pages_and_skips_unchanged():
     title, lines = sample("museosrd_plantas_endemicas.txt")
-    page = f"<html><body><h1>{title}</h1>" + "".join(f"<p>{ln}</p>" for ln in lines[10:]) + "</body></html>"
+    page = (f"<html><head><title>{title} | MUSEOSRD</title></head><body><h1>Portal</h1>"
+            + "".join(f"<p>{ln}</p>" for ln in lines[10:]) + "</body></html>")
     sitemap = f"<urlset><url><loc>{PLANTAS_URL}</loc><lastmod>2026-11-24T17:50:50+00:00</lastmod></url></urlset>"
 
     def handler(req):
@@ -99,7 +101,7 @@ def test_run_reads_recent_pages_and_skips_unchanged():
     db = DB(":memory:")
     f = Fetcher(transport=httpx.MockTransport(handler), sleep=lambda s: None, clock=lambda: 0.0)
     evs = MuseosRD(f, db, TODAY, "2026-11-24T12:00:00+00:00", log=lambda *_: None).run()
-    assert [e.url for e in evs] == [PLANTAS_URL]
+    assert [e.url for e in evs] == [PLANTAS_URL] and evs[0].title == title
     assert MuseosRD(f, db, TODAY, "2026-11-25T12:00:00+00:00", log=lambda *_: None).run() == []
 
 

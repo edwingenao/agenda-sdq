@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-25T02:57:38+00:00",
-  "today": "2026-11-24",
-  "count": 129,
+  "generated_at": "2026-11-25T20:06:07+00:00",
+  "today": "2026-11-25",
+  "count": 127,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -202,113 +202,6 @@
         }
       ],
       "venueId": "the-box-working-space"
-    },
-    {
-      "id": "785832807aeb9f2a",
-      "source": "cce",
-      "date": "2026-11-24",
-      "end": null,
-      "sessions": null,
-      "title": "Arte en el espacio público: ¿A quién pertenece la ciudad?",
-      "venue": "Centro Cultural de España en Santo Domingo",
-      "zone": "Ciudad Colonial",
-      "cat": "Arte",
-      "price": 0,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "Participan Lydia Garvin, Diana Prieto y Luis Graham.Entrada libre hasta completar aforoPrograma Patrimonio Cultural y Natural / Acción y Difusión CulturalEl arte en el espacio público constituye un territorio de encuentro, negociación y conflicto en el que convergen la creación a",
-      "ticketUrl": "",
-      "srcName": "Centro Cultural de España",
-      "srcUrl": "https://ccesd.aecid.es/w/arte-en-el-espacio-p%C3%BAblico-%C2%BFa-qui%C3%A9n-pertenece-la-ciudad-",
-      "sources": [
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/arte-en-el-espacio-p%C3%BAblico-%C2%BFa-qui%C3%A9n-pertenece-la-ciudad-"
-        }
-      ],
-      "venueId": "centro-cultural-de-espana"
-    },
-    {
-      "id": "c072d7b10d59acd7",
-      "source": "sic",
-      "date": "2026-11-24",
-      "end": null,
-      "sessions": null,
-      "title": "Celebración de gala premiación View Awards 2026",
-      "venue": "Auditorio Manuel Rueda del Conservatorio Nacional",
-      "zone": "",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "Premiación",
-      "ticketUrl": "",
-      "srcName": "Ministerio de Cultura (SIC)",
-      "srcUrl": "https://sic.cultura.gob.do/agenda/evento/35",
-      "sources": [
-        {
-          "srcName": "Ministerio de Cultura (SIC)",
-          "srcUrl": "https://sic.cultura.gob.do/agenda/evento/35"
-        }
-      ]
-    },
-    {
-      "id": "cb46fd35342e8c4a",
-      "source": "zona_colonial",
-      "date": "2026-11-24",
-      "end": null,
-      "sessions": null,
-      "title": "HOMENAJE A DIÓMEDES MERCEDES",
-      "venue": "NOV",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/homenaje-a-diomedes-mercedes/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/homenaje-a-diomedes-mercedes/"
-        }
-      ]
-    },
-    {
-      "id": "8c97a8a9493e3c65",
-      "source": "tix",
-      "date": "2026-11-24",
-      "end": null,
-      "sessions": null,
-      "title": "Otakus",
-      "venue": "Local 3 : Calle Max. Herriquez Ureña 33",
-      "zone": "",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "21:00",
-      "kids": false,
-      "tags": [],
-      "description": "Comedia Local presenta: Otakus & Geeks Randy Medina, Blaz y Sebastián llegan con un show de comedia para hablar de anime, videojuegos, cómics, películas y todas esas obsesiones que hacen de la cultura geek un mundo aparte. Tres comediantes, muchas referencias y cero vergüenza ge…",
-      "ticketUrl": "https://tix.do/event/Otakus-2",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/Otakus-2",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/Otakus-2"
-        }
-      ],
-      "venueId": "max-henriquez-urena-33",
-      "address": "Local 3: Calle Max. Henríquez Ureña 33"
     },
     {
       "id": "e7f04a5083921479",
@@ -1312,7 +1205,7 @@
       "date": "2026-11-28",
       "end": null,
       "sessions": null,
-      "title": "Jazz en la Loma 2026 - Sajoma Jazz Festival",
+      "title": "Jazz en la Loma 2026 - Andy James y amigos",
       "venue": "Salón de Asambleas, Cooperativa San José, Guajaca, San José de las Matas",
       "zone": "",
       "cat": "Música",
@@ -2089,6 +1982,32 @@
       ]
     },
     {
+      "id": "0db389c920351b88",
+      "source": "ticketmax",
+      "date": "2026-12-05",
+      "end": null,
+      "sessions": null,
+      "title": "TRASLADO AL CONCIERTO DE YAILIN LA MÁS VIRAL EN EL COLISEO TEO CRUZ",
+      "venue": "Coliseo Teo Cruz",
+      "zone": "",
+      "cat": "Música",
+      "price": 1350,
+      "price_max": 3100,
+      "time": "13:00",
+      "kids": false,
+      "tags": [],
+      "description": "TOUR PÁRA EL COLISEO TEO CRUZ A VER A LA ARTISTA URBANA YAILIN LA MÁS VIRAL INTÉRPRETE DE LAS CANCIONES BING BON, SILLA, CHAPA, NARCISISTA. ESTE 05 DE DICIEMBRE LLEGA YAILIN AL COLISEO TEO CRUZ A HACER HISTORIA TOUR DIAPONIBLE DESDE LA CIUDAD CORAZÓN (SANTIAGO) HACIA EL COLISEO…",
+      "ticketUrl": "https://ticketmax.org/evento/900761/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900761/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900761/"
+        }
+      ]
+    },
+    {
       "id": "6c575200b88a8e15",
       "source": "jazz_en_dominicana",
       "date": "2026-12-05",
@@ -2753,30 +2672,28 @@
       "geoPrecision": "edificio"
     },
     {
-      "id": "8d6e3c07ecbfc317",
+      "id": "57cabc7fdbcec953",
       "source": "ticketmax",
-      "date": "2026-12-16",
+      "date": "2026-12-13",
       "end": null,
       "sessions": null,
-      "title": "LO QUE LA CAMA SABE Y LA BOCA CALLA | ELAINE FELIZ",
+      "title": "FRUBLAZITA Navideño",
       "venue": "Velvet Room",
       "zone": "",
       "cat": "Teatro",
-      "price": 1500,
+      "price": 800,
       "price_max": null,
-      "time": "20:00",
+      "time": "19:30",
       "kids": false,
-      "tags": [
-        "formacion"
-      ],
-      "description": "Lo que la cama sabe y la boca calla es un show de Elaine Féliz para reírnos de la sexualidad real: la del deseo, la culpa, el cuerpo, los silencios, los límites y todas esas ideas mal aprendidas que también se meten en la cama. Una noche con humor, verdad y cero anestesia para h…",
-      "ticketUrl": "https://ticketmax.org/evento/900519/",
+      "tags": [],
+      "description": "Un FRUBLAZITA para arrancar las fiestas. Frooby, Blaz y Jinita. Mucha comedia. Allá nos vemos!",
+      "ticketUrl": "https://ticketmax.org/evento/900768/",
       "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900519/",
+      "srcUrl": "https://ticketmax.org/evento/900768/",
       "sources": [
         {
           "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900519/"
+          "srcUrl": "https://ticketmax.org/evento/900768/"
         }
       ],
       "venueId": "velvet-room"
@@ -2834,6 +2751,33 @@
         }
       ],
       "venueId": "los-reales-colonial"
+    },
+    {
+      "id": "8d6e3c07ecbfc317",
+      "source": "ticketmax",
+      "date": "2026-12-17",
+      "end": null,
+      "sessions": null,
+      "title": "LO QUE LA CAMA SABE Y LA BOCA CALLA | ELAINE FELIZ",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 1500,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "Lo que la cama sabe y la boca calla es un show de Elaine Féliz para reírnos de la sexualidad real: la del deseo, la culpa, el cuerpo, los silencios, los límites y todas esas ideas mal aprendidas que también se meten en la cama. Una noche con humor, verdad y cero anestesia para h…",
+      "ticketUrl": "https://ticketmax.org/evento/900519/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900519/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900519/"
+        }
+      ],
+      "venueId": "velvet-room"
     },
     {
       "id": "caeae21559164576",

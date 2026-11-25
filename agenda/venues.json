@@ -482,6 +482,22 @@
       "notes": null
     },
     {
+      "id": "arawak-gallery",
+      "name": "Arawak Gallery",
+      "aliases": [
+        "Arawak Gallery"
+      ],
+      "address": null,
+      "zone": "",
+      "city": "Santo Domingo",
+      "lat": null,
+      "lng": null,
+      "precision": null,
+      "coord_source": null,
+      "verified": false,
+      "notes": "Punto de partida del Circuito de Galerías (15 oct 2026). El post no da dirección; confirmar que está en Santo Domingo."
+    },
+    {
       "id": "asr-galeria",
       "name": "ASR Galería",
       "aliases": [

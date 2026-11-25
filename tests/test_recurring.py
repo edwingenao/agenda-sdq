@@ -372,12 +372,13 @@ def test_source_run_and_export(tmp_path):
     evs = recurring.SeriesRecurrentes(None, db, TODAY, "2026-10-06T12:00:00+00:00", log=logs.append).run()
     # 4 domingos de Bonyé + 7 días de EUROCINE + 2 de 809 Mercado + Gerard Ellis (inauguración y muestra)
     # + 2 muestras de ASR Galería + 11 eventos de la guía de letstalkart.rd (el Festival de Canto Coral cuenta 2)
-    assert len(evs) == 28
-    assert any("21 series" in line for line in logs)
+    # + el Circuito de Galerías (15 oct, @agadominicana)
+    assert len(evs) == 29
+    assert any("22 series" in line for line in logs)
     for e in evs:
         assert db.upsert_event(e, "2026-10-06T12:00:00+00:00") == "new"
     out = tmp_path / "events.json"
-    assert export_json(db, out, TODAY) == 28
+    assert export_json(db, out, TODAY) == 29
     pub = json.loads(out.read_text(encoding="utf-8"))["events"]
     bonye = next(p for p in pub if p["title"] == "Domingos de Bonyé")
     assert bonye["time"] == "18:00" and bonye["price"] == 0
@@ -393,6 +394,16 @@ def test_shipped_gerard_ellis_inauguration():
     assert ev.source_name == "Lyle O. Reitzel en Artsy"
     assert ev.url.startswith("https://www.artsy.net/show/lyle-o-reitzel-the-dominican-dream#")
     assert "13 de noviembre" in ev.description
+
+
+def test_shipped_circuito_de_galerias():
+    ev = next(e for e in recurring.events(today=TODAY, horizon_days=14) if e.title == "Circuito de Galerías 2026")
+    assert ev.dates == ["2026-10-15"] and ev.start_time == "19:00"
+    assert ev.category == "Arte" and ev.is_free is True  # el post dice «totalmente gratis»
+    assert ev.venue == "Arawak Gallery"
+    assert ev.url.startswith("https://www.instagram.com/agadominicana/")
+    assert len(ev.description) <= 280
+    assert "809" not in ev.description  # sin teléfonos en la descripción
 
 
 # --- rangos (exposiciones y festivales sin funciones sueltas) ---

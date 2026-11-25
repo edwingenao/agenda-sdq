@@ -147,3 +147,58 @@ def test_containment_tolerates_typos_but_not_different_words():
     assert title_similarity("Mahler Resurreción", "Mahler: Resurrección | Gala de aniversarios") >= 0.85
     assert title_similarity("Mahler Titán", "Mahler: Resurrección | Gala de aniversarios") < 0.85
     assert title_similarity("Retro Jazz", "Rock Jazz Quartet") < 0.85
+
+
+# ---- listados repetidos de la misma fuente y temporadas que empiezan en días distintos (24 nov 2026) ----
+
+def ev_nov(title, d, source, h=None, venue="", end=None, **kw):
+    dates = [f"2026-11-{d:02d}"] + ([f"2026-11-{end:02d}"] if end else [])
+    return Event(source=source, source_name=source, url=f"https://{source}/{title}", title=title, dates=dates,
+                 start_time=f"{h:02d}:00" if h is not None else None, venue=venue, **kw)
+
+
+def test_ticketmax_same_session_listed_twice_is_merged():
+    a = ev_nov("Vino & Tinta 25.11.26 | 6:00 PM - 8:00 PM", 25, "ticketmax", 18, "Centro Cultural Casa Libros", price_min=300)
+    b = ev_nov("Vino & Tinta | 6:00 PM - 8:00 PM", 25, "ticketmax", 18, "Centro Cultural Casa Libros", price_min=300)
+    out = dedupe([a, b])
+    assert len(out) == 1 and len(out[0].sources) == 2
+
+
+def test_zona_colonial_two_pages_for_the_same_concert_are_merged():
+    a = ev_nov("IVANA LOYOLA PRESENTA: “CUERDAS EN EL OCASO”", 27, "zona_colonial", 20, "Casa de Teatro", price_min=1200)
+    b = ev_nov("Presentación en vivo del álbum debut “Cuerdas en el Ocaso” (Banda completa) por Ivana Loyola", 27,
+               "zona_colonial", 20, "Casa de Teatro", price_min=1000)
+    out = dedupe([a, b])
+    assert len(out) == 1 and any("precio distinto" in c for c in out[0].conflicts)
+
+
+def test_same_source_different_time_or_title_stays_separate():
+    base = dict(venue="Centro Cultural Casa Libros")
+    tarde = ev_nov("Vino & Tinta", 25, "ticketmax", 15, **base)
+    noche = ev_nov("Vino & Tinta", 25, "ticketmax", 20, **base)
+    otro = ev_nov("Cata de vinos del mundo", 25, "ticketmax", 15, **base)
+    assert len(dedupe([tarde, noche])) == 2  # funciones distintas el mismo día
+    assert len(dedupe([tarde, otro])) == 2  # misma hora, otro evento
+    assert len(dedupe([ev_nov("Vino & Tinta", 25, "ticketmax", 15, end=28, **base), tarde])) == 2  # rango vs función suelta
+
+
+def test_other_sources_keep_the_old_rule_two_rooms_same_time():
+    a = ev_nov("Danza Joven", 10, "teatro_nacional", 18, "Sala Ravelo, Teatro Nacional")
+    b = ev_nov("Danza Joven", 10, "teatro_nacional", 18, "Sala Carlos Piantini, Teatro Nacional")
+    assert len(dedupe([a, b])) == 2
+
+
+def test_run_published_by_two_sources_with_different_start_days_is_merged():
+    a = ev_nov("Señora, ¿Me Presta su Marido?", 13, "teatro_las_mascaras", None, "Teatro Las Máscaras", end=29, price_min=875)
+    b = ev_nov("Señora, ¿me presta su marido?", 24, "tix", None, "Teatro Las Máscaras", end=29)
+    out = dedupe([a, b])
+    assert len(out) == 1 and out[0].event.source == "teatro_las_mascaras"
+    assert any("fechas distintas" in c for c in out[0].conflicts)
+
+
+def test_runs_that_do_not_overlap_or_lack_a_confirmed_venue_stay_separate():
+    a = ev_nov("Señora, ¿me presta su marido?", 1, "teatro_las_mascaras", None, "Teatro Las Máscaras", end=10)
+    b = ev_nov("Señora, ¿me presta su marido?", 24, "tix", None, "Teatro Las Máscaras", end=29)
+    assert len(dedupe([a, b])) == 2  # temporadas distintas
+    c = ev_nov("Señora, ¿me presta su marido?", 13, "teatro_las_mascaras", None, "", end=29)
+    assert len(dedupe([c, b])) == 2  # sin sede no se arriesga

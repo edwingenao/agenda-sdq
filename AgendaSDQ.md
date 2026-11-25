@@ -52,6 +52,7 @@ Si un documento y el código no coinciden, manda el código; actualiza el docume
 | `fundacion_sinfonia` | Fundación Sinfonía (sinfonia.org.do) | Nueva. Conciertos de la Orquesta Sinfónica Nacional con hora y precio; completa la hora de los del Teatro Nacional al unir repetidos |
 | `ticketmax` | Ticketmax (ticketera, ticketmax.org) | Nueva. Lee la portada (solo Santo Domingo) y el JSON-LD de cada evento: hora y precio exactos. Detrás de los sitios de las salas en `SOURCE_PRIORITY` |
 | `tix` | TIX (ticketera tix.do, su API pública) | Nueva. Hora real de cada función; sin precio (solo "gratis") ni ciudad: publica solo salas reconocidas de Santo Domingo y la corrida lista las demás. Pendiente: escribirle a info@tix.do (Edwin) |
+| `museosrd` | Red Nacional de Museos (museosrd.gob.do) | Nueva, sin HTML real verificado: lee el texto de cada `/evento/<slug>/` (Fecha, Hora, Lugar, Dirección, Entrada) desde el sitemap. Sin `Entrada`, precio por confirmar. Solo Santo Domingo. En la primera corrida real hay que comprobar que el HTML da las mismas líneas que las muestras de `samples/museosrd_*.txt` |
 | — | Artsy, muestras de Santo Domingo (artsy.net/shows/santo-domingo-dominican-republic) | Sin adaptador: solo lista 2 galerías (Lyle O. Reitzel y ASR Galería), unas 3 muestras al mes. Se cargan a mano como series con `range` (ASR Galería: Interconexión y ARQUIONIRIAS). Volver a mirar cuando abra una muestra |
 | `recurring` | Series curadas a mano (`agenda/series_recurrentes.json`) | Activa: Domingos de Bonyé, 809 Mercado, EUROCINE 2026, Gerard Ellis en Lyle O. Reitzel (inauguración y muestra), 10 eventos de la guía de letstalkart.rd (7 al 15 oct) y 2 muestras de ASR Galería. Para agregar o reconfirmar una serie se edita ese archivo (instrucciones dentro). Admite semanal, n-ésimo día del mes, fechas sueltas y rangos (`range`, con "Hasta") |
 
@@ -107,7 +108,7 @@ El orden de confianza para unir repetidos está en `SOURCE_PRIORITY` (`agenda/de
 - zonacolonial.do: escribirles para pedir acceso desde GitHub, o leerla desde una PC y subir el resultado.
 - Hasta 2 categorías por evento (modelo, exportación y filtros del sitio).
 - Fuentes sin integrar: Quinta Dominica (solo boletín por correo; hace falta un correo del proyecto), PDF "Mi Cultura"
-  del Ministerio, Museos RD, Cinemateca (programas fijos, carga manual), Centro Cultural Banreservas (página vacía),
+  del Ministerio, Cinemateca (programas fijos, carga manual), Centro Cultural Banreservas (página vacía),
   galerías, ticketeras y medios.
 - Fuentes de Gastronomía que publiquen con regularidad.
 - Reconfirmar las series curadas antes de que venzan (60 días sin confirmar las marca para revisión) y activar las de temporada cuando anuncien fechas.
@@ -193,7 +194,7 @@ el contenido, y sería copiar el trabajo de un tercero. Se usa como mapa de dón
 
 | Falta | Fuente original a revisar | Nota |
 |---|---|---|
-| Museos (Catedral, Hombre Dominicano, Historia y Geografía) | Museos RD / sitios de cada museo y Ministerio de Cultura | Ya estaba en pendientes ("Museos RD"). Ver si publican agenda con robots.txt abierto |
+| Museos (Catedral, Hombre Dominicano, Historia y Geografía) | Museos RD (museosrd.gob.do) | **Integrada** (`museosrd`, revisada el 24 nov 2026): robots.txt abierto y un listado de eventos con fecha, hora, lugar y entrada. Lista además unos 30 museos (útil para `venues`) |
 | Conciertos y fiestas de bares | Ticketmax, TIX | Ya en la lista para Code |
 | Deportes (5K, maratones, trail) | Ticketeras de carreras | Fuera del alcance cultural por ahora; preguntar a Edwin si quiere categoría Deportes |
 | Festivales y ferias (Oktoberfest) | Sitio de cada organizador | Cargar como serie curada cuando haya fecha |
@@ -206,3 +207,8 @@ al 4 de octubre, así que **ya terminó y no hay nada que cargar ahora**. No se 
 (Acento, El Nuevo Diario) y en el PDF de programa que Bellas Artes sube a su sitio (`wp.bellasartesrd.gob.do/wp-content/uploads/<año>/<mes>/PROGRAMA-<año>...pdf`, así fue en 2025).
 Las notas traen horas por función, pero no precios. Qué hacer: serie curada de temporada para septiembre de 2027 cuando anuncien fechas (categoría Danza, hora de cada función
 solo si el programa la da; precio por confirmar), y mirar el sitio de Bellas Artes en agosto.
+
+### Alianza Francesa de Santo Domingo (afsd.net/agenda), revisada el 24 de noviembre de 2026
+
+WordPress hecho por ATL Software (plugin Kiosque Builder). robots.txt solo bloquea `/wp-admin/` y las búsquedas internas; el `sitemap_index.xml` que anuncia da 404 y la API de WordPress no tiene un tipo de contenido de eventos. El calendario carga por un POST interno
+(`/?ob=open-bridge/events`) que no es una API pública, y el texto visible de la agenda estaba desactualizado (actividades de agosto y septiembre, sin hora ni precio por evento). No se integra: carga manual desde capturas, o escribir a recepcion@afsd.net para pedir un feed.

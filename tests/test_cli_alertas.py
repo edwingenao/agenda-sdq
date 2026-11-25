@@ -68,3 +68,13 @@ def test_notices_travel_with_a_real_alert(tmp_path, monkeypatch):
 def test_all_sources_failing_keeps_exit_code_1(tmp_path, monkeypatch):
     assert run(tmp_path, monkeypatch, {"roto": make("roto", RuntimeError("x"))}) == 1
     assert (tmp_path / "alerta.txt").exists()
+
+
+def test_run_prints_event_count_not_the_last_notice(monkeypatch, tmp_path, capsys):
+    """Regresión: la variable del bucle de avisos pisaba el contador y salía «Exportados <aviso> eventos»."""
+    import inspect
+
+    from agenda import cli
+
+    src = inspect.getsource(cli.cmd_run)
+    assert "for n in notices" not in src

@@ -21,6 +21,21 @@ def _today(args) -> date:
     return date.fromisoformat(args.today) if getattr(args, "today", None) else today_sdq()
 
 
+ALERT_FILE = "data/alerta.txt"
+
+
+def write_alert(path: str | Path, problems: list[tuple[str, str]], notices: list[str]) -> None:
+    """Deja en `path` la lista de fuentes que fallaron (el workflow la lee y avisa); sin fallas, borra el archivo."""
+    path = Path(path)
+    if not problems:
+        path.unlink(missing_ok=True)
+        return
+    lines = [f"- `{sid}`: {msg}" for sid, msg in problems]
+    lines += [f"- (aviso) {n}" for n in notices]
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
 def cmd_run(args) -> int:
     today = _today(args)
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
@@ -32,6 +47,7 @@ def cmd_run(args) -> int:
         print(f"Fuente(s) desconocida(s): {', '.join(unknown)}. Disponibles: {', '.join(SOURCES)}")
         return 2
     failures = 0
+    problems: list[tuple[str, str]] = []
     try:
         for sid in wanted:
             src = SOURCES[sid](fetcher, db, today, now, max_details=args.max_details)
@@ -41,10 +57,12 @@ def cmd_run(args) -> int:
             except Disallowed as e:
                 print(f"   omitida: {e}")
                 failures += 1
+                problems.append((sid, f"omitida: {e}"))
                 continue
             except Exception as e:  # una fuente rota no debe tumbar a las demás
                 print(f"   ERROR: {type(e).__name__}: {e}")
                 failures += 1
+                problems.append((sid, f"{type(e).__name__}: {e}"))
                 continue
             counts = {"new": 0, "updated": 0, "same": 0}
             for ev in events:
@@ -56,6 +74,14 @@ def cmd_run(args) -> int:
     print()
     n = export_json(db, args.out, today, log=print)
     review = db.review_queue(today)
+    # Fuentes sin ningún evento próximo en la base: puede ser normal (SIC, Casa de Teatro) o una fuente muerta.
+    have = {ev.get("source") for ev in db.upcoming(today)}
+    notices = [f"{sid} no tiene eventos próximos en la base" for sid in wanted if sid not in have]
+    for n in notices:
+        print(f"AVISO: {n}")
+    write_alert(os.environ.get("AGENDA_ALERT", ALERT_FILE), problems, notices)
+    if problems:
+        print(f"ALERTA: {len(problems)} fuente(s) con problemas: {', '.join(sid for sid, _ in problems)}")
     print(f"\nExportados {n} eventos próximos a {args.out}")
     if review:
         print(f"{len(review)} evento(s) necesitan revisión (fecha o precio dudosos):")

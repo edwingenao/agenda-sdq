@@ -36,7 +36,11 @@ Si un documento y el código no coinciden, manda el código; actualiza el docume
    `lat`, `lng` y `geoPrecision`; además se escribe `docs/venues.json` con los lugares de esos eventos (ver "Lugares y mapa").
 3. **Workflow** (`.github/workflows/scrape.yml`): corre a diario a las 6:17 a. m. de Santo Domingo y publica
    `events.json` y `venues.json`. Necesita la variable de repositorio `AGENDA_CONTACT` (ya definida).
-4. **Sitio** (`docs/index.html`): una sola página sin dependencias que carga `events.json`. Pantallas Bienvenida, Hoy,
+   Si una fuente falla (error o bloqueo), `python -m agenda run` escribe `data/alerta.txt`, el workflow publica igual lo que sí se
+   leyó y luego termina en rojo con la lista en su resumen: GitHub avisa por correo. Una fuente sin eventos próximos en la base
+   solo sale como aviso en el log (puede ser normal: SIC, Casa de Teatro).
+4. **Sitio** (`docs/index.html`): una sola página sin dependencias que carga `events.json`. Al compartir el enlace sale una vista
+   previa (etiquetas Open Graph y `docs/og.png`, 1200×630). Pantallas Bienvenida, Hoy,
    Calendario, Guardados y detalle. Desde 1180 px de ancho usa el diseño de escritorio (barra superior, filtros
    a la izquierda, mes en cuadrícula y panel de agenda o detalle a la derecha); abajo de eso, el de celular.
 
@@ -51,7 +55,7 @@ Si un documento y el código no coinciden, manda el código; actualiza el docume
 | `zona_colonial` | zonacolonial.do | **En pausa**: responde 403 a los servidores de GitHub. Desde una PC funciona |
 | `cce` | Centro Cultural de España | Activa. Solo la página 1 del buscador (robots.txt), 30 s entre peticiones |
 | `jazz_en_dominicana` | Jazz en Dominicana (feed Atom) | Activa. Solo Santo Domingo |
-| `teatro_las_mascaras` | Teatro Las Máscaras (portada del sitio) | Nueva, verificada con una corrida real el 24 nov 2026 (3 eventos próximos bien leídos): lee el texto de la portada (fechas, precio de la boleta, enlace a tix.do). Sin hora única: viernes y sábado 8:30 p. m., domingo 6:30 p. m. (va en la descripción) |
+| `teatro_las_mascaras` | Teatro Las Máscaras (portada del sitio) | Nueva, sin HTML real verificado: lee el texto de la portada (fechas, precio de la boleta, enlace a tix.do). Sin hora única: viernes y sábado 8:30 p. m., domingo 6:30 p. m. (va en la descripción) |
 | `fundacion_sinfonia` | Fundación Sinfonía (sinfonia.org.do) | Nueva. Conciertos de la Orquesta Sinfónica Nacional con hora y precio; completa la hora de los del Teatro Nacional al unir repetidos |
 | `ticketmax` | Ticketmax (ticketera, ticketmax.org) | Nueva. Lee la portada (solo Santo Domingo) y el JSON-LD de cada evento: hora y precio exactos. Detrás de los sitios de las salas en `SOURCE_PRIORITY` |
 | `tix` | TIX (ticketera tix.do, su API pública) | Nueva. Hora real de cada función; sin precio (solo "gratis") ni ciudad: publica solo salas reconocidas de Santo Domingo y la corrida lista las demás. Pendiente: escribirle a info@tix.do (Edwin) |

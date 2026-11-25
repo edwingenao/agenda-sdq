@@ -182,6 +182,44 @@ def is_same_event(a: Event, b: Event) -> bool:
     return False
 
 
+# Fuentes que publican la misma función dos veces (Ticketmax vende varios productos por sesión; Zona Colonial a veces
+# tiene dos páginas para la misma actividad). Para el resto, dos eventos de la misma fuente son ocurrencias distintas
+# (por ejemplo, dos salas del Teatro Nacional a la misma hora).
+DUPLICATE_PRONE_SOURCES = {"ticketmax", "zona_colonial"}
+
+
+def is_duplicate_listing(a: Event, b: Event) -> bool:
+    """La misma fuente publicó dos veces la misma función: mismo día, misma hora, sede compatible y título casi igual.
+
+    La hora tiene que venir en los dos y ser idéntica: una función de tarde y otra de noche siguen siendo distintas.
+    Un rango (obra del 9 al 18) no es una función suelta, así que no se une con una sola fecha.
+    """
+    if a.source != b.source or a.source not in DUPLICATE_PRONE_SOURCES:
+        return False
+    if a.dates != b.dates or not a.start_time or a.start_time != b.start_time:
+        return False
+    if not venues_compatible(a.venue, b.venue)[0]:
+        return False
+    return title_similarity(a.title, b.title) >= 0.85
+
+
+def is_same_run(a: Event, b: Event) -> bool:
+    """La misma temporada (rango de fechas) publicada por dos fuentes que la empiezan en días distintos.
+
+    Pide rangos que se solapan, sede confirmada en las dos, título casi igual y, si ambas traen hora, que coincida.
+    """
+    if a.source == b.source or a.start == a.end or b.start == b.end:
+        return False
+    if a.start > b.end or b.start > a.end:
+        return False
+    ok_v, venue_confirmed = venues_compatible(a.venue, b.venue)
+    if not (ok_v and venue_confirmed):
+        return False
+    if a.start_time and b.start_time and not times_compatible(replace(a, dates=[a.start]), replace(b, dates=[a.start]))[0]:
+        return False
+    return title_similarity(a.title, b.title) >= 0.85
+
+
 # --------------------------------------------------------------------------
 # Agrupación (union-find) y fusión
 # --------------------------------------------------------------------------
@@ -206,11 +244,21 @@ def _group(events: list) -> list:
         for x in range(len(idxs)):
             for y in range(x + 1, len(idxs)):
                 i, j = idxs[x], idxs[y]
-                # Dos eventos de la misma fuente son ocurrencias distintas.
+                # Dos eventos de la misma fuente son ocurrencias distintas, salvo listados repetidos conocidos.
                 if events[i].source == events[j].source:
+                    if is_duplicate_listing(events[i], events[j]):
+                        parent[find(i)] = find(j)
                     continue
                 if is_same_event(events[i], events[j]):
                     parent[find(i)] = find(j)
+
+    # Temporadas (rangos) que dos fuentes empiezan en días distintos no coinciden en el bloqueo por día de inicio.
+    ranged = [i for i, e in enumerate(events) if e.end > e.start]
+    for x in range(len(ranged)):
+        for y in range(x + 1, len(ranged)):
+            i, j = ranged[x], ranged[y]
+            if find(i) != find(j) and is_same_run(events[i], events[j]):
+                parent[find(i)] = find(j)
 
     groups = {}
     for i in range(n):
@@ -250,6 +298,10 @@ def merge_group(group: list) -> Merged:
         tags=list(dict.fromkeys(t for e in g for t in e.tags)),
         needs_review=any(e.needs_review for e in g),
     )
+
+    dates = {tuple(e.dates) for e in g}
+    if len(dates) > 1:
+        conflicts.append("fechas distintas entre fuentes: " + "; ".join(f"{e.source}={e.start}..{e.end}" for e in g))
 
     # Hora: la de la fuente de mayor prioridad que la tenga.
     with_time = [e for e in g if e.start_time]

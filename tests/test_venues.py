@@ -274,6 +274,8 @@ def test_export_adds_coordinates_and_writes_venues_file(tmp_path):
 
     a = by_title["Concierto A"]
     assert (a["venueId"], a["lat"], a["lng"], a["geoPrecision"]) == ("teatro-nacional", 18.47056, -69.91083, "edificio")
+    assert a["address"] == "Plaza de la Cultura Juan Pablo Duarte"  # para el enlace «Ver en Google Maps» del sitio
+    assert "address" not in by_title["Concierto C"]
     b = by_title["Concierto B"]  # lugar conocido pero sin coordenadas: lleva id, nunca un marcador inventado
     assert b["venueId"] == "casa-de-teatro" and "lat" not in b and "lng" not in b and "geoPrecision" not in b
     for title in ("Concierto C", "Concierto D"):

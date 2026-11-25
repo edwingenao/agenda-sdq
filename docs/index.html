@@ -168,6 +168,7 @@ body.esc .wrap{max-width:none}
 .fila .ic{width:44px;height:44px;flex:none;border-radius:14px;background:var(--soft);display:flex;align-items:center;justify-content:center}
 .fila small{display:block;font-size:12.5px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
 .fila div{min-width:0}.fila strong{font-size:16px}
+.mapa{display:inline-flex;align-items:center;min-height:44px;font-size:14px;font-weight:700;color:var(--teal-ink);text-decoration:none}.mapa:hover{text-decoration:underline}
 .desc{font-size:15.5px;line-height:1.5;color:var(--muted);white-space:pre-line;max-width:65ch}
 .aviso{margin:0 0 14px;padding:10px 14px;border-radius:14px;background:var(--c-gastro-bg);color:var(--c-gastro-fg);font-size:14px}
 .acciones{display:flex;gap:10px;margin-top:22px;flex-wrap:wrap}
@@ -209,7 +210,7 @@ function expandir(lista,hoy){
       :{estado:"por_confirmar",min:null,max:null};
     const base={titulo:e.title,descripcion:e.description||null,categorias:[cat],subcategoria:sub,
       hora_inicio:e.time||null,horario:e.time?"hora":"por_confirmar",
-      lugar:{nombre:e.venue||"Lugar por confirmar",sector:e.zone||null},
+      lugar:{nombre:e.venue||"Lugar por confirmar",sector:e.zone||null,direccion:e.address||null},
       precio,enlace:e.srcUrl,enlace_boletos:e.ticketUrl||null,
       fuentes:(e.sources&&e.sources.length?e.sources:[{srcName:e.srcName,srcUrl:e.srcUrl}])};
     // Sesiones sueltas: una ocurrencia por sesión. Rango (fecha y fin): la fuente no dice qué días
@@ -275,6 +276,10 @@ function lista(){
   <p class="pie">Fuentes: ${esc(nombresFuentes())} · actualizado el ${esc(actualizado())}${muestra?" (muestra: esas fechas ya pasaron)":""}. Confirma en la fuente original antes de ir.</p>`}
 const svgI=p=>`<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${p}</svg>`;
 const SITIO="https://edwingenao.github.io/agenda-sdq/";
+// Enlace de búsqueda de Google Maps (esquema público, sin clave): solo se manda el nombre y la dirección o zona del lugar.
+const urlMapa=e=>{const n=e.lugar.nombre;if(!n||n==="Lugar por confirmar")return null;
+  const q=[n,e.lugar.direccion||e.lugar.sector,"Santo Domingo, República Dominicana"].filter(Boolean).join(", ");
+  return"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(q)};
 // Texto que se manda por WhatsApp: qué, cuándo, dónde, precio y el enlace a la fuente original.
 function mensajeWA(e,cuando){
   const p=e.precio,precio=p.estado==="gratis"?"Gratis":p.estado==="con_precio"?(p.max?`${pesos(p.min)} – ${pesos(p.max)}`:`Desde ${pesos(p.min)}`):"Precio por confirmar";
@@ -291,7 +296,7 @@ function detalle(e){
   <div>${etiquetaPrecio(e.precio)}</div>
   <div class="filas">
    <div class="fila"><span class="ic">${svgI('<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>')}</span><div><small>Cuándo</small><strong>${esc(cuando)}</strong></div></div>
-   <div class="fila"><span class="ic">${svgI('<path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/>')}</span><div><small>Dónde</small><strong>${esc(e.lugar.nombre)}</strong>${e.lugar.sector?`<div style="color:var(--muted);font-size:14px">${esc(e.lugar.sector)}</div>`:""}</div></div>
+   <div class="fila"><span class="ic">${svgI('<path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/>')}</span><div><small>Dónde</small><strong>${esc(e.lugar.nombre)}</strong>${e.lugar.sector?`<div style="color:var(--muted);font-size:14px">${esc(e.lugar.sector)}</div>`:""}${urlMapa(e)?`<a class="mapa" href="${esc(urlMapa(e))}" target="_blank" rel="noopener">Ver en Google Maps</a>`:""}</div></div>
   </div>
   ${e.horario==="por_confirmar"?`<p class="aviso">La fuente no publica la hora. Revísala en la página original antes de ir.</p>`:""}
   ${e.descripcion?`<p class="desc">${esc(e.descripcion)}</p>`:""}

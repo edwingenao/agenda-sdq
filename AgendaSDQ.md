@@ -111,8 +111,11 @@ completas, y gana el alias más largo. La corrida lista en el log los lugares qu
   parece al del lugar (nunca sobrescribe), y siempre con `verified: false`. `--revisar` compara las coordenadas existentes.
   Si robots.txt no permite la consulta, se detiene: se busca a mano con los enlaces del informe. El mapa debe mostrar
   «© colaboradores de OpenStreetMap».
-- Lo que falta para ver el mapa en el sitio: un mapa en `docs/index.html` que lea `venues.json` (sin dependencias externas pesadas,
-  atribución de OSM) y `geoPrecision`.
+- **Mapa en el sitio (decisión del 24 nov 2026):** no hay mapa propio. El detalle de cada evento trae «Ver en Google Maps», un enlace de
+  búsqueda (`https://www.google.com/maps/search/?api=1&query=...`, esquema público y sin clave) armado con el nombre del lugar, su dirección
+  (`address` del evento, si está en `venues.json`) o su zona, y «Santo Domingo, República Dominicana». Solo se manda texto a Google: no se
+  guardan coordenadas ni datos de Google, así que no choca con la regla de arriba. Las coordenadas de `venues.json` quedan como dato
+  opcional (por ejemplo para un mapa propio más adelante); `python -m agenda.geocode` ya no es necesario para que el sitio muestre mapas.
 
 ## Cómo trabajar
 
@@ -145,7 +148,7 @@ completas, y gana el alias más largo. La corrida lista en el log los lugares qu
 - Fuentes de Gastronomía que publiquen con regularidad.
 - Reconfirmar las series curadas antes de que venzan (60 días sin confirmar las marca para revisión) y activar las de temporada cuando anuncien fechas.
 - La hora de los eventos del Teatro Nacional: su página no la publica, pero su API sí trae fecha y hora (ver la nota de abajo). Falta que el adaptador `teatro_nacional` la use.
-- Ubicar los 56 lugares sin coordenadas con `python -m agenda.geocode` y verificar los marcadores (ver "Lugares y mapa").
+- Opcional: ubicar los lugares sin coordenadas con `python -m agenda.geocode` (ya no hace falta para el mapa; ver "Lugares y mapa"). Mejor aprovechado: completar `address` en `venues.json` (hoy 8 de 64 la tienen), porque con dirección el enlace de Google Maps cae en el sitio exacto.
 - Confirmar el nombre y la dirección de los lugares que TIX publica solo con dirección (Calle Max Henríquez Ureña 33 local 3,
   Av. Lope de Vega 29, C. 19 de Marzo 113) y si «Hard Rock Cafe Blue Mall» y «Hard Rock Cafe Santo Domingo» son el mismo local.
 - Revisar `VENUE_ALIASES` en `agenda/dedupe.py`: mapea «palacio de bellas artes» a «teatro nacional», pero son edificios distintos

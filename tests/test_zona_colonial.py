@@ -74,3 +74,10 @@ def test_different_paid_events_same_time_with_known_venues_stay_separate():
     d = _zc("Cine D", "", 0, "20:00")
     e = _zc("Charla E", "", 0, "20:00")
     assert len(dedupe([d, e])) == 2  # gratis sin lugar: no basta
+
+
+def test_listed_total_reads_the_count_the_page_announces():
+    from agenda.sources.zona_colonial import listed_total
+
+    assert listed_total('<span class="font-bold" id="ehm-active-count">31</span> eventos') == 31
+    assert listed_total("<html></html>") is None

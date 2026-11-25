@@ -56,8 +56,20 @@ class ZonaColonial(Source):
                 f"[{self.id}] 0 tarjetas. La página pudo cambiar: "
                 f"`python -m agenda inspect {LIST_URL}` y revisa parse_listing()."
             )
+        total, cards = listed_total(html), html.count("ehm-event-card ")
+        if total is not None and cards < total:
+            self.log(
+                f"[{self.id}] la página dice {total} eventos pero su HTML trae {cards} tarjetas: "
+                "el resto lo carga el botón «Ver más» y no se está leyendo."
+            )
         self.db.record_page(LIST_URL, fp, self.now)
         return events
+
+
+def listed_total(html: str) -> int | None:
+    """«Hemos encontrado N eventos»: el total que dice la página (el botón «Ver más» muestra solo 20 de golpe)."""
+    m = re.search(r'id="ehm-active-count"[^>]*>\s*(\d+)\s*<', html)
+    return int(m.group(1)) if m else None
 
 
 def _norm(t: str) -> str:

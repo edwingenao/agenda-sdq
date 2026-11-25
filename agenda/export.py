@@ -25,7 +25,7 @@ def _load_venues(log):
 def export_json(db: DB, path: str | Path, today: date, log=None, venues=None) -> int:
     """Escribe los eventos próximos, con los repetidos entre fuentes ya unidos. Devuelve cuántos.
 
-    Cada evento cuyo lugar está en agenda/venues.json lleva `venueId`; si el lugar tiene coordenadas, también
+    Cada evento cuyo lugar está en agenda/venues.json lleva `venueId` (y `address` si se conoce); si el lugar tiene coordenadas, también
     `lat`, `lng` y `geoPrecision`. Junto a events.json se escribe venues.json con los lugares de esos eventos.
     """
     raw = [Event(**p) for p in db.upcoming(today)]
@@ -44,6 +44,8 @@ def export_json(db: DB, path: str | Path, today: date, log=None, venues=None) ->
             else:
                 used[v.id] = v
                 pub["venueId"] = v.id
+                if v.address:  # el sitio la usa para el enlace «Ver en Google Maps»
+                    pub["address"] = v.address
                 if v.has_coords:
                     pub["lat"], pub["lng"], pub["geoPrecision"] = v.lat, v.lng, v.precision
         events.append(pub)

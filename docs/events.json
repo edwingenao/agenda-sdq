@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-24T20:48:42+00:00",
+  "generated_at": "2026-11-25T02:57:38+00:00",
   "today": "2026-11-24",
-  "count": 124,
+  "count": 129,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -27,7 +27,8 @@
           "srcName": "Centro Cultural de España",
           "srcUrl": "https://ccesd.aecid.es/w/inscr%C3%ADbete"
         }
-      ]
+      ],
+      "venueId": "centro-cultural-de-espana"
     },
     {
       "id": "d65de3eea5468ab7",
@@ -53,7 +54,12 @@
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/pruebajade-1"
         }
-      ]
+      ],
+      "venueId": "teatro-nacional",
+      "address": "Plaza de la Cultura Juan Pablo Duarte",
+      "lat": 18.47056,
+      "lng": -69.91083,
+      "geoPrecision": "edificio"
     },
     {
       "id": "34614044015ba971",
@@ -79,7 +85,8 @@
           "srcName": "Teatro Las Máscaras",
           "srcUrl": "https://teatrolasmascaras.com/#las-locuras-de-papi-y-mami"
         }
-      ]
+      ],
+      "venueId": "teatro-las-mascaras"
     },
     {
       "id": "27fd3306c86532bc",
@@ -96,7 +103,7 @@
       "time": "",
       "kids": false,
       "tags": [],
-      "description": "Funciones: Viernes y Sábados 8:30 p.m. | Domingos 6:30 p.m. «Señora, ¿me presta su marido?» Una comedia audaz, ingeniosa y llena de verdades conyugales.",
+      "description": "¿Se puede prestar lo que se ama... o el matrimonio requiere de un alerta al buen sentido para sobrevivir? 💍✨ Regresa a las tablas de Teatro Las Máscaras «Señora, ¿me presta su marido?», una comedia imperdible que combina el humor fino, la chispa de la convivencia diaria y reflex…",
       "ticketUrl": "https://tix.do/event/Senorameprestasumarido-1",
       "srcName": "Teatro Las Máscaras",
       "srcUrl": "https://teatrolasmascaras.com/#senora-me-presta-su-marido",
@@ -104,8 +111,13 @@
         {
           "srcName": "Teatro Las Máscaras",
           "srcUrl": "https://teatrolasmascaras.com/#senora-me-presta-su-marido"
+        },
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/Senorameprestasumarido-1"
         }
-      ]
+      ],
+      "venueId": "teatro-las-mascaras"
     },
     {
       "id": "acc0de42a02e5e20",
@@ -131,7 +143,12 @@
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/festival-internacional-de-teatro-mujeres-sobre-las-tablas/"
         }
-      ]
+      ],
+      "venueId": "teatro-nacional",
+      "address": "Plaza de la Cultura Juan Pablo Duarte",
+      "lat": 18.47056,
+      "lng": -69.91083,
+      "geoPrecision": "edificio"
     },
     {
       "id": "1918bc91dc820b07",
@@ -183,33 +200,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/266187/"
         }
-      ]
-    },
-    {
-      "id": "3ff9a00589854853",
-      "source": "tix",
-      "date": "2026-11-24",
-      "end": "2026-11-29",
-      "sessions": null,
-      "title": "Señora, ¿me presta su marido?",
-      "venue": "Teatro Las Máscaras",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "",
-      "kids": false,
-      "tags": [],
-      "description": "¿Se puede prestar lo que se ama... o el matrimonio requiere de un alerta al buen sentido para sobrevivir? 💍✨ Regresa a las tablas de Teatro Las Máscaras «Señora, ¿me presta su marido?», una comedia imperdible que combina el humor fino, la chispa de la convivencia diaria y reflex…",
-      "ticketUrl": "https://tix.do/event/Senorameprestasumarido-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/Senorameprestasumarido-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/Senorameprestasumarido-1"
-        }
-      ]
+      ],
+      "venueId": "the-box-working-space"
     },
     {
       "id": "785832807aeb9f2a",
@@ -235,7 +227,8 @@
           "srcName": "Centro Cultural de España",
           "srcUrl": "https://ccesd.aecid.es/w/arte-en-el-espacio-p%C3%BAblico-%C2%BFa-qui%C3%A9n-pertenece-la-ciudad-"
         }
-      ]
+      ],
+      "venueId": "centro-cultural-de-espana"
     },
     {
       "id": "c072d7b10d59acd7",
@@ -313,16 +306,18 @@
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/Otakus-2"
         }
-      ]
+      ],
+      "venueId": "max-henriquez-urena-33",
+      "address": "Local 3: Calle Max. Henríquez Ureña 33"
     },
     {
       "id": "e7f04a5083921479",
       "source": "zona_colonial",
       "date": "2026-11-25",
-      "end": null,
+      "end": "2026-11-28",
       "sessions": null,
       "title": "III Congreso para la Reunificación de la Hispanidad",
-      "venue": "NOV",
+      "venue": "$",
       "zone": "Ciudad Colonial",
       "cat": "Cultura",
       "price": null,
@@ -364,29 +359,7 @@
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900678/"
-        }
-      ]
-    },
-    {
-      "id": "cf37929288787e61",
-      "source": "ticketmax",
-      "date": "2026-11-25",
-      "end": null,
-      "sessions": null,
-      "title": "Vino & Tinta | 6:00 PM - 8:00 PM",
-      "venue": "Centro Cultural Casa Libros",
-      "zone": "",
-      "cat": "Arte",
-      "price": 300,
-      "price_max": null,
-      "time": "18:00",
-      "kids": false,
-      "tags": [],
-      "description": "🍷📚 VINO &amp; TINTA | Donde las palabras se convierten en experiencias. Hay encuentros que inspiran y conversaciones que dejan huellas. En Casa Libros, Vino &amp; Tinta reúne escritores, artistas, lectores y amantes de la cultura en tertulias únicas donde la literatura, el arte…",
-      "ticketUrl": "https://ticketmax.org/evento/900681/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900681/",
-      "sources": [
+        },
         {
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900681/"
@@ -400,7 +373,7 @@
       "end": null,
       "sessions": null,
       "title": "Proyección de la película “Streets of Fire”",
-      "venue": "NOV",
+      "venue": "Dirección General de Mecenazgo",
       "zone": "Ciudad Colonial",
       "cat": "Cine",
       "price": 0,
@@ -418,6 +391,33 @@
           "srcUrl": "https://zonacolonial.do/actividad/proyeccion-de-la-pelicula-streets-of-fire/"
         }
       ]
+    },
+    {
+      "id": "f3fb663e9a6c71eb",
+      "source": "zona_colonial",
+      "date": "2026-11-25",
+      "end": null,
+      "sessions": null,
+      "title": "PROYECCIÓN DE PELÍCULA: “MARINETTE” EN LA ALIANZA FRANCESA",
+      "venue": "Alianza Francesa de Santo Domingo y Alianza Francesa de Santiago",
+      "zone": "Ciudad Colonial",
+      "cat": "Cine",
+      "price": 0,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/proyeccion-de-pelicula-marinette-en-la-alianza-francesa/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/proyeccion-de-pelicula-marinette-en-la-alianza-francesa/"
+        }
+      ],
+      "venueId": "alianza-francesa"
     },
     {
       "id": "0b4eff3601d6a40a",
@@ -443,7 +443,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900002/"
         }
-      ]
+      ],
+      "venueId": "velvet-room"
     },
     {
       "id": "d0066cc3fac4dc1e",
@@ -473,7 +474,8 @@
           "srcName": "Centro Cultural de España",
           "srcUrl": "https://ccesd.aecid.es/w/obra-de-teatro-los-tiempos-que-vivimos-%C2%A0"
         }
-      ]
+      ],
+      "venueId": "casa-de-teatro"
     },
     {
       "id": "5aeba2c2bab5ed38",
@@ -482,7 +484,7 @@
       "end": null,
       "sessions": null,
       "title": "HERMINIA” EN LA GRUTA",
-      "venue": "NOV",
+      "venue": "Sala de teatro La Gruta",
       "zone": "Ciudad Colonial",
       "cat": "Teatro",
       "price": 200,
@@ -525,7 +527,8 @@
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/COMEDYSHOWCASE-30"
         }
-      ]
+      ],
+      "venueId": "the-green-room"
     },
     {
       "id": "8e10ca6151a7af1d",
@@ -534,7 +537,7 @@
       "end": null,
       "sessions": null,
       "title": "Alfonso Cervantes – Boleros",
-      "venue": "NOV",
+      "venue": "Calle Arzobispo Meriño #110, Zona Colonial, Santo Domingo, República Dominicana",
       "zone": "Ciudad Colonial",
       "cat": "Cultura",
       "price": 500,
@@ -560,7 +563,7 @@
       "end": null,
       "sessions": null,
       "title": "Evolución del Merengue Dominicano",
-      "venue": "NOV",
+      "venue": "Parque Colón",
       "zone": "Ciudad Colonial",
       "cat": "Cultura",
       "price": 0,
@@ -580,13 +583,39 @@
       ]
     },
     {
+      "id": "d085090226d9f60c",
+      "source": "zona_colonial",
+      "date": "2026-11-26",
+      "end": null,
+      "sessions": null,
+      "title": "CINEFÓRUM DOCUMENTAL “MUJERES EXTRAORDINARIAS, VOL 3”",
+      "venue": "Auditorio Alma y Juan Vicini, Museo Memorial de la Resistencia Dominicana",
+      "zone": "Ciudad Colonial",
+      "cat": "Cine",
+      "price": 0,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/cineforum-documental-mujeres-extraordinarias-vol-3/",
+      "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/cineforum-documental-mujeres-extraordinarias-vol-3/"
+        }
+      ]
+    },
+    {
       "id": "639ec93e12581f1a",
       "source": "zona_colonial",
       "date": "2026-11-26",
       "end": null,
       "sessions": null,
       "title": "DÍA NACIONAL DEL MERENGUE",
-      "venue": "NOV",
+      "venue": "BAD Galery, Calle Sánchez No. 120, Zona Colonial, Santo Domingo",
       "zone": "Ciudad Colonial",
       "cat": "Cultura",
       "price": 0,
@@ -612,7 +641,7 @@
       "end": null,
       "sessions": null,
       "title": "Beaujolais Nouveau 2026",
-      "venue": "NOV",
+      "venue": "Patio de la Alianza Francesa de Santo Domingo. Calle Horacio Vicioso #103, Centro de los Héroes",
       "zone": "Ciudad Colonial",
       "cat": "Cultura",
       "price": 1000,
@@ -629,7 +658,8 @@
           "srcName": "Zona Colonial",
           "srcUrl": "https://zonacolonial.do/actividad/beaujolais-nouveau-2026/"
         }
-      ]
+      ],
+      "venueId": "alianza-francesa"
     },
     {
       "id": "187267bd4c2e87ae",
@@ -655,7 +685,8 @@
           "srcName": "Zona Colonial",
           "srcUrl": "https://zonacolonial.do/actividad/la-evolucion-del-tema-mariano-a-traves-de-la-historia-del-arte/"
         }
-      ]
+      ],
+      "venueId": "museo-de-la-catedral"
     },
     {
       "id": "49bc0ead4d634008",
@@ -685,7 +716,8 @@
           "srcName": "Zona Colonial",
           "srcUrl": "https://zonacolonial.do/actividad/sueno-de-una-noche-de-verano/"
         }
-      ]
+      ],
+      "venueId": "casa-de-teatro"
     },
     {
       "id": "04bcbbd12adb8f37",
@@ -711,7 +743,8 @@
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/TOURBACHARENGUE20ThanksgivingEdition-1"
         }
-      ]
+      ],
+      "venueId": "hard-rock-cafe"
     },
     {
       "id": "7e216255c42b0cf9",
@@ -743,7 +776,8 @@
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/JAZZNIGHT-27"
         }
-      ]
+      ],
+      "venueId": "the-green-room"
     },
     {
       "id": "967ab48a3c213f7f",
@@ -769,7 +803,8 @@
           "srcName": "Zona Colonial",
           "srcUrl": "https://zonacolonial.do/actividad/homenaje-a-pablo-milanes-canciones-que-permanecen/"
         }
-      ]
+      ],
+      "venueId": "casa-de-teatro"
     },
     {
       "id": "01c1280f350f2cc6",
@@ -795,13 +830,14 @@
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/BULIN47-1"
         }
-      ]
+      ],
+      "venueId": "lucia-sdq"
     },
     {
       "id": "c657ea76ce8245a6",
       "source": "zona_colonial",
       "date": "2026-11-27",
-      "end": null,
+      "end": "2026-11-29",
       "sessions": null,
       "title": "Festival Minutos Escénicos 2026 (FME2026)",
       "venue": "Centro Cultural Banreservas",
@@ -821,7 +857,8 @@
           "srcName": "Zona Colonial",
           "srcUrl": "https://zonacolonial.do/actividad/festival-minutos-escenicos-2026-fme2026/"
         }
-      ]
+      ],
+      "venueId": "centro-cultural-banreservas"
     },
     {
       "id": "83b0570dc37d67f4",
@@ -847,33 +884,12 @@
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/viaje-al-infinito/"
         }
-      ]
-    },
-    {
-      "id": "d9c0ede77e87e786",
-      "source": "zona_colonial",
-      "date": "2026-11-27",
-      "end": null,
-      "sessions": null,
-      "title": "ALCANTARILLA DE LAS ATARAZANAS REALES",
-      "venue": "NOV",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 1300,
-      "price_max": 1300,
-      "time": "09:30",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/alcantarilla-de-las-atarazanas-reales-4/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/alcantarilla-de-las-atarazanas-reales-4/"
-        }
-      ]
+      ],
+      "venueId": "teatro-nacional",
+      "address": "Plaza de la Cultura Juan Pablo Duarte",
+      "lat": 18.47056,
+      "lng": -69.91083,
+      "geoPrecision": "edificio"
     },
     {
       "id": "09b544f9decd4cb8",
@@ -882,7 +898,7 @@
       "end": null,
       "sessions": null,
       "title": "Descubre Santo Domingo Subterraneo",
-      "venue": "NOV",
+      "venue": "Museo del Ámbar, Ciudad Colonial, Santo Domingo",
       "zone": "Ciudad Colonial",
       "cat": "Cultura",
       "price": 1300,
@@ -898,6 +914,10 @@
         {
           "srcName": "Zona Colonial",
           "srcUrl": "https://zonacolonial.do/actividad/descubre-santo-domingo-subterraneo/"
+        },
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/alcantarilla-de-las-atarazanas-reales-4/"
         }
       ]
     },
@@ -951,7 +971,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900301/"
         }
-      ]
+      ],
+      "venueId": "velvet-room"
     },
     {
       "id": "f9b69f12af0d1c0e",
@@ -977,7 +998,8 @@
           "srcName": "Centro Cultural de España",
           "srcUrl": "https://ccesd.aecid.es/w/exposici%C3%B3n-de-carmen-talavera"
         }
-      ]
+      ],
+      "venueId": "centro-cultural-de-espana"
     },
     {
       "id": "22927afc11034172",
@@ -1005,7 +1027,8 @@
           "srcName": "Jazz en Dominicana",
           "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-22-al-28-de.html#2026-11-27-fiesta-sunset-jazz-presenta-marjorie-jiménez-boler"
         }
-      ]
+      ],
+      "venueId": "dominican-fiesta"
     },
     {
       "id": "0cdfbbc6958070f3",
@@ -1016,7 +1039,7 @@
       "title": "IVANA LOYOLA PRESENTA: “CUERDAS EN EL OCASO”",
       "venue": "Casa de Teatro",
       "zone": "Ciudad Colonial",
-      "cat": "Cultura",
+      "cat": "Música",
       "price": 1200,
       "price_max": 1200,
       "time": "20:00",
@@ -1030,34 +1053,13 @@
         {
           "srcName": "Zona Colonial",
           "srcUrl": "https://zonacolonial.do/actividad/ivana-loyola-presenta-cuerdas-en-el-ocaso/"
-        }
-      ]
-    },
-    {
-      "id": "190436ad12da2342",
-      "source": "zona_colonial",
-      "date": "2026-11-27",
-      "end": null,
-      "sessions": null,
-      "title": "Presentación en vivo del álbum debut “Cuerdas en el Ocaso” (Banda completa) por Ivana Loyola",
-      "venue": "Casa de Teatro",
-      "zone": "Ciudad Colonial",
-      "cat": "Música",
-      "price": 1000,
-      "price_max": 1000,
-      "time": "20:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/presentacion-en-vivo-del-album-debut-cuerdas-en-el-ocaso-banda-completa-por-ivana-loyola/",
-      "sources": [
+        },
         {
           "srcName": "Zona Colonial",
           "srcUrl": "https://zonacolonial.do/actividad/presentacion-en-vivo-del-album-debut-cuerdas-en-el-ocaso-banda-completa-por-ivana-loyola/"
         }
-      ]
+      ],
+      "venueId": "casa-de-teatro"
     },
     {
       "id": "49549f5a6a637140",
@@ -1083,7 +1085,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900293/"
         }
-      ]
+      ],
+      "venueId": "izbira"
     },
     {
       "id": "e5ab435923752366",
@@ -1109,7 +1112,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/254783/"
         }
-      ]
+      ],
+      "venueId": "casa-de-teatro"
     },
     {
       "id": "b652e37fd8a34d48",
@@ -1135,7 +1139,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900147/"
         }
-      ]
+      ],
+      "venueId": "velvet-room"
     },
     {
       "id": "e946e2e3cef612a2",
@@ -1161,7 +1166,12 @@
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/todo-hollywood-vol-2/"
         }
-      ]
+      ],
+      "venueId": "teatro-nacional",
+      "address": "Plaza de la Cultura Juan Pablo Duarte",
+      "lat": 18.47056,
+      "lng": -69.91083,
+      "geoPrecision": "edificio"
     },
     {
       "id": "cf1b29b95f40655a",
@@ -1187,7 +1197,35 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900014/"
         }
-      ]
+      ],
+      "venueId": "bloom-sdq"
+    },
+    {
+      "id": "f40539aa504f8998",
+      "source": "museosrd",
+      "date": "2026-11-28",
+      "end": null,
+      "sessions": null,
+      "title": "Visita guiada: Plantas endémicas de La Española",
+      "venue": "Quinta Dominica",
+      "zone": "Ciudad Colonial",
+      "cat": "Cultura",
+      "price": 0,
+      "price_max": null,
+      "time": "18:00",
+      "kids": false,
+      "tags": [],
+      "description": ", en las instalaciones de Quinta Dominica, ubicada en la Ciudad Colonial de Santo Domingo.",
+      "ticketUrl": "",
+      "srcName": "Red Nacional de Museos",
+      "srcUrl": "https://museosrd.gob.do/evento/visita-guiada-plantas-endemicas-de-la-espanola/",
+      "sources": [
+        {
+          "srcName": "Red Nacional de Museos",
+          "srcUrl": "https://museosrd.gob.do/evento/visita-guiada-plantas-endemicas-de-la-espanola/"
+        }
+      ],
+      "venueId": "quinta-dominica"
     },
     {
       "id": "a0adfd9e32c6a168",
@@ -1213,7 +1251,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900203/"
         }
-      ]
+      ],
+      "venueId": "velvet-room"
     },
     {
       "id": "714b08cb5912675e",
@@ -1268,6 +1307,90 @@
       ]
     },
     {
+      "id": "7a5693224986057a",
+      "source": "jazz_en_dominicana",
+      "date": "2026-11-28",
+      "end": null,
+      "sessions": null,
+      "title": "Jazz en la Loma 2026 - Sajoma Jazz Festival",
+      "venue": "Salón de Asambleas, Cooperativa San José, Guajaca, San José de las Matas",
+      "zone": "",
+      "cat": "Música",
+      "price": 1500,
+      "price_max": 1500,
+      "time": "20:00",
+      "kids": false,
+      "tags": [
+        "jazz"
+      ],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Jazz en Dominicana",
+      "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-la-loma-2026-desde-estados.html",
+      "sources": [
+        {
+          "srcName": "Jazz en Dominicana",
+          "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-la-loma-2026-desde-estados.html"
+        }
+      ]
+    },
+    {
+      "id": "9e5878a706a45cf0",
+      "source": "jazz_en_dominicana",
+      "date": "2026-11-28",
+      "end": null,
+      "sessions": null,
+      "title": "Jazz en la Loma 2026 (SAJOMA Jazz Festival)",
+      "venue": "Salón de Asambleas, Cooperativa San José, Guajaca, entrada San José de las Matas",
+      "zone": "",
+      "cat": "Música",
+      "price": 1500,
+      "price_max": 1500,
+      "time": "20:00",
+      "kids": false,
+      "tags": [
+        "jazz"
+      ],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Jazz en Dominicana",
+      "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-la-loma-2026-sajoma-jazz.html",
+      "sources": [
+        {
+          "srcName": "Jazz en Dominicana",
+          "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-la-loma-2026-sajoma-jazz.html"
+        }
+      ]
+    },
+    {
+      "id": "db7d83e64401ca78",
+      "source": "jazz_en_dominicana",
+      "date": "2026-11-28",
+      "end": null,
+      "sessions": null,
+      "title": "Jazz en la Loma 2026 (SAJOMA Jazz Festival)",
+      "venue": "Salón de Asambleas, Cooperativa San José, Guajaca, entrada San José de las Matas",
+      "zone": "",
+      "cat": "Música",
+      "price": 1500,
+      "price_max": 1500,
+      "time": "20:00",
+      "kids": false,
+      "tags": [
+        "jazz"
+      ],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Jazz en Dominicana",
+      "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-la-loma-2026-sajoma-jazz_0625474232.html",
+      "sources": [
+        {
+          "srcName": "Jazz en Dominicana",
+          "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-la-loma-2026-sajoma-jazz_0625474232.html"
+        }
+      ]
+    },
+    {
       "id": "6d926b1638c50bc6",
       "source": "ticketmax",
       "date": "2026-11-28",
@@ -1291,7 +1414,9 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/254937/"
         }
-      ]
+      ],
+      "venueId": "teatro-guloya",
+      "address": "Arzobispo Portes 205, Ciudad Colonial"
     },
     {
       "id": "223478797134913e",
@@ -1317,7 +1442,8 @@
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/ANEWDAY-1"
         }
-      ]
+      ],
+      "venueId": "casa-de-teatro"
     },
     {
       "id": "7d67e47153f35aea",
@@ -1343,7 +1469,8 @@
           "srcName": "Zona Colonial",
           "srcUrl": "https://zonacolonial.do/actividad/shalondy/"
         }
-      ]
+      ],
+      "venueId": "casa-de-teatro"
     },
     {
       "id": "426ba98c2295aa7e",
@@ -1369,7 +1496,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900556/"
         }
-      ]
+      ],
+      "venueId": "velvet-room"
     },
     {
       "id": "dad2d0c8b225d810",
@@ -1395,7 +1523,8 @@
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/MATINEDESALSA-20"
         }
-      ]
+      ],
+      "venueId": "the-green-room"
     },
     {
       "id": "f173f90395af05ce",
@@ -1421,7 +1550,12 @@
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/natalia-jimenez/"
         }
-      ]
+      ],
+      "venueId": "teatro-nacional",
+      "address": "Plaza de la Cultura Juan Pablo Duarte",
+      "lat": 18.47056,
+      "lng": -69.91083,
+      "geoPrecision": "edificio"
     },
     {
       "id": "0f78f23eeda40bd0",
@@ -1528,7 +1662,12 @@
           "srcName": "SalsaVida",
           "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-11-29"
         }
-      ]
+      ],
+      "venueId": "ruinas-san-francisco",
+      "address": "Calle Hostos, Zona Colonial",
+      "lat": 18.47694,
+      "lng": -69.88567,
+      "geoPrecision": "edificio"
     },
     {
       "id": "81ad67a2939d8a2e",
@@ -1580,7 +1719,9 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/254945/"
         }
-      ]
+      ],
+      "venueId": "teatro-guloya",
+      "address": "Arzobispo Portes 205, Ciudad Colonial"
     },
     {
       "id": "f001d58222b77ce3",
@@ -1606,7 +1747,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900713/"
         }
-      ]
+      ],
+      "venueId": "velvet-room"
     },
     {
       "id": "41951820bc82a995",
@@ -1632,7 +1774,12 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900570/"
         }
-      ]
+      ],
+      "venueId": "teatro-nacional",
+      "address": "Plaza de la Cultura Juan Pablo Duarte",
+      "lat": 18.47056,
+      "lng": -69.91083,
+      "geoPrecision": "edificio"
     },
     {
       "id": "1da849a3caffd071",
@@ -1658,7 +1805,8 @@
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/ROMANMOSTEIROCASACRUDATOUR-1"
         }
-      ]
+      ],
+      "venueId": "casa-de-teatro"
     },
     {
       "id": "d2141a626c900dd3",
@@ -1684,7 +1832,9 @@
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/ElshowdeHaruCCorderoyBegonaGuillen-1"
         }
-      ]
+      ],
+      "venueId": "max-henriquez-urena-33",
+      "address": "Local 3: Calle Max. Henríquez Ureña 33"
     },
     {
       "id": "06b6dbcdbb792e0b",
@@ -1716,7 +1866,35 @@
           "srcName": "Centro Cultural de España",
           "srcUrl": "https://ccesd.aecid.es/w/taller-de-cer%C3%A1mica-con-carmen-talavera"
         }
-      ]
+      ],
+      "venueId": "centro-cultural-de-espana"
+    },
+    {
+      "id": "383c0f4cfdb819fa",
+      "source": "museosrd",
+      "date": "2026-12-02",
+      "end": null,
+      "sessions": null,
+      "title": "Flauta y Arpa: un viaje sonoro entre épocas",
+      "venue": "Museo de la Catedral de Santo Domingo",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": 1500,
+      "price_max": 1500,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "El Museo de la Catedral de Santo Domingo presenta el concierto",
+      "ticketUrl": "",
+      "srcName": "Red Nacional de Museos",
+      "srcUrl": "https://museosrd.gob.do/evento/flauta-y-arpa-un-viaje-sonoro-entre-epocas/",
+      "sources": [
+        {
+          "srcName": "Red Nacional de Museos",
+          "srcUrl": "https://museosrd.gob.do/evento/flauta-y-arpa-un-viaje-sonoro-entre-epocas/"
+        }
+      ],
+      "venueId": "museo-de-la-catedral"
     },
     {
       "id": "0addca6c0292ae72",
@@ -1742,7 +1920,35 @@
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/Pavel-19"
         }
-      ]
+      ],
+      "venueId": "casa-de-teatro"
+    },
+    {
+      "id": "39e0d02d5ba84d31",
+      "source": "museosrd",
+      "date": "2026-12-03",
+      "end": null,
+      "sessions": null,
+      "title": "La custodia: arte y devoción",
+      "venue": "Museo de la Catedral de Santo Domingo",
+      "zone": "Ciudad Colonial",
+      "cat": "Arte",
+      "price": null,
+      "price_max": null,
+      "time": "19:30",
+      "kids": false,
+      "tags": [],
+      "description": "El Museo de la Catedral de Santo Domingo presenta la conferencia",
+      "ticketUrl": "",
+      "srcName": "Red Nacional de Museos",
+      "srcUrl": "https://museosrd.gob.do/evento/la-custodia-arte-y-devocion/",
+      "sources": [
+        {
+          "srcName": "Red Nacional de Museos",
+          "srcUrl": "https://museosrd.gob.do/evento/la-custodia-arte-y-devocion/"
+        }
+      ],
+      "venueId": "museo-de-la-catedral"
     },
     {
       "id": "b8c538f653cec4ea",
@@ -1768,7 +1974,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/255078/"
         }
-      ]
+      ],
+      "venueId": "casa-de-teatro"
     },
     {
       "id": "7621121fef173804",
@@ -1794,7 +2001,12 @@
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/brito-2/"
         }
-      ]
+      ],
+      "venueId": "teatro-nacional",
+      "address": "Plaza de la Cultura Juan Pablo Duarte",
+      "lat": 18.47056,
+      "lng": -69.91083,
+      "geoPrecision": "edificio"
     },
     {
       "id": "15170ae4e0edb16d",
@@ -1820,7 +2032,8 @@
           "srcName": "Centro Cultural de España",
           "srcUrl": "https://ccesd.aecid.es/w/suns-en-el-centro"
         }
-      ]
+      ],
+      "venueId": "centro-cultural-de-espana"
     },
     {
       "id": "fdf0637cd75c74a6",
@@ -1846,7 +2059,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/255088/"
         }
-      ]
+      ],
+      "venueId": "casa-de-teatro"
     },
     {
       "id": "37be24b203cc76df",
@@ -1875,6 +2089,34 @@
       ]
     },
     {
+      "id": "6c575200b88a8e15",
+      "source": "jazz_en_dominicana",
+      "date": "2026-12-05",
+      "end": null,
+      "sessions": null,
+      "title": "Haina de Jazz 2026 - 12ª Edición",
+      "venue": "Centro Educativo Profesor Manuel Feliz Peña, Municipio Bajos de Haina",
+      "zone": "",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "19:00",
+      "kids": false,
+      "tags": [
+        "jazz"
+      ],
+      "description": "",
+      "ticketUrl": "",
+      "srcName": "Jazz en Dominicana",
+      "srcUrl": "https://www.jazzendominicana.com/2026/11/haina-de-jazz-arriba-sus-12-anos-y-es.html",
+      "sources": [
+        {
+          "srcName": "Jazz en Dominicana",
+          "srcUrl": "https://www.jazzendominicana.com/2026/11/haina-de-jazz-arriba-sus-12-anos-y-es.html"
+        }
+      ]
+    },
+    {
       "id": "cf31168b2d24e6c2",
       "source": "tix",
       "date": "2026-12-05",
@@ -1898,7 +2140,8 @@
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/AndresObregonenConcierto-1"
         }
-      ]
+      ],
+      "venueId": "the-green-room"
     },
     {
       "id": "2fd79917e6539551",
@@ -1924,7 +2167,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/264599/"
         }
-      ]
+      ],
+      "venueId": "seven-lounge"
     },
     {
       "id": "8f179ea8ff689fbb",
@@ -1950,7 +2194,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/255179/"
         }
-      ]
+      ],
+      "venueId": "casa-de-teatro"
     },
     {
       "id": "b6aea8882f385f54",
@@ -2002,7 +2247,12 @@
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/recital-de-navidad/"
         }
-      ]
+      ],
+      "venueId": "teatro-nacional",
+      "address": "Plaza de la Cultura Juan Pablo Duarte",
+      "lat": 18.47056,
+      "lng": -69.91083,
+      "geoPrecision": "edificio"
     },
     {
       "id": "d76a9daac79f0a3b",
@@ -2057,7 +2307,12 @@
           "srcName": "SalsaVida",
           "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-12-06"
         }
-      ]
+      ],
+      "venueId": "ruinas-san-francisco",
+      "address": "Calle Hostos, Zona Colonial",
+      "lat": 18.47694,
+      "lng": -69.88567,
+      "geoPrecision": "edificio"
     },
     {
       "id": "1c256d19fa6745c0",
@@ -2083,7 +2338,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/255189/"
         }
-      ]
+      ],
+      "venueId": "casa-de-teatro"
     },
     {
       "id": "5b1008df4d9bba22",
@@ -2161,7 +2417,9 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900558/"
         }
-      ]
+      ],
+      "venueId": "teatro-guloya",
+      "address": "Arzobispo Portes 205, Ciudad Colonial"
     },
     {
       "id": "004e56ab7bc00356",
@@ -2187,7 +2445,9 @@
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/TerapiaIntensiva-1"
         }
-      ]
+      ],
+      "venueId": "max-henriquez-urena-33",
+      "address": "Local 3: Calle Max. Henríquez Ureña 33"
     },
     {
       "id": "221ad20c185551ba",
@@ -2213,7 +2473,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900610/"
         }
-      ]
+      ],
+      "venueId": "pabellon-fama-deporte"
     },
     {
       "id": "32b49125b586579e",
@@ -2239,7 +2500,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/245257/"
         }
-      ]
+      ],
+      "venueId": "hard-rock-cafe"
     },
     {
       "id": "d20294df6b1a9ec3",
@@ -2265,7 +2527,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900151/"
         }
-      ]
+      ],
+      "venueId": "casa-de-teatro"
     },
     {
       "id": "616a915e6c94108f",
@@ -2291,7 +2554,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/254996/"
         }
-      ]
+      ],
+      "venueId": "estadio-olimpico"
     },
     {
       "id": "5bc17c53f617828b",
@@ -2343,7 +2607,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900153/"
         }
-      ]
+      ],
+      "venueId": "casa-de-teatro"
     },
     {
       "id": "56d9b753bff50ba1",
@@ -2369,7 +2634,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/255031/"
         }
-      ]
+      ],
+      "venueId": "estadio-olimpico"
     },
     {
       "id": "4ad63f98d694fd56",
@@ -2395,7 +2661,8 @@
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/MiguelInzunza-1"
         }
-      ]
+      ],
+      "venueId": "the-green-room"
     },
     {
       "id": "65a85341b5f63ebd",
@@ -2421,7 +2688,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900706/"
         }
-      ]
+      ],
+      "venueId": "velvet-room"
     },
     {
       "id": "d9502c7909c91214",
@@ -2447,7 +2715,8 @@
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/N-4138"
         }
-      ]
+      ],
+      "venueId": "sala-manuel-rueda"
     },
     {
       "id": "824479ba7666adca",
@@ -2476,7 +2745,12 @@
           "srcName": "SalsaVida",
           "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-12-13"
         }
-      ]
+      ],
+      "venueId": "ruinas-san-francisco",
+      "address": "Calle Hostos, Zona Colonial",
+      "lat": 18.47694,
+      "lng": -69.88567,
+      "geoPrecision": "edificio"
     },
     {
       "id": "8d6e3c07ecbfc317",
@@ -2504,7 +2778,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900519/"
         }
-      ]
+      ],
+      "venueId": "velvet-room"
     },
     {
       "id": "571b3769eab9a2d3",
@@ -2530,7 +2805,8 @@
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/CUSITEOCUIDAOSITEOFENDESVOL4-1"
         }
-      ]
+      ],
+      "venueId": "the-green-room"
     },
     {
       "id": "16a909a97c4cc4d5",
@@ -2556,7 +2832,8 @@
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/GiorgioSiladienLosRealesColonial-1"
         }
-      ]
+      ],
+      "venueId": "los-reales-colonial"
     },
     {
       "id": "caeae21559164576",
@@ -2582,7 +2859,8 @@
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/AndresRubioysusamigos-5"
         }
-      ]
+      ],
+      "venueId": "casa-de-teatro"
     },
     {
       "id": "5fa51b21920761db",
@@ -2608,7 +2886,12 @@
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/vicente-garcia-sinfonico/"
         }
-      ]
+      ],
+      "venueId": "teatro-nacional",
+      "address": "Plaza de la Cultura Juan Pablo Duarte",
+      "lat": 18.47056,
+      "lng": -69.91083,
+      "geoPrecision": "edificio"
     },
     {
       "id": "d2c43b15a1e7b514",
@@ -2634,7 +2917,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900475/"
         }
-      ]
+      ],
+      "venueId": "velvet-room"
     },
     {
       "id": "8369de0d42a7b897",
@@ -2660,7 +2944,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900720/"
         }
-      ]
+      ],
+      "venueId": "izbira"
     },
     {
       "id": "036552aa045b929b",
@@ -2686,7 +2971,12 @@
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/recital-de-fin-de-ano/"
         }
-      ]
+      ],
+      "venueId": "teatro-nacional",
+      "address": "Plaza de la Cultura Juan Pablo Duarte",
+      "lat": 18.47056,
+      "lng": -69.91083,
+      "geoPrecision": "edificio"
     },
     {
       "id": "32746b5d510d22c3",
@@ -2712,7 +3002,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/259078/"
         }
-      ]
+      ],
+      "venueId": "iglesia-metodista-libre"
     },
     {
       "id": "7261dc8955011635",
@@ -2741,7 +3032,12 @@
           "srcName": "SalsaVida",
           "srcUrl": "https://www.salsavida.com/event/dominican-republic/santo-domingo/bonye-at-the-ruins-of-san-francisco/#bonye-domingos-2026-12-20"
         }
-      ]
+      ],
+      "venueId": "ruinas-san-francisco",
+      "address": "Calle Hostos, Zona Colonial",
+      "lat": 18.47694,
+      "lng": -69.88567,
+      "geoPrecision": "edificio"
     },
     {
       "id": "1d4be3cbb01c1b07",
@@ -2767,7 +3063,8 @@
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/CarlosSanchezenTheGreenRoom-6"
         }
-      ]
+      ],
+      "venueId": "the-green-room"
     },
     {
       "id": "d4d552df80f7da9d",
@@ -2793,7 +3090,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900518/"
         }
-      ]
+      ],
+      "venueId": "auditorio-casa-san-pablo"
     },
     {
       "id": "942f744fe0686eda",
@@ -2819,7 +3117,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900565/"
         }
-      ]
+      ],
+      "venueId": "velvet-room"
     },
     {
       "id": "809fb615a79c191e",
@@ -2897,7 +3196,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900090/"
         }
-      ]
+      ],
+      "venueId": "pabellon-fama-deporte"
     },
     {
       "id": "d1748f7cfdf64126",
@@ -2923,7 +3223,12 @@
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/metastasis/"
         }
-      ]
+      ],
+      "venueId": "teatro-nacional",
+      "address": "Plaza de la Cultura Juan Pablo Duarte",
+      "lat": 18.47056,
+      "lng": -69.91083,
+      "geoPrecision": "edificio"
     },
     {
       "id": "576ac6bfe3d44821",
@@ -2949,7 +3254,8 @@
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/JRODSULLIVANTHEGREENROOM-1"
         }
-      ]
+      ],
+      "venueId": "the-green-room"
     },
     {
       "id": "c52bd05d25504279",
@@ -2975,7 +3281,8 @@
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/NextGenRun5krunconnectwellness-1"
         }
-      ]
+      ],
+      "venueId": "jardin-botanico"
     },
     {
       "id": "8893b0a95e233726",
@@ -3001,7 +3308,8 @@
           "srcName": "TIX",
           "srcUrl": "https://tix.do/event/NEGOCIANTESRDSUMMIT2027-1"
         }
-      ]
+      ],
+      "venueId": "pabellon-fama-deporte"
     },
     {
       "id": "7bd974c97f55eac5",
@@ -3027,7 +3335,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900487/"
         }
-      ]
+      ],
+      "venueId": "auditorio-casa-san-pablo"
     },
     {
       "id": "0884ce0254451012",
@@ -3053,7 +3362,12 @@
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/gian-marco-bajo-la-manga-tour/"
         }
-      ]
+      ],
+      "venueId": "teatro-nacional",
+      "address": "Plaza de la Cultura Juan Pablo Duarte",
+      "lat": 18.47056,
+      "lng": -69.91083,
+      "geoPrecision": "edificio"
     },
     {
       "id": "a5d42225c8395274",
@@ -3079,7 +3393,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900463/"
         }
-      ]
+      ],
+      "venueId": "velvet-room"
     },
     {
       "id": "3f2ee6ab2c9344d4",
@@ -3105,7 +3420,12 @@
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/jorge-drexler-gira-taraca/"
         }
-      ]
+      ],
+      "venueId": "teatro-nacional",
+      "address": "Plaza de la Cultura Juan Pablo Duarte",
+      "lat": 18.47056,
+      "lng": -69.91083,
+      "geoPrecision": "edificio"
     },
     {
       "id": "7ab67affbb41ff21",
@@ -3131,7 +3451,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900098/"
         }
-      ]
+      ],
+      "venueId": "hard-rock-cafe"
     },
     {
       "id": "e526aa31f7b2dd23",
@@ -3157,7 +3478,12 @@
           "srcName": "Teatro Nacional",
           "srcUrl": "https://teatronacional.gob.do/events/medea/"
         }
-      ]
+      ],
+      "venueId": "teatro-nacional",
+      "address": "Plaza de la Cultura Juan Pablo Duarte",
+      "lat": 18.47056,
+      "lng": -69.91083,
+      "geoPrecision": "edificio"
     },
     {
       "id": "ddbe6b17a3945f85",
@@ -3183,7 +3509,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900512/"
         }
-      ]
+      ],
+      "venueId": "velvet-room"
     },
     {
       "id": "1df72c1f36956bf2",
@@ -3209,7 +3536,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900499/"
         }
-      ]
+      ],
+      "venueId": "auditorio-casa-san-pablo"
     },
     {
       "id": "9ada2b558527cfde",
@@ -3237,7 +3565,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900092/"
         }
-      ]
+      ],
+      "venueId": "escenario-360"
     },
     {
       "id": "cfb6cd196872aecd",
@@ -3263,7 +3592,8 @@
           "srcName": "Ticketmax",
           "srcUrl": "https://ticketmax.org/evento/900065/"
         }
-      ]
+      ],
+      "venueId": "pabellon-fama-deporte"
     }
   ]
 }

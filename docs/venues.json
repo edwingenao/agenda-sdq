@@ -1,0 +1,258 @@
+{
+  "generated_at": "2026-11-25T02:57:38+00:00",
+  "count": 28,
+  "venues": [
+    {
+      "id": "alianza-francesa",
+      "name": "Alianza Francesa",
+      "address": null,
+      "zone": "",
+      "lat": null,
+      "lng": null,
+      "precision": null
+    },
+    {
+      "id": "auditorio-casa-san-pablo",
+      "name": "Auditorio Casa San Pablo",
+      "address": null,
+      "zone": "",
+      "lat": null,
+      "lng": null,
+      "precision": null
+    },
+    {
+      "id": "bloom-sdq",
+      "name": "Bloom SDQ",
+      "address": null,
+      "zone": "",
+      "lat": null,
+      "lng": null,
+      "precision": null
+    },
+    {
+      "id": "casa-de-teatro",
+      "name": "Casa de Teatro",
+      "address": null,
+      "zone": "Ciudad Colonial",
+      "lat": null,
+      "lng": null,
+      "precision": null
+    },
+    {
+      "id": "centro-cultural-banreservas",
+      "name": "Centro Cultural Banreservas",
+      "address": null,
+      "zone": "Ciudad Colonial",
+      "lat": null,
+      "lng": null,
+      "precision": null
+    },
+    {
+      "id": "centro-cultural-de-espana",
+      "name": "Centro Cultural de España (CCE)",
+      "address": null,
+      "zone": "Ciudad Colonial",
+      "lat": null,
+      "lng": null,
+      "precision": null
+    },
+    {
+      "id": "dominican-fiesta",
+      "name": "Dominican Fiesta Hotel & Casino",
+      "address": null,
+      "zone": "Mirador Sur",
+      "lat": null,
+      "lng": null,
+      "precision": null
+    },
+    {
+      "id": "escenario-360",
+      "name": "Escenario 360",
+      "address": null,
+      "zone": "",
+      "lat": null,
+      "lng": null,
+      "precision": null
+    },
+    {
+      "id": "estadio-olimpico",
+      "name": "Estadio Olímpico Félix Sánchez",
+      "address": null,
+      "zone": "",
+      "lat": null,
+      "lng": null,
+      "precision": null
+    },
+    {
+      "id": "hard-rock-cafe",
+      "name": "Hard Rock Cafe Santo Domingo",
+      "address": null,
+      "zone": "",
+      "lat": null,
+      "lng": null,
+      "precision": null
+    },
+    {
+      "id": "iglesia-metodista-libre",
+      "name": "Iglesia Metodista Libre",
+      "address": null,
+      "zone": "",
+      "lat": null,
+      "lng": null,
+      "precision": null
+    },
+    {
+      "id": "izbira",
+      "name": "Izbira Centro de Eventos",
+      "address": null,
+      "zone": "",
+      "lat": null,
+      "lng": null,
+      "precision": null
+    },
+    {
+      "id": "jardin-botanico",
+      "name": "Jardín Botánico Nacional Dr. Rafael María Moscoso",
+      "address": null,
+      "zone": "",
+      "lat": null,
+      "lng": null,
+      "precision": null
+    },
+    {
+      "id": "los-reales-colonial",
+      "name": "Los Reales Colonial",
+      "address": null,
+      "zone": "",
+      "lat": null,
+      "lng": null,
+      "precision": null
+    },
+    {
+      "id": "lucia-sdq",
+      "name": "Lucia SDQ",
+      "address": null,
+      "zone": "",
+      "lat": null,
+      "lng": null,
+      "precision": null
+    },
+    {
+      "id": "max-henriquez-urena-33",
+      "name": "Local 3, Calle Max Henríquez Ureña 33",
+      "address": "Local 3: Calle Max. Henríquez Ureña 33",
+      "zone": "",
+      "lat": null,
+      "lng": null,
+      "precision": null
+    },
+    {
+      "id": "museo-de-la-catedral",
+      "name": "Museo de la Catedral",
+      "address": null,
+      "zone": "Ciudad Colonial",
+      "lat": null,
+      "lng": null,
+      "precision": null
+    },
+    {
+      "id": "pabellon-fama-deporte",
+      "name": "Pabellón de la Fama del Deporte Dominicano",
+      "address": null,
+      "zone": "",
+      "lat": null,
+      "lng": null,
+      "precision": null
+    },
+    {
+      "id": "quinta-dominica",
+      "name": "Quinta Dominica",
+      "address": null,
+      "zone": "Ciudad Colonial",
+      "lat": null,
+      "lng": null,
+      "precision": null
+    },
+    {
+      "id": "ruinas-san-francisco",
+      "name": "Ruinas de San Francisco",
+      "address": "Calle Hostos, Zona Colonial",
+      "zone": "Ciudad Colonial",
+      "lat": 18.47694,
+      "lng": -69.88567,
+      "precision": "edificio"
+    },
+    {
+      "id": "sala-manuel-rueda",
+      "name": "Sala Manuel Rueda (Bellas Artes)",
+      "address": null,
+      "zone": "",
+      "lat": null,
+      "lng": null,
+      "precision": null
+    },
+    {
+      "id": "seven-lounge",
+      "name": "Seven Lounge",
+      "address": null,
+      "zone": "",
+      "lat": null,
+      "lng": null,
+      "precision": null
+    },
+    {
+      "id": "teatro-guloya",
+      "name": "Teatro Guloya",
+      "address": "Arzobispo Portes 205, Ciudad Colonial",
+      "zone": "Ciudad Colonial",
+      "lat": null,
+      "lng": null,
+      "precision": null
+    },
+    {
+      "id": "teatro-las-mascaras",
+      "name": "Teatro Las Máscaras",
+      "address": null,
+      "zone": "Ciudad Colonial",
+      "lat": null,
+      "lng": null,
+      "precision": null
+    },
+    {
+      "id": "teatro-nacional",
+      "name": "Teatro Nacional Eduardo Brito",
+      "address": "Plaza de la Cultura Juan Pablo Duarte",
+      "zone": "Plaza de la Cultura",
+      "lat": 18.47056,
+      "lng": -69.91083,
+      "precision": "edificio"
+    },
+    {
+      "id": "the-box-working-space",
+      "name": "The Box Working Space",
+      "address": null,
+      "zone": "",
+      "lat": null,
+      "lng": null,
+      "precision": null
+    },
+    {
+      "id": "the-green-room",
+      "name": "The Green Room",
+      "address": null,
+      "zone": "Piantini",
+      "lat": null,
+      "lng": null,
+      "precision": null
+    },
+    {
+      "id": "velvet-room",
+      "name": "Velvet Room SDQ",
+      "address": null,
+      "zone": "",
+      "lat": null,
+      "lng": null,
+      "precision": null
+    }
+  ]
+}

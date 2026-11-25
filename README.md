@@ -44,6 +44,7 @@ pytest                                   # pruebas offline (incluye páginas rea
 | `fundacion_sinfonia` | sinfonia.org.do (Fundación Sinfonía) | `evento-sitemap.xml` (solo páginas editadas en los últimos 200 días) y cada /agenda/<slug>/: `.cont-date` (fecha y hora), `.info-item` (Ubicación, Etiquetas) y los precios del texto | **Verificado con páginas reales** (7 oct). Poco volumen (uno o dos conciertos al mes), pero trae la **hora** que no da el Teatro Nacional: al unir repetidos, la hora sale de aquí. Se omite el paraguas "Temporada" |
 | `ticketmax` | ticketmax.org (ticketmax.com.do redirige) | Tarjetas de la portada (`data-city`, `data-venue`, `data-cats`) y JSON-LD `Event` de cada /evento/<id>/ | **Verificado con páginas reales** (7 oct): 68 eventos vigentes, 56 en Santo Domingo. Hora de `startDate` (con zona), precio de `offers` en DOP. Fuera congresos, tours, deportes y TV. Hasta 80 páginas por corrida, primero las nuevas |
 | `tix` | tix.do (API Strapi `api.tix.do/api/events`, la que usa su propio sitio) | Una llamada por página (180 eventos activos en 2 páginas), pidiendo solo los campos necesarios | **Verificado con la API real** (7 oct): hora real de cada función, sala y si es gratis; **sin precio ni ciudad**. Solo salas reconocidas de Santo Domingo; la corrida lista las desconocidas para agregarlas a `SDQ_PLACES`. Sin `fields`, la API expone el correo de los organizadores: aquí ni se pide |
+| `acento_cultural` | acento.com.do, agenda semanal "Acento Cultural" | Encuentra la nota más reciente en los sitemaps y extrae los eventos con IA (`llm.extract_events`, salida con esquema JSON) | **Muestra real verificada** (nota 61). Todo sale `needs_review`; precio y gratis se comprueban en el bloque de cada evento; solo Santo Domingo. Necesita el secreto `ANTHROPIC_API_KEY`. La última nota (61, 17 sep) llevaba tres semanas sin sucesora |
 | `jazz_en_dominicana` | jazzendominicana.com | Feed Atom de Blogger; parsea la entrada semanal "Jazz en Vivo en RD" (bloques "Jueves 8: … (Ciudad):"), solo Santo Domingo; anuncios sueltos vía IA (opcional) | **Feed verificado con el navegador**; los datos del bloque semanal vienen de texto libre: revisar lugares nuevos (`needs_review`) |
 
 "Verificado" significa que leí las páginas con una herramienta de lectura web que devuelve el contenido
@@ -84,7 +85,7 @@ Si un adaptador no logra leer una página, puede pedirle los campos a Claude:
 
 ```bash
 pip install anthropic
-export AGENDA_LLM=1 ANTHROPIC_API_KEY=...   # modelo: AGENDA_LLM_MODEL (por defecto claude-haiku-4-5-20251001)
+export AGENDA_LLM=1 ANTHROPIC_API_KEY=...   # modelo: AGENDA_LLM_MODEL (por defecto claude-haiku-4-5)
 ```
 
 Esos eventos quedan marcados `needs_review`. Sin esas variables, nada se envía a ningún servicio.

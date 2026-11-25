@@ -41,6 +41,7 @@ SOURCE_PRIORITY = [
     "jazz_en_dominicana",
     "tix",  # ticketera: buena hora, sin precio ni ciudad; manda la sala
     "recurring",  # listados curados a mano: si una fuente publica el mismo evento, gana esa
+    "acento_cultural",  # agenda de prensa leída con IA: siempre la última
 ]
 
 

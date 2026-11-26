@@ -106,7 +106,7 @@ def parse_listing(html: str, base_url: str, today) -> list[Event]:
         label = a.text(strip=True)
         if len(label) < 3:
             continue
-        node, card_text = a.parent, None
+        node, card_text, card_cats = a.parent, None, ""
         for _ in range(6):
             if node is None:
                 break
@@ -114,6 +114,7 @@ def parse_listing(html: str, base_url: str, today) -> list[Event]:
             n = len(DATE_TOKEN.findall(text))
             if n == 1:
                 card_text = text
+                card_cats = (node.attributes.get("data-categories") or "").lower()
                 break
             if n > 1:
                 break
@@ -121,7 +122,7 @@ def parse_listing(html: str, base_url: str, today) -> list[Event]:
         if not card_text:
             continue
         key = hashlib.sha1(card_text.encode()).hexdigest()
-        cards.setdefault(key, {"text": card_text, "anchors": []})["anchors"].append((label, href))
+        cards.setdefault(key, {"text": card_text, "anchors": [], "cats": card_cats})["anchors"].append((label, href))
 
     by_url: dict[str, Event] = {}
     for c in cards.values():
@@ -156,6 +157,8 @@ def parse_listing(html: str, base_url: str, today) -> list[Event]:
         is_free, pmin, pmax = parse_price(text)  # "$1200" se asume RD$
         other = " ".join(ln for ln in lines if ln != venue and not venue.startswith(ln))
         category = normalize_category(title, other.replace(venue, ""))
+        if "gastronom" in c.get("cats", ""):  # la etiqueta del propio sitio manda sobre las palabras del título
+            category = "Gastronomía"
 
         if url in by_url:  # misma actividad en varias fechas -> una sola entrada
             ev = by_url[url]

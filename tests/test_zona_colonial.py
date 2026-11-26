@@ -81,3 +81,9 @@ def test_listed_total_reads_the_count_the_page_announces():
 
     assert listed_total('<span class="font-bold" id="ehm-active-count">31</span> eventos') == 31
     assert listed_total("<html></html>") is None
+
+
+def test_site_category_gastronomia_wins_over_title_words():
+    html = card("Beaujolais Nouveau 2026", "NOV", 26, "$1000", "Patio de la Alianza Francesa").replace(
+        'class="ehm-event-card"', 'class="ehm-event-card" data-categories="gastronomia"')
+    assert parse(html)[0].category == "Gastronomía"

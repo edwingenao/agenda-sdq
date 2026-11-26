@@ -202,3 +202,24 @@ def test_runs_that_do_not_overlap_or_lack_a_confirmed_venue_stay_separate():
     assert len(dedupe([a, b])) == 2  # temporadas distintas
     c = ev_nov("Señora, ¿me presta su marido?", 13, "teatro_las_mascaras", None, "", end=29)
     assert len(dedupe([c, b])) == 2  # sin sede no se arriesga
+
+
+def test_gastronomia_category_rules():
+    from agenda.models import normalize_category as nc
+
+    assert nc("Vino & Tinta 27.11.26") == "Gastronomía"
+    assert nc("Cata de vinos del mundo") == "Gastronomía"
+    assert nc("Brunch con chef invitado") == "Gastronomía"
+    assert nc("Oktoberfest Santo Domingo") == "Gastronomía"
+    assert nc("Noche de jazz y vino") == "Música"  # el concierto sigue siendo música
+    assert nc("EL PARTY - LA ÚLTIMA CENA") == "Cultura"  # "cena" suelta no cuenta
+    assert nc("Catálogo de la exposición") == "Arte"  # "cata" no es "catálogo"
+    assert nc("Concierto de cámara") == "Música"
+
+
+def test_gastronomia_only_from_the_title_not_the_description():
+    from agenda.models import normalize_category as nc
+
+    assert nc("PLAYA ERMITAÑO", "Incluye almuerzo buffet y degustación de agua de coco") == "Cultura"
+    assert nc("Noche de cata") == "Gastronomía"
+    assert nc("Noche de cata", "Con música en vivo") == "Música"  # Música sigue mandando si la descripción la nombra

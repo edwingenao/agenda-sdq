@@ -372,13 +372,13 @@ def test_source_run_and_export(tmp_path):
     evs = recurring.SeriesRecurrentes(None, db, TODAY, "2026-10-06T12:00:00+00:00", log=logs.append).run()
     # 4 domingos de Bonyé + 7 días de EUROCINE + 2 de 809 Mercado + Gerard Ellis (inauguración y muestra)
     # + 2 muestras de ASR Galería + 11 eventos de la guía de letstalkart.rd (el Festival de Canto Coral cuenta 2)
-    # + el Circuito de Galerías (15 oct, @agadominicana)
-    assert len(evs) == 29
-    assert any("22 series" in line for line in logs)
+    # + el Circuito de Galerías (15 oct, @agadominicana) + Bocao Food Fest (27 al 29 nov)
+    assert len(evs) == 30
+    assert any("23 series" in line for line in logs)
     for e in evs:
         assert db.upsert_event(e, "2026-10-06T12:00:00+00:00") == "new"
     out = tmp_path / "events.json"
-    assert export_json(db, out, TODAY) == 29
+    assert export_json(db, out, TODAY) == 30
     pub = json.loads(out.read_text(encoding="utf-8"))["events"]
     bonye = next(p for p in pub if p["title"] == "Domingos de Bonyé")
     assert bonye["time"] == "18:00" and bonye["price"] == 0
@@ -545,3 +545,17 @@ def test_shipped_gallery_exhibitions_are_free_by_edwins_confirmation():
     for fragment in ("Interconexión", "ARQUIONIRIAS", "Entre muros", "Gerard Ellis: The Dominican Dream (exposición)"):
         ev = shipped(fragment)
         assert ev.is_free is True and ev.price_min == 0, fragment
+
+
+def test_bocao_food_fest_is_one_ranged_gastronomy_event_without_invented_time_or_price():
+    import datetime
+
+    from agenda.sources import recurring
+
+    evs = [e for e in recurring.collect(today=datetime.date(2026, 11, 26)).events if "Bocao" in e.title]
+    assert len(evs) == 1
+    e = evs[0]
+    assert e.dates == ["2026-11-27", "2026-11-29"]  # una vez con «Hasta»
+    assert e.category == "Gastronomía"
+    assert e.start_time is None  # el horario cambia por día y turno
+    assert not e.is_free and e.price_min == 1090  # RD$1,090 más servicio (dato de Edwin)

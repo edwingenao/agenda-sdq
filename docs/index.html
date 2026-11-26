@@ -6,14 +6,14 @@
 <title>Agenda SDQ</title>
 <meta name="description" content="Agenda cultural de Santo Domingo: música, cultura y planes gratis, actualizada cada día.">
 <meta name="theme-color" content="#10222E">
-<link rel="canonical" href="https://edwingenao.github.io/agenda-sdq/">
+<link rel="canonical" href="https://www.agendasdq.com/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="es_DO">
 <meta property="og:site_name" content="Agenda SDQ">
 <meta property="og:title" content="Agenda SDQ: qué hacer hoy en Santo Domingo">
 <meta property="og:description" content="Música, teatro, arte y planes gratis en un solo lugar, actualizada cada día.">
-<meta property="og:url" content="https://edwingenao.github.io/agenda-sdq/">
-<meta property="og:image" content="https://edwingenao.github.io/agenda-sdq/og.png">
+<meta property="og:url" content="https://www.agendasdq.com/">
+<meta property="og:image" content="https://www.agendasdq.com/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Agenda SDQ: música, teatro, arte y planes gratis en Santo Domingo">
@@ -275,7 +275,7 @@ function lista(){
   <div class="lista">${cuerpo||`<div class="vacio"><b>Nada con estos filtros</b><span>Prueba otro día o quita algún filtro.</span><button data-x="1">Ver todos los próximos</button></div>`}</div>
   <p class="pie">Fuentes: ${esc(nombresFuentes())} · actualizado el ${esc(actualizado())}${muestra?" (muestra: esas fechas ya pasaron)":""}. Confirma en la fuente original antes de ir.</p>`}
 const svgI=p=>`<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${p}</svg>`;
-const SITIO="https://edwingenao.github.io/agenda-sdq/";
+const SITIO="https://www.agendasdq.com/";
 // Enlace de búsqueda de Google Maps (esquema público, sin clave): solo se manda el nombre y la dirección o zona del lugar.
 const urlMapa=e=>{const n=e.lugar.nombre;if(!n||n==="Lugar por confirmar")return null;
   const q=[n,e.lugar.direccion||e.lugar.sector,"Santo Domingo, República Dominicana"].filter(Boolean).join(", ");

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-26T19:48:28+00:00",
+  "generated_at": "2026-11-26T21:44:29+00:00",
   "today": "2026-11-26",
-  "count": 121,
+  "count": 120,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -874,12 +874,12 @@
       "venueId": "bloom-sdq"
     },
     {
-      "id": "f40539aa504f8998",
-      "source": "museosrd",
+      "id": "a149cacd25374aa8",
+      "source": "zona_colonial",
       "date": "2026-11-28",
       "end": null,
       "sessions": null,
-      "title": "Visita guiada: Plantas endémicas de La Española",
+      "title": "VISITA GUIADA: “PLANTAS ENDÉMICAS DE LA ESPAÑOLA",
       "venue": "Quinta Dominica",
       "zone": "Ciudad Colonial",
       "cat": "Cultura",
@@ -890,9 +890,13 @@
       "tags": [],
       "description": ", en las instalaciones de Quinta Dominica, ubicada en la Ciudad Colonial de Santo Domingo.",
       "ticketUrl": "",
-      "srcName": "Red Nacional de Museos",
-      "srcUrl": "https://museosrd.gob.do/evento/visita-guiada-plantas-endemicas-de-la-espanola/",
+      "srcName": "Zona Colonial",
+      "srcUrl": "https://zonacolonial.do/actividad/visita-guiada-plantas-endemicas-de-la-espanola/",
       "sources": [
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/visita-guiada-plantas-endemicas-de-la-espanola/"
+        },
         {
           "srcName": "Red Nacional de Museos",
           "srcUrl": "https://museosrd.gob.do/evento/visita-guiada-plantas-endemicas-de-la-espanola/"
@@ -934,7 +938,7 @@
       "end": null,
       "sessions": null,
       "title": "Gran Concierto por Vidas Libres de Violencia",
-      "venue": "NOV",
+      "venue": "$",
       "zone": "Ciudad Colonial",
       "cat": "Música",
       "price": null,
@@ -960,7 +964,7 @@
       "end": null,
       "sessions": null,
       "title": "CONCIERTO DE POOLPO",
-      "venue": "NOV",
+      "venue": "Fuerte del Ángulo, Santa Bárbara, Ciudad Colonial, Santo Domingo",
       "zone": "Ciudad Colonial",
       "cat": "Música",
       "price": 0,
@@ -1092,33 +1096,6 @@
       "address": "Arzobispo Portes 205, Ciudad Colonial"
     },
     {
-      "id": "223478797134913e",
-      "source": "tix",
-      "date": "2026-11-28",
-      "end": null,
-      "sessions": null,
-      "title": "A NEW DAY",
-      "venue": "Casa de Teatro",
-      "zone": "Ciudad Colonial",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "21:00",
-      "kids": false,
-      "tags": [],
-      "description": "\"A New Day\" llega el 28 de noviembre a Casa de Teatro. Una noche llena de energía y buena música para celebrar un nuevo comienzo. ¡Ven a vivir esta experiencia con nosotros!",
-      "ticketUrl": "https://tix.do/event/ANEWDAY-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/ANEWDAY-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/ANEWDAY-1"
-        }
-      ],
-      "venueId": "casa-de-teatro"
-    },
-    {
       "id": "7d67e47153f35aea",
       "source": "zona_colonial",
       "date": "2026-11-28",
@@ -1127,20 +1104,28 @@
       "title": "SHALONDY",
       "venue": "Casa de Teatro",
       "zone": "Ciudad Colonial",
-      "cat": "Cultura",
+      "cat": "Música",
       "price": 500,
       "price_max": 500,
       "time": "21:00",
       "kids": false,
       "tags": [],
-      "description": "",
-      "ticketUrl": "",
+      "description": "\"A New Day\" llega el 28 de noviembre a Casa de Teatro. Una noche llena de energía y buena música para celebrar un nuevo comienzo. ¡Ven a vivir esta experiencia con nosotros!",
+      "ticketUrl": "https://tix.do/event/ANEWDAY-1",
       "srcName": "Zona Colonial",
       "srcUrl": "https://zonacolonial.do/actividad/shalondy/",
       "sources": [
         {
           "srcName": "Zona Colonial",
           "srcUrl": "https://zonacolonial.do/actividad/shalondy/"
+        },
+        {
+          "srcName": "Zona Colonial",
+          "srcUrl": "https://zonacolonial.do/actividad/shalondy-en-vivo-a-new-day/"
+        },
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/ANEWDAY-1"
         }
       ],
       "venueId": "casa-de-teatro"
@@ -1793,7 +1778,7 @@
       "date": "2026-12-05",
       "end": null,
       "sessions": null,
-      "title": "Haina de Jazz 2026 - 12ª Edición",
+      "title": "Haina de Jazz 2026 - 12ª Versión",
       "venue": "Centro Educativo Profesor Manuel Feliz Peña, Municipio Bajos de Haina",
       "zone": "",
       "cat": "Música",

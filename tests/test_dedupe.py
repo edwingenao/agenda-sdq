@@ -221,4 +221,5 @@ def test_gastronomia_only_from_the_title_not_the_description():
     from agenda.models import normalize_category as nc
 
     assert nc("PLAYA ERMITAÑO", "Incluye almuerzo buffet y degustación de agua de coco") == "Cultura"
-    assert nc("Noche de cata", "Música en vivo") == "Gastronomía"
+    assert nc("Noche de cata") == "Gastronomía"
+    assert nc("Noche de cata", "Con música en vivo") == "Música"  # Música sigue mandando si la descripción la nombra

@@ -24,6 +24,13 @@ CATEGORY_RULES = [
         r"|muestra\s+(colectiva|individual|de\s+(arte|pintura|fotograf|escultura))"
         r"|vernissage|curadur|murales?\b)",  # no confundir "mural" con "Muralla"
     ),
+    # Al final: un concierto en un bar de vinos sigue siendo Música. Sin "cena" suelta ("La última cena" es una fiesta)
+    # ni "mercado" (los hay de artesanías); esos entran por la etiqueta de la fuente o las series curadas.
+    (
+        "Gastronomía",
+        r"\b(gastronom|vinos?\b|catas?\b|degustaci|maridaje|brunch|chef\b|chefs\b|cervez|oktoberfest|culinari"
+        r"|cocina\s+(dominicana|criolla|de\s+autor)|tapas\b|beaujolais|food\s+(fest|truck)|sabores\b)",
+    ),
 ]
 DEFAULT_CATEGORY = "Cultura"
 
@@ -62,7 +69,9 @@ ZONES = [
 def normalize_category(*texts: str) -> str:
     blob = " ".join(t for t in texts if t)
     for name, rx in CATEGORY_RULES:
-        if re.search(rx, blob, re.I):
+        # Gastronomía solo por el título (el primer texto): las descripciones largas mencionan "degustación" o "chef"
+        # de pasada (un tour con "degustación de agua de coco") y no hacen gastronómico al evento.
+        if re.search(rx, texts[0] if name == "Gastronomía" and texts else blob, re.I):
             return name
     return DEFAULT_CATEGORY
 

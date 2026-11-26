@@ -757,6 +757,55 @@
       "last_confirmed": "2026-10-12",
       "stale_after_days": 14,
       "notes": "Cargado desde una captura del post; falta el enlace exacto de la publicación. El texto del post dice «2025» pero la imagen dice 2026 (el 15 de oct cae jueves en 2026): se asumió error de redacción. No dice qué galerías participan ni la ciudad de Arawak Gallery (confirmar Santo Domingo). Próximas ediciones (19 nov y 17 dic) sin cargar hasta que anuncien lugar y hora."
+    },
+    {
+      "id": "bocao-food-fest-2026-11",
+      "title": "Bocao Food Fest 2026",
+      "active": true,
+      "pattern": {
+        "freq": "range",
+        "start": "2026-11-27",
+        "end": "2026-11-29"
+      },
+      "start_time": null,
+      "end_time": null,
+      "valid_from": null,
+      "valid_until": null,
+      "exceptions": [],
+      "venue": "Plaza de la Cultura Juan Pablo Duarte",
+      "category": [
+        "Gastronomía",
+        "Música"
+      ],
+      "price": {
+        "status": "unconfirmed"
+      },
+      "description": "Festival gastronómico «Ensanche Bocao» en la Plaza de la Cultura: restaurantes, bares, música y experiencias. Entrada por turnos (sábado 12:00–3:00 y 5:00–10:00 p. m.; domingo desde las 12:00 m.); boletas en boletu.com.",
+      "url": "https://boletu.com/experiencia/bocao-food-fest-2026",
+      "sources": [
+        {
+          "name": "Boletu (venta de boletas)",
+          "url": "https://boletu.com/experiencia/bocao-food-fest-2026",
+          "seen": "2026-11-26",
+          "says": "27, 28 y 29 de noviembre de 2026, Plaza de la Cultura Juan Pablo Duarte; boletas por día y por turno; sin precio en el texto leído"
+        },
+        {
+          "name": "Banco BHD",
+          "url": "https://bhd.com.do/homepage-empresarial/cuentas-e-inversion-empresarial/cuentas-corrientes-empresariales/product-detail/915",
+          "seen": "2026-11-26",
+          "says": "Fechas 27, 28 y 29 de noviembre de 2026 en la Plaza de la Cultura; boletería boletu.com"
+        },
+        {
+          "name": "Santo Domingo Times",
+          "url": "https://santodomingotimes.com/2026/10/26/bocao-food-fest-2026/",
+          "seen": "2026-11-26",
+          "says": "Edición 2026 «Ensanche Bocao», en la Plaza de la Cultura; boletas en bocaofoodfest.com"
+        }
+      ],
+      "confidence": "listado",
+      "last_confirmed": "2026-11-26",
+      "stale_after_days": 14,
+      "notes": "Evento de 3 días: sale una vez con «Hasta». El horario varía por día y turno, así que no hay hora única. Falta el precio de la boleta (boletu lo muestra al comprar)."
     }
   ]
 }

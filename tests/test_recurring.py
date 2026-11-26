@@ -545,3 +545,17 @@ def test_shipped_gallery_exhibitions_are_free_by_edwins_confirmation():
     for fragment in ("Interconexión", "ARQUIONIRIAS", "Entre muros", "Gerard Ellis: The Dominican Dream (exposición)"):
         ev = shipped(fragment)
         assert ev.is_free is True and ev.price_min == 0, fragment
+
+
+def test_bocao_food_fest_is_one_ranged_gastronomy_event_without_invented_time_or_price():
+    import datetime
+
+    from agenda.sources import recurring
+
+    evs = [e for e in recurring.collect(today=datetime.date(2026, 11, 26)).events if "Bocao" in e.title]
+    assert len(evs) == 1
+    e = evs[0]
+    assert e.dates == ["2026-11-27", "2026-11-29"]  # una vez con «Hasta»
+    assert e.category == "Gastronomía"
+    assert e.start_time is None  # el horario cambia por día y turno
+    assert not e.is_free and e.price_min is None  # precio por confirmar, nunca gratis

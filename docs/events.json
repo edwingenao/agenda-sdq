@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-25T20:06:07+00:00",
-  "today": "2026-11-25",
-  "count": 127,
+  "generated_at": "2026-11-26T19:48:28+00:00",
+  "today": "2026-11-26",
+  "count": 121,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -226,226 +226,6 @@
         {
           "srcName": "Zona Colonial",
           "srcUrl": "https://zonacolonial.do/actividad/iii-congreso-para-la-reunificacion-de-la-hispanidad/"
-        }
-      ]
-    },
-    {
-      "id": "b74b0ef5c1ae52c7",
-      "source": "ticketmax",
-      "date": "2026-11-25",
-      "end": null,
-      "sessions": null,
-      "title": "Vino & Tinta 25.11.26 | 6:00 PM - 8:00 PM",
-      "venue": "Centro Cultural Casa Libros",
-      "zone": "",
-      "cat": "Arte",
-      "price": 300,
-      "price_max": null,
-      "time": "18:00",
-      "kids": false,
-      "tags": [],
-      "description": "🍷📚 VINO &amp; TINTA | Donde las palabras se convierten en experiencias. Hay encuentros que inspiran y conversaciones que dejan huellas. En Casa Libros, Vino &amp; Tinta reúne escritores, artistas, lectores y amantes de la cultura en tertulias únicas donde la literatura, el arte…",
-      "ticketUrl": "https://ticketmax.org/evento/900678/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900678/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900678/"
-        },
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900681/"
-        }
-      ]
-    },
-    {
-      "id": "bbe6fccf4a9f7b48",
-      "source": "zona_colonial",
-      "date": "2026-11-25",
-      "end": null,
-      "sessions": null,
-      "title": "Proyección de la película “Streets of Fire”",
-      "venue": "Dirección General de Mecenazgo",
-      "zone": "Ciudad Colonial",
-      "cat": "Cine",
-      "price": 0,
-      "price_max": null,
-      "time": "18:40",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/proyeccion-de-la-pelicula-streets-of-fire/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/proyeccion-de-la-pelicula-streets-of-fire/"
-        }
-      ]
-    },
-    {
-      "id": "f3fb663e9a6c71eb",
-      "source": "zona_colonial",
-      "date": "2026-11-25",
-      "end": null,
-      "sessions": null,
-      "title": "PROYECCIÓN DE PELÍCULA: “MARINETTE” EN LA ALIANZA FRANCESA",
-      "venue": "Alianza Francesa de Santo Domingo y Alianza Francesa de Santiago",
-      "zone": "Ciudad Colonial",
-      "cat": "Cine",
-      "price": 0,
-      "price_max": null,
-      "time": "19:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/proyeccion-de-pelicula-marinette-en-la-alianza-francesa/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/proyeccion-de-pelicula-marinette-en-la-alianza-francesa/"
-        }
-      ],
-      "venueId": "alianza-francesa"
-    },
-    {
-      "id": "0b4eff3601d6a40a",
-      "source": "ticketmax",
-      "date": "2026-11-25",
-      "end": null,
-      "sessions": null,
-      "title": "LO QUE LA CAMA SABE Y LA BOCA CALLA | ELAINE FELIZ",
-      "venue": "Velvet Room",
-      "zone": "",
-      "cat": "Teatro",
-      "price": 1500,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [],
-      "description": "Lo que la cama sabe y la boca calla es un show de Elaine Féliz para reírnos de la sexualidad real: la del deseo, la culpa, el cuerpo, los silencios, los límites y todas esas ideas mal aprendidas que también se meten en la cama. Una noche con humor, verdad y cero anestesia para h…",
-      "ticketUrl": "https://ticketmax.org/evento/900002/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/900002/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/900002/"
-        }
-      ],
-      "venueId": "velvet-room"
-    },
-    {
-      "id": "d0066cc3fac4dc1e",
-      "source": "zona_colonial",
-      "date": "2026-11-25",
-      "end": null,
-      "sessions": null,
-      "title": "LOS TIEMPOS QUE VIVIMOS",
-      "venue": "Casa de Teatro",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": 0,
-      "price_max": null,
-      "time": "20:00",
-      "kids": false,
-      "tags": [],
-      "description": "Festival Mujeres sobre ls TablasEntrada con boletas disponibles en el CCESD. Hasta agotar existencia.Lugar:Casa de Teatro",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/los-tiempos-que-vivimos/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/los-tiempos-que-vivimos/"
-        },
-        {
-          "srcName": "Centro Cultural de España",
-          "srcUrl": "https://ccesd.aecid.es/w/obra-de-teatro-los-tiempos-que-vivimos-%C2%A0"
-        }
-      ],
-      "venueId": "casa-de-teatro"
-    },
-    {
-      "id": "5aeba2c2bab5ed38",
-      "source": "zona_colonial",
-      "date": "2026-11-25",
-      "end": null,
-      "sessions": null,
-      "title": "HERMINIA” EN LA GRUTA",
-      "venue": "Sala de teatro La Gruta",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": 200,
-      "price_max": 200,
-      "time": "20:30",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/herminia-en-la-gruta/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/herminia-en-la-gruta/"
-        }
-      ]
-    },
-    {
-      "id": "2530f693777a0de7",
-      "source": "tix",
-      "date": "2026-11-25",
-      "end": null,
-      "sessions": null,
-      "title": "COMEDY SHOWCASE",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Teatro",
-      "price": null,
-      "price_max": null,
-      "time": "21:30",
-      "kids": false,
-      "tags": [],
-      "description": "Comedy Showcase en The Green Room. Miércoles 25 de noviembre. Puerta 7:00PM | Show 9:30PM. Reserva gratis. Calle Andrés Julio Aybar 17, Piantini.",
-      "ticketUrl": "https://tix.do/event/COMEDYSHOWCASE-30",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/COMEDYSHOWCASE-30",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/COMEDYSHOWCASE-30"
-        }
-      ],
-      "venueId": "the-green-room"
-    },
-    {
-      "id": "8e10ca6151a7af1d",
-      "source": "zona_colonial",
-      "date": "2026-11-25",
-      "end": null,
-      "sessions": null,
-      "title": "Alfonso Cervantes – Boleros",
-      "venue": "Calle Arzobispo Meriño #110, Zona Colonial, Santo Domingo, República Dominicana",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 500,
-      "price_max": 500,
-      "time": "22:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/alfonso-cervantes-boleros/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/alfonso-cervantes-boleros/"
         }
       ]
     },
@@ -1205,7 +985,7 @@
       "date": "2026-11-28",
       "end": null,
       "sessions": null,
-      "title": "Jazz en la Loma 2026 - Andy James y amigos",
+      "title": "Jazz en la Loma 2026",
       "venue": "Salón de Asambleas, Cooperativa San José, Guajaca, San José de las Matas",
       "zone": "",
       "cat": "Música",
@@ -3144,6 +2924,33 @@
       "venueId": "pabellon-fama-deporte"
     },
     {
+      "id": "b867046060968580",
+      "source": "ticketmax",
+      "date": "2027-01-12",
+      "end": null,
+      "sessions": null,
+      "title": "Comedy Coro",
+      "venue": "Velvet Room",
+      "zone": "",
+      "cat": "Teatro",
+      "price": 600,
+      "price_max": null,
+      "time": "20:00",
+      "kids": false,
+      "tags": [],
+      "description": "Ahora los martes son de Comedy Coro. Show de stand up. Jinita y Yabra con un/a invitado/a.",
+      "ticketUrl": "https://ticketmax.org/evento/900810/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900810/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900810/"
+        }
+      ],
+      "venueId": "velvet-room"
+    },
+    {
       "id": "d1748f7cfdf64126",
       "source": "teatro_nacional",
       "date": "2027-01-14",
@@ -3339,6 +3146,33 @@
         }
       ],
       "venueId": "velvet-room"
+    },
+    {
+      "id": "cfa587443ea3ea25",
+      "source": "ticketmax",
+      "date": "2027-02-06",
+      "end": null,
+      "sessions": null,
+      "title": "BLIPI | SANTO DOMINGO",
+      "venue": "Auditorio Casa San Pablo",
+      "zone": "",
+      "cat": "Cultura",
+      "price": 1800,
+      "price_max": 3000,
+      "time": "14:00",
+      "kids": true,
+      "tags": [],
+      "description": "💙🧡 ¡BLIPPI LLEGA A SANTO DOMINGO! 😍 Prepárate para cantar, bailar, explorar y vivir una aventura increíble junto a Blippi, Meekah y todo su elenco oficial en SER COMO BLIPPI TOUR, el nuevo espectáculo infantil internacional que está arrasando en todo el mundo! 🌎✨ Este sabado 6 d…",
+      "ticketUrl": "https://ticketmax.org/evento/900788/",
+      "srcName": "Ticketmax",
+      "srcUrl": "https://ticketmax.org/evento/900788/",
+      "sources": [
+        {
+          "srcName": "Ticketmax",
+          "srcUrl": "https://ticketmax.org/evento/900788/"
+        }
+      ],
+      "venueId": "auditorio-casa-san-pablo"
     },
     {
       "id": "3f2ee6ab2c9344d4",

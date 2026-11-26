@@ -372,13 +372,13 @@ def test_source_run_and_export(tmp_path):
     evs = recurring.SeriesRecurrentes(None, db, TODAY, "2026-10-06T12:00:00+00:00", log=logs.append).run()
     # 4 domingos de Bonyé + 7 días de EUROCINE + 2 de 809 Mercado + Gerard Ellis (inauguración y muestra)
     # + 2 muestras de ASR Galería + 11 eventos de la guía de letstalkart.rd (el Festival de Canto Coral cuenta 2)
-    # + el Circuito de Galerías (15 oct, @agadominicana)
-    assert len(evs) == 29
-    assert any("22 series" in line for line in logs)
+    # + el Circuito de Galerías (15 oct, @agadominicana) + Bocao Food Fest (27 al 29 nov)
+    assert len(evs) == 30
+    assert any("23 series" in line for line in logs)
     for e in evs:
         assert db.upsert_event(e, "2026-10-06T12:00:00+00:00") == "new"
     out = tmp_path / "events.json"
-    assert export_json(db, out, TODAY) == 29
+    assert export_json(db, out, TODAY) == 30
     pub = json.loads(out.read_text(encoding="utf-8"))["events"]
     bonye = next(p for p in pub if p["title"] == "Domingos de Bonyé")
     assert bonye["time"] == "18:00" and bonye["price"] == 0

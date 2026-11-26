@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26T21:44:29+00:00",
-  "count": 28,
+  "generated_at": "2026-11-26T22:01:57+00:00",
+  "count": 29,
   "venues": [
     {
       "id": "alianza-francesa",
@@ -163,6 +163,15 @@
       "lat": null,
       "lng": null,
       "precision": null
+    },
+    {
+      "id": "plaza-de-la-cultura",
+      "name": "Plaza de la Cultura Juan Pablo Duarte",
+      "address": null,
+      "zone": "Plaza de la Cultura",
+      "lat": 18.47056,
+      "lng": -69.91083,
+      "precision": "sector"
     },
     {
       "id": "quinta-dominica",

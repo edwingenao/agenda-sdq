@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-26T21:44:29+00:00",
+  "generated_at": "2026-11-26T22:01:57+00:00",
   "today": "2026-11-26",
-  "count": 120,
+  "count": 121,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -316,7 +316,7 @@
       "title": "Beaujolais Nouveau 2026",
       "venue": "Patio de la Alianza Francesa de Santo Domingo. Calle Horacio Vicioso #103, Centro de los Héroes",
       "zone": "Ciudad Colonial",
-      "cat": "Cultura",
+      "cat": "Gastronomía",
       "price": 1000,
       "price_max": 1000,
       "time": "19:30",
@@ -478,6 +478,39 @@
         }
       ],
       "venueId": "casa-de-teatro"
+    },
+    {
+      "id": "64e68cf28ef631be",
+      "source": "recurring",
+      "date": "2026-11-27",
+      "end": "2026-11-29",
+      "sessions": null,
+      "title": "Bocao Food Fest 2026",
+      "venue": "Plaza de la Cultura Juan Pablo Duarte",
+      "zone": "Plaza de la Cultura",
+      "cat": "Gastronomía",
+      "price": 1090,
+      "price_max": null,
+      "time": "",
+      "kids": false,
+      "tags": [
+        "música",
+        "serie"
+      ],
+      "description": "Festival gastronómico «Ensanche Bocao» en la Plaza de la Cultura: restaurantes, bares, música y experiencias. Entrada por turnos (sábado 12:00–3:00 y 5:00–10:00 p. m.; domingo desde las 12:00 m.); boleta desde RD$1,090 más servicio, en boletu.com.",
+      "ticketUrl": "",
+      "srcName": "Boletu (venta de boletas)",
+      "srcUrl": "https://boletu.com/experiencia/bocao-food-fest-2026#bocao-food-fest-2026-11-hasta-2026-11-29",
+      "sources": [
+        {
+          "srcName": "Boletu (venta de boletas)",
+          "srcUrl": "https://boletu.com/experiencia/bocao-food-fest-2026#bocao-food-fest-2026-11-hasta-2026-11-29"
+        }
+      ],
+      "venueId": "plaza-de-la-cultura",
+      "lat": 18.47056,
+      "lng": -69.91083,
+      "geoPrecision": "sector"
     },
     {
       "id": "01c1280f350f2cc6",
@@ -989,7 +1022,7 @@
       "date": "2026-11-28",
       "end": null,
       "sessions": null,
-      "title": "Jazz en la Loma 2026",
+      "title": "Jazz en la Loma 2026 - Sajoma Jazz Festival",
       "venue": "Salón de Asambleas, Cooperativa San José, Guajaca, San José de las Matas",
       "zone": "",
       "cat": "Música",
@@ -1018,7 +1051,7 @@
       "end": null,
       "sessions": null,
       "title": "Jazz en la Loma 2026 (SAJOMA Jazz Festival)",
-      "venue": "Salón de Asambleas, Cooperativa San José, Guajaca, entrada San José de las Matas",
+      "venue": "Salón de Asambleas, Cooperativa San José, Guajaca, San José de las Matas",
       "zone": "",
       "cat": "Música",
       "price": 1500,
@@ -1778,7 +1811,7 @@
       "date": "2026-12-05",
       "end": null,
       "sessions": null,
-      "title": "Haina de Jazz 2026 - 12ª Versión",
+      "title": "Haina de Jazz 2026 - 12ª Edición",
       "venue": "Centro Educativo Profesor Manuel Feliz Peña, Municipio Bajos de Haina",
       "zone": "",
       "cat": "Música",

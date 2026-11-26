@@ -778,9 +778,10 @@
         "Música"
       ],
       "price": {
-        "status": "unconfirmed"
+        "status": "paid",
+        "min": 1090
       },
-      "description": "Festival gastronómico «Ensanche Bocao» en la Plaza de la Cultura: restaurantes, bares, música y experiencias. Entrada por turnos (sábado 12:00–3:00 y 5:00–10:00 p. m.; domingo desde las 12:00 m.); boletas en boletu.com.",
+      "description": "Festival gastronómico «Ensanche Bocao» en la Plaza de la Cultura: restaurantes, bares, música y experiencias. Entrada por turnos (sábado 12:00–3:00 y 5:00–10:00 p. m.; domingo desde las 12:00 m.); boleta desde RD$1,090 más servicio, en boletu.com.",
       "url": "https://boletu.com/experiencia/bocao-food-fest-2026",
       "sources": [
         {
@@ -805,7 +806,7 @@
       "confidence": "listado",
       "last_confirmed": "2026-11-26",
       "stale_after_days": 14,
-      "notes": "Evento de 3 días: sale una vez con «Hasta». El horario varía por día y turno, así que no hay hora única. Falta el precio de la boleta (boletu lo muestra al comprar)."
+      "notes": "Evento de 3 días: sale una vez con «Hasta». El horario varía por día y turno, así que no hay hora única. Precio: RD$1,090 más servicio, dato dado por Edwin Genao el 26 de noviembre de 2026 (no aparece en el texto de Boletu)."
     }
   ]
 }

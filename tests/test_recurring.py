@@ -558,4 +558,4 @@ def test_bocao_food_fest_is_one_ranged_gastronomy_event_without_invented_time_or
     assert e.dates == ["2026-11-27", "2026-11-29"]  # una vez con «Hasta»
     assert e.category == "Gastronomía"
     assert e.start_time is None  # el horario cambia por día y turno
-    assert not e.is_free and e.price_min is None  # precio por confirmar, nunca gratis
+    assert not e.is_free and e.price_min == 1090  # RD$1,090 más servicio (dato de Edwin)

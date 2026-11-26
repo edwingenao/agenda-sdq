@@ -262,3 +262,35 @@ def test_fetcher_treats_robots_5xx_as_disallowed():
         raise AssertionError("debió lanzar Disallowed")
     except Disallowed:
         pass
+
+
+def test_fetcher_retries_robots_after_transient_dns_error():
+    sleeps, calls = [], []
+
+    def handler(req):
+        calls.append(req.url.path)
+        if req.url.path == "/robots.txt" and calls.count("/robots.txt") == 1:
+            raise httpx.ConnectError("[Errno -3] Temporary failure in name resolution", request=req)
+        return httpx.Response(404) if req.url.path == "/robots.txt" else httpx.Response(200, text="ok")
+
+    f = _fetcher(handler, sleeps)
+    assert f.get("https://example.org/a").text == "ok"
+    assert calls == ["/robots.txt", "/robots.txt", "/a"]
+    assert sleeps == [10.0]
+
+
+def test_fetcher_gives_up_on_robots_after_three_network_errors():
+    sleeps, calls = [], []
+
+    def handler(req):
+        calls.append(req.url.path)
+        raise httpx.ConnectError("[Errno -3] Temporary failure in name resolution", request=req)
+
+    f = _fetcher(handler, sleeps)
+    try:
+        f.get("https://example.org/a")
+        raise AssertionError("debió lanzar Disallowed")
+    except Disallowed as e:
+        assert "tras 3 intentos" in str(e)
+    assert calls == ["/robots.txt"] * 3
+    assert sleeps == [10.0, 20.0]

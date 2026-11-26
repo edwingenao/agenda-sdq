@@ -38,7 +38,10 @@ Si un documento y el código no coinciden, manda el código; actualiza el docume
    `events.json` y `venues.json`. Necesita la variable de repositorio `AGENDA_CONTACT` (ya definida).
    Si una fuente falla (error o bloqueo), `python -m agenda run` escribe `data/alerta.txt`, el workflow publica igual lo que sí se
    leyó y luego termina en rojo con la lista en su resumen: GitHub avisa por correo. Una fuente sin eventos próximos en la base
-   solo sale como aviso en el log (puede ser normal: SIC, Casa de Teatro).
+   solo sale como aviso en el log (puede ser normal: SIC, Casa de Teatro); esos avisos se copian al resumen solo cuando hay
+   una falla, así que no son errores nuevos. Un fallo de red al leer robots.txt (DNS, conexión, 5xx) se reintenta 3 veces
+   (esperas de 10 y 20 s) antes de omitir la fuente; si el sitio sigue caído, la fuente queda fuera ese día y sus eventos ya
+   guardados en la base se siguen publicando.
 4. **Sitio** (`docs/index.html`): una sola página sin dependencias que carga `events.json`. Al compartir el enlace sale una vista
    previa (etiquetas Open Graph y `docs/og.png`, 1200×630). Pantallas Bienvenida, Hoy,
    Calendario, Guardados y detalle. Desde 1180 px de ancho usa el diseño de escritorio (barra superior, filtros

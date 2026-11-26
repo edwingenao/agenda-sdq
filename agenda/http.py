@@ -19,6 +19,9 @@ class Disallowed(Exception):
 
 
 class Fetcher:
+    ROBOTS_ATTEMPTS = 3
+    ROBOTS_RETRY_WAIT = 10.0  # segundos; la espera crece: 10 s y 20 s
+
     def __init__(
         self,
         default_delay: float = 3.0,
@@ -49,10 +52,24 @@ class Fetcher:
         origin = f"{p.scheme}://{p.netloc}"
         if origin in self._robots:
             return self._robots[origin]
-        try:
-            r = self._client.get(origin + "/robots.txt")
-        except httpx.HTTPError as e:
-            raise Disallowed(f"no se pudo leer robots.txt de {origin}: {e}") from e
+        # Un fallo de red pasajero (DNS, conexión, tiempo agotado) o un 5xx se reintenta: antes, un solo fallo de DNS
+        # en el runner de GitHub dejaba la fuente entera fuera del día. Si sigue fallando, se omite por precaución.
+        r: httpx.Response | None = None
+        err: Exception | None = None
+        for attempt in range(self.ROBOTS_ATTEMPTS):
+            if attempt:
+                self._sleep(self.ROBOTS_RETRY_WAIT * attempt)
+            try:
+                r = self._client.get(origin + "/robots.txt")
+            except httpx.HTTPError as e:
+                r, err = None, e
+                continue
+            if r.status_code < 500:
+                break
+        if r is None:
+            raise Disallowed(
+                f"no se pudo leer robots.txt de {origin} tras {self.ROBOTS_ATTEMPTS} intentos: {err}"
+            ) from err
         if r.status_code == 200:
             rp = Protego.parse(r.text)
         elif 400 <= r.status_code < 500:

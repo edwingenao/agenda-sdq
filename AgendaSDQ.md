@@ -157,6 +157,8 @@ completas, y gana el alias más largo. La corrida lista en el log los lugares qu
 - Revisar `VENUE_ALIASES` en `agenda/dedupe.py`: mapea «palacio de bellas artes» a «teatro nacional», pero son edificios distintos
   (Sala Manuel Rueda está en Bellas Artes). Podría unir por error eventos de dos sedes.
 
+- Funglode (funglode.org/agenda/): fuente pedida el 27 nov 2026, **sin adaptador todavía**. Desde la nube no se puede leer (no está permitida) y falta verificar a mano robots.txt y el formato (desde la PC, con Code). La agenda mezcla cultura (Festival de Cine Global, colectivas) con conferencias académicas y foros; decidir con Edwin si entran solo los culturales. Cada tarjeta trae fecha, categoría, título y una línea; hora, lugar y precio estarían en la página de cada evento. Mientras tanto, el XIX Festival de Cine Global Santo Domingo (28 ene al 3 feb 2027) está como serie curada.
+
 ## Fuentes revisadas que no se integran todavía
 
 Revisadas desde la PC el 6 de octubre de 2026. Antes de volver a probarlas, lee la nota.

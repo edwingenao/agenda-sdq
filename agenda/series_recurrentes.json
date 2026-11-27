@@ -807,6 +807,55 @@
       "last_confirmed": "2026-11-26",
       "stale_after_days": 14,
       "notes": "Evento de 3 días: sale una vez con «Hasta». El horario varía por día y turno, así que no hay hora única. Precio: RD$1,090 más servicio, dato dado por Edwin Genao el 26 de noviembre de 2026 (no aparece en el texto de Boletu)."
+    },
+    {
+      "id": "festival-cine-global-sd-2027",
+      "title": "XIX Festival de Cine Global Santo Domingo",
+      "active": true,
+      "pattern": {
+        "freq": "range",
+        "start": "2027-01-28",
+        "end": "2027-02-03"
+      },
+      "start_time": null,
+      "end_time": null,
+      "valid_from": null,
+      "valid_until": null,
+      "exceptions": [],
+      "venue": null,
+      "category": [
+        "Cine",
+        "Cultura"
+      ],
+      "price": {
+        "status": "unconfirmed"
+      },
+      "description": "XIX Festival de Cine Global Santo Domingo (FCGSD), organizado por Funglode: exhibición, formación, industria y encuentros profesionales. Perú, país invitado. Sedes, horarios y precios por confirmar.",
+      "url": "https://funglode.org/agenda/xix-festival-de-cine-global-santo-domingo/",
+      "sources": [
+        {
+          "name": "Funglode, agenda (página del evento)",
+          "url": "https://funglode.org/agenda/xix-festival-de-cine-global-santo-domingo/",
+          "seen": "2026-11-27",
+          "says": "Tarjeta de la agenda: jueves 28 de enero de 2027, categoría Festival, «Festival Cine Global Santo Domingo»; sin hora, lugar ni precio en la tarjeta (captura que envió Edwin)"
+        },
+        {
+          "name": "Cine Dominicano",
+          "url": "https://cinedominicano.com/festival-de-cine-global-santo-domingo-abre-convocatoria-para-su-19-a-edicion/",
+          "seen": "2026-11-27",
+          "says": "19.ª edición del 28 de enero al 3 de febrero de 2027, en Santo Domingo, República Dominicana"
+        },
+        {
+          "name": "Diario Financiero",
+          "url": "https://diariofinanciero.do/cultura/agenda-cultural-funglode-2026-2028/",
+          "seen": "2026-11-27",
+          "says": "Funglode anunció el FCGSD del 28 de enero al 3 de febrero de 2027"
+        }
+      ],
+      "confidence": "oficial",
+      "last_confirmed": "2026-11-27",
+      "stale_after_days": 30,
+      "notes": "Una sola entrada con «Hasta». Las notas de febrero de 2026 hablaban del 27 de enero (gala inaugural en el Teatro Nacional Eduardo Brito, Perú invitado); los anuncios de julio a septiembre y la agenda de Funglode dicen 28 de enero al 3 de febrero, y esas son las fechas usadas. Falta la programación: sedes, horarios y precios (volver a mirar funglode.org/agenda cuando la publiquen)."
     }
   ]
 }

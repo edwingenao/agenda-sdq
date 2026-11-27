@@ -373,12 +373,13 @@ def test_source_run_and_export(tmp_path):
     # 4 domingos de Bonyé + 7 días de EUROCINE + 2 de 809 Mercado + Gerard Ellis (inauguración y muestra)
     # + 2 muestras de ASR Galería + 11 eventos de la guía de letstalkart.rd (el Festival de Canto Coral cuenta 2)
     # + el Circuito de Galerías (15 oct, @agadominicana) + Bocao Food Fest (27 al 29 nov)
-    assert len(evs) == 30
-    assert any("23 series" in line for line in logs)
+    # + el XIX Festival de Cine Global (28 ene al 3 feb 2027)
+    assert len(evs) == 31
+    assert any("24 series" in line for line in logs)
     for e in evs:
         assert db.upsert_event(e, "2026-10-06T12:00:00+00:00") == "new"
     out = tmp_path / "events.json"
-    assert export_json(db, out, TODAY) == 30
+    assert export_json(db, out, TODAY) == 31
     pub = json.loads(out.read_text(encoding="utf-8"))["events"]
     bonye = next(p for p in pub if p["title"] == "Domingos de Bonyé")
     assert bonye["time"] == "18:00" and bonye["price"] == 0
@@ -559,3 +560,17 @@ def test_bocao_food_fest_is_one_ranged_gastronomy_event_without_invented_time_or
     assert e.category == "Gastronomía"
     assert e.start_time is None  # el horario cambia por día y turno
     assert not e.is_free and e.price_min == 1090  # RD$1,090 más servicio (dato de Edwin)
+
+
+def test_festival_cine_global_2027_is_one_ranged_event_without_invented_venue_time_or_price():
+    import datetime
+
+    from agenda.sources import recurring
+
+    evs = [e for e in recurring.collect(today=datetime.date(2026, 11, 27)).events if "Cine Global" in e.title]
+    assert len(evs) == 1
+    e = evs[0]
+    assert e.dates == ["2027-01-28", "2027-02-03"]  # una vez con «Hasta»
+    assert e.venue == "" and e.start_time is None  # la agenda no dice sede ni hora
+    assert not e.is_free and e.price_min is None  # precio por confirmar, nunca gratis
+    assert e.url.startswith("https://funglode.org/agenda/")

@@ -11,7 +11,7 @@ Léelo antes de tocar código o documentos del proyecto.
 | Qué | Dónde |
 |---|---|
 | Código (fuente de verdad) | https://github.com/edwingenao/agenda-sdq, rama `main` |
-| Sitio publicado | https://edwingenao.github.io/agenda-sdq/ (GitHub Pages, carpeta `docs/`) |
+| Sitio publicado | https://agendasdq.com/ (GitHub Pages, carpeta `docs/`) |
 | Datos que lee el sitio | `docs/events.json`, lo regenera el workflow diario |
 | Decisiones e investigación | Documentos de Claude Docs (abajo) |
 

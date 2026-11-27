@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-26T22:01:57+00:00",
-  "today": "2026-11-26",
-  "count": 121,
+  "generated_at": "2026-11-27T19:36:45+00:00",
+  "today": "2026-11-27",
+  "count": 113,
   "events": [
     {
       "id": "a5ea091833762784",
@@ -230,256 +230,6 @@
       ]
     },
     {
-      "id": "dc834075bfd1f541",
-      "source": "zona_colonial",
-      "date": "2026-11-26",
-      "end": null,
-      "sessions": null,
-      "title": "Evolución del Merengue Dominicano",
-      "venue": "Parque Colón",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "16:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/evolucion-del-merengue-dominicano/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/evolucion-del-merengue-dominicano/"
-        }
-      ]
-    },
-    {
-      "id": "d085090226d9f60c",
-      "source": "zona_colonial",
-      "date": "2026-11-26",
-      "end": null,
-      "sessions": null,
-      "title": "CINEFÓRUM DOCUMENTAL “MUJERES EXTRAORDINARIAS, VOL 3”",
-      "venue": "Auditorio Alma y Juan Vicini, Museo Memorial de la Resistencia Dominicana",
-      "zone": "Ciudad Colonial",
-      "cat": "Cine",
-      "price": 0,
-      "price_max": null,
-      "time": "18:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/cineforum-documental-mujeres-extraordinarias-vol-3/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/cineforum-documental-mujeres-extraordinarias-vol-3/"
-        }
-      ]
-    },
-    {
-      "id": "639ec93e12581f1a",
-      "source": "zona_colonial",
-      "date": "2026-11-26",
-      "end": null,
-      "sessions": null,
-      "title": "DÍA NACIONAL DEL MERENGUE",
-      "venue": "BAD Galery, Calle Sánchez No. 120, Zona Colonial, Santo Domingo",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 0,
-      "price_max": null,
-      "time": "18:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/dia-nacional-del-merengue/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/dia-nacional-del-merengue/"
-        }
-      ]
-    },
-    {
-      "id": "0d2881dbc4a4a089",
-      "source": "zona_colonial",
-      "date": "2026-11-26",
-      "end": null,
-      "sessions": null,
-      "title": "Beaujolais Nouveau 2026",
-      "venue": "Patio de la Alianza Francesa de Santo Domingo. Calle Horacio Vicioso #103, Centro de los Héroes",
-      "zone": "Ciudad Colonial",
-      "cat": "Gastronomía",
-      "price": 1000,
-      "price_max": 1000,
-      "time": "19:30",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/beaujolais-nouveau-2026/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/beaujolais-nouveau-2026/"
-        }
-      ],
-      "venueId": "alianza-francesa"
-    },
-    {
-      "id": "187267bd4c2e87ae",
-      "source": "zona_colonial",
-      "date": "2026-11-26",
-      "end": null,
-      "sessions": null,
-      "title": "LA EVOLUCIÓN DEL TEMA MARIANO A TRAVÉS DE LA HISTORIA DEL ARTE",
-      "venue": "Museo de la Catedral",
-      "zone": "Ciudad Colonial",
-      "cat": "Arte",
-      "price": 0,
-      "price_max": null,
-      "time": "19:30",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/la-evolucion-del-tema-mariano-a-traves-de-la-historia-del-arte/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/la-evolucion-del-tema-mariano-a-traves-de-la-historia-del-arte/"
-        }
-      ],
-      "venueId": "museo-de-la-catedral"
-    },
-    {
-      "id": "49bc0ead4d634008",
-      "source": "ticketmax",
-      "date": "2026-11-26",
-      "end": null,
-      "sessions": null,
-      "title": "FDT 10X10 | SUEÑO DE UNA NOCHE DE VERANO",
-      "venue": "Casa de Teatro",
-      "zone": "Ciudad Colonial",
-      "cat": "Teatro",
-      "price": 800,
-      "price_max": null,
-      "time": "20:30",
-      "kids": false,
-      "tags": [],
-      "description": "Una boda está a punto de celebrarse… pero antes de llegar al “sí, acepto”, el amor deberá atravesar un bosque encantado donde nada ocurre como debería. Entre hechizos, enredos románticos, personajes extravagantes y situaciones inesperadas, esta nueva versión de Sueño de una noch…",
-      "ticketUrl": "https://ticketmax.org/evento/254776/",
-      "srcName": "Ticketmax",
-      "srcUrl": "https://ticketmax.org/evento/254776/",
-      "sources": [
-        {
-          "srcName": "Ticketmax",
-          "srcUrl": "https://ticketmax.org/evento/254776/"
-        },
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/sueno-de-una-noche-de-verano/"
-        }
-      ],
-      "venueId": "casa-de-teatro"
-    },
-    {
-      "id": "04bcbbd12adb8f37",
-      "source": "tix",
-      "date": "2026-11-26",
-      "end": null,
-      "sessions": null,
-      "title": "TOUR BACHARENGUE 2.0 Thanksgiving Edition",
-      "venue": "Hard Rock Cafe Santo Domingo",
-      "zone": "",
-      "cat": "Música",
-      "price": null,
-      "price_max": null,
-      "time": "21:00",
-      "kids": false,
-      "tags": [],
-      "description": "HARD ROCK CAFÉ SANTO DOMINGO PRESENTA LA MÁS VERSÁTIL, LA MÁS POPULAR, LA MÁS QUERIDA MARCEL PIEL MORENA BACHARENGUE 2.0 THANKSGIVING EDITION JUEVES 26 DE NOVIEMBRE DE 2026 ACOMPAÑADA POR 17 MÚSICOS EN ESCENA E INVITADOS ESPECIALES UN EVENTO DE FUNDACIÓN MEDIA LUNA EN APOYO A LA…",
-      "ticketUrl": "https://tix.do/event/TOURBACHARENGUE20ThanksgivingEdition-1",
-      "srcName": "TIX",
-      "srcUrl": "https://tix.do/event/TOURBACHARENGUE20ThanksgivingEdition-1",
-      "sources": [
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/TOURBACHARENGUE20ThanksgivingEdition-1"
-        }
-      ],
-      "venueId": "hard-rock-cafe"
-    },
-    {
-      "id": "7e216255c42b0cf9",
-      "source": "jazz_en_dominicana",
-      "date": "2026-11-26",
-      "end": null,
-      "sessions": null,
-      "title": "Jazz Night",
-      "venue": "The Green Room",
-      "zone": "Piantini",
-      "cat": "Música",
-      "price": 0,
-      "price_max": null,
-      "time": "21:30",
-      "kids": false,
-      "tags": [
-        "jazz"
-      ],
-      "description": "El jazz vuelve a encender, cada jueves, la noche de Jazz que ofrece The Green Room. Este jueves 26 con The Green Room Band. Jazz Night at The Green Room, cada jueves a partir de las 9:30PM en The Green Room en la Calle Andrés Julio Aybar 17 segundo piso, del Ensanche Piantini. No",
-      "ticketUrl": "https://tix.do/event/JAZZNIGHT-27",
-      "srcName": "Jazz en Dominicana",
-      "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-22-al-28-de.html#2026-11-26-jazz-night",
-      "sources": [
-        {
-          "srcName": "Jazz en Dominicana",
-          "srcUrl": "https://www.jazzendominicana.com/2026/11/jazz-en-vivo-en-rd-del-22-al-28-de.html#2026-11-26-jazz-night"
-        },
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/JAZZNIGHT-27"
-        }
-      ],
-      "venueId": "the-green-room"
-    },
-    {
-      "id": "967ab48a3c213f7f",
-      "source": "zona_colonial",
-      "date": "2026-11-26",
-      "end": null,
-      "sessions": null,
-      "title": "Homenaje a Pablo Milanés: Canciones que permanecen",
-      "venue": "Casa de Teatro",
-      "zone": "Ciudad Colonial",
-      "cat": "Cultura",
-      "price": 1000,
-      "price_max": 1000,
-      "time": "22:00",
-      "kids": false,
-      "tags": [],
-      "description": "",
-      "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/homenaje-a-pablo-milanes-canciones-que-permanecen/",
-      "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/homenaje-a-pablo-milanes-canciones-que-permanecen/"
-        }
-      ],
-      "venueId": "casa-de-teatro"
-    },
-    {
       "id": "64e68cf28ef631be",
       "source": "recurring",
       "date": "2026-11-27",
@@ -521,7 +271,7 @@
       "title": "BULIN 47💙",
       "venue": "Lucia SDQ",
       "zone": "",
-      "cat": "Cultura",
+      "cat": "Música",
       "price": null,
       "price_max": null,
       "time": "",
@@ -907,12 +657,12 @@
       "venueId": "bloom-sdq"
     },
     {
-      "id": "a149cacd25374aa8",
-      "source": "zona_colonial",
+      "id": "f40539aa504f8998",
+      "source": "museosrd",
       "date": "2026-11-28",
       "end": null,
       "sessions": null,
-      "title": "VISITA GUIADA: “PLANTAS ENDÉMICAS DE LA ESPAÑOLA",
+      "title": "Visita guiada: Plantas endémicas de La Española",
       "venue": "Quinta Dominica",
       "zone": "Ciudad Colonial",
       "cat": "Cultura",
@@ -923,13 +673,9 @@
       "tags": [],
       "description": ", en las instalaciones de Quinta Dominica, ubicada en la Ciudad Colonial de Santo Domingo.",
       "ticketUrl": "",
-      "srcName": "Zona Colonial",
-      "srcUrl": "https://zonacolonial.do/actividad/visita-guiada-plantas-endemicas-de-la-espanola/",
+      "srcName": "Red Nacional de Museos",
+      "srcUrl": "https://museosrd.gob.do/evento/visita-guiada-plantas-endemicas-de-la-espanola/",
       "sources": [
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/visita-guiada-plantas-endemicas-de-la-espanola/"
-        },
         {
           "srcName": "Red Nacional de Museos",
           "srcUrl": "https://museosrd.gob.do/evento/visita-guiada-plantas-endemicas-de-la-espanola/"
@@ -971,7 +717,7 @@
       "end": null,
       "sessions": null,
       "title": "Gran Concierto por Vidas Libres de Violencia",
-      "venue": "$",
+      "venue": "NOV",
       "zone": "Ciudad Colonial",
       "cat": "Música",
       "price": null,
@@ -997,7 +743,7 @@
       "end": null,
       "sessions": null,
       "title": "CONCIERTO DE POOLPO",
-      "venue": "Fuerte del Ángulo, Santa Bárbara, Ciudad Colonial, Santo Domingo",
+      "venue": "NOV",
       "zone": "Ciudad Colonial",
       "cat": "Música",
       "price": 0,
@@ -1022,8 +768,8 @@
       "date": "2026-11-28",
       "end": null,
       "sessions": null,
-      "title": "Jazz en la Loma 2026 - Sajoma Jazz Festival",
-      "venue": "Salón de Asambleas, Cooperativa San José, Guajaca, San José de las Matas",
+      "title": "Jazz en la Loma 2026 - Andy James y amigos",
+      "venue": "Salón de Asambleas, Cooperativa San José, Guajaca, entrada San José de las Matas",
       "zone": "",
       "cat": "Música",
       "price": 1500,
@@ -1051,7 +797,7 @@
       "end": null,
       "sessions": null,
       "title": "Jazz en la Loma 2026 (SAJOMA Jazz Festival)",
-      "venue": "Salón de Asambleas, Cooperativa San José, Guajaca, San José de las Matas",
+      "venue": "Salón de Asambleas, Cooperativa San José, Guajaca, entrada San José de las Matas",
       "zone": "",
       "cat": "Música",
       "price": 1500,
@@ -1129,6 +875,33 @@
       "address": "Arzobispo Portes 205, Ciudad Colonial"
     },
     {
+      "id": "223478797134913e",
+      "source": "tix",
+      "date": "2026-11-28",
+      "end": null,
+      "sessions": null,
+      "title": "A NEW DAY",
+      "venue": "Casa de Teatro",
+      "zone": "Ciudad Colonial",
+      "cat": "Música",
+      "price": null,
+      "price_max": null,
+      "time": "21:00",
+      "kids": false,
+      "tags": [],
+      "description": "\"A New Day\" llega el 28 de noviembre a Casa de Teatro. Una noche llena de energía y buena música para celebrar un nuevo comienzo. ¡Ven a vivir esta experiencia con nosotros!",
+      "ticketUrl": "https://tix.do/event/ANEWDAY-1",
+      "srcName": "TIX",
+      "srcUrl": "https://tix.do/event/ANEWDAY-1",
+      "sources": [
+        {
+          "srcName": "TIX",
+          "srcUrl": "https://tix.do/event/ANEWDAY-1"
+        }
+      ],
+      "venueId": "casa-de-teatro"
+    },
+    {
       "id": "7d67e47153f35aea",
       "source": "zona_colonial",
       "date": "2026-11-28",
@@ -1137,28 +910,20 @@
       "title": "SHALONDY",
       "venue": "Casa de Teatro",
       "zone": "Ciudad Colonial",
-      "cat": "Música",
+      "cat": "Cultura",
       "price": 500,
       "price_max": 500,
       "time": "21:00",
       "kids": false,
       "tags": [],
-      "description": "\"A New Day\" llega el 28 de noviembre a Casa de Teatro. Una noche llena de energía y buena música para celebrar un nuevo comienzo. ¡Ven a vivir esta experiencia con nosotros!",
-      "ticketUrl": "https://tix.do/event/ANEWDAY-1",
+      "description": "",
+      "ticketUrl": "",
       "srcName": "Zona Colonial",
       "srcUrl": "https://zonacolonial.do/actividad/shalondy/",
       "sources": [
         {
           "srcName": "Zona Colonial",
           "srcUrl": "https://zonacolonial.do/actividad/shalondy/"
-        },
-        {
-          "srcName": "Zona Colonial",
-          "srcUrl": "https://zonacolonial.do/actividad/shalondy-en-vivo-a-new-day/"
-        },
-        {
-          "srcName": "TIX",
-          "srcUrl": "https://tix.do/event/ANEWDAY-1"
         }
       ],
       "venueId": "casa-de-teatro"
@@ -1811,8 +1576,8 @@
       "date": "2026-12-05",
       "end": null,
       "sessions": null,
-      "title": "Haina de Jazz 2026 - 12ª Edición",
-      "venue": "Centro Educativo Profesor Manuel Feliz Peña, Municipio Bajos de Haina",
+      "title": "Haina de Jazz 2026 - 12ª Versión",
+      "venue": "Centro Educativo profesor Manuel Feliz Peña, Municipio Bajos de Haina",
       "zone": "",
       "cat": "Música",
       "price": null,

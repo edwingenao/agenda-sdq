@@ -1,16 +1,7 @@
 {
-  "generated_at": "2026-11-26T22:01:57+00:00",
-  "count": 29,
+  "generated_at": "2026-11-27T19:36:45+00:00",
+  "count": 28,
   "venues": [
-    {
-      "id": "alianza-francesa",
-      "name": "Alianza Francesa",
-      "address": null,
-      "zone": "",
-      "lat": null,
-      "lng": null,
-      "precision": null
-    },
     {
       "id": "auditorio-casa-san-pablo",
       "name": "Auditorio Casa San Pablo",
